@@ -1,0 +1,26 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Redirecting...</title>
+    <link rel=canonical href="https://github.com/freemint/sparemint">
+    <meta http-equiv=refresh content="1; url=https://github.com/freemint/sparemint">
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <a href="https://github.com/freemint/sparemint">Click here if you are not redirected.</a>
+    <script>
+      var n = location.href
+        .replace("http://sparemint.org/", "https://freemint.github.io/sparemint/sparemint/")
+        .replace("https://freemint.github.io/sparemint/sparemint/mint", "https://github.com/freemint/sparemint/tree/master/mint")
+        .replace("https://freemint.github.io/sparemint/sparemint/cross-mint", "https://github.com/freemint/sparemint/tree/master/sparemint/cross-mint");
+      if (n != location.href) {
+        location = n;
+      }
+    </script>
+  </body>
+</html>
