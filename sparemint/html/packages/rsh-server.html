@@ -1,0 +1,91 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - rsh-server, version 0.17, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>rsh-server</H2>
+
+<UL> 
+<LI>Summary: Servers for remote access commands (rsh, rlogin, rcp).<BR>
+<LI>URL: <A HREF="ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/">ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/</A><BR>
+<LI>Version: 0.17<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 261,978 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>rsh-server = 0.17-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>inetd  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 28 04:48:33 2001 UTC<BR>
+<LI>Upload date: Fri Sep 28 04:48:44 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/rsh-0.17-2.src.rpm">rsh-0.17-2.src.rpm</A>  (69,781 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Sep 26 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The rsh-server package contains a set of programs which allow users<BR>to run commmands on remote machines, login to other machines and copy<BR>files between machines (rsh, rlogin and rcp).  All three of these<BR>commands use rhosts style authentication.  This package contains the<BR>servers needed for all of these services.  It also contains a server<BR>for rexec, an alternate method of executing remote commands.<BR>All of these servers are run by inetd and configured using<BR>/etc/inetd.conf. All services are disabled by default.<BR><P><BR>The rsh-server package should be installed to enable remote access<BR>from other machines.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           129792 Sep 28  2001 /usr/sbin/in.rexecd
+-rwxr-xr-x    1 root    root           126636 Sep 28  2001 /usr/sbin/in.rshd
+-rw-r--r--    1 root    root             2299 Sep 28  2001 /usr/share/man/man8/in.rexecd.8.gz
+-rw-r--r--    1 root    root             3225 Sep 28  2001 /usr/share/man/man8/in.rshd.8.gz
+?rwxrwxrwx    1 root    root               14 Sep 28  2001 /usr/share/man/man8/rexecd.8.gz
+?rwxrwxrwx    1 root    root               12 Sep 28  2001 /usr/share/man/man8/rshd.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/rsh-server-0.17-2.m68kmint.rpm">Download</A></H2> (139,978 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

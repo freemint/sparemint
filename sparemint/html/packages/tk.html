@@ -1,0 +1,526 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tk, version 8.0.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tk</H2>
+
+<UL> 
+<LI>Summary: The Tk GUI toolkit for Tcl, with shared libraries.<BR>
+<LI>URL: <A HREF="http://www.scriptics.com">http://www.scriptics.com</A><BR>
+<LI>Version: 8.0.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 4,556,923 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tk = 8.0.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 16 15:15:17 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcltk-8.0.5-1.src.rpm">tcltk-8.0.5-1.src.rpm</A>  (7,145,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov 16 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Tk is a widget set for the X Window System that is designed to work<BR>closely with the Tcl scripting language. It allows you to write simple<BR>programs with full featured GUI's in only a little more time then it<BR>takes to write a text based interface. Tcl/Tk applications can also be<BR>run on Windows and Macintosh platforms.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    wheel               7 Nov 16  2000 /usr/bin/wish
+-rwxrwxrwx    1 root    wheel         1502790 Nov 16  2000 /usr/bin/wish8.0
+-rw-r--r--    1 root    wheel           61714 Nov 16  2000 /usr/include/tk.h
+-r-xr-xr-x    1 root    wheel          697526 Nov 16  2000 /usr/lib/libtk8.0.a
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tk8.0
+-rw-r--r--    1 root    wheel            3486 Nov 16  2000 /usr/lib/tk8.0/bgerror.tcl
+-rw-r--r--    1 root    wheel           11065 Nov 16  2000 /usr/lib/tk8.0/button.tcl
+-rw-r--r--    1 root    wheel           19891 Nov 16  2000 /usr/lib/tk8.0/clrpick.tcl
+-rw-r--r--    1 root    wheel            7540 Nov 16  2000 /usr/lib/tk8.0/comdlg.tcl
+-rw-r--r--    1 root    wheel           12148 Nov 16  2000 /usr/lib/tk8.0/console.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tk8.0/demos
+-rw-rw-rw-    1 root    wheel            2135 Nov 16  2000 /usr/lib/tk8.0/demos/README
+-rw-rw-rw-    1 root    wheel            8015 Nov 16  2000 /usr/lib/tk8.0/demos/arrow.tcl
+-rw-rw-rw-    1 root    wheel            3086 Nov 16  2000 /usr/lib/tk8.0/demos/bind.tcl
+-rw-rw-rw-    1 root    wheel            1627 Nov 16  2000 /usr/lib/tk8.0/demos/bitmap.tcl
+-rwxr-xr-x    1 root    wheel            1619 Nov 16  2000 /usr/lib/tk8.0/demos/browse
+-rw-rw-rw-    1 root    wheel            1484 Nov 16  2000 /usr/lib/tk8.0/demos/button.tcl
+-rw-rw-rw-    1 root    wheel            1369 Nov 16  2000 /usr/lib/tk8.0/demos/check.tcl
+-rw-rw-rw-    1 root    wheel            1628 Nov 16  2000 /usr/lib/tk8.0/demos/clrpick.tcl
+-rw-rw-rw-    1 root    wheel            5193 Nov 16  2000 /usr/lib/tk8.0/demos/colors.tcl
+-rw-rw-rw-    1 root    wheel            3180 Nov 16  2000 /usr/lib/tk8.0/demos/cscroll.tcl
+-rw-rw-rw-    1 root    wheel            4987 Nov 16  2000 /usr/lib/tk8.0/demos/ctext.tcl
+-rw-rw-rw-    1 root    wheel             731 Nov 16  2000 /usr/lib/tk8.0/demos/dialog1.tcl
+-rw-rw-rw-    1 root    wheel             683 Nov 16  2000 /usr/lib/tk8.0/demos/dialog2.tcl
+-rw-rw-rw-    1 root    wheel            1583 Nov 16  2000 /usr/lib/tk8.0/demos/entry1.tcl
+-rw-rw-rw-    1 root    wheel            2309 Nov 16  2000 /usr/lib/tk8.0/demos/entry2.tcl
+-rw-rw-rw-    1 root    wheel            2133 Nov 16  2000 /usr/lib/tk8.0/demos/filebox.tcl
+-rw-rw-rw-    1 root    wheel           79361 Nov 16  2000 /usr/lib/tk8.0/demos/floor.tcl
+-rw-rw-rw-    1 root    wheel            1242 Nov 16  2000 /usr/lib/tk8.0/demos/form.tcl
+-rwxr-xr-x    1 root    wheel             515 Nov 16  2000 /usr/lib/tk8.0/demos/hello
+-rw-rw-rw-    1 root    wheel            1693 Nov 16  2000 /usr/lib/tk8.0/demos/hscale.tcl
+-rw-rw-rw-    1 root    wheel            2206 Nov 16  2000 /usr/lib/tk8.0/demos/icon.tcl
+-rw-rw-rw-    1 root    wheel            1148 Nov 16  2000 /usr/lib/tk8.0/demos/image1.tcl
+-rw-rw-rw-    1 root    wheel            2625 Nov 16  2000 /usr/lib/tk8.0/demos/image2.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tk8.0/demos/images
+-rw-r--r--    1 root    wheel           51712 Nov 16  2000 /usr/lib/tk8.0/demos/images/earth.gif
+-rw-r--r--    1 root    wheel            6343 Nov 16  2000 /usr/lib/tk8.0/demos/images/earthris.gif
+-rw-r--r--    1 root    wheel           12720 Nov 16  2000 /usr/lib/tk8.0/demos/images/face.bmp
+-rw-r--r--    1 root    wheel            1886 Nov 16  2000 /usr/lib/tk8.0/demos/images/flagdown.bmp
+-rw-r--r--    1 root    wheel            1880 Nov 16  2000 /usr/lib/tk8.0/demos/images/flagup.bmp
+-rw-r--r--    1 root    wheel             275 Nov 16  2000 /usr/lib/tk8.0/demos/images/gray25.bmp
+-rw-r--r--    1 root    wheel            1883 Nov 16  2000 /usr/lib/tk8.0/demos/images/letters.bmp
+-rw-r--r--    1 root    wheel            1889 Nov 16  2000 /usr/lib/tk8.0/demos/images/noletter.bmp
+-rw-r--r--    1 root    wheel             272 Nov 16  2000 /usr/lib/tk8.0/demos/images/pattern.bmp
+-rw-r--r--    1 root    wheel            2341 Nov 16  2000 /usr/lib/tk8.0/demos/images/tcllogo.gif
+-rw-r--r--    1 root    wheel          196623 Nov 16  2000 /usr/lib/tk8.0/demos/images/teapot.ppm
+-rw-rw-rw-    1 root    wheel            9864 Nov 16  2000 /usr/lib/tk8.0/demos/items.tcl
+-rwxr-xr-x    1 root    wheel            7533 Nov 16  2000 /usr/lib/tk8.0/demos/ixset
+-rw-rw-rw-    1 root    wheel            1462 Nov 16  2000 /usr/lib/tk8.0/demos/label.tcl
+-rw-rw-rw-    1 root    wheel            2209 Nov 16  2000 /usr/lib/tk8.0/demos/license.terms
+-rw-rw-rw-    1 root    wheel            6414 Nov 16  2000 /usr/lib/tk8.0/demos/menu.tcl
+-rw-rw-rw-    1 root    wheel            4481 Nov 16  2000 /usr/lib/tk8.0/demos/menubu.tcl
+-rw-rw-rw-    1 root    wheel            2175 Nov 16  2000 /usr/lib/tk8.0/demos/msgbox.tcl
+-rw-rw-rw-    1 root    wheel            2933 Nov 16  2000 /usr/lib/tk8.0/demos/plot.tcl
+-rw-rw-rw-    1 root    wheel            2522 Nov 16  2000 /usr/lib/tk8.0/demos/puzzle.tcl
+-rw-rw-rw-    1 root    wheel            1700 Nov 16  2000 /usr/lib/tk8.0/demos/radio.tcl
+-rwxr-xr-x    1 root    wheel            5289 Nov 16  2000 /usr/lib/tk8.0/demos/rmt
+-rwxr-xr-x    1 root    wheel            8155 Nov 16  2000 /usr/lib/tk8.0/demos/rolodex
+-rw-rw-rw-    1 root    wheel            5360 Nov 16  2000 /usr/lib/tk8.0/demos/ruler.tcl
+-rw-rw-rw-    1 root    wheel            2397 Nov 16  2000 /usr/lib/tk8.0/demos/sayings.tcl
+-rw-rw-rw-    1 root    wheel            4596 Nov 16  2000 /usr/lib/tk8.0/demos/search.tcl
+-rwxr-xr-x    1 root    wheel            1227 Nov 16  2000 /usr/lib/tk8.0/demos/square
+-rw-rw-rw-    1 root    wheel            1865 Nov 16  2000 /usr/lib/tk8.0/demos/states.tcl
+-rw-rw-rw-    1 root    wheel            6962 Nov 16  2000 /usr/lib/tk8.0/demos/style.tcl
+-rw-rw-rw-    1 root    wheel            4354 Nov 16  2000 /usr/lib/tk8.0/demos/tclIndex
+-rwxr-xr-x    1 root    wheel           11328 Nov 16  2000 /usr/lib/tk8.0/demos/tcolor
+-rw-rw-rw-    1 root    wheel            3360 Nov 16  2000 /usr/lib/tk8.0/demos/text.tcl
+-rwxr-xr-x    1 root    wheel             931 Nov 16  2000 /usr/lib/tk8.0/demos/timer
+-rw-rw-rw-    1 root    wheel            6735 Nov 16  2000 /usr/lib/tk8.0/demos/twind.tcl
+-rw-rw-rw-    1 root    wheel            1673 Nov 16  2000 /usr/lib/tk8.0/demos/vscale.tcl
+-rwxr-xr-x    1 root    wheel           13726 Nov 16  2000 /usr/lib/tk8.0/demos/widget
+-rw-r--r--    1 root    wheel            5439 Nov 16  2000 /usr/lib/tk8.0/dialog.tcl
+-rw-r--r--    1 root    wheel           15468 Nov 16  2000 /usr/lib/tk8.0/entry.tcl
+-rw-r--r--    1 root    wheel            4904 Nov 16  2000 /usr/lib/tk8.0/focus.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tk8.0/images
+-rw-r--r--    1 root    wheel             388 Nov 16  2000 /usr/lib/tk8.0/images/README
+-rw-r--r--    1 root    wheel            2341 Nov 16  2000 /usr/lib/tk8.0/images/logo100.gif
+-rw-r--r--    1 root    wheel            1670 Nov 16  2000 /usr/lib/tk8.0/images/logo64.gif
+-rw-r--r--    1 root    wheel           11000 Nov 16  2000 /usr/lib/tk8.0/images/logoLarge.gif
+-rw-r--r--    1 root    wheel            3889 Nov 16  2000 /usr/lib/tk8.0/images/logoMed.gif
+-rw-r--r--    1 root    wheel            4147 Nov 16  2000 /usr/lib/tk8.0/images/pwrdLogo100.gif
+-rw-r--r--    1 root    wheel            6809 Nov 16  2000 /usr/lib/tk8.0/images/pwrdLogo150.gif
+-rw-r--r--    1 root    wheel            7964 Nov 16  2000 /usr/lib/tk8.0/images/pwrdLogo175.gif
+-rw-r--r--    1 root    wheel            8964 Nov 16  2000 /usr/lib/tk8.0/images/pwrdLogo200.gif
+-rw-r--r--    1 root    wheel            3189 Nov 16  2000 /usr/lib/tk8.0/images/pwrdLogo75.gif
+-rw-r--r--    1 root    wheel           12011 Nov 16  2000 /usr/lib/tk8.0/listbox.tcl
+-rw-r--r--    1 root    wheel           34019 Nov 16  2000 /usr/lib/tk8.0/menu.tcl
+-rw-r--r--    1 root    wheel            6993 Nov 16  2000 /usr/lib/tk8.0/msgbox.tcl
+-rw-r--r--    1 root    wheel             803 Nov 16  2000 /usr/lib/tk8.0/obsolete.tcl
+-rw-r--r--    1 root    wheel            1659 Nov 16  2000 /usr/lib/tk8.0/optMenu.tcl
+-rw-r--r--    1 root    wheel            7354 Nov 16  2000 /usr/lib/tk8.0/palette.tcl
+-rw-r--r--    1 root    wheel            9569 Nov 16  2000 /usr/lib/tk8.0/prolog.ps
+-rw-r--r--    1 root    wheel            6269 Nov 16  2000 /usr/lib/tk8.0/safetk.tcl
+-rw-r--r--    1 root    wheel            6813 Nov 16  2000 /usr/lib/tk8.0/scale.tcl
+-rw-r--r--    1 root    wheel           11613 Nov 16  2000 /usr/lib/tk8.0/scrlbar.tcl
+-rw-r--r--    1 root    wheel           18155 Nov 16  2000 /usr/lib/tk8.0/tclIndex
+-rw-r--r--    1 root    wheel            4052 Nov 16  2000 /usr/lib/tk8.0/tearoff.tcl
+-rw-r--r--    1 root    wheel           26631 Nov 16  2000 /usr/lib/tk8.0/text.tcl
+-rw-r--r--    1 root    wheel            5697 Nov 16  2000 /usr/lib/tk8.0/tk.tcl
+-rw-r--r--    1 root    wheel            3230 Nov 16  2000 /usr/lib/tk8.0/tkAppInit.c
+-rw-r--r--    1 root    wheel           37610 Nov 16  2000 /usr/lib/tk8.0/tkfbox.tcl
+-rw-r--r--    1 root    wheel           16696 Nov 16  2000 /usr/lib/tk8.0/xmfbox.tcl
+-rw-r--r--    1 root    wheel            2621 Nov 16  2000 /usr/lib/tkConfig.sh
+-r--r--r--    1 root    wheel            5075 Nov 16  2000 /usr/man/man1/wish.1.gz
+-r--r--r--    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/3DBorder.3.gz
+-r--r--r--    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/BindTable.3.gz
+-r--r--r--    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/CanvPsY.3.gz
+-r--r--r--    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/CanvTkwin.3.gz
+-r--r--r--    1 root    wheel            3594 Nov 16  2000 /usr/man/man3/CanvTxtInfo.3.gz
+-r--r--r--    1 root    wheel            3276 Nov 16  2000 /usr/man/man3/Clipboard.3.gz
+-r--r--r--    1 root    wheel            2617 Nov 16  2000 /usr/man/man3/ClrSelect.3.gz
+-r--r--r--    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/ConfigWidg.3.gz
+-r--r--r--    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/ConfigWind.3.gz
+-r--r--r--    1 root    wheel            2809 Nov 16  2000 /usr/man/man3/CoordToWin.3.gz
+-r--r--r--    1 root    wheel            4299 Nov 16  2000 /usr/man/man3/CrtErrHdlr.3.gz
+-r--r--r--    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/CrtGenHdlr.3.gz
+-r--r--r--    1 root    wheel            5207 Nov 16  2000 /usr/man/man3/CrtImgType.3.gz
+-r--r--r--    1 root    wheel            8828 Nov 16  2000 /usr/man/man3/CrtItemType.3.gz
+-r--r--r--    1 root    wheel            4421 Nov 16  2000 /usr/man/man3/CrtPhImgFmt.3.gz
+-r--r--r--    1 root    wheel            4052 Nov 16  2000 /usr/man/man3/CrtSelHdlr.3.gz
+-r--r--r--    1 root    wheel            4316 Nov 16  2000 /usr/man/man3/CrtWindow.3.gz
+-r--r--r--    1 root    wheel            2525 Nov 16  2000 /usr/man/man3/DeleteImg.3.gz
+-r--r--r--    1 root    wheel            2636 Nov 16  2000 /usr/man/man3/DrawFocHlt.3.gz
+-r--r--r--    1 root    wheel            3297 Nov 16  2000 /usr/man/man3/EventHndlr.3.gz
+-r--r--r--    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/FindPhoto.3.gz
+-r--r--r--    1 root    wheel            3487 Nov 16  2000 /usr/man/man3/FontId.3.gz
+-r--r--r--    1 root    wheel            2959 Nov 16  2000 /usr/man/man3/FreeXId.3.gz
+-r--r--r--    1 root    wheel            3187 Nov 16  2000 /usr/man/man3/GeomReq.3.gz
+-r--r--r--    1 root    wheel            3009 Nov 16  2000 /usr/man/man3/GetAnchor.3.gz
+-r--r--r--    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/GetBitmap.3.gz
+-r--r--r--    1 root    wheel            2971 Nov 16  2000 /usr/man/man3/GetCapStyl.3.gz
+-r--r--r--    1 root    wheel            3135 Nov 16  2000 /usr/man/man3/GetClrmap.3.gz
+-r--r--r--    1 root    wheel            4244 Nov 16  2000 /usr/man/man3/GetColor.3.gz
+-r--r--r--    1 root    wheel            5079 Nov 16  2000 /usr/man/man3/GetCursor.3.gz
+-r--r--r--    1 root    wheel            3266 Nov 16  2000 /usr/man/man3/GetFont.3.gz
+-r--r--r--    1 root    wheel            3229 Nov 16  2000 /usr/man/man3/GetGC.3.gz
+-r--r--r--    1 root    wheel            3870 Nov 16  2000 /usr/man/man3/GetImage.3.gz
+-r--r--r--    1 root    wheel            2974 Nov 16  2000 /usr/man/man3/GetJoinStl.3.gz
+-r--r--r--    1 root    wheel            3016 Nov 16  2000 /usr/man/man3/GetJustify.3.gz
+-r--r--r--    1 root    wheel            2730 Nov 16  2000 /usr/man/man3/GetOption.3.gz
+-r--r--r--    1 root    wheel            3052 Nov 16  2000 /usr/man/man3/GetPixels.3.gz
+-r--r--r--    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/GetPixmap.3.gz
+-r--r--r--    1 root    wheel            2913 Nov 16  2000 /usr/man/man3/GetRelief.3.gz
+-r--r--r--    1 root    wheel            2675 Nov 16  2000 /usr/man/man3/GetRootCrd.3.gz
+-r--r--r--    1 root    wheel            3032 Nov 16  2000 /usr/man/man3/GetScroll.3.gz
+-r--r--r--    1 root    wheel            3310 Nov 16  2000 /usr/man/man3/GetSelect.3.gz
+-r--r--r--    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/GetUid.3.gz
+-r--r--r--    1 root    wheel            2833 Nov 16  2000 /usr/man/man3/GetVRoot.3.gz
+-r--r--r--    1 root    wheel            3508 Nov 16  2000 /usr/man/man3/GetVisual.3.gz
+-r--r--r--    1 root    wheel            2832 Nov 16  2000 /usr/man/man3/HandleEvent.3.gz
+-r--r--r--    1 root    wheel            2493 Nov 16  2000 /usr/man/man3/IdToWindow.3.gz
+-r--r--r--    1 root    wheel            3005 Nov 16  2000 /usr/man/man3/ImgChanged.3.gz
+-r--r--r--    1 root    wheel            2903 Nov 16  2000 /usr/man/man3/InternAtom.3.gz
+-r--r--r--    1 root    wheel            2561 Nov 16  2000 /usr/man/man3/MainLoop.3.gz
+-r--r--r--    1 root    wheel            2527 Nov 16  2000 /usr/man/man3/MainWin.3.gz
+-r--r--r--    1 root    wheel            3542 Nov 16  2000 /usr/man/man3/MaintGeom.3.gz
+-r--r--r--    1 root    wheel            3329 Nov 16  2000 /usr/man/man3/ManageGeom.3.gz
+-r--r--r--    1 root    wheel            2799 Nov 16  2000 /usr/man/man3/MapWindow.3.gz
+-r--r--r--    1 root    wheel            4286 Nov 16  2000 /usr/man/man3/MeasureChar.3.gz
+-r--r--r--    1 root    wheel            2969 Nov 16  2000 /usr/man/man3/MoveToplev.3.gz
+-r--r--r--    1 root    wheel            3376 Nov 16  2000 /usr/man/man3/Name.3.gz
+-r--r--r--    1 root    wheel            2507 Nov 16  2000 /usr/man/man3/NameOfImg.3.gz
+-r--r--r--    1 root    wheel            2889 Nov 16  2000 /usr/man/man3/OwnSelect.3.gz
+-r--r--r--    1 root    wheel            6727 Nov 16  2000 /usr/man/man3/ParseArgv.3.gz
+-r--r--r--    1 root    wheel            2689 Nov 16  2000 /usr/man/man3/QWinEvent.3.gz
+-r--r--r--    1 root    wheel            2760 Nov 16  2000 /usr/man/man3/Restack.3.gz
+-r--r--r--    1 root    wheel            3509 Nov 16  2000 /usr/man/man3/RestrictEv.3.gz
+-r--r--r--    1 root    wheel            3064 Nov 16  2000 /usr/man/man3/SetAppName.3.gz
+-r--r--r--    1 root    wheel            3000 Nov 16  2000 /usr/man/man3/SetClass.3.gz
+-r--r--r--    1 root    wheel            3008 Nov 16  2000 /usr/man/man3/SetGrid.3.gz
+-r--r--r--    1 root    wheel            2872 Nov 16  2000 /usr/man/man3/SetVisual.3.gz
+-r--r--r--    1 root    wheel            2663 Nov 16  2000 /usr/man/man3/StrictMotif.3.gz
+-r--r--r--    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/TextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_3DBorderColor.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_3DBorderGC.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_3DHorizontalBevel.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_3DVerticalBevel.3.gz
+-r--r--r--    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Attributes.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_BindEvent.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasDrawableCoords.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasEventuallyRedraw.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasGetCoord.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsColor.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsFont.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsPath.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsStipple.3.gz
+-rwxrwxrwx    1 root    wheel            3625 Nov 16  2000 /usr/man/man3/Tk_CanvasPsY.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasSetStippleOrigin.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasTagsOption.3.gz
+-rwxrwxrwx    1 root    wheel            3594 Nov 16  2000 /usr/man/man3/Tk_CanvasTextInfo.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasTkwin.3.gz
+-rwxrwxrwx    1 root    wheel            4311 Nov 16  2000 /usr/man/man3/Tk_CanvasWindowCoords.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_ChangeWindowAttributes.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Changes.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_CharBbox.3.gz
+-rwxrwxrwx    1 root    wheel            3000 Nov 16  2000 /usr/man/man3/Tk_Class.3.gz
+-rwxrwxrwx    1 root    wheel            2617 Nov 16  2000 /usr/man/man3/Tk_ClearSelection.3.gz
+-rwxrwxrwx    1 root    wheel            3276 Nov 16  2000 /usr/man/man3/Tk_ClipboardAppend.3.gz
+-rwxrwxrwx    1 root    wheel            3276 Nov 16  2000 /usr/man/man3/Tk_ClipboardClear.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Colormap.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_ComputeTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/Tk_ConfigureInfo.3.gz
+-rwxrwxrwx    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/Tk_ConfigureValue.3.gz
+-rwxrwxrwx    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/Tk_ConfigureWidget.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_ConfigureWindow.3.gz
+-rwxrwxrwx    1 root    wheel            2809 Nov 16  2000 /usr/man/man3/Tk_CoordsToWindow.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_CreateBinding.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_CreateBindingTable.3.gz
+-rwxrwxrwx    1 root    wheel            4299 Nov 16  2000 /usr/man/man3/Tk_CreateErrorHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3297 Nov 16  2000 /usr/man/man3/Tk_CreateEventHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/Tk_CreateGenericHandler.3.gz
+-rwxrwxrwx    1 root    wheel            5207 Nov 16  2000 /usr/man/man3/Tk_CreateImageType.3.gz
+-rwxrwxrwx    1 root    wheel            8828 Nov 16  2000 /usr/man/man3/Tk_CreateItemType.3.gz
+-rwxrwxrwx    1 root    wheel            4421 Nov 16  2000 /usr/man/man3/Tk_CreatePhotoImageFormat.3.gz
+-rwxrwxrwx    1 root    wheel            4052 Nov 16  2000 /usr/man/man3/Tk_CreateSelHandler.3.gz
+-rwxrwxrwx    1 root    wheel            4316 Nov 16  2000 /usr/man/man3/Tk_CreateWindow.3.gz
+-rwxrwxrwx    1 root    wheel            4316 Nov 16  2000 /usr/man/man3/Tk_CreateWindowFromPath.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_DefineBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_DefineCursor.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_DeleteAllBindings.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_DeleteBinding.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_DeleteBindingTable.3.gz
+-rwxrwxrwx    1 root    wheel            4299 Nov 16  2000 /usr/man/man3/Tk_DeleteErrorHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3297 Nov 16  2000 /usr/man/man3/Tk_DeleteEventHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/Tk_DeleteGenericHandler.3.gz
+-rwxrwxrwx    1 root    wheel            2525 Nov 16  2000 /usr/man/man3/Tk_DeleteImage.3.gz
+-rwxrwxrwx    1 root    wheel            4052 Nov 16  2000 /usr/man/man3/Tk_DeleteSelHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Depth.3.gz
+-rwxrwxrwx    1 root    wheel            4316 Nov 16  2000 /usr/man/man3/Tk_DestroyWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Display.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_DisplayName.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_DistanceToTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Draw3DPolygon.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Draw3DRectangle.3.gz
+-rwxrwxrwx    1 root    wheel            4286 Nov 16  2000 /usr/man/man3/Tk_DrawChars.3.gz
+-rwxrwxrwx    1 root    wheel            2636 Nov 16  2000 /usr/man/man3/Tk_DrawFocusHighlight.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_DrawTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Fill3DPolygon.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Fill3DRectangle.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_FindPhoto.3.gz
+-rwxrwxrwx    1 root    wheel            3487 Nov 16  2000 /usr/man/man3/Tk_FontId.3.gz
+-rwxrwxrwx    1 root    wheel            3487 Nov 16  2000 /usr/man/man3/Tk_FontMetrics.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Free3DBorder.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_FreeBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            4244 Nov 16  2000 /usr/man/man3/Tk_FreeColor.3.gz
+-rwxrwxrwx    1 root    wheel            3135 Nov 16  2000 /usr/man/man3/Tk_FreeColormap.3.gz
+-rwxrwxrwx    1 root    wheel            5079 Nov 16  2000 /usr/man/man3/Tk_FreeCursor.3.gz
+-rwxrwxrwx    1 root    wheel            3266 Nov 16  2000 /usr/man/man3/Tk_FreeFont.3.gz
+-rwxrwxrwx    1 root    wheel            3229 Nov 16  2000 /usr/man/man3/Tk_FreeGC.3.gz
+-rwxrwxrwx    1 root    wheel            3870 Nov 16  2000 /usr/man/man3/Tk_FreeImage.3.gz
+-rwxrwxrwx    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/Tk_FreeOptions.3.gz
+-rwxrwxrwx    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/Tk_FreePixmap.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_FreeTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            2959 Nov 16  2000 /usr/man/man3/Tk_FreeXId.3.gz
+-rwxrwxrwx    1 root    wheel            3187 Nov 16  2000 /usr/man/man3/Tk_GeometryRequest.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_Get3DBorder.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_GetAllBindings.3.gz
+-rwxrwxrwx    1 root    wheel            3009 Nov 16  2000 /usr/man/man3/Tk_GetAnchor.3.gz
+-rwxrwxrwx    1 root    wheel            2903 Nov 16  2000 /usr/man/man3/Tk_GetAtomName.3.gz
+-rwxrwxrwx    1 root    wheel            4353 Nov 16  2000 /usr/man/man3/Tk_GetBinding.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_GetBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_GetBitmapFromData.3.gz
+-rwxrwxrwx    1 root    wheel            2971 Nov 16  2000 /usr/man/man3/Tk_GetCapStyle.3.gz
+-rwxrwxrwx    1 root    wheel            4244 Nov 16  2000 /usr/man/man3/Tk_GetColor.3.gz
+-rwxrwxrwx    1 root    wheel            4244 Nov 16  2000 /usr/man/man3/Tk_GetColorByValue.3.gz
+-rwxrwxrwx    1 root    wheel            3135 Nov 16  2000 /usr/man/man3/Tk_GetColormap.3.gz
+-rwxrwxrwx    1 root    wheel            5079 Nov 16  2000 /usr/man/man3/Tk_GetCursor.3.gz
+-rwxrwxrwx    1 root    wheel            5079 Nov 16  2000 /usr/man/man3/Tk_GetCursorFromData.3.gz
+-rwxrwxrwx    1 root    wheel            3266 Nov 16  2000 /usr/man/man3/Tk_GetFont.3.gz
+-rwxrwxrwx    1 root    wheel            3229 Nov 16  2000 /usr/man/man3/Tk_GetGC.3.gz
+-rwxrwxrwx    1 root    wheel            3870 Nov 16  2000 /usr/man/man3/Tk_GetImage.3.gz
+-rwxrwxrwx    1 root    wheel            5207 Nov 16  2000 /usr/man/man3/Tk_GetImageMasterData.3.gz
+-rwxrwxrwx    1 root    wheel            8828 Nov 16  2000 /usr/man/man3/Tk_GetItemTypes.3.gz
+-rwxrwxrwx    1 root    wheel            2974 Nov 16  2000 /usr/man/man3/Tk_GetJoinStyle.3.gz
+-rwxrwxrwx    1 root    wheel            3016 Nov 16  2000 /usr/man/man3/Tk_GetJustify.3.gz
+-rwxrwxrwx    1 root    wheel            2730 Nov 16  2000 /usr/man/man3/Tk_GetOption.3.gz
+-rwxrwxrwx    1 root    wheel            3052 Nov 16  2000 /usr/man/man3/Tk_GetPixels.3.gz
+-rwxrwxrwx    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/Tk_GetPixmap.3.gz
+-rwxrwxrwx    1 root    wheel            2913 Nov 16  2000 /usr/man/man3/Tk_GetRelief.3.gz
+-rwxrwxrwx    1 root    wheel            2675 Nov 16  2000 /usr/man/man3/Tk_GetRootCoords.3.gz
+-rwxrwxrwx    1 root    wheel            3052 Nov 16  2000 /usr/man/man3/Tk_GetScreenMM.3.gz
+-rwxrwxrwx    1 root    wheel            3032 Nov 16  2000 /usr/man/man3/Tk_GetScrollInfo.3.gz
+-rwxrwxrwx    1 root    wheel            3310 Nov 16  2000 /usr/man/man3/Tk_GetSelection.3.gz
+-rwxrwxrwx    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/Tk_GetUid.3.gz
+-rwxrwxrwx    1 root    wheel            2833 Nov 16  2000 /usr/man/man3/Tk_GetVRootGeometry.3.gz
+-rwxrwxrwx    1 root    wheel            3508 Nov 16  2000 /usr/man/man3/Tk_GetVisual.3.gz
+-rwxrwxrwx    1 root    wheel            2832 Nov 16  2000 /usr/man/man3/Tk_HandleEvent.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Height.3.gz
+-rwxrwxrwx    1 root    wheel            2493 Nov 16  2000 /usr/man/man3/Tk_IdToWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3005 Nov 16  2000 /usr/man/man3/Tk_ImageChanged.3.gz
+-r--r--r--    1 root    wheel            2753 Nov 16  2000 /usr/man/man3/Tk_Init.3.gz
+-rwxrwxrwx    1 root    wheel            2903 Nov 16  2000 /usr/man/man3/Tk_InternAtom.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_InternalBorderWidth.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_IntersectTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_IsMapped.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_IsTopLevel.3.gz
+-r--r--r--    1 root    wheel            3012 Nov 16  2000 /usr/man/man3/Tk_Main.3.gz
+-rwxrwxrwx    1 root    wheel            2561 Nov 16  2000 /usr/man/man3/Tk_MainLoop.3.gz
+-rwxrwxrwx    1 root    wheel            2527 Nov 16  2000 /usr/man/man3/Tk_MainWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3542 Nov 16  2000 /usr/man/man3/Tk_MaintainGeometry.3.gz
+-rwxrwxrwx    1 root    wheel            4316 Nov 16  2000 /usr/man/man3/Tk_MakeWindowExist.3.gz
+-rwxrwxrwx    1 root    wheel            3329 Nov 16  2000 /usr/man/man3/Tk_ManageGeometry.3.gz
+-rwxrwxrwx    1 root    wheel            2799 Nov 16  2000 /usr/man/man3/Tk_MapWindow.3.gz
+-rwxrwxrwx    1 root    wheel            4286 Nov 16  2000 /usr/man/man3/Tk_MeasureChars.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_MoveResizeWindow.3.gz
+-rwxrwxrwx    1 root    wheel            2969 Nov 16  2000 /usr/man/man3/Tk_MoveToplevelWindow.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_MoveWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3376 Nov 16  2000 /usr/man/man3/Tk_Name.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_NameOf3DBorder.3.gz
+-rwxrwxrwx    1 root    wheel            3009 Nov 16  2000 /usr/man/man3/Tk_NameOfAnchor.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_NameOfBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            2971 Nov 16  2000 /usr/man/man3/Tk_NameOfCapStyle.3.gz
+-rwxrwxrwx    1 root    wheel            4244 Nov 16  2000 /usr/man/man3/Tk_NameOfColor.3.gz
+-rwxrwxrwx    1 root    wheel            5079 Nov 16  2000 /usr/man/man3/Tk_NameOfCursor.3.gz
+-rwxrwxrwx    1 root    wheel            3266 Nov 16  2000 /usr/man/man3/Tk_NameOfFont.3.gz
+-rwxrwxrwx    1 root    wheel            2507 Nov 16  2000 /usr/man/man3/Tk_NameOfImage.3.gz
+-rwxrwxrwx    1 root    wheel            2974 Nov 16  2000 /usr/man/man3/Tk_NameOfJoinStyle.3.gz
+-rwxrwxrwx    1 root    wheel            3016 Nov 16  2000 /usr/man/man3/Tk_NameOfJustify.3.gz
+-rwxrwxrwx    1 root    wheel            2913 Nov 16  2000 /usr/man/man3/Tk_NameOfRelief.3.gz
+-rwxrwxrwx    1 root    wheel            3376 Nov 16  2000 /usr/man/man3/Tk_NameToWindow.3.gz
+-rwxrwxrwx    1 root    wheel           10149 Nov 16  2000 /usr/man/man3/Tk_Offset.3.gz
+-rwxrwxrwx    1 root    wheel            2889 Nov 16  2000 /usr/man/man3/Tk_OwnSelection.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Parent.3.gz
+-rwxrwxrwx    1 root    wheel            6727 Nov 16  2000 /usr/man/man3/Tk_ParseArgv.3.gz
+-rwxrwxrwx    1 root    wheel            3376 Nov 16  2000 /usr/man/man3/Tk_PathName.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoBlank.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoExpand.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoGetImage.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoGetSize.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoPutBlock.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoPutZoomedBlock.3.gz
+-rwxrwxrwx    1 root    wheel            4724 Nov 16  2000 /usr/man/man3/Tk_PhotoSetSize.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_PointToChar.3.gz
+-rwxrwxrwx    1 root    wheel            3487 Nov 16  2000 /usr/man/man3/Tk_PostscriptFontName.3.gz
+-rwxrwxrwx    1 root    wheel            2689 Nov 16  2000 /usr/man/man3/Tk_QueueWindowEvent.3.gz
+-rwxrwxrwx    1 root    wheel            3870 Nov 16  2000 /usr/man/man3/Tk_RedrawImage.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_ReqHeight.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_ReqWidth.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_ResizeWindow.3.gz
+-rwxrwxrwx    1 root    wheel            2760 Nov 16  2000 /usr/man/man3/Tk_RestackWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3509 Nov 16  2000 /usr/man/man3/Tk_RestrictEvents.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Screen.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_ScreenNumber.3.gz
+-rwxrwxrwx    1 root    wheel            3064 Nov 16  2000 /usr/man/man3/Tk_SetAppName.3.gz
+-rwxrwxrwx    1 root    wheel            5770 Nov 16  2000 /usr/man/man3/Tk_SetBackgroundFromBorder.3.gz
+-rwxrwxrwx    1 root    wheel            3000 Nov 16  2000 /usr/man/man3/Tk_SetClass.3.gz
+-rwxrwxrwx    1 root    wheel            3008 Nov 16  2000 /usr/man/man3/Tk_SetGrid.3.gz
+-rwxrwxrwx    1 root    wheel            3187 Nov 16  2000 /usr/man/man3/Tk_SetInternalBorder.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowBackground.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowBackgroundPixmap.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowBorder.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowBorderPixmap.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowBorderWidth.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_SetWindowColormap.3.gz
+-rwxrwxrwx    1 root    wheel            2872 Nov 16  2000 /usr/man/man3/Tk_SetWindowVisual.3.gz
+-rwxrwxrwx    1 root    wheel            5168 Nov 16  2000 /usr/man/man3/Tk_SizeOfBitmap.3.gz
+-rwxrwxrwx    1 root    wheel            3870 Nov 16  2000 /usr/man/man3/Tk_SizeOfImage.3.gz
+-rwxrwxrwx    1 root    wheel            2663 Nov 16  2000 /usr/man/man3/Tk_StrictMotif.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_TextLayoutToPostscript.3.gz
+-rwxrwxrwx    1 root    wheel            4286 Nov 16  2000 /usr/man/man3/Tk_TextWidth.3.gz
+-rwxrwxrwx    1 root    wheel            2834 Nov 16  2000 /usr/man/man3/Tk_Uid.3.gz
+-rwxrwxrwx    1 root    wheel            4227 Nov 16  2000 /usr/man/man3/Tk_UndefineCursor.3.gz
+-rwxrwxrwx    1 root    wheel            4286 Nov 16  2000 /usr/man/man3/Tk_UnderlineChars.3.gz
+-rwxrwxrwx    1 root    wheel            6540 Nov 16  2000 /usr/man/man3/Tk_UnderlineTextLayout.3.gz
+-rwxrwxrwx    1 root    wheel            3542 Nov 16  2000 /usr/man/man3/Tk_UnmaintainGeometry.3.gz
+-rwxrwxrwx    1 root    wheel            2799 Nov 16  2000 /usr/man/man3/Tk_UnmapWindow.3.gz
+-rwxrwxrwx    1 root    wheel            3008 Nov 16  2000 /usr/man/man3/Tk_UnsetGrid.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Visual.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Width.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_WindowId.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_X.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/Tk_Y.3.gz
+-rwxrwxrwx    1 root    wheel            3717 Nov 16  2000 /usr/man/man3/WindowId.3.gz
+-r--r--r--    1 root    wheel            2596 Nov 16  2000 /usr/man/mann/bell.n.gz
+-r--r--r--    1 root    wheel            9270 Nov 16  2000 /usr/man/mann/bind.n.gz
+-r--r--r--    1 root    wheel            3392 Nov 16  2000 /usr/man/mann/bindtags.n.gz
+-r--r--r--    1 root    wheel            3518 Nov 16  2000 /usr/man/mann/bitmap.n.gz
+-r--r--r--    1 root    wheel            4688 Nov 16  2000 /usr/man/mann/button.n.gz
+-r--r--r--    1 root    wheel           17955 Nov 16  2000 /usr/man/mann/canvas.n.gz
+-r--r--r--    1 root    wheel            5551 Nov 16  2000 /usr/man/mann/checkbutton.n.gz
+-r--r--r--    1 root    wheel            2747 Nov 16  2000 /usr/man/mann/chooseColor.n.gz
+-r--r--r--    1 root    wheel            3522 Nov 16  2000 /usr/man/mann/clipboard.n.gz
+-r--r--r--    1 root    wheel            2572 Nov 16  2000 /usr/man/mann/destroy.n.gz
+-r--r--r--    1 root    wheel            3155 Nov 16  2000 /usr/man/mann/dialog.n.gz
+-r--r--r--    1 root    wheel            7474 Nov 16  2000 /usr/man/mann/entry.n.gz
+-r--r--r--    1 root    wheel            5966 Nov 16  2000 /usr/man/mann/event.n.gz
+-r--r--r--    1 root    wheel            3847 Nov 16  2000 /usr/man/mann/focus.n.gz
+-r--r--r--    1 root    wheel            3090 Nov 16  2000 /usr/man/mann/focusNext.n.gz
+-r--r--r--    1 root    wheel            6505 Nov 16  2000 /usr/man/mann/font.n.gz
+-r--r--r--    1 root    wheel            4043 Nov 16  2000 /usr/man/mann/frame.n.gz
+-r--r--r--    1 root    wheel            4545 Nov 16  2000 /usr/man/mann/getOpenFile.n.gz
+-r--r--r--    1 root    wheel            3957 Nov 16  2000 /usr/man/mann/grab.n.gz
+-r--r--r--    1 root    wheel            6927 Nov 16  2000 /usr/man/mann/grid.n.gz
+-r--r--r--    1 root    wheel            3395 Nov 16  2000 /usr/man/mann/image.n.gz
+-r--r--r--    1 root    wheel            3664 Nov 16  2000 /usr/man/mann/label.n.gz
+-r--r--r--    1 root    wheel            8048 Nov 16  2000 /usr/man/mann/listbox.n.gz
+-r--r--r--    1 root    wheel            3394 Nov 16  2000 /usr/man/mann/loadTk.n.gz
+-r--r--r--    1 root    wheel            2642 Nov 16  2000 /usr/man/mann/lower.n.gz
+-r--r--r--    1 root    wheel           11496 Nov 16  2000 /usr/man/mann/menu.n.gz
+-r--r--r--    1 root    wheel            7792 Nov 16  2000 /usr/man/mann/menubar.n.gz
+-r--r--r--    1 root    wheel            5052 Nov 16  2000 /usr/man/mann/menubutton.n.gz
+-r--r--r--    1 root    wheel            4537 Nov 16  2000 /usr/man/mann/message.n.gz
+-r--r--r--    1 root    wheel            3181 Nov 16  2000 /usr/man/mann/messageBox.n.gz
+-r--r--r--    1 root    wheel            3444 Nov 16  2000 /usr/man/mann/option.n.gz
+-r--r--r--    1 root    wheel            2729 Nov 16  2000 /usr/man/mann/optionMenu.n.gz
+-r--r--r--    1 root    wheel            7366 Nov 16  2000 /usr/man/mann/options.n.gz
+-r--r--r--    1 root    wheel            4586 Nov 16  2000 /usr/man/mann/pack-old.n.gz
+-rwxrwxrwx    1 root    wheel            4586 Nov 16  2000 /usr/man/mann/pack.n.gz
+-r--r--r--    1 root    wheel            3346 Nov 16  2000 /usr/man/mann/palette.n.gz
+-r--r--r--    1 root    wheel            7177 Nov 16  2000 /usr/man/mann/photo.n.gz
+-r--r--r--    1 root    wheel            5195 Nov 16  2000 /usr/man/mann/place.n.gz
+-r--r--r--    1 root    wheel            2607 Nov 16  2000 /usr/man/mann/popup.n.gz
+-r--r--r--    1 root    wheel            5512 Nov 16  2000 /usr/man/mann/radiobutton.n.gz
+-r--r--r--    1 root    wheel            2646 Nov 16  2000 /usr/man/mann/raise.n.gz
+-r--r--r--    1 root    wheel            5649 Nov 16  2000 /usr/man/mann/scale.n.gz
+-r--r--r--    1 root    wheel            6617 Nov 16  2000 /usr/man/mann/scrollbar.n.gz
+-r--r--r--    1 root    wheel            4295 Nov 16  2000 /usr/man/mann/selection.n.gz
+-r--r--r--    1 root    wheel            3609 Nov 16  2000 /usr/man/mann/send.n.gz
+-r--r--r--    1 root    wheel           19946 Nov 16  2000 /usr/man/mann/text.n.gz
+-r--r--r--    1 root    wheel            3406 Nov 16  2000 /usr/man/mann/tk.n.gz
+-r--r--r--    1 root    wheel            2638 Nov 16  2000 /usr/man/mann/tk_bindForTraversal.n.gz
+-rwxrwxrwx    1 root    wheel            3346 Nov 16  2000 /usr/man/mann/tk_bisque.n.gz
+-rwxrwxrwx    1 root    wheel            2747 Nov 16  2000 /usr/man/mann/tk_chooseColor.n.gz
+-r--r--r--    1 root    wheel            3018 Nov 16  2000 /usr/man/mann/tk_dialog.n.gz
+-rwxrwxrwx    1 root    wheel            3090 Nov 16  2000 /usr/man/mann/tk_focusFollowsMouse.n.gz
+-rwxrwxrwx    1 root    wheel            3090 Nov 16  2000 /usr/man/mann/tk_focusNext.n.gz
+-rwxrwxrwx    1 root    wheel            3090 Nov 16  2000 /usr/man/mann/tk_focusPrev.n.gz
+-rwxrwxrwx    1 root    wheel            4545 Nov 16  2000 /usr/man/mann/tk_getOpenFile.n.gz
+-rwxrwxrwx    1 root    wheel            4545 Nov 16  2000 /usr/man/mann/tk_getSaveFile.n.gz
+-rwxrwxrwx    1 root    wheel            2638 Nov 16  2000 /usr/man/mann/tk_menuBar.n.gz
+-rwxrwxrwx    1 root    wheel            3181 Nov 16  2000 /usr/man/mann/tk_messageBox.n.gz
+-rwxrwxrwx    1 root    wheel            2729 Nov 16  2000 /usr/man/mann/tk_optionMenu.n.gz
+-rwxrwxrwx    1 root    wheel            2607 Nov 16  2000 /usr/man/mann/tk_popup.n.gz
+-rwxrwxrwx    1 root    wheel            3346 Nov 16  2000 /usr/man/mann/tk_setPalette.n.gz
+-r--r--r--    1 root    wheel            2773 Nov 16  2000 /usr/man/mann/tkerror.n.gz
+-r--r--r--    1 root    wheel            3354 Nov 16  2000 /usr/man/mann/tkvars.n.gz
+-r--r--r--    1 root    wheel            2874 Nov 16  2000 /usr/man/mann/tkwait.n.gz
+-r--r--r--    1 root    wheel            4480 Nov 16  2000 /usr/man/mann/toplevel.n.gz
+-r--r--r--    1 root    wheel            5455 Nov 16  2000 /usr/man/mann/winfo.n.gz
+-r--r--r--    1 root    wheel            9164 Nov 16  2000 /usr/man/mann/wm.n.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tk-8.0.5-1.m68kmint.rpm">Download</A></H2> (2,526,357 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

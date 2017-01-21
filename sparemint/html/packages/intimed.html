@@ -1,0 +1,86 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - intimed, version 1.10, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>intimed</H2>
+
+<UL> 
+<LI>Summary: A time server for synchronizing networked machines' clocks.<BR>
+
+<LI>Version: 1.10<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: freeware</BR>
+<LI>Installation size: 46,188 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>intimed = 1.10-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Sep  7 11:06:41 1999 UTC<BR>
+<LI>Upload date: Tue Sep  7 11:10:42 1999 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/intimed-1.10-2.src.rpm">intimed-1.10-2.src.rpm</A>  (4,163 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Sat Sep  4 09:00:00 1999 UTC<BR>
+- strip binary
+<LI>Description:<BR>
+The intimed package contains a server (in.timed), which keeps networked<BR>machines' clocks correctly synchronized to the server's time.<BR><P><BR>Install intimed if you need a network time server.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            46188 Sep  7  1999 /usr/sbin/in.timed
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/intimed-1.10-2.m68kmint.rpm">Download</A></H2> (25,844 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

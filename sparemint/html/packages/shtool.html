@@ -1,0 +1,114 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - shtool, version 1.4.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>shtool</H2>
+
+<UL> 
+<LI>Summary: GNU shtool is a compilation of several commonly used shell scripts.<BR>
+
+<LI>Version: 1.4.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Tools">Development/Tools</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 234,727 bytes<BR>
+<LI>Operating system: FreeMiNT<BR>
+<LI>Provides:<UL>
+  <LI>shtool = 1.4.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Oct 22 01:40:09 1999 UTC<BR>
+<LI>Upload date: Fri Oct 22 11:35:10 1999 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/shtool-1.4.6-1.src.rpm">shtool-1.4.6-1.src.rpm</A>  (62,330 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Thu Oct 21 09:00:00 1999 UTC<BR>
+- first relase for Sparemint
+<LI>Description:<BR>
+The GNU shtool program is a compilation of small but very stable and<BR>portable shell scripts into a single shell tool. All ingredients<BR>were in successful use over many years in various free software<BR>projects. The compiled shtool program is intended to be used inside<BR>the source tree of free software packages. There it can take over<BR>various (usually non-portable) tasks related to the building and<BR>installation of such packages.<BR>It currently contains the following tools: echo, mdate, table, prop,<BR>move, install, mkdir, mkln, mkshadow, fixperm, tarball, guessos, arx,<BR>slo, scpp, version, path.<BR><P><BR>Install shtool if you are developing software and want to use it with your<BR>packages.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            86966 Oct 21  1999 /usr/bin/shtool
+-rwxr-xr-x    1 root    root            12740 Oct 21  1999 /usr/bin/shtoolize
+drwxr-xr-x    2 root    root                0 Oct 21  1999 /usr/doc/shtool-1.4.6
+-rw-r--r--    1 root    root              735 Jul 24  1999 /usr/doc/shtool-1.4.6/AUTHORS
+-rw-r--r--    1 root    root            15239 Jun 17  1999 /usr/doc/shtool-1.4.6/COPYING
+-rw-r--r--    1 root    root            13878 Sep  5  1999 /usr/doc/shtool-1.4.6/ChangeLog
+-rw-r--r--    1 root    root             1616 Sep  5  1999 /usr/doc/shtool-1.4.6/INSTALL
+-rw-r--r--    1 root    root             3163 Sep  5  1999 /usr/doc/shtool-1.4.6/README
+-rw-r--r--    1 root    root             1119 Jul 24  1999 /usr/doc/shtool-1.4.6/THANKS
+-rw-r--r--    1 root    root            13404 Oct 21  1999 /usr/man/man1/shtool.1.gz
+-rw-r--r--    1 root    root             3215 Oct 21  1999 /usr/man/man1/shtoolize.1.gz
+-rw-r--r--    1 root    root             2009 Oct 21  1999 /usr/share/aclocal/shtool.m4
+-rw-r--r--    1 root    root             3190 Oct 21  1999 /usr/share/shtool/sh.arx
+-rw-r--r--    1 root    root             8247 Oct 21  1999 /usr/share/shtool/sh.echo
+-rw-r--r--    1 root    root             2477 Oct 21  1999 /usr/share/shtool/sh.fixperm
+-rw-r--r--    1 root    root             7147 Oct 21  1999 /usr/share/shtool/sh.guessos
+-rw-r--r--    1 root    root             3463 Oct 21  1999 /usr/share/shtool/sh.install
+-rw-r--r--    1 root    root             4383 Oct 21  1999 /usr/share/shtool/sh.mdate
+-rw-r--r--    1 root    root             2618 Oct 21  1999 /usr/share/shtool/sh.mkdir
+-rw-r--r--    1 root    root             4788 Oct 21  1999 /usr/share/shtool/sh.mkln
+-rw-r--r--    1 root    root             3639 Oct 21  1999 /usr/share/shtool/sh.mkshadow
+-rw-r--r--    1 root    root             3456 Oct 21  1999 /usr/share/shtool/sh.move
+-rw-r--r--    1 root    root             4891 Oct 21  1999 /usr/share/shtool/sh.path
+-rw-r--r--    1 root    root             2019 Oct 21  1999 /usr/share/shtool/sh.prop
+-rw-r--r--    1 root    root             6714 Oct 21  1999 /usr/share/shtool/sh.scpp
+-rw-r--r--    1 root    root             5010 Oct 21  1999 /usr/share/shtool/sh.slo
+-rw-r--r--    1 root    root             2670 Oct 21  1999 /usr/share/shtool/sh.table
+-rw-r--r--    1 root    root             6075 Oct 21  1999 /usr/share/shtool/sh.tarball
+-rw-r--r--    1 root    root             9344 Oct 21  1999 /usr/share/shtool/sh.version
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/noarch/shtool-1.4.6-1.noarch.rpm">Download</A></H2> (77,087 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

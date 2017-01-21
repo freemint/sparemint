@@ -1,0 +1,88 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ldg-dev, version 2.33, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ldg-dev</H2>
+
+<UL> 
+<LI>Summary: LDG development library and header file<BR>
+<LI>URL: <A HREF="http://ldg.sf.net">http://ldg.sf.net</A><BR>
+<LI>Version: 2.33<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 17,254 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ldg-dev = 2.33-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Aug 17 23:40:28 2010 UTC<BR>
+<LI>Upload date: Fri Nov  5 18:53:17 2010 UTC<BR>
+<LI>Packager: <A HREF="http://arnaud.bercegeay.free.fr/">Arnaud Bercegeay</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;bsobve/cfsdfhfbzAgsff/gs');">arnaud.bercegeay(at)free.fr</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ldg-dev-2.33-2.src.rpm">ldg-dev-2.33-2.src.rpm</A>  (18,630 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Aug 17 21:00:00 2010 UTC<BR>
+- Added 68020-60 library and support for Coldfire, but some assembly needs to<BR>- be patched for the Coldfire build.
+<LI>Description:<BR>
+Contains the LDG library and header file required to build a LDG<BR>library, or an application that use LDG libraries.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             5718 Aug 17 19:40 /usr/include/ldg.h
+-rw-r--r--    1 root    root             5816 Aug 17 19:40 /usr/lib/libldg.a
+-rw-r--r--    1 root    root             5720 Aug 17 19:40 /usr/lib/m68020-60/libldg.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ldg-dev-2.33-2.m68kmint.rpm">Download</A></H2> (7,774 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Thu Dec 16 18:03:13 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

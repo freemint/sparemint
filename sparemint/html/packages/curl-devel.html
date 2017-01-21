@@ -1,0 +1,151 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - curl-devel, version 7.21.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>curl-devel</H2>
+
+<UL> 
+<LI>Summary: Files needed for building applications with libcurl.<BR>
+<LI>URL: <A HREF="http://curl.haxx.se/">http://curl.haxx.se/</A><BR>
+<LI>Version: 7.21.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: MPL</BR>
+<LI>Installation size: 981,651 bytes<BR>
+<LI>Operating system: mint<BR>
+<LI>Provides:<UL>
+  <LI>curl-devel = 7.21.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>curl = 7.21.7-1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Aug 28 17:06:36 2011 UTC<BR>
+<LI>Upload date: Sun Aug 28 15:29:30 2011 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/curl-7.21.7-1.src.rpm">curl-7.21.7-1.src.rpm</A>  (2,948,375 bytes)<BR>
+<LI>Last change: Adam Klobukowski &lt;adamklobukowski@gmail.com&gt; Sun Aug 28 12:00:00 2011 UTC<BR>
+- changelog started
+<LI>Description:<BR>
+cURL is a tool for getting files from FTP, HTTP, Gopher, Telnet, and<BR>Dict servers, using any of the supported protocols. The curl-devel<BR>package includes files needed for developing applications which can<BR>use cURL's capabilities internally.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             4489 Aug 28  2011 /usr/bin/curl-config
+drwxr-xr-x    2 root    root                0 Aug 28  2011 /usr/include/curl
+-rw-r--r--    1 root    root            81186 Aug 28  2011 /usr/include/curl/curl.h
+-rw-r--r--    1 root    root             7065 Aug 28  2011 /usr/include/curl/curlbuild.h
+-rw-r--r--    1 root    root             8901 Aug 28  2011 /usr/include/curl/curlrules.h
+-rw-r--r--    1 root    root             2741 Aug 28  2011 /usr/include/curl/curlver.h
+-rw-r--r--    1 root    root             3472 Aug 28  2011 /usr/include/curl/easy.h
+-rw-r--r--    1 root    root             2790 Aug 28  2011 /usr/include/curl/mprintf.h
+-rw-r--r--    1 root    root            12981 Aug 28  2011 /usr/include/curl/multi.h
+-rw-r--r--    1 root    root             1330 Aug 28  2011 /usr/include/curl/stdcheaders.h
+-rw-r--r--    1 root    root            36048 Aug 28  2011 /usr/include/curl/typecheck-gcc.h
+-rw-r--r--    1 root    root           446512 Aug 28  2011 /usr/lib/libcurl.a
+-rw-r--r--    1 root    root             4182 Aug 28  2011 /usr/man/man1/curl-config.1
+-rw-r--r--    1 root    root             2087 Aug 28  2011 /usr/man/man3/curl_easy_cleanup.3
+-rw-r--r--    1 root    root             2314 Aug 28  2011 /usr/man/man3/curl_easy_duphandle.3
+-rw-r--r--    1 root    root             2084 Aug 28  2011 /usr/man/man3/curl_easy_escape.3
+-rw-r--r--    1 root    root            15130 Aug 28  2011 /usr/man/man3/curl_easy_getinfo.3
+-rw-r--r--    1 root    root             2303 Aug 28  2011 /usr/man/man3/curl_easy_init.3
+-rw-r--r--    1 root    root             4143 Aug 28  2011 /usr/man/man3/curl_easy_pause.3
+-rw-r--r--    1 root    root             2577 Aug 28  2011 /usr/man/man3/curl_easy_perform.3
+-rw-r--r--    1 root    root             3123 Aug 28  2011 /usr/man/man3/curl_easy_recv.3
+-rw-r--r--    1 root    root             1853 Aug 28  2011 /usr/man/man3/curl_easy_reset.3
+-rw-r--r--    1 root    root             2928 Aug 28  2011 /usr/man/man3/curl_easy_send.3
+-rw-r--r--    1 root    root           116064 Aug 28  2011 /usr/man/man3/curl_easy_setopt.3
+-rw-r--r--    1 root    root             1678 Aug 28  2011 /usr/man/man3/curl_easy_strerror.3
+-rw-r--r--    1 root    root             2305 Aug 28  2011 /usr/man/man3/curl_easy_unescape.3
+-rw-r--r--    1 root    root             2103 Aug 28  2011 /usr/man/man3/curl_escape.3
+-rw-r--r--    1 root    root            11216 Aug 28  2011 /usr/man/man3/curl_formadd.3
+-rw-r--r--    1 root    root             1903 Aug 28  2011 /usr/man/man3/curl_formfree.3
+-rw-r--r--    1 root    root             2740 Aug 28  2011 /usr/man/man3/curl_formget.3
+-rw-r--r--    1 root    root             1585 Aug 28  2011 /usr/man/man3/curl_free.3
+-rw-r--r--    1 root    root             4795 Aug 28  2011 /usr/man/man3/curl_getdate.3
+-rw-r--r--    1 root    root             2280 Aug 28  2011 /usr/man/man3/curl_getenv.3
+-rw-r--r--    1 root    root             2097 Aug 28  2011 /usr/man/man3/curl_global_cleanup.3
+-rw-r--r--    1 root    root             3107 Aug 28  2011 /usr/man/man3/curl_global_init.3
+-rw-r--r--    1 root    root             2490 Aug 28  2011 /usr/man/man3/curl_global_init_mem.3
+-rw-r--r--    1 root    root             4221 Aug 28  2011 /usr/man/man3/curl_mprintf.3
+-rw-r--r--    1 root    root             2470 Aug 28  2011 /usr/man/man3/curl_multi_add_handle.3
+-rw-r--r--    1 root    root             2976 Aug 28  2011 /usr/man/man3/curl_multi_assign.3
+-rw-r--r--    1 root    root             2030 Aug 28  2011 /usr/man/man3/curl_multi_cleanup.3
+-rw-r--r--    1 root    root             2915 Aug 28  2011 /usr/man/man3/curl_multi_fdset.3
+-rw-r--r--    1 root    root             3417 Aug 28  2011 /usr/man/man3/curl_multi_info_read.3
+-rw-r--r--    1 root    root             1782 Aug 28  2011 /usr/man/man3/curl_multi_init.3
+-rw-r--r--    1 root    root             3801 Aug 28  2011 /usr/man/man3/curl_multi_perform.3
+-rw-r--r--    1 root    root             1980 Aug 28  2011 /usr/man/man3/curl_multi_remove_handle.3
+-rw-r--r--    1 root    root             5353 Aug 28  2011 /usr/man/man3/curl_multi_setopt.3
+-rw-r--r--    1 root    root             6866 Aug 28  2011 /usr/man/man3/curl_multi_socket.3
+-rw-r--r--    1 root    root             6816 Aug 28  2011 /usr/man/man3/curl_multi_socket_action.3
+-rw-r--r--    1 root    root             1683 Aug 28  2011 /usr/man/man3/curl_multi_strerror.3
+-rw-r--r--    1 root    root             2954 Aug 28  2011 /usr/man/man3/curl_multi_timeout.3
+-rw-r--r--    1 root    root             1801 Aug 28  2011 /usr/man/man3/curl_share_cleanup.3
+-rw-r--r--    1 root    root             1985 Aug 28  2011 /usr/man/man3/curl_share_init.3
+-rw-r--r--    1 root    root             3496 Aug 28  2011 /usr/man/man3/curl_share_setopt.3
+-rw-r--r--    1 root    root             1685 Aug 28  2011 /usr/man/man3/curl_share_strerror.3
+-rw-r--r--    1 root    root             2168 Aug 28  2011 /usr/man/man3/curl_slist_append.3
+-rw-r--r--    1 root    root             1499 Aug 28  2011 /usr/man/man3/curl_slist_free_all.3
+-rw-r--r--    1 root    root             2299 Aug 28  2011 /usr/man/man3/curl_strequal.3
+-rw-r--r--    1 root    root             2130 Aug 28  2011 /usr/man/man3/curl_unescape.3
+-rw-r--r--    1 root    root             1528 Aug 28  2011 /usr/man/man3/curl_version.3
+-rw-r--r--    1 root    root             6312 Aug 28  2011 /usr/man/man3/curl_version_info.3
+-rw-r--r--    1 root    root             2323 Aug 28  2011 /usr/man/man3/libcurl-easy.3
+-rw-r--r--    1 root    root            12664 Aug 28  2011 /usr/man/man3/libcurl-errors.3
+-rw-r--r--    1 root    root             7268 Aug 28  2011 /usr/man/man3/libcurl-multi.3
+-rw-r--r--    1 root    root             2983 Aug 28  2011 /usr/man/man3/libcurl-share.3
+-rw-r--r--    1 root    root            62707 Aug 28  2011 /usr/man/man3/libcurl-tutorial.3
+-rw-r--r--    1 root    root            10841 Aug 28  2011 /usr/man/man3/libcurl.3
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/curl-devel-7.21.7-1.m68kmint.rpm">Download</A></H2> (351,612 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

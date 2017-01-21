@@ -1,0 +1,95 @@
+FreeMiNT 1.15.10, beta Release
+==============================
+
+Bitte dieses README vom Anfang bis zum Ende durchlesen.
+
+Dies ist eine Betaversion die gegenueber der 1.15.9 beta wichtige
+Bugfixes enth„lt. In ChangeLog sind alle nderungen aufgelistet.
+
+
+Achtung
+=======
+
+Es hat sich bei dem letzten Beta Release sehr viel getan. Deswegen
+hat die neue Beta Version auch lange auf sich warten lassen. Von nun
+an benutzen wir das CVS Versions Kontrollsystem um das Management der
+Sourcen besser abwickeln zu k”nnen. Aus diesem Grunde hat sich einiges
+ge„ndert.
+
+Die meisten Kernelmodule sind von nun an Teil der CVS Sourcen. Es gibt
+keine seperaten Releases oder seperate Sourcearchive mehr.
+
+Das gleiche gilt genauso fr bestimmte FreeMiNT Tools die nun ebenfalls
+Teil der CVS Sourcen sind.
+
+
+kernel:
+=======
+
+Die wichtigsten nderungen am Kernel im šberblick:
+
+- eingebautes Boot Menu was man durch halten einer SHIFT Taste
+  w„hrend des Ladens des Kernels aktiviert
+- optimiertes Memory Management
+- integrierte RAMDISK mit einem wesentlich genaueren Dfree()
+- Hochpr„zisions Verz”gerungsroutinen fr Devicetreiber etc.
+- komplett neuer Modullader
+- Profiling Untersttzung fr den Kernel
+- Behebung des (f->links <= 0) Fehlers
+- viele weitere Bugfixes
+- komplett umstrukturierte Sourcen
+  komplett neues Makefile System
+  Entfernung von viel redudantem Code
+
+
+modules:
+========
+
+sockets/       - MiNTNet
+  xif/         - die Treibermodule fr MiNTNet
+  
+xdd/
+  flop_raw/    - Floppy /dev/fxx Treiber
+  mfp/         - Serieller Treiber fr den MFP (jeder ATARI)
+  scc/         - Serieller Treiber fr den SCC (Falcon/TT)
+  uart/        - Serieller Treiber fr den PS16550 (Milan)
+  xconout2/    - TosWin2 console Treiber
+  
+xfs/
+  ext2fs/      - ext2 filesystem (bugfixed version)
+  minixfs/     - minix filesystem (bugfixed version)
+  nfs/         - network filesystem (heavily updated version)
+
+
+tools:
+======
+
+crypto/        - Tool fr den Crypto xfs layer in MiNT (new)
+fsetter/       - xfs Konfigurationstool (heavily updated)
+gluestik/      - stik emulation
+mgw/           - draconis emulation
+minix/         - minix tools (checker, initializer, config)
+mkfatfs        - FAT filesystem initalizer
+nfs/           - mount tool
+
+
+Documentation
+=============
+
+Dieses Archiv enthaelt keinerlei Dokumentation und ist nur ein
+Zwischenrelease vor allem zum Betatesten.
+
+Die komplette Dokumentation findet sich im offiziellen 1.15.5 Archiv!
+Wer keine Dokumenation hat sollte sich dringend dieses Archiv holen
+und die Dokumentation gruendlich lesen. Zu finden unter:
+
+http://www.cs.uni-magdeburg.de/~fnaumann/
+
+freemint-1.15.5-bin.tar.gz
+freemint-1.15.5.tar.gz
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 29.10.2000

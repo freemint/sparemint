@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - glib2, version 2.2.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>glib2</H2>
+
+<UL> 
+<LI>Summary: A library of handy utility functions.<BR>
+<LI>URL: <A HREF="http://www.gtk.org">http://www.gtk.org</A><BR>
+<LI>Version: 2.2.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System/Libraries">System/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 727,332 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>glib2 = 2.2.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>pkgconfig  <BR>
+  <LI>pth-devel  <BR>
+  <LI>libiconv  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Jan 22 18:28:43 2004 UTC<BR>
+<LI>Upload date: Thu Jan 22 23:48:24 2004 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/glib2-2.2.3-1.src.rpm">glib2-2.2.3-1.src.rpm</A>  (2,127,894 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu Jan 22 12:00:00 2004 UTC<BR>
+- After many builds on both Mark Duckworth's Falcon and my own, this is finally<BR>- the initial, mostly working, release of Glib2 for MiNT!
+<LI>Description:<BR>
+Glib2 is a handy library of utility functions. This C library is designed<BR>to solve some portability problems and provide other useful functionality<BR>which most programs require.<BR><P><BR>Glib2 is used by GDK, GTK+ and many applications. You should install Glib<BR>because it is hoped that many applications that use it will be ported to<BR>MiNT.<BR><P><BR>This package contains the library needed to run programs statically<BR>linked with the glib2 libraries.<BR><P><BR>=================<BR>!!! IMPORTANT !!!<BR>=================<BR>2 test programs (out of 30) currently fail with this build:<BR><P><BR>mainloop-test fails in glib2 due to the pthread implemetation we are<BR>using, which is pth.  This is supposedly due to the fact that pth is<BR>cooperative library only, and glib2 wants a pre-emptive thread<BR>implemetation.<BR><P><BR>strtod-test looks like it fails due to the size of the integers being<BR>processed (just a wild guess).  Could also be a problem with Glib2 using it's<BR>own 'trio' support instead of native support.  More research needed.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root           477276 Jan 22  2004 /usr/lib/libglib-2.0.a
+-rwxr-xr-x    1 root    root              786 Jan 22  2004 /usr/lib/libglib-2.0.la
+-rw-r--r--    1 root    root             3432 Jan 22  2004 /usr/lib/libgmodule-2.0.a
+-rwxr-xr-x    1 root    root              819 Jan 22  2004 /usr/lib/libgmodule-2.0.la
+-rw-r--r--    1 root    root           234474 Jan 22  2004 /usr/lib/libgobject-2.0.a
+-rwxr-xr-x    1 root    root              819 Jan 22  2004 /usr/lib/libgobject-2.0.la
+-rw-r--r--    1 root    root             8884 Jan 22  2004 /usr/lib/libgthread-2.0.a
+-rwxr-xr-x    1 root    root              842 Jan 22  2004 /usr/lib/libgthread-2.0.la
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/glib2-2.2.3-1.m68kmint.rpm">Download</A></H2> (279,219 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

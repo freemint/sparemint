@@ -1,0 +1,99 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - polipo, version 1.0.4, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>polipo</H2>
+
+<UL> 
+<LI>Summary: polipo-1.0.4 Proxy Server<BR>
+<LI>URL: <A HREF="http://www.pps.jussieu.fr/~jch/software/polipo/">http://www.pps.jussieu.fr/~jch/software/polipo/</A><BR>
+<LI>Version: 1.0.4<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Network/Daemons">Network/Daemons</A>
+<LI>License: Free</BR>
+<LI>Installation size: 379,346 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>polipo = 1.0.4-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Aug  8 21:23:59 2010 UTC<BR>
+<LI>Upload date: Sun Aug  8 21:00:05 2010 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/polipo-1.0.4-2.src.rpm">polipo-1.0.4-2.src.rpm</A>  (186,665 bytes)<BR>
+<LI>Last change: Ole Loots &lt;ole@monochrom.net&gt; Sat Aug  7 12:00:00 2010 UTC<BR>
+- Initial Sparemint release of version 1.0.4, added config patch, fixed www docs
+<LI>Description:<BR>
+Polipo is a small and fast caching web proxy (a web cache, an HTTP<BR>proxy, a proxy server).<BR>By virtue of being a (mostly) compliant HTTP/1.1 proxy, Polipo has all<BR>the uses of traditional web proxies. It is typically used as a web proxy<BR>for a single computer or a small network, although there's no<BR>fundamental reason why it shouldn't be used by a larger one.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             4170 Aug  8 17:23 /etc/polipo/config
+-rw-r--r--    1 root    root              450 Aug  8 17:23 /etc/polipo/forbidden
+-rwxr-xr-x    1 root    root           359828 Aug  8 17:23 /usr/bin/polipo
+drwxr-xr-x    2 root    root                0 Aug  8 17:23 /usr/doc/polipo-1.0.4
+-rw-r--r--    1 root    root             1071 Jan  8  2008 /usr/doc/polipo-1.0.4/COPYING
+-rw-r--r--    1 root    root             2077 Jan  8  2008 /usr/doc/polipo-1.0.4/INSTALL
+-rw-r--r--    1 root    root              706 Jan  8  2008 /usr/doc/polipo-1.0.4/README
+-rw-r--r--    1 root    root             4170 Aug  8 17:13 /usr/doc/polipo-1.0.4/config.sample
+-rw-r--r--    1 root    root              450 Jan  8  2008 /usr/doc/polipo-1.0.4/forbidden.sample
+-rw-r--r--    1 root    root              970 Aug  8 17:23 /usr/share/man/man1/polipo.1.gz
+drwxr-xr-x    2 root    root                0 Aug  8 17:23 /usr/share/polipo/www/doc
+-rw-r--r--    1 root    root             2077 Aug  8 17:23 /usr/share/polipo/www/doc/index.html
+-rw-r--r--    1 root    root              305 Aug  8 17:23 /usr/share/polipo/www/index.html
+drwxr-xr-x    2 root    root                0 Aug  8 17:23 /var/cache/polipo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/polipo-1.0.4-2.m68kmint.rpm">Download</A></H2> (199,198 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Thu Dec 16 18:03:13 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

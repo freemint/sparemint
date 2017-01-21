@@ -1,0 +1,100 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - swatch, version 2.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>swatch</H2>
+
+<UL> 
+<LI>Summary: A utility for monitoring system logs files.<BR>
+
+<LI>Version: 2.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: Distributable</BR>
+<LI>Installation size: 129,498 bytes<BR>
+<LI>Operating system: FreeMiNT<BR>
+<LI>Provides:<UL>
+  <LI>swatch = 2.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>Perl  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Sep  7 11:04:56 1999 UTC<BR>
+<LI>Upload date: Tue Sep  7 11:10:50 1999 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/swatch-2.2-1.src.rpm">swatch-2.2-1.src.rpm</A>  (49,885 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Sat Sep  4 09:00:00 1999 UTC<BR>
+- First Release for SpareMiNT <BR>- added Vendor, Packager, Requires and german Summary/Description<BR>- compressed manpage
+<LI>Description:<BR>
+The Swatch utility monitors system log files, filters out unwanted data<BR>and takes specified actions (i.e., sending email, executing a script,<BR>etc.) based upon what it finds in the log files.<BR><P><BR>Install the swatch package if you need a program that will monitor log<BR>files and alert you in certain situations.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            13569 Sep  7  1999 /usr/bin/swatch
+drwxr-xr-x    2 root    root                0 Sep  7  1999 /usr/doc/swatch-2.2
+-rw-r--r--    1 root    root             1139 Dec 14  1995 /usr/doc/swatch-2.2/Changes
+-rw-r--r--    1 root    root             1613 Jan  5  1996 /usr/doc/swatch-2.2/README
+drwxr-xr-x    2 root    root                0 Dec 13  1995 /usr/doc/swatch-2.2/config_files
+-rw-r--r--    1 root    root             1132 May 25  1995 /usr/doc/swatch-2.2/config_files/swatchrc.monitor
+-rw-r--r--    1 root    root              720 May 25  1995 /usr/doc/swatch-2.2/config_files/swatchrc.personal
+-rw-r--r--    1 root    root             1064 May 25  1995 /usr/doc/swatch-2.2/config_files/syslog.conf-client
+-rw-r--r--    1 root    root             1641 May 25  1995 /usr/doc/swatch-2.2/config_files/syslog.conf-master
+-rw-r--r--    1 root    root             1870 May 25  1995 /usr/doc/swatch-2.2/config_files/syslog.conf-server
+-rw-r--r--    1 root    root            93368 Sep 28  1995 /usr/doc/swatch-2.2/lisa93_paper.ps
+-r--r--r--    1 root    root             2964 Sep  7  1999 /usr/lib/sw_actions.pl
+-r--r--r--    1 root    root             5819 Sep  7  1999 /usr/lib/sw_history.pl
+-r--r--r--    1 root    root             1490 Sep  7  1999 /usr/man/man5/swatch.5.gz
+-r--r--r--    1 root    root             1061 Sep  7  1999 /usr/man/man8/swatch.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/noarch/swatch-2.2-1.noarch.rpm">Download</A></H2> (46,486 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

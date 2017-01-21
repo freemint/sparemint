@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - pml, version 2.03, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>pml</H2>
+
+<UL> 
+<LI>Summary: Portable Math-Lib for C programs<BR>
+
+<LI>Version: 2.03<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 80,000 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>pml = 2.03-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Wed Jun  2 03:00:40 2010 UTC<BR>
+<LI>Upload date: Sun Jun 13 18:01:35 2010 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/pml-2.03-4.src.rpm">pml-2.03-4.src.rpm</A>  (69,785 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Jun  1 22:00:00 2010 UTC<BR>
+- Rebuild of PML to include math.h and also Coldfire support.  mshort <BR>- support has also been removed as noted from previous release.
+<LI>Description:<BR>
+These are the header files and static libraries from the Mathlib<BR>distribution.<BR><P><BR>If you want to develop software for MiNT or you want to use C++<BR>you have to install this package.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             9034 Jun  1 23:00 /usr/include/math.h
+-rw-r--r--    1 root    root             4544 Jun  1 23:00 /usr/include/pml.h
+-rw-r--r--    1 root    root            25934 Jun  1 23:00 /usr/lib/libm.a
+-rw-r--r--    1 root    root            20920 Jun  1 23:00 /usr/lib/m5475/libm.a
+?rwxrwxrwx    1 root    root                6 Jun  1 23:00 /usr/lib/m5475/libmv4e.a
+-rw-r--r--    1 root    root            19556 Jun  1 23:00 /usr/lib/m68020-60/libm.a
+?rwxrwxrwx    1 root    root                6 Jun  1 23:00 /usr/lib/m68020-60/libm020.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/pml-2.03-4.m68kmint.rpm">Download</A></H2> (25,729 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

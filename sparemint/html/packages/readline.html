@@ -1,0 +1,104 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - readline, version 4.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>readline</H2>
+
+<UL> 
+<LI>Summary: A library for editing typed in command lines.<BR>
+<LI>URL: <A HREF="http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html">http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html</A><BR>
+<LI>Version: 4.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,032,063 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>readline = 4.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed May 30 14:24:59 2001 UTC<BR>
+<LI>Upload date: Wed May 30 14:26:06 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/readline-4.2-1.src.rpm">readline-4.2-1.src.rpm</A>  (856,314 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Mon Mar 27 09:00:00 2000 UTC<BR>
+- rebuild against new MiNTLib 0.55
+<LI>Description:<BR>
+The readline library reads a line from the terminal and returns it,<BR>allowing the user to edit the line with standard emacs editing keys.<BR>The readline library allows programmers to provide an easy to use and<BR>more intuitive interface for users.<BR><P><BR>If you want to develop programs that will use the readline library,<BR>you'll also need to install the readline-devel package.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 May 30  2001 /usr/doc/readline-4.2
+-rw-r--r--    1 root    root            19223 Apr  3  2001 /usr/doc/readline-4.2/CHANGES
+-rw-r--r--    1 root    root            18008 Aug  5  1999 /usr/doc/readline-4.2/COPYING
+-rw-r--r--    1 root    root             6721 Apr  4  2001 /usr/doc/readline-4.2/README
+-rw-r--r--    1 root    root             2025 Jul 23  1999 /usr/doc/readline-4.2/USAGE
+-rw-r--r--    1 root    root            35957 Apr 16  2001 /usr/doc/readline-4.2/history.html
+-rw-r--r--    1 root    root           106882 Apr 16  2001 /usr/doc/readline-4.2/history.ps
+-rw-r--r--    1 root    root            42842 Apr 16  2001 /usr/doc/readline-4.2/history_3.ps
+-rw-r--r--    1 root    root           156971 Apr 16  2001 /usr/doc/readline-4.2/readline.html
+-rw-r--r--    1 root    root           318996 Apr 16  2001 /usr/doc/readline-4.2/readline.ps
+-rw-r--r--    1 root    root            70209 Mar  5  2001 /usr/doc/readline-4.2/readline_3.ps
+-rw-r--r--    1 root    root            50570 Apr 16  2001 /usr/doc/readline-4.2/rluserman.html
+-rw-r--r--    1 root    root           124744 Apr 16  2001 /usr/doc/readline-4.2/rluserman.ps
+-rw-r--r--    1 root    root             8662 May 30  2001 /usr/info/history.info.gz
+-rw-r--r--    1 root    root            37194 May 30  2001 /usr/info/readline.info.gz
+-rw-r--r--    1 root    root            13404 May 30  2001 /usr/info/rluserman.info.gz
+-rw-r--r--    1 root    root             7138 May 30  2001 /usr/share/man/man3/history.3.gz
+-rw-r--r--    1 root    root            11493 May 30  2001 /usr/share/man/man3/readline.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/readline-4.2-1.m68kmint.rpm">Download</A></H2> (388,074 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

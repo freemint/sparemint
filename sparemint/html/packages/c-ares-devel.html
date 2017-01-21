@@ -1,0 +1,143 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - c-ares-devel, version 1.7.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>c-ares-devel</H2>
+
+<UL> 
+<LI>Summary: A library that performs asynchronous DNS operations<BR>
+<LI>URL: <A HREF="http://daniel.haxx.se/projects/c-ares/">http://daniel.haxx.se/projects/c-ares/</A><BR>
+<LI>Version: 1.7.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: MIT</BR>
+<LI>Installation size: 423,641 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>c-ares-devel = 1.7.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: :<BR>
+<LI>Build date: Fri Mar  9 20:31:39 2012 UTC<BR>
+<LI>Upload date: Fri Mar  9 19:49:54 2012 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/c-ares-1.7.5-1.src.rpm">c-ares-1.7.5-1.src.rpm</A>  (746,404 bytes)<BR>
+<LI>Last change: Ole Loots &lt;ole@monochrom.net&gt; Tue Mar  6 12:00:00 2012 UTC<BR>
+- initial package creation
+<LI>Description:<BR>
+<BR>c-ares is a C library that performs DNS requests and name resolves<BR>asynchronously. c-ares is a fork of the library named 'ares', written<BR>by Greg Hudson at MIT.<BR><P><BR>This package contains the header files and static libraries needed to<BR>compile applications that use c-ares.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Mar  9  2012 /usr/doc/c-ares-devel-1.7.5
+-rw-r--r--    1 root    root            47192 Aug 16  2011 /usr/doc/c-ares-devel-1.7.5/CHANGES
+-rw-r--r--    1 root    root              854 Mar 23  2010 /usr/doc/c-ares-devel-1.7.5/NEWS
+-rw-r--r--    1 root    root             2625 Mar 25  2010 /usr/doc/c-ares-devel-1.7.5/README
+-rw-r--r--    1 root    root              535 Mar 23  2010 /usr/doc/c-ares-devel-1.7.5/README.cares
+-rw-r--r--    1 root    root             1017 Aug 16  2011 /usr/doc/c-ares-devel-1.7.5/RELEASE-NOTES
+-rw-r--r--    1 root    root            18996 Mar  9  2012 /usr/include/ares.h
+-rw-r--r--    1 root    root             4190 Mar  9  2012 /usr/include/ares_build.h
+-rw-r--r--    1 root    root             4669 Mar  9  2012 /usr/include/ares_dns.h
+-rw-r--r--    1 root    root             4804 Mar  9  2012 /usr/include/ares_rules.h
+-rw-r--r--    1 root    root              646 Mar  9  2012 /usr/include/ares_version.h
+-rw-r--r--    1 root    root            81196 Mar  9  2012 /usr/lib/libcares.a
+-rwxr-xr-x    1 root    root              873 Mar  9  2012 /usr/lib/libcares.la
+-rw-r--r--    1 root    root            98372 Mar  9  2012 /usr/lib/m5475/libcares.a
+-rwxr-xr-x    1 root    root              879 Mar  9  2012 /usr/lib/m5475/libcares.la
+-rw-r--r--    1 root    root              565 Mar  9  2012 /usr/lib/m5475/pkgconfig/libcares.pc
+-rw-r--r--    1 root    root           106684 Mar  9  2012 /usr/lib/m68020-60/libcares.a
+-rwxr-xr-x    1 root    root              883 Mar  9  2012 /usr/lib/m68020-60/libcares.la
+-rw-r--r--    1 root    root              569 Mar  9  2012 /usr/lib/m68020-60/pkgconfig/libcares.pc
+-rw-r--r--    1 root    root              559 Mar  9  2012 /usr/lib/pkgconfig/libcares.pc
+-rw-r--r--    1 root    root              799 Mar  9  2012 /usr/share/man/man3/ares_cancel.3.gz
+-rw-r--r--    1 root    root              772 Mar  9  2012 /usr/share/man/man3/ares_destroy.3.gz
+-rw-r--r--    1 root    root              649 Mar  9  2012 /usr/share/man/man3/ares_destroy_options.3.gz
+-rw-r--r--    1 root    root              830 Mar  9  2012 /usr/share/man/man3/ares_dup.3.gz
+-rw-r--r--    1 root    root             1011 Mar  9  2012 /usr/share/man/man3/ares_expand_name.3.gz
+-rw-r--r--    1 root    root              981 Mar  9  2012 /usr/share/man/man3/ares_expand_string.3.gz
+-rw-r--r--    1 root    root              927 Mar  9  2012 /usr/share/man/man3/ares_fds.3.gz
+-rw-r--r--    1 root    root              974 Mar  9  2012 /usr/share/man/man3/ares_free_data.3.gz
+-rw-r--r--    1 root    root              786 Mar  9  2012 /usr/share/man/man3/ares_free_hostent.3.gz
+-rw-r--r--    1 root    root              628 Mar  9  2012 /usr/share/man/man3/ares_free_string.3.gz
+-rw-r--r--    1 root    root             1375 Mar  9  2012 /usr/share/man/man3/ares_get_servers.3.gz
+-rw-r--r--    1 root    root             1358 Mar  9  2012 /usr/share/man/man3/ares_gethostbyaddr.3.gz
+-rw-r--r--    1 root    root             1424 Mar  9  2012 /usr/share/man/man3/ares_gethostbyname.3.gz
+-rw-r--r--    1 root    root             1252 Mar  9  2012 /usr/share/man/man3/ares_gethostbyname_file.3.gz
+-rw-r--r--    1 root    root             1731 Mar  9  2012 /usr/share/man/man3/ares_getnameinfo.3.gz
+-rw-r--r--    1 root    root             1064 Mar  9  2012 /usr/share/man/man3/ares_getsock.3.gz
+-rw-r--r--    1 root    root             2955 Mar  9  2012 /usr/share/man/man3/ares_init.3.gz
+-rw-r--r--    1 root    root               41 Mar  9  2012 /usr/share/man/man3/ares_init_options.3.gz
+-rw-r--r--    1 root    root             1311 Mar  9  2012 /usr/share/man/man3/ares_library_cleanup.3.gz
+-rw-r--r--    1 root    root             1703 Mar  9  2012 /usr/share/man/man3/ares_library_init.3.gz
+-rw-r--r--    1 root    root             1220 Mar  9  2012 /usr/share/man/man3/ares_mkquery.3.gz
+-rw-r--r--    1 root    root             1127 Mar  9  2012 /usr/share/man/man3/ares_parse_a_reply.3.gz
+-rw-r--r--    1 root    root             1102 Mar  9  2012 /usr/share/man/man3/ares_parse_aaaa_reply.3.gz
+-rw-r--r--    1 root    root             1106 Mar  9  2012 /usr/share/man/man3/ares_parse_mx_reply.3.gz
+-rw-r--r--    1 root    root             1036 Mar  9  2012 /usr/share/man/man3/ares_parse_ns_reply.3.gz
+-rw-r--r--    1 root    root             1077 Mar  9  2012 /usr/share/man/man3/ares_parse_ptr_reply.3.gz
+-rw-r--r--    1 root    root             1149 Mar  9  2012 /usr/share/man/man3/ares_parse_srv_reply.3.gz
+-rw-r--r--    1 root    root             1140 Mar  9  2012 /usr/share/man/man3/ares_parse_txt_reply.3.gz
+-rw-r--r--    1 root    root             1274 Mar  9  2012 /usr/share/man/man3/ares_process.3.gz
+-rw-r--r--    1 root    root             1728 Mar  9  2012 /usr/share/man/man3/ares_query.3.gz
+-rw-r--r--    1 root    root             1251 Mar  9  2012 /usr/share/man/man3/ares_save_options.3.gz
+-rw-r--r--    1 root    root             1803 Mar  9  2012 /usr/share/man/man3/ares_search.3.gz
+-rw-r--r--    1 root    root             1543 Mar  9  2012 /usr/share/man/man3/ares_send.3.gz
+-rw-r--r--    1 root    root             1444 Mar  9  2012 /usr/share/man/man3/ares_set_servers.3.gz
+-rw-r--r--    1 root    root              493 Mar  9  2012 /usr/share/man/man3/ares_set_socket_callback.3.gz
+-rw-r--r--    1 root    root              685 Mar  9  2012 /usr/share/man/man3/ares_strerror.3.gz
+-rw-r--r--    1 root    root              923 Mar  9  2012 /usr/share/man/man3/ares_timeout.3.gz
+-rw-r--r--    1 root    root              765 Mar  9  2012 /usr/share/man/man3/ares_version.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/c-ares-devel-1.7.5-1.m68kmint.rpm">Download</A></H2> (193,136 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

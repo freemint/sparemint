@@ -1,0 +1,37 @@
+distributed archives:
+=====================
+
+Binary:
+-------
+freemint-1.15.12-doc.tar.gz        - only the documentation
+freemint-1.15.12-kernel-000.tar.gz - only the 000 kernel
+freemint-1.15.12-kernel-030.tar.gz - only the 030 kernel
+freemint-1.15.12-kernel-040.tar.gz - only the 040/060 kernel
+freemint-1.15.12-kernel-mil.tar.gz - only the Milan kernel
+freemint-1.15.12-kernels.tar.gz    - all kernels (000, 030, 040, Milan) + doc
+freemint-1.15.12-modules.tar.gz    - all modules (sockets, xdd, xfs)
+freemint-1.15.12-tools.tar.gz      - all tools
+
+freemint-1.15.12-all.tar.gz        - all the things above in one archive
+
+freemint-unsupported.tar.gz        - severals not official supported tools:
+                                     cachesetter, mintsetter, shutdown, sms,
+                                     crypt, gem-mkfatfs
+
+If you want LHarc packed files please look into the lzh subdir!
+
+Sources:
+--------
+freemint-1.15.12-src.tar.gz        - the complete source code
+                                    
+from CVS server you get this with:
+cvs checkout -r release-1_15_12 freemint
+
+Please see on the Sparemint CVS pages for more informations how to use CVS:
+http://wh58-508.st.uni-magdeburg.de/sparemint/cvs.html
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 31.07.2001

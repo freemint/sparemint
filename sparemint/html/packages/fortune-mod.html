@@ -1,0 +1,165 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - fortune-mod, version 1.0, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>fortune-mod</H2>
+
+<UL> 
+<LI>Summary: fortune cookie program with bug fixes<BR>
+
+<LI>Version: 1.0<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Games">Games</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 2,545,119 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>fortune-mod = 1.0-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Aug 12 21:21:29 1999 UTC<BR>
+<LI>Upload date: Sun Aug 22 11:38:03 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/fortune-mod-1.0-2.src.rpm">fortune-mod-1.0-2.src.rpm</A>  (1,416,038 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;gufl0000@stud.uni-sb.de&gt; Wed Aug 11 09:00:00 1999 UTC<BR>
+- Changed vendor to Sparemint.
+<LI>Description:<BR>
+This is the ever popular fortune program.  It will gladly print<BR>a random fortune when run.  Is usually fun to put in the .login<BR>for your users on a system so they see something new every time<BR>they log in.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Aug 12  1999 /usr/doc/fortune-mod-1.0
+-rw-r--r--    1 root    root            13133 Aug 29  1997 /usr/doc/fortune-mod-1.0/ChangeLog
+-rw-r--r--    1 root    root             7381 Aug 28  1997 /usr/doc/fortune-mod-1.0/README
+-rw-r--r--    1 root    root               75 May 26  1997 /usr/doc/fortune-mod-1.0/TODO
+-rwxr-xr-x    1 root    root            79595 Aug 12  1999 /usr/games/fortune
+-rw-r--r--    1 root    root             3438 Aug 12  1999 /usr/man/man1/strfile.1.gz
+-rw-r--r--    1 root    root             4964 Aug 12  1999 /usr/man/man6/fortune.6.gz
+-rwxr-xr-x    1 root    root            54531 Aug 12  1999 /usr/sbin/strfile
+-rwxr-xr-x    1 root    root            50369 Aug 12  1999 /usr/sbin/unstr
+drwxr-xr-x    2 root    root                0 Aug 12  1999 /usr/share/games/fortunes
+-rw-r--r--    1 root    root            84061 Aug 12  1999 /usr/share/games/fortunes/art
+-rw-r--r--    1 root    root             1868 Aug 12  1999 /usr/share/games/fortunes/art.dat
+-rw-r--r--    1 root    root             5894 Aug 12  1999 /usr/share/games/fortunes/ascii-art
+-rw-r--r--    1 root    root               68 Aug 12  1999 /usr/share/games/fortunes/ascii-art.dat
+-rw-r--r--    1 root    root           231737 Aug 12  1999 /usr/share/games/fortunes/computers
+-rw-r--r--    1 root    root             4112 Aug 12  1999 /usr/share/games/fortunes/computers.dat
+-rw-r--r--    1 root    root           245182 Aug 12  1999 /usr/share/games/fortunes/cookie
+-rw-r--r--    1 root    root             4588 Aug 12  1999 /usr/share/games/fortunes/cookie.dat
+-rw-r--r--    1 root    root           157088 Aug 12  1999 /usr/share/games/fortunes/definitions
+-rw-r--r--    1 root    root             4448 Aug 12  1999 /usr/share/games/fortunes/definitions.dat
+-rw-r--r--    1 root    root            40926 Aug 12  1999 /usr/share/games/fortunes/drugs
+-rw-r--r--    1 root    root              860 Aug 12  1999 /usr/share/games/fortunes/drugs.dat
+-rw-r--r--    1 root    root            39264 Aug 12  1999 /usr/share/games/fortunes/education
+-rw-r--r--    1 root    root              840 Aug 12  1999 /usr/share/games/fortunes/education.dat
+-rw-r--r--    1 root    root            34626 Aug 12  1999 /usr/share/games/fortunes/ethnic
+-rw-r--r--    1 root    root              680 Aug 12  1999 /usr/share/games/fortunes/ethnic.dat
+-rw-r--r--    1 root    root            34383 Aug 12  1999 /usr/share/games/fortunes/food
+-rw-r--r--    1 root    root              820 Aug 12  1999 /usr/share/games/fortunes/food.dat
+-rw-r--r--    1 root    root            24620 Aug 12  1999 /usr/share/games/fortunes/fortunes
+-rw-r--r--    1 root    root             1760 Aug 12  1999 /usr/share/games/fortunes/fortunes.dat
+-rw-r--r--    1 root    root             7391 Aug 12  1999 /usr/share/games/fortunes/goedel
+-rw-r--r--    1 root    root              244 Aug 12  1999 /usr/share/games/fortunes/goedel.dat
+-rw-r--r--    1 root    root            41917 Aug 12  1999 /usr/share/games/fortunes/humorists
+-rw-r--r--    1 root    root              812 Aug 12  1999 /usr/share/games/fortunes/humorists.dat
+-rw-r--r--    1 root    root            28570 Aug 12  1999 /usr/share/games/fortunes/kids
+-rw-r--r--    1 root    root              628 Aug 12  1999 /usr/share/games/fortunes/kids.dat
+-rw-r--r--    1 root    root            54600 Aug 12  1999 /usr/share/games/fortunes/law
+-rw-r--r--    1 root    root              836 Aug 12  1999 /usr/share/games/fortunes/law.dat
+-rw-r--r--    1 root    root            19725 Aug 12  1999 /usr/share/games/fortunes/linuxcookie
+-rw-r--r--    1 root    root              448 Aug 12  1999 /usr/share/games/fortunes/linuxcookie.dat
+-rw-r--r--    1 root    root            49777 Aug 12  1999 /usr/share/games/fortunes/literature
+-rw-r--r--    1 root    root             1052 Aug 12  1999 /usr/share/games/fortunes/literature.dat
+-rw-r--r--    1 root    root            20495 Aug 12  1999 /usr/share/games/fortunes/love
+-rw-r--r--    1 root    root              632 Aug 12  1999 /usr/share/games/fortunes/love.dat
+-rw-r--r--    1 root    root             9819 Aug 12  1999 /usr/share/games/fortunes/magic
+-rw-r--r--    1 root    root              144 Aug 12  1999 /usr/share/games/fortunes/magic.dat
+-rw-r--r--    1 root    root            19192 Aug 12  1999 /usr/share/games/fortunes/medicine
+-rw-r--r--    1 root    root              316 Aug 12  1999 /usr/share/games/fortunes/medicine.dat
+-rw-r--r--    1 root    root           101850 Aug 12  1999 /usr/share/games/fortunes/men-women
+-rw-r--r--    1 root    root             2356 Aug 12  1999 /usr/share/games/fortunes/men-women.dat
+-rw-r--r--    1 root    root            46898 Aug 12  1999 /usr/share/games/fortunes/miscellaneous
+-rw-r--r--    1 root    root             2604 Aug 12  1999 /usr/share/games/fortunes/miscellaneous.dat
+-rw-r--r--    1 root    root            11330 Aug 12  1999 /usr/share/games/fortunes/news
+-rw-r--r--    1 root    root              240 Aug 12  1999 /usr/share/games/fortunes/news.dat
+-rw-r--r--    1 root    root           150451 Aug 12  1999 /usr/share/games/fortunes/people
+-rw-r--r--    1 root    root             4952 Aug 12  1999 /usr/share/games/fortunes/people.dat
+-rw-r--r--    1 root    root             7014 Aug 12  1999 /usr/share/games/fortunes/pets
+-rw-r--r--    1 root    root              232 Aug 12  1999 /usr/share/games/fortunes/pets.dat
+-rw-r--r--    1 root    root            35345 Aug 12  1999 /usr/share/games/fortunes/platitudes
+-rw-r--r--    1 root    root             2016 Aug 12  1999 /usr/share/games/fortunes/platitudes.dat
+-rw-r--r--    1 root    root           111952 Aug 12  1999 /usr/share/games/fortunes/politics
+-rw-r--r--    1 root    root             2796 Aug 12  1999 /usr/share/games/fortunes/politics.dat
+-rw-r--r--    1 root    root            21165 Aug 12  1999 /usr/share/games/fortunes/riddles
+-rw-r--r--    1 root    root              568 Aug 12  1999 /usr/share/games/fortunes/riddles.dat
+-rw-r--r--    1 root    root           129191 Aug 12  1999 /usr/share/games/fortunes/science
+-rw-r--r--    1 root    root             2516 Aug 12  1999 /usr/share/games/fortunes/science.dat
+-rw-r--r--    1 root    root           233802 Aug 12  1999 /usr/share/games/fortunes/songs-poems
+-rw-r--r--    1 root    root             2904 Aug 12  1999 /usr/share/games/fortunes/songs-poems.dat
+-rw-r--r--    1 root    root            37322 Aug 12  1999 /usr/share/games/fortunes/sports
+-rw-r--r--    1 root    root              616 Aug 12  1999 /usr/share/games/fortunes/sports.dat
+-rw-r--r--    1 root    root            30003 Aug 12  1999 /usr/share/games/fortunes/startrek
+-rw-r--r--    1 root    root              928 Aug 12  1999 /usr/share/games/fortunes/startrek.dat
+-rw-r--r--    1 root    root             1928 Aug 12  1999 /usr/share/games/fortunes/translate-me
+-rw-r--r--    1 root    root              104 Aug 12  1999 /usr/share/games/fortunes/translate-me.dat
+-rw-r--r--    1 root    root            58845 Aug 12  1999 /usr/share/games/fortunes/wisdom
+-rw-r--r--    1 root    root             1636 Aug 12  1999 /usr/share/games/fortunes/wisdom.dat
+-rw-r--r--    1 root    root           106970 Aug 12  1999 /usr/share/games/fortunes/work
+-rw-r--r--    1 root    root             2548 Aug 12  1999 /usr/share/games/fortunes/work.dat
+-rw-r--r--    1 root    root            38980 Aug 12  1999 /usr/share/games/fortunes/zippy
+-rw-r--r--    1 root    root             2220 Aug 12  1999 /usr/share/games/fortunes/zippy.dat
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/fortune-mod-1.0-2.m68kmint.rpm">Download</A></H2> (1,116,927 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

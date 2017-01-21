@@ -1,0 +1,107 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - arpwatch, version 2.1a11, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>arpwatch</H2>
+
+<UL> 
+<LI>Summary: Network monitoring tools for tracking IP addresses on a network.<BR>
+<LI>URL: <A HREF="http://www.tcpdump.org/">http://www.tcpdump.org/</A><BR>
+<LI>Version: 2.1a11<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 464,705 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>arpwatch = 2.1a11-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 28 14:32:48 2001 UTC<BR>
+<LI>Upload date: Fri Sep 28 14:33:20 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcpdump-3.6.2-2.src.rpm">tcpdump-3.6.2-2.src.rpm</A>  (766,290 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Sep 28 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The arpwatch package contains arpwatch and arpsnmp. Arpwatch and<BR>arpsnmp are both network monitoring tools. Both utilities monitor<BR>Ethernet or FDDI network traffic and build databases of Ethernet/IP<BR>address pairs, and can report certain changes via email.<BR><P><BR>Install the arpwatch package if you need networking monitoring devices<BR>which will automatically keep track of the IP addresses on your<BR>network.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              995 Sep 28  2001 /etc/rc.d/init.d/arpwatch
+-rw-r--r--    1 root    root               18 Sep 28  2001 /etc/sysconfig/arpwatch
+drwxr-xr-x    2 root    root                0 Sep 28  2001 /usr/doc/arpwatch-2.1a11
+-r--r--r--    1 root    root             4037 May 16  2001 /usr/doc/arpwatch-2.1a11/CHANGES
+-r--r--r--    1 root    root             1742 Oct  8  2000 /usr/doc/arpwatch-2.1a11/README
+-rwxr-xr-x    1 root    root           172133 Sep 28  2001 /usr/sbin/arpsnmp
+-rwxr-xr-x    1 root    root           247094 Sep 28  2001 /usr/sbin/arpwatch
+-rw-r--r--    1 root    root             1427 Sep 28  2001 /usr/share/man/man8/arpsnmp.8.gz
+-rw-r--r--    1 root    root             2296 Sep 28  2001 /usr/share/man/man8/arpwatch.8.gz
+-rw-r--r--    1 pcap    pcap                0 Sep 28  2001 /var/arpwatch/arp.dat
+-rwxr-xr-x    1 pcap    pcap              659 Sep 28  2001 /var/arpwatch/arp2ethers
+-rwxr-xr-x    1 pcap    pcap              841 Sep 28  2001 /var/arpwatch/arpfetch
+-rw-r--r--    1 pcap    pcap              315 Sep 28  2001 /var/arpwatch/d.awk
+-rw-r--r--    1 pcap    pcap              333 Sep 28  2001 /var/arpwatch/duplicates.awk
+-rw-r--r--    1 pcap    pcap              219 Sep 28  2001 /var/arpwatch/e.awk
+-rw-r--r--    1 pcap    pcap            28060 Sep 28  2001 /var/arpwatch/ethercodes.dat
+-rw-r--r--    1 pcap    pcap              351 Sep 28  2001 /var/arpwatch/euppertolower.awk
+-rwxr-xr-x    1 pcap    pcap              763 Sep 28  2001 /var/arpwatch/massagevendor
+-rwxr-xr-x    1 pcap    pcap              595 Sep 28  2001 /var/arpwatch/massagevendor-old
+-rw-r--r--    1 pcap    pcap             1704 Sep 28  2001 /var/arpwatch/missingcodes.txt
+-rw-r--r--    1 pcap    pcap               99 Sep 28  2001 /var/arpwatch/p.awk
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/arpwatch-2.1a11-2.m68kmint.rpm">Download</A></H2> (226,033 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

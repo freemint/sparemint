@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<link rel="stylesheet" href="./sparemint.css" type="text/css"><title>SpareMiNT and the FreeMiNT Software Archive - How To
+Mirror</title>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+<!--
+function decode_mt(s) { //
+var n=0;
+var r="";
+for(var i=0; i < s.length; i++) {
+n=s.charCodeAt(i);
+if (n>=8364) {n = 128;}
+r += String.fromCharCode(n-(1));
+}
+return r;
+}
+function linkto_decode_mt(s) { //
+location.href=decode_mt(s);
+}
+// -->
+/*]]>*/
+</script>
+</head>
+
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="html/images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="index.html">Home</a><img src="html/images/leaf-bullet.gif"> <a href="info.html">Information</a> <img src="html/images/leaf-bullet.gif"> <a href="NEWS.html">News</a>
+<img src="html/images/leaf-bullet.gif"> <a href="development.html">Development</a> <img src="html/images/leaf-bullet.gif"> <a href="download.html">Download</a>
+<img src="html/images/leaf-bullet.gif"> <a href="mirrors.html">Mirrors</a></h4>
+<h2><big>How To Mirror Sparemint</big></h2>
+<hr style="width: 100%; height: 2px;">
+<em><b>Note:</b> This page is mainly intended for ftp
+site maintainers
+that want to mirror the Sparemint site. Of course, as an "ordinary"
+user you may also use the information found here to keep an always
+up-to-date copy of the Sparemint site at home, on your private machine
+or
+as a distributor you may auto-update your CD-ROM source directory.
+</em>
+<p><em>
+However, please be gentle, and unless you really offer a public mirror
+site for Sparemint, rather use these mirror sites for updating your
+private Sparemint copy. <b>If the load on the Sparemint home
+server
+is getting too high it is very likely that public access to the
+server either gets completely forbidden or restricted to certain
+hours!</b>
+</em></p>
+<p>
+</p>
+<h2>General</h2>
+If you are an experienced ftp maintainer you will probably find better
+ways to mirror Sparemint than the ones outlined here. However, the
+first step before you start to mirror Sparemint should always be
+to <a href="./contacts.html">contact</a> the
+Sparemint team so that
+mirror frequencies and schedules can be harmonized.
+<p>In the following examples, please always replace
+</p>
+<p>
+</p>
+<ul>
+<li>
+<pre>MY_PASSWORD</pre>
+with the e-mail address of the person responsible for the Sparemint
+mirror at your site or with the password you have been assigned by the
+Sparemint team
+<p> </p>
+</li>
+<li>
+<pre>MY_HOST</pre>
+with the fully-qualified domain name of your host (if available). </li>
+</ul>
+<p>
+Please specify a valid e-mail address as your remote password even
+if you "privately" mirror Sparemint so that we have a chance to
+contact you in case you unintentionally disturb the maintainance of
+this site with your mirroring activities.
+</p>
+<h2>Frequencies and Schedules</h2>
+It is up to you how often you mirror Sparemint but you should tell
+us so that we can give information about the mirroring frequency
+on our <a href="mirrors.html">mirrors</a> page. In
+case you mirror Sparemint on a regular basis with a cron job you should
+also negotiate the best time of the day for the mirror job to
+avoid load peaks.
+<p>Please avoid office hours in Europe for private mirroring.
+</p>
+<h2>Available Mirroring Software</h2>
+This page outlines the usage of the popular mirroring software
+<a href="html/packages/mirror.html">mirror</a>. The
+package
+is available on the Sparemint site as either a precompiled packages for
+MiNT as well as a source RPM (simply follow the link in the
+last senctence). The <a href="html/packages/mirror.html">mirror</a>
+package is a set of Perl scripts. It should run on every system that is
+supported by Perl, including Microsoft Windows Systems.
+<h3>Package File</h3>
+First create a package file <tt>/etc/mirror.sparemint</tt>:
+<code></code>
+<pre>package=sparemint<br> remote_password=your_email_address<br> remote_dir=/pub/sparemint<br> site=wh58-508.st.uni-magdeburg.de<br> local_dir=YOUR_DIR<br> update_log=YOUR_LOGFILE<br> exclude_patt=.*~|^expired|.*core$|#.*#$|.*\.tmp$|^LOP$<br> make_bad_symlinks=false<br> save_deletes=false<br> do_deletes=true<br> recursive=true<br> </pre>
+<h3>Test</h3>
+You should first try a dry run with the command: <code></code>
+<pre> mirror -n -d /etc/mirror.sparemint | less<br> </pre>
+You may repeat the option <code>-d</code> up to four times
+thus increasing the amount of debugging information. The option <code>-n</code>
+inhibits actual retrieval of the files. The mirror program only
+displays what it <em>would</em> do. As soon as the program
+works as supposed to you should add a cron job for it (of course you
+should remove the options <code>-d -n</code> then).
+<h3>Caveats</h3>
+The <a href="sitebin/buildsite.html">script</a>
+that generates most of the files of the Sparemint site tries its best
+not to overwrite files that haven't changed so that you can mirror
+Sparemint based on the timestamps. Some files that do not change (or
+don't change significantly) however get overwritten on every script
+run. As a private mirror you should consider to exclude the files <tt>html/*.html</tt>
+from the main package file and create a second package file which
+retrieves them based on the file size.
+<p> Another caveat of the mirror program in general is that you
+cannot easily see which site you actually mirror. <a href="http://www.redhat.com/">RedHat Software</a>
+suggests the following patch to mirror: </p>
+<pre><code><br>--- mirror.old Fri Feb 27 09:22:20 1998<br>+++ mirror Fri Feb 27 09:47:59 1998<br>@@ -866,7 +866,10 @@<br>local( $key, $val, $str );<br>&amp;msg( $msg );<br>- &amp;msg( "package=$package $site:$remote_dir -&gt; $local_dir\n\t" );<br>+ $HOSTNUM = gethostbyname($site);<br>+ @HOSTNAME = unpack('C4',$HOSTNUM);<br>+ $HOSTNAME = join('.',@HOSTNAME);<br>+ &amp;msg( "package=$package $site($HOSTNAME):$remote_dir -&gt; $local_dir\n\t);<br>for $key (sort keys( %value ) ){<br>next if $key eq 'package' ||<br>@@ -941,7 +944,10 @@<br>&amp;pr_variables( "\n" );<br>}<br>elsif( $package %% ! $pretty_print ){<br>- &amp;msg( "package=$package $site:$remote_dir -&gt; $local_dir\n");<br>+ $HOSTNUM = gethostbyname($site);<br>+ @HOSTNAME = unpack('C4',$HOSTNUM);<br>+ $HOSTNAME = join('.',@HOSTNAME);<br>+ &amp;msg( "package=$package $site($HOSTNAME):$remote_dir -&gt; $local_dir\n\t);<br>}<br># Don't bother if trying to mirror here!<br></code></pre>
+It is currently not possible to use rsync to mirror Sparemint. If this
+is an issue for you please <a href="contacts.html">contact</a>
+the Sparemint team.
+<p>Please contact Guido Flohr <a href="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">&lt;guido(at)freemint.de&gt;</a>
+for corrections or suggestions.
+</p>
+<hr>
+<div align="right"> <a href="index.html" alt="Top"><img src="html/images/top.gif" border="0" height="40" width="40"></a></div>
+</body></html>

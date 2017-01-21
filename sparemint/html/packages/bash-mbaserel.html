@@ -1,0 +1,282 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bash-mbaserel, version 2.03, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bash-mbaserel</H2>
+
+<UL> 
+<LI>Summary: The GNU Bourne Again shell (bash) compiled with -mbaserel.<BR>
+
+<LI>Version: 2.03<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Shells">System Environment/Shells</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,399,943 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>bash  <BR>
+  <LI>/bin/sh  <BR>
+  <LI>bash-mbaserel = 2.03-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Aug 25 03:36:40 1999 UTC<BR>
+<LI>Upload date: Thu Aug 26 02:50:30 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bash-mbaserel-2.03-2.src.rpm">bash-mbaserel-2.03-2.src.rpm</A>  (1,576,377 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;gufl0000@stud.uni-sb.de&gt; Tue Aug 24 09:00:00 1999 UTC<BR>
+- Removed conflict with `bash' because it only causes problems with <BR>  dependencies for bash.  Besides, the packages conflict in any casei<BR>  (and rpm will detect that) because the installed files are identical.<BR>- Added verify script.<BR>- builtins.1 now includes bash.1.gz instead of bash.1 (gzipped manpage).
+<LI>Description:<BR>
+Bash is a GNU project sh-compatible shell or command language<BR>interpreter. Bash (Bourne Again shell) incorporates useful features<BR>from the Korn shell (ksh) and the C shell (csh). Most sh scripts<BR>can be run by bash without modification.<BR><P><BR>Bash offers several improvements over sh, including command line<BR>editing, unlimited size command history, job control, shell<BR>functions and aliases, indexed arrays of unlimited size and<BR>integer arithmetic in any base from two to 64. Bash is ultimately<BR>intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and<BR>Tools standard.<BR><P><BR>This version has been compiled with -mbaserel.  It will not run with<BR>68040 or 68060 processors.  Install `bash' instead.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    2 root    root           399215 Aug 24  1999 /bin/bash
+-rwxr-xr-x    2 root    root           399215 Aug 24  1999 /bin/sh
+-rwxr-xr-x    1 root    root             3237 Aug 24  1999 /usr/bin/bashbug
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03
+-rw-r--r--    1 root    root            71406 Feb 18  1999 /usr/doc/bash-mbaserel-2.03/CHANGES
+-rw-r--r--    1 root    root             5028 Dec 29  1998 /usr/doc/bash-mbaserel-2.03/COMPAT
+-rw-r--r--    1 root    root            48996 Feb 18  1999 /usr/doc/bash-mbaserel-2.03/FAQ
+-rw-r--r--    1 root    root             7072 Feb 17  1999 /usr/doc/bash-mbaserel-2.03/INTRO
+-rw-r--r--    1 root    root            19812 Feb 19  1999 /usr/doc/bash-mbaserel-2.03/NEWS
+-rw-r--r--    1 root    root            10209 Jan 13  1999 /usr/doc/bash-mbaserel-2.03/NOTES
+-rw-r--r--    1 root    root             4057 Oct 20  1998 /usr/doc/bash-mbaserel-2.03/POSIX.NOTES
+-rw-r--r--    1 root    root             3406 Nov 19  1998 /usr/doc/bash-mbaserel-2.03/README
+-rw-r--r--    1 root    root              227 Jan 26  1999 /usr/doc/bash-mbaserel-2.03/Y2K
+-rw-r--r--    1 root    root            41762 Oct 19  1994 /usr/doc/bash-mbaserel-2.03/article.ms
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/bashdb
+-r--r--r--    1 root    root             1253 Aug  1  1995 /usr/doc/bash-mbaserel-2.03/bashdb/PERMISSION
+-rw-r--r--    1 root    root              289 Jul 31  1995 /usr/doc/bash-mbaserel-2.03/bashdb/README
+-rw-r--r--    1 root    root              772 Jan 17  1997 /usr/doc/bash-mbaserel-2.03/bashdb/bashdb
+-rw-r--r--    1 root    root             4987 Jan 22  1997 /usr/doc/bash-mbaserel-2.03/bashdb/bashdb.fns
+-rw-r--r--    1 root    root              813 Jan 17  1997 /usr/doc/bash-mbaserel-2.03/bashdb/bashdb.pre
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/functions
+-rw-r--r--    1 root    root             2637 Sep 12  1994 /usr/doc/bash-mbaserel-2.03/functions/autoload
+-rw-r--r--    1 root    root             4029 Oct  8  1996 /usr/doc/bash-mbaserel-2.03/functions/autoload.v2
+-rw-r--r--    1 root    root             2598 Aug 25  1998 /usr/doc/bash-mbaserel-2.03/functions/autoload.v3
+-rw-r--r--    1 root    root              645 Dec 30  1991 /usr/doc/bash-mbaserel-2.03/functions/basename
+-rw-r--r--    1 root    root              762 Feb  6  1998 /usr/doc/bash-mbaserel-2.03/functions/basename2
+-rw-r--r--    1 root    root              867 Jul 18  1996 /usr/doc/bash-mbaserel-2.03/functions/csh-compat
+-rw-r--r--    1 root    root             2509 Jul 21  1994 /usr/doc/bash-mbaserel-2.03/functions/dirfuncs
+-rw-r--r--    1 root    root              573 Dec 30  1991 /usr/doc/bash-mbaserel-2.03/functions/dirname
+-rw-r--r--    1 root    root              616 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/exitstat
+-rw-r--r--    1 root    root             1338 Dec 30  1991 /usr/doc/bash-mbaserel-2.03/functions/external
+-rw-r--r--    1 root    root              303 Dec 30  1991 /usr/doc/bash-mbaserel-2.03/functions/fact
+-rw-r--r--    1 root    root             1053 Jan 13  1992 /usr/doc/bash-mbaserel-2.03/functions/fstty
+-rw-r--r--    1 root    root              442 Feb 27  1991 /usr/doc/bash-mbaserel-2.03/functions/func
+-rw-r--r--    1 root    root             9081 Feb  6  1998 /usr/doc/bash-mbaserel-2.03/functions/getoptx.bash
+-rw-r--r--    1 root    root              999 Oct 30  1998 /usr/doc/bash-mbaserel-2.03/functions/inetaddr
+-rw-r--r--    1 root    root              186 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/functions/inpath
+-rw-r--r--    1 root    root              733 Feb  6  1998 /usr/doc/bash-mbaserel-2.03/functions/isnum.bash
+-rw-r--r--    1 root    root              482 Feb 16  1998 /usr/doc/bash-mbaserel-2.03/functions/isnum2
+-rw-r--r--    1 root    root             2008 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/functions/jdate.bash
+-rw-r--r--    1 root    root              111 Jul  3  1992 /usr/doc/bash-mbaserel-2.03/functions/jj.bash
+-rw-r--r--    1 root    root             1068 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/keep
+-rw-r--r--    1 root    root             3067 Mar 17  1995 /usr/doc/bash-mbaserel-2.03/functions/kshenv
+-rw-r--r--    1 root    root              127 May 23  1995 /usr/doc/bash-mbaserel-2.03/functions/login
+-rw-r--r--    1 root    root              520 May 21  1998 /usr/doc/bash-mbaserel-2.03/functions/lowercase
+-rw-r--r--    1 root    root             2778 Nov  2  1992 /usr/doc/bash-mbaserel-2.03/functions/manpage
+-rw-r--r--    1 root    root              347 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/mhfold
+-rw-r--r--    1 root    root              732 Jul  3  1992 /usr/doc/bash-mbaserel-2.03/functions/notify.bash
+-rw-r--r--    1 root    root             1310 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/functions/pathfuncs
+-rw-r--r--    1 root    root              894 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/repeat2
+-rw-r--r--    1 root    root              283 Aug 27  1998 /usr/doc/bash-mbaserel-2.03/functions/repeat3
+-rw-r--r--    1 root    root              528 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/seq
+-rw-r--r--    1 root    root              814 Dec 10  1998 /usr/doc/bash-mbaserel-2.03/functions/seq2
+-rw-r--r--    1 root    root               57 May 19  1995 /usr/doc/bash-mbaserel-2.03/functions/shcat
+-rw-r--r--    1 root    root              174 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/functions/shcat2
+-rw-r--r--    1 root    root             1148 Feb 27  1991 /usr/doc/bash-mbaserel-2.03/functions/substr
+-rw-r--r--    1 root    root             1390 Feb 27  1991 /usr/doc/bash-mbaserel-2.03/functions/substr2
+-rw-r--r--    1 root    root              480 Feb 27  1991 /usr/doc/bash-mbaserel-2.03/functions/term
+-rw-r--r--    1 root    root             1046 Mar  2  1994 /usr/doc/bash-mbaserel-2.03/functions/whatis
+-rw-r--r--    1 root    root              990 Jan 25  1994 /usr/doc/bash-mbaserel-2.03/functions/whence
+-rw-r--r--    1 root    root              852 Dec 30  1998 /usr/doc/bash-mbaserel-2.03/functions/which
+-rw-r--r--    1 root    root              471 Mar 14  1996 /usr/doc/bash-mbaserel-2.03/functions/xalias.bash
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/misc
+-rwxr-xr-x    1 root    root             1000 Nov 23  1998 /usr/doc/bash-mbaserel-2.03/misc/aliasconv.bash
+-rwxr-xr-x    1 root    root              995 Nov 23  1998 /usr/doc/bash-mbaserel-2.03/misc/aliasconv.sh
+-rwxr-xr-x    1 root    root             3145 Jul 19  1996 /usr/doc/bash-mbaserel-2.03/misc/cshtobash
+-rw-r--r--    1 root    root             1458 Feb 27  1991 /usr/doc/bash-mbaserel-2.03/misc/suncmd.termcap
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/scripts
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/scripts.noah
+-rw-r--r--    1 root    root             1389 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/PERMISSION
+-rw-r--r--    1 root    root             1207 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/README
+-rw-r--r--    1 root    root              758 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/aref.bash
+-rw-r--r--    1 root    root              748 May 19  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/bash.sub.bash
+-rw-r--r--    1 root    root             1057 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/bash_version.bash
+-rw-r--r--    1 root    root              884 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/meta.bash
+-rw-r--r--    1 root    root             1826 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/mktmp.bash
+-rw-r--r--    1 root    root             5087 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/number.bash
+-rw-r--r--    1 root    root             1055 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/prompt.bash
+-rw-r--r--    1 root    root             1922 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/remap_keys.bash
+-rw-r--r--    1 root    root             5365 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/require.bash
+-rw-r--r--    1 root    root             4443 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/send_mail.bash
+-rw-r--r--    1 root    root              933 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/shcat.bash
+-rw-r--r--    1 root    root             1614 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/source.bash
+-rw-r--r--    1 root    root             5063 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/string.bash
+-rw-r--r--    1 root    root             1767 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/stty.bash
+-rw-r--r--    1 root    root             1847 May 25  1995 /usr/doc/bash-mbaserel-2.03/scripts.noah/y_or_n_p.bash
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/scripts.v2
+-rw-r--r--    1 root    root             2302 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/PERMISSION
+-rw-r--r--    1 root    root             1515 Oct 16  1996 /usr/doc/bash-mbaserel-2.03/scripts.v2/README
+-rw-r--r--    1 root    root             1904 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/arc2tarz
+-rw-r--r--    1 root    root             1606 Oct 16  1996 /usr/doc/bash-mbaserel-2.03/scripts.v2/bashrand
+-rw-r--r--    1 root    root             1225 Nov 25  1997 /usr/doc/bash-mbaserel-2.03/scripts.v2/cal2day.bash
+-rw-r--r--    1 root    root             3003 Oct 16  1996 /usr/doc/bash-mbaserel-2.03/scripts.v2/cdhist.bash
+-rw-r--r--    1 root    root             1012 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/corename
+-rw-r--r--    1 root    root             7380 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/fman
+-rwxr-xr-x    1 root    root             7307 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/frcp
+-rw-r--r--    1 root    root              933 May 28  1996 /usr/doc/bash-mbaserel-2.03/scripts.v2/lowercase
+-rw-r--r--    1 root    root             5311 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/ncp
+-rw-r--r--    1 root    root             1444 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/newext
+-rw-r--r--    1 root    root             5311 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/nmv
+-rw-r--r--    1 root    root             4640 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/pages
+-rw-r--r--    1 root    root             3360 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/pf
+-rw-r--r--    1 root    root              332 Oct 16  1996 /usr/doc/bash-mbaserel-2.03/scripts.v2/pmtop
+-rw-r--r--    1 root    root             3051 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/rename
+-rw-r--r--    1 root    root             3079 Jun 29  1998 /usr/doc/bash-mbaserel-2.03/scripts.v2/repeat
+-rw-r--r--    1 root    root             1286 Dec 21  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/shprof
+-rw-r--r--    1 root    root             2032 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/untar
+-rw-r--r--    1 root    root              740 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/uudec
+-rw-r--r--    1 root    root             1588 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/uuenc
+-rw-r--r--    1 root    root             4910 May 10  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/vtree
+-rw-r--r--    1 root    root             2678 May  9  1995 /usr/doc/bash-mbaserel-2.03/scripts.v2/where
+-rwxr-xr-x    1 root    root            13997 May 20  1998 /usr/doc/bash-mbaserel-2.03/scripts/adventure.sh
+-rwxr-xr-x    1 root    root            27992 Feb 14  1992 /usr/doc/bash-mbaserel-2.03/scripts/bcsh.sh
+-rw-r--r--    1 root    root             2959 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/fixfiles.bash
+-rw-r--r--    1 root    root              400 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/hanoi.bash
+-rwxr-xr-x    1 root    root              296 May 15  1995 /usr/doc/bash-mbaserel-2.03/scripts/inpath
+-rwxr-xr-x    1 root    root             1992 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/krand.bash
+-rw-r--r--    1 root    root              862 Nov  1  1996 /usr/doc/bash-mbaserel-2.03/scripts/nohup.bash
+-rwxr-xr-x    1 root    root             1215 May  5  1994 /usr/doc/bash-mbaserel-2.03/scripts/precedence
+-rw-r--r--    1 root    root              409 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/randomcard.bash
+-rwxr-xr-x    1 root    root              470 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/scrollbar
+-rwxr-xr-x    1 root    root              452 Sep  4  1997 /usr/doc/bash-mbaserel-2.03/scripts/scrollbar2
+-rw-r--r--    1 root    root             1192 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/scripts/showperm.bash
+-rwxr-xr-x    1 root    root             2224 Oct  4  1991 /usr/doc/bash-mbaserel-2.03/scripts/shprompt
+-rw-r--r--    1 root    root              285 Apr  1  1997 /usr/doc/bash-mbaserel-2.03/scripts/spin.bash
+-rw-r--r--    1 root    root             1234 Mar  3  1998 /usr/doc/bash-mbaserel-2.03/scripts/timeout
+-rwxr-xr-x    1 root    root              799 May 12  1997 /usr/doc/bash-mbaserel-2.03/scripts/vtree2
+-rw-r--r--    1 root    root             1803 Dec 16  1996 /usr/doc/bash-mbaserel-2.03/scripts/vtree3
+-rwxr-xr-x    1 root    root              489 Oct 16  1996 /usr/doc/bash-mbaserel-2.03/scripts/zprintf
+drwxr-xr-x    2 root    root                0 Aug 24  1999 /usr/doc/bash-mbaserel-2.03/startup-files
+-rw-r--r--    1 root    root             1171 Aug  1  1995 /usr/doc/bash-mbaserel-2.03/startup-files/Bash_aliases
+-rw-r--r--    1 root    root              339 Aug  1  1995 /usr/doc/bash-mbaserel-2.03/startup-files/Bash_profile
+-rw-r--r--    1 root    root             1695 Aug  1  1995 /usr/doc/bash-mbaserel-2.03/startup-files/Bashrc.bfox
+-rw-r--r--    1 root    root              210 Mar 15  1996 /usr/doc/bash-mbaserel-2.03/startup-files/README
+-rw-r--r--    1 root    root              887 May 24  1996 /usr/doc/bash-mbaserel-2.03/startup-files/bash-profile
+-rw-r--r--    1 root    root             1617 May 24  1996 /usr/doc/bash-mbaserel-2.03/startup-files/bashrc
+-rw-r--r--    1 root    root            80096 Aug 24  1999 /usr/info/bash.info.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/:.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/alias.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bash-echo.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bash-export.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bash-kill.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bash-pwd.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bash-test.1.gz
+-rw-r--r--    1 root    root            57547 Aug 24  1999 /usr/man/man1/bash.1.gz
+-rw-r--r--    1 root    root              703 Aug 24  1999 /usr/man/man1/bashbug.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bg.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/bind.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/break.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/builtin.1.gz
+-rw-r--r--    1 root    root              455 Aug 24  1999 /usr/man/man1/builtins.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/case.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/cd.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/command.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/continue.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/declare.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/dirs.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/disown.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/enable.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/eval.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/exec.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/exit.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/fc.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/fg.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/for.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/getopts.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/hash.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/help.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/history.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/if.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/jobs.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/let.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/local.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/logout.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/popd.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/pushd.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/read.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/readonly.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/return.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/set.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/shift.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/shopt.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/source.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/suspend.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/times.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/trap.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/type.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/typeset.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/ulimit.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/umask.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/unalias.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/unset.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/until.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/wait.1.gz
+-rw-r--r--    1 root    root               43 Aug 24  1999 /usr/man/man1/while.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/bash-mbaserel-2.03-2.m68kmint.rpm">Download</A></H2> (521,163 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

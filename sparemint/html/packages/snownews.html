@@ -1,0 +1,111 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - snownews, version 1.5.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>snownews</H2>
+
+<UL> 
+<LI>Summary: Snownews - a console RSS/RDF newsreader<BR>
+<LI>URL: <A HREF="http://home.kcore.de/~kiza/software/snownews/">http://home.kcore.de/~kiza/software/snownews/</A><BR>
+<LI>Version: 1.5.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,582,305 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>snownews = 1.5.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Aug 12 23:41:36 2005 UTC<BR>
+<LI>Upload date: Wed Aug 24 14:37:19 2005 UTC<BR>
+<LI>Packager: Jan Krupka (<A HREF="javascript:linkto_decode_mt('nbjmup;klsvqlbAwpmoz/d{');">jkrupka(at)volny.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/snownews-1.5.7-1.src.rpm">snownews-1.5.7-1.src.rpm</A>  (165,266 bytes)<BR>
+<LI>Last change: Jan Krupka &lt;jkrupka@volny.cz&gt; Sun Aug  7 09:00:00 2005 UTC<BR>
+- update to new version, new spec file
+<LI>Description:<BR>
+Snownews is a console RSS/RDF newsreader. It supports all versions of RSS natively<BR>and other formats via plugins.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             4874 Aug 12  2005 /usr/bin/opml2snow
+?rwxrwxrwx    1 root    root                9 Aug 12  2005 /usr/bin/snow2opml
+-rwxr-xr-x    1 root    root          1365238 Aug 12  2005 /usr/bin/snownews
+-rwxr-xr-x    1 root    root            12549 Aug 12  2005 /usr/bin/snowsync
+drwxr-xr-x    2 root    root                0 Aug 12  2005 /usr/doc/snownews-1.5.7
+-rw-r--r--    1 root    root              110 Jun  5  2005 /usr/doc/snownews-1.5.7/AUTHOR
+-rw-r--r--    1 root    root            17982 Jun  5  2005 /usr/doc/snownews-1.5.7/COPYING
+-rw-r--r--    1 root    root              997 Jun  5  2005 /usr/doc/snownews-1.5.7/CREDITS
+-rw-r--r--    1 root    root              165 Jun  5  2005 /usr/doc/snownews-1.5.7/Changelog
+-rw-r--r--    1 root    root             1135 Jun  5  2005 /usr/doc/snownews-1.5.7/README
+-rw-r--r--    1 root    root             1335 Jun  5  2005 /usr/doc/snownews-1.5.7/README.de
+-rw-r--r--    1 root    root             1584 Jun  5  2005 /usr/doc/snownews-1.5.7/README.patching
+-rw-r--r--    1 root    root             1947 Aug 12  2005 /usr/man/man1/opml2snow.1
+-rw-r--r--    1 root    root            11137 Aug 12  2005 /usr/man/man1/snownews.1
+-rw-r--r--    1 root    root            14762 Aug 12  2005 /usr/share/locale/de/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root             8229 Aug 12  2005 /usr/share/locale/es/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            11322 Aug 12  2005 /usr/share/locale/fr/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            12222 Aug 12  2005 /usr/share/locale/it/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            13362 Aug 12  2005 /usr/share/locale/ja/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            14918 Aug 12  2005 /usr/share/locale/nl/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            14531 Aug 12  2005 /usr/share/locale/pl/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            16105 Aug 12  2005 /usr/share/locale/pt_BR/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            16591 Aug 12  2005 /usr/share/locale/ru/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            10396 Aug 12  2005 /usr/share/locale/sl/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            14330 Aug 12  2005 /usr/share/locale/zh_CN/LC_MESSAGES/snownews.mo
+-rw-r--r--    1 root    root            12379 Aug 12  2005 /usr/share/locale/zh_TW/LC_MESSAGES/snownews.mo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/snownews-1.5.7-1.m68kmint.rpm">Download</A></H2> (854,620 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

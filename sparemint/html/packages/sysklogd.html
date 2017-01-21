@@ -1,0 +1,102 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - sysklogd, version 1.3, release 5</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>sysklogd</H2>
+
+<UL> 
+<LI>Summary: MiNT system logger<BR>
+
+<LI>Version: 1.3<BR>
+<LI>Release: 5<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 209,975 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>sysklogd = 1.3-5<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>fileutils  <BR>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>logrotate  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Jan 30 16:04:01 2004 UTC<BR>
+<LI>Upload date: Tue Feb  3 08:30:13 2004 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/sysklogd-1.3-5.src.rpm">sysklogd-1.3-5.src.rpm</A>  (100,886 bytes)<BR>
+<LI>Last change: Mark Duckworth &lt;mduckworth@atari-source.com&gt; Fri Jan 30 22:00:00 2004 UTC<BR>
+- Rebuild against MiNTLib 0.57.4
+<LI>Description:<BR>
+This is the MiNT system (and not yet kernel) logging program.  It is run<BR>as a daemon (background process) to log messages to different<BR>places.  These are usually things like sendmail logs, security<BR>logs, and errors from other daemons.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              327 Jan 30  2004 /etc/logrotate.d/syslog
+-rwxr-xr-x    1 root    root              806 Jan 30  2004 /etc/rc.d/init.d/syslog
+-rw-r--r--    1 root    root              615 Jan 30  2004 /etc/syslog.conf
+drwxr-xr-x    2 root    root                0 Jan 30  2004 /usr/doc/sysklogd-1.3
+-rw-r--r--    1 root    root             2442 Jan 30  2004 /usr/doc/sysklogd-1.3/ANNOUNCE
+-rw-r--r--    1 root    root             2049 Dec 15  1995 /usr/doc/sysklogd-1.3/INSTALL
+-rw-r--r--    1 root    root             6845 Jan 30  2004 /usr/doc/sysklogd-1.3/NEWS
+-rw-r--r--    1 root    root             3025 Feb 18  1996 /usr/doc/sysklogd-1.3/README.1st
+-rw-r--r--    1 root    root             2679 Dec 15  1995 /usr/doc/sysklogd-1.3/README.linux
+-rw-r--r--    1 root    root             1295 Jan 30  2004 /usr/doc/sysklogd-1.3/Sysklogd-1.3.lsm
+-rwxr-xr-x    1 root    root           174094 Jan 30  2004 /usr/sbin/syslogd
+-rw-r--r--    1 root    root             4599 Jan 30  2004 /usr/share/man/man5/syslog.conf.5.gz
+-rw-r--r--    1 root    root             7083 Jan 30  2004 /usr/share/man/man8/sysklogd.8.gz
+-rw-r--r--    1 root    root               20 Jan 30  2004 /usr/share/man/man8/syslogd.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/sysklogd-1.3-5.m68kmint.rpm">Download</A></H2> (106,752 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

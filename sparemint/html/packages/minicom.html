@@ -1,0 +1,142 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - minicom, version 1.83.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>minicom</H2>
+
+<UL> 
+<LI>Summary: A text-based modem control and terminal emulation program.<BR>
+
+<LI>Version: 1.83.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Communications">Applications/Communications</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 860,593 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>minicom = 1.83.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sat Mar  2 23:26:29 2002 UTC<BR>
+<LI>Upload date: Sun Mar  3 00:01:02 2002 UTC<BR>
+<LI>Packager: Jan Krupka (<A HREF="javascript:linkto_decode_mt('nbjmup;klsvqlbAwpmoz/d{');">jkrupka(at)volny.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/minicom-1.83.1-1.src.rpm">minicom-1.83.1-1.src.rpm</A>  (331,125 bytes)<BR>
+<LI>Last change: Jan Krupka &lt;jkrupka@volny.cz&gt; Sat Mar  2 10:00:00 2002 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Minicom is a simple text-based modem control and terminal emulation<BR>program somewhat similar to MSDOS Telix.  Minicom includes a dialing<BR>directory, full ANSI and VT100 emulation, an (external) scripting<BR>language, and other features.<BR><P><BR>Minicom should be installed if you need a simple modem control program<BR>or terminal emulator.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             1048 Mar  2  2002 /etc/minicom.users
+-rwxr-xr-x    1 root    root            95207 Mar  2  2002 /usr/bin/ascii-xfr
+-rwxr-sr-x    1 root    uucp           292032 Mar  2  2002 /usr/bin/minicom
+-rwxr-xr-x    1 root    root           114469 Mar  2  2002 /usr/bin/runscript
+drwxr-xr-x    2 root    root                0 Mar  2  2002 /usr/doc/minicom-1.83.1
+drwxr-xr-x    2 root    root                0 Feb  1  1999 /usr/doc/minicom-1.83.1/demos
+-rw-r--r--    1 root    root               56 Oct  5  1994 /usr/doc/minicom-1.83.1/demos/htsalogin
+-rw-r--r--    1 root    root              711 Apr 22  1993 /usr/doc/minicom-1.83.1/demos/saralogin
+-rw-r--r--    1 root    root              655 Nov 11  1994 /usr/doc/minicom-1.83.1/demos/scriptdemo
+-rw-r--r--    1 root    root             1246 Feb  1  1999 /usr/doc/minicom-1.83.1/demos/unixlogin
+drwxr-xr-x    2 root    root                0 May 24  2000 /usr/doc/minicom-1.83.1/doc
+-rw-r--r--    1 root    root             2971 Nov  2  1997 /usr/doc/minicom-1.83.1/doc/Announce-1.78
+-rw-r--r--    1 root    root             3978 Sep 10  1998 /usr/doc/minicom-1.83.1/doc/Announce-1.82
+-rw-r--r--    1 root    root             1058 Feb  1  1999 /usr/doc/minicom-1.83.1/doc/Announce-1.82.1
+-rw-r--r--    1 root    root              941 Dec 22  1999 /usr/doc/minicom-1.83.1/doc/Announce-1.83
+-rw-r--r--    1 root    root              609 May 24  2000 /usr/doc/minicom-1.83.1/doc/Announce-1.83.1
+-rw-r--r--    1 root    root             1368 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/COMPATABILITY.lrzsz
+-rw-r--r--    1 root    root            14414 May 24  2000 /usr/doc/minicom-1.83.1/doc/ChangeLog
+-rw-r--r--    1 root    root             8453 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/HistSearch
+-rw-r--r--    1 root    root             3309 May 24  2000 /usr/doc/minicom-1.83.1/doc/Locales
+-rw-r--r--    1 root    root             9053 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/Macros
+-rw-r--r--    1 root    root             2429 May 24  2000 /usr/doc/minicom-1.83.1/doc/Porting
+-rw-r--r--    1 root    root             1264 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/QuickStart.modemu
+-rw-r--r--    1 root    root              730 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/README.lrzsz
+-rw-r--r--    1 root    root             1011 Mar  3  1998 /usr/doc/minicom-1.83.1/doc/RedHat
+-rw-r--r--    1 root    root              836 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/TODO.lrzsz
+-rw-r--r--    1 root    root             1062 Dec  1  1999 /usr/doc/minicom-1.83.1/doc/Todo
+-rw-r--r--    1 root    root              537 Mar  2  1995 /usr/doc/minicom-1.83.1/doc/Todo.175
+-rw-r--r--    1 root    root             4135 Jun  8  1996 /usr/doc/minicom-1.83.1/doc/Todo.Irix.dif
+-rw-r--r--    1 root    root             4417 May 22  1996 /usr/doc/minicom-1.83.1/doc/Todo.emacskey.dif
+-rw-r--r--    1 root    root             1357 Apr 16  1998 /usr/doc/minicom-1.83.1/doc/Todo.fsel
+-rw-r--r--    1 root    root             1186 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/copyright.modemu
+-rw-r--r--    1 root    root              761 Aug 22  1999 /usr/doc/minicom-1.83.1/doc/developers
+-rw-r--r--    1 root    root             2150 Apr  5  1998 /usr/doc/minicom-1.83.1/doc/fselector.txt
+-rw-r--r--    1 root    root             1765 Sep  8  1998 /usr/doc/minicom-1.83.1/doc/japanese
+-rw-r--r--    1 root    root             1682 Aug  7  1999 /usr/doc/minicom-1.83.1/doc/minicom.FAQ
+-rw-r--r--    1 root    root             1110 Dec 23  1999 /usr/doc/minicom-1.83.1/doc/minicom.users
+-rw-r--r--    1 root    root              198 Oct 31  1997 /usr/doc/minicom-1.83.1/doc/minirc.dfl
+-rw-r--r--    1 root    root             3113 Feb 16  1998 /usr/doc/minicom-1.83.1/doc/modemu.README
+-rw-r--r--    1 root    root              706 Sep 10  1998 /usr/doc/minicom-1.83.1/doc/pl-translation.txt
+-rw-r--r--    1 root    root              461 Aug 18  1998 /usr/doc/minicom-1.83.1/doc/portugues-brasil
+-rw-r--r--    1 root    root              784 Apr  5  1999 /usr/doc/minicom-1.83.1/doc/suomeksi
+drwxr-xr-x    2 root    root                0 Aug 10  1998 /usr/doc/minicom-1.83.1/tables
+-rw-r--r--    1 root    root              512 Apr  6  1998 /usr/doc/minicom-1.83.1/tables/mc.iso
+-r--r--r--    1 root    root              512 Sep  4  1997 /usr/doc/minicom-1.83.1/tables/mc.noconv
+-rw-r--r--    1 root    root              512 Dec  6  1999 /usr/doc/minicom-1.83.1/tables/mc.pc8
+-rw-r--r--    1 root    root              512 Sep  4  1997 /usr/doc/minicom-1.83.1/tables/mc.sf7
+-rw-r--r--    1 root    root             1982 Mar  2  2002 /usr/man/man1/ascii-xfr.1
+-rw-r--r--    1 root    root            33743 Mar  2  2002 /usr/man/man1/minicom.1
+-rw-r--r--    1 root    root             6189 Mar  2  2002 /usr/man/man1/runscript.1
+-rw-r--r--    1 root    root            33549 Mar  2  2002 /usr/share/locale/fi_FI/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            35478 Mar  2  2002 /usr/share/locale/fr/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            33414 Mar  2  2002 /usr/share/locale/ja/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            33414 Mar  2  2002 /usr/share/locale/ja_JP.SJIS/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            25148 Mar  2  2002 /usr/share/locale/ko/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            33061 Mar  2  2002 /usr/share/locale/pl/LC_MESSAGES/minicom.mo
+-rw-r--r--    1 root    root            35199 Mar  2  2002 /usr/share/locale/pt_BR/LC_MESSAGES/minicom.mo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/minicom-1.83.1-1.m68kmint.rpm">Download</A></H2> (382,964 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

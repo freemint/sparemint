@@ -1,0 +1,89 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - pml-mshort, version 2.03, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>pml-mshort</H2>
+
+<UL> 
+<LI>Summary: Portable Math-Lib with 16 bit int type (obsolete!)<BR>
+
+<LI>Version: 2.03<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 47,864 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>pml-mshort = 2.03-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Wed Apr  5 13:28:53 2000 UTC<BR>
+<LI>Upload date: Fri Apr 14 13:54:26 2000 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/pml-2.03-3.src.rpm">pml-2.03-3.src.rpm</A>  (0 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sat Apr  1 09:00:00 2000 UTC<BR>
+- rebuild against new MiNTLib 0.55<BR>- splitted of mshort libs<BR>- added m68020-60 target libs<BR>- renamed all libs to the required libm names<BR>- enahnced description, added description -l de
+<LI>Description:<BR>
+These are the Math libraries compiled with the compiler flag -mshort<BR>that makes the data type int only 16 bits wide.<BR><P><BR>WARNING: This package is considered obsolete and support for it will<BR>cease soon.  Read README.mshort in the doc directory of the MiNTLib for<BR>details.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root            14308 Apr  5  2000 /usr/lib/m68020-60/mshort/libm.a
+?rwxrwxrwx    1 root    root                6 Apr  5  2000 /usr/lib/m68020-60/mshort/libm16020.a
+-rw-r--r--    1 root    root            33544 Apr  5  2000 /usr/lib/mshort/libm.a
+?rwxrwxrwx    1 root    root                6 Apr  5  2000 /usr/lib/mshort/libm16.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/pml-mshort-2.03-3.m68kmint.rpm">Download</A></H2> (15,088 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

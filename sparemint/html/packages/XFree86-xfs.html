@@ -1,0 +1,101 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - XFree86-xfs, version 4.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>XFree86-xfs</H2>
+
+<UL> 
+<LI>Summary: A font server for the X Window System.<BR>
+
+<LI>Version: 4.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: MIT</BR>
+<LI>Installation size: 1,671,082 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>XFree86-xfs = 4.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>fileutils  <BR>
+  <LI>sed  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Dec 21 18:17:24 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/XFree86-4.0-1.src.rpm">XFree86-4.0-1.src.rpm</A>  (48,123,696 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Dec 21 10:00:00 2000 UTC<BR>
+- first Sparemint release
+<LI>Description:<BR>
+XFree86-xfs contains the font server for XFree86.  Xfs can also serve<BR>fonts to remote X servers. The remote system will be able to use all<BR>fonts installed on the font server, even if they are not installed on<BR>the remote computer.<BR><P><BR>You'll need to install XFree86-xfs if you're installing the X Window<BR>System. You'll also need to install the following packages: XFree86,<BR>the XFree86 X server for your video card, the XFree86 fonts package(s)<BR>appropriate for your system, Xconfigurator and XFree86-libs.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              810 Dec 21  2000 /etc/X11/fs/config
+-rwxr-xr-x    1 root    root             2630 Dec 21  2000 /etc/rc.d/init.d/xfs
+-rwxr-xr-x    1 root    root           126851 Dec 21  2000 /usr/X11R6/bin/fsinfo
+-rwxr-xr-x    1 root    root           132950 Dec 21  2000 /usr/X11R6/bin/fslsfonts
+-rwxr-xr-x    1 root    root           640018 Dec 21  2000 /usr/X11R6/bin/fstobdf
+-rwxr-xr-x    1 root    root           243262 Dec 21  2000 /usr/X11R6/bin/mkfontdir
+-rwxr-xr-x    1 root    root           514666 Dec 21  2000 /usr/X11R6/bin/xfs
+?rwxrwxrwx    1 root    root               24 Dec 21  2000 /usr/X11R6/lib/X11/fs
+-r--r--r--    1 root    root             1155 Dec 21  2000 /usr/X11R6/man/man1/fsinfo.1x.gz
+-r--r--r--    1 root    root             1515 Dec 21  2000 /usr/X11R6/man/man1/fslsfonts.1x.gz
+-r--r--r--    1 root    root             1046 Dec 21  2000 /usr/X11R6/man/man1/fstobdf.1x.gz
+-r--r--r--    1 root    root             2653 Dec 21  2000 /usr/X11R6/man/man1/mkfontdir.1x.gz
+-r--r--r--    1 root    root             3502 Dec 21  2000 /usr/X11R6/man/man1/xfs.1x.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/XFree86-xfs-4.0-1.m68kmint.rpm">Download</A></H2> (885,938 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

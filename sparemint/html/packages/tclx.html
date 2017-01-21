@@ -1,0 +1,397 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tclx, version 8.0.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tclx</H2>
+
+<UL> 
+<LI>Summary: Tcl/Tk extensions for POSIX systems.<BR>
+<LI>URL: <A HREF="http://www.neosoft.com/">http://www.neosoft.com/</A><BR>
+<LI>Version: 8.0.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 3,783,604 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tclx = 8.0.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 16 15:15:17 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcltk-8.0.5-1.src.rpm">tcltk-8.0.5-1.src.rpm</A>  (7,145,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov 16 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+TclX is a set of extensions which make it easier to use the Tcl<BR>scripting language for common UNIX/Linux programming tasks.  TclX<BR>enhances Tcl support for files, network access, debugging, math,<BR>lists, and message catalogs.  TclX can be used with both Tcl and<BR>Tcl/Tk applications.<BR><P><BR>Install TclX if you are developing applications with Tcl/Tk.  You'll<BR>also need to install the tcl and tk packages.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel          605759 Nov 16  2000 /usr/bin/tcl
+-rwxr-xr-x    1 root    wheel           12655 Nov 16  2000 /usr/bin/tclhelp
+-rwxr-xr-x    1 root    wheel         1599570 Nov 16  2000 /usr/bin/wishx
+-rw-r--r--    1 root    wheel            9004 Nov 16  2000 /usr/include/tclExtend.h
+-rw-rw-rw-    1 root    wheel          162068 Nov 16  2000 /usr/lib/libtclx8.0.4.a
+-rw-rw-rw-    1 root    wheel            2748 Nov 16  2000 /usr/lib/libtkx8.0.4.a
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4
+-rw-r--r--    1 root    wheel            2272 Nov 16  2000 /usr/lib/tclX8.0.4/autoload.tcl
+-rw-r--r--    1 root    wheel            6275 Nov 16  2000 /usr/lib/tclX8.0.4/buildidx.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help
+-rw-r--r--    1 root    wheel            4824 Nov 16  2000 /usr/lib/tclX8.0.4/help/Tcl.brf
+-rw-r--r--    1 root    wheel            6034 Nov 16  2000 /usr/lib/tclX8.0.4/help/TclX.brf
+-rw-r--r--    1 root    wheel            2879 Nov 16  2000 /usr/lib/tclX8.0.4/help/help
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control
+-rw-r--r--    1 root    wheel             694 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/break
+-rw-r--r--    1 root    wheel            2261 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/case
+-rw-r--r--    1 root    wheel            1156 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/catch
+-rw-r--r--    1 root    wheel            3053 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/commandloop
+-rw-r--r--    1 root    wheel             713 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/continue
+-rw-r--r--    1 root    wheel            1910 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/error
+-rw-r--r--    1 root    wheel             519 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/eval
+-rw-r--r--    1 root    wheel             274 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/exit
+-rw-r--r--    1 root    wheel            1938 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/for
+-rw-r--r--    1 root    wheel            2685 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/foreach
+-rw-r--r--    1 root    wheel            1274 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/if
+-rw-r--r--    1 root    wheel           30264 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/interp
+-rw-r--r--    1 root    wheel            1963 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/loop
+-rw-r--r--    1 root    wheel            3208 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/proc
+-rw-r--r--    1 root    wheel             608 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/rename
+-rw-r--r--    1 root    wheel            3056 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/return
+-rw-r--r--    1 root    wheel           17228 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/safe
+-rw-r--r--    1 root    wheel            1342 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/source
+-rw-r--r--    1 root    wheel            3541 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/switch
+-rw-r--r--    1 root    wheel            1761 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/tclx_errorHandler
+-rw-r--r--    1 root    wheel            1242 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/try_eval
+-rw-r--r--    1 root    wheel            2978 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/uplevel
+-rw-r--r--    1 root    wheel            1690 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/control/while
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug
+-rw-r--r--    1 root    wheel            4991 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug/cmdtrace
+-rw-r--r--    1 root    wheel             437 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug/edprocs
+-rw-r--r--    1 root    wheel            2520 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug/profile
+-rw-r--r--    1 root    wheel            1392 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug/profrep
+-rw-r--r--    1 root    wheel             279 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/debug/saveprocs
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events
+-rw-r--r--    1 root    wheel            4593 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/after
+-rw-r--r--    1 root    wheel            2614 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/background-error
+-rw-r--r--    1 root    wheel            5016 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/fileevent
+-rw-r--r--    1 root    wheel             846 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/mainloop
+-rw-r--r--    1 root    wheel            1620 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/update
+-rw-r--r--    1 root    wheel            1026 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/events/vwait
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files
+-rw-r--r--    1 root    wheel            1748 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/bsearch
+-rw-r--r--    1 root    wheel             672 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/chgrp
+-rw-r--r--    1 root    wheel             828 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/chmod
+-rw-r--r--    1 root    wheel            1016 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/chown
+-rw-r--r--    1 root    wheel             254 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/chroot
+-rw-r--r--    1 root    wheel            1845 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/close
+-rw-r--r--    1 root    wheel            1200 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/dup
+-rw-r--r--    1 root    wheel             182 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/echo
+-rw-r--r--    1 root    wheel             295 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/eof
+-rw-r--r--    1 root    wheel             658 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/fblocked
+-rw-r--r--    1 root    wheel            2399 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/fcntl
+-rw-r--r--    1 root    wheel            9515 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/fconfigure
+-rw-r--r--    1 root    wheel            4633 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/fcopy
+-rw-r--r--    1 root    wheel           15184 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/file
+-rw-r--r--    1 root    wheel            9858 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/filename
+-rw-r--r--    1 root    wheel            2100 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/flock
+-rw-r--r--    1 root    wheel             832 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/flush
+-rw-r--r--    1 root    wheel             517 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/for_file
+-rw-r--r--    1 root    wheel             566 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/for_recursive_glob
+-rw-r--r--    1 root    wheel            2916 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/fstat
+-rw-r--r--    1 root    wheel             790 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/ftruncate
+-rw-r--r--    1 root    wheel             447 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/funlock
+-rw-r--r--    1 root    wheel            1549 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/gets
+-rw-r--r--    1 root    wheel            2713 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/glob
+-rw-r--r--    1 root    wheel            2077 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/lgets
+-rw-r--r--    1 root    wheel             474 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/link
+-rw-r--r--    1 root    wheel           12438 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/open
+-rw-r--r--    1 root    wheel             665 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/pipe
+-rw-r--r--    1 root    wheel            2584 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/puts
+-rw-r--r--    1 root    wheel            1407 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/read
+-rw-r--r--    1 root    wheel             640 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/read_file
+-rw-r--r--    1 root    wheel             432 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/readdir
+-rw-r--r--    1 root    wheel             420 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/recursive_glob
+-rw-r--r--    1 root    wheel            1718 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/seek
+-rw-r--r--    1 root    wheel            2639 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/select
+-rw-r--r--    1 root    wheel             848 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/sync
+-rw-r--r--    1 root    wheel             336 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/tell
+-rw-r--r--    1 root    wheel             197 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/files/write_file
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/filescan
+-rw-r--r--    1 root    wheel            1912 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/filescan/scancontext
+-rw-r--r--    1 root    wheel            1006 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/filescan/scanfile
+-rw-r--r--    1 root    wheel            4021 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/filescan/scanmatch
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/internation
+-rw-r--r--    1 root    wheel             540 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/internation/catclose
+-rw-r--r--    1 root    wheel             562 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/internation/catgets
+-rw-r--r--    1 root    wheel            1143 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/internation/catopen
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/intro
+-rw-r--r--    1 root    wheel            1842 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/intro/keyedlists
+-rw-r--r--    1 root    wheel            8856 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/intro/syntax
+-rw-r--r--    1 root    wheel            4851 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/intro/tclsh
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/keyedlists
+-rw-r--r--    1 root    wheel             273 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/keyedlists/keyldel
+-rw-r--r--    1 root    wheel            1100 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/keyedlists/keylget
+-rw-r--r--    1 root    wheel             319 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/keyedlists/keylkeys
+-rw-r--r--    1 root    wheel             536 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/keyedlists/keylset
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries
+-rw-r--r--    1 root    wheel             256 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/auto_commands
+-rw-r--r--    1 root    wheel             155 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/auto_load_file
+-rw-r--r--    1 root    wheel             262 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/auto_packages
+-rw-r--r--    1 root    wheel             348 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/buildpackageindex
+-rw-r--r--    1 root    wheel             439 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/convert_lib
+-rw-r--r--    1 root    wheel           13903 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/library
+-rw-r--r--    1 root    wheel            5173 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/load
+-rw-r--r--    1 root    wheel             791 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/loadlibindex
+-rw-r--r--    1 root    wheel            9869 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/package
+-rw-r--r--    1 root    wheel            3294 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/packagelib
+-rw-r--r--    1 root    wheel           11638 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/pkgMkIndex
+-rw-r--r--    1 root    wheel             271 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/searchpath
+-rw-r--r--    1 root    wheel            3101 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/libraries/unknown
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists
+-rw-r--r--    1 root    wheel             620 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/concat
+-rw-r--r--    1 root    wheel             210 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/intersect
+-rw-r--r--    1 root    wheel             530 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/intersect3
+-rw-r--r--    1 root    wheel             460 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/join
+-rw-r--r--    1 root    wheel             822 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lappend
+-rw-r--r--    1 root    wheel             667 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lassign
+-rw-r--r--    1 root    wheel             268 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lcontain
+-rw-r--r--    1 root    wheel             398 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lempty
+-rw-r--r--    1 root    wheel             752 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lindex
+-rw-r--r--    1 root    wheel             698 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/linsert
+-rw-r--r--    1 root    wheel             991 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/list
+-rw-r--r--    1 root    wheel             248 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/llength
+-rw-r--r--    1 root    wheel            1111 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lmatch
+-rw-r--r--    1 root    wheel             993 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lrange
+-rw-r--r--    1 root    wheel            1236 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lreplace
+-rw-r--r--    1 root    wheel             193 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lrmdups
+-rw-r--r--    1 root    wheel            1089 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lsearch
+-rw-r--r--    1 root    wheel            3342 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lsort
+-rw-r--r--    1 root    wheel             408 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lvarcat
+-rw-r--r--    1 root    wheel             936 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lvarpop
+-rw-r--r--    1 root    wheel             800 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/lvarpush
+-rw-r--r--    1 root    wheel             994 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/split
+-rw-r--r--    1 root    wheel             239 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/lists/union
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math
+-rw-r--r--    1 root    wheel           14137 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/expr
+-rw-r--r--    1 root    wheel             562 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/fmathcmds
+-rw-r--r--    1 root    wheel             570 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/incr
+-rw-r--r--    1 root    wheel             389 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/max
+-rw-r--r--    1 root    wheel             393 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/min
+-rw-r--r--    1 root    wheel             708 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/math/random
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes
+-rw-r--r--    1 root    wheel           18107 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/exec
+-rw-r--r--    1 root    wheel            1098 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/execl
+-rw-r--r--    1 root    wheel            1109 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/fork
+-rw-r--r--    1 root    wheel             874 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/kill
+-rw-r--r--    1 root    wheel             796 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/nice
+-rw-r--r--    1 root    wheel             712 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/pid
+-rw-r--r--    1 root    wheel             828 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/system
+-rw-r--r--    1 root    wheel            2510 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/processes/wait
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/signals
+-rw-r--r--    1 root    wheel            5841 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/signals/signal
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/sockets
+-rw-r--r--    1 root    wheel             690 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/sockets/host_info
+-rw-r--r--    1 root    wheel           16392 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/sockets/http
+-rw-r--r--    1 root    wheel            5713 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/sockets/socket
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status
+-rw-r--r--    1 root    wheel             318 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/cd
+-rw-r--r--    1 root    wheel             151 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/dirs
+-rw-r--r--    1 root    wheel            4362 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/history
+-rw-r--r--    1 root    wheel            3010 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/id
+-rw-r--r--    1 root    wheel            8936 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/info
+-rw-r--r--    1 root    wheel            4501 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/infox
+-rw-r--r--    1 root    wheel             211 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/popd
+-rw-r--r--    1 root    wheel             334 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/pushd
+-rw-r--r--    1 root    wheel             189 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/pwd
+-rw-r--r--    1 root    wheel             378 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/showproc
+-rw-r--r--    1 root    wheel             246 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/status/umask
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings
+-rw-r--r--    1 root    wheel             554 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/append
+-rw-r--r--    1 root    wheel           22739 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/binary
+-rw-r--r--    1 root    wheel             512 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/ccollate
+-rw-r--r--    1 root    wheel             517 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/cconcat
+-rw-r--r--    1 root    wheel             438 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/cequal
+-rw-r--r--    1 root    wheel             505 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/cindex
+-rw-r--r--    1 root    wheel             225 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/clength
+-rw-r--r--    1 root    wheel             644 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/crange
+-rw-r--r--    1 root    wheel             601 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/csubstr
+-rw-r--r--    1 root    wheel             646 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/ctoken
+-rw-r--r--    1 root    wheel            3725 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/ctype
+-rw-r--r--    1 root    wheel            9350 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/format
+-rw-r--r--    1 root    wheel            6378 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/regexp
+-rw-r--r--    1 root    wheel            2577 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/regsub
+-rw-r--r--    1 root    wheel             210 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/replicate
+-rw-r--r--    1 root    wheel            5920 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/scan
+-rw-r--r--    1 root    wheel            5736 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/string
+-rw-r--r--    1 root    wheel            1382 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/subst
+-rw-r--r--    1 root    wheel             426 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/strings/translit
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/tclshell
+-rw-r--r--    1 root    wheel            4256 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/tclshell/intro
+-rw-r--r--    1 root    wheel            2291 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/tclshell/variables
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time
+-rw-r--r--    1 root    wheel             744 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time/alarm
+-rw-r--r--    1 root    wheel            7356 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time/clock
+-rw-r--r--    1 root    wheel             144 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time/sleep
+-rw-r--r--    1 root    wheel             513 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time/time
+-rw-r--r--    1 root    wheel             329 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/time/times
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables
+-rw-r--r--    1 root    wheel            5354 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/array
+-rw-r--r--    1 root    wheel             286 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/for_array_keys
+-rw-r--r--    1 root    wheel             681 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/global
+-rw-r--r--    1 root    wheel           25155 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/namespace
+-rw-r--r--    1 root    wheel            1541 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/set
+-rw-r--r--    1 root    wheel           18915 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/stdvars
+-rw-r--r--    1 root    wheel            7771 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/trace
+-rw-r--r--    1 root    wheel             744 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/unset
+-rw-r--r--    1 root    wheel            3565 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/upvar
+-rw-r--r--    1 root    wheel            1967 Nov 16  2000 /usr/lib/tclX8.0.4/help/tcl/variables/variable
+-rw-r--r--    1 root    wheel           47258 Nov 16  2000 /usr/lib/tclX8.0.4/tcl.tlib
+-rw-r--r--    1 root    wheel            1121 Nov 16  2000 /usr/lib/tclX8.0.4/tcl.tndx
+-rw-r--r--    1 root    wheel            3121 Nov 16  2000 /usr/lib/tclX8.0.4/tclXAppInit.c
+-rw-r--r--    1 root    wheel             980 Nov 16  2000 /usr/lib/tclX8.0.4/tclx.tcl
+-rw-r--r--    1 root    wheel            1136 Nov 16  2000 /usr/lib/tclxConfig.sh
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4/help
+-rw-r--r--    1 root    wheel            3107 Nov 16  2000 /usr/lib/tkX8.0.4/help/Tk.brf
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control
+-rw-r--r--    1 root    wheel             679 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/bell
+-rw-r--r--    1 root    wheel           24341 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/bind
+-rw-r--r--    1 root    wheel            3063 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/bindtags
+-rw-r--r--    1 root    wheel            3566 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/clipboard
+-rw-r--r--    1 root    wheel             575 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/destroy
+-rw-r--r--    1 root    wheel           16292 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/event
+-rw-r--r--    1 root    wheel            5221 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/focus
+-rw-r--r--    1 root    wheel           14892 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/font
+-rw-r--r--    1 root    wheel            5349 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/grab
+-rw-r--r--    1 root    wheel           18646 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/grid
+-rw-r--r--    1 root    wheel             873 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/lower
+-rw-r--r--    1 root    wheel            3492 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/option
+-rw-r--r--    1 root    wheel           12615 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/pack
+-rw-r--r--    1 root    wheel            8616 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/pack-old
+-rw-r--r--    1 root    wheel           11312 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/place
+-rw-r--r--    1 root    wheel             873 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/raise
+-rw-r--r--    1 root    wheel            7045 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/selection
+-rw-r--r--    1 root    wheel            3564 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/send
+-rw-r--r--    1 root    wheel            3267 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tk
+-rw-r--r--    1 root    wheel            3076 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tk_bisque
+-rw-r--r--    1 root    wheel            2204 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tk_focusNext
+-rw-r--r--    1 root    wheel            3076 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tk_setPalette
+-rw-r--r--    1 root    wheel            1062 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tkerror
+-rw-r--r--    1 root    wheel            3747 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tkvars
+-rw-r--r--    1 root    wheel            1706 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/tkwait
+-rw-r--r--    1 root    wheel           15746 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/winfo
+-rw-r--r--    1 root    wheel           30656 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/control/wm
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/images
+-rw-r--r--    1 root    wheel            4344 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/images/bitmap
+-rw-r--r--    1 root    wheel            3352 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/images/image
+-rw-r--r--    1 root    wheel           19150 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/images/photo
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets
+-rw-r--r--    1 root    wheel            9009 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/button
+-rw-r--r--    1 root    wheel           85377 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/canvas
+-rw-r--r--    1 root    wheel           13119 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/checkbutton
+-rw-r--r--    1 root    wheel           22187 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/entry
+-rw-r--r--    1 root    wheel            6506 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/frame
+-rw-r--r--    1 root    wheel            4572 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/label
+-rw-r--r--    1 root    wheel           24874 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/listbox
+-rw-r--r--    1 root    wheel           40824 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/menu
+-rw-r--r--    1 root    wheel           10460 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/menubutton
+-rw-r--r--    1 root    wheel            7128 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/message
+-rw-r--r--    1 root    wheel           23960 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/options
+-rw-r--r--    1 root    wheel           12741 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/radiobutton
+-rw-r--r--    1 root    wheel           13435 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/scale
+-rw-r--r--    1 root    wheel           17492 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/scrollbar
+-rw-r--r--    1 root    wheel           92484 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/text
+-rw-r--r--    1 root    wheel            1299 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_chooseColor
+-rw-r--r--    1 root    wheel            2102 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_dialog
+-rw-r--r--    1 root    wheel            7518 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_getOpenFile
+-rw-r--r--    1 root    wheel             711 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_menuBar
+-rw-r--r--    1 root    wheel            3151 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_messageBox
+-rw-r--r--    1 root    wheel            1084 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_optionMenu
+-rw-r--r--    1 root    wheel             736 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/tk_popup
+-rw-r--r--    1 root    wheel            8521 Nov 16  2000 /usr/lib/tkX8.0.4/help/tk/widgets/toplevel
+-rw-r--r--    1 root    wheel            3464 Nov 16  2000 /usr/lib/tkX8.0.4/tkXAppInit.c
+-rw-r--r--    1 root    wheel             485 Nov 16  2000 /usr/lib/tkX8.0.4/tkx.tcl
+-rw-r--r--    1 root    wheel            1112 Nov 16  2000 /usr/lib/tkxConfig.sh
+-rw-r--r--    1 root    wheel           17851 Nov 16  2000 /usr/man/man3/TclCommandWriting.3.gz
+-rw-r--r--    1 root    wheel            1200 Nov 16  2000 /usr/man/man3/TclX_KeyedListDelete.3.gz
+-rwxrwxrwx    1 root    wheel            1200 Nov 16  2000 /usr/man/man3/TclX_KeyedListGet.3.gz
+-rwxrwxrwx    1 root    wheel            1200 Nov 16  2000 /usr/man/man3/TclX_KeyedListGetKeys.3.gz
+-rwxrwxrwx    1 root    wheel            1200 Nov 16  2000 /usr/man/man3/TclX_KeyedListSet.3.gz
+-rw-r--r--    1 root    wheel            2301 Nov 16  2000 /usr/man/man3/TclX_Main.3.gz
+-rwxrwxrwx    1 root    wheel            1200 Nov 16  2000 /usr/man/man3/TclX_NewKeyedListObj.3.gz
+-rw-r--r--    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleAlloc.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleFree.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleTblInit.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleTblRelease.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleTblUseCount.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleWalk.3.gz
+-rwxrwxrwx    1 root    wheel            1955 Nov 16  2000 /usr/man/man3/Tcl_HandleXlate.3.gz
+-rwxrwxrwx    1 root    wheel            2301 Nov 16  2000 /usr/man/man3/Tclx_Init.3.gz
+-rwxrwxrwx    1 root    wheel            2301 Nov 16  2000 /usr/man/man3/Tclxcmd_Init.3.gz
+-rwxrwxrwx    1 root    wheel            2301 Nov 16  2000 /usr/man/man3/TkX_Main.3.gz
+-rwxrwxrwx    1 root    wheel            2301 Nov 16  2000 /usr/man/man3/Tkx_Init.3.gz
+-rw-r--r--    1 root    wheel           30817 Nov 16  2000 /usr/man/mann/TclX.n.gz
+-rw-r--r--    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/Tcl_DisplayMemory.n.gz
+-rwxrwxrwx    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/Tcl_InitMemory.n.gz
+-rwxrwxrwx    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/Tcl_ValidateAllMemory.n.gz
+-rwxrwxrwx    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/ckalloc.n.gz
+-rwxrwxrwx    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/ckfree.n.gz
+-rwxrwxrwx    1 root    wheel            4000 Nov 16  2000 /usr/man/mann/memory.n.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tclx-8.0.5-1.m68kmint.rpm">Download</A></H2> (1,589,138 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

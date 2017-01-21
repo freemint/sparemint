@@ -1,0 +1,19 @@
+--- mintlib-0.56/include/mint/arch/Makefile.~	Mon Nov 27 16:11:50 2000
++++ mintlib-0.56/include/mint/arch/Makefile	Mon Dec 11 09:52:28 2000
+@@ -32,7 +32,7 @@
+ includefiles = $(filter %.h, $(MISCFILES))
+ 
+ install-include: 
+-	$(mkinstalldirs) $(includedir)/mint
++	$(mkinstalldirs) $(includedir)/mint/arch
+ 	@list='$(includefiles)'; for p in $$list; do \
+   	  if test -f $$p; then \
+ 	    echo " $(INSTALL) -m 644 $$p $(includedir)/mint/arch"; \
+--- mintlib-0.56/include/mint/MISCFILES~	Mon Dec 11 13:04:08 2000
++++ mintlib-0.56/include/mint/MISCFILES	Mon Dec 11 13:03:08 2000
+@@ -1,4 +1,4 @@
+ # This file gets included by the Makefile in this directory to determine
+ # the files that should go both into binary and source distributions.
+ 
+-MISCFILES = MISCFILES dcntl.h errno.h iflink.h random.h ssystem.h
++MISCFILES = MISCFILES dcntl.h errno.h iflink.h ptrace.h random.h ssystem.h

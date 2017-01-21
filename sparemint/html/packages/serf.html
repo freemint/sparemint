@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - serf, version 0.3.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>serf</H2>
+
+<UL> 
+<LI>Summary: Serf is a HTTP client library built upon the APR library<BR>
+<LI>URL: <A HREF="http://code.google.com/p/serf/">http://code.google.com/p/serf/</A><BR>
+<LI>Version: 0.3.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System/Libraries">System/Libraries</A>
+<LI>License: Apache License 2.0</BR>
+<LI>Installation size: 122,462 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>serf = 0.3.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Mar 11 23:41:28 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:36 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/serf-0.3.0-1.src.rpm">serf-0.3.0-1.src.rpm</A>  (142,619 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Wed Mar 11 22:00:00 2009 UTC<BR>
+- Initial build for MiNT
+<LI>Description:<BR>
+The serf library is a C-based HTTP client library built upon the Apache Portable Runtime (APR) library. It multiplexes connections, running the read/write communication asynchronously. Memory copies and transformations are kept to a minimum to provide high performance operation.
+<LI>Files:<BR>
+<PRE>
+drwxrwxrwx    2 root    root                0 Mar 11  2009 /usr/include/serf-0
+-rw-r--r--    1 root    root            35906 Mar 11  2009 /usr/include/serf-0/serf.h
+-rw-r--r--    1 root    root            17402 Mar 11  2009 /usr/include/serf-0/serf_bucket_types.h
+-rw-r--r--    1 root    root             9579 Mar 11  2009 /usr/include/serf-0/serf_bucket_util.h
+-rw-r--r--    1 root    root              910 Mar 11  2009 /usr/include/serf-0/serf_declare.h
+-rw-r--r--    1 root    root            53698 Mar 11  2009 /usr/lib/libserf-0.a
+-rw-r--r--    1 root    root              871 Mar 11  2009 /usr/lib/libserf-0.la
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/serf-0.3.0-1.m68kmint.rpm">Download</A></H2> (37,728 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

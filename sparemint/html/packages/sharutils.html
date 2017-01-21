@@ -1,0 +1,114 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - sharutils, version 4.2.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>sharutils</H2>
+
+<UL> 
+<LI>Summary: The GNU shar utilities for packaging and unpackaging shell archives.<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/sharutils/">http://www.gnu.org/software/sharutils/</A><BR>
+<LI>Version: 4.2.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Archiving">Applications/Archiving</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 741,348 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>sharutils = 4.2.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Sep  6 10:35:22 2001 UTC<BR>
+<LI>Upload date: Thu Sep  6 10:35:36 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/sharutils-4.2.1-1.src.rpm">sharutils-4.2.1-1.src.rpm</A>  (311,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Sep  6 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The sharutils package contains the GNU shar utilities, a set of tools<BR>for encoding and decoding packages of files (in binary or text format)<BR>in a special plain text format called shell archives (shar).  This<BR>format can be sent through e-mail (which can be problematic for regular<BR>binary files).  The shar utility supports a wide range of capabilities<BR>(compressing, uuencoding, splitting long files for multi-part<BR>mailings, providing checksums), which make it very flexible at<BR>creating shar files.  After the files have been sent, the unshar tool<BR>scans mail messages looking for shar files.  Unshar automatically<BR>strips off mail headers and introductory text and then unpacks the<BR>shar files.<BR><P><BR>Install sharutils if you send binary files through e-mail.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1764 Sep  6  2001 /usr/bin/mail-files
+-rwxr-xr-x    1 root    root             2132 Sep  6  2001 /usr/bin/mailshar
+-rwxr-xr-x    1 root    root            47620 Sep  6  2001 /usr/bin/remsync
+-rwxr-xr-x    1 root    root           180856 Sep  6  2001 /usr/bin/shar
+-rwxr-xr-x    1 root    root           110623 Sep  6  2001 /usr/bin/unshar
+-rwxr-xr-x    1 root    root           147534 Sep  6  2001 /usr/bin/uudecode
+-rwxr-xr-x    1 root    root           103766 Sep  6  2001 /usr/bin/uuencode
+drwxr-xr-x    2 root    root                0 Sep  6  2001 /usr/doc/sharutils-4.2.1
+-r--r--r--    1 root    root              524 Oct 12  1995 /usr/doc/sharutils-4.2.1/AUTHORS
+-r--r--r--    1 root    root            14525 Feb 24  1995 /usr/doc/sharutils-4.2.1/BACKLOG
+-rw-r--r--    1 root    root            17982 Jul 27  1995 /usr/doc/sharutils-4.2.1/COPYING
+-r--r--r--    1 root    root             2603 Nov 25  1995 /usr/doc/sharutils-4.2.1/NEWS
+-r--r--r--    1 root    root             2562 Nov 25  1995 /usr/doc/sharutils-4.2.1/README
+-r--r--r--    1 root    root             2718 Nov 16  1995 /usr/doc/sharutils-4.2.1/THANKS
+-r--r--r--    1 root    root             3656 Nov 24  1995 /usr/doc/sharutils-4.2.1/TODO
+-rw-r--r--    1 root    root             9238 Sep  6  2001 /usr/info/remsync.info.gz
+-rw-r--r--    1 root    root             7886 Sep  6  2001 /usr/info/sharutils.info.gz
+-rw-r--r--    1 root    root            14935 Sep  6  2001 /usr/share/locale/de/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root            15200 Sep  6  2001 /usr/share/locale/fr/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root            14665 Sep  6  2001 /usr/share/locale/ja/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root             7524 Sep  6  2001 /usr/share/locale/nl/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root             7864 Sep  6  2001 /usr/share/locale/pt/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root            14899 Sep  6  2001 /usr/share/locale/sv/LC_MESSAGES/sharutils.mo
+-rw-r--r--    1 root    root             4267 Sep  6  2001 /usr/share/man/man1/shar.1.gz
+-rw-r--r--    1 root    root             1238 Sep  6  2001 /usr/share/man/man1/unshar.1.gz
+-rw-rw-rw-    1 root    root               40 Sep  6  2001 /usr/share/man/man1/uudecode.1.gz
+-rw-r--r--    1 root    root             1968 Sep  6  2001 /usr/share/man/man1/uuencode.1.gz
+-rw-r--r--    1 root    root             1735 Sep  6  2001 /usr/share/man/man5/uuencode.5.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/sharutils-4.2.1-1.m68kmint.rpm">Download</A></H2> (342,944 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

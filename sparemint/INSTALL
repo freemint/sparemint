@@ -1,0 +1,187 @@
+This is the Redhat Package Manager rpm version 3.0.2 for MiNT.  This
+software is a most powerful tool both for developers and end users to
+keep track of the thousands of files found in an average MiNT installation.
+It makes installing, uninstalling or update software packages a piece 
+of cake.
+
+Prerequisites
+=============
+
+RPM requires some additional software to work.  What you will need is
+
+	- tar and gzip
+	- optionally bzip2
+	- some other stuff that it will complain about when not found.
+	- optionally pgp and gpg
+	- cpio
+
+The last program (cpio) is not included in the KGMD, you have to get
+it somewhere.  You can probably get it from where you got rpm itself.
+In fact I think that you don't necessarily need it to bootstrap rpm.
+But if rpm complains about a missing `cpio' you know what went
+wrong.
+
+Unfortunately some program paths are hardcoded into rpm and these
+hardcoded paths reflect my own setup (your mileage may vary).  If
+rpm ever complains for example about cpio missing run
+
+	rpm --showrc
+
+and look where rpm expects cpio.  Then either copy your cpio program
+there, or link it.  Another way would be to load rpm into your favorite
+binary editor and change the paths by hand.
+
+Installing
+==========
+
+To install the package just type
+
+	rpm -ivh rpm-3.0.1-1.m68kmint.rpm
+
+into your shell and that's it.
+
+Ooops, you don't have rpm?  OK, we then need to find a way to install
+it by hand.  In this directory you will find three sub-directories
+`bin', `var' and `usr'.  These directories should reflect your installation
+in the root filesystem `/'.  You can either copy the directory
+structure file by file or:
+
+	tar cvf untarme.tar bin usr var
+	cd /
+	tar xvf untarme.tar
+
+This will install all files in the right places.
+
+The other files are not necessary to run rpm.  They are for information
+only.
+
+Initialization
+==============
+
+RPM needs a properly set up database in order to get it working.  You
+will have to initialize that database now.  Don't worry, it's really
+simple:
+
+	rpm --initdb
+
+zzt, zzt, and that's it.  If you have an earlier version of rpm
+installed (notably everything < 2.5.x) you should do
+
+	rpm --rebuilddb
+
+instead.
+
+If rpm ever complains that you need the feature `perl' if you try
+to install a package, add `perl' to that line:
+
+	Provides: /bin/sh perl
+
+into `/etc/rpmrc'.  This hack will be unnecessary as soon as
+Perl is available as real rpms for MiNT.  My /etc/rpmrc
+currently looks like that:
+
+# /etc/rpmrc
+# Site-specific things for rpm.
+Provides: perl
+optflags: m68kmint -O2 -fomit-frame-pointer
+
+The second line with `optflags' is only necessary if you want to
+build from sources (and it will hopefully not be necessary at
+all in the future).
+
+Bugs
+====
+
+RPM for MiNT has inherited one major shortcoming from MiNT itself:  Under
+most Unix systems it is possible to temporarily change the file system 
+root.  For example ftp servers do this to make anonymous login safer.  They
+change the filesystem root to `/home/ftp' with a minimal set of user
+programs in `/home/ftp/bin' and thus prevent anonymous users from 
+messing around on the host's file system.
+
+This doesn't work yet with MiNT, the `chroot' system call is emulated
+by the effectively useless `chdir'.  You will find out that rpm will
+sometimes behave not the way it is described when it makes use of
+that feature.
+
+At the time of this writing (July 1999) beta kernels already have
+a system call `Pchroot` so that this will probably be fixed soon.
+
+Documentation
+=============
+
+I have included the RPM-HOWTO (you will find it in `/usr/doc/HOWTO/RPM-HOWTO')
+in this binary distribution.  It is a very good starting point both
+for end users and developers.  If you want to get more information you
+should read the book `Maximum RPM' by Edward C. Bailey which is available
+for purchase (in printed form) or anonymous ftp from ftp.redhat.com
+(either as PostScript or LaTeX).
+
+Beware, both the RPM-HOWTO and `Maximum RPM' are obsolete because rpm
+has undergone some major changes in design between rpm 2.x and rpm 3.x.
+However, both documents are still a valuable source of information and
+rpm 3.x will warn you if you try to use obsoleted features.
+
+Other ways to get information are the rpm(8) and rpm2cpio(8) manpages
+included here or simply
+
+	rpm --help
+
+which you may want to pipe through a pager because it displays an 
+imposing list of options (which can even be extended by you, read about
+popt macros).
+
+If you hate to read documentation you will probably get along with
+a handful of commands.  Say you have a binary rpm `foobar-1.0-1.m68kmint.rpm'.  What
+What can you do with this?
+
+	rpm --ivh foobar-1.0-1.m68kmint.rpm
+	
+This will install the foobar package.  If you later want to know which files
+belong to the foobar package you do
+
+	rpm -ql foobar
+
+and rpm will list all files that belong to it.  You could get the same
+information before actually installing by querying the package file itself:
+
+	rpm -qpl foobar-1.0-1.m68kmint.rpm
+
+If you later come across a file `/usr/bin/foobar' and you don't know
+what it is good for do
+
+	rpm -qf /usr/bin/foobar
+
+and you will learn that it belongs to the foobar package.  If you want
+to know what the foobar package is good for ask rpm either by
+
+	rpm -qi foobar
+	rpm -qpi foobar-1.0-1.m68kmint.rpm
+	rpm -qfi /usr/bin/foobar
+
+If this information shows you that the foobar package is absolutely
+useless and a waste of disk space get rid of it:
+
+	rpm -e foobar
+
+but if you like it and you want to install the brand-new update, do
+
+	rpm -Uvh ftp://ftp.foobar.org/pub/foobar/foobar-1.1-1.m68kmint.rpm
+
+This will update your current installation of the foobar package (and
+you have learned that you can specify a URL found somewhere on the
+net just as well as a filename on your local harddisk to install or
+query packages).
+
+BTW, you can always use the -U (update) option instead of -i (install).
+Generally using -U is equivalent to -i but using -i when you really
+update a package will fail because rpm will tell you that your update
+conflicts with the old installation.  You can either erase the old
+package before your update or - the recommended way - use the update
+option and you will benefit from all precautions the author of the
+program and the packager have taken to make that update flawless.  Depending
+on the design of the package this will automatically modify configuration
+files, save backups of old versions or whatsoever.
+
+
+Guido Flohr <guido(at)freemint.de>

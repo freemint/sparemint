@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bc, version 1.05a, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bc</H2>
+
+<UL> 
+<LI>Summary: GNU's bc (a numeric processing language) and dc (a calculator).<BR>
+
+<LI>Version: 1.05a<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Engineering">Applications/Engineering</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 283,626 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>bc = 1.05a-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>grep  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon Oct 18 20:25:28 1999 UTC<BR>
+<LI>Upload date: Wed Oct 20 21:41:15 1999 UTC<BR>
+<LI>Packager: John Blakeley (<A HREF="javascript:linkto_decode_mt('nbjmup;kpioojfAmjhpubhf/efnpo/dp/vl');">johnnie(at)ligotage.demon.co.uk</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bc-1.05a-2.src.rpm">bc-1.05a-2.src.rpm</A>  (189,177 bytes)<BR>
+<LI>Last change: John Blakeley &lt;johnnie@ligotage.demon.co.uk&gt; Mon Oct 18 12:00:00 1999 UTC<BR>
+- Second release for SpareMiNT<BR>- corrected man-page locations - thanks Guido ;-)
+<LI>Description:<BR>
+The bc package includes bc and dc.  Bc is an arbitrary precision numeric<BR>processing arithmetic language.  Dc is an interactive arbitrary precision<BR>stack based calculator, which can be used as a text mode calculator.<BR><P><BR>Install the bc package if you need its number handling capabilities or<BR>if you would like to use its text mode calculator.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           189351 Oct 18  1999 /usr/bin/bc
+-rwxr-xr-x    1 root    root            72979 Oct 18  1999 /usr/bin/dc
+-rw-r--r--    1 root    root             5161 Oct 18  1999 /usr/info/dc.info.gz
+-rw-r--r--    1 root    root            11737 Oct 18  1999 /usr/share/man/man1/bc.1.gz
+-rw-r--r--    1 root    root             4398 Oct 18  1999 /usr/share/man/man1/dc.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/bc-1.05a-2.m68kmint.rpm">Download</A></H2> (155,436 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

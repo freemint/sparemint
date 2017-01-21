@@ -1,0 +1,122 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ppp, version 2.3.11, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ppp</H2>
+
+<UL> 
+<LI>Summary: The PPP daemon and documentation.<BR>
+<LI>URL: <A HREF="ftp://ftp.linuxcare.com.au/pub/ppp/">ftp://ftp.linuxcare.com.au/pub/ppp/</A><BR>
+<LI>Version: 2.3.11<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 604,148 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ppp = 2.3.11-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Nov 24 10:41:30 2000 UTC<BR>
+<LI>Upload date: Fri Nov 24 10:41:52 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ppp-2.3.11-2.src.rpm">ppp-2.3.11-2.src.rpm</A>  (817,628 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Nov 24 10:00:00 2000 UTC<BR>
+- reduce stack size to 64k<BR>- compressed manpages
+<LI>Description:<BR>
+The ppp package contains the PPP (Point-to-Point Protocol) daemon<BR>and documentation for PPP support.  The PPP protocol provides a<BR>method for transmitting datagrams over serial point-to-point links.<BR><P><BR>The ppp package should be installed if your machine need to support<BR>the PPP protocol.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Nov 24  2000 /etc/ppp
+-rw-------    1 root    daemon             78 Nov 24  2000 /etc/ppp/chap-secrets
+-rw-r--r--    1 root    daemon              5 Nov 24  2000 /etc/ppp/options
+-rw-------    1 root    daemon             77 Nov 24  2000 /etc/ppp/pap-secrets
+drwxr-xr-x    2 root    root                0 Nov 24  2000 /usr/doc/ppp-2.3.11
+-rw-r--r--    1 root    root            23546 Dec 22  1999 /usr/doc/ppp-2.3.11/README
+-rw-r--r--    1 root    root              472 Nov 24  2000 /usr/doc/ppp-2.3.11/README.mint
+drwxrwxrwx    2 root    root                0 Nov 24  2000 /usr/doc/ppp-2.3.11/sample
+-rw-r--r--    1 root    root              427 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/auth-down
+-rw-r--r--    1 root    root              425 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/auth-up
+-rw-r--r--    1 root    root              574 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/ip-down
+-rw-r--r--    1 root    root              582 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/ip-up
+-rw-r--r--    1 root    root             5872 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/options
+-rw-r--r--    1 root    root              470 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/options.ttyXX
+-rw-r--r--    1 root    root             1083 Nov 24  2000 /usr/doc/ppp-2.3.11/sample/pap-secrets
+drwxr-xr-x    2 root    root                0 Nov 14  1999 /usr/doc/ppp-2.3.11/scripts
+-rw-r--r--    1 root    root             3644 Jan 12  1997 /usr/doc/ppp-2.3.11/scripts/README
+-rw-r--r--    1 root    root             2301 Aug  8  1995 /usr/doc/ppp-2.3.11/scripts/callback
+-rw-r--r--    1 root    root             2795 Jun 25  1997 /usr/doc/ppp-2.3.11/scripts/chat-callback
+drw-r--r--    2 root    root                0 Jul 21  1999 /usr/doc/ppp-2.3.11/scripts/chatchat
+-rw-r--r--    1 root    root             4685 May 11  1999 /usr/doc/ppp-2.3.11/scripts/chatchat/README
+-rw-r--r--    1 root    root             8572 May 11  1999 /usr/doc/ppp-2.3.11/scripts/chatchat/chatchat.c
+-rw-r--r--    1 root    root              548 Feb 26  1999 /usr/doc/ppp-2.3.11/scripts/ip-down.local.add
+-rw-r--r--    1 root    root              729 Nov 14  1999 /usr/doc/ppp-2.3.11/scripts/ip-up.local.add
+-rw-r--r--    1 root    root              586 Aug 23  1999 /usr/doc/ppp-2.3.11/scripts/ipv6-down.sample
+-rw-r--r--    1 root    root              801 Aug 23  1999 /usr/doc/ppp-2.3.11/scripts/ipv6-up.sample
+-rw-r--r--    1 root    root              967 Aug  8  1995 /usr/doc/ppp-2.3.11/scripts/ppp-off
+-rw-r--r--    1 root    root             1641 Oct 16  1995 /usr/doc/ppp-2.3.11/scripts/ppp-on
+-rw-r--r--    1 root    root              397 Oct 16  1995 /usr/doc/ppp-2.3.11/scripts/ppp-on-dialer
+-rw-r--r--    1 root    root             2237 Aug  8  1995 /usr/doc/ppp-2.3.11/scripts/redialer
+-rw-r--r--    1 root    root             2376 Oct  3  1995 /usr/doc/ppp-2.3.11/scripts/secure-card
+-rwxr-xr-x    1 root    root           106870 Nov 24  2000 /usr/sbin/chat
+-rwxr-xr-x    1 root    root           277702 Nov 24  2000 /usr/sbin/pppd
+-rwxr-xr-x    1 root    daemon         122106 Nov 24  2000 /usr/sbin/pppdump
+-rw-r--r--    1 root    root             6617 Nov 24  2000 /usr/share/man/man8/chat.8.gz
+-rw-r--r--    1 root    root            19020 Nov 24  2000 /usr/share/man/man8/pppd.8.gz
+-rw-r--r--    1 root    daemon            823 Nov 24  2000 /usr/share/man/man8/pppdump.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ppp-2.3.11-2.m68kmint.rpm">Download</A></H2> (306,595 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

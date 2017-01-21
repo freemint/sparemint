@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gzip, version 1.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gzip</H2>
+
+<UL> 
+<LI>Summary: The GNU data compression program.<BR>
+<LI>URL: <A HREF="http://www.gzip.org/">http://www.gzip.org/</A><BR>
+<LI>Version: 1.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/File">Applications/File</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 509,026 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gzip = 1.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>mktemp  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep  7 12:30:02 2001 UTC<BR>
+<LI>Upload date: Fri Sep  7 12:30:08 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gzip-1.3-1.src.rpm">gzip-1.3-1.src.rpm</A>  (304,421 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Sep  7 09:00:00 2001 UTC<BR>
+- updated to 1.3
+<LI>Description:<BR>
+The gzip package contains the popular GNU gzip data compression<BR>program.  Gzipped files have a .gz extension.<BR><P><BR>Gzip should be installed on your FreeMiNT system, because it is a<BR>very commonly used data compression program.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    3 root    wheel          134994 Sep  7  2001 /bin/gunzip
+-rwxr-xr-x    3 root    wheel          134994 Sep  7  2001 /bin/gzip
+-rwxr-xr-x    3 root    wheel          134994 Sep  7  2001 /bin/zcat
+?rwxrwxrwx    1 root    wheel              16 Sep  7  2001 /usr/bin/gunzip
+-rwxr-xr-x    1 root    wheel            3933 Sep  7  2001 /usr/bin/gzexe
+?rwxrwxrwx    1 root    wheel              14 Sep  7  2001 /usr/bin/gzip
+-rwxr-xr-x    2 root    wheel            1962 Sep  7  2001 /usr/bin/zcmp
+-rwxr-xr-x    2 root    wheel            1962 Sep  7  2001 /usr/bin/zdiff
+-rwxr-xr-x    3 root    wheel            1417 Sep  7  2001 /usr/bin/zegrep
+-rwxr-xr-x    3 root    wheel            1417 Sep  7  2001 /usr/bin/zfgrep
+-rwxr-xr-x    1 root    wheel            1016 Sep  7  2001 /usr/bin/zforce
+-rwxr-xr-x    3 root    wheel            1417 Sep  7  2001 /usr/bin/zgrep
+-rwxr-xr-x    1 root    wheel              41 Sep  7  2001 /usr/bin/zless
+-rwxr-xr-x    1 root    wheel            1077 Sep  7  2001 /usr/bin/zmore
+-rwxr-xr-x    1 root    wheel            3540 Sep  7  2001 /usr/bin/znew
+drwxr-xr-x    2 root    wheel               0 Sep  7  2001 /usr/doc/gzip-1.3
+-r--r--r--    1 root    wheel              98 Oct  8  1999 /usr/doc/gzip-1.3/AUTHORS
+-r--r--r--    1 root    wheel           35593 Dec 21  1999 /usr/doc/gzip-1.3/ChangeLog
+-r--r--r--    1 root    wheel           10984 Dec 20  1999 /usr/doc/gzip-1.3/NEWS
+-r--r--r--    1 root    wheel            6627 Dec 20  1999 /usr/doc/gzip-1.3/README
+-r--r--r--    1 root    wheel           13034 Feb  2  1999 /usr/doc/gzip-1.3/THANKS
+-r--r--r--    1 root    wheel            2619 Feb  2  1999 /usr/doc/gzip-1.3/TODO
+-rw-r--r--    1 root    wheel            5972 Sep  7  2001 /usr/info/gzip.info.gz
+-rw-r--r--    1 root    wheel              36 Sep  7  2001 /usr/share/man/man1/gunzip.1.gz
+-rw-r--r--    1 root    wheel             716 Sep  7  2001 /usr/share/man/man1/gzexe.1.gz
+-rw-r--r--    1 root    wheel            5403 Sep  7  2001 /usr/share/man/man1/gzip.1.gz
+-rw-r--r--    1 root    wheel              36 Sep  7  2001 /usr/share/man/man1/zcat.1.gz
+-rw-r--r--    1 root    wheel              37 Sep  7  2001 /usr/share/man/man1/zcmp.1.gz
+-rw-r--r--    1 root    wheel             421 Sep  7  2001 /usr/share/man/man1/zdiff.1.gz
+-rw-r--r--    1 root    wheel             378 Sep  7  2001 /usr/share/man/man1/zforce.1.gz
+-rw-r--r--    1 root    wheel             528 Sep  7  2001 /usr/share/man/man1/zgrep.1.gz
+-rw-r--r--    1 root    wheel             358 Sep  7  2001 /usr/share/man/man1/zless.1.gz
+-rw-r--r--    1 root    wheel            1823 Sep  7  2001 /usr/share/man/man1/zmore.1.gz
+-rw-r--r--    1 root    wheel             545 Sep  7  2001 /usr/share/man/man1/znew.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gzip-1.3-1.m68kmint.rpm">Download</A></H2> (122,907 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

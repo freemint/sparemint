@@ -1,0 +1,115 @@
+----------------------------------------------------------------------------
+
+Here are the current compiler and all the required tools as tar.gz version
+for non Sparemint installations.
+
+----------------------------------------------------------------------------
+
+Attention: These archives are converted from the rpm versions
+           and not tested.
+           
+           In general, it's recommended to install Sparemint instead.
+           
+           If you have problems or questions please ask first on the
+           MiNT mailing list <mint@fishpool.com>.
+
+----------------------------------------------------------------------------
+
+file description:
+-----------------
+
+binutils-2.9.1-6.m68kmint.tar.gz
+- GNU binary utils
+- contain as, ld, ar and all other tools + the complete documentation
+
+cflib-11m-3.m68kmint.tar.gz
+- Christian Felsch's cflib
+
+gcc-2.95.2-4.m68kmint.tar.gz
+- GNU Compiler Collection
+- contain the C, C++ and Object-C compiler, complete documentation
+
+gemlib-38-4.m68kmint.tar.gz
+- the GEMLIB with the all GEM/VDI bindings and all new enhancements
+
+mint-util-0.2.1-1.m68kmint.tar.gz
+- contain at the moment only crlf to strip down carrige returns
+
+mintbin-0.3-3.m68kmint.tar.gz
+- additional tools for the m68k-atari-mint a.out format
+- tools for stacksize correction, program flags setting, libarary converter
+
+mintlib-0.55-2.m68kmint.tar.gz
+- the complete MiNTLib
+- including the timezone database, tzinit tool, the header files
+  and all the required libs
+
+mintnet-1.04-4.m68kmint.tar.gz
+- include the sockets and all drivers for the supported hardware
+
+pml-2.03-3.m68kmint.tar.gz
+- math library
+- required for C++
+
+
+----------------------------------------------------------------------------
+
+installation informations:
+--------------------------
+
+(only some notes, not complete)
+
+- the GCC set require an filesystem with Unix mode bits!
+
+  unpack the archives best on an ext2 filesystem and link
+  usr to /usr (sln directive in MiNT.CNF)
+
+- verify that /usr/bin is in your $PATH of your shell
+
+- test the GCC installation with 'gcc -v'
+  if all things are installed correctly you must get the following message:
+  
+  Reading specs from /usr/lib/gcc-lib/m68k-atari-mint/2.95.2/specs
+  gcc version 2.95.2 19991024 (release)
+  
+  if not something is wrong and you must first solve the problem
+  before you can proceed
+  
+- second test: compile a simple hello world program:
+  
+  create the following hello.c file:
+  --- cut ---
+  #include <stdlib.h>
+  
+  int
+  main(void) {
+        printf ("Hello world!\n");
+        return 0;
+  }
+  -- paste ---
+  
+  and then compile it:
+  
+  bash> gcc -o hello hello.c
+  bash> ./hello
+  Hello world!
+  bash> 
+  
+  If you see this all things work ok. Congratulations.
+  
+- if you try to compile GNU packages you need mostly additional Unix tools:
+  make, sed, gawk, perl, sh-utils, fileutils and so on
+
+- the new GCC doesn't work correctly with ATARI linefeed textfiles;
+  you must strip the ATARI linefeeds with the crlfs tool first if you
+  have such source files
+
+----------------------------------------------------------------------------
+
+Have fun and please read the documentation!
+
+If somebody have written a better installation text I'm happy to put it here.
+
+
+Frank Naumann
+<fnaumann@freemint.de>

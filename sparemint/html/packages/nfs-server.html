@@ -1,0 +1,101 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - nfs-server, version 2.2beta47, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>nfs-server</H2>
+
+<UL> 
+<LI>Summary: NFS server daemons<BR>
+<LI>URL: <A HREF="ftp://linux.mathematik.tu-darmstadt.de/pub/linux/people/okir/">ftp://linux.mathematik.tu-darmstadt.de/pub/linux/people/okir/</A><BR>
+<LI>Version: 2.2beta47<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Networking/Daemons">Networking/Daemons</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 572,379 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>nfs-server = 2.2beta47-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>portmap  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Feb  1 18:04:35 2004 UTC<BR>
+<LI>Upload date: Tue Feb  3 08:30:13 2004 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/nfs-server-2.2beta47-2.src.rpm">nfs-server-2.2beta47-2.src.rpm</A>  (205,574 bytes)<BR>
+<LI>Last change: Jan Krupka &lt;jkrupka@volny.cz&gt; Sun Feb  1 10:00:00 2004 UTC<BR>
+- bugs in init script removed, recompiled against mintlib-0.57.4
+<LI>Description:<BR>
+The NFS and mount daemons are used to create an NFS server which<BR>can export filesystems to other machines.  This package is not<BR>needed to mount NFS filesystems -- that functionality is already<BR>in the FreeMiNT kernel (by the nfs.xfs).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1976 Feb  1  2004 /etc/rc.d/init.d/nfs
+drwxr-xr-x    2 root    root                0 Feb  1  2004 /usr/doc/nfs-server-2.2beta47
+-rw-r--r--    1 root    wheel            2147 Aug 28  1998 /usr/doc/nfs-server-2.2beta47/NEWS
+-rw-r--r--    1 root    wheel           11657 Oct 30  1998 /usr/doc/nfs-server-2.2beta47/README
+-rwxr-xr-x    1 root    root              387 Feb  1  2004 /usr/sbin/exportfs
+-rwxr-xr-x    1 root    root           228401 Feb  1  2004 /usr/sbin/rpc.mountd
+-rwxr-xr-x    1 root    root           187646 Feb  1  2004 /usr/sbin/rpc.nfsd
+-rwxr-xr-x    1 root    root           127638 Feb  1  2004 /usr/sbin/showmount
+-rw-r--r--    1 root    root             4551 Feb  1  2004 /usr/share/man/man5/exports.5.gz
+-rw-r--r--    1 root    root             2249 Feb  1  2004 /usr/share/man/man8/mountd.8.gz
+-rw-r--r--    1 root    root             3887 Feb  1  2004 /usr/share/man/man8/nfsd.8.gz
+?rwxrwxrwx    1 root    root                8 Feb  1  2004 /usr/share/man/man8/rpc.mountd.8
+?rwxrwxrwx    1 root    root                6 Feb  1  2004 /usr/share/man/man8/rpc.nfsd.8
+-rw-r--r--    1 root    root              802 Feb  1  2004 /usr/share/man/man8/showmount.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/nfs-server-2.2beta47-2.m68kmint.rpm">Download</A></H2> (294,527 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

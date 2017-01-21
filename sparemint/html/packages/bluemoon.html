@@ -1,0 +1,90 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bluemoon, version 2.9, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bluemoon</H2>
+
+<UL> 
+<LI>Summary: Blue Moon solitaire (curses interface)<BR>
+<LI>URL: <A HREF="http://www.catb.org/~esr/bluemoon/">http://www.catb.org/~esr/bluemoon/</A><BR>
+<LI>Version: 2.9<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Games">Games</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 221,437 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>bluemoon = 2.9-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Feb  5 04:59:55 2004 UTC<BR>
+<LI>Upload date: Sun Feb 29 09:57:08 2004 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bluemoon-2.9-1.src.rpm">bluemoon-2.9-1.src.rpm</A>  (16,212 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Feb  3 22:00:00 2004 UTC<BR>
+- Initial build of bluemoon for MiNT.
+<LI>Description:<BR>
+   This 52-card solitaire starts with  the entire deck shuffled and dealt<BR>out in four rows.  The aces are then moved to the left end of the layout,<BR>making 4 initial free spaces.  You may move to a space only the card that<BR>matches the left neighbor in suit, and is one greater in rank.  Kings are<BR>high, so no cards may be placed to their right (they create dead spaces).<BR>  When no moves can be made,  cards still out of sequence are  reshuffled<BR>and dealt face up after the ends of the partial sequences, leaving a card<BR>space after each sequence, so that each row looks like a partial sequence<BR>followed by a space, followed by enough cards to make a row of 14.<BR>  A moment's reflection will show that this game cannot take more than 13<BR>deals. A good score is 1-3 deals, 4-7 is average, 8 or more is poor.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           197209 Feb  4  2004 /usr/bin/bluemoon
+drwxr-xr-x    2 root    root                0 Feb  4  2004 /usr/doc/bluemoon-2.9
+-rw-r--r--    1 root    root            17992 Jul 30  2002 /usr/doc/bluemoon-2.9/COPYING
+-r--r--r--    1 root    root              623 Dec 24  2003 /usr/doc/bluemoon-2.9/README
+-rw-r--r--    1 root    root             1517 Feb  4  2004 /usr/man/man6/bluemoon.6
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/bluemoon-2.9-1.m68kmint.rpm">Download</A></H2> (104,853 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

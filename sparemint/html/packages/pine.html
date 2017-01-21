@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - pine, version 4.31, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>pine</H2>
+
+<UL> 
+<LI>Summary: A commonly used, MIME compliant mail and news reader.<BR>
+<LI>URL: <A HREF="http://www.washington.edu/pine">http://www.washington.edu/pine</A><BR>
+<LI>Version: 4.31<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: Freely Distributable</BR>
+<LI>Installation size: 4,357,061 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>pine = 4.31-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Mar 14 02:04:52 2001 UTC<BR>
+<LI>Upload date: Wed Mar 14 02:07:04 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/pine-4.31-1.src.rpm">pine-4.31-1.src.rpm</A>  (3,345,813 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Dec 12 10:00:00 2000 UTC<BR>
+- updated to 4.31
+<LI>Description:<BR>
+Pine is a very popular, easy to use, full-featured email user agent<BR>which includes a simple text editor called pico. Pine supports MIME<BR>extensions and can also be used to read news.  Pine also supports<BR>IMAP, mail and MH style folders.<BR><P><BR>Pine should be installed because Pine is a very commonly used email<BR>user agent.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root            14048 Mar 13  2001 /etc/pine.conf
+-rw-r--r--    1 root    root              427 Mar 13  2001 /etc/pine.conf.fixed
+?rwxrwxrwx    1 root    root                7 Mar 13  2001 /usr/bin/gpg-check
+?rwxrwxrwx    1 root    root                7 Mar 13  2001 /usr/bin/gpg-encrypt
+?rwxrwxrwx    1 root    root                7 Mar 13  2001 /usr/bin/gpg-sign
+?rwxrwxrwx    1 root    root                7 Mar 13  2001 /usr/bin/gpg-sign+encrypt
+-rwxr-xr-x    1 root    root           257569 Mar 13  2001 /usr/bin/pico
+-rwxr-xr-x    1 root    root           255958 Mar 13  2001 /usr/bin/pilot
+-rwxr-xr-x    1 root    root          2601184 Mar 13  2001 /usr/bin/pine
+-rwxr-xr-x    1 root    root              803 Mar 13  2001 /usr/bin/pinegpg
+drwxr-xr-x    2 root    root                0 Mar 13  2001 /usr/doc/pine-4.31
+-rw-r--r--    1 root    root             2866 Oct 25  2000 /usr/doc/pine-4.31/CPYRIGHT
+-rw-r--r--    1 root    root             1390 Sep 22  1998 /usr/doc/pine-4.31/README
+-rw-r--r--    1 root    root             3013 May 11  1998 /usr/doc/pine-4.31/brochure.txt
+-rw-r--r--    1 root    root             7149 Nov  9  2000 /usr/doc/pine-4.31/bugs.txt
+-rw-r--r--    1 root    root             7378 Feb  9  1999 /usr/doc/pine-4.31/mailcap.unx
+-rw-r--r--    1 root    root             3267 Nov  8  2000 /usr/doc/pine-4.31/pine-ports
+drwxr-xr-x    2 root    root                0 Mar 13  2001 /usr/doc/pine-4.31/tech-notes
+-rw-r--r--    1 root    root           432560 Mar 13  2001 /usr/doc/pine-4.31/tech-notes.txt
+-rw-r--r--    1 root    root             2427 May 11  1998 /usr/doc/pine-4.31/tech-notes/Makefile
+-rw-r--r--    1 root    root            17688 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/background.html
+-rw-r--r--    1 root    root            14889 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/cmd-line.html
+-rw-r--r--    1 root    root            41110 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/config-notes.html
+-rw-r--r--    1 root    root            41150 Nov 16  2000 /usr/doc/pine-4.31/tech-notes/config-notes.html.orig
+-rw-r--r--    1 root    root           259940 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/config.html
+-rw-r--r--    1 root    root           259970 Dec  1  2000 /usr/doc/pine-4.31/tech-notes/config.html.orig
+-rw-r--r--    1 root    root              136 May  8  1996 /usr/doc/pine-4.31/tech-notes/for.pnuts
+-rw-r--r--    1 root    root             6559 Dec  1  2000 /usr/doc/pine-4.31/tech-notes/index.html
+-rw-r--r--    1 root    root            31633 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/installation.html
+-rw-r--r--    1 root    root             4259 Feb 19  1999 /usr/doc/pine-4.31/tech-notes/introduction.html
+-rw-r--r--    1 root    root            68533 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/low-level.html
+-rw-r--r--    1 root    root             8896 Mar 13  2001 /usr/doc/pine-4.31/tech-notes/porting.html
+-rw-r--r--    1 root    root             1056 Mar 13  2001 /usr/lib/mime.types
+-rw-r--r--    1 root    root             2911 Mar 13  2001 /usr/share/man/man1/pico.1.gz
+-rw-r--r--    1 root    root             1525 Mar 13  2001 /usr/share/man/man1/pilot.1.gz
+-rw-r--r--    1 root    root             4691 Mar 13  2001 /usr/share/man/man1/pine.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/pine-4.31-1.m68kmint.rpm">Download</A></H2> (1,755,968 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

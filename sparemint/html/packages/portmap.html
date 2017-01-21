@@ -1,0 +1,98 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - portmap, version 4.0, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>portmap</H2>
+
+<UL> 
+<LI>Summary: A program which manages RPC connections.<BR>
+
+<LI>Version: 4.0<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 434,001 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>portmap = 4.0-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>netbase  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Nov 14 17:00:41 2001 UTC<BR>
+<LI>Upload date: Wed Nov 14 17:00:48 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/portmap-4.0-4.src.rpm">portmap-4.0-4.src.rpm</A>  (29,039 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Sep 26 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The portmapper program is a security tool which prevents theft of NIS<BR>(YP), NFS and other sensitive information via the portmapper.  A<BR>portmapper manages RPC connections, which are used by protocols like<BR>NFS and NIS.<BR><P><BR>The portmap package should be installed on any machine which acts as a<BR>server for protocols using RPC.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1344 Nov 14  2001 /etc/rc.d/init.d/portmap
+drwxr-xr-x    2 root    root                0 Nov 14  2001 /usr/doc/portmap-4.0
+-r--r--r--    1 root    root             1619 May 31  1996 /usr/doc/portmap-4.0/BLURB
+-r--r--r--    1 root    root              524 May 31  1996 /usr/doc/portmap-4.0/CHANGES
+-r--r--r--    1 root    root             8315 May 31  1996 /usr/doc/portmap-4.0/README
+-rwxr-xr-x    1 root    root            83702 Nov 14  2001 /usr/sbin/pmap_dump
+-rwxr-xr-x    1 root    root           145384 Nov 14  2001 /usr/sbin/pmap_set
+-rwxr-xr-x    1 root    root           189448 Nov 14  2001 /usr/sbin/portmap
+-r--r--r--    1 root    root              352 Nov 14  2001 /usr/share/man/man8/pmap_dump.8.gz
+-r--r--r--    1 root    root              337 Nov 14  2001 /usr/share/man/man8/pmap_set.8.gz
+-r--r--r--    1 root    root             1952 Nov 14  2001 /usr/share/man/man8/portmap.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/portmap-4.0-4.m68kmint.rpm">Download</A></H2> (207,313 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

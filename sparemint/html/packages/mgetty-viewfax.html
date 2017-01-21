@@ -1,0 +1,93 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mgetty-viewfax, version 1.1.22, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mgetty-viewfax</H2>
+
+<UL> 
+<LI>Summary: An X Window System fax viewer.<BR>
+<LI>URL: <A HREF="ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/">ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/</A><BR>
+<LI>Version: 1.1.22<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Communications">Applications/Communications</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 721,478 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mgetty-viewfax = 1.1.22-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>XFree86  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jan  9 14:04:35 2001 UTC<BR>
+<LI>Upload date: Tue Jan  9 14:06:52 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mgetty-1.1.22-1.src.rpm">mgetty-1.1.22-1.src.rpm</A>  (971,382 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Jan  9 10:00:00 2001 UTC<BR>
+- updated to 1.1.22<BR>- integrated all Redhat 7.0 patches<BR>- patched to compile with current MiNTLib<BR>- added built of X11 faxviewer package
+<LI>Description:<BR>
+Viewfax displays the fax files received using mgetty in an X11 window.<BR>Viewfax is capable of zooming in and out on the displayed fax.<BR><P><BR>If you're installing the mgetty-viewfax package, you'll also need to<BR>install mgetty.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           666870 Jan  9  2001 /usr/bin/viewfax
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/doc/mgetty-viewfax-1.1.22
+-rw-r--r--    1 root    root            17976 Nov 25  1995 /usr/doc/mgetty-viewfax-1.1.22/COPYING
+-rw-r--r--    1 root    root            11438 Nov 13  1996 /usr/doc/mgetty-viewfax-1.1.22/ChangeLog
+-rw-r--r--    1 root    root              547 Oct 16  1995 /usr/doc/mgetty-viewfax-1.1.22/README
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/lib/mgetty+sendfax
+-r--r--r--    1 root    root            19063 Jan  9  2001 /usr/lib/mgetty+sendfax/viewfax.tif
+-rw-r--r--    1 root    root             3536 Jan  9  2001 /usr/share/man/man1/viewfax.1x.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mgetty-viewfax-1.1.22-1.m68kmint.rpm">Download</A></H2> (418,050 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

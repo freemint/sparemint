@@ -1,0 +1,196 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - curl, version 7.21.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>curl</H2>
+
+<UL> 
+<LI>Summary: A utility for getting files from remote servers (FTP, HTTP, and others).<BR>
+<LI>URL: <A HREF="http://curl.haxx.se/">http://curl.haxx.se/</A><BR>
+<LI>Version: 7.21.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: MPL</BR>
+<LI>Installation size: 3,453,352 bytes<BR>
+<LI>Operating system: mint<BR>
+<LI>Provides:<UL>
+  <LI>curl = 7.21.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Aug 28 17:06:36 2011 UTC<BR>
+<LI>Upload date: Sun Aug 28 15:29:02 2011 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/curl-7.21.7-1.src.rpm">curl-7.21.7-1.src.rpm</A>  (2,948,375 bytes)<BR>
+<LI>Last change: Adam Klobukowski &lt;adamklobukowski@gmail.com&gt; Sun Aug 28 12:00:00 2011 UTC<BR>
+- changelog started
+<LI>Description:<BR>
+cURL is a tool for getting files from FTP, HTTP, Gopher, Telnet, and<BR>Dict servers, using any of the supported protocols. cURL is designed<BR>to work without user interaction or any kind of interactivity. cURL<BR>offers many useful capabilities, like proxy support, user<BR>authentication, FTP upload, HTTP post, and file transfer resume.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root          2639084 Aug 28  2011 /usr/bin/curl
+drwxr-xr-x    2 root    root                0 Aug 28  2011 /usr/doc/curl-7.21.7
+-rw-r--r--    1 root    root             3441 Mar 19  2011 /usr/doc/curl-7.21.7/BUGS
+-rw-r--r--    1 root    root           174727 Jun 23  2011 /usr/doc/curl-7.21.7/CHANGES
+-rw-r--r--    1 root    root            10944 Mar 30  2011 /usr/doc/curl-7.21.7/CONTRIBUTE
+-rw-r--r--    1 root    root            61166 Jun 21  2011 /usr/doc/curl-7.21.7/FAQ
+-rw-r--r--    1 root    root             3893 Mar 19  2011 /usr/doc/curl-7.21.7/FEATURES
+-rw-r--r--    1 root    root            39376 Jun 20  2011 /usr/doc/curl-7.21.7/INSTALL
+-rw-r--r--    1 root    root            21362 Apr 18  2011 /usr/doc/curl-7.21.7/INTERNALS
+-rw-r--r--    1 root    root            36687 Apr 18  2011 /usr/doc/curl-7.21.7/MANUAL
+-rw-r--r--    1 root    root             1607 Mar 19  2011 /usr/doc/curl-7.21.7/README
+-rw-r--r--    1 root    root             2287 Mar 19  2011 /usr/doc/curl-7.21.7/RESOURCES
+-rw-r--r--    1 root    root            18096 Mar 19  2011 /usr/doc/curl-7.21.7/TODO
+-rw-r--r--    1 root    root            21751 Mar 19  2011 /usr/doc/curl-7.21.7/TheArtOfHttpScripting
+drwxr-xr-x    2 root    root                0 Aug 28  2011 /usr/doc/curl-7.21.7/examples
+drwxr-xr-x    2 root    root                0 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/10-at-a-time.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/anyauthput.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/certinfo.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/chkspeed.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/cookie_interface.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/debug.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/fileupload.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/fopen.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/ftp-wildcard.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/ftpget.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/ftpgetinfo.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/ftpgetresp.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/ftpupload.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/getinfo.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/getinmemory.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/http-post.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/httpcustomheader.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/httpput.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/https.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/multi-app.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/multi-debugcallback.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/multi-double.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/multi-post.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/multi-single.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/persistant.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/post-callback.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/postit2.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/sendrecv.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/sepheaders.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/simple.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/simplepost.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/simplesmtp.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/simplessl.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/smtp-multi.Po
+-rw-r--r--    1 root    root                8 Aug 28  2011 /usr/doc/curl-7.21.7/examples/.deps/smtp-tls.Po
+-rw-r--r--    1 root    root             5229 Mar 19  2011 /usr/doc/curl-7.21.7/examples/10-at-a-time.c
+-rw-r--r--    1 root    root            31756 Aug 28  2011 /usr/doc/curl-7.21.7/examples/Makefile
+-rw-r--r--    1 root    root             2128 Mar 19  2011 /usr/doc/curl-7.21.7/examples/Makefile.am
+-rw-r--r--    1 root    root             1906 Mar 19  2011 /usr/doc/curl-7.21.7/examples/Makefile.example
+-rw-r--r--    1 root    root            34158 Jun 21  2011 /usr/doc/curl-7.21.7/examples/Makefile.in
+-rw-r--r--    1 root    root              886 Mar 19  2011 /usr/doc/curl-7.21.7/examples/Makefile.inc
+-rw-r--r--    1 root    root             4217 Mar 19  2011 /usr/doc/curl-7.21.7/examples/Makefile.m32
+-rw-r--r--    1 root    root             3775 Mar 19  2011 /usr/doc/curl-7.21.7/examples/README
+-rw-r--r--    1 root    root             4671 Apr 28  2011 /usr/doc/curl-7.21.7/examples/anyauthput.c
+-rw-r--r--    1 root    root             6769 Mar 19  2011 /usr/doc/curl-7.21.7/examples/cacertinmem.c
+-rw-r--r--    1 root    root             2252 Mar 19  2011 /usr/doc/curl-7.21.7/examples/certinfo.c
+-rw-r--r--    1 root    root             5812 Mar 19  2011 /usr/doc/curl-7.21.7/examples/chkspeed.c
+-rw-r--r--    1 root    root             3697 Mar 19  2011 /usr/doc/curl-7.21.7/examples/cookie_interface.c
+-rw-r--r--    1 root    root             3038 Mar 19  2011 /usr/doc/curl-7.21.7/examples/curlgtk.c
+-rw-r--r--    1 root    root            16091 Mar 19  2011 /usr/doc/curl-7.21.7/examples/curlx.c
+-rw-r--r--    1 root    root             3829 Mar 19  2011 /usr/doc/curl-7.21.7/examples/debug.c
+-rw-r--r--    1 root    root            12177 Mar 19  2011 /usr/doc/curl-7.21.7/examples/evhiperfifo.c
+-rw-r--r--    1 root    root             2482 Mar 19  2011 /usr/doc/curl-7.21.7/examples/fileupload.c
+-rw-r--r--    1 root    root            13383 Mar 19  2011 /usr/doc/curl-7.21.7/examples/fopen.c
+-rw-r--r--    1 root    root             4201 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftp-wildcard.c
+-rw-r--r--    1 root    root             2922 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftpget.c
+-rw-r--r--    1 root    root             2972 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftpgetinfo.c
+-rw-r--r--    1 root    root             2465 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftpgetresp.c
+-rw-r--r--    1 root    root             4418 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftpupload.c
+-rw-r--r--    1 root    root             4828 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ftpuploadresume.c
+-rw-r--r--    1 root    root             1894 Mar 19  2011 /usr/doc/curl-7.21.7/examples/getinfo.c
+-rw-r--r--    1 root    root             3353 May  4  2011 /usr/doc/curl-7.21.7/examples/getinmemory.c
+-rw-r--r--    1 root    root            12015 Mar 19  2011 /usr/doc/curl-7.21.7/examples/ghiper.c
+-rw-r--r--    1 root    root            11477 Mar 19  2011 /usr/doc/curl-7.21.7/examples/hiperfifo.c
+-rw-r--r--    1 root    root             4088 Mar 19  2011 /usr/doc/curl-7.21.7/examples/htmltidy.c
+-rw-r--r--    1 root    root             6298 Mar 19  2011 /usr/doc/curl-7.21.7/examples/htmltitle.cc
+-rw-r--r--    1 root    root             1677 Mar 19  2011 /usr/doc/curl-7.21.7/examples/http-post.c
+-rw-r--r--    1 root    root             1705 Mar 19  2011 /usr/doc/curl-7.21.7/examples/httpcustomheader.c
+-rw-r--r--    1 root    root             3500 Mar 19  2011 /usr/doc/curl-7.21.7/examples/httpput.c
+-rw-r--r--    1 root    root             2271 Mar 19  2011 /usr/doc/curl-7.21.7/examples/https.c
+-rw-r--r--    1 root    root             1703 Apr 18  2011 /usr/doc/curl-7.21.7/examples/makefile.dj
+-rw-r--r--    1 root    root             4592 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multi-app.c
+-rw-r--r--    1 root    root             5493 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multi-debugcallback.c
+-rw-r--r--    1 root    root             3416 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multi-double.c
+-rw-r--r--    1 root    root             4618 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multi-post.c
+-rw-r--r--    1 root    root             3379 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multi-single.c
+-rw-r--r--    1 root    root             2646 Mar 19  2011 /usr/doc/curl-7.21.7/examples/multithread.c
+-rw-r--r--    1 root    root             2786 Mar 19  2011 /usr/doc/curl-7.21.7/examples/opensslthreadlock.c
+-rw-r--r--    1 root    root             1708 Mar 19  2011 /usr/doc/curl-7.21.7/examples/persistant.c
+-rw-r--r--    1 root    root             4321 Mar 19  2011 /usr/doc/curl-7.21.7/examples/post-callback.c
+-rw-r--r--    1 root    root             3391 Mar 19  2011 /usr/doc/curl-7.21.7/examples/postit2.c
+-rw-r--r--    1 root    root             3367 Mar 19  2011 /usr/doc/curl-7.21.7/examples/sampleconv.c
+-rw-r--r--    1 root    root             3576 Mar 19  2011 /usr/doc/curl-7.21.7/examples/sendrecv.c
+-rw-r--r--    1 root    root             2601 Mar 19  2011 /usr/doc/curl-7.21.7/examples/sepheaders.c
+-rw-r--r--    1 root    root             1327 Mar 19  2011 /usr/doc/curl-7.21.7/examples/simple.c
+-rw-r--r--    1 root    root             1617 Mar 19  2011 /usr/doc/curl-7.21.7/examples/simplepost.c
+-rw-r--r--    1 root    root             3410 Mar 19  2011 /usr/doc/curl-7.21.7/examples/simplesmtp.c
+-rw-r--r--    1 root    root             4401 Mar 19  2011 /usr/doc/curl-7.21.7/examples/simplessl.c
+-rw-r--r--    1 root    root             6306 Mar 19  2011 /usr/doc/curl-7.21.7/examples/smooth-gtk-thread.c
+-rw-r--r--    1 root    root             5909 Mar 19  2011 /usr/doc/curl-7.21.7/examples/smtp-multi.c
+-rw-r--r--    1 root    root             5707 Mar 19  2011 /usr/doc/curl-7.21.7/examples/smtp-tls.c
+-rw-r--r--    1 root    root            12885 Mar 19  2011 /usr/doc/curl-7.21.7/examples/synctime.c
+-rw-r--r--    1 root    root             4293 Mar 19  2011 /usr/doc/curl-7.21.7/examples/threaded-ssl.c
+-rwxr-xr-x    1 root    root             2711 Mar 19  2011 /usr/doc/curl-7.21.7/examples/version-check.pl
+-rw-r--r--    1 root    root            81860 Aug 28  2011 /usr/man/man1/curl.1
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/curl-7.21.7-1.m68kmint.rpm">Download</A></H2> (1,438,744 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

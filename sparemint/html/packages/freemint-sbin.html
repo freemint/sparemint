@@ -1,0 +1,104 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - freemint-sbin, version 1.18.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>freemint-sbin</H2>
+
+<UL> 
+<LI>Summary: The FreeMiNT system tools<BR>
+<LI>URL: <A HREF="http://sparemint.atariforge.net/">http://sparemint.atariforge.net/</A><BR>
+<LI>Version: 1.18.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Base System/Kernel">Base System/Kernel</A>
+<LI>License: MiNT license, GPL, LGPL</BR>
+<LI>Installation size: 1,717,192 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>freemint-sbin = 1.18.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freemint = 1.18.0<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Apr 11 22:49:14 2013 UTC<BR>
+<LI>Upload date: Fri Apr 12 13:00:15 2013 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/freemint-1.18.0-1.src.rpm">freemint-1.18.0-1.src.rpm</A>  (4,995,917 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;makehr@ndh.net&gt; Wed Apr  3 09:00:00 2013 UTC<BR>
+- version 1.18 release
+<LI>Description:<BR>
+This package includes the system tools for runtime configuration and<BR>maintaining the system.<BR><P><BR>It also include the GlueSTiK and MGW gateway to MiNTNet.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           130827 Apr 11 18:48 /sbin/fdisk
+-rwxr-xr-x    1 root    root            99510 Apr 11 18:48 /sbin/flist
+-rwxr-xr-x    1 root    root           145485 Apr 11 18:48 /sbin/fsck.minix
+-rwxr--r--    1 root    root              193 Apr 11 18:46 /sbin/getxml.sh
+-rwxr-xr-x    1 root    root            47398 Apr 11 18:48 /sbin/lpflush
+-rwxr--r--    1 root    root               40 Apr 11 18:46 /sbin/makenodes
+-rwxr-xr-x    1 root    root           104917 Apr 11 18:48 /sbin/mfsconf
+-rwxr-xr-x    1 root    root           160795 Apr 11 18:48 /sbin/minit
+-rwxr-xr-x    1 root    root           166479 Apr 11 18:48 /sbin/mkfatfs
+-rwxr-xr-x    1 root    root           101914 Apr 11 18:48 /sbin/mktbl
+-rwxr-xr-x    1 root    root           150290 Apr 11 18:48 /sbin/sfdisk
+-rwxr-xr-x    1 root    root           157227 Apr 11 18:48 /sbin/sysctl
+-rwxr--r--    1 root    root               26 Apr 11 18:46 /sbin/u2w
+-rwxr--r--    1 root    root               26 Apr 11 18:46 /sbin/w2u
+-rwxr-xr-x    1 root    root           190240 Apr 11 18:48 /usr/sbin/crypto
+-rwxr-xr-x    1 root    root           129279 Apr 11 18:48 /usr/sbin/gluestik
+-rwxr-xr-x    1 root    root           125655 Apr 11 18:48 /usr/sbin/mgw
+-rw-r--r--    1 root    root              359 Apr 11 18:46 /usr/share/man/man1/lpflush.1.gz
+-rw-r--r--    1 root    root             6532 Apr 11 18:46 /usr/share/man/man8/sfdisk.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/freemint-sbin-1.18.0-1.m68kmint.rpm">Download</A></H2> (916,541 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Sat Apr 27 15:15:40 2013 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - lzip, version 1.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>lzip</H2>
+
+<UL> 
+<LI>Summary: Data compression utility using LZMA with fast decompress<BR>
+<LI>URL: <A HREF="http://www.nongnu.org/lzip/lzip.html">http://www.nongnu.org/lzip/lzip.html</A><BR>
+<LI>Version: 1.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 458,555 bytes<BR>
+<LI>Operating system: linux<BR>
+<LI>Provides:<UL>
+  <LI>lzip = 1.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>rpmlib(CompressedFileNames) <= 3.0.4-1<BR>
+  <LI>rpmlib(PayloadFilesHavePrefix) <= 4.0-1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sat May 16 02:29:11 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:26 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/lzip-1.5-1.src.rpm">lzip-1.5-1.src.rpm</A>  (69,383 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Fri May 15 22:00:00 2009 UTC<BR>
+- Initial build of lzip RPM using Cross Compilers!
+<LI>Description:<BR>
+    Lzip is a lossless file compressor based on the LZMA<BR>    (Lempel-Ziv-Markov chain-Algorithm) algorithm, designed by Igor<BR>    Pavlov. The high compression of LZMA comes from combining two basic,<BR>    well-proven compression ideas: sliding dictionaries (i.e. LZ77/78),<BR>    and Markov models (i.e. the thing used by every compression<BR>    algorithm that uses a range encoder or similar order-0 entropy coder<BR>    as its last stage) with segregation of contexts according to what<BR>    the bits are used for. Lzip has a user interface similar to the one<BR>    of gzip(1) or bzip2(1).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           237796 May 15  2009 /usr/bin/lzip
+-rwxr-xr-x    1 root    root           173193 May 15  2009 /usr/bin/lziprecover
+drwxr-xr-x    2 root    root                0 May 15  2009 /usr/share/doc/lzip-1.5
+-rw-r--r--    1 root    root              157 Feb 21  2009 /usr/share/doc/lzip-1.5/AUTHORS
+-rw-r--r--    1 root    root            35744 Jun 28  2007 /usr/share/doc/lzip-1.5/COPYING
+-rw-r--r--    1 root    root              609 Apr 12  2009 /usr/share/doc/lzip-1.5/NEWS
+-rw-r--r--    1 root    root             3214 Feb 21  2009 /usr/share/doc/lzip-1.5/README
+-rw-r--r--    1 root    root             6720 Apr 12  2009 /usr/share/info/lzip.info.gz
+-rw-r--r--    1 root    root             1122 Apr 12  2009 /usr/share/man/man1/lzip.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/lzip-1.5-1.m68kmint.rpm">Download</A></H2> (225,840 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

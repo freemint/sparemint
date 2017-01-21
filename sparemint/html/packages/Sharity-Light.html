@@ -1,0 +1,93 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - Sharity-Light, version 1.2, release 5</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>Sharity-Light</H2>
+
+<UL> 
+<LI>Summary: Sharity-Light - remount samba exports as NFS<BR>
+<LI>URL: <A HREF="http://www.obdev.at/Products/">http://www.obdev.at/Products/</A><BR>
+<LI>Version: 1.2<BR>
+<LI>Release: 5<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 234,158 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>Sharity-Light = 1.2-5<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>Sharity  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Mar  6 12:14:57 2002 UTC<BR>
+<LI>Upload date: Wed Mar  6 12:15:00 2002 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/Sharity-Light-1.2-5.src.rpm">Sharity-Light-1.2-5.src.rpm</A>  (93,435 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Mar  6 10:00:00 2002 UTC<BR>
+- increased the stacksize a little bit; this fixes some timeout problems
+<LI>Description:<BR>
+If you know smbfs for Linux: Sharity-Light is roughly the same. It is<BR>derived from smbfs, but runs as a user level program, not in the kernel.<BR>If you know samba: Sharity-Light is roughly the opposite: a client for the<BR>Lanmanager protocol. If you know neither of these: Sharity-Light lets you<BR>mount drives exported by Windows (f.Workgroups/95/NT), Lan Manager, OS/2<BR>etc. on Unix machines.<BR><P><BR>Sharity-Light has previously been called rumba. However, it turned out that<BR>Wall Data Incorporated owns the trademark "RUMBA". To avoid confusion and<BR>a violation of the trademark rights, the program has been renamed to<BR>"Sharity-Light". The name has been chosen because Sharity-Light implements<BR>the same protocol (CIFS/SMB) as the more professional program "Sharity",<BR>which is also available from our web site at<BR><P><BR>    http://www.obdev.at/Products/Sharity.html
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           193009 Mar  6  2002 /usr/bin/shlight
+-rwxr-xr-x    1 root    root             1021 Mar  6  2002 /usr/bin/unshlight.sh
+drwxr-xr-x    2 root    root                0 Mar  6  2002 /usr/doc/Sharity-Light-1.2
+-rw-r--r--    1 root    root             3002 Nov 24  1998 /usr/doc/Sharity-Light-1.2/Changelog
+-rw-r--r--    1 root    root            17982 Dec 15  1996 /usr/doc/Sharity-Light-1.2/Copying
+-rw-r--r--    1 root    root             1423 Jun 30  1998 /usr/doc/Sharity-Light-1.2/FAQ.txt
+-rw-r--r--    1 root    root            12889 Nov 16  1998 /usr/doc/Sharity-Light-1.2/README
+-rw-r--r--    1 root    root             3808 Mar  6  2002 /usr/share/man/man8/shlight.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/Sharity-Light-1.2-5.m68kmint.rpm">Download</A></H2> (120,558 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

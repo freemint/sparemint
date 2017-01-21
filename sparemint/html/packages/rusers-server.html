@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - rusers-server, version 0.17, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>rusers-server</H2>
+
+<UL> 
+<LI>Summary: Server for the rusers protocol.<BR>
+<LI>URL: <A HREF="ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/">ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/</A><BR>
+<LI>Version: 0.17<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 284,677 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>rusers-server = 0.17-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>portmap  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 28 04:52:17 2001 UTC<BR>
+<LI>Upload date: Fri Sep 28 04:52:26 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/rusers-0.17-2.src.rpm">rusers-0.17-2.src.rpm</A>  (34,255 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Sep 26 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The rusers program allows users to find out who is logged into various<BR>machines on the local network.  The rusers command produces output<BR>similar to who, but for the specified list of hosts or for all<BR>machines on the local network. The rusers-server package contains the<BR>server for responding to rusers requests.<BR><P><BR>Install rusers-server if you want remote users to be able to see<BR>who is logged into your machine.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1010 Sep 28  2001 /etc/rc.d/init.d/rstatd
+-rwxr-xr-x    1 root    root             1114 Sep 28  2001 /etc/rc.d/init.d/rusersd
+-rwxr-xr-x    1 root    root           160892 Sep 28  2001 /usr/sbin/rpc.rstatd
+-rwxr-xr-x    1 root    root           119045 Sep 28  2001 /usr/sbin/rpc.rusersd
+-rw-r--r--    1 root    root             1305 Sep 28  2001 /usr/share/man/man8/rpc.rstatd.8.gz
+-rw-r--r--    1 root    root             1280 Sep 28  2001 /usr/share/man/man8/rpc.rusersd.8.gz
+?rwxrwxrwx    1 root    root               15 Sep 28  2001 /usr/share/man/man8/rstatd.8.gz
+?rwxrwxrwx    1 root    root               16 Sep 28  2001 /usr/share/man/man8/rusersd.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/rusers-server-0.17-2.m68kmint.rpm">Download</A></H2> (144,534 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

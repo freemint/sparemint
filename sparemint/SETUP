@@ -1,0 +1,285 @@
+This file gives information on getting started with Sparemint.  Some
+of the questions it leaves opens are maybe answered in the file
+FAQ.MiNT.
+
+Installing rpm
+==============
+
+Sparemint is based on the Redhat Package Manager.  You will find 
+a gzipped tarball for a bootstrapping archive in the subdirectory
+`misc'.  Once you have successfully installed it, you will be
+able to update rpm with itself.
+
+Basic Packages
+==============
+
+This should actually be the last section in this file.  Before you
+install packages you should setup your directory structure and your
+user and group database.  But it don't run a big risk if you simply
+trust that this stuff is right.  Anyway, please read the sections
+below at least, so that you will have an idea of what could go
+wrong.
+
+On of the major advantages of rpm is that it will keep track of
+dependencies.  For example it will refuse to install a set of
+documentation in html format if you don't have a browser to view
+these files.  Same when you want to uninstall your browser, rpm
+will tell you that the html docs you have installed will need it.
+
+Very good concept but for bootstrapping it can become a nuisance.
+So before you install anything you should create a file `/etc/rpmrc'
+and add a single line
+
+Provides:
+
+there.  If you later want to install a package and rpm tells you
+that your new package would require `gawk' and `perl', simply edit 
+`/etc/rpmrc' like this:
+
+Provides: perl gawk
+
+When rpm reads that line it knows that you have both Perl and gawk
+installed but it is not yet registered in the rpm database.  Of 
+course if you really don't have perl that is a bad idea because then
+you really can't use that package.
+
+In the beginning you will often add `Provides' (beware: there mustn't
+be more than one provides line, put all provides on the same line!)
+but you should later come back and check the file again.  If you
+have installed gawk via rpm you should remove the automatic provide
+from there so that rpm's dependency mechanism will work.
+
+The recommended order for installing packages from Sparemint is
+
+	bash
+	info
+	mintbin
+
+All other packages need the GNU Bourne Again Shell Bash because
+they get installed via this shell.  The package info is also commonly
+needed because it installs the documentation in GNU info format.
+
+Many packages may still contain dependencies on the package mintbin.
+This is actually a bug but to avoid problems you should install
+mintbin at an early point of time, you will need it anyway.
+
+
+
+Directory structure
+===================
+
+Sparemint is intended to follow the Filesystem Hierarchy Standard
+(FHS, see http://www.fhs.com/).  Sparemint packages will create
+directories as needed (if they don't, please report that as a bug).
+
+There is one exception to that rule which is caused by a restriction
+in MiNT itself.  Sparemint packages cannot create toplevel
+directories like `/bin' (Unix notation) or `u:\bin' (GEMDOS
+notation).  However, Sparemint requires the following toplevel
+directories to exist on your system:
+
+	/bin
+	/boot
+	/etc
+	/home
+	/lib
+	/mnt
+	/opt
+	/root
+	/sbin
+	/tmp
+	/usr
+	/var
+
+What do you have to do if one of these directories is missing on your
+system?  In MiNT only the kernel can create toplevel directories, and
+these directories are special like `/dev' or `/proc'.  Other toplevel
+directories are really symbolic links that are usually created in the
+MiNT configuration file `c:\mint\mint.cnf'.  It is possible that this
+directory is called `c:\multitos\mint.cnf' on your system.  Anyway,
+it is on your boot drive, in subdirectory `mint' or `multitos' (we
+prefer `mint' as the location for the configuration file and drivers).
+
+Assuming that you have a large partition g: on your system you should
+create all of the above mentioned directories (except for `/boot', see
+below) on this drive g.  Then add the following lines to your `mint.cnf':
+
+#
+# Set symbolic links to drive u:.
+#
+sln g:\usr	u:\usr
+sln g:\bin	u:\bin
+sln g:\lib	u:\lib
+sln g:\etc      u:\etc
+sln g:\home     u:\home
+sln g:\tmp      u:\tmp
+sln g:\var      u:\var
+sln g:\sbin	u:\sbin
+sln g:\root     u:\root
+sln g:\opt      u:\opt
+sln g:\mnt      u:\mnt
+sln c:\         u:\boot
+##################################
+
+You may notice that the we link the directory `u:\boot' (we simply say
+`/boot' from now on) to your boot drive.  You may also notice that
+we can now address your kernel configuration file as `/boot/mint/mint.cnf'.
+
+Group Database
+=======================
+
+There should be a minimum set of users and groups known on your system
+so that installation procedures can rely on it.  If you have previously
+installed a MiNT distribution such as KGMD or KEMD your setup will
+probably very close to our needs.
+
+This part is a little bit tricky.  Please take your time for it and 
+follow all steps carefully.  If you are not sure better leave things
+as they are.  You will probably be able to do the necessary steps
+later.
+
+Let's first fix your group database.  Make a backup of the file 
+`/etc/group' and load it into an editor.  Mine looks like this:
+
+wheel:*:0:root
+nobody:*:65534:
+daemon:*:1:root,bin,daemon
+kmem:*:2:
+bin:*:3:root,bin,daemon
+tty:*:4:
+lp:*:5:daemon,lp
+news:*:6:news
+mail:*:7:mail
+uucp:*:8:uucp
+sys:*:9:sys,root,adm
+staff:*:10:root
+man:*:11
+adm:*:12:root,adm,daemon
+disk:*:13:root
+mem:*:14:
+games:*:20:
+gopher:*:30:
+dip:*:40:
+ftp:*:50:
+users:*:100:
+
+A short explanation:  All lines consist of group entries separated by
+colons (`:').  The first field is the name of the group, e. g. `wheel'
+or `staff'.  The second is for a password and not used.  The third
+is a unique numerical group id and the last is a list of members
+of this group.  
+
+Check if any of these groups are missing on your system.  If so
+simply copy the line (you should try to sort it by the numerical
+group id to avoid duplicate entries).  The problems begin if you
+have a certain group but this group has a different id on your
+system.  You can either omit this group (and leave this step for
+later) or change it now.
+
+For example, if you have the group `mail' but it has the group id
+17 on your system, you can now change it to 7.  But the filesystem
+does not store the name of the group when recording group ownerships
+but only the numerical id.  To fix this you have to make all files
+that belonged to the former group 17 belong to group 7 now.
+
+You should start a shell and type the following command:
+
+	find / -group 17 -exec chgrp 7 {} \;
+
+Type it exactly like this (except for 17 that has to replaced with
+the old group id and 7 that has to be replaced by the new group
+id).  If you have already changed `/etc/group' you may specify
+`mail' instead of 7 because the `chgrp' command will translate that
+to 7 from `/etc/group'.
+
+Note that this command will consume a considerable amount of time
+since it will have to check every single file on your filesystems.
+
+If either the `find' command or the `chgrp' command are  missing
+on your system you have lost for now.  You should revert your changes
+to `/etc/group' and wait until you have installed the packages
+`findutils' and `fileutils' which will provide these commands.
+
+Again, take your time with that, it's not that important for the
+beginning.
+
+User Database
+=============
+
+The procedure for the user database is very similar to that for
+the group database.  The user database is kept in the file 
+`/etc/passwd'.  Make a backup of it and then load it into your
+editor.  Mine looks like this:
+
+root:*:0:0:root:/root:/bin/bash
+nobody:*:65534:65534:Nobody:/:
+daemon:*:2:2:daemon:/sbin:
+bin:*:3:3:bin:/bin:
+uucp:*:4:8:uucp:/var/spool/uucp:
+news:*:6:6:news:/var/spool/news:
+mail:*:7:7:mail:/var/spool/mail:
+ftp:*:8:50:FTP User:/home/ftp:
+adm:*:9:12:adm:/var/adm:
+operator:*:10:0:operator:/root:
+gopher:*:12:30:gopher:/usr/lib/gopher-data:
+sync:*:13:0:sync:/sbin:/bin/sync
+shutdown:*:14:0:shutdown:/sbin:/sbin/shutdown
+halt:*:15:0:halt:/sbin:/sbin/halt
+games:*:20:100:games:/usr/games:
+guido:*:500:100:Guido Flohr:/home/guido:/bin/bash
+
+The meaning of the colon-separated fields are:
+
+	- user name (login), e. g. root or guido
+	- password, I've put an asterisk `*' here.  If the user
+	  exists on your system you will see the encrypted password
+	  instead.
+	- numerical user id that positively identifies that user.
+	- numerical group id, the primary group of that user.  
+	  Have a look in the file `/etc/group' to find out which
+	  groups are meant by the numbers.
+	- the so-called GECOS-Field, more or less the full name of
+	  the user.
+	- the user's home directory, the initial directory when
+	  that user logs in.
+	- the user's login shell, i. e. the program that gets started
+	  if that user logs in.
+
+You should try make all of the above users available on your system
+too.  You should also try to assign them the same user ids as 
+shown here.
+
+Of course you don't have to have a user `guido' on your system.
+The user `guido' shown here is just an example of an ordinary user.
+If your name is Sid Vicious you would probably replace that with
+the line
+
+sid:*:500:100:Sid Vicious:/home/sid:/bin/bash
+
+But you should make ordinary users assign user ids greater or equal
+to 500 and their primary group should be `users' (group id 100).
+
+Again, it's getting difficult if you have to change the user id for
+an existing user.  Let's stick with the mail example.  Say, user 
+mail on your system had the user id 11 and you want to change that
+to 7:
+
+	find / -user 11 -exec chown 7 {} \;
+
+You can leave this step to later but you should not forget it.
+
+After you are done with the user and group database you should
+check it once again.  You should make sure that all user and group
+ids positively identify a particular user/group.  The easiest way
+to achieve this is to always sort the lines by the id.  This will
+show you if you have doubly assigned a certain id.
+
+There are probably a couple of things left to do but you will
+find them out yourself, learning by doing.  If you have any questions
+you can always ask at the MiNT mailing list mint(at)fishpool.com.
+The Sparemint maintainers are subscribed to that list.
+
+Have fun!
+
+Guido Flohr
+

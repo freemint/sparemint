@@ -1,0 +1,147 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mgetty, version 1.1.22, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mgetty</H2>
+
+<UL> 
+<LI>Summary: A getty replacement for use with data and fax modems.<BR>
+<LI>URL: <A HREF="ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/">ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/</A><BR>
+<LI>Version: 1.1.22<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Communications">Applications/Communications</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 1,176,290 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mgetty = 1.1.22-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jan  9 14:04:35 2001 UTC<BR>
+<LI>Upload date: Tue Jan  9 14:05:08 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mgetty-1.1.22-1.src.rpm">mgetty-1.1.22-1.src.rpm</A>  (971,382 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Jan  9 10:00:00 2001 UTC<BR>
+- updated to 1.1.22<BR>- integrated all Redhat 7.0 patches<BR>- patched to compile with current MiNTLib<BR>- added built of X11 faxviewer package
+<LI>Description:<BR>
+The mgetty package contains a "smart" getty which allows logins over a<BR>serial line (i.e., through a modem).  If you're using a Class 2 or 2.0<BR>modem, mgetty can receive faxes.  If you also need to send faxes,<BR>you'll need to install the sendfax program.<BR><P><BR>If you'll be dialing in to your system using a modem, you should<BR>install the mgetty package.  If you'd like to send faxes using mgetty<BR>and your modem, you'll need to install the mgetty-sendfax program.  If<BR>you need a viewer for faxes, you'll also need to install the<BR>mgetty-viewfax package.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              168 Jan  9  2001 /etc/logrotate.d/mgetty
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /etc/mgetty+sendfax
+-rw-------    1 root    root             1172 Jan  9  2001 /etc/mgetty+sendfax/dialin.config
+-rw-------    1 root    root             2707 Jan  9  2001 /etc/mgetty+sendfax/login.config
+-rw-------    1 root    root             1565 Jan  9  2001 /etc/mgetty+sendfax/mgetty.config
+-rwx------    1 root    root           217912 Jan  9  2001 /sbin/mgetty
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/doc/mgetty-1.1.22
+-rw-r--r--    1 root    root             2124 Dec  4  1998 /usr/doc/mgetty-1.1.22/BUGS
+-rw-r--r--    1 root    root           107584 Aug 17  2000 /usr/doc/mgetty-1.1.22/ChangeLog
+-rw-r--r--    1 root    root             3182 Jul 18  2000 /usr/doc/mgetty-1.1.22/README.1st
+-rw-r--r--    1 root    root             1491 Oct 30  1997 /usr/doc/mgetty-1.1.22/THANKS
+-rw-r--r--    1 root    root             1776 Jun 30  1999 /usr/doc/mgetty-1.1.22/loginv2.txt
+-rw-rw-rw-    1 root    root           452729 Jan  9  2001 /usr/doc/mgetty-1.1.22/mgetty.ps
+-rw-r--r--    1 root    root            57536 Aug 15  2000 /usr/doc/mgetty-1.1.22/modems.db
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/doc/mgetty-1.1.22/samples
+-rw-r--r--    1 root    root              706 Jan 13  1996 /usr/doc/mgetty-1.1.22/samples/answer_fax.sh
+-rw-r--r--    1 root    root             4009 Jun  6  1997 /usr/doc/mgetty-1.1.22/samples/coverpg-pl.ps
+-rw-r--r--    1 root    root             1211 Oct 30  1997 /usr/doc/mgetty-1.1.22/samples/coverpg.pbm
+-rw-r--r--    1 root    root             3240 Oct 30  1997 /usr/doc/mgetty-1.1.22/samples/coverpg.ps
+-rw-r--r--    1 root    root             2198 Nov 11  1994 /usr/doc/mgetty-1.1.22/samples/fax
+-rw-r--r--    1 root    root             1173 Nov 11  1994 /usr/doc/mgetty-1.1.22/samples/faxmemo
+-rw-r--r--    1 root    root             1778 Aug 31  1998 /usr/doc/mgetty-1.1.22/samples/faxview.th
+-rw-r--r--    1 root    root             2941 Apr  5  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.NeXT
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/doc/mgetty-1.1.22/samples/new_fax.all
+-rw-r--r--    1 root    root              553 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/INSTALL
+-rw-r--r--    1 root    root             5128 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/README
+-rw-r--r--    1 root    root              238 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/archive.module
+-rw-r--r--    1 root    root              155 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/delete.module
+-rw-r--r--    1 root    root              134 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/fax.module
+-rw-r--r--    1 root    root              966 Jul 28  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/faxlist
+-rw-r--r--    1 root    root              481 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/faxlist.dist
+-rw-r--r--    1 root    root              199 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/list.module
+-rw-r--r--    1 root    root             1125 Jan  2  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.all/mail.module
+-rw-r--r--    1 root    root             1886 Jul 26  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/new_fax
+-rw-r--r--    1 root    root              134 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/notify.module
+-rw-r--r--    1 root    root              368 Jan  2  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.all/print.module
+-rw-r--r--    1 root    root              272 Jul 27  1996 /usr/doc/mgetty-1.1.22/samples/new_fax.all/write.module
+-rw-r--r--    1 root    root             2905 Jan  2  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.hpa
+-rw-r--r--    1 root    root              840 Jul 26  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.lj
+-rw-r--r--    1 root    root              842 Jul 16  2000 /usr/doc/mgetty-1.1.22/samples/new_fax.mail
+-rw-r--r--    1 root    root             1863 Jan  2  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.mime1
+-rw-r--r--    1 root    root             2470 Jun 12  1998 /usr/doc/mgetty-1.1.22/samples/new_fax.mime3
+-rw-r--r--    1 root    root             5988 Apr 17  1999 /usr/doc/mgetty-1.1.22/samples/new_fax.mime4
+-rw-r--r--    1 root    root             1315 Jan  2  1997 /usr/doc/mgetty-1.1.22/samples/new_fax.pbm
+-rw-r--r--    1 root    root             2906 Aug 31  1998 /usr/doc/mgetty-1.1.22/samples/new_fax.th
+-rw-r--r--    1 root    root             1206 Apr  5  1998 /usr/doc/mgetty-1.1.22/samples/new_fax.tiff
+-rw-r--r--    1 root    root             3237 Apr 15  1995 /usr/doc/mgetty-1.1.22/samples/new_fax.vacation
+-rw-r--r--    1 root    root              914 Oct 31  1997 /usr/doc/mgetty-1.1.22/samples/printfax
+-rw-r--r--    1 root    root             1331 Jun 12  1998 /usr/doc/mgetty-1.1.22/samples/printfax.ps
+-rw-r--r--    1 root    root             8515 Jul  3  1994 /usr/doc/mgetty-1.1.22/scanner.txt
+-rw-r--r--    1 root    root             8925 Feb 13  1999 /usr/doc/mgetty-1.1.22/secure_tty.txt
+-rw-r--r--    1 root    root             3180 Jun  1  1996 /usr/doc/mgetty-1.1.22/ttyS-cua.txt
+-rw-r--r--    1 root    root            18375 Jan  9  2001 /usr/info/mgetty.info-1.gz
+-rw-r--r--    1 root    root            18442 Jan  9  2001 /usr/info/mgetty.info-2.gz
+-rw-r--r--    1 root    root            19587 Jan  9  2001 /usr/info/mgetty.info-3.gz
+-rw-r--r--    1 root    root            11204 Jan  9  2001 /usr/info/mgetty.info-4.gz
+-rw-r--r--    1 root    root              965 Jan  9  2001 /usr/info/mgetty.info.gz
+-rwx------    1 root    root           170233 Jan  9  2001 /usr/sbin/callback
+-rw-r--r--    1 root    root             3053 Jan  9  2001 /usr/share/man/man4/mgettydefs.4.gz
+-rw-r--r--    1 root    root             2063 Jan  9  2001 /usr/share/man/man8/callback.8.gz
+-rw-r--r--    1 root    root             2994 Jan  9  2001 /usr/share/man/man8/mgetty.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mgetty-1.1.22-1.m68kmint.rpm">Download</A></H2> (528,659 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

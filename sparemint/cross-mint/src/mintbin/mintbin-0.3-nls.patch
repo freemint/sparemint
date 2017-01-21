@@ -1,0 +1,56 @@
+--- mintbin-0.3/doc/mintbin.info.nls	Sat Aug 14 23:07:29 1999
++++ mintbin-0.3/doc/mintbin.info	Sat Aug 14 23:08:31 1999
+@@ -45,7 +45,7 @@
+ FreeMiNT binary utilities
+ *************************
+ 
+-* Menü:
++* Menue:
+ 
+ * Introduction::                Overview and quick start.
+ 
+@@ -182,7 +182,7 @@
+ crashes for non-obvious reasons it is often advisable to first change
+ its stack size.
+ 
+-* Menü:
++* Menue:
+ 
+ * Invoking stack::              Invoking the stack program.
+ * What is the stack::           Brief explanation of the term stack.
+@@ -381,7 +381,7 @@
+ symbols with the nm program, but the internals differ from older
+ versions.
+ 
+-* Menü:
++* Menue:
+ 
+ * The ar library format::       Format of runtime libraries as produced
+                                 by the GNU archiver.
+@@ -541,7 +541,7 @@
+ (Ld)Overview.).  For a brief overview you should type `ld --help'.
+ This manual only covers some FreeMiNT-specific aspects.
+ 
+-* Menü:
++* Menue:
+ 
+ * Changes::                     What has changed with respect to older
+                                 linkers.
+@@ -868,7 +868,7 @@
+    The format of program files produced by the GNU linker 2.9.1 or later
+ is a compatible extension of the standard GEMDOS program format.
+ 
+-* Menü:
++* Menue:
+ 
+ * History::                     The GEMDOS program format.
+ * Layout of program files::     Layout of program files on disk.
+@@ -1128,7 +1128,7 @@
+ or later.  The documentation for the GNU binutils is the primary source
+ of information.
+ 
+-* Menü:
++* Menue:
+ 
+ * Internals::                   Some internals of the GNU binutils.
+ * Building the GNU binutils::   Building the GNU binutils.

@@ -1,0 +1,97 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - XServer, version 0.14, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>XServer</H2>
+
+<UL> 
+<LI>Summary: The FreeMiNT X11 server for GEM<BR>
+<LI>URL: <A HREF="http://X11.freemint.de/">http://X11.freemint.de/</A><BR>
+<LI>Version: 0.14<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#User Interface/X">User Interface/X</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 356,022 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>XServer = 0.14-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+  <LI>freemint-net  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 21 14:01:01 2001 UTC<BR>
+<LI>Upload date: Fri Sep 21 14:15:02 2001 UTC<BR>
+<LI>Packager: <A HREF="http://www.freemint.de/">Ralph Lowinski</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;bmug5Agsffnjou/ef');">altf4(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/XServer-0.14-1.src.rpm">XServer-0.14-1.src.rpm</A>  (156,825 bytes)<BR>
+<LI>Last change: Ralph Lowinski &lt;AltF4@freemint.de Fri Sep 21 10:00:00 2001 UTC<BR>
+- if the server can't load its RSC file the normal way, it also searches in<BR>  /usr/X11/bin/ now.<BR>- heaviely reworked handling of output stream buffer to avoid crashes due to<BR>  buffer overflows, especially in GetImage and ListFonts request.<BR>- speeded up Get/PutImage request for color depth &gt;= 16bit.<BR>- corrected drawing of window decor (border).<BR>- some internal code tidy ups.
+<LI>Description:<BR>
+This is the FreeMiNT X11 server for GEM. It runs as GEM application<BR>and accepts X11 client requests from the local or a remote machines.<BR><P><BR>This is still a beta version. The XServer is under development and<BR>not completly finished (especially the often requested Netscape<BR>don't run properly yet).<BR><P><BR>Please read the README, especially the font handling possibly needs<BR>some adjustment.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             1344 Sep 21  2001 /etc/X11/Xmodmap
+-rw-r--r--    1 root    root             1723 Sep 21  2001 /etc/X11/fonts.alias
+-rwxr-xr-x    1 root    root           306686 Sep 21  2001 /usr/X11R6/bin/X.app
+?rwxrwxrwx    1 root    root                5 Sep 21  2001 /usr/X11R6/bin/XServer
+-rw-r--r--    1 root    root            14898 Sep 21  2001 /usr/X11R6/bin/Xapp.rsc
+drwxr-xr-x    2 root    root                0 Sep 21  2001 /usr/doc/XServer-0.14
+-rw-r--r--    1 root    root            16002 Sep 21  2001 /usr/doc/XServer-0.14/ChangeLog
+-rw-r--r--    1 root    root            11273 Sep 21  2001 /usr/doc/XServer-0.14/README
+-rw-r--r--    1 root    root             1344 Sep 21  2001 /usr/doc/XServer-0.14/Xmodmap.EXMPL
+-rw-r--r--    1 root    root             1723 Sep 21  2001 /usr/doc/XServer-0.14/fonts.alias.EXMPL
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/XServer-0.14-1.m68kmint.rpm">Download</A></H2> (170,030 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

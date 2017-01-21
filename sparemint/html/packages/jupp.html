@@ -1,0 +1,136 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - jupp, version 3.1jupp18, release 1.14</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>jupp</H2>
+
+<UL> 
+<LI>Summary: Wordstar compatible Text Editor which sucks less<BR>
+<LI>URL: <A HREF="http://mirbsd.de/jupp">http://mirbsd.de/jupp</A><BR>
+<LI>Version: 3.1jupp18<BR>
+<LI>Release: 1.14<BR>
+<LI>Group: <A HREF="../groups.html#Productivity/Editors/Other">Productivity/Editors/Other</A>
+<LI>License: GPL v1</BR>
+<LI>Installation size: 1,029,655 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>jupp = 3.1jupp18-1.14<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>joe  <BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Mar 25 21:41:23 2012 UTC<BR>
+<LI>Upload date: Mon Mar 26 18:56:36 2012 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: : ragnar &lt;ragnar76@googlemail.com&gt;<BR>
+<LI>Sources: <A HREF="../../SRPMS/jupp-3.1jupp18-1.14.src.rpm">jupp-3.1jupp18-1.14.src.rpm</A>  (444,744 bytes)<BR>
+<LI>Last change: Thorsten Glaser &lt;tg@mirbsd.org&gt; 3.1jupp18-1 Wed Oct  5 09:00:00 2011 UTC<BR>
+- new upstream version; changelog: https://www.mirbsd.org/jupp.htm#r3_1j18
+<LI>Description:<BR>
+“Joe is world-famous Wordstar like text editor.”<BR>		-- Sourcefrog<BR><P><BR>joe is the professional freeware ASCII text screen editor for<BR>UNIX®. It makes full use of the power and versatility of UNIX,<BR>but lacks the steep learning curve and basic nonsense you have<BR>to deal with in every other UNIX editor. jupp has the feel of<BR>most IBM PC text editors: The key sequences are reminiscent of<BR>WordStar and Turbo C. However, joe is much more powerful than<BR>those editors. joe has all of the features a UNIX user should<BR>expect: full use of termcap/terminfo, excellent screen update<BR>optimizations (joe is fully usable at 2400 baud), simple in‐<BR>stallation, and all of the UNIX-integration features of vi. A<BR>number of reference cards are always available as online help<BR>in an intuitive, simple, and well thought-out user interface,<BR>with deferred screen update to handle typeahead, not bypassed<BR>by tty buffering. SELinux context copying is supported (needs<BR>the development headers installed, which we cannot do in this<BR>portable SRPM).<BR><P><BR>joe has a great screen update optimization algorithm, multiple<BR>windows (through/between which you can scroll) and lacks the<BR>confusing notion of named buffers. It has command history, tab<BR>expansion in file selection menus, undo and redo functions,<BR>(un)indenting and paragraph formatting, filtering highlighted<BR>blocks through any external Unix command, editing a pipe into<BR>or out of a command, and block move, copy, delete or filter; a<BR>rectangle selection and a picture drawing mode, and a mode to<BR>display whitespace as printable characters.<BR><P><BR>jupp is a customisation of joe which provides easy conversion<BR>for former PC users as well as powerfulness for programmers,<BR>while not doing annoying things “automagically” (word wrap,<BR>for example). It can also double as hex editor and comes with<BR>a character map (ASCII / 8-bit) plus Unicode support.<BR><P><BR>This is joe-3.x-jupp&lt;y&gt;, a GNU GPL version 1 licenced fork<BR>of the current state-of-the-art JOE editor from Sourceforge,<BR>with Joe H. Allen himself starting development again after<BR>over eight years. The MirOS fork has added UTF-8 Support for<BR>non-LOCALE-aware operating systems (such as OpenBSD and older<BR>versions of MirOS), the "jupp" flavour, not doing tab comple‐<BR>tion in the search and replace dialogues, as well as -Wall<BR>-Werror fixes, numerous bug and security fixes. It also con‐<BR>tains an extension to visibly display tabs and spaces, and<BR>has a cleaned up, extended and beautified options menu, and<BR>more CUA style keybindings.<BR><P><BR>Unix integration features: a marked block of text can be<BR>filtered through a UNIX command, and wherever jupp accepts<BR>a filename parameter, the following can also be used:<BR>	!command	: to redirect from or to another command<BR>	&gt;&gt;filename	: to append onto an existing file<BR>	fn,start,size	: to edit a part of a file or device<BR>	-		: to use standard input/output<BR><P><BR>Authors:<BR>	Joseph “Joe” H. Allen &lt;jhallen@world.std.com&gt;<BR>	Marek “Marx” Grac &lt;xgrac@fi.muni.cz&gt;<BR>	Thorsten “mirabilos” Glaser &lt;tg@mirbsd.org&gt;
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    root                3 Mar 25  2012 /usr/bin/jmacs
+-rwxr-xr-x    1 root    root           660515 Mar 25  2012 /usr/bin/joe
+?rwxrwxrwx    1 root    root                3 Mar 25  2012 /usr/bin/jpico
+?rwxrwxrwx    1 root    root                3 Mar 25  2012 /usr/bin/jstar
+?rwxrwxrwx    1 root    root                3 Mar 25  2012 /usr/bin/jupp
+?rwxrwxrwx    1 root    root                3 Mar 25  2012 /usr/bin/rjoe
+drwxr-xr-x    2 root    root                0 Mar 25  2012 /usr/doc/jupp
+-rw-r--r--    1 root    root            12613 Mar 25  2012 /usr/doc/jupp/COPYING
+-rw-r--r--    1 root    root             5275 Mar 25  2012 /usr/doc/jupp/HINTS
+-rw-r--r--    1 root    root             7595 Mar 25  2012 /usr/doc/jupp/INFO
+-rw-r--r--    1 root    root             6377 Mar 25  2012 /usr/doc/jupp/LIST
+-rw-r--r--    1 root    root            17106 Mar 25  2012 /usr/doc/jupp/NEWS
+-rw-r--r--    1 root    root            14558 Mar 25  2012 /usr/doc/jupp/README
+-rw-r--r--    1 root    root            11432 Mar 25  2012 /usr/doc/jupp/TODO
+-rw-r--r--    1 root    root             3046 Mar 25  2012 /usr/doc/jupp/help-system.html
+drwxrwxrwx    2 root    root                0 Mar 25  2012 /usr/etc/jupp
+drwxrwxrwx    2 root    root                0 Mar 25  2012 /usr/etc/jupp/charmaps
+-rw-r--r--    1 root    root            10956 Mar 25  2012 /usr/etc/jupp/charmaps/klingon
+-rw-r--r--    1 root    root            24331 Mar 25  2012 /usr/etc/jupp/jmacsrc
+-rw-r--r--    1 root    root            28056 Mar 25  2012 /usr/etc/jupp/joerc
+-rw-r--r--    1 root    root            21756 Mar 25  2012 /usr/etc/jupp/jpicorc
+-rw-r--r--    1 root    root            24058 Mar 25  2012 /usr/etc/jupp/jstarrc
+-rw-r--r--    1 root    root            14892 Mar 25  2012 /usr/etc/jupp/jupprc
+-rw-r--r--    1 root    root            26493 Mar 25  2012 /usr/etc/jupp/rjoerc
+drwxrwxrwx    2 root    root                0 Mar 25  2012 /usr/etc/jupp/syntax
+-rw-r--r--    1 root    root             4250 Mar 25  2012 /usr/etc/jupp/syntax/asm.jsf
+-rw-r--r--    1 root    root             7638 Mar 25  2012 /usr/etc/jupp/syntax/c.jsf
+-rw-r--r--    1 root    root              452 Mar 25  2012 /usr/etc/jupp/syntax/conf.jsf
+-rw-r--r--    1 root    root             3849 Mar 25  2012 /usr/etc/jupp/syntax/csh.jsf
+-rw-r--r--    1 root    root             7358 Mar 25  2012 /usr/etc/jupp/syntax/diff.jsf
+-rw-r--r--    1 root    root            13163 Mar 25  2012 /usr/etc/jupp/syntax/fortran.jsf
+-rw-r--r--    1 root    root             2456 Mar 25  2012 /usr/etc/jupp/syntax/html.jsf
+-rw-r--r--    1 root    root             3332 Mar 25  2012 /usr/etc/jupp/syntax/java.jsf
+-rw-r--r--    1 root    root              449 Mar 25  2012 /usr/etc/jupp/syntax/lisp.jsf
+-rw-r--r--    1 root    root              833 Mar 25  2012 /usr/etc/jupp/syntax/mail.jsf
+-rw-r--r--    1 root    root            12039 Mar 25  2012 /usr/etc/jupp/syntax/mason.jsf
+-rw-r--r--    1 root    root             2164 Mar 25  2012 /usr/etc/jupp/syntax/pascal.jsf
+-rw-r--r--    1 root    root             3796 Mar 25  2012 /usr/etc/jupp/syntax/perl.jsf
+-rw-r--r--    1 root    root             2700 Mar 25  2012 /usr/etc/jupp/syntax/php.jsf
+-rw-r--r--    1 root    root             2476 Mar 25  2012 /usr/etc/jupp/syntax/python.jsf
+-rw-r--r--    1 root    root             4751 Mar 25  2012 /usr/etc/jupp/syntax/sh.jsf
+-rw-r--r--    1 root    root             3719 Mar 25  2012 /usr/etc/jupp/syntax/tcl.jsf
+-rw-r--r--    1 root    root             3734 Mar 25  2012 /usr/etc/jupp/syntax/verilog.jsf
+-rw-r--r--    1 root    root             3039 Mar 25  2012 /usr/etc/jupp/syntax/vhdl.jsf
+-rw-r--r--    1 root    root             4654 Mar 25  2012 /usr/etc/jupp/syntax/xml.jsf
+?rwxrwxrwx    1 root    root                5 Mar 25  2012 /usr/man/man1/jmacs.1
+-rw-r--r--    1 root    root            37320 Mar 25  2012 /usr/man/man1/joe.1
+?rwxrwxrwx    1 root    root                5 Mar 25  2012 /usr/man/man1/jpico.1
+?rwxrwxrwx    1 root    root                5 Mar 25  2012 /usr/man/man1/jstar.1
+?rwxrwxrwx    1 root    root                5 Mar 25  2012 /usr/man/man1/jupp.1
+?rwxrwxrwx    1 root    root                5 Mar 25  2012 /usr/man/man1/rjoe.1
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/jupp-3.1jupp18-1.14.m68kmint.rpm">Download</A></H2> (405,992 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,110 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mirror, version 2.9, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mirror</H2>
+
+<UL> 
+<LI>Summary: Perl program to mirror FTP sites<BR>
+<LI>URL: <A HREF="http://sunsite.doc.ic.ac.uk/packages/mirror/">http://sunsite.doc.ic.ac.uk/packages/mirror/</A><BR>
+<LI>Version: 2.9<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 304,822 bytes<BR>
+<LI>Operating system: FreeMiNT<BR>
+<LI>Provides:<UL>
+  <LI>mirror = 2.9-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+  <LI>/usr/bin/perl  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Sep  7 20:13:53 1999 UTC<BR>
+<LI>Upload date: Wed Sep  8 00:50:08 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mirror-2.9-1.src.rpm">mirror-2.9-1.src.rpm</A>  (127,766 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;gufl0000@stud.uni-sb.de&gt; Tue Sep  7 09:00:00 1999 UTC<BR>
+- Initial release.
+<LI>Description:<BR>
+Perl program to mirror FTP sites.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             2500 Sep  7  1999 /etc/mirror.defaults
+-rwxr-xr-x    1 root    root             2140 Sep  7  1999 /usr/bin/do_unlinks.pl
+?rwxrwxrwx    1 root    root                9 Sep  7  1999 /usr/bin/mirror
+-rwxr-xr-x    1 root    root            97909 Sep  7  1999 /usr/bin/mirror.pl
+-rwxr-xr-x    1 root    root            11092 Sep  7  1999 /usr/bin/mm.pl
+-rwxr-xr-x    1 root    root             2770 Sep  7  1999 /usr/bin/pkgs_to_mmin.pl
+drwxr-xr-x    2 root    root                0 Sep  7  1999 /usr/doc/mirror-2.9
+-rw-r--r--    1 root    root             2167 May 26  1998 /usr/doc/mirror-2.9/CHANGES-since-2.8.txt
+-rw-r--r--    1 root    root              269 May 29  1998 /usr/doc/mirror-2.9/README.txt
+-rw-r--r--    1 root    root              799 May 26  1998 /usr/doc/mirror-2.9/copyright.html
+-rw-r--r--    1 root    root             2996 Jan 14  1994 /usr/doc/mirror-2.9/cyber-patches
+-rw-r--r--    1 root    root             4871 Jun  1  1998 /usr/doc/mirror-2.9/index.html
+-rwxr-xr-x    1 root    root             1275 Sep  7  1999 /usr/doc/mirror-2.9/lstest.pl
+-rw-r--r--    1 root    root             3074 May 28  1998 /usr/doc/mirror-2.9/mirror-faq.html
+-rw-r--r--    1 root    root            74443 Jun 12  1998 /usr/doc/mirror-2.9/mirror.html
+-rwxr-xr-x    1 root    root             1340 Sep 10  1997 /usr/doc/mirror-2.9/mirror.nightly
+-rw-r--r--    1 root    root             8417 May 29  1998 /usr/doc/mirror-2.9/mm.html
+-rw-r--r--    1 root    root             4560 May 29  1998 /usr/doc/mirror-2.9/quickstart.html
+-rwxr-xr-x    1 root    root             4214 Sep  7  1999 /usr/lib/mirror/dateconv.pl
+-rwxr-xr-x    1 root    root            33985 Sep  7  1999 /usr/lib/mirror/ftp.pl
+-rwxr-xr-x    1 root    root             9529 Sep  7  1999 /usr/lib/mirror/lchat.pl
+-rwxr-xr-x    1 root    root            33021 Sep  7  1999 /usr/lib/mirror/lsparse.pl
+-rwxr-xr-x    1 root    root              661 Sep  7  1999 /usr/man/man1/mirror.1.gz
+-rwxr-xr-x    1 root    root             1949 Sep  7  1999 /usr/man/man1/mm.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/noarch/mirror-2.9-1.noarch.rpm">Download</A></H2> (89,815 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

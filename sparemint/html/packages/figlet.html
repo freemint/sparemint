@@ -1,0 +1,151 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - figlet, version 2.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>figlet</H2>
+
+<UL> 
+<LI>Summary: Frank, Ian &amp; Glenn's Letters<BR>
+<LI>URL: <A HREF="ftp://ftp.internexus.net/pub/figlet/program/figlet22.tar.gz">ftp://ftp.internexus.net/pub/figlet/program/figlet22.tar.gz</A><BR>
+<LI>Version: 2.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Text">Applications/Text</A>
+<LI>License: public domain</BR>
+<LI>Installation size: 965,049 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>figlet = 2.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Mon Oct 29 11:45:44 2001 UTC<BR>
+<LI>Upload date: Fri Nov 16 12:33:07 2001 UTC<BR>
+<LI>Packager: Jan Krupka (<A HREF="javascript:linkto_decode_mt('nbjmup;klsvqlbAwpmoz/d{');">jkrupka(at)volny.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/figlet-2.2-1.src.rpm">figlet-2.2-1.src.rpm</A>  (167,147 bytes)<BR>
+<LI>Last change: Jan Krupka &lt;jkrupka@volny.cz&gt; Mon Oct 29 10:00:00 2001 UTC<BR>
+- first release for SpareMiNT (new package)
+<LI>Description:<BR>
+Figlet is a program that creates large characters out of ordinary screen<BR>characters.  It can create characters in many different styles and can<BR>kern and "smush" these characters together in various ways.  Figlet<BR>output is generally reminiscent of the sort of "signatures" many people<BR>like to put at the end of e-mail and Usenet messages.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Oct 29  2001 /usr/doc/figlet-2.2
+-rw-r--r--    1 root    root             1542 Jun 10  1999 /usr/doc/figlet-2.2/FTP-NOTE
+-rw-r--r--    1 root    root            13416 Jun 10  1999 /usr/doc/figlet-2.2/README
+-rw-r--r--    1 root    root            76932 Jun 22  2000 /usr/doc/figlet-2.2/figfont.txt
+-rwxrwxrwx    1 root    root           136499 Oct 29  2001 /usr/games/chkfont
+-rwxrwxrwx    1 root    root           159238 Oct 29  2001 /usr/games/figlet
+-rwxr-xr-x    1 root    root             1458 Oct 29  2001 /usr/games/figlist
+-rw-r--r--    1 root    root             5217 Oct 29  2001 /usr/games/lib/figlet.dir/646-ca.flc
+-rw-r--r--    1 root    root             5201 Oct 29  2001 /usr/games/lib/figlet.dir/646-ca2.flc
+-rw-r--r--    1 root    root             4984 Oct 29  2001 /usr/games/lib/figlet.dir/646-cn.flc
+-rw-r--r--    1 root    root             5054 Oct 29  2001 /usr/games/lib/figlet.dir/646-cu.flc
+-rw-r--r--    1 root    root             5121 Oct 29  2001 /usr/games/lib/figlet.dir/646-de.flc
+-rw-r--r--    1 root    root             5019 Oct 29  2001 /usr/games/lib/figlet.dir/646-dk.flc
+-rw-r--r--    1 root    root             4987 Oct 29  2001 /usr/games/lib/figlet.dir/646-es.flc
+-rw-r--r--    1 root    root             5019 Oct 29  2001 /usr/games/lib/figlet.dir/646-es2.flc
+-rw-r--r--    1 root    root             5052 Oct 29  2001 /usr/games/lib/figlet.dir/646-fr.flc
+-rw-r--r--    1 root    root             4987 Oct 29  2001 /usr/games/lib/figlet.dir/646-gb.flc
+-rw-r--r--    1 root    root             5143 Oct 29  2001 /usr/games/lib/figlet.dir/646-hu.flc
+-rw-r--r--    1 root    root             4992 Oct 29  2001 /usr/games/lib/figlet.dir/646-irv.flc
+-rw-r--r--    1 root    root             5045 Oct 29  2001 /usr/games/lib/figlet.dir/646-it.flc
+-rw-r--r--    1 root    root             5008 Oct 29  2001 /usr/games/lib/figlet.dir/646-jp.flc
+-rw-r--r--    1 root    root             4843 Oct 29  2001 /usr/games/lib/figlet.dir/646-kr.flc
+-rw-r--r--    1 root    root             5063 Oct 29  2001 /usr/games/lib/figlet.dir/646-no.flc
+-rw-r--r--    1 root    root             5071 Oct 29  2001 /usr/games/lib/figlet.dir/646-no2.flc
+-rw-r--r--    1 root    root             5035 Oct 29  2001 /usr/games/lib/figlet.dir/646-pt.flc
+-rw-r--r--    1 root    root             5037 Oct 29  2001 /usr/games/lib/figlet.dir/646-pt2.flc
+-rw-r--r--    1 root    root             5146 Oct 29  2001 /usr/games/lib/figlet.dir/646-se.flc
+-rw-r--r--    1 root    root             5199 Oct 29  2001 /usr/games/lib/figlet.dir/646-se2.flc
+-rw-r--r--    1 root    root             5178 Oct 29  2001 /usr/games/lib/figlet.dir/646-yu.flc
+-rw-r--r--    1 root    root             8920 Oct 29  2001 /usr/games/lib/figlet.dir/8859-2.flc
+-rw-r--r--    1 root    root             8598 Oct 29  2001 /usr/games/lib/figlet.dir/8859-3.flc
+-rw-r--r--    1 root    root             8892 Oct 29  2001 /usr/games/lib/figlet.dir/8859-4.flc
+-rw-r--r--    1 root    root             8531 Oct 29  2001 /usr/games/lib/figlet.dir/8859-5.flc
+-rw-r--r--    1 root    root             8275 Oct 29  2001 /usr/games/lib/figlet.dir/8859-7.flc
+-rw-r--r--    1 root    root             6452 Oct 29  2001 /usr/games/lib/figlet.dir/8859-8.flc
+-rw-r--r--    1 root    root             8674 Oct 29  2001 /usr/games/lib/figlet.dir/8859-9.flc
+-rw-r--r--    1 root    root            31897 Oct 29  2001 /usr/games/lib/figlet.dir/banner.flf
+-rw-r--r--    1 root    root            26384 Oct 29  2001 /usr/games/lib/figlet.dir/big.flf
+-rw-r--r--    1 root    root            24438 Oct 29  2001 /usr/games/lib/figlet.dir/block.flf
+-rw-r--r--    1 root    root            19926 Oct 29  2001 /usr/games/lib/figlet.dir/bubble.flf
+-rw-r--r--    1 root    root            15139 Oct 29  2001 /usr/games/lib/figlet.dir/digital.flf
+-rw-r--r--    1 root    root              907 Oct 29  2001 /usr/games/lib/figlet.dir/frango.flc
+-rw-r--r--    1 root    root              115 Oct 29  2001 /usr/games/lib/figlet.dir/hz.flc
+-rw-r--r--    1 root    root              510 Oct 29  2001 /usr/games/lib/figlet.dir/ilhebrew.flc
+-rw-r--r--    1 root    root            10999 Oct 29  2001 /usr/games/lib/figlet.dir/ivrit.flf
+-rw-r--r--    1 root    root             7536 Oct 29  2001 /usr/games/lib/figlet.dir/jis0201.flc
+-rw-r--r--    1 root    root             2048 Oct 29  2001 /usr/games/lib/figlet.dir/koi8r.flc
+-rw-r--r--    1 root    root            28596 Oct 29  2001 /usr/games/lib/figlet.dir/lean.flf
+-rw-r--r--    1 root    root             9102 Oct 29  2001 /usr/games/lib/figlet.dir/mini.flf
+-rw-r--r--    1 root    root            83167 Oct 29  2001 /usr/games/lib/figlet.dir/mnemonic.flf
+-rw-r--r--    1 root    root             1045 Oct 29  2001 /usr/games/lib/figlet.dir/moscow.flc
+-rw-r--r--    1 root    root            15371 Oct 29  2001 /usr/games/lib/figlet.dir/script.flf
+-rw-r--r--    1 root    root            13365 Oct 29  2001 /usr/games/lib/figlet.dir/shadow.flf
+-rw-r--r--    1 root    root            15520 Oct 29  2001 /usr/games/lib/figlet.dir/slant.flf
+-rw-r--r--    1 root    root            12235 Oct 29  2001 /usr/games/lib/figlet.dir/small.flf
+-rw-r--r--    1 root    root            11274 Oct 29  2001 /usr/games/lib/figlet.dir/smscript.flf
+-rw-r--r--    1 root    root            10832 Oct 29  2001 /usr/games/lib/figlet.dir/smshadow.flf
+-rw-r--r--    1 root    root            12226 Oct 29  2001 /usr/games/lib/figlet.dir/smslant.flf
+-rw-r--r--    1 root    root            28335 Oct 29  2001 /usr/games/lib/figlet.dir/standard.flf
+-rw-r--r--    1 root    root             9697 Oct 29  2001 /usr/games/lib/figlet.dir/term.flf
+-rw-r--r--    1 root    root             3907 Oct 29  2001 /usr/games/lib/figlet.dir/upper.flc
+-rw-r--r--    1 root    root              481 Oct 29  2001 /usr/games/lib/figlet.dir/ushebrew.flc
+-rw-r--r--    1 root    root              747 Oct 29  2001 /usr/games/lib/figlet.dir/uskata.flc
+-rw-r--r--    1 root    root              132 Oct 29  2001 /usr/games/lib/figlet.dir/utf8.flc
+-rwxr-xr-x    1 root    root             1423 Oct 29  2001 /usr/games/showfigfonts
+-rw-r--r--    1 root    root             7843 Oct 29  2001 /usr/man/man6/figlet.6.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/figlet-2.2-1.m68kmint.rpm">Download</A></H2> (267,936 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

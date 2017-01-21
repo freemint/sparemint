@@ -1,0 +1,112 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - samba-common, version 3.0.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>samba-common</H2>
+
+<UL> 
+<LI>Summary: Files used by both Samba servers and clients.<BR>
+<LI>URL: <A HREF="http://www.samba.org/">http://www.samba.org/</A><BR>
+<LI>Version: 3.0.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: GNU GPL Version 2</BR>
+<LI>Installation size: 9,176,018 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>samba-common = 3.0.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon Feb 23 03:19:44 2004 UTC<BR>
+<LI>Upload date: Sun Feb 29 09:57:08 2004 UTC<BR>
+<LI>Packager: Mark Duckworth (<A HREF="javascript:linkto_decode_mt('nbjmup;nevdlxpsuiAbubsj.tpvsdf/dpn');">mduckworth(at)atari-source.com</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/samba-3.0.1-1.src.rpm">samba-3.0.1-1.src.rpm</A>  (8,282,747 bytes)<BR>
+<LI>Last change: Mark Duckworth &lt;mduckworth@atari-source.com&gt; 3.0.1-1 Wed Feb 18 22:00:00 2004 UTC<BR>
+- Initial port to sparemint with spec creation
+<LI>Description:<BR>
+Samba-common provides files necessary for both the server and client<BR>packages of Samba.
+<LI>Files:<BR>
+<PRE>
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /etc/samba
+-rw-r--r--    1 root    root               20 Feb 22  2004 /etc/samba/lmhosts
+-rw-r--r--    1 root    root            10545 Feb 22  2004 /etc/samba/smb.conf
+-rwxr-xr-x    1 root    root          1144113 Feb 22  2004 /usr/bin/ntlm_auth
+-rwxr-xr-x    1 root    root          1182986 Feb 22  2004 /usr/bin/pdbedit
+-rwxr-xr-x    1 root    root           145366 Feb 22  2004 /usr/bin/profiles
+-rwxr-xr-x    1 root    root          1597448 Feb 22  2004 /usr/bin/smbcquotas
+-rwxr-xr-x    1 root    root          1335775 Feb 22  2004 /usr/bin/smbpasswd
+-rwxr-xr-x    1 root    root          1097602 Feb 22  2004 /usr/bin/testparm
+-rwxr-xr-x    1 root    root          1041648 Feb 22  2004 /usr/bin/testprns
+-rwxr-xr-x    1 root    root            76748 Feb 22  2004 /usr/include/libsmbclient.h
+-rwxr-xr-x    1 root    root          1211804 Feb 22  2004 /usr/lib/libsmbclient.a
+-rw-r--r--    1 root    root             6088 Feb 22  2004 /usr/man/man1/ntlm_auth.1
+-rw-r--r--    1 root    root             1298 Feb 22  2004 /usr/man/man1/profiles.1
+-rw-r--r--    1 root    root             6185 Feb 22  2004 /usr/man/man1/smbcquotas.1
+-rw-r--r--    1 root    root             4004 Feb 22  2004 /usr/man/man1/testparm.1
+-rw-r--r--    1 root    root             3210 Feb 22  2004 /usr/man/man1/testprns.1
+-rw-r--r--    1 root    root             4852 Feb 22  2004 /usr/man/man1/vfstest.1
+-rw-r--r--    1 root    root             6327 Feb 22  2004 /usr/man/man1/wbinfo.1
+-rw-r--r--    1 root    root             2881 Feb 22  2004 /usr/man/man5/lmhosts.5
+-rw-r--r--    1 root    root           251757 Feb 22  2004 /usr/man/man5/smb.conf.5
+-rw-r--r--    1 root    root            11645 Feb 22  2004 /usr/man/man8/smbpasswd.8
+-rw-r--r--    1 root    root            13236 Feb 22  2004 /usr/man/man8/winbindd.8
+drwxr-xr-x    2 root    root                0 Feb 22  2004 /usr/share/samba
+drwxr-xr-x    2 root    root                0 Feb 22  2004 /usr/share/samba/codepages
+drwxr-xr-x    2 root    root                0 Feb 22  2004 /var/cache/samba
+drwxr-x---    2 root    root                0 Feb 22  2004 /var/cache/samba/winbindd_privileged
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/samba-common-3.0.1-1.m68kmint.rpm">Download</A></H2> (5,006,235 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

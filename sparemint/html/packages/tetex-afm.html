@@ -1,0 +1,279 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tetex-afm, version 1.0.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tetex-afm</H2>
+
+<UL> 
+<LI>Summary: A converter for PostScript(TM) font metric files, for use with TeX.<BR>
+<LI>URL: <A HREF="http://www.tug.org/teTeX/">http://www.tug.org/teTeX/</A><BR>
+<LI>Version: 1.0.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Publishing">Applications/Publishing</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 3,031,785 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tetex-afm = 1.0.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>tetex = 1.0.6<BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Feb  4 01:30:06 2000 UTC<BR>
+<LI>Upload date: Fri Feb  4 02:04:18 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tetex-1.0.6-1.src.rpm">tetex-1.0.6-1.src.rpm</A>  (50,902,928 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Sun Nov 28 10:00:00 1999 UTC<BR>
+- updated to 1.0.6<BR>- adpated all Redhat changes
+<LI>Description:<BR>
+Tetex-afm provides afm2tfm, a converter for PostScript font metric<BR>files.  PostScript fonts are accompanied by .afm font metric files<BR>which describe the characteristics of each font.  To use PostScript<BR>fonts with TeX, TeX needs .tfm files that contain similar information.<BR>Afm2tfm will convert .afm files to .tfm files.<BR><P><BR>If you are installing tetex in order to use the TeX text formatting<BR>system, you will need to install tetex-afm.  You will also need to<BR>install tetex-dvilj (for converting .dvi files to HP PCL format for<BR>printing on HP and HP compatible printers), tetex-dvips (for<BR>converting .dvi files to PostScript format for printing on PostScript<BR>printers), tetex-latex (a higher level formatting package which<BR>provides an easier-to-use interface for TeX) and tetex-xdvi (for<BR>previewing .dvi files in X).  Unless you're an expert at using TeX,<BR>you'll probably also want to install the tetex-doc package, which<BR>includes documentation for TeX.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           115764 Feb  3  2000 /usr/bin/afm2tfm
+-rwxr-xr-x    1 root    root            65036 Feb  3  2000 /usr/bin/ttf2afm
+-rw-r--r--    1 root    root              564 Feb  3  2000 /usr/man/man1/afm2tfm.1.gz
+-r--r--r--    1 root    root            17183 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/avantgar/pagd8a.afm
+-r--r--r--    1 root    root            17255 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/avantgar/pagdo8a.afm
+-r--r--r--    1 root    root            17241 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/avantgar/pagk8a.afm
+-r--r--r--    1 root    root            17346 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/avantgar/pagko8a.afm
+-r--r--r--    1 root    root            15157 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/bookman/pbkd8a.afm
+-r--r--r--    1 root    root            15278 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/bookman/pbkdi8a.afm
+-r--r--r--    1 root    root            15000 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/bookman/pbkl8a.afm
+-r--r--r--    1 root    root            15181 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/bookman/pbkli8a.afm
+-r--r--r--    1 root    root            15352 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/courier/pcrb8a.afm
+-r--r--r--    1 root    root            15422 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/courier/pcrbo8a.afm
+-r--r--r--    1 root    root            15339 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/courier/pcrr8a.afm
+-r--r--r--    1 root    root            15443 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/courier/pcrro8a.afm
+-r--r--r--    1 root    root            17155 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvb8a.afm
+-r--r--r--    1 root    root            17086 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvb8an.afm
+-r--r--r--    1 root    root            17230 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvbo8a.afm
+-r--r--r--    1 root    root            17195 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvbo8an.afm
+-r--r--r--    1 root    root            17839 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvr8a.afm
+-r--r--r--    1 root    root            17781 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvr8an.afm
+-r--r--r--    1 root    root            17919 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvro8a.afm
+-r--r--r--    1 root    root            17877 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/helvetic/phvro8an.afm
+-r--r--r--    1 root    root            16028 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/ncntrsbk/pncb8a.afm
+-r--r--r--    1 root    root            17496 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/ncntrsbk/pncbi8a.afm
+-r--r--r--    1 root    root            16665 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/ncntrsbk/pncr8a.afm
+-r--r--r--    1 root    root            16920 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/ncntrsbk/pncri8a.afm
+-r--r--r--    1 root    root            15662 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/palatino/pplb8a.afm
+-r--r--r--    1 root    root            15810 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/palatino/pplbi8a.afm
+-r--r--r--    1 root    root            15752 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/palatino/pplr8a.afm
+-r--r--r--    1 root    root            15733 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/palatino/pplri8a.afm
+-r--r--r--    1 root    root             9644 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/symbol/psyr.afm
+-r--r--r--    1 root    root            17983 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/times/ptmb8a.afm
+-r--r--r--    1 root    root            18070 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/times/ptmbi8a.afm
+-r--r--r--    1 root    root            17942 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/times/ptmr8a.afm
+-r--r--r--    1 root    root            18068 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/times/ptmri8a.afm
+-rw-r--r--    1 root    root            21532 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/utopia/putb8a.afm
+-rw-r--r--    1 root    root            21931 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/utopia/putbi8a.afm
+-rw-r--r--    1 root    root            22148 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/utopia/putr8a.afm
+-rw-r--r--    1 root    root            21891 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/utopia/putri8a.afm
+-r--r--r--    1 root    root            16250 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/zapfchan/pzcmi8a.afm
+-r--r--r--    1 root    root             9467 Jun 24  1996 /usr/share/texmf/fonts/afm/adobe/zapfding/pzdr.afm
+-rw-r--r--    1 root    root            20503 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchb8a.afm
+-rw-r--r--    1 root    root            21096 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchbi8a.afm
+-rw-r--r--    1 root    root            18628 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchc8a.afm
+-rw-r--r--    1 root    root            19151 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchci8a.afm
+-rw-r--r--    1 root    root            18633 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchr8a.afm
+-rw-r--r--    1 root    root            18900 Aug 31  1995 /usr/share/texmf/fonts/afm/bitstrea/charter/bchri8a.afm
+-rw-r--r--    1 root    root             1894 Aug 28  1998 /usr/share/texmf/fonts/afm/hoekwater/context/contnav.afm
+-rw-r--r--    1 root    root             5161 Jul 20  1998 /usr/share/texmf/fonts/afm/public/marvosym/marvosym.afm
+-rw-r--r--    1 root    root            11512 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea1.afm
+-rw-r--r--    1 root    root            11666 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea1b.afm
+-rw-r--r--    1 root    root            12272 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea2.afm
+-rw-r--r--    1 root    root            12406 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea2b.afm
+-rw-r--r--    1 root    root             6456 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea3.afm
+-rw-r--r--    1 root    root             6483 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsea3b.afm
+-rw-r--r--    1 root    root             9861 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omseco.afm
+-rw-r--r--    1 root    root             5158 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsecob.afm
+-rw-r--r--    1 root    root             5191 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsecobi.afm
+-rw-r--r--    1 root    root             5176 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsecoi.afm
+-rw-r--r--    1 root    root             3333 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsecx.afm
+-rw-r--r--    1 root    root            10161 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsecy.afm
+-rw-r--r--    1 root    root             8484 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsegr.afm
+-rw-r--r--    1 root    root             8445 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsegrb.afm
+-rw-r--r--    1 root    root             8523 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsegrbi.afm
+-rw-r--r--    1 root    root             8497 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsegri.afm
+-rw-r--r--    1 root    root             2443 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omseha.afm
+-rw-r--r--    1 root    root             4799 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsehe.afm
+-rw-r--r--    1 root    root            11514 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omseip.afm
+-rw-r--r--    1 root    root            10900 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omsela.afm
+-rw-r--r--    1 root    root            10933 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omselab.afm
+-rw-r--r--    1 root    root            11134 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omselabi.afm
+-rw-r--r--    1 root    root            11101 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omselai.afm
+-rw-r--r--    1 root    root             4348 Dec  1  1998 /usr/share/texmf/fonts/afm/public/omega/omseti.afm
+-rw-r--r--    1 root    root             7418 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xyatip10.afm
+-rw-r--r--    1 root    root             7414 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xybsql10.afm
+-rw-r--r--    1 root    root             7418 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xybtip10.afm
+-rw-r--r--    1 root    root             8316 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xycirc10.afm
+-rw-r--r--    1 root    root             7387 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xycmat10.afm
+-rw-r--r--    1 root    root             7387 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xycmbt10.afm
+-rw-r--r--    1 root    root             7828 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xydash10.afm
+-rw-r--r--    1 root    root             7378 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xyeuat10.afm
+-rw-r--r--    1 root    root             7378 Sep 23  1998 /usr/share/texmf/fonts/afm/public/xypic/xyeubt10.afm
+-rw-r--r--    1 root    root            27601 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/avantgar/uagd8a.afm
+-rw-r--r--    1 root    root            27796 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/avantgar/uagdo8a.afm
+-rw-r--r--    1 root    root            27617 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/avantgar/uagk8a.afm
+-rw-r--r--    1 root    root            27756 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/avantgar/uagko8a.afm
+-rw-r--r--    1 root    root            27432 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/bookman/ubkd8a.afm
+-rw-r--r--    1 root    root            27680 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/bookman/ubkdi8a.afm
+-rw-r--r--    1 root    root            27608 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/bookman/ubkl8a.afm
+-rw-r--r--    1 root    root            27920 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/bookman/ubkli8a.afm
+-rw-r--r--    1 root    root            11265 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/courier/ucrb8a.afm
+-rw-r--r--    1 root    root            11309 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/courier/ucrbo8a.afm
+-rw-r--r--    1 root    root            11261 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/courier/ucrr8a.afm
+-rw-r--r--    1 root    root            11356 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/courier/ucrro8a.afm
+-rw-r--r--    1 root    root            27557 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvb8a.afm
+-rw-r--r--    1 root    root            27481 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvb8ac.afm
+-rw-r--r--    1 root    root            27850 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvbo8a.afm
+-rw-r--r--    1 root    root            27762 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvbo8ac.afm
+-rw-r--r--    1 root    root            27644 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvr8a.afm
+-rw-r--r--    1 root    root            27626 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvr8ac.afm
+-rw-r--r--    1 root    root            28063 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvro8a.afm
+-rw-r--r--    1 root    root            27859 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/helvetic/uhvro8ac.afm
+-rw-r--r--    1 root    root            27510 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/ncntrsbk/uncb8a.afm
+-rw-r--r--    1 root    root            27665 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/ncntrsbk/uncbi8a.afm
+-rw-r--r--    1 root    root            27576 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/ncntrsbk/uncr8a.afm
+-rw-r--r--    1 root    root            27665 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/ncntrsbk/uncri8a.afm
+-rw-r--r--    1 root    root            27753 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/palatino/uplb8a.afm
+-rw-r--r--    1 root    root            27454 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/palatino/uplbi8a.afm
+-rw-r--r--    1 root    root            27995 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/palatino/uplr8a.afm
+-rw-r--r--    1 root    root            27921 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/palatino/uplri8a.afm
+-rw-r--r--    1 root    root             9690 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/symbol/usyr.afm
+-rw-r--r--    1 root    root            27848 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/times/utmb8a.afm
+-rw-r--r--    1 root    root            27855 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/times/utmbi8a.afm
+-rw-r--r--    1 root    root            27910 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/times/utmr8a.afm
+-rw-r--r--    1 root    root            27782 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/times/utmri8a.afm
+-rw-r--r--    1 root    root            27737 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/zapfchan/uzcmi8a.afm
+-rw-r--r--    1 root    root             9380 Mar 27  1998 /usr/share/texmf/fonts/afm/urw/zapfding/uzdr.afm
+-rw-r--r--    1 root    root            14873 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lubright/lbd.afm
+-rw-r--r--    1 root    root            14961 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lubright/lbdi.afm
+-rw-r--r--    1 root    root            14596 Jun  1  1995 /usr/share/texmf/fonts/afm/yandy/lubright/lbdsc.afm
+-rw-r--r--    1 root    root            15008 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lubright/lbi.afm
+-rw-r--r--    1 root    root            14799 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lubright/lbr.afm
+-rw-r--r--    1 root    root            14647 Jun  1  1995 /usr/share/texmf/fonts/afm/yandy/lubright/lbrsc.afm
+-rw-r--r--    1 root    root            15055 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lubright/lbsl.afm
+-rw-r--r--    1 root    root            14972 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbc.afm
+-rw-r--r--    1 root    root            15004 Jul 24  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbh.afm
+-rw-r--r--    1 root    root            19042 Jun 16  1995 /usr/share/texmf/fonts/afm/yandy/lucida/lbki.afm
+-rw-r--r--    1 root    root            18908 Jun 16  1995 /usr/share/texmf/fonts/afm/yandy/lucida/lbkr.afm
+-rw-r--r--    1 root    root            14893 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbl.afm
+-rw-r--r--    1 root    root            14766 Dec 25  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbtb.afm
+-rw-r--r--    1 root    root            14800 Dec 25  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbtbo.afm
+-rw-r--r--    1 root    root            14833 Nov 12  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbto.afm
+-rw-r--r--    1 root    root            14753 Nov 12  1994 /usr/share/texmf/fonts/afm/yandy/lucida/lbtr.afm
+-rw-r--r--    1 root    root            14545 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucidfax/lfd.afm
+-rw-r--r--    1 root    root            14657 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucidfax/lfdi.afm
+-rw-r--r--    1 root    root            14652 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucidfax/lfi.afm
+-rw-r--r--    1 root    root            14526 Dec  1  1994 /usr/share/texmf/fonts/afm/yandy/lucidfax/lfr.afm
+-rw-r--r--    1 root    root            14887 Jan 10  1995 /usr/share/texmf/fonts/afm/yandy/lucsans/lsb.afm
+-rw-r--r--    1 root    root            14965 Jan 10  1995 /usr/share/texmf/fonts/afm/yandy/lucsans/lsbi.afm
+-rw-r--r--    1 root    root            14736 Aug 11  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lsd.afm
+-rw-r--r--    1 root    root            14895 Aug 11  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lsdi.afm
+-rw-r--r--    1 root    root            14882 Aug 11  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lsi.afm
+-rw-r--r--    1 root    root            14753 Aug 11  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lsr.afm
+-rw-r--r--    1 root    root            14801 Dec  6  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lstb.afm
+-rw-r--r--    1 root    root            14903 Dec  6  1993 /usr/share/texmf/fonts/afm/yandy/lucsans/lstbo.afm
+-rw-r--r--    1 root    root            14914 Feb 26  1995 /usr/share/texmf/fonts/afm/yandy/lucsans/lsto.afm
+-rw-r--r--    1 root    root            14817 Feb 26  1995 /usr/share/texmf/fonts/afm/yandy/lucsans/lstr.afm
+-rw-r--r--    1 root    root            12753 Jan 26  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbma.afm
+-rw-r--r--    1 root    root            12586 Jan 28  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmad.afm
+-rw-r--r--    1 root    root            12667 Jan 28  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmadtex.afm
+-rw-r--r--    1 root    root            12856 Jan 26  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmatex.afm
+-rw-r--r--    1 root    root            11378 Jan 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmd.afm
+-rw-r--r--    1 root    root            11437 Jan 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmdi.afm
+-rw-r--r--    1 root    root            13091 Jan 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmditex.afm
+-rw-r--r--    1 root    root            11524 Mar 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmdo.afm
+-rw-r--r--    1 root    root            13072 Mar 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmdotex.afm
+-rw-r--r--    1 root    root            12716 Jan 12  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmdtex.afm
+-rw-r--r--    1 root    root            14542 Mar 26  1993 /usr/share/texmf/fonts/afm/yandy/lumath/lbme.afm
+-rw-r--r--    1 root    root            14617 Nov 17  1993 /usr/share/texmf/fonts/afm/yandy/lumath/lbmetex.afm
+-rw-r--r--    1 root    root            11633 Jul 17  1994 /usr/share/texmf/fonts/afm/yandy/lumath/lbmi.afm
+-rw-r--r--    1 root    root            13274 Feb 26  1994 /usr/share/texmf/fonts/afm/yandy/lumath/lbmitex.afm
+-rw-r--r--    1 root    root            11744 Oct 18  1994 /usr/share/texmf/fonts/afm/yandy/lumath/lbmo.afm
+-rw-r--r--    1 root    root            13385 Oct 15  1994 /usr/share/texmf/fonts/afm/yandy/lumath/lbmotex.afm
+-rw-r--r--    1 root    root            11488 Nov  3  1994 /usr/share/texmf/fonts/afm/yandy/lumath/lbmr.afm
+-rw-r--r--    1 root    root            12849 Jan 15  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmrtex.afm
+-rw-r--r--    1 root    root            12346 Jan 22  1993 /usr/share/texmf/fonts/afm/yandy/lumath/lbms.afm
+-rw-r--r--    1 root    root            12432 Jan 15  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmsd.afm
+-rw-r--r--    1 root    root            13030 Jan 15  1995 /usr/share/texmf/fonts/afm/yandy/lumath/lbmsdtex.afm
+-rw-r--r--    1 root    root            12918 Jan 22  1993 /usr/share/texmf/fonts/afm/yandy/lumath/lbmstex.afm
+-rw-r--r--    1 root    root             7643 Dec 25  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtexb.afm
+-rw-r--r--    1 root    root             7696 Dec 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtexh.afm
+-rw-r--r--    1 root    root             2727 Aug 20  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtgu.afm
+-rw-r--r--    1 root    root             2724 Aug 20  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtgub.afm
+-rw-r--r--    1 root    root             3424 Mar 17  1997 /usr/share/texmf/fonts/afm/yandy/mathplus/mtls.afm
+-rw-r--r--    1 root    root             3433 Mar 17  1997 /usr/share/texmf/fonts/afm/yandy/mathplus/mtlsb.afm
+-rw-r--r--    1 root    root            25032 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtmib.afm
+-rw-r--r--    1 root    root            25058 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtmih.afm
+-rw-r--r--    1 root    root             3372 Aug  6  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtms.afm
+-rw-r--r--    1 root    root             3377 Aug  6  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtmsb.afm
+-rw-r--r--    1 root    root            19415 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtmub.afm
+-rw-r--r--    1 root    root            19429 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtmuh.afm
+-rw-r--r--    1 root    root             7077 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtsyb.afm
+-rw-r--r--    1 root    root             7096 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtsyh.afm
+-rw-r--r--    1 root    root             7000 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/mtsyn.afm
+-rw-r--r--    1 root    root             4070 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/rmtmib.afm
+-rw-r--r--    1 root    root             4091 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/rmtmih.afm
+-rw-r--r--    1 root    root             4074 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/rmtmub.afm
+-rw-r--r--    1 root    root             4088 Aug 26  1996 /usr/share/texmf/fonts/afm/yandy/mathplus/rmtmuh.afm
+-rw-r--r--    1 root    root             7756 Jun 27  1993 /usr/share/texmf/fonts/afm/yandy/mathtime/mtex.afm
+-rw-r--r--    1 root    root            22827 Jun  1  1993 /usr/share/texmf/fonts/afm/yandy/mathtime/mtmi.afm
+-rw-r--r--    1 root    root             6596 Jun  1  1993 /usr/share/texmf/fonts/afm/yandy/mathtime/mtsy.afm
+-rw-r--r--    1 root    root             4094 Jun  1  1993 /usr/share/texmf/fonts/afm/yandy/mathtime/rmtmi.afm
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tetex-afm-1.0.6-1.m68kmint.rpm">Download</A></H2> (648,288 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

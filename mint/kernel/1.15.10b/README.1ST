@@ -1,0 +1,9 @@
+This is FreeMiNT.  Please see the file `COPYING' for licensing conditions.
+
+The current FreeMiNT kernel coordinator is Frank Naumann
+<fnaumann@freemint.de>.
+
+Please feel free to send mails concerning the kernel development subjects.
+
+Please note that if your file system doesn't support long filenames
+some of the files could have unpacked with truncated names.

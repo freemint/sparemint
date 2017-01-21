@@ -1,0 +1,48 @@
+FreeMiNT 1.15.6, beta release
+=============================
+
+This is a beta version with new features and bugfixes compared
+to the official FreeMiNT 1.15.5 release. Please see in CHANGES
+for a list of all changes.
+
+most important news:
+- BIOS remapping for external xdd (with new DEV_INSTALL2)
+- RSVF cookie handling
+- more UTC adaptions in the kernel
+- lot of bugfixes
+
+
+Attention
+==========
+
+This archiv doesn't include any documentation! It's only a beta
+version for testing.
+
+The complete documentation can be found in the FreeMiNT 1.15.5 archiv!
+If you doesn't have the documentation please download these archiv
+and read it carefully. You can found it under:
+
+http://www.cs.uni-magdeburg.de/~fnaumann/
+
+freemint-1.15.5-bin.tar.gz
+freemint-1.15.5.tar.gz
+
+
+Archiv description
+==================
+
+freemint-1.15.6b.lzh          - all in one (all precompiled kernels, src)
+freemint-1.15.6b-bin.lzh      - only all precompiled kernels
+freemint-1.15.6b-bin-000.lzh  - only 68000 kernel
+freemint-1.15.6b-bin-030.lzh  - only 68030 kernel
+freemint-1.15.6b-bin-040.lzh  - only 68040/68060 kernel
+freemint-1.15.6b-bin-mil.lzh  - only Milan kernel
+freemint-1.15.6b-bin.tar.gz   - only all precompiled kernels
+freemint-1.15.6b-src.tar.gz   - only the src
+freemint-1.15.6b.tar.gz       - all in one (all precompiled kernels, src)
+
+
+Frank Naumann
+<fnaumann@cs.uni-magdeburg.de>
+
+Magdeburg, 19.01.2000

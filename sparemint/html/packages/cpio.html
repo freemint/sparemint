@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - cpio, version 2.4.2, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>cpio</H2>
+
+<UL> 
+<LI>Summary: A GNU archiving program.<BR>
+
+<LI>Version: 2.4.2<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Archiving">Applications/Archiving</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 111,916 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>cpio = 2.4.2-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Aug 26 02:26:11 1999 UTC<BR>
+<LI>Upload date: Thu Aug 26 04:26:18 1999 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/cpio-2.4.2-3.src.rpm">cpio-2.4.2-3.src.rpm</A>  (191,270 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Wed Aug 25 09:00:00 1999 UTC<BR>
+- compressed manpages<BR>- correct Packager and Vendor
+<LI>Description:<BR>
+GNU cpio copies files into or out of a cpio or tar archive.  Archives<BR>are files which contain a collection of other files plus information<BR>about them, such as their file name, owner, timestamps, and access<BR>permissions.  The archive can be another file on the disk, a magnetic<BR>tape, or a pipe.  GNU cpio supports the following archive formats:  binary,<BR>old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar and POSIX.1<BR>tar.  By default, cpio creates binary format archives, so that they are<BR>compatible with older cpio programs.  When it is extracting files from<BR>archives, cpio automatically recognizes which kind of archive it is reading<BR>and can read archives created on machines with a different byte-order.<BR><P><BR>Install cpio if you need a program to manage file archives.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel           95624 Aug 25  1999 /bin/cpio
+drwxr-xr-x    2 root    wheel               0 Aug 25  1999 /usr/doc/cpio-2.4.2
+-rw-r--r--    1 root    wheel            2401 Nov 22  1995 /usr/doc/cpio-2.4.2/NEWS
+-rw-r--r--    1 root    wheel            2783 Jul  5  1993 /usr/doc/cpio-2.4.2/README
+-rw-r--r--    1 root    wheel            6028 Aug 25  1999 /usr/info/cpio.info.gz
+-rw-r--r--    1 root    wheel            4056 Aug 25  1999 /usr/man/man1/cpio.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/cpio-2.4.2-3.m68kmint.rpm">Download</A></H2> (64,346 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

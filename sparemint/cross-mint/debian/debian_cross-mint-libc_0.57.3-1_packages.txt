@@ -1,0 +1,15 @@
+The following files were generated with `alien -k` on a Debian 3.0
+genuine system (from the corresponding Red Hat packages):
+cross-mint-libc_0.57.3-1_i386.deb
+cross-mint-libc-debug_0.57.3-1_i386.deb
+cross-mint-libc-devel_0.57.3-1_i386.deb
+cross-mint-libc-profile_0.57.3-1_i386.deb
+cross-mint-libc-src_0.57.3-1_i386.deb
+
+Please note that the last package (the one containing the source) is
+probalby not a real "source-package" according to Debian standards.
+So better get the original source code if you care about this.
+This will be fixed eventually if someone tell whatever else to do.
+
+Guillaume Déflache (mailto:guillaumed@users.sourceforge.net)
+

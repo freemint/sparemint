@@ -1,0 +1,140 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gawk, version 3.0.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gawk</H2>
+
+<UL> 
+<LI>Summary: The GNU version of the awk text processing utility.<BR>
+<LI>URL: <A HREF="ftp://ftp.gnu.org/gnu/gawk/">ftp://ftp.gnu.org/gnu/gawk/</A><BR>
+<LI>Version: 3.0.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Text">Applications/Text</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 2,791,934 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>awk  <BR>
+  <LI>gawk = 3.0.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Mar 20 21:44:14 2001 UTC<BR>
+<LI>Upload date: Thu Mar 22 12:09:02 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gawk-3.0.6-1.src.rpm">gawk-3.0.6-1.src.rpm</A>  (1,655,044 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Mar 20 10:00:00 2001 UTC<BR>
+- updated to 3.0.6
+<LI>Description:<BR>
+The gawk packages contains the GNU version of awk, a text processing<BR>utility.  Awk interprets a special-purpose programming language to do<BR>quick and easy text pattern matching and reformatting jobs. Gawk should<BR>be upwardly compatible with the Bell Labs research version of awk and<BR>is almost completely compliant with the 1993 POSIX 1003.2 standard for<BR>awk.<BR><P><BR>Install the gawk package if you need a text processing utility. Gawk is<BR>considered to be a standard Linux tool for processing text.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    wheel               4 Mar 20  2001 /bin/awk
+-rwxr-xr-x    2 root    wheel          268702 Mar 20  2001 /bin/gawk
+-rwxr-xr-x    2 root    wheel          268702 Mar 20  2001 /bin/gawk-3.0.6
+-rwxr-xr-x    1 root    wheel            2990 Mar 20  2001 /bin/igawk
+?rwxrwxrwx    1 root    wheel              14 Mar 20  2001 /usr/bin/awk
+?rwxrwxrwx    1 root    wheel              14 Mar 20  2001 /usr/bin/gawk
+drwxr-xr-x    2 root    wheel               0 Mar 20  2001 /usr/doc/gawk-3.0.6
+-rw-r--r--    1 root    wheel            1580 Oct 13  1995 /usr/doc/gawk-3.0.6/ACKNOWLEDGMENT
+-rw-r--r--    1 root    wheel           18007 May  1  1997 /usr/doc/gawk-3.0.6/COPYING
+-rw-r--r--    1 root    wheel            2804 Oct 19  1998 /usr/doc/gawk-3.0.6/FUTURES
+-rw-r--r--    1 root    wheel            7721 Dec 27  1995 /usr/doc/gawk-3.0.6/INSTALL
+-rw-r--r--    1 root    wheel             649 Aug 16  1995 /usr/doc/gawk-3.0.6/LIMITATIONS
+-rw-r--r--    1 root    wheel           62048 Aug  3  2000 /usr/doc/gawk-3.0.6/NEWS
+-rw-r--r--    1 root    wheel             931 Jul  9  2000 /usr/doc/gawk-3.0.6/PORTS
+-rw-r--r--    1 root    wheel            3673 Oct  7  1998 /usr/doc/gawk-3.0.6/POSIX.STD
+-rw-r--r--    1 root    wheel            3162 Jul  6  2000 /usr/doc/gawk-3.0.6/README
+drwxr-xr-x    2 root    wheel               0 Aug  7  2000 /usr/doc/gawk-3.0.6/README_d
+-rw-r--r--    1 root    wheel             506 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.FIRST
+-rw-r--r--    1 root    wheel            4710 Dec  8  1996 /usr/doc/gawk-3.0.6/README_d/README.VMS
+-rw-r--r--    1 root    wheel            1275 May  3  1999 /usr/doc/gawk-3.0.6/README_d/README.atari
+-rw-r--r--    1 root    wheel            1071 Jul 23  2000 /usr/doc/gawk-3.0.6/README_d/README.beos
+-rw-r--r--    1 root    wheel             467 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.linux
+-rw-r--r--    1 root    wheel           15334 Jun 26  1999 /usr/doc/gawk-3.0.6/README_d/README.pc
+-rw-r--r--    1 root    wheel             709 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.sco
+-rw-r--r--    1 root    wheel             481 Jun 18  2000 /usr/doc/gawk-3.0.6/README_d/README.sgi
+-rw-r--r--    1 root    wheel            1375 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.solaris
+-rw-r--r--    1 root    wheel             355 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.sony
+-rw-r--r--    1 root    wheel             918 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.sunos4
+-rw-r--r--    1 root    wheel            1344 May  3  2000 /usr/doc/gawk-3.0.6/README_d/README.tests
+-rw-r--r--    1 root    wheel            1224 May  1  1997 /usr/doc/gawk-3.0.6/README_d/README.ultrix
+-rw-r--r--    1 root    wheel             321 Apr 28  1999 /usr/doc/gawk-3.0.6/README_d/README.yacc
+-rw-r--r--    1 root    wheel          226479 Aug  7  2000 /usr/doc/gawk-3.0.6/awkcard.ps
+-rw-r--r--    1 root    wheel         1462248 Aug  7  2000 /usr/doc/gawk-3.0.6/gawk.ps
+-rw-r--r--    1 root    wheel          219230 Mar 20  2001 /usr/info/gawk.info.gz
+drwxrwxrwx    2 root    wheel               0 Mar 20  2001 /usr/libexec/awk
+-rwxr-xr-x    1 root    wheel           87488 Mar 20  2001 /usr/libexec/awk/grcat
+-rwxr-xr-x    1 root    wheel           87598 Mar 20  2001 /usr/libexec/awk/pwcat
+drwxrwxrwx    2 root    wheel               0 Mar 20  2001 /usr/share/awk
+-rw-r--r--    1 root    wheel             376 Mar 20  2001 /usr/share/awk/assert.awk
+-rw-r--r--    1 root    wheel             233 Mar 20  2001 /usr/share/awk/ctime.awk
+-rw-r--r--    1 root    wheel             314 Mar 20  2001 /usr/share/awk/ftrans.awk
+-rw-r--r--    1 root    wheel            2243 Mar 20  2001 /usr/share/awk/getopt.awk
+-rw-r--r--    1 root    wheel            2535 Mar 20  2001 /usr/share/awk/gettime.awk
+-rw-r--r--    1 root    wheel            1641 Mar 20  2001 /usr/share/awk/group.awk
+-rw-r--r--    1 root    wheel             373 Mar 20  2001 /usr/share/awk/join.awk
+-rw-r--r--    1 root    wheel            2561 Mar 20  2001 /usr/share/awk/mktime.awk
+-rw-r--r--    1 root    wheel             381 Mar 20  2001 /usr/share/awk/nextfile.awk
+-rw-r--r--    1 root    wheel            1137 Mar 20  2001 /usr/share/awk/ord.awk
+-rw-r--r--    1 root    wheel            1023 Mar 20  2001 /usr/share/awk/passwd.awk
+-rw-r--r--    1 root    wheel             668 Mar 20  2001 /usr/share/awk/round.awk
+?rwxrwxrwx    1 root    wheel               6 Mar 20  2001 /usr/share/man/man1/awk.1
+-rw-r--r--    1 root    wheel           19556 Mar 20  2001 /usr/share/man/man1/gawk.1.gz
+-rw-r--r--    1 root    wheel             657 Mar 20  2001 /usr/share/man/man1/igawk.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gawk-3.0.6-1.m68kmint.rpm">Download</A></H2> (1,077,777 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

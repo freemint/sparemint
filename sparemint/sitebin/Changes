@@ -1,0 +1,27 @@
+Changed Version From: 	$Revision = q ($Revision: 2.1 $ );
+
+To: 					$Revision = q ($Revision: 2.1 $ );
+
+
+Changed html output From:
+
+  <BODY BGCOLOR=white>
+   <A HREF="../arts.html">
+     <IMG ALIGN=right SRC="images/spare_small.jpeg" ALT="Sparemint logo" BORDER=0>
+   </A>
+
+To:
+
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="../../html/images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="index.html">Home</a>
+<img src="html/images/leaf-bullet.gif"> <a href="info.html">Information</a> <img src="html/images/leaf-bullet.gif"> <a href="NEWS.html">News</a>
+<img src="html/images/leaf-bullet.gif"> <a href="development.html">Development</a> <img src="html/images/leaf-bullet.gif"> <a href="download.html">Download</a>
+<img src="html/images/leaf-bullet.gif"> <a href="mirrors.html">Mirrors</a></h4>
+<br>
+
+Changed <H1> tags to <H2> to match css from static html pages
+
+No other changes to script, edited using NotePad++

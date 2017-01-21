@@ -1,0 +1,95 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bash-completion, version 20020304, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bash-completion</H2>
+
+<UL> 
+<LI>Summary: bash-completion offers programmable completion for bash 2.05<BR>
+<LI>URL: <A HREF="http://www.caliban.org/bash/">http://www.caliban.org/bash/</A><BR>
+<LI>Version: 20020304<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Shells">System Environment/Shells</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 104,382 bytes<BR>
+<LI>Operating system: FreeMiNT<BR>
+<LI>Provides:<UL>
+  <LI>bash-completion = 20020304-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>bash >= 2.05a<BR>
+  <LI>base >= 1.4<BR>
+  <LI>grep  <BR>
+  <LI>sed  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Mar  5 11:26:58 2002 UTC<BR>
+<LI>Upload date: Tue Mar  5 11:26:58 2002 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bash-completion-20020304-1.src.rpm">bash-completion-20020304-1.src.rpm</A>  (35,262 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Mar  5 10:00:00 2002 UTC<BR>
+- first release for sparemint
+<LI>Description:<BR>
+bash-completion is a collection of shell functions that take advantage of<BR>the programmable completion feature of bash 2.04 and later.<BR><P><BR>To use this collection, you ideally need bash 2.05a or later. You can also use<BR>bash 2.05 if you apply the group name completion patch available at<BR>http://www.caliban.org/files/bash/bash-2.05-group_completion.patch.<BR>Alternatively, you can just comment out the lines that contain<BR>'comp{lete,gen} -g'.<BR><P><BR>If you're using bash 2.04, in addition to commenting out the lines discussed<BR>in the previous paragraph, you'll also to comment out the '-o &lt;option&gt;'<BR>part of each invocation of 'complete' and edit /etc/bashrc to reflect this<BR>version in the $BASH_VERSION test.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root            54159 Mar  5  2002 /etc/bash_completion
+drwxr-xr-x    2 root    root                0 Mar  5  2002 /usr/doc/bash-completion-20020304
+-rw-r--r--    1 root    root            42155 Mar  4  2002 /usr/doc/bash-completion-20020304/Changelog
+-rw-r--r--    1 root    root             4029 Mar  1  2002 /usr/doc/bash-completion-20020304/README
+drwxr-xr-x    2 root    root                0 Mar  3  2002 /usr/doc/bash-completion-20020304/contrib
+-rw-r--r--    1 root    root              207 Mar  3  2002 /usr/doc/bash-completion-20020304/contrib/isql
+-rw-r--r--    1 root    root             1784 Mar  1  2002 /usr/doc/bash-completion-20020304/contrib/larch
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/noarch/bash-completion-20020304-1.noarch.rpm">Download</A></H2> (32,499 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

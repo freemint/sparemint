@@ -1,0 +1,107 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - scmxx, version 0.6.1.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>scmxx</H2>
+
+<UL> 
+<LI>Summary: exchange data with Siemens mobile phones<BR>
+<LI>URL: <A HREF="http://www.hendrik-sattler.de/scmxx">http://www.hendrik-sattler.de/scmxx</A><BR>
+<LI>Version: 0.6.1.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Communications">Communications</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 222,241 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>scmxx = 0.6.1.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Oct 13 20:38:20 2002 UTC<BR>
+<LI>Upload date: Tue Oct 22 12:17:36 2002 UTC<BR>
+<LI>Packager: Jan Krupka (<A HREF="javascript:linkto_decode_mt('nbjmup;klsvqlbAwpmoz/d{');">jkrupka(at)volny.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/scmxx-0.6.1.5-1.src.rpm">scmxx-0.6.1.5-1.src.rpm</A>  (59,001 bytes)<BR>
+<LI>Last change: Jan Krupka &lt;jkrupka@volny.cz&gt; Sun Oct 13 10:00:00 2002 UTC<BR>
+- first release for SpareMiNT (new package)
+<LI>Description:<BR>
+ SCMxx is a console program that allows you to exchange certain types of<BR> data with mobile phones made by Siemens. Some of the data types that can<BR> be exchanged are logos, ring tones, vCalendars, phonebook entries, and<BR> SMS messages. It works with the following models:<BR> S25,<BR> S35i, M35i and C35i,<BR> SL45, S45, ME45 and C45<BR> and probably others.<BR> It basically uses the AT command set published by Siemens<BR> (with some other, additional resources).<BR> See the website http://www.hendrik-sattler.de/scmxx for details.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel          188132 Oct 13  2002 /usr/bin/scmxx
+-rwxr-xr-x    1 root    wheel             258 Oct 13  2002 /usr/bin/sms2mail
+-rwxr-xr-x    1 root    wheel             164 Oct 13  2002 /usr/bin/smssend
+drwxr-xr-x    2 root    root                0 Oct 13  2002 /usr/doc/scmxx-0.6.1.5
+-rw-r--r--    1 root    root              479 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/AUTHORS
+-rw-r--r--    1 root    root              687 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/BUGS
+-rw-r--r--    1 root    root            14779 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/CHANGELOG
+-rw-r--r--    1 root    root              251 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/INSTALL
+-rw-r--r--    1 root    root             1932 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/README
+-rw-r--r--    1 root    root              363 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/TODO
+-rw-r--r--    1 root    root              181 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/doc_sources.txt
+drwxr-xr-x    2 root    root                0 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples
+-rw-r--r--    1 root    root              750 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/debian_with_scmxx.bmp
+-rw-r--r--    1 root    root                0 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/no-midi-example
+-rw-r--r--    1 root    root                0 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/no-vCard-example
+-rw-r--r--    1 root    root              912 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/phonebook
+-rw-r--r--    1 root    root              158 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/sms
+-rw-r--r--    1 root    root              173 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/examples/vCalendar
+-rw-r--r--    1 root    root             1205 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/greekchars.txt
+-rw-r--r--    1 root    root             6932 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/gsmcharset.txt
+-rw-r--r--    1 root    root              107 Sep 18  2002 /usr/doc/scmxx-0.6.1.5/specialchars.txt
+-rw-r--r--    1 root    root             2730 Sep 18  2002 /usr/man/man1/scmxx.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/scmxx-0.6.1.5-1.m68kmint.rpm">Download</A></H2> (100,924 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

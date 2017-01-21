@@ -1,0 +1,96 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - dhclient, version 3.1.ESV, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>dhclient</H2>
+
+<UL> 
+<LI>Summary: Development headers and libraries for interfacing to the DHCP server<BR>
+<LI>URL: <A HREF="http://isc.org/products/DHCP/">http://isc.org/products/DHCP/</A><BR>
+<LI>Version: 3.1.ESV<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 855,900 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>dhclient = 3.1.ESV-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Dec  8 18:19:37 2012 UTC<BR>
+<LI>Upload date: Sat Dec 15 21:02:35 2012 UTC<BR>
+<LI>Packager: <A HREF="http://phoenix.inf.upol.cz/~opichals/">Standa Opichal</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;pqjdibmtAtf{obn/d{');">opichals(at)seznam.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/dhcp-3.1.ESV-1.src.rpm">dhcp-3.1.ESV-1.src.rpm</A>  (817,566 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;makehr@ndh.net&gt; Sat Jun 30 11:00:00 2007 UTC<BR>
+- added DHCP client startup script for Sparemint
+<LI>Description:<BR>
+DHCP (Dynamic Host Configuration Protocol) is a protocol which allows<BR>individual devices on an IP network to get their own network<BR>configuration information (IP address, subnetmask, broadcast address,<BR>etc.) from a DHCP server. The overall purpose of DHCP is to make it<BR>easier to administer a large network.<BR><P><BR>To use DHCP on your network, install a DHCP service (or relay agent),<BR>and on clients run a DHCP client daemon.  The dhclient package<BR>provides the ISC DHCP client daemon.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              545 Dec  8  2012 /etc/rc.d/init.d/dhclient
+-rwxr-xr-x    1 root    root           805145 Dec  8  2012 /sbin/dhclient
+-rwxr-xr-x    1 root    root             8010 Dec  8  2012 /sbin/dhclient-script
+drwxr-xr-x    2 root    root                0 Dec  8  2012 /usr/doc/dhclient-3.1.ESV
+-rw-r--r--    1 root    root              988 Dec  8  2012 /usr/doc/dhclient-3.1.ESV/dhclient.conf.sample
+-rwxr-xr-x    1 root    root            10229 Dec  8  2012 /usr/man/man5/dhclient.conf.5.gz
+-rwxr-xr-x    1 root    root              666 Dec  8  2012 /usr/man/man5/dhclient.leases.5.gz
+-rwxr-xr-x    1 root    root            18690 Dec  8  2012 /usr/man/man5/dhcp-options.5.gz
+-rwxr-xr-x    1 root    root             4440 Dec  8  2012 /usr/man/man8/dhclient-script.8.gz
+-rwxr-xr-x    1 root    root             5139 Dec  8  2012 /usr/man/man8/dhclient.8.gz
+drwxr-xr-x    2 root    root                0 Dec  8  2012 /usr/var/lib/dhcp
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/dhclient-3.1.ESV-1.m68kmint.rpm">Download</A></H2> (417,831 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Feb 16 19:06:08 2015 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

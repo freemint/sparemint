@@ -1,0 +1,160 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - abctab2ps, version 1.8.8, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>abctab2ps</H2>
+
+<UL> 
+<LI>Summary: abctab2ps: a tablature typesetting program for ABC music files.<BR>
+<LI>URL: <A HREF="http://www.lautengesellschaft.de/cdmm">http://www.lautengesellschaft.de/cdmm</A><BR>
+<LI>Version: 1.8.8<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Multimedia">Applications/Multimedia</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,812,701 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>abctab2ps = 1.8.8-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Sep  9 07:39:04 2009 UTC<BR>
+<LI>Upload date: Wed Sep  9 19:25:19 2009 UTC<BR>
+<LI>Packager: <A HREF="http://www.home.zonnet.nl/m.tarenskeen/download/mint/">Martin Tarenskeen</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/ubsfotlffoA{poofu/om');">m.tarenskeen(at)zonnet.nl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/abctab2ps-1.8.8-1.src.rpm">abctab2ps-1.8.8-1.src.rpm</A>  (465,602 bytes)<BR>
+<LI>Last change: Martin Tarenskeen &lt;m.tarenskeen@zonnet.nl&gt; Wed Sep  9 09:00:00 2009 UTC<BR>
+- updated to 1.8.8
+<LI>Description:<BR>
+A music and tablature typesetting program based on<BR>Chris Walshaw's abc music language. abctab2ps converts<BR>abc files directly into postscript without the need<BR>of additional software.<BR>In addition to the abc standard which only supports<BR>music, abctab2ps supports lute and guitar tablature.<BR>This version was compiled for -m68020-60: A 68881/2<BR>compatible (co-)processor is required if you want to<BR>use it.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           582495 Sep  9  2009 /usr/bin/abctab2ps
+-rw-r--r--    1 root    root             4084 Sep  9  2009 /usr/man/man1/abctab2ps.1.gz
+drwxr-xr-x    2 root    root                0 Sep  9  2009 /usr/share/abctab2ps
+-rw-r--r--    1 root    root            10930 Sep  9  2009 /usr/share/abctab2ps/deCourier.ps
+-rw-r--r--    1 root    root            21915 Sep  9  2009 /usr/share/abctab2ps/deFraktur.ps
+-rw-r--r--    1 root    root             5381 Sep  9  2009 /usr/share/abctab2ps/frBaroqml.ps
+-rw-r--r--    1 root    root             6366 Sep  9  2009 /usr/share/abctab2ps/frFrancisque.ps
+-rw-r--r--    1 root    root            11370 Sep  9  2009 /usr/share/abctab2ps/itBorrono.ps
+-rw-r--r--    1 root    root             4977 Sep  9  2009 /usr/share/abctab2ps/itTimes.ps
+-rw-r--r--    1 root    root            23714 Sep  9  2009 /usr/share/doc/abctab2ps/CHANGES
+-rw-r--r--    1 root    root            15855 Sep  9  2009 /usr/share/doc/abctab2ps/LICENSE
+-rw-r--r--    1 root    root             6102 Sep  9  2009 /usr/share/doc/abctab2ps/README
+-rw-r--r--    1 root    root            32431 Sep  9  2009 /usr/share/doc/abctab2ps/abctab2ps-man.html
+drwxr-xr-x    2 root    root                0 Sep  9  2009 /usr/share/doc/abctab2ps/examples
+-rw-r--r--    1 root    root             2481 Sep  9  2009 /usr/share/doc/abctab2ps/examples/Readme
+-rw-r--r--    1 root    root             2222 Sep  9  2009 /usr/share/doc/abctab2ps/examples/adriaenssen.abc
+-rw-r--r--    1 root    root             1003 Sep  9  2009 /usr/share/doc/abctab2ps/examples/attaignant.abc
+-rw-r--r--    1 root    root             2550 Sep  9  2009 /usr/share/doc/abctab2ps/examples/banjo.abc
+-rw-r--r--    1 root    root             2134 Sep  9  2009 /usr/share/doc/abctab2ps/examples/bataille.abc
+-rw-r--r--    1 root    root             1056 Sep  9  2009 /usr/share/doc/abctab2ps/examples/carcassi.abc
+-rw-r--r--    1 root    root              748 Sep  9  2009 /usr/share/doc/abctab2ps/examples/daCrema.abc
+-rw-r--r--    1 root    root             1025 Sep  9  2009 /usr/share/doc/abctab2ps/examples/francisque.abc
+-rw-r--r--    1 root    root             1183 Sep  9  2009 /usr/share/doc/abctab2ps/examples/kapsberger.abc
+-rw-r--r--    1 root    root             5601 Sep  9  2009 /usr/share/doc/abctab2ps/examples/kuehnel.abc
+-rw-r--r--    1 root    root             2111 Sep  9  2009 /usr/share/doc/abctab2ps/examples/molinaro.abc
+-rw-r--r--    1 root    root             3190 Sep  9  2009 /usr/share/doc/abctab2ps/examples/ortiz.abc
+-rw-r--r--    1 root    root             2998 Sep  9  2009 /usr/share/doc/abctab2ps/examples/regnart.abc
+-rw-r--r--    1 root    root             3123 Sep  9  2009 /usr/share/doc/abctab2ps/examples/sanz.abc
+-rw-r--r--    1 root    root             1882 Sep  9  2009 /usr/share/doc/abctab2ps/examples/telemann.abc
+-rw-r--r--    1 root    root             1060 Sep  9  2009 /usr/share/doc/abctab2ps/examples/vallet.abc
+-rw-r--r--    1 root    root            14199 Sep  9  2009 /usr/share/doc/abctab2ps/examples/victoria.abc
+-rw-r--r--    1 root    root             1762 Sep  9  2009 /usr/share/doc/abctab2ps/examples/waissel.abc
+-rw-r--r--    1 root    root            19309 Sep  9  2009 /usr/share/doc/abctab2ps/faq.html
+drwxr-xr-x    2 root    root                0 Sep  9  2009 /usr/share/doc/abctab2ps/userguide
+-rw-r--r--    1 root    root           796078 Sep  9  2009 /usr/share/doc/abctab2ps/userguide.ps
+drwxr-xr-x    2 root    root                0 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html
+-rw-r--r--    1 root    root              278 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/contents.png
+-rw-r--r--    1 root    root             4254 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img1.png
+-rw-r--r--    1 root    root              745 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img10.png
+-rw-r--r--    1 root    root              698 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img11.png
+-rw-r--r--    1 root    root              760 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img12.png
+-rw-r--r--    1 root    root              765 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img13.png
+-rw-r--r--    1 root    root              824 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img14.png
+-rw-r--r--    1 root    root              204 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img15.png
+-rw-r--r--    1 root    root              579 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img16.png
+-rw-r--r--    1 root    root             2020 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img2.png
+-rw-r--r--    1 root    root             1301 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img3.png
+-rw-r--r--    1 root    root             2172 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img4.png
+-rw-r--r--    1 root    root            12450 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img5.png
+-rw-r--r--    1 root    root             1854 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img6.png
+-rw-r--r--    1 root    root              530 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img7.png
+-rw-r--r--    1 root    root              593 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img8.png
+-rw-r--r--    1 root    root              692 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/img9.png
+-rw-r--r--    1 root    root             6720 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/index.html
+-rw-r--r--    1 root    root              246 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/index.png
+-rw-r--r--    1 root    root              245 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/next.png
+-rw-r--r--    1 root    root              272 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/next_g.png
+-rw-r--r--    1 root    root             5938 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node1.html
+-rw-r--r--    1 root    root             6293 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node10.html
+-rw-r--r--    1 root    root             4851 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node11.html
+-rw-r--r--    1 root    root            11461 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node12.html
+-rw-r--r--    1 root    root            10862 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node2.html
+-rw-r--r--    1 root    root             5921 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node3.html
+-rw-r--r--    1 root    root            10946 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node4.html
+-rw-r--r--    1 root    root            18728 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node5.html
+-rw-r--r--    1 root    root            13070 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node6.html
+-rw-r--r--    1 root    root            10203 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node7.html
+-rw-r--r--    1 root    root            32179 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node8.html
+-rw-r--r--    1 root    root            27487 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/node9.html
+-rw-r--r--    1 root    root              279 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/prev.png
+-rw-r--r--    1 root    root              327 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/prev_g.png
+-rw-r--r--    1 root    root              211 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/up.png
+-rw-r--r--    1 root    root              231 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/up_g.png
+-rw-r--r--    1 root    root             1073 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/userguide.css
+-rw-r--r--    1 root    root             6720 Sep  9  2009 /usr/share/doc/abctab2ps/userguide/html/userguide.html
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/abctab2ps-1.8.8-1.m68kmint.rpm">Download</A></H2> (553,160 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,605 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - XFree86, version 4.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>XFree86</H2>
+
+<UL> 
+<LI>Summary: The basic fonts, programs and docs for an X workstation.<BR>
+
+<LI>Version: 4.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#User Interface/X">User Interface/X</A>
+<LI>License: MIT</BR>
+<LI>Installation size: 38,688,519 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>XFree86 = 4.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/ln  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Dec 21 18:17:24 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/XFree86-4.0-1.src.rpm">XFree86-4.0-1.src.rpm</A>  (48,123,696 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Dec 21 10:00:00 2000 UTC<BR>
+- first Sparemint release
+<LI>Description:<BR>
+The X Window System provides the base technology for developing<BR>graphical user interfaces. Simply stated, X draws the elements<BR>of the GUI on the user's screen and builds methods for sending<BR>user interactions back to the application. X also supports remote<BR>application deployment--running an application on another computer<BR>while viewing the input/output on your machine.  X is a powerful<BR>environment which supports many different applications, such as<BR>games, programming tools, graphics programs, text editors, etc.<BR>XFree86 is the version of X which runs on Linux, as well as on other<BR>platforms.<BR><P><BR>This package contains the basic fonts, programs and documentation<BR>for an X workstation.  However, this package doesn't provide the<BR>program which you will need to drive your video hardware.  To<BR>control your video card, you'll need the particular X server<BR>package which corresponds to your computer's video card.<BR><P><BR>If you are going to develop applications that run as X clients you<BR>will need to install XFree86-devel.
+<LI>Files:<BR>
+<PRE>
+-r--r--r--    1 root    root             6593 Dec 21  2000 /etc/X11/app-defaults/Bitmap
+-r--r--r--    1 root    root              497 Dec 21  2000 /etc/X11/app-defaults/Bitmap-color
+-r--r--r--    1 root    root              181 Dec 21  2000 /etc/X11/app-defaults/Clock-color
+-r--r--r--    1 root    root             9818 Dec 21  2000 /etc/X11/app-defaults/Editres
+-r--r--r--    1 root    root             1155 Dec 21  2000 /etc/X11/app-defaults/Editres-color
+-r--r--r--    1 root    root             3184 Dec 21  2000 /etc/X11/app-defaults/Viewres
+-r--r--r--    1 root    root            19361 Dec 21  2000 /etc/X11/app-defaults/XCalc
+-r--r--r--    1 root    root             1315 Dec 21  2000 /etc/X11/app-defaults/XCalc-color
+-r--r--r--    1 root    root             3573 Dec 21  2000 /etc/X11/app-defaults/XClipboard
+-r--r--r--    1 root    root               20 Dec 21  2000 /etc/X11/app-defaults/XClock
+-r--r--r--    1 root    root              689 Dec 21  2000 /etc/X11/app-defaults/XConsole
+-r--r--r--    1 root    root             4744 Dec 21  2000 /etc/X11/app-defaults/XFontSel
+-r--r--r--    1 root    root              106 Dec 21  2000 /etc/X11/app-defaults/XLoad
+-r--r--r--    1 root    root               19 Dec 21  2000 /etc/X11/app-defaults/XLogo
+-r--r--r--    1 root    root              220 Dec 21  2000 /etc/X11/app-defaults/XLogo-color
+-r--r--r--    1 root    root             3874 Dec 21  2000 /etc/X11/app-defaults/XSm
+-r--r--r--    1 root    root             7011 Dec 21  2000 /etc/X11/app-defaults/XTerm
+-r--r--r--    1 root    root              718 Dec 21  2000 /etc/X11/app-defaults/XTerm-color
+-r--r--r--    1 root    root             3128 Dec 21  2000 /etc/X11/app-defaults/Xditview
+-r--r--r--    1 root    root             1375 Dec 21  2000 /etc/X11/app-defaults/Xditview-chrtr
+-r--r--r--    1 root    root            15666 Dec 21  2000 /etc/X11/app-defaults/Xedit
+-r--r--r--    1 root    root             5594 Dec 21  2000 /etc/X11/app-defaults/Xedit-color
+-r--r--r--    1 root    root              637 Dec 21  2000 /etc/X11/app-defaults/Xfd
+-r--r--r--    1 root    root               65 Dec 21  2000 /etc/X11/app-defaults/Xgc
+-r--r--r--    1 root    root              839 Dec 21  2000 /etc/X11/app-defaults/Xmag
+-r--r--r--    1 root    root             5437 Dec 21  2000 /etc/X11/app-defaults/Xman
+-r--r--r--    1 root    root              213 Dec 21  2000 /etc/X11/app-defaults/Xmessage
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/proxymngr
+-r--r--r--    1 root    root              317 Dec 21  2000 /etc/X11/proxymngr/pmconfig
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/rstart
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/rstart/commands
+-rw-rw-rw-    1 root    root             1361 Dec 21  2000 /etc/X11/rstart/commands/@List
+-rwxrwxrwx    1 root    root             1444 Dec 21  2000 /etc/X11/rstart/commands/ListContexts
+-rwxrwxrwx    1 root    root             1552 Dec 21  2000 /etc/X11/rstart/commands/ListGenericCommands
+?rwxrwxrwx    1 root    root                5 Dec 21  2000 /etc/X11/rstart/commands/x
+?rwxrwxrwx    1 root    root                5 Dec 21  2000 /etc/X11/rstart/commands/x11
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/rstart/commands/x11r6
+-rw-rw-rw-    1 root    root             1366 Dec 21  2000 /etc/X11/rstart/commands/x11r6/@List
+-rwxrwxrwx    1 root    root             1299 Dec 21  2000 /etc/X11/rstart/commands/x11r6/LoadMonitor
+-rwxrwxrwx    1 root    root             1296 Dec 21  2000 /etc/X11/rstart/commands/x11r6/Terminal
+-r--r--r--    1 root    root             1693 Dec 21  2000 /etc/X11/rstart/config
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/rstart/contexts
+-rw-rw-rw-    1 root    root             1308 Dec 21  2000 /etc/X11/rstart/contexts/@List
+-rw-rw-rw-    1 root    root             1288 Dec 21  2000 /etc/X11/rstart/contexts/default
+?rwxrwxrwx    1 root    root                5 Dec 21  2000 /etc/X11/rstart/contexts/x
+?rwxrwxrwx    1 root    root                5 Dec 21  2000 /etc/X11/rstart/contexts/x11
+-rw-rw-rw-    1 root    root             1538 Dec 21  2000 /etc/X11/rstart/contexts/x11r6
+-rwxr-xr-x    1 root    root            99888 Dec 21  2000 /etc/X11/rstart/rstartd.real
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /etc/X11/xsm
+-r--r--r--    1 root    root               79 Dec 21  2000 /etc/X11/xsm/system.xsm
+?rwxrwxrwx    1 root    root                5 Dec 21  2000 /usr/X11
+-rwxr-xr-x    1 root    root            27499 Dec 21  2000 /usr/X11R6/bin/Xmark
+-rwxr-xr-x    1 root    root           921334 Dec 21  2000 /usr/X11R6/bin/appres
+-rwxr-xr-x    1 root    root            89906 Dec 21  2000 /usr/X11R6/bin/atobm
+-rwxr-xr-x    1 root    root           173778 Dec 21  2000 /usr/X11R6/bin/bdftopcf
+-rwxr-xr-x    1 root    root          1267314 Dec 21  2000 /usr/X11R6/bin/bitmap
+-rwxr-xr-x    1 root    root           134748 Dec 21  2000 /usr/X11R6/bin/bmtoa
+-rwxr-xr-x    1 root    root          1265724 Dec 21  2000 /usr/X11R6/bin/editres
+-rwxr-xr-x    1 root    root           106419 Dec 21  2000 /usr/X11R6/bin/iceauth
+-rwxr-xr-x    1 root    root            93275 Dec 21  2000 /usr/X11R6/bin/lndir
+-rwxr-xr-x    1 root    root           151163 Dec 21  2000 /usr/X11R6/bin/makepsres
+-rwxr-xr-x    1 root    root            93811 Dec 21  2000 /usr/X11R6/bin/makestrs
+-rwxr-xr-x    1 root    root             2295 Dec 21  2000 /usr/X11R6/bin/mergelib
+-rwxr-xr-x    1 root    root           196438 Dec 21  2000 /usr/X11R6/bin/mkcfm
+-rwxr-xr-x    1 root    root             1019 Dec 21  2000 /usr/X11R6/bin/mkdirhier
+-rwxr-xr-x    1 root    root           942465 Dec 21  2000 /usr/X11R6/bin/proxymngr
+-rwxr-xr-x    1 root    root           152851 Dec 21  2000 /usr/X11R6/bin/resize
+-rwxr-xr-x    1 root    root            87601 Dec 21  2000 /usr/X11R6/bin/revpath
+-rwxr-xr-x    1 root    root             1863 Dec 21  2000 /usr/X11R6/bin/rstart
+-rwxr-xr-x    1 root    root             1435 Dec 21  2000 /usr/X11R6/bin/rstartd
+-rwxr-xr-x    1 root    root           699229 Dec 21  2000 /usr/X11R6/bin/setxkbmap
+-rwxr-xr-x    1 root    root           931384 Dec 21  2000 /usr/X11R6/bin/smproxy
+-rwxr-xr-x    1 root    root           637619 Dec 21  2000 /usr/X11R6/bin/xauth
+-rwxr-xr-x    1 root    root           630997 Dec 21  2000 /usr/X11R6/bin/xcmsdb
+-rwxr-xr-x    1 root    root          1184592 Dec 21  2000 /usr/X11R6/bin/xconsole
+-rwxr-xr-x    1 root    root          1185194 Dec 21  2000 /usr/X11R6/bin/xcutsel
+-rwxr-xr-x    1 root    root           671142 Dec 21  2000 /usr/X11R6/bin/xdpyinfo
+-rwxr-xr-x    1 root    root           923664 Dec 21  2000 /usr/X11R6/bin/xfindproxy
+-rwxr-xr-x    1 root    root           620114 Dec 21  2000 /usr/X11R6/bin/xhost
+-rwxr-xr-x    1 root    root           617807 Dec 21  2000 /usr/X11R6/bin/xkbbell
+-rwxr-xr-x    1 root    root           861162 Dec 21  2000 /usr/X11R6/bin/xkbcomp
+-rwxr-xr-x    1 root    root           706952 Dec 21  2000 /usr/X11R6/bin/xkbevd
+-rwxr-xr-x    1 root    root           754114 Dec 21  2000 /usr/X11R6/bin/xkbprint
+-rwxr-xr-x    1 root    root          1199357 Dec 21  2000 /usr/X11R6/bin/xkbvleds
+-rwxr-xr-x    1 root    root          1189248 Dec 21  2000 /usr/X11R6/bin/xkbwatch
+-rwxr-xr-x    1 root    root           617461 Dec 21  2000 /usr/X11R6/bin/xlsatoms
+-rwxr-xr-x    1 root    root           618159 Dec 21  2000 /usr/X11R6/bin/xlsclients
+-rwxr-xr-x    1 root    root           683052 Dec 21  2000 /usr/X11R6/bin/xlsfonts
+-rwxr-xr-x    1 root    root           635356 Dec 21  2000 /usr/X11R6/bin/xmodmap
+-rwxr-xr-x    1 root    root             2195 Dec 21  2000 /usr/X11R6/bin/xon
+-rwxr-xr-x    1 root    root           686479 Dec 21  2000 /usr/X11R6/bin/xprop
+-rwxr-xr-x    1 root    root           633386 Dec 21  2000 /usr/X11R6/bin/xrdb
+-rwxr-xr-x    1 root    root           657271 Dec 21  2000 /usr/X11R6/bin/xrefresh
+-rwxr-xr-x    1 root    root           675503 Dec 21  2000 /usr/X11R6/bin/xset
+-rwxr-xr-x    1 root    root           621909 Dec 21  2000 /usr/X11R6/bin/xsetmode
+-rwxr-xr-x    1 root    root           622058 Dec 21  2000 /usr/X11R6/bin/xsetpointer
+-rwxr-xr-x    1 root    root           675792 Dec 21  2000 /usr/X11R6/bin/xsetroot
+-rwxr-xr-x    1 root    root          1260690 Dec 21  2000 /usr/X11R6/bin/xsm
+-rwxr-xr-x    1 root    root           662340 Dec 21  2000 /usr/X11R6/bin/xstdcmap
+-rwxr-xr-x    1 root    root          1377377 Dec 21  2000 /usr/X11R6/bin/xterm
+-rwxr-xr-x    1 root    root           687679 Dec 21  2000 /usr/X11R6/bin/xwd
+-rwxr-xr-x    1 root    root           680483 Dec 21  2000 /usr/X11R6/bin/xwud
+-r--r--r--    1 root    root            33554 Dec 21  2000 /usr/X11R6/lib/X11/XErrorDB
+-r--r--r--    1 root    root             5066 Dec 21  2000 /usr/X11R6/lib/X11/XKeysymDB
+?rwxrwxrwx    1 root    root               34 Dec 21  2000 /usr/X11R6/lib/X11/app-defaults
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/CID
+-r--r--r--    1 root    root                2 Dec 21  2000 /usr/X11R6/lib/X11/fonts/CID/fonts.dir
+-r--r--r--    1 root    root                2 Dec 21  2000 /usr/X11R6/lib/X11/fonts/CID/fonts.scale
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo
+-r--r--r--    1 root    root             2483 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/encodings.dir
+-r--r--r--    1 root    root            73994 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0419.spd
+-r--r--r--    1 root    root            73570 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0582.spd
+-r--r--r--    1 root    root            74266 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0583.spd
+-r--r--r--    1 root    root            73686 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0611.spd
+-r--r--r--    1 root    root            59472 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0648.spd
+-r--r--r--    1 root    root            61214 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0649.spd
+-r--r--r--    1 root    root            59460 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0709.spd
+-r--r--r--    1 root    root            61065 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/font0710.spd
+-r--r--r--    1 root    root             1689 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/fonts.dir
+-r--r--r--    1 root    root             1689 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Speedo/fonts.scale
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1
+-r--r--r--    1 root    root            21991 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTBI____.afm
+-r--r--r--    1 root    root            75363 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTBI____.pfa
+-r--r--r--    1 root    root            21529 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTB_____.afm
+-r--r--r--    1 root    root            72834 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTB_____.pfa
+-r--r--r--    1 root    root            21960 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTI_____.afm
+-r--r--r--    1 root    root            74892 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTI_____.pfa
+-r--r--r--    1 root    root            22144 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTRG____.afm
+-r--r--r--    1 root    root            72354 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/UTRG____.pfa
+-r--r--r--    1 root    root            15395 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0419bt_.afm
+-r--r--r--    1 root    root            40766 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0419bt_.pfb
+-r--r--r--    1 root    root            15407 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0582bt_.afm
+-r--r--r--    1 root    root            39511 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0582bt_.pfb
+-r--r--r--    1 root    root            15397 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0583bt_.afm
+-r--r--r--    1 root    root            40008 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0583bt_.pfb
+-r--r--r--    1 root    root            15414 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0611bt_.afm
+-r--r--r--    1 root    root            39871 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0611bt_.pfb
+-r--r--r--    1 root    root            21626 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0632bt_.afm
+-r--r--r--    1 root    root            33799 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0632bt_.pfb
+-r--r--r--    1 root    root            22099 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0633bt_.afm
+-r--r--r--    1 root    root            35229 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0633bt_.pfb
+-r--r--r--    1 root    root            19764 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0648bt_.afm
+-r--r--r--    1 root    root            34869 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0648bt_.pfb
+-r--r--r--    1 root    root            19927 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0649bt_.afm
+-r--r--r--    1 root    root            35118 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/c0649bt_.pfb
+-r--r--r--    1 root    root            29887 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/cour.afm
+-r--r--r--    1 root    root           126064 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/cour.pfa
+-r--r--r--    1 root    root            29815 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/courb.afm
+-r--r--r--    1 root    root           126868 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/courb.pfa
+-r--r--r--    1 root    root            29979 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/courbi.afm
+-r--r--r--    1 root    root           125201 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/courbi.pfa
+-r--r--r--    1 root    root            30032 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/couri.afm
+-r--r--r--    1 root    root           122124 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/couri.pfa
+-r--r--r--    1 root    root            54914 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/cursor.pfa
+-r--r--r--    1 root    root             2483 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/encodings.dir
+-r--r--r--    1 root    root             4372 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/fonts.dir
+-r--r--r--    1 root    root             4372 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/fonts.scale
+-r--r--r--    1 root    root            22761 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxmo.afm
+-r--r--r--    1 root    root            77597 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxmo.pfa
+-r--r--r--    1 root    root            22652 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxmr.afm
+-r--r--r--    1 root    root            77561 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxmr.pfa
+-r--r--r--    1 root    root            22817 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxro.afm
+-r--r--r--    1 root    root            91375 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxro.pfa
+-r--r--r--    1 root    root            22677 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxrr.afm
+-r--r--r--    1 root    root            91339 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxrr.pfa
+-r--r--r--    1 root    root            22867 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxso.afm
+-r--r--r--    1 root    root            72301 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxso.pfa
+-r--r--r--    1 root    root            22751 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxsr.afm
+-r--r--r--    1 root    root            72265 Dec 21  2000 /usr/X11R6/lib/X11/fonts/Type1/lcdxsr.pfa
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings
+-r--r--r--    1 root    root             3253 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/adobe-dingbats.enc.gz
+-r--r--r--    1 root    root             1655 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/adobe-standard.enc.gz
+-r--r--r--    1 root    root             3165 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/adobe-symbol.enc.gz
+-r--r--r--    1 root    root             4255 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/armscii-8.enc
+-r--r--r--    1 root    root             2483 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/encodings.dir
+-r--r--r--    1 root    root             5718 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/ibm-cp437.enc
+-r--r--r--    1 root    root             5567 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/ibm-cp850.enc
+-r--r--r--    1 root    root             5866 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/ibm-cp852.enc
+-r--r--r--    1 root    root             5536 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/ibm-cp866.enc
+-r--r--r--    1 root    root             3405 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/iso8859-11.enc
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large
+-r--r--r--    1 root    root            65878 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/big5.eten-0.enc.gz
+-r--r--r--    1 root    root              615 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/encodings.dir
+-r--r--r--    1 root    root            33215 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/gb2312.1980-0.enc.gz
+-r--r--r--    1 root    root              184 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/jisx0201.1976-0.enc.gz
+-r--r--r--    1 root    root            32847 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/jisx0208.1983-0.enc.gz
+-r--r--r--    1 root    root            34392 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/jisx0208.1990-0.enc.gz
+-r--r--r--    1 root    root            23811 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/jisx0212.1990-0.enc.gz
+-r--r--r--    1 root    root            25951 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/large/ksc5601.1987-0.enc.gz
+-r--r--r--    1 root    root             2347 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1250.enc
+-r--r--r--    1 root    root             4720 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1251.enc
+-r--r--r--    1 root    root             1168 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1252.enc
+-r--r--r--    1 root    root             4231 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1253.enc
+-r--r--r--    1 root    root             1338 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1254.enc
+-r--r--r--    1 root    root             2777 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1255.enc
+-r--r--r--    1 root    root             2832 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1256.enc
+-r--r--r--    1 root    root             3245 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1257.enc
+-r--r--r--    1 root    root             1521 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/microsoft-cp1258.enc
+-r--r--r--    1 root    root              262 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/mulearabic-0.enc
+-r--r--r--    1 root    root             1018 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/mulearabic-1.enc
+-r--r--r--    1 root    root             1078 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/mulearabic-2.enc
+-r--r--r--    1 root    root             2160 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/mulelao-1.enc
+-r--r--r--    1 root    root             4058 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/tcvn-0.enc
+-r--r--r--    1 root    root             1242 Dec 21  2000 /usr/X11R6/lib/X11/fonts/encodings/viscii1.1-1.enc.gz
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc
+-r--r--r--    1 root    root             5031 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/10x20-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            82793 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/10x20.pcf.gz
+-r--r--r--    1 root    root           216330 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/12x13ja.pcf.gz
+-r--r--r--    1 root    root             5678 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/12x24.pcf.gz
+-r--r--r--    1 root    root             5377 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/12x24rk.pcf.gz
+-r--r--r--    1 root    root           614988 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/18x18ja.pcf.gz
+-r--r--r--    1 root    root             4076 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/5x7-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            26046 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/5x7.pcf.gz
+-r--r--r--    1 root    root             4164 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/5x8-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            21741 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/5x8.pcf.gz
+-r--r--r--    1 root    root             4408 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x10-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            25139 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x10.pcf.gz
+-r--r--r--    1 root    root             4505 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x12-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            28661 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x12.pcf.gz
+-r--r--r--    1 root    root             4574 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4464 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13-ISO8859-2.pcf.gz
+-r--r--r--    1 root    root             4425 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13-ISO8859-7.pcf.gz
+-r--r--r--    1 root    root             3964 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13-ISO8859-8.pcf.gz
+-r--r--r--    1 root    root             5010 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13-KOI8-R.pcf.gz
+-r--r--r--    1 root    root            71625 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13.pcf.gz
+-r--r--r--    1 root    root             4589 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4449 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13B-ISO8859-2.pcf.gz
+-r--r--r--    1 root    root             4408 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13B-ISO8859-7.pcf.gz
+-r--r--r--    1 root    root            22299 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x13B.pcf.gz
+-r--r--r--    1 root    root             4330 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x9-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            20928 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/6x9.pcf.gz
+-r--r--r--    1 root    root             4717 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4695 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13-ISO8859-15.pcf.gz
+-r--r--r--    1 root    root            51830 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13.pcf.gz
+-r--r--r--    1 root    root             4655 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4634 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13B-ISO8859-15.pcf.gz
+-r--r--r--    1 root    root            16047 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x13B.pcf.gz
+-r--r--r--    1 root    root             4767 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x14-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4139 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x14-JISX0201.1976-0.pcf.gz
+-r--r--r--    1 root    root            40358 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x14.pcf.gz
+-r--r--r--    1 root    root             4629 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x14B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            16500 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/7x14B.pcf.gz
+-r--r--r--    1 root    root             4725 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4590 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13-ISO8859-2.pcf.gz
+-r--r--r--    1 root    root             4561 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13-ISO8859-7.pcf.gz
+-r--r--r--    1 root    root             4071 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13-ISO8859-8.pcf.gz
+-r--r--r--    1 root    root             5171 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13-KOI8-R.pcf.gz
+-r--r--r--    1 root    root            61504 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13.pcf.gz
+-r--r--r--    1 root    root             4735 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root             4636 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13B-ISO8859-2.pcf.gz
+-r--r--r--    1 root    root             4555 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13B-ISO8859-7.pcf.gz
+-r--r--r--    1 root    root            19548 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x13B.pcf.gz
+-r--r--r--    1 root    root             4744 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x16.pcf.gz
+-r--r--r--    1 root    root             4380 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/8x16rk.pcf.gz
+-r--r--r--    1 root    root             4877 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x15-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            85001 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x15.pcf.gz
+-r--r--r--    1 root    root             4967 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x15B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            32244 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x15B.pcf.gz
+-r--r--r--    1 root    root             4912 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x18-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            81485 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x18.pcf.gz
+-r--r--r--    1 root    root             4923 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x18B-ISO8859-1.pcf.gz
+-r--r--r--    1 root    root            13472 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/9x18B.pcf.gz
+-rw-r--r--    1 root    root               20 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/Xlat9-10x20-lat9.pcf.gz
+-rw-r--r--    1 root    root               20 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/Xlat9-8x14-lat9.pcf.gz
+-rw-r--r--    1 root    root               20 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/Xlat9-9x16-lat9.pcf.gz
+-r--r--r--    1 root    root            14689 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/arabic24.pcf.gz
+-r--r--r--    1 root    root             2537 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB6x10.pcf.gz
+-r--r--r--    1 root    root             2582 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB6x12.pcf.gz
+-r--r--r--    1 root    root             2699 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x10.pcf.gz
+-r--r--r--    1 root    root             2754 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x12.pcf.gz
+-r--r--r--    1 root    root             2850 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x13.pcf.gz
+-r--r--r--    1 root    root             2848 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x14.pcf.gz
+-r--r--r--    1 root    root             2841 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x16.pcf.gz
+-r--r--r--    1 root    root             2539 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB8x8.pcf.gz
+-r--r--r--    1 root    root             2794 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clB9x15.pcf.gz
+-r--r--r--    1 root    root             2695 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clI6x12.pcf.gz
+-r--r--r--    1 root    root             2604 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clI8x8.pcf.gz
+-r--r--r--    1 root    root             1979 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR4x6.pcf.gz
+-r--r--r--    1 root    root             2373 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR5x10.pcf.gz
+-r--r--r--    1 root    root             2196 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR5x6.pcf.gz
+-r--r--r--    1 root    root             2272 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR5x8.pcf.gz
+-r--r--r--    1 root    root             2450 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR6x10.pcf.gz
+-r--r--r--    1 root    root             2590 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR6x12.pcf.gz
+-r--r--r--    1 root    root             2675 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR6x13.pcf.gz
+-r--r--r--    1 root    root             2241 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR6x6.pcf.gz
+-r--r--r--    1 root    root             2353 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR6x8.pcf.gz
+-r--r--r--    1 root    root             2645 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR7x10.pcf.gz
+-r--r--r--    1 root    root             2703 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR7x12.pcf.gz
+-r--r--r--    1 root    root             2801 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR7x14.pcf.gz
+-r--r--r--    1 root    root             2491 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR7x8.pcf.gz
+-r--r--r--    1 root    root             2691 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x10.pcf.gz
+-r--r--r--    1 root    root             2739 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x12.pcf.gz
+-r--r--r--    1 root    root             2854 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x13.pcf.gz
+-r--r--r--    1 root    root             2848 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x14.pcf.gz
+-r--r--r--    1 root    root             2829 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x16.pcf.gz
+-r--r--r--    1 root    root             2541 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR8x8.pcf.gz
+-r--r--r--    1 root    root             2779 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/clR9x15.pcf.gz
+-r--r--r--    1 root    root             4685 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cu-alt12.pcf.gz
+-r--r--r--    1 root    root             4511 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cu-arabic12.pcf.gz
+-r--r--r--    1 root    root             2471 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cu-lig12.pcf.gz
+-r--r--r--    1 root    root             2481 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cu-pua12.pcf.gz
+-r--r--r--    1 root    root            82093 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cu12.pcf.gz
+-r--r--r--    1 root    root             5225 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/cursor.pcf.gz
+-r--r--r--    1 root    root             2344 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/deccurs.pcf.gz
+-r--r--r--    1 root    root              952 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/decsess.pcf.gz
+-r--r--r--    1 root    root            10391 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/fonts.alias
+-r--r--r--    1 root    root             8732 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/fonts.dir
+-r--r--r--    1 root    root           256229 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/gb16fs.pcf.gz
+-r--r--r--    1 root    root           276032 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/gb16st.pcf.gz
+-r--r--r--    1 root    root           412862 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/gb24st.pcf.gz
+-r--r--r--    1 root    root           237492 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/hanglg16.pcf.gz
+-r--r--r--    1 root    root           239529 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/hanglm16.pcf.gz
+-r--r--r--    1 root    root           353568 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/hanglm24.pcf.gz
+-r--r--r--    1 root    root           242042 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/jiskan16.pcf.gz
+-r--r--r--    1 root    root           376799 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/jiskan24.pcf.gz
+-r--r--r--    1 root    root           210587 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/k14.pcf.gz
+-r--r--r--    1 root    root             2513 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/nil2.pcf.gz
+-r--r--r--    1 root    root             1371 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/olcursor.pcf.gz
+-r--r--r--    1 root    root             5560 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/olgl10.pcf.gz
+-r--r--r--    1 root    root             5949 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/olgl12.pcf.gz
+-r--r--r--    1 root    root             6074 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/olgl14.pcf.gz
+-r--r--r--    1 root    root             6682 Dec 21  2000 /usr/X11R6/lib/X11/fonts/misc/olgl19.pcf.gz
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/C
+-rw-r--r--    1 root    root              774 Dec 21  2000 /usr/X11R6/lib/X11/locale/C/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/armscii-8
+-rw-r--r--    1 root    root              382 Dec 21  2000 /usr/X11R6/lib/X11/locale/armscii-8/Compose
+-rw-r--r--    1 root    root              797 Dec 21  2000 /usr/X11R6/lib/X11/locale/armscii-8/XLC_LOCALE
+-r--r--r--    1 root    root            12371 Dec 21  2000 /usr/X11R6/lib/X11/locale/compose.dir
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/en_US.UTF-8
+-rw-r--r--    1 root    root             2056 Dec 21  2000 /usr/X11R6/lib/X11/locale/en_US.UTF-8/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/en_US.utf
+-rw-r--r--    1 root    root              382 Dec 21  2000 /usr/X11R6/lib/X11/locale/en_US.utf/Compose
+-rw-r--r--    1 root    root             1758 Dec 21  2000 /usr/X11R6/lib/X11/locale/en_US.utf/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-academy
+-rw-r--r--    1 root    root              396 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-academy/Compose
+-rw-r--r--    1 root    root              852 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-academy/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-ps
+-rw-r--r--    1 root    root              386 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-ps/Compose
+-rw-r--r--    1 root    root              812 Dec 21  2000 /usr/X11R6/lib/X11/locale/georgian-ps/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/ibm-cp1133
+-rw-r--r--    1 root    root              384 Dec 21  2000 /usr/X11R6/lib/X11/locale/ibm-cp1133/Compose
+-rw-r--r--    1 root    root              805 Dec 21  2000 /usr/X11R6/lib/X11/locale/ibm-cp1133/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-1
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-1/Compose
+-rw-r--r--    1 root    root              802 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-1/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-10
+-rw-r--r--    1 root    root              385 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-10/Compose
+-rw-r--r--    1 root    root              846 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-10/XLC_LOCALE
+drwxr-xr-x    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-13
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-13/Compose
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-14
+-rw-r--r--    1 root    root            21387 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-14/Compose
+-rw-r--r--    1 root    root              927 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-14/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-15
+-rw-r--r--    1 root    root            19339 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-15/Compose
+-rw-r--r--    1 root    root             1211 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-15/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-2
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-2/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-2/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-3
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-3/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-3/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-4
+-rw-r--r--    1 root    root            15218 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-4/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-4/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-5
+-rw-r--r--    1 root    root              383 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-5/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-5/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-6
+-rw-r--r--    1 root    root              383 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-6/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-6/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-7
+-rw-r--r--    1 root    root              383 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-7/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-7/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-8
+-rw-r--r--    1 root    root              383 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-8/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-8/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-9
+-rw-r--r--    1 root    root            21539 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-9/Compose
+-rw-r--r--    1 root    root              845 Dec 21  2000 /usr/X11R6/lib/X11/locale/iso8859-9/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.JIS
+-rw-r--r--    1 root    root              376 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.JIS/Compose
+-rw-r--r--    1 root    root             1849 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.JIS/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.SJIS
+-rw-r--r--    1 root    root              378 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.SJIS/Compose
+-rw-r--r--    1 root    root             5312 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja.SJIS/XLC_LOCALE
+-rw-r--r--    1 root    root              368 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja/Compose
+-rw-r--r--    1 root    root             1774 Dec 21  2000 /usr/X11R6/lib/X11/locale/ja/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/ko
+-rw-r--r--    1 root    root              368 Dec 21  2000 /usr/X11R6/lib/X11/locale/ko/Compose
+-rw-r--r--    1 root    root              831 Dec 21  2000 /usr/X11R6/lib/X11/locale/ko/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-r
+-rw-r--r--    1 root    root              376 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-r/Compose
+-rw-r--r--    1 root    root              828 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-r/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-u
+-rw-r--r--    1 root    root              376 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-u/Compose
+-rw-r--r--    1 root    root              773 Dec 21  2000 /usr/X11R6/lib/X11/locale/koi8-u/XLC_LOCALE
+-r--r--r--    1 root    root            29413 Dec 21  2000 /usr/X11R6/lib/X11/locale/locale.alias
+-r--r--r--    1 root    root            20611 Dec 21  2000 /usr/X11R6/lib/X11/locale/locale.dir
+drwxr-xr-x    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/microsoft-cp1251
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/microsoft-cp1251/Compose
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/mulelao-1
+-rw-r--r--    1 root    root              382 Dec 21  2000 /usr/X11R6/lib/X11/locale/mulelao-1/Compose
+-rw-r--r--    1 root    root              797 Dec 21  2000 /usr/X11R6/lib/X11/locale/mulelao-1/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data
+-rw-r--r--    1 root    root            47851 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/gb2312
+-rw-r--r--    1 root    root              896 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/jis0201
+-rw-r--r--    1 root    root            46142 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/jis0208
+-rw-r--r--    1 root    root            54399 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/ksc5601
+-rw-r--r--    1 root    root              784 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_1
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_10
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_14
+-rw-r--r--    1 root    root              800 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_15
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_2
+-rw-r--r--    1 root    root              996 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_3
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_4
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_5
+-rw-r--r--    1 root    root             1072 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_6
+-rw-r--r--    1 root    root              994 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_7
+-rw-r--r--    1 root    root             1058 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_8
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tab8859_9
+-rw-r--r--    1 root    root              981 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabarmscii_8
+-rw-r--r--    1 root    root              980 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabgeorgian_academy
+-rw-r--r--    1 root    root              979 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabgeorgian_ps
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabibm_cp1133
+-rw-r--r--    1 root    root             1032 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabkoi8_r
+-rw-r--r--    1 root    root             1032 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabkoi8_u
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabmulelao_1
+-rw-r--r--    1 root    root             1110 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabtcvn
+-rw-r--r--    1 root    root              982 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabtis620
+-rw-r--r--    1 root    root             1058 Dec 21  2000 /usr/X11R6/lib/X11/locale/tbl_data/tabviscii
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/th_TH.TACTIS
+-rw-r--r--    1 root    root              388 Dec 21  2000 /usr/X11R6/lib/X11/locale/th_TH.TACTIS/Compose
+-rw-r--r--    1 root    root              902 Dec 21  2000 /usr/X11R6/lib/X11/locale/th_TH.TACTIS/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.tcvn
+-rw-r--r--    1 root    root              384 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.tcvn/Compose
+-rw-r--r--    1 root    root              798 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.tcvn/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.viscii
+-rw-r--r--    1 root    root              388 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.viscii/Compose
+-rw-r--r--    1 root    root              814 Dec 21  2000 /usr/X11R6/lib/X11/locale/vi_VN.viscii/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh
+-rw-r--r--    1 root    root              368 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh/Compose
+-rw-r--r--    1 root    root              818 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh/XLC_LOCALE
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW
+drwxr-xr-x    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW.Big5
+-rw-r--r--    1 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW.Big5/Compose
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW.big5
+-rw-r--r--    1 root    root              384 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW.big5/Compose
+-rw-r--r--    1 root    root              374 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW/Compose
+-rw-r--r--    1 root    root             2351 Dec 21  2000 /usr/X11R6/lib/X11/locale/zh_TW/XLC_LOCALE
+?rwxrwxrwx    1 root    root               31 Dec 21  2000 /usr/X11R6/lib/X11/proxymngr
+?rwxrwxrwx    1 root    root               28 Dec 21  2000 /usr/X11R6/lib/X11/rstart
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/lib/X11/x11perfcomp
+-rwxr-xr-x    1 root    root              424 Dec 21  2000 /usr/X11R6/lib/X11/x11perfcomp/fillblnk
+-rwxr-xr-x    1 root    root              784 Dec 21  2000 /usr/X11R6/lib/X11/x11perfcomp/perfboth
+-rwxr-xr-x    1 root    root              723 Dec 21  2000 /usr/X11R6/lib/X11/x11perfcomp/perfratio
+?rwxrwxrwx    1 root    root               25 Dec 21  2000 /usr/X11R6/lib/X11/xsm
+-r--r--r--    1 root    root             1276 Dec 21  2000 /usr/X11R6/man/man1/appres.1x.gz
+-r--r--r--    1 root    root               39 Dec 21  2000 /usr/X11R6/man/man1/atobm.1x.gz
+-r--r--r--    1 root    root             1695 Dec 21  2000 /usr/X11R6/man/man1/bdftopcf.1x.gz
+-r--r--r--    1 root    root             7587 Dec 21  2000 /usr/X11R6/man/man1/bitmap.1x.gz
+-r--r--r--    1 root    root               39 Dec 21  2000 /usr/X11R6/man/man1/bmtoa.1x.gz
+-r--r--r--    1 root    root             1309 Dec 21  2000 /usr/X11R6/man/man1/cxpm.1x.gz
+-r--r--r--    1 root    root             6540 Dec 21  2000 /usr/X11R6/man/man1/editres.1x.gz
+-r--r--r--    1 root    root              954 Dec 21  2000 /usr/X11R6/man/man1/iceauth.1x.gz
+-r--r--r--    1 root    root             2031 Dec 21  2000 /usr/X11R6/man/man1/lndir.1x.gz
+-r--r--r--    1 root    root             3739 Dec 21  2000 /usr/X11R6/man/man1/makedepend.1x.gz
+-r--r--r--    1 root    root             2150 Dec 21  2000 /usr/X11R6/man/man1/makepsres.1x.gz
+-r--r--r--    1 root    root             2387 Dec 21  2000 /usr/X11R6/man/man1/makestrs.1x.gz
+-r--r--r--    1 root    root             1379 Dec 21  2000 /usr/X11R6/man/man1/mkcfm.1x.gz
+-r--r--r--    1 root    root              795 Dec 21  2000 /usr/X11R6/man/man1/mkdirhier.1x.gz
+-r--r--r--    1 root    root             1467 Dec 21  2000 /usr/X11R6/man/man1/oclock.1x.gz
+-r--r--r--    1 root    root             2571 Dec 21  2000 /usr/X11R6/man/man1/proxymngr.1x.gz
+-r--r--r--    1 root    root             1343 Dec 21  2000 /usr/X11R6/man/man1/resize.1x.gz
+-r--r--r--    1 root    root              658 Dec 21  2000 /usr/X11R6/man/man1/revpath.1x.gz
+-r--r--r--    1 root    root             2199 Dec 21  2000 /usr/X11R6/man/man1/rstart.1x.gz
+-r--r--r--    1 root    root             4661 Dec 21  2000 /usr/X11R6/man/man1/rstartd.1x.gz
+-r--r--r--    1 root    root             2160 Dec 21  2000 /usr/X11R6/man/man1/sessreg.1x.gz
+-r--r--r--    1 root    root              806 Dec 21  2000 /usr/X11R6/man/man1/setxkbmap.1x.gz
+-r--r--r--    1 root    root             1270 Dec 21  2000 /usr/X11R6/man/man1/smproxy.1x.gz
+-r--r--r--    1 root    root             1862 Dec 21  2000 /usr/X11R6/man/man1/sxpm.1x.gz
+-r--r--r--    1 root    root             4048 Dec 21  2000 /usr/X11R6/man/man1/xauth.1x.gz
+-r--r--r--    1 root    root             1717 Dec 21  2000 /usr/X11R6/man/man1/xcmsdb.1x.gz
+-r--r--r--    1 root    root             1636 Dec 21  2000 /usr/X11R6/man/man1/xconsole.1x.gz
+-r--r--r--    1 root    root             1800 Dec 21  2000 /usr/X11R6/man/man1/xcutsel.1x.gz
+-r--r--r--    1 root    root             1373 Dec 21  2000 /usr/X11R6/man/man1/xdpyinfo.1x.gz
+-r--r--r--    1 root    root             1635 Dec 21  2000 /usr/X11R6/man/man1/xfindproxy.1x.gz
+-r--r--r--    1 root    root             2328 Dec 21  2000 /usr/X11R6/man/man1/xhost.1x.gz
+-r--r--r--    1 root    root             1559 Dec 21  2000 /usr/X11R6/man/man1/xkbcomp.1x.gz
+-r--r--r--    1 root    root             1889 Dec 21  2000 /usr/X11R6/man/man1/xkbevd.1x.gz
+-r--r--r--    1 root    root             1477 Dec 21  2000 /usr/X11R6/man/man1/xkbprint.1x.gz
+-r--r--r--    1 root    root             1584 Dec 21  2000 /usr/X11R6/man/man1/xkill.1x.gz
+-r--r--r--    1 root    root             1514 Dec 21  2000 /usr/X11R6/man/man1/xlogo.1x.gz
+-r--r--r--    1 root    root             1306 Dec 21  2000 /usr/X11R6/man/man1/xlsatoms.1x.gz
+-r--r--r--    1 root    root             1161 Dec 21  2000 /usr/X11R6/man/man1/xlsclients.1x.gz
+-r--r--r--    1 root    root             1671 Dec 21  2000 /usr/X11R6/man/man1/xlsfonts.1x.gz
+-r--r--r--    1 root    root             1297 Dec 21  2000 /usr/X11R6/man/man1/xmkmf.1x.gz
+-r--r--r--    1 root    root             4325 Dec 21  2000 /usr/X11R6/man/man1/xmodmap.1x.gz
+-r--r--r--    1 root    root             1624 Dec 21  2000 /usr/X11R6/man/man1/xon.1x.gz
+-r--r--r--    1 root    root             5235 Dec 21  2000 /usr/X11R6/man/man1/xprop.1x.gz
+-r--r--r--    1 root    root             4100 Dec 21  2000 /usr/X11R6/man/man1/xrdb.1x.gz
+-r--r--r--    1 root    root             1549 Dec 21  2000 /usr/X11R6/man/man1/xrefresh.1x.gz
+-r--r--r--    1 root    root             4087 Dec 21  2000 /usr/X11R6/man/man1/xset.1x.gz
+-r--r--r--    1 root    root              305 Dec 21  2000 /usr/X11R6/man/man1/xsetmode.1x.gz
+-r--r--r--    1 root    root              290 Dec 21  2000 /usr/X11R6/man/man1/xsetpointer.1x.gz
+-r--r--r--    1 root    root             2089 Dec 21  2000 /usr/X11R6/man/man1/xsetroot.1x.gz
+-r--r--r--    1 root    root             5080 Dec 21  2000 /usr/X11R6/man/man1/xsm.1x.gz
+-r--r--r--    1 root    root             1577 Dec 21  2000 /usr/X11R6/man/man1/xstdcmap.1x.gz
+-r--r--r--    1 root    root            26839 Dec 21  2000 /usr/X11R6/man/man1/xterm.1x.gz
+-r--r--r--    1 root    root             1943 Dec 21  2000 /usr/X11R6/man/man1/xwd.1x.gz
+-r--r--r--    1 root    root             2367 Dec 21  2000 /usr/X11R6/man/man1/xwud.1x.gz
+-r--r--r--    1 root    root            16725 Dec 21  2000 /usr/X11R6/man/man7/X.7.gz
+-r--r--r--    1 root    root             1792 Dec 21  2000 /usr/X11R6/man/man7/XProjectTeam.7.gz
+-r--r--r--    1 root    root             3270 Dec 21  2000 /usr/X11R6/man/man7/XStandards.7.gz
+-r--r--r--    1 root    root             4840 Dec 21  2000 /usr/X11R6/man/man7/Xsecurity.7.gz
+?rwxrwxrwx    1 root    root               12 Dec 21  2000 /usr/bin/X11
+?rwxrwxrwx    1 root    root               16 Dec 21  2000 /usr/lib/X11
+?rwxrwxrwx    1 root    root               12 Dec 21  2000 /usr/man/X11
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/XFree86-4.0-1.m68kmint.rpm">Download</A></H2> (22,889,762 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

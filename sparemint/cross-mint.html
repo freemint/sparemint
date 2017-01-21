@@ -1,0 +1,170 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html><head><title>SpareMiNT and the FreeMiNT Software Archive - Cross
+Compiling Environment</title>
+
+<link rel="stylesheet" href="sparemint.css" type="text/css">
+<script type="text/javascript">
+/*<![CDATA[*/
+<!--
+function decode_mt(s) { //
+var n=0;
+var r="";
+for(var i=0; i < s.length; i++) {
+n=s.charCodeAt(i);
+if (n>=8364) {n = 128;}
+r += String.fromCharCode(n-(1));
+}
+return r;
+}
+function linkto_decode_mt(s) { //
+location.href=decode_mt(s);
+}
+// -->
+/*]]>*/
+</script>
+</head>
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="html/images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="index.html">Home</a>
+<img src="html/images/leaf-bullet.gif"> <a href="info.html">Information</a> <img src="html/images/leaf-bullet.gif"> <a href="NEWS.html">News</a>
+<img src="html/images/leaf-bullet.gif"> <a href="development.html">Development</a> <img src="html/images/leaf-bullet.gif"> <a href="download.html">Download</a>
+<img src="html/images/leaf-bullet.gif"> <a href="mirrors.html">Mirrors</a></h4>
+<table style="background-color: rgb(152, 251, 152); width: 100%; height: 100%;" cellpadding="5" cellspacing="0">
+<tbody>
+<tr>
+<td valign="middle"> <span style="font-weight: bold;">&nbsp;The Sparemint Cross
+Compiling Environment</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="white"> <br>
+Here are the ready to install cross compiler packages for i386 Linux.
+With this cross compiler
+you are able to compile and link your FreeMiNT programs on a fast i386
+Linux machine.
+<p>The packages are in the widely used RPM format. The
+cross compiler has been tested under
+RedHat 7.0/8.0 and Suse 7.1. The rpms don't work under Suse 7.0.
+</p>
+<p>
+If it work under other Linux distributions too please tell it me.
+</p>
+<p>
+<br>
+Cross compiling the freemint kernel is now very easy. Get the
+neccessary RPM packages, install them,
+get the freemint cvs repository (see the <a href="cvs.html">cvs
+page</a>) and just type:
+</p>
+<pre>&gt; make CROSS=yes<br></pre>
+to compile all things.
+<p><br>
+That's it, have fun.
+<br>
+<br>
+</p>
+<hr>
+Look <a href="cross-mint/">here</a> for all
+available packages.
+<br>
+Look <a href="ftp://sparemint.org/pub/sparemint/sparemint/cross-mint/">here</a>
+for ftp download.
+<p></p>
+<hr>
+The mintbin package include various FreeMiNT specific tools
+(like stack and flags):
+<p></p>
+<ul>
+<li><a href="cross-mint/cross-mint-mintbin-0.3-2.i386.rpm">mintbin
+0.3-1</a> <small>(mandatory)</small> </li>
+</ul>
+<p>
+</p>
+<hr>
+The binutils package include the assembler, linker and other object
+manipulation tools:
+<p></p>
+<ul>
+<li><a href="cross-mint/cross-mint-binutils-2.9.1-1.i386.rpm">binutils
+2.9.1-1</a> <small>(mandatory)</small> </li>
+</ul>
+<p>
+</p>
+<hr>
+The gcc packages include the several available compilers from the GNU
+Compiler Collection:
+<p></p>
+<ul>
+<li><a href="cross-mint/cross-mint-gcc-2.95.3-1.i386.rpm">C
+compiler 2.95.3-1</a> <small>(mandatory)</small> </li>
+<li><a href="cross-mint/cross-mint-gcc-c++-2.95.3-1.i386.rpm">C++
+compiler 2.95.3-1</a> <small>(optional)</small> </li>
+<li><a href="cross-mint/cross-mint-gcc-g77-2.95.3-1.i386.rpm">F77
+compiler 2.95.3-1</a> <small>(optional)</small> </li>
+<li><a href="cross-mint/cross-mint-gcc-objc-2.95.3-1.i386.rpm">Objc
+compiler 2.95.3-1</a> <small>(optional)</small> </li>
+</ul>
+<p>
+</p>
+<hr>
+The MiNTLib packages include the runtime libs (libc) for the GCC
+compiler:
+<p></p>
+<ul>
+<li>The 0.57.6 stable release: <img src="html/images/updated.gif">
+<ul>
+<li><a href="cross-mint/cross-mint-libc-0.57.6-1.i386.rpm">documentation
+0.57.6-1</a> <small>(mandatory)</small> </li>
+<li><a href="cross-mint/cross-mint-libc-devel-0.57.6-1.i386.rpm">base
+libs 0.57.6-1</a> <small>(mandatory)</small> </li>
+<li><a href="cross-mint/cross-mint-libc-debug-0.57.6-1.i386.rpm">debug
+libs 0.57.6-1</a> <small>(optional)</small> </li>
+<li><a href="cross-mint/cross-mint-libc-profile-0.57.6-1.i386.rpm">profile
+libs 0.57.6-1</a> <small>(optional)</small> </li>
+</ul>
+</li>
+</ul>
+<p>
+</p>
+<hr>
+The gemlibs packages include the neccessary gemlibs you need if you
+want to compile
+the current freemint cvs tree:
+<p></p>
+<ul>
+<li><a href="cross-mint/cross-mint-gemlib-1.0-1.i386.rpm">gemlib
+1.0-1</a> <small>(optional)</small> </li>
+<li><a href="cross-mint/cross-mint-gemma-1.0-1.i386.rpm">gemma 1.0-1</a>
+<small>(optional)</small> </li>
+<li><a href="cross-mint/cross-mint-cflib-1.0-1.i386.rpm">cflib 1.0-</a>
+<small>(optional)</small> </li>
+</ul>
+<p>
+</p>
+<hr>
+And finally the source RPM packages:
+<p></p>
+<ul>
+<li><a href="cross-mint/cross-mint-mintbin-0.3-2.src.rpm">mintbin
+0.3-1</a> </li>
+<li><a href="cross-mint/cross-mint-binutils-2.9.1-1.src.rpm">binutils
+2.9.1-1</a> </li>
+<li><a href="cross-mint/cross-mint-gcc-2.95.3-1.src.rpm">gcc
+2.95.3-1</a> </li>
+<li><a href="cross-mint/cross-mint-libc-0.57.3-1.src.rpm">mintlib
+0.57.3-1 stable</a> </li>
+<li><a href="cross-mint/cross-mint-gemlibs-1.0-1.src.rpm">gemlibs
+1.0-1</a> </li>
+</ul>
+<p>
+</p>
+<hr>
+<small>Copyright © 2003 <a href="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">
+Frank Naumann</a>. All rights reserved.
+</small></td>
+</tr>
+</tbody>
+</table>
+</body></html>

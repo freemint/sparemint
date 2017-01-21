@@ -1,0 +1,170 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ORBit-devel, version 0.5.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ORBit-devel</H2>
+
+<UL> 
+<LI>Summary: Development libraries, header files and utilities for ORBit.<BR>
+<LI>URL: <A HREF="http://www.labs.redhat.com/orbit/">http://www.labs.redhat.com/orbit/</A><BR>
+<LI>Version: 0.5.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL/GPL</BR>
+<LI>Installation size: 3,316,727 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ORBit-devel = 0.5.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>ORBit = 0.5.7<BR>
+  <LI>glib  <BR>
+  <LI>indent  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Mar 31 13:53:33 2001 UTC<BR>
+<LI>Upload date: Sat Mar 31 13:56:58 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ORBit-0.5.7-1.src.rpm">ORBit-0.5.7-1.src.rpm</A>  (1,085,504 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Jan  5 10:00:00 2001 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+ORBit is a high-performance CORBA (Common Object Request Broker<BR>Architecture) ORB (object request broker) with support for the<BR>C language.<BR><P><BR>This package contains the header files, libraries and utilities<BR>necessary to write programs that use CORBA technology. If you want to<BR>write such programs, you'll also need to install the ORBIT package.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1984 Mar 31  2001 /usr/bin/libIDL-config
+-rwxr-xr-x    1 root    root             2606 Mar 31  2001 /usr/bin/orbit-config
+-rwxr-xr-x    1 root    root           399480 Mar 31  2001 /usr/bin/orbit-idl
+drwxrwxrwx    2 root    root                0 Mar 31  2001 /usr/include/IIOP
+-rw-r--r--    1 root    root              208 Mar 31  2001 /usr/include/IIOP/IIOP-config.h
+-rw-r--r--    1 root    root             2423 Mar 31  2001 /usr/include/IIOP/IIOP-types.h
+-rw-r--r--    1 root    root             1912 Mar 31  2001 /usr/include/IIOP/IIOP.h
+-rw-r--r--    1 root    root             6150 Mar 31  2001 /usr/include/IIOP/giop-msg-buffer.h
+-rw-r--r--    1 root    root              853 Mar 31  2001 /usr/include/IIOP/iiop-encoders.h
+-rw-r--r--    1 root    root              958 Mar 31  2001 /usr/include/IIOP/iiop-endian.h
+drwxrwxrwx    2 root    root                0 Mar 31  2001 /usr/include/ORBitservices
+-rw-r--r--    1 root    root             1377 Mar 31  2001 /usr/include/ORBitservices/CosEventChannel.idl
+-rw-r--r--    1 root    root              573 Mar 31  2001 /usr/include/ORBitservices/CosEventComm.idl
+-rw-r--r--    1 root    root            41163 Mar 31  2001 /usr/include/ORBitservices/CosNaming.h
+-rw-r--r--    1 root    root             1753 Mar 31  2001 /usr/include/ORBitservices/CosNaming.idl
+-rw-r--r--    1 root    root              191 Mar 31  2001 /usr/include/ORBitservices/CosNaming_impl.h
+-rw-r--r--    1 root    root             1350 Mar 31  2001 /usr/include/ORBitservices/CosTypedEventChannel.idl
+-rw-r--r--    1 root    root              378 Mar 31  2001 /usr/include/ORBitservices/CosTypedEventComm.idl
+-rw-r--r--    1 root    root             1352 Mar 31  2001 /usr/include/ORBitservices/LName.pidl
+drwxrwxrwx    2 root    root                0 Mar 31  2001 /usr/include/ORBitutil
+-rw-r--r--    1 root    root             1383 Mar 31  2001 /usr/include/ORBitutil/basic_types.h
+-rw-r--r--    1 root    root              211 Mar 31  2001 /usr/include/ORBitutil/compat.h
+-rw-r--r--    1 root    root               81 Mar 31  2001 /usr/include/ORBitutil/orbit-os-config.h
+-rw-r--r--    1 root    root              474 Mar 31  2001 /usr/include/ORBitutil/os-feature-alloca.h
+-rw-r--r--    1 root    root              355 Mar 31  2001 /usr/include/ORBitutil/os-specifics.h
+-rw-r--r--    1 root    root             1029 Mar 31  2001 /usr/include/ORBitutil/thread-safety.h
+-rw-r--r--    1 root    root             1914 Mar 31  2001 /usr/include/ORBitutil/trace.h
+-rw-r--r--    1 root    root              805 Mar 31  2001 /usr/include/ORBitutil/util.h
+drwxrwxrwx    2 root    root                0 Mar 31  2001 /usr/include/libIDL
+-rw-r--r--    1 root    root            23981 Mar 31  2001 /usr/include/libIDL/IDL.h
+drwxrwxrwx    2 root    root                0 Mar 31  2001 /usr/include/orb
+-rw-r--r--    1 root    root             1216 Mar 31  2001 /usr/include/orb/allocator-defs.h
+-rw-r--r--    1 root    root             1723 Mar 31  2001 /usr/include/orb/allocators.h
+-rw-r--r--    1 root    root             3579 Mar 31  2001 /usr/include/orb/cdr.h
+-rw-r--r--    1 root    root             1537 Mar 31  2001 /usr/include/orb/corba_any.h
+-rw-r--r--    1 root    root              515 Mar 31  2001 /usr/include/orb/corba_any_proto.h
+-rw-r--r--    1 root    root             1341 Mar 31  2001 /usr/include/orb/corba_any_type.h
+-rw-r--r--    1 root    root             1452 Mar 31  2001 /usr/include/orb/corba_basic_sequences_type.h
+-rw-r--r--    1 root    root             1566 Mar 31  2001 /usr/include/orb/corba_context.h
+-rw-r--r--    1 root    root             2264 Mar 31  2001 /usr/include/orb/corba_env.h
+-rw-r--r--    1 root    root             2191 Mar 31  2001 /usr/include/orb/corba_env_type.h
+-rw-r--r--    1 root    root             1777 Mar 31  2001 /usr/include/orb/corba_object.h
+-rw-r--r--    1 root    root             1677 Mar 31  2001 /usr/include/orb/corba_object_type.h
+-rw-r--r--    1 root    root             1539 Mar 31  2001 /usr/include/orb/corba_orb.h
+-rw-r--r--    1 root    root             1940 Mar 31  2001 /usr/include/orb/corba_orb_type.h
+-rw-r--r--    1 root    root             3139 Mar 31  2001 /usr/include/orb/corba_portableserver.h
+-rw-r--r--    1 root    root            12281 Mar 31  2001 /usr/include/orb/corba_portableserver_type.h
+-rw-r--r--    1 root    root             2671 Mar 31  2001 /usr/include/orb/corba_sequences.h
+-rw-r--r--    1 root    root             2537 Mar 31  2001 /usr/include/orb/corba_sequences_type.h
+-rw-r--r--    1 root    root             6446 Mar 31  2001 /usr/include/orb/corba_typecode.h
+-rw-r--r--    1 root    root             1938 Mar 31  2001 /usr/include/orb/corba_typecode_type.h
+-rw-r--r--    1 root    root             3117 Mar 31  2001 /usr/include/orb/dii.h
+-rw-r--r--    1 root    root            33262 Mar 31  2001 /usr/include/orb/dynany.h
+-rw-r--r--    1 root    root             2619 Mar 31  2001 /usr/include/orb/env.h
+-rw-r--r--    1 root    root           254222 Mar 31  2001 /usr/include/orb/interface_repository.h
+-rw-r--r--    1 root    root             5612 Mar 31  2001 /usr/include/orb/iop.h
+-rw-r--r--    1 root    root             2689 Mar 31  2001 /usr/include/orb/ir.h
+-rw-r--r--    1 root    root             1335 Mar 31  2001 /usr/include/orb/options.h
+-rw-r--r--    1 root    root             6019 Mar 31  2001 /usr/include/orb/orb.h
+-rw-r--r--    1 root    root             5655 Mar 31  2001 /usr/include/orb/orbit.h
+-rw-r--r--    1 root    root              285 Mar 31  2001 /usr/include/orb/orbit_config.h
+-rw-r--r--    1 root    root             3654 Mar 31  2001 /usr/include/orb/orbit_object.h
+-rw-r--r--    1 root    root             2367 Mar 31  2001 /usr/include/orb/orbit_object_type.h
+-rw-r--r--    1 root    root             2798 Mar 31  2001 /usr/include/orb/orbit_poa.h
+-rw-r--r--    1 root    root             3389 Mar 31  2001 /usr/include/orb/orbit_poa_type.h
+-rw-r--r--    1 root    root              310 Mar 31  2001 /usr/include/orb/orbit_typecode.h
+-rw-r--r--    1 root    root             4854 Mar 31  2001 /usr/include/orb/orbit_types.h
+-rw-r--r--    1 root    root            10407 Mar 31  2001 /usr/include/orb/poa.h
+-rw-r--r--    1 root    root             1214 Mar 31  2001 /usr/include/orb/sequences.h
+-rw-r--r--    1 root    root             1053 Mar 31  2001 /usr/include/orb/typecode.h
+-rw-r--r--    1 root    root             5511 Mar 31  2001 /usr/include/orbit-idl2.h
+-rw-r--r--    1 root    root             4225 Mar 31  2001 /usr/info/libIDL.info.gz
+-rw-r--r--    1 root    root           162554 Mar 31  2001 /usr/lib/libIDL.a
+-rw-r--r--    1 root    root              229 Mar 31  2001 /usr/lib/libIDLConf.sh
+-rw-r--r--    1 root    root            49220 Mar 31  2001 /usr/lib/libIIOP.a
+-rw-r--r--    1 root    root          2010694 Mar 31  2001 /usr/lib/libORBit.a
+-rw-r--r--    1 root    root            31170 Mar 31  2001 /usr/lib/libORBitCosNaming.a
+-rw-r--r--    1 root    root             1698 Mar 31  2001 /usr/lib/libORBitutil.a
+-rw-rw-rw-    1 root    root            23488 Mar 31  2001 /usr/lib/libname-server.a
+-rw-rw-rw-    1 root    root           112550 Mar 31  2001 /usr/lib/liborbit-c-backend.a
+-rw-r--r--    1 root    root             8820 Mar 31  2001 /usr/share/aclocal/ORBit.m4
+-rw-r--r--    1 root    root             8314 Mar 31  2001 /usr/share/aclocal/libIDL.m4
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ORBit-devel-0.5.7-1.m68kmint.rpm">Download</A></H2> (1,045,066 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

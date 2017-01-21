@@ -1,0 +1,90 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - traceroute, version 1.4a5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>traceroute</H2>
+
+<UL> 
+<LI>Summary: Traces the route taken by packets over a TCP/IP network.<BR>
+<LI>URL: <A HREF="ftp://ftp.ee.lbl.gov/">ftp://ftp.ee.lbl.gov/</A><BR>
+<LI>Version: 1.4a5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 130,525 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>traceroute = 1.4a5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freemint-net  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Sep 25 11:29:51 2001 UTC<BR>
+<LI>Upload date: Tue Sep 25 11:55:55 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/traceroute-1.4a5-1.src.rpm">traceroute-1.4a5-1.src.rpm</A>  (129,423 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Sep 25 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+The traceroute utility displays the route used by IP packets on their<BR>way to a specified network (or Internet) host.  Traceroute displays<BR>the IP number and host name (if possible) of the machines along the<BR>route taken by the packets.  Traceroute is used as a network debugging<BR>tool.  If you're having network connectivity problems, traceroute will<BR>show you where the trouble is coming from along the route.<BR><P><BR>Install traceroute if you need a tool for diagnosing network connectivity<BR>problems.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Sep 25  2001 /usr/doc/traceroute-1.4a5
+-r--r--r--    1 root    root             2564 Jun 13  1997 /usr/doc/traceroute-1.4a5/CHANGES
+-r--r--r--    1 root    root             1036 Jan  5  1997 /usr/doc/traceroute-1.4a5/README
+-rwsr-xr-x    1 root    root           121029 Sep 25  2001 /usr/sbin/traceroute
+-rw-r--r--    1 root    root             4872 Sep 25  2001 /usr/share/man/man8/traceroute.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/traceroute-1.4a5-1.m68kmint.rpm">Download</A></H2> (70,921 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

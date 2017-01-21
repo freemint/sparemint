@@ -1,0 +1,130 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - alien, version 6.56, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>alien</H2>
+
+<UL> 
+<LI>Summary: Install Debian and Slackware Packages with rpm.<BR>
+
+<LI>Version: 6.56<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Utilities/File">Utilities/File</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 165,970 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>alien = 6.56-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>perl  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon Feb  7 00:29:22 2000 UTC<BR>
+<LI>Upload date: Mon Feb  7 01:29:26 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/alien-6.56-1.src.rpm">alien-6.56-1.src.rpm</A>  (66,885 bytes)<BR>
+
+<LI>Description:<BR>
+Alien allows you to convert Debian, Slackware, and Stampede Packages into Red<BR>Hat packages, which can be installed with rpm.<BR><P><BR>It can also convert into Slackware, Debian and Stampede packages.<BR><P><BR>This is a tool only suitable for binary packages.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel            5667 Feb  6  2000 /usr/bin/alien
+drwxr-xr-x    2 root    wheel               0 Feb  6  2000 /usr/doc/alien-6.56
+-rw-r--r--    1 root    wheel           59746 Jan 20  2000 /usr/doc/alien-6.56/CHANGES
+-rw-r--r--    1 root    wheel           17976 Sep  5  1999 /usr/doc/alien-6.56/COPYING
+-rw-r--r--    1 root    wheel            2876 Sep  5  1999 /usr/doc/alien-6.56/README
+-rw-r--r--    1 root    wheel             542 Oct 29  1999 /usr/doc/alien-6.56/alien.lsm
+-rw-r--r--    1 root    wheel            4739 Feb  6  2000 /usr/share/alien/Alien.pm
+-rw-r--r--    1 root    wheel            3248 Feb  6  2000 /usr/share/alien/Fromdeb.pm
+-rw-r--r--    1 root    wheel            5325 Feb  6  2000 /usr/share/alien/Fromrpm.pm
+-rw-r--r--    1 root    wheel            3111 Feb  6  2000 /usr/share/alien/Fromslp.pm
+-rw-r--r--    1 root    wheel            2371 Feb  6  2000 /usr/share/alien/Fromtgz.pm
+-rw-r--r--    1 root    wheel             981 Feb  6  2000 /usr/share/alien/Slp.pm
+-rw-r--r--    1 root    wheel            3573 Feb  6  2000 /usr/share/alien/Todeb.pm
+-rw-r--r--    1 root    wheel            4150 Feb  6  2000 /usr/share/alien/Torpm.pm
+-rw-r--r--    1 root    wheel            3498 Feb  6  2000 /usr/share/alien/Toslp.pm
+-rw-r--r--    1 root    wheel            1802 Feb  6  2000 /usr/share/alien/Totgz.pm
+-rw-r--r--    1 root    wheel            1329 Feb  6  2000 /usr/share/alien/patches/applix-english_4.3-2.diff.gz
+-rw-r--r--    1 root    wheel            1486 Feb  6  2000 /usr/share/alien/patches/applix_4.2-2.diff.gz
+-rw-r--r--    1 root    wheel            2207 Feb  6  2000 /usr/share/alien/patches/applix_4.3-2.diff.gz
+-rw-r--r--    1 root    wheel            1213 Feb  6  2000 /usr/share/alien/patches/apxeng_4.4.1-13.diff.gz
+-rw-r--r--    1 root    wheel            1825 Feb  6  2000 /usr/share/alien/patches/axbase_4.4.1-13.diff.gz
+-rw-r--r--    1 root    wheel            1355 Feb  6  2000 /usr/share/alien/patches/axfont_4.4.1-13.diff.gz
+-rw-r--r--    1 root    wheel            1265 Feb  6  2000 /usr/share/alien/patches/axlang_4.4.1-13.diff.gz
+-rw-r--r--    1 root    wheel            5369 Feb  6  2000 /usr/share/alien/patches/motif-devel_2.1.10-5.diff.gz
+-rw-r--r--    1 root    wheel            7251 Feb  6  2000 /usr/share/alien/patches/motif_2.1.10-5.diff.gz
+-rw-r--r--    1 root    wheel            7281 Feb  6  2000 /usr/share/alien/patches/xbf-i740-glibc_1.0.0-3.diff.gz
+-rw-r--r--    1 root    wheel            2912 Feb  6  2000 /usr/share/alien/patches/xf86config-glibc_1.0.0.i386-3.diff.gz
+-rw-r--r--    1 root    wheel             196 Feb  6  2000 /usr/share/alien/to-deb/rpm/changelog
+-rw-r--r--    1 root    wheel              11 Feb  6  2000 /usr/share/alien/to-deb/rpm/conffiles
+-rw-r--r--    1 root    wheel             181 Feb  6  2000 /usr/share/alien/to-deb/rpm/control
+-rw-r--r--    1 root    wheel             175 Feb  6  2000 /usr/share/alien/to-deb/rpm/copyright
+-rwxr-xr-x    1 root    wheel            1142 Feb  6  2000 /usr/share/alien/to-deb/rpm/rules
+-rw-r--r--    1 root    wheel             189 Feb  6  2000 /usr/share/alien/to-deb/slp/changelog
+-rw-r--r--    1 root    wheel              11 Feb  6  2000 /usr/share/alien/to-deb/slp/conffiles
+-rw-r--r--    1 root    wheel             181 Feb  6  2000 /usr/share/alien/to-deb/slp/control
+-rw-r--r--    1 root    wheel             123 Feb  6  2000 /usr/share/alien/to-deb/slp/copyright
+-rwxr-xr-x    1 root    wheel            1142 Feb  6  2000 /usr/share/alien/to-deb/slp/rules
+-rw-r--r--    1 root    wheel             190 Feb  6  2000 /usr/share/alien/to-deb/tgz/changelog
+-rw-r--r--    1 root    wheel              11 Feb  6  2000 /usr/share/alien/to-deb/tgz/conffiles
+-rw-r--r--    1 root    wheel             180 Feb  6  2000 /usr/share/alien/to-deb/tgz/control
+-rw-r--r--    1 root    wheel             125 Feb  6  2000 /usr/share/alien/to-deb/tgz/copyright
+-rwxr-xr-x    1 root    wheel            1142 Feb  6  2000 /usr/share/alien/to-deb/tgz/rules
+-rw-r--r--    1 root    wheel             380 Feb  6  2000 /usr/share/alien/to-rpm/deb/spec
+-rw-r--r--    1 root    wheel             380 Feb  6  2000 /usr/share/alien/to-rpm/slp/spec
+-rw-r--r--    1 root    wheel             380 Feb  6  2000 /usr/share/alien/to-rpm/tgz/spec
+-rw-r--r--    1 root    wheel            5709 Feb  6  2000 /usr/share/man/man1/alien.1
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/alien-6.56-1.m68kmint.rpm">Download</A></H2> (83,237 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,164 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - freemint-xaaes, version 1.18.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>freemint-xaaes</H2>
+
+<UL> 
+<LI>Summary: The Freemint AES (XaAES)<BR>
+<LI>URL: <A HREF="http://sparemint.atariforge.net/">http://sparemint.atariforge.net/</A><BR>
+<LI>Version: 1.18.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Base System/Kernel">Base System/Kernel</A>
+<LI>License: MiNT license, GPL, LGPL</BR>
+<LI>Installation size: 4,357,821 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>freemint-xaaes = 1.18.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freemint = 1.18.0<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Apr 11 22:49:14 2013 UTC<BR>
+<LI>Upload date: Fri Apr 12 13:00:35 2013 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/freemint-1.18.0-1.src.rpm">freemint-1.18.0-1.src.rpm</A>  (4,995,917 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;makehr@ndh.net&gt; Wed Apr  3 09:00:00 2013 UTC<BR>
+- version 1.18 release
+<LI>Description:<BR>
+This package includes a full AES replacement for FreeMiNT.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root            30052 Apr 11 18:47 /boot/xaaes/img/8b/dbox.img
+-rw-r--r--    1 root    root            18173 Apr 11 18:47 /boot/xaaes/img/8b/dbutton.img
+-rw-r--r--    1 root    root            30052 Apr 11 18:47 /boot/xaaes/img/8b/dtext.img
+-rw-r--r--    1 root    root             8166 Apr 11 18:47 /boot/xaaes/img/8b/exterior.img
+-rw-r--r--    1 root    root            15147 Apr 11 18:47 /boot/xaaes/img/8b/info.img
+-rw-r--r--    1 root    root            30784 Apr 11 18:47 /boot/xaaes/img/8b/popbkg.img
+-rw-r--r--    1 root    root            19121 Apr 11 18:47 /boot/xaaes/img/8b/slide.img
+-rw-r--r--    1 root    root            11835 Apr 11 18:47 /boot/xaaes/img/8b/slider.img
+-rw-r--r--    1 root    root             6092 Apr 11 18:47 /boot/xaaes/img/8b/slwtitle.img
+-rw-r--r--    1 root    root            18173 Apr 11 18:47 /boot/xaaes/img/8b/wtitle.img
+-rw-r--r--    1 root    root            15193 Apr 11 18:47 /boot/xaaes/img/hc/dbox.img
+-rw-r--r--    1 root    root            47747 Apr 11 18:47 /boot/xaaes/img/hc/dbutton.img
+-rw-r--r--    1 root    root            15193 Apr 11 18:47 /boot/xaaes/img/hc/dtext.img
+-rw-r--r--    1 root    root             9245 Apr 11 18:47 /boot/xaaes/img/hc/exterior.img
+-rw-r--r--    1 root    root             8920 Apr 11 18:47 /boot/xaaes/img/hc/info.img
+-rw-r--r--    1 root    root            24352 Apr 11 18:47 /boot/xaaes/img/hc/popbkg.img
+-rw-r--r--    1 root    root            15634 Apr 11 18:47 /boot/xaaes/img/hc/slide.img
+-rw-r--r--    1 root    root            11835 Apr 11 18:47 /boot/xaaes/img/hc/slider.img
+-rw-r--r--    1 root    root             9245 Apr 11 18:47 /boot/xaaes/img/hc/wtitle.img
+-rwxr-xr-x    1 root    root             2538 Apr 11 18:48 /boot/xaaes/moose.adi
+-rwxr-xr-x    1 root    root             2543 Apr 11 18:48 /boot/xaaes/moose_w.adi
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/adam.hrd
+-rw-r--r--    1 root    root             8506 Apr 11 18:47 /boot/xaaes/widgets/adam.rsc
+-rw-r--r--    1 root    root              208 Apr 11 18:47 /boot/xaaes/widgets/baroqwdg.hrd
+-rw-r--r--    1 root    root             8508 Apr 11 18:47 /boot/xaaes/widgets/baroqwdg.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/cbox1214.hrd
+-rw-r--r--    1 root    root              354 Apr 11 18:47 /boot/xaaes/widgets/cbox1214.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/cboxwdg.hrd
+-rw-r--r--    1 root    root              348 Apr 11 18:47 /boot/xaaes/widgets/cboxwdg.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/cboxwidg.hrd
+-rw-r--r--    1 root    root              342 Apr 11 18:47 /boot/xaaes/widgets/cboxwidg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/gemjwdg.hrd
+-rw-r--r--    1 root    root             8514 Apr 11 18:47 /boot/xaaes/widgets/gemjwdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/gilwidg.hrd
+-rw-r--r--    1 root    root             8506 Apr 11 18:47 /boot/xaaes/widgets/gilwidg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/homwdg.hrd
+-rw-r--r--    1 root    root            11434 Apr 11 18:47 /boot/xaaes/widgets/homwdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/ligt_wdg.hrd
+-rw-r--r--    1 root    root            13890 Apr 11 18:47 /boot/xaaes/widgets/ligt_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/magicwdg.hrd
+-rw-r--r--    1 root    root             8346 Apr 11 18:47 /boot/xaaes/widgets/magicwdg.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/mbox1214.hrd
+-rw-r--r--    1 root    root              354 Apr 11 18:47 /boot/xaaes/widgets/mbox1214.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/mboxwdg.hrd
+-rw-r--r--    1 root    root              348 Apr 11 18:47 /boot/xaaes/widgets/mboxwdg.rsc
+-rw-r--r--    1 root    root               44 Apr 11 18:47 /boot/xaaes/widgets/mboxwidg.hrd
+-rw-r--r--    1 root    root              342 Apr 11 18:47 /boot/xaaes/widgets/mboxwidg.rsc
+-rw-r--r--    1 root    root              208 Apr 11 18:47 /boot/xaaes/widgets/monowidg.hrd
+-rw-r--r--    1 root    root             1338 Apr 11 18:47 /boot/xaaes/widgets/monowidg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/nine-wdg.hrd
+-rw-r--r--    1 root    root             8510 Apr 11 18:47 /boot/xaaes/widgets/nine-wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/nine_wdg.hrd
+-rw-r--r--    1 root    root            11296 Apr 11 18:47 /boot/xaaes/widgets/nine_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/pas_wdg.hrd
+-rw-r--r--    1 root    root            11498 Apr 11 18:47 /boot/xaaes/widgets/pas_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/ronb_wdg.hrd
+-rw-r--r--    1 root    root            11498 Apr 11 18:47 /boot/xaaes/widgets/ronb_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/rond_wdg.hrd
+-rw-r--r--    1 root    root            11498 Apr 11 18:47 /boot/xaaes/widgets/rond_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/rondswdg.hrd
+-rw-r--r--    1 root    root             8506 Apr 11 18:47 /boot/xaaes/widgets/rondswdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/styl_wdg.hrd
+-rw-r--r--    1 root    root            11464 Apr 11 18:47 /boot/xaaes/widgets/styl_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/w98_wdg.hrd
+-rw-r--r--    1 root    root             8512 Apr 11 18:47 /boot/xaaes/widgets/w98_wdg.rsc
+-rw-r--r--    1 root    root               27 Apr 11 18:47 /boot/xaaes/widgets/win_wdg.hrd
+-rw-r--r--    1 root    root             8512 Apr 11 18:47 /boot/xaaes/widgets/win_wdg.rsc
+-rw-r--r--    1 root    root              208 Apr 11 18:47 /boot/xaaes/widgets/xaaeswdg.hrd
+-rw-r--r--    1 root    root             7998 Apr 11 18:47 /boot/xaaes/widgets/xaaeswdg.rsc
+-rw-r--r--    1 root    root             3464 Apr 11 18:47 /boot/xaaes/xa_xtobj.rsc
+-rwxr-xr-x    1 root    root           518300 Apr 11 18:47 /boot/xaaes/xaaes000.km
+-rw-r--r--    1 root    root            72122 Apr 11 18:47 /boot/xaaes/xaaes016.rsc
+-rwxr-xr-x    1 root    root           525289 Apr 11 18:47 /boot/xaaes/xaaes030.km
+-rwxr-xr-x    1 root    root           525174 Apr 11 18:47 /boot/xaaes/xaaes040.km
+-rwxr-xr-x    1 root    root           521797 Apr 11 18:48 /boot/xaaes/xaaes060.km
+-rwxr-xr-x    1 root    root           618118 Apr 11 18:48 /boot/xaaes/xaaesdeb.km
+-rwxr-xr-x    1 root    root           488633 Apr 11 18:47 /boot/xaaes/xaaesst.km
+-rwxr-xr-x    1 root    root           557959 Apr 11 18:48 /boot/xaaes/xaaesv4e.km
+-rwxr-xr-x    1 root    root             5210 Apr 11 18:47 /boot/xaaes/xaloader.prg
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/freemint-xaaes-1.18.0-1.m68kmint.rpm">Download</A></H2> (1,996,358 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Sat Apr 27 15:15:40 2013 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

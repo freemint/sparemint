@@ -1,0 +1,395 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ghostscript-68000, version 6.50, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ghostscript-68000</H2>
+
+<UL> 
+<LI>Summary: A PostScript(TM) interpreter and renderer.<BR>
+<LI>URL: <A HREF="http://gnu-gs.sourceforge.net/">http://gnu-gs.sourceforge.net/</A><BR>
+<LI>Version: 6.50<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Graphics">Applications/Graphics</A>
+<LI>License: Aladdin Free Public License, Aladdin Enterprises</BR>
+<LI>Installation size: 6,973,074 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ghostscript-68000 = 6.50-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>urw-fonts >= 1.1<BR>
+  <LI>ghostscript-fonts >= 6.0<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>ghostscript  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jan  2 06:03:47 2001 UTC<BR>
+<LI>Upload date: Mon Jan  8 01:46:42 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ghostscript-68000-6.50-2.src.rpm">ghostscript-68000-6.50-2.src.rpm</A>  (5,512,116 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sun Dec 31 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Ghostscript is a set of software that provides a PostScript(TM)<BR>interpreter, a set of C procedures (the Ghostscript library, which<BR>implements the graphics capabilities in the PostScript language) and<BR>an interpreter for Portable Document Format (PDF) files.  Ghostscript<BR>translates PostScript code into many common, bitmapped formats, like<BR>those understood by your printer or screen.  Ghostscript is normally<BR>used to display PostScript files and to print PostScript files to<BR>non-PostScript printers.<BR><P><BR>If you need to display PostScript files or print them to<BR>non-PostScript printers, you should install ghostscript.  If you<BR>install ghostscript, you also need to install the ghostscript-fonts<BR>package.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              103 Jan  2  2001 /usr/bin/bdftops
+-rwxr-xr-x    1 root    root              789 Jan  2  2001 /usr/bin/dvipdf
+-rwxr-xr-x    1 root    root              430 Jan  2  2001 /usr/bin/eps2eps
+-rwxr-xr-x    1 root    root             4639 Jan  2  2001 /usr/bin/fixmswrd.pl
+-rwxr-xr-x    1 root    root              119 Jan  2  2001 /usr/bin/font2c
+?rwxrwxrwx    1 root    root                2 Jan  2  2001 /usr/bin/ghostscript
+-rwxr-xr-x    1 root    root          2530105 Jan  2  2001 /usr/bin/gs
+-rwxr-xr-x    1 root    root              156 Jan  2  2001 /usr/bin/gsbj
+-rwxr-xr-x    1 root    root              158 Jan  2  2001 /usr/bin/gsdj
+-rwxr-xr-x    1 root    root              161 Jan  2  2001 /usr/bin/gsdj500
+-rwxr-xr-x    1 root    root              159 Jan  2  2001 /usr/bin/gslj
+-rwxr-xr-x    1 root    root              156 Jan  2  2001 /usr/bin/gslp
+-rwxr-xr-x    1 root    root               83 Jan  2  2001 /usr/bin/gsnd
+-rwxr-xr-x    1 root    root             4663 Jan  2  2001 /usr/bin/lprsetup.sh
+-rwxr-xr-x    1 root    root              504 Jan  2  2001 /usr/bin/pdf2dsc
+-rwxr-xr-x    1 root    root              715 Jan  2  2001 /usr/bin/pdf2ps
+-rwxr-xr-x    1 root    root              346 Jan  2  2001 /usr/bin/pdfopt
+-rwxr-xr-x    1 root    root              293 Jan  2  2001 /usr/bin/pf2afm
+-rwxr-xr-x    1 root    root              325 Jan  2  2001 /usr/bin/pfbtopfa
+-rwxr-xr-x    1 root    root             6652 Jan  2  2001 /usr/bin/pj-gs.sh
+-rwxr-xr-x    1 root    root              206 Jan  2  2001 /usr/bin/printafm
+-rwxr-xr-x    1 root    root              634 Jan  2  2001 /usr/bin/ps2ascii
+-rwxr-xr-x    1 root    root             1653 Jan  2  2001 /usr/bin/ps2epsi
+-rwxr-xr-x    1 root    root              211 Jan  2  2001 /usr/bin/ps2pdf
+-rwxr-xr-x    1 root    root              173 Jan  2  2001 /usr/bin/ps2pdf12
+-rwxr-xr-x    1 root    root              173 Jan  2  2001 /usr/bin/ps2pdf13
+-rwxr-xr-x    1 root    root              871 Jan  2  2001 /usr/bin/ps2pdfwr
+-rwxr-xr-x    1 root    root              369 Jan  2  2001 /usr/bin/ps2ps
+-rwxr-xr-x    1 root    root             1125 Jan  2  2001 /usr/bin/pv.sh
+-rwxr-xr-x    1 root    root              914 Jan  2  2001 /usr/bin/sysvlp.sh
+-rwxr-xr-x    1 root    root             4083 Jan  2  2001 /usr/bin/unix-lpr.sh
+-rwxr-xr-x    1 root    root              103 Jan  2  2001 /usr/bin/wftopfa
+drwxrwxrwx    2 root    root                0 Jan  2  2001 /usr/doc/ghostscript-6.50
+-rw-r--r--    1 root    root             5828 Jan  2  2001 /usr/doc/ghostscript-6.50/Bug-form.htm
+-rw-r--r--    1 root    root             7058 Jan  2  2001 /usr/doc/ghostscript-6.50/Bug-info.htm
+-rw-r--r--    1 root    root            31110 Jan  2  2001 /usr/doc/ghostscript-6.50/C-style.htm
+-rw-r--r--    1 root    root             7238 Jan  2  2001 /usr/doc/ghostscript-6.50/Changes.htm
+-rw-r--r--    1 root    root            13580 Jan  2  2001 /usr/doc/ghostscript-6.50/Commprod.htm
+-rw-r--r--    1 root    root             2117 Jan  2  2001 /usr/doc/ghostscript-6.50/Copying.htm
+-rw-r--r--    1 root    root             9364 Jan  2  2001 /usr/doc/ghostscript-6.50/Current.htm
+-rw-r--r--    1 root    root            24984 Jan  2  2001 /usr/doc/ghostscript-6.50/DLL.htm
+-rw-r--r--    1 root    root           175337 Jan  2  2001 /usr/doc/ghostscript-6.50/Devices.htm
+-rw-r--r--    1 root    root           103148 Jan  2  2001 /usr/doc/ghostscript-6.50/Drivers.htm
+-rw-r--r--    1 root    root            45010 Jan  2  2001 /usr/doc/ghostscript-6.50/Fonts.htm
+-rw-r--r--    1 root    root             9945 Jan  2  2001 /usr/doc/ghostscript-6.50/Helpers.htm
+-rw-r--r--    1 root    root            14025 Jan  2  2001 /usr/doc/ghostscript-6.50/Hershey.htm
+-rw-r--r--    1 root    root            14948 Jan  2  2001 /usr/doc/ghostscript-6.50/History1.htm
+-rw-r--r--    1 root    root           208829 Jan  2  2001 /usr/doc/ghostscript-6.50/History2.htm
+-rw-r--r--    1 root    root           343309 Jan  2  2001 /usr/doc/ghostscript-6.50/History3.htm
+-rw-r--r--    1 root    root           159408 Jan  2  2001 /usr/doc/ghostscript-6.50/History4.htm
+-rw-r--r--    1 root    root           558464 Jan  2  2001 /usr/doc/ghostscript-6.50/History5.htm
+-rw-r--r--    1 root    root           278391 Jan  2  2001 /usr/doc/ghostscript-6.50/History6.htm
+-rw-r--r--    1 root    root            27476 Jan  2  2001 /usr/doc/ghostscript-6.50/Htmstyle.htm
+-rw-r--r--    1 root    root             2662 Jan  2  2001 /usr/doc/ghostscript-6.50/Humor.htm
+-rw-r--r--    1 root    root            20138 Jan  2  2001 /usr/doc/ghostscript-6.50/Install.htm
+-rw-r--r--    1 root    root            53218 Jan  2  2001 /usr/doc/ghostscript-6.50/Language.htm
+-rw-r--r--    1 root    root            19651 Jan  2  2001 /usr/doc/ghostscript-6.50/Lib.htm
+-rw-r--r--    1 root    root           104375 Jan  2  2001 /usr/doc/ghostscript-6.50/Make.htm
+-rw-r--r--    1 root    root            35558 Jan  2  2001 /usr/doc/ghostscript-6.50/New-user.htm
+-rw-r--r--    1 root    root             4027 Jan  2  2001 /usr/doc/ghostscript-6.50/News.htm
+-rw-r--r--    1 root    root            13312 Jan  2  2001 /usr/doc/ghostscript-6.50/PUBLIC
+-rw-r--r--    1 root    root            27505 Jan  2  2001 /usr/doc/ghostscript-6.50/Projects.htm
+-rw-r--r--    1 root    root             6155 Jan  2  2001 /usr/doc/ghostscript-6.50/Ps2epsi.htm
+-rw-r--r--    1 root    root            20324 Jan  2  2001 /usr/doc/ghostscript-6.50/Ps2pdf.htm
+-rw-r--r--    1 root    root            18165 Jan  2  2001 /usr/doc/ghostscript-6.50/Psfiles.htm
+-rw-r--r--    1 root    root            14317 Jan  2  2001 /usr/doc/ghostscript-6.50/Public.htm
+-rw-r--r--    1 root    root            14693 Jan  2  2001 /usr/doc/ghostscript-6.50/README
+-rw-r--r--    1 root    root            21926 Jan  2  2001 /usr/doc/ghostscript-6.50/Readme.htm
+-rw-r--r--    1 root    root            20008 Jan  2  2001 /usr/doc/ghostscript-6.50/Release.htm
+-rw-r--r--    1 root    root            13415 Jan  2  2001 /usr/doc/ghostscript-6.50/Source.htm
+-rw-r--r--    1 root    root             4766 Jan  2  2001 /usr/doc/ghostscript-6.50/Tester.htm
+-rw-r--r--    1 root    root            10292 Jan  2  2001 /usr/doc/ghostscript-6.50/Unix-lpr.htm
+-rw-r--r--    1 root    root           106134 Jan  2  2001 /usr/doc/ghostscript-6.50/Use.htm
+-rw-r--r--    1 root    root            10217 Jan  2  2001 /usr/doc/ghostscript-6.50/Xfonts.htm
+drwxrwxrwx    2 root    root                0 Jan  2  2001 /usr/share/ghostscript/6.50
+drwxrwxrwx    2 root    root                0 Jan  2  2001 /usr/share/ghostscript/6.50/examples
+-rw-r--r--    1 root    root             1455 Jan  2  2001 /usr/share/ghostscript/6.50/examples/alphabet.ps
+-rw-r--r--    1 root    root            58543 Jan  2  2001 /usr/share/ghostscript/6.50/examples/cheq.ps
+-rw-r--r--    1 root    root             2932 Jan  2  2001 /usr/share/ghostscript/6.50/examples/chess.ps
+-rw-r--r--    1 root    root             1879 Jan  2  2001 /usr/share/ghostscript/6.50/examples/colorcir.ps
+-rw-r--r--    1 root    root           137190 Jan  2  2001 /usr/share/ghostscript/6.50/examples/doretree.ps
+-rw-r--r--    1 root    root            10520 Jan  2  2001 /usr/share/ghostscript/6.50/examples/escher.ps
+-rw-r--r--    1 root    root            25499 Jan  2  2001 /usr/share/ghostscript/6.50/examples/golfer.ps
+-rw-r--r--    1 root    root             1529 Jan  2  2001 /usr/share/ghostscript/6.50/examples/grayalph.ps
+-rw-r--r--    1 root    root             3020 Jan  2  2001 /usr/share/ghostscript/6.50/examples/ridt91.eps
+-rw-r--r--    1 root    root             2071 Jan  2  2001 /usr/share/ghostscript/6.50/examples/snowflak.ps
+-rw-r--r--    1 root    root            78519 Jan  2  2001 /usr/share/ghostscript/6.50/examples/tiger.ps
+-rw-r--r--    1 root    root            13092 Jan  2  2001 /usr/share/ghostscript/6.50/examples/vasarely.ps
+-rw-r--r--    1 root    root             2616 Jan  2  2001 /usr/share/ghostscript/6.50/examples/waterfal.ps
+drwxrwxrwx    2 root    root                0 Jan  2  2001 /usr/share/ghostscript/6.50/lib
+-rw-r--r--    1 root    root               83 Jan  2  2001 /usr/share/ghostscript/6.50/lib/Fontmap
+-rw-r--r--    1 root    root            13707 Jan  2  2001 /usr/share/ghostscript/6.50/lib/Fontmap.GS
+-rw-r--r--    1 root    root             4272 Jan  2  2001 /usr/share/ghostscript/6.50/lib/acctest.ps
+-rw-r--r--    1 root    root            10028 Jan  2  2001 /usr/share/ghostscript/6.50/lib/addxchar.ps
+-rw-r--r--    1 root    root             2493 Jan  2  2001 /usr/share/ghostscript/6.50/lib/align.ps
+-rw-r--r--    1 root    root            23474 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bdftops.ps
+-rw-r--r--    1 root    root              639 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8.rpd
+-rw-r--r--    1 root    root             1528 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8gc12f.upp
+-rw-r--r--    1 root    root             1527 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8hg12f.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8oh06n.upp
+-rw-r--r--    1 root    root             1521 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8pa06n.upp
+-rw-r--r--    1 root    root             1538 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8pp12f.upp
+-rw-r--r--    1 root    root             1526 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bj8ts06n.upp
+-rw-r--r--    1 root    root             1523 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a0.upp
+-rw-r--r--    1 root    root             1512 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a1.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a2.upp
+-rw-r--r--    1 root    root             1518 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a3.upp
+-rw-r--r--    1 root    root             1526 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a4.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a5.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a6.upp
+-rw-r--r--    1 root    root             1516 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a7.upp
+-rw-r--r--    1 root    root             1522 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610a8.upp
+-rw-r--r--    1 root    root             1512 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b1.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b2.upp
+-rw-r--r--    1 root    root             1518 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b3.upp
+-rw-r--r--    1 root    root             1526 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b4.upp
+-rw-r--r--    1 root    root             1513 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b6.upp
+-rw-r--r--    1 root    root             1517 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b7.upp
+-rw-r--r--    1 root    root             1522 Jan  2  2001 /usr/share/ghostscript/6.50/lib/bjc610b8.upp
+-rw-r--r--    1 root    root             1901 Jan  2  2001 /usr/share/ghostscript/6.50/lib/caption.ps
+-rw-r--r--    1 root    root            11040 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cbjc600.ppd
+-rw-r--r--    1 root    root            11383 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cbjc800.ppd
+-rw-r--r--    1 root    root             1686 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cdj550.upp
+-rw-r--r--    1 root    root             1995 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cdj690.upp
+-rw-r--r--    1 root    root             2056 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cdj690ec.upp
+-rw-r--r--    1 root    root             4532 Jan  2  2001 /usr/share/ghostscript/6.50/lib/cid2code.ps
+-rw-r--r--    1 root    root              295 Jan  2  2001 /usr/share/ghostscript/6.50/lib/decrypt.ps
+-rw-r--r--    1 root    root             2804 Jan  2  2001 /usr/share/ghostscript/6.50/lib/dnj750c.upp
+-rw-r--r--    1 root    root             1971 Jan  2  2001 /usr/share/ghostscript/6.50/lib/dnj750m.upp
+-rw-r--r--    1 root    root             7186 Jan  2  2001 /usr/share/ghostscript/6.50/lib/docie.ps
+-rw-r--r--    1 root    root             8774 Jan  2  2001 /usr/share/ghostscript/6.50/lib/errpage.ps
+-rw-r--r--    1 root    root            19523 Jan  2  2001 /usr/share/ghostscript/6.50/lib/font2c.ps
+-rw-r--r--    1 root    root            17739 Jan  2  2001 /usr/share/ghostscript/6.50/lib/font2pcl.ps
+-rw-r--r--    1 root    root            28788 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_agl.ps
+-rw-r--r--    1 root    root            10797 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_btokn.ps
+-rw-r--r--    1 root    root             2310 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_ccfnt.ps
+-rw-r--r--    1 root    root             2544 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_ce_e.ps
+-rw-r--r--    1 root    root            21250 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_cff.ps
+-rw-r--r--    1 root    root            18264 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_cidcm.ps
+-rw-r--r--    1 root    root            11991 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_cidfn.ps
+-rw-r--r--    1 root    root            11551 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_cmap.ps
+-rw-r--r--    1 root    root             5024 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_cmdl.ps
+-rw-r--r--    1 root    root             5131 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_css_e.ps
+-rw-r--r--    1 root    root             2464 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dbt_e.ps
+-rw-r--r--    1 root    root             7760 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_diskf.ps
+-rw-r--r--    1 root    root             4552 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dpnxt.ps
+-rw-r--r--    1 root    root             7551 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dps.ps
+-rw-r--r--    1 root    root             4752 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dps1.ps
+-rw-r--r--    1 root    root             7277 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dps2.ps
+-rw-r--r--    1 root    root             3683 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_dscp.ps
+-rw-r--r--    1 root    root             2255 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_epsf.ps
+-rw-r--r--    1 root    root             3342 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_fform.ps
+-rw-r--r--    1 root    root            32752 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_fonts.ps
+-rw-r--r--    1 root    root             3142 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_frsd.ps
+-rw-r--r--    1 root    root             2976 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_il1_e.ps
+-rw-r--r--    1 root    root             2957 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_il2_e.ps
+-rw-r--r--    1 root    root            54807 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_init.ps
+-rw-r--r--    1 root    root             4122 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_kanji.ps
+-rw-r--r--    1 root    root             3471 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_ksb_e.ps
+-rw-r--r--    1 root    root             1945 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_l.xbm
+-rw-r--r--    1 root    root             2751 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_l.xpm
+-rw-r--r--    1 root    root             5811 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_l2img.ps
+-rw-r--r--    1 root    root             1955 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_l_m.xbm
+-rw-r--r--    1 root    root            27853 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_lev2.ps
+-rw-r--r--    1 root    root             3066 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_lgo_e.ps
+-rw-r--r--    1 root    root             2092 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_lgx_e.ps
+-rw-r--r--    1 root    root            13827 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_ll3.ps
+-rw-r--r--    1 root    root              945 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_m.xbm
+-rw-r--r--    1 root    root             1437 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_m.xpm
+-rw-r--r--    1 root    root              955 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_m_m.xbm
+-rw-r--r--    1 root    root             4173 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_mex_e.ps
+-rw-r--r--    1 root    root             2369 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_mgl_e.ps
+-rw-r--r--    1 root    root             2715 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_mro_e.ps
+-rw-r--r--    1 root    root             1885 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_pdf_e.ps
+-rw-r--r--    1 root    root            13990 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_pdfwr.ps
+-rw-r--r--    1 root    root             4522 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_pfile.ps
+-rw-r--r--    1 root    root             1042 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_rdlin.ps
+-rw-r--r--    1 root    root            28966 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_res.ps
+-rw-r--r--    1 root    root              594 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_s.xbm
+-rw-r--r--    1 root    root              957 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_s.xpm
+-rw-r--r--    1 root    root              604 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_s_m.xbm
+-rw-r--r--    1 root    root            24442 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_setpd.ps
+-rw-r--r--    1 root    root            13005 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_statd.ps
+-rw-r--r--    1 root    root             3419 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_std_e.ps
+-rw-r--r--    1 root    root             3278 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_sym_e.ps
+-rw-r--r--    1 root    root              345 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_t.xbm
+-rw-r--r--    1 root    root              605 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_t.xpm
+-rw-r--r--    1 root    root              355 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_t_m.xbm
+-rw-r--r--    1 root    root             3212 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_trap.ps
+-rw-r--r--    1 root    root            27362 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_ttf.ps
+-rw-r--r--    1 root    root             4357 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_typ32.ps
+-rw-r--r--    1 root    root             1809 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_typ42.ps
+-rw-r--r--    1 root    root             6683 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_type1.ps
+-rw-r--r--    1 root    root             1863 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_wan_e.ps
+-rw-r--r--    1 root    root             2710 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_wl1_e.ps
+-rw-r--r--    1 root    root             2708 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_wl2_e.ps
+-rw-r--r--    1 root    root             2726 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gs_wl5_e.ps
+-rw-r--r--    1 root    root            19761 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gslp.ps
+-rw-r--r--    1 root    root             2831 Jan  2  2001 /usr/share/ghostscript/6.50/lib/gsnup.ps
+-rw-r--r--    1 root    root           227914 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ht_ccsto.ps
+-rw-r--r--    1 root    root            72652 Jan  2  2001 /usr/share/ghostscript/6.50/lib/image-qa.ps
+-rw-r--r--    1 root    root             5717 Jan  2  2001 /usr/share/ghostscript/6.50/lib/impath.ps
+-rw-r--r--    1 root    root             1110 Jan  2  2001 /usr/share/ghostscript/6.50/lib/jispaper.ps
+-rw-r--r--    1 root    root             1455 Jan  2  2001 /usr/share/ghostscript/6.50/lib/landscap.ps
+-rw-r--r--    1 root    root               59 Jan  2  2001 /usr/share/ghostscript/6.50/lib/level1.ps
+-rw-r--r--    1 root    root             4048 Jan  2  2001 /usr/share/ghostscript/6.50/lib/lines.ps
+-rw-r--r--    1 root    root             3653 Jan  2  2001 /usr/share/ghostscript/6.50/lib/markhint.ps
+-rw-r--r--    1 root    root             2070 Jan  2  2001 /usr/share/ghostscript/6.50/lib/markpath.ps
+-rw-r--r--    1 root    root             1041 Jan  2  2001 /usr/share/ghostscript/6.50/lib/necp2x.upp
+-rw-r--r--    1 root    root             1065 Jan  2  2001 /usr/share/ghostscript/6.50/lib/necp2x6.upp
+-rw-r--r--    1 root    root            10537 Jan  2  2001 /usr/share/ghostscript/6.50/lib/packfile.ps
+-rw-r--r--    1 root    root             3764 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pcharstr.ps
+-rw-r--r--    1 root    root             5150 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf2dsc.ps
+-rw-r--r--    1 root    root            20030 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_base.ps
+-rw-r--r--    1 root    root            32955 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_draw.ps
+-rw-r--r--    1 root    root            24913 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_font.ps
+-rw-r--r--    1 root    root            21589 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_main.ps
+-rw-r--r--    1 root    root            15736 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_ops.ps
+-rw-r--r--    1 root    root             2328 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdf_sec.ps
+-rw-r--r--    1 root    root            30130 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdfopt.ps
+-rw-r--r--    1 root    root             7372 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pdfwrite.ps
+-rw-r--r--    1 root    root            14428 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pf2afm.ps
+-rw-r--r--    1 root    root             1321 Jan  2  2001 /usr/share/ghostscript/6.50/lib/pfbtopfa.ps
+-rw-r--r--    1 root    root             2154 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ppath.ps
+-rw-r--r--    1 root    root             6376 Jan  2  2001 /usr/share/ghostscript/6.50/lib/prfont.ps
+-rw-r--r--    1 root    root             3187 Jan  2  2001 /usr/share/ghostscript/6.50/lib/printafm.ps
+-rw-r--r--    1 root    root            22679 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ps2ai.ps
+-rw-r--r--    1 root    root            44317 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ps2ascii.ps
+-rw-r--r--    1 root    root             8668 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ps2epsi.ps
+-rw-r--r--    1 root    root                5 Jan  2  2001 /usr/share/ghostscript/6.50/lib/quit.ps
+-rw-r--r--    1 root    root              211 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras1.upp
+-rw-r--r--    1 root    root              215 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras24.upp
+-rw-r--r--    1 root    root              210 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras3.upp
+-rw-r--r--    1 root    root              192 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras32.upp
+-rw-r--r--    1 root    root              216 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras4.upp
+-rw-r--r--    1 root    root              205 Jan  2  2001 /usr/share/ghostscript/6.50/lib/ras8m.upp
+-rw-r--r--    1 root    root            11753 Jan  2  2001 /usr/share/ghostscript/6.50/lib/rollconv.ps
+-rw-r--r--    1 root    root             3112 Jan  2  2001 /usr/share/ghostscript/6.50/lib/showchar.ps
+-rw-r--r--    1 root    root                9 Jan  2  2001 /usr/share/ghostscript/6.50/lib/showpage.ps
+-rw-r--r--    1 root    root             2185 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640ih.upp
+-rw-r--r--    1 root    root             1412 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640ihg.upp
+-rw-r--r--    1 root    root             1818 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640p.upp
+-rw-r--r--    1 root    root             1045 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640pg.upp
+-rw-r--r--    1 root    root             1782 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640pl.upp
+-rw-r--r--    1 root    root             1009 Jan  2  2001 /usr/share/ghostscript/6.50/lib/st640plg.upp
+-rw-r--r--    1 root    root             1827 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc.upp
+-rw-r--r--    1 root    root             2058 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc1520h.upp
+-rw-r--r--    1 root    root             1808 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc2.upp
+-rw-r--r--    1 root    root             1752 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc200_h.upp
+-rw-r--r--    1 root    root             1783 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc2_h.upp
+-rw-r--r--    1 root    root             2176 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc2s_h.upp
+-rw-r--r--    1 root    root             1807 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc500p.upp
+-rw-r--r--    1 root    root             1807 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc500ph.upp
+-rw-r--r--    1 root    root             2185 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc600ih.upp
+-rw-r--r--    1 root    root             1055 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc600p.upp
+-rw-r--r--    1 root    root             1019 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc600pl.upp
+-rw-r--r--    1 root    root              999 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc640p.upp
+-rw-r--r--    1 root    root             2062 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc800ih.upp
+-rw-r--r--    1 root    root             1019 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc800p.upp
+-rw-r--r--    1 root    root             1001 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc800pl.upp
+-rw-r--r--    1 root    root             1817 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc_h.upp
+-rw-r--r--    1 root    root              638 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stc_l.upp
+-rw-r--r--    1 root    root              577 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stcany.upp
+-rw-r--r--    1 root    root              585 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stcany_h.upp
+-rw-r--r--    1 root    root            25913 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stcinfo.ps
+-rw-r--r--    1 root    root             5401 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stcolor.ps
+-rw-r--r--    1 root    root             2823 Jan  2  2001 /usr/share/ghostscript/6.50/lib/stocht.ps
+-rw-r--r--    1 root    root             1707 Jan  2  2001 /usr/share/ghostscript/6.50/lib/traceimg.ps
+-rw-r--r--    1 root    root             2914 Jan  2  2001 /usr/share/ghostscript/6.50/lib/traceop.ps
+-rw-r--r--    1 root    root             2716 Jan  2  2001 /usr/share/ghostscript/6.50/lib/type1enc.ps
+-rw-r--r--    1 root    root             7756 Jan  2  2001 /usr/share/ghostscript/6.50/lib/type1ops.ps
+-rw-r--r--    1 root    root             6316 Jan  2  2001 /usr/share/ghostscript/6.50/lib/uninfo.ps
+-rw-r--r--    1 root    root             2084 Jan  2  2001 /usr/share/ghostscript/6.50/lib/unprot.ps
+-rw-r--r--    1 root    root             2292 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewcmyk.ps
+-rw-r--r--    1 root    root             4745 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewgif.ps
+-rw-r--r--    1 root    root             4230 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewjpeg.ps
+-rw-r--r--    1 root    root             3958 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewmiff.ps
+-rw-r--r--    1 root    root             5486 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewpbm.ps
+-rw-r--r--    1 root    root             4523 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewpcx.ps
+-rw-r--r--    1 root    root             1462 Jan  2  2001 /usr/share/ghostscript/6.50/lib/viewps2a.ps
+-rw-r--r--    1 root    root             9101 Jan  2  2001 /usr/share/ghostscript/6.50/lib/wftopfa.ps
+-rw-r--r--    1 root    root             3923 Jan  2  2001 /usr/share/ghostscript/6.50/lib/winmaps.ps
+-rw-r--r--    1 root    root            18255 Jan  2  2001 /usr/share/ghostscript/6.50/lib/wrfont.ps
+-rw-r--r--    1 root    root             2643 Jan  2  2001 /usr/share/ghostscript/6.50/lib/zeroline.ps
+-rw-r--r--    1 root    root              541 Jan  2  2001 /usr/share/man/man1/dvipdf.1.gz
+-rw-r--r--    1 root    root              563 Jan  2  2001 /usr/share/man/man1/eps2eps.1.gz
+-rw-r--r--    1 root    root              517 Jan  2  2001 /usr/share/man/man1/font2c.1.gz
+?rwxrwxrwx    1 root    root                7 Jan  2  2001 /usr/share/man/man1/ghostscript.1.gz
+-rw-r--r--    1 root    root             5799 Jan  2  2001 /usr/share/man/man1/gs.1.gz
+-rw-r--r--    1 root    root             1418 Jan  2  2001 /usr/share/man/man1/gsbj.1.gz
+-rwxrwxrwx    1 root    root             1418 Jan  2  2001 /usr/share/man/man1/gsdj.1.gz
+-rwxrwxrwx    1 root    root             1418 Jan  2  2001 /usr/share/man/man1/gsdj500.1.gz
+-rwxrwxrwx    1 root    root             1418 Jan  2  2001 /usr/share/man/man1/gslj.1.gz
+-rwxrwxrwx    1 root    root             1418 Jan  2  2001 /usr/share/man/man1/gslp.1.gz
+-rw-r--r--    1 root    root              475 Jan  2  2001 /usr/share/man/man1/gsnd.1.gz
+-rw-r--r--    1 root    root              833 Jan  2  2001 /usr/share/man/man1/pdf2dsc.1.gz
+-rw-r--r--    1 root    root              554 Jan  2  2001 /usr/share/man/man1/pdf2ps.1.gz
+-rw-r--r--    1 root    root              730 Jan  2  2001 /usr/share/man/man1/pdfopt.1.gz
+-rw-r--r--    1 root    root              510 Jan  2  2001 /usr/share/man/man1/pf2afm.1.gz
+-rw-r--r--    1 root    root              438 Jan  2  2001 /usr/share/man/man1/pfbtopfa.1.gz
+-rw-r--r--    1 root    root              442 Jan  2  2001 /usr/share/man/man1/printafm.1.gz
+-rw-r--r--    1 root    root              803 Jan  2  2001 /usr/share/man/man1/ps2ascii.1.gz
+-rw-r--r--    1 root    root             1358 Jan  2  2001 /usr/share/man/man1/ps2epsi.1.gz
+-rw-r--r--    1 root    root              843 Jan  2  2001 /usr/share/man/man1/ps2pdf.1.gz
+?rwxrwxrwx    1 root    root               11 Jan  2  2001 /usr/share/man/man1/ps2pdf12.1.gz
+?rwxrwxrwx    1 root    root               11 Jan  2  2001 /usr/share/man/man1/ps2pdf13.1.gz
+-rw-r--r--    1 root    root              552 Jan  2  2001 /usr/share/man/man1/ps2pdfwr.1.gz
+-rw-r--r--    1 root    root              562 Jan  2  2001 /usr/share/man/man1/ps2ps.1.gz
+-rw-r--r--    1 root    root              433 Jan  2  2001 /usr/share/man/man1/wftopfa.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ghostscript-68000-6.50-2.m68kmint.rpm">Download</A></H2> (2,589,376 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

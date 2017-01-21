@@ -1,0 +1,123 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - pilot-link-devel, version 0.9.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>pilot-link-devel</H2>
+
+<UL> 
+<LI>Summary: PalmPilot development header files<BR>
+
+<LI>Version: 0.9.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/C">Development/C</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 435,979 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>pilot-link-devel = 0.9.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>pilot-link  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Jun 21 21:17:03 2000 UTC<BR>
+<LI>Upload date: Wed Jun 21 21:19:02 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/pilot-link-0.9.3-1.src.rpm">pilot-link-0.9.3-1.src.rpm</A>  (425,894 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Jun 21 09:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+This package contains the development headers that are used to build<BR>the pilot-link package.  It also includes the static libraries<BR>necessary to build static pilot apps.<BR><P><BR>If you want to develop PalmPilot synchronizing applications, you'll<BR>need to install pilot-link-devel.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             1413 Jun 21  2000 /usr/include/pi-address.h
+-rw-r--r--    1 root    root             2031 Jun 21  2000 /usr/include/pi-address.hxx
+-rw-r--r--    1 root    root              970 Jun 21  2000 /usr/include/pi-appinfo.h
+-rw-r--r--    1 root    root             2507 Jun 21  2000 /usr/include/pi-appinfo.hxx
+-rw-r--r--    1 root    root              266 Jun 21  2000 /usr/include/pi-args.h
+-rw-r--r--    1 root    root              692 Jun 21  2000 /usr/include/pi-cmp.h
+-rw-r--r--    1 root    root                0 Jun 21  2000 /usr/include/pi-config-win32.h
+-rw-r--r--    1 root    root             5667 Jun 21  2000 /usr/include/pi-config.h
+-rw-r--r--    1 root    root             2885 Jun 21  2000 /usr/include/pi-datebook.h
+-rw-r--r--    1 root    root             4197 Jun 21  2000 /usr/include/pi-datebook.hxx
+-rw-r--r--    1 root    root            11675 Jun 21  2000 /usr/include/pi-dlp.h
+-rw-r--r--    1 root    root            10155 Jun 21  2000 /usr/include/pi-dlp.hxx
+-rw-r--r--    1 root    root             2254 Jun 21  2000 /usr/include/pi-expense.h
+-rw-r--r--    1 root    root             2244 Jun 21  2000 /usr/include/pi-file.h
+-rw-r--r--    1 root    root              882 Jun 21  2000 /usr/include/pi-hinote.h
+-rw-r--r--    1 root    root              972 Jun 21  2000 /usr/include/pi-iambicExpense.h
+-rw-r--r--    1 root    root             2647 Jun 21  2000 /usr/include/pi-iambicExpense.hxx
+-rw-r--r--    1 root    root              335 Jun 21  2000 /usr/include/pi-inet.h
+-rw-r--r--    1 root    root              459 Jun 21  2000 /usr/include/pi-inetserial.h
+-rw-r--r--    1 root    root             8147 Jun 21  2000 /usr/include/pi-macros.h
+-rw-r--r--    1 root    root             2049 Jun 21  2000 /usr/include/pi-mail.h
+-rw-r--r--    1 root    root              833 Jun 21  2000 /usr/include/pi-memo.h
+-rw-r--r--    1 root    root             1322 Jun 21  2000 /usr/include/pi-memo.hxx
+-rw-r--r--    1 root    root             1823 Jun 21  2000 /usr/include/pi-money.h
+-rw-r--r--    1 root    root              723 Jun 21  2000 /usr/include/pi-padp.h
+-rw-r--r--    1 root    root              505 Jun 21  2000 /usr/include/pi-serial.h
+-rw-r--r--    1 root    root              737 Jun 21  2000 /usr/include/pi-slp.h
+-rw-r--r--    1 root    root              374 Jun 21  2000 /usr/include/pi-sockaddr-win32.h
+-rw-r--r--    1 root    root              449 Jun 21  2000 /usr/include/pi-sockaddr.h
+-rw-r--r--    1 root    root             2169 Jun 21  2000 /usr/include/pi-socket.h
+-rw-r--r--    1 root    root             4454 Jun 21  2000 /usr/include/pi-source.h
+-rw-r--r--    1 root    root             2761 Jun 21  2000 /usr/include/pi-sync.h
+-rw-r--r--    1 root    root             3566 Jun 21  2000 /usr/include/pi-syspkt.h
+-rw-r--r--    1 root    root              849 Jun 21  2000 /usr/include/pi-todo.h
+-rw-r--r--    1 root    root             1926 Jun 21  2000 /usr/include/pi-todo.hxx
+-rw-r--r--    1 root    root              307 Jun 21  2000 /usr/include/pi-version.h
+-rw-r--r--    1 root    root           267778 Jun 21  2000 /usr/lib/libpicc.a
+-rw-r--r--    1 root    root            82956 Jun 21  2000 /usr/lib/libpisock.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/pilot-link-devel-0.9.3-1.m68kmint.rpm">Download</A></H2> (149,875 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

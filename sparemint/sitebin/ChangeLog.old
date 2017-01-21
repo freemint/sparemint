@@ -1,0 +1,112 @@
+2000-04-15  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Changed names and sizes for "New this ..." images.
+
+	* buildsite.pl:
+	Escape some html entities in package description (reported by
+	Thomas Binder <gryf@hrz.pub.tu-darmstadt.de>).
+	Output file list.
+
+1999-09-22  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl:
+	Fixed wrong HREF in group list (thanks to Frank Naumann for finding
+	the bug).
+
+1999-09-08  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: BUGFIX: Permissions in SRPMS/ now get changed to 0444.
+
+1999-09-08  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: BUGFIX: Permissions in SRPMS/ now get changed to 0444.
+
+1999-09-05  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Added missing tag for unsigned list in todo list.
+
+1999-09-05  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Added missing tag for unsigned list in todo list.
+
+1999-09-04  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl:
+	HTML files and symbolic links in NEW-THIS-WEEK and NEW-THIS-MONTH only
+	get rebuilt when necessary.
+	Added cascading style sheet.
+	Removed status and new maintainer line from html files.
+	Only display package URL if available.
+	Put list of assigned packages into TODO list.
+	Added maintainer e-mail address in TODO list.
+
+1999-09-04  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl:
+	HTML files and symbolic links in NEW-THIS-WEEK and NEW-THIS-MONTH only
+	get rebuilt when necessary.
+	Added cascading style sheet.
+	Removed status and new maintainer line from html files.
+	Only display package URL if available.
+	Put list of assigned packages into TODO list.
+	Added maintainer e-mail address in TODO list.
+
+1999-08-29  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Fixed messed up group list.
+	Put the "Group: " back in front of group link in html description
+	files.
+	Added link to buildsite page.
+
+1999-08-28  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Don't write a html anchor if packager has no URL.
+	Make group description a link to package list sorted by group.
+	Sort package alpanumerically (case-insensitive) within groups.
+	New description fields os, url, status, new maintainer.
+
+1999-08-22  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Fixed "ALT=" texts for some icons.
+
+	* buildsite.pl: Bugfix: Made link in groups file relative.
+
+1999-08-19  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Fixed broken links (and made absolute links relative).
+	Chmod all uploaded files to 0444.
+	Moved all generated files into "html".
+
+1999-08-19  root  <root@zowee.localnet>
+
+	* buildsite.pl: Changed names of graphics.
+
+1999-08-18  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Put package descriptions into html/packages.
+	Construct html filenames without version information.
+	A lot of bugfixes.
+
+1999-08-14  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Added Sparemint logo to package descriptions.
+
+1999-08-13  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl:
+	Calculate number of orphaned and waiting packages correctly
+	and display a descriptive text if it is zero.
+	Don't show total sizes in package list sorted by group (spurious bug).
+	Don't print a semi-colon after new maintainer.
+
+1999-08-11  Guido Flohr <gufl0000@stud.uni-sb.de>  <guido@zowee.localnet>
+
+	* buildsite.pl: Various improvements and changes.
+
+	* buildsite.pl: Removed filter.
+
+	* buildsite.pl: New file.
+
+
+
+	

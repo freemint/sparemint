@@ -1,0 +1,815 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - db3, version 3.1.17, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>db3</H2>
+
+<UL> 
+<LI>Summary: Development libraries/header files for the Berkeley DB library.<BR>
+<LI>URL: <A HREF="http://www.sleepycat.com">http://www.sleepycat.com</A><BR>
+<LI>Version: 3.1.17<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 4,571,075 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>db3 = 3.1.17-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>mintdb  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Dec 13 20:31:48 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/db3-3.1.17-1.src.rpm">db3-3.1.17-1.src.rpm</A>  (1,956,570 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Dec 13 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+The Berkeley Database (Berkeley DB) is a programmatic toolkit that provides<BR>embedded database support for both traditional and client/server applications.<BR>Berkeley DB includes B+tree, Extended Linear Hashing, Fixed and Variable-length<BR>record access methods, transactions, locking, logging, shared memory caching<BR>and database recovery. DB supports C, C++, Java and Perl APIs.<BR><P><BR>This package contains the header files, libraries, and documentation for<BR>building programs which use Berkeley DB.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 13  2000 /usr/doc/db3-3.1.17
+-r--r--r--    1 root    root             5808 Feb 13  2000 /usr/doc/db3-3.1.17/LICENSE
+-r--r--r--    1 root    root              239 Jul 31  2000 /usr/doc/db3-3.1.17/README
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/api_c
+-r--r--r--    1 root    root            16626 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/c_index.html
+-r--r--r--    1 root    root            54661 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/c_pindex.html
+-r--r--r--    1 root    root             6537 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_close.html
+-r--r--r--    1 root    root             5300 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_create.html
+-r--r--r--    1 root    root             5437 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_cursor.html
+-r--r--r--    1 root    root             5068 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_del.html
+-r--r--r--    1 root    root             4507 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_err.html
+-r--r--r--    1 root    root             4666 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_fd.html
+-r--r--r--    1 root    root             7682 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_get.html
+-r--r--r--    1 root    root             3906 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_get_byteswapped.html
+-r--r--r--    1 root    root             3863 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_get_type.html
+-r--r--r--    1 root    root             8380 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_join.html
+-r--r--r--    1 root    root             5434 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_key_range.html
+-r--r--r--    1 root    root             1536 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_lsn.html
+-r--r--r--    1 root    root            10292 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_open.html
+-r--r--r--    1 root    root             7089 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_put.html
+-r--r--r--    1 root    root             5590 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_remove.html
+-r--r--r--    1 root    root             5622 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_rename.html
+-r--r--r--    1 root    root             5340 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_bt_compare.html
+-r--r--r--    1 root    root             4479 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_bt_minkey.html
+-r--r--r--    1 root    root             5374 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_bt_prefix.html
+-r--r--r--    1 root    root             5469 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_cachesize.html
+-r--r--r--    1 root    root             5140 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_dup_compare.html
+-r--r--r--    1 root    root             3855 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_errcall.html
+-r--r--r--    1 root    root             3610 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_errfile.html
+-r--r--r--    1 root    root             2839 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_errpfx.html
+-r--r--r--    1 root    root             3093 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_feedback.html
+-r--r--r--    1 root    root            10157 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_flags.html
+-r--r--r--    1 root    root             4579 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_h_ffactor.html
+-r--r--r--    1 root    root             4779 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_h_hash.html
+-r--r--r--    1 root    root             4202 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_h_nelem.html
+-r--r--r--    1 root    root             4622 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_lorder.html
+-r--r--r--    1 root    root             5084 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_malloc.html
+-r--r--r--    1 root    root             4407 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_pagesize.html
+-r--r--r--    1 root    root             3446 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_paniccall.html
+-r--r--r--    1 root    root             4374 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_re_delim.html
+-r--r--r--    1 root    root             4556 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_re_len.html
+-r--r--r--    1 root    root             4187 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_re_pad.html
+-r--r--r--    1 root    root             7443 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_re_source.html
+-r--r--r--    1 root    root             5114 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_set_realloc.html
+-r--r--r--    1 root    root            11235 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_stat.html
+-r--r--r--    1 root    root             5137 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_sync.html
+-r--r--r--    1 root    root             7268 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_upgrade.html
+-r--r--r--    1 root    root             8300 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/db_verify.html
+-r--r--r--    1 root    root             2956 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_close.html
+-r--r--r--    1 root    root             2655 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_count.html
+-r--r--r--    1 root    root             3206 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_del.html
+-r--r--r--    1 root    root             3684 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_dup.html
+-r--r--r--    1 root    root            10442 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_get.html
+-r--r--r--    1 root    root             8881 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbc_put.html
+-r--r--r--    1 root    root             9233 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbm.html
+-r--r--r--    1 root    root            10263 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/dbt.html
+-r--r--r--    1 root    root             4474 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_close.html
+-r--r--r--    1 root    root             3332 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_create.html
+-r--r--r--    1 root    root            13184 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_open.html
+-r--r--r--    1 root    root             7401 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_remove.html
+-r--r--r--    1 root    root             4366 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_cachesize.html
+-r--r--r--    1 root    root             3737 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_data_dir.html
+-r--r--r--    1 root    root             3640 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_errcall.html
+-r--r--r--    1 root    root             3393 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_errfile.html
+-r--r--r--    1 root    root             2628 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_errpfx.html
+-r--r--r--    1 root    root             3103 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_feedback.html
+-r--r--r--    1 root    root             3121 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lg_bsize.html
+-r--r--r--    1 root    root             3390 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lg_dir.html
+-r--r--r--    1 root    root             3112 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lg_max.html
+-r--r--r--    1 root    root             2940 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lk_conflicts.html
+-r--r--r--    1 root    root             3381 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lk_detect.html
+-r--r--r--    1 root    root             2895 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_lk_max.html
+-r--r--r--    1 root    root             3428 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_mp_mmapsize.html
+-r--r--r--    1 root    root             3066 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_mutexlocks.html
+-r--r--r--    1 root    root             3099 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_pageyield.html
+-r--r--r--    1 root    root             3222 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_paniccall.html
+-r--r--r--    1 root    root             2938 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_panicstate.html
+-r--r--r--    1 root    root             3309 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_rec_init.html
+-r--r--r--    1 root    root             3788 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_region_init.html
+-r--r--r--    1 root    root             3616 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_server.html
+-r--r--r--    1 root    root             4365 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_shm_key.html
+-r--r--r--    1 root    root             3277 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_tas_spins.html
+-r--r--r--    1 root    root             4128 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_tmp_dir.html
+-r--r--r--    1 root    root             3200 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_tx_max.html
+-r--r--r--    1 root    root             4018 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_tx_recover.html
+-r--r--r--    1 root    root             2637 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_tx_timestamp.html
+-r--r--r--    1 root    root             3653 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_set_verbose.html
+-r--r--r--    1 root    root             2606 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_strerror.html
+-r--r--r--    1 root    root             2495 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/env_version.html
+-r--r--r--    1 root    root             4670 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/hsearch.html
+-r--r--r--    1 root    root             3498 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_detect.html
+-r--r--r--    1 root    root             3893 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_get.html
+-r--r--r--    1 root    root             2369 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_id.html
+-r--r--r--    1 root    root             2466 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_put.html
+-r--r--r--    1 root    root             4152 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_stat.html
+-r--r--r--    1 root    root             6169 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/lock_vec.html
+-r--r--r--    1 root    root             5313 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_archive.html
+-r--r--r--    1 root    root             2064 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_compare.html
+-r--r--r--    1 root    root             3279 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_file.html
+-r--r--r--    1 root    root             2712 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_flush.html
+-r--r--r--    1 root    root             6690 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_get.html
+-r--r--r--    1 root    root             4130 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_put.html
+-r--r--r--    1 root    root             2996 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_register.html
+-r--r--r--    1 root    root             4641 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_stat.html
+-r--r--r--    1 root    root             2676 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/log_unregister.html
+-r--r--r--    1 root    root             2764 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fclose.html
+-r--r--r--    1 root    root             4606 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fget.html
+-r--r--r--    1 root    root             9191 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fopen.html
+-r--r--r--    1 root    root             3761 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fput.html
+-r--r--r--    1 root    root             3477 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fset.html
+-r--r--r--    1 root    root             2843 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_fsync.html
+-r--r--r--    1 root    root             5000 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_register.html
+-r--r--r--    1 root    root             6506 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_stat.html
+-r--r--r--    1 root    root             4214 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_sync.html
+-r--r--r--    1 root    root             3043 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/memp_trickle.html
+-r--r--r--    1 root    root            18463 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/pindex.src
+-r--r--r--    1 root    root             3270 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_close.html
+-r--r--r--    1 root    root             4006 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_dirfree.html
+-r--r--r--    1 root    root             4062 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_dirlist.html
+-r--r--r--    1 root    root             3904 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_exists.html
+-r--r--r--    1 root    root             3272 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_free.html
+-r--r--r--    1 root    root             3270 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_fsync.html
+-r--r--r--    1 root    root             4323 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_ioinfo.html
+-r--r--r--    1 root    root             3295 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_malloc.html
+-r--r--r--    1 root    root             4539 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_map.html
+-r--r--r--    1 root    root             3291 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_open.html
+-r--r--r--    1 root    root             3290 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_read.html
+-r--r--r--    1 root    root             3316 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_realloc.html
+-r--r--r--    1 root    root             3278 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_rename.html
+-r--r--r--    1 root    root             4184 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_seek.html
+-r--r--r--    1 root    root             3925 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_sleep.html
+-r--r--r--    1 root    root             3290 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_unlink.html
+-r--r--r--    1 root    root             3858 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_unmap.html
+-r--r--r--    1 root    root             3314 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_write.html
+-r--r--r--    1 root    root             4403 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/set_func_yield.html
+-r--r--r--    1 root    root             3083 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_abort.html
+-r--r--r--    1 root    root             4929 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_begin.html
+-r--r--r--    1 root    root             3806 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_checkpoint.html
+-r--r--r--    1 root    root             4443 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_commit.html
+-r--r--r--    1 root    root             2122 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_id.html
+-r--r--r--    1 root    root             2874 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_prepare.html
+-r--r--r--    1 root    root             5038 Jul 31  2000 /usr/doc/db3-3.1.17/api_c/txn_stat.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx
+-r--r--r--    1 root    root            16524 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/cxx_index.html
+-r--r--r--    1 root    root            53464 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/cxx_pindex.html
+-r--r--r--    1 root    root             5395 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_class.html
+-r--r--r--    1 root    root             6785 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_close.html
+-r--r--r--    1 root    root             5620 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_cursor.html
+-r--r--r--    1 root    root             5245 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_del.html
+-r--r--r--    1 root    root             4633 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_err.html
+-r--r--r--    1 root    root             4821 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_fd.html
+-r--r--r--    1 root    root             7867 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_get.html
+-r--r--r--    1 root    root             3878 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_get_byteswapped.html
+-r--r--r--    1 root    root             3834 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_get_type.html
+-r--r--r--    1 root    root             8531 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_join.html
+-r--r--r--    1 root    root             5614 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_key_range.html
+-r--r--r--    1 root    root            10536 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_open.html
+-r--r--r--    1 root    root             7261 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_put.html
+-r--r--r--    1 root    root             5796 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_remove.html
+-r--r--r--    1 root    root             5829 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_rename.html
+-r--r--r--    1 root    root             5452 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_bt_compare.html
+-r--r--r--    1 root    root             4514 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_bt_minkey.html
+-r--r--r--    1 root    root             5475 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_bt_prefix.html
+-r--r--r--    1 root    root             5501 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_cachesize.html
+-r--r--r--    1 root    root             5256 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_dup_compare.html
+-r--r--r--    1 root    root             4143 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_errcall.html
+-r--r--r--    1 root    root             4124 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_errfile.html
+-r--r--r--    1 root    root             2941 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_errpfx.html
+-r--r--r--    1 root    root             3164 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_feedback.html
+-r--r--r--    1 root    root            10165 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_flags.html
+-r--r--r--    1 root    root             4614 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_h_ffactor.html
+-r--r--r--    1 root    root             4870 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_h_hash.html
+-r--r--r--    1 root    root             4237 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_h_nelem.html
+-r--r--r--    1 root    root             4658 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_lorder.html
+-r--r--r--    1 root    root             5329 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_malloc.html
+-r--r--r--    1 root    root             4443 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_pagesize.html
+-r--r--r--    1 root    root             3757 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_paniccall.html
+-r--r--r--    1 root    root             4409 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_re_delim.html
+-r--r--r--    1 root    root             4590 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_re_len.html
+-r--r--r--    1 root    root             4222 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_re_pad.html
+-r--r--r--    1 root    root             7507 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_re_source.html
+-r--r--r--    1 root    root             5354 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_set_realloc.html
+-r--r--r--    1 root    root            11523 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_stat.html
+-r--r--r--    1 root    root             5292 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_sync.html
+-r--r--r--    1 root    root             7122 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_upgrade.html
+-r--r--r--    1 root    root             8160 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/db_verify.html
+-r--r--r--    1 root    root             1994 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_class.html
+-r--r--r--    1 root    root             3098 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_close.html
+-r--r--r--    1 root    root             2847 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_count.html
+-r--r--r--    1 root    root             3394 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_del.html
+-r--r--r--    1 root    root             3889 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_dup.html
+-r--r--r--    1 root    root            10585 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_get.html
+-r--r--r--    1 root    root             8968 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbc_put.html
+-r--r--r--    1 root    root             3342 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbenv_class.html
+-r--r--r--    1 root    root            12200 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/dbt_class.html
+-r--r--r--    1 root    root             4765 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_close.html
+-r--r--r--    1 root    root            13498 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_open.html
+-r--r--r--    1 root    root             7669 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_remove.html
+-r--r--r--    1 root    root             4502 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_cachesize.html
+-r--r--r--    1 root    root             3876 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_data_dir.html
+-r--r--r--    1 root    root             3888 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_errcall.html
+-r--r--r--    1 root    root             3869 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_errfile.html
+-r--r--r--    1 root    root             3628 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_error_stream.html
+-r--r--r--    1 root    root             2692 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_errpfx.html
+-r--r--r--    1 root    root             3169 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_feedback.html
+-r--r--r--    1 root    root             3316 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lg_bsize.html
+-r--r--r--    1 root    root             3530 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lg_dir.html
+-r--r--r--    1 root    root             3311 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lg_max.html
+-r--r--r--    1 root    root             3155 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lk_conflicts.html
+-r--r--r--    1 root    root             3595 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lk_detect.html
+-r--r--r--    1 root    root             3108 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_lk_max.html
+-r--r--r--    1 root    root             3693 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_mp_mmapsize.html
+-r--r--r--    1 root    root             3248 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_mutexlocks.html
+-r--r--r--    1 root    root             3281 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_pageyield.html
+-r--r--r--    1 root    root             3462 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_paniccall.html
+-r--r--r--    1 root    root             3120 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_panicstate.html
+-r--r--r--    1 root    root             3437 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_rec_init.html
+-r--r--r--    1 root    root             3968 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_region_init.html
+-r--r--r--    1 root    root             3761 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_server.html
+-r--r--r--    1 root    root             4505 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_shm_key.html
+-r--r--r--    1 root    root             3457 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_tas_spins.html
+-r--r--r--    1 root    root             4272 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_tmp_dir.html
+-r--r--r--    1 root    root             3418 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_tx_max.html
+-r--r--r--    1 root    root             4160 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_tx_recover.html
+-r--r--r--    1 root    root             2852 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_tx_timestamp.html
+-r--r--r--    1 root    root             3790 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_set_verbose.html
+-r--r--r--    1 root    root             2726 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_strerror.html
+-r--r--r--    1 root    root             2615 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/env_version.html
+-r--r--r--    1 root    root             3084 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/except_class.html
+-r--r--r--    1 root    root             1704 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/get_errno.html
+-r--r--r--    1 root    root             2435 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_class.html
+-r--r--r--    1 root    root             3623 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_detect.html
+-r--r--r--    1 root    root             4379 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_get.html
+-r--r--r--    1 root    root             2786 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_id.html
+-r--r--r--    1 root    root             2875 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_put.html
+-r--r--r--    1 root    root             4631 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_stat.html
+-r--r--r--    1 root    root             6719 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lock_vec.html
+-r--r--r--    1 root    root             5532 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_archive.html
+-r--r--r--    1 root    root             2285 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_compare.html
+-r--r--r--    1 root    root             3856 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_file.html
+-r--r--r--    1 root    root             3175 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_flush.html
+-r--r--r--    1 root    root             7252 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_get.html
+-r--r--r--    1 root    root             4573 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_put.html
+-r--r--r--    1 root    root             3457 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_register.html
+-r--r--r--    1 root    root             5099 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_stat.html
+-r--r--r--    1 root    root             3109 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/log_unregister.html
+-r--r--r--    1 root    root             1474 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/lsn_class.html
+-r--r--r--    1 root    root             3345 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fclose.html
+-r--r--r--    1 root    root             5154 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fget.html
+-r--r--r--    1 root    root             9868 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fopen.html
+-r--r--r--    1 root    root             4268 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fput.html
+-r--r--r--    1 root    root             3975 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fset.html
+-r--r--r--    1 root    root             3374 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_fsync.html
+-r--r--r--    1 root    root             5612 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_register.html
+-r--r--r--    1 root    root             7074 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_stat.html
+-r--r--r--    1 root    root             4764 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_sync.html
+-r--r--r--    1 root    root             3545 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/memp_trickle.html
+-r--r--r--    1 root    root             3015 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/mempfile_class.html
+-r--r--r--    1 root    root            17652 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/pindex.src
+-r--r--r--    1 root    root             3496 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_abort.html
+-r--r--r--    1 root    root             5423 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_begin.html
+-r--r--r--    1 root    root             3939 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_checkpoint.html
+-r--r--r--    1 root    root             2859 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_class.html
+-r--r--r--    1 root    root             4861 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_commit.html
+-r--r--r--    1 root    root             2310 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_id.html
+-r--r--r--    1 root    root             3263 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_prepare.html
+-r--r--r--    1 root    root             5531 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/txn_stat.html
+-r--r--r--    1 root    root             1706 Jul 31  2000 /usr/doc/db3-3.1.17/api_cxx/what.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/api_java
+-r--r--r--    1 root    root             4263 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_class.html
+-r--r--r--    1 root    root             5991 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_close.html
+-r--r--r--    1 root    root             4787 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_cursor.html
+-r--r--r--    1 root    root             4577 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_del.html
+-r--r--r--    1 root    root             3582 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_fd.html
+-r--r--r--    1 root    root             7322 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_get.html
+-r--r--r--    1 root    root             3325 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_get_byteswapped.html
+-r--r--r--    1 root    root             3279 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_get_type.html
+-r--r--r--    1 root    root             7720 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_join.html
+-r--r--r--    1 root    root             4934 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_key_range.html
+-r--r--r--    1 root    root            10066 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_open.html
+-r--r--r--    1 root    root             6620 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_put.html
+-r--r--r--    1 root    root             5030 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_remove.html
+-r--r--r--    1 root    root             5057 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_rename.html
+-r--r--r--    1 root    root             3906 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_bt_minkey.html
+-r--r--r--    1 root    root             4887 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_cachesize.html
+-r--r--r--    1 root    root             3885 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_errcall.html
+-r--r--r--    1 root    root             2441 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_errpfx.html
+-r--r--r--    1 root    root             3115 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_feedback.html
+-r--r--r--    1 root    root             9345 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_flags.html
+-r--r--r--    1 root    root             4007 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_h_ffactor.html
+-r--r--r--    1 root    root             3630 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_h_nelem.html
+-r--r--r--    1 root    root             4057 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_lorder.html
+-r--r--r--    1 root    root             3837 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_pagesize.html
+-r--r--r--    1 root    root             3808 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_re_delim.html
+-r--r--r--    1 root    root             3983 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_re_len.html
+-r--r--r--    1 root    root             3621 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_re_pad.html
+-r--r--r--    1 root    root             6916 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_set_re_source.html
+-r--r--r--    1 root    root            10497 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_stat.html
+-r--r--r--    1 root    root             4556 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_sync.html
+-r--r--r--    1 root    root             6373 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_upgrade.html
+-r--r--r--    1 root    root             7465 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/db_verify.html
+-r--r--r--    1 root    root             2009 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_class.html
+-r--r--r--    1 root    root             2983 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_close.html
+-r--r--r--    1 root    root             2549 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_count.html
+-r--r--r--    1 root    root             3253 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_del.html
+-r--r--r--    1 root    root             3669 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_dup.html
+-r--r--r--    1 root    root            10579 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_get.html
+-r--r--r--    1 root    root             8932 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbc_put.html
+-r--r--r--    1 root    root             2705 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbenv_class.html
+-r--r--r--    1 root    root            12125 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/dbt_class.html
+-r--r--r--    1 root    root             2055 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/deadlock_class.html
+-r--r--r--    1 root    root             4249 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_close.html
+-r--r--r--    1 root    root            13589 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_open.html
+-r--r--r--    1 root    root             7327 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_remove.html
+-r--r--r--    1 root    root             4268 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_cachesize.html
+-r--r--r--    1 root    root             3651 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_data_dir.html
+-r--r--r--    1 root    root             3583 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_errcall.html
+-r--r--r--    1 root    root             3261 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_error_stream.html
+-r--r--r--    1 root    root             2183 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_errpfx.html
+-r--r--r--    1 root    root             3132 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_feedback.html
+-r--r--r--    1 root    root             3265 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lg_bsize.html
+-r--r--r--    1 root    root             3305 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lg_dir.html
+-r--r--r--    1 root    root             3261 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lg_max.html
+-r--r--r--    1 root    root             2957 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lk_conflicts.html
+-r--r--r--    1 root    root             3489 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lk_detect.html
+-r--r--r--    1 root    root             3002 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_lk_max.html
+-r--r--r--    1 root    root             3088 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_mp_mmapsize.html
+-r--r--r--    1 root    root             3027 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_mutexlocks.html
+-r--r--r--    1 root    root             3055 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_pageyield.html
+-r--r--r--    1 root    root             2898 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_panicstate.html
+-r--r--r--    1 root    root             3338 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_rec_init.html
+-r--r--r--    1 root    root             3742 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_region_init.html
+-r--r--r--    1 root    root             3543 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_server.html
+-r--r--r--    1 root    root             4285 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_shm_key.html
+-r--r--r--    1 root    root             3235 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_tas_spins.html
+-r--r--r--    1 root    root             4055 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_tmp_dir.html
+-r--r--r--    1 root    root             3296 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_tx_max.html
+-r--r--r--    1 root    root             2666 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_tx_timestamp.html
+-r--r--r--    1 root    root             3572 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_set_verbose.html
+-r--r--r--    1 root    root             2556 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_strerror.html
+-r--r--r--    1 root    root             2467 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/env_version.html
+-r--r--r--    1 root    root             2396 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/except_class.html
+-r--r--r--    1 root    root             1903 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/get_errno.html
+-r--r--r--    1 root    root            13718 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/java_index.html
+-r--r--r--    1 root    root            48812 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/java_pindex.html
+-r--r--r--    1 root    root             2318 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_class.html
+-r--r--r--    1 root    root             3263 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_detect.html
+-r--r--r--    1 root    root             4156 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_get.html
+-r--r--r--    1 root    root             2472 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_id.html
+-r--r--r--    1 root    root             2634 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_put.html
+-r--r--r--    1 root    root             4392 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_stat.html
+-r--r--r--    1 root    root             1283 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lock_vec.html
+-r--r--r--    1 root    root             4632 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_archive.html
+-r--r--r--    1 root    root             2275 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_compare.html
+-r--r--r--    1 root    root             3588 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_file.html
+-r--r--r--    1 root    root             2978 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_flush.html
+-r--r--r--    1 root    root             7119 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_get.html
+-r--r--r--    1 root    root             4391 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_put.html
+-r--r--r--    1 root    root             3260 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_register.html
+-r--r--r--    1 root    root             4919 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_stat.html
+-r--r--r--    1 root    root             2909 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/log_unregister.html
+-r--r--r--    1 root    root             1443 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/lsn_class.html
+-r--r--r--    1 root    root             2171 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/mem_class.html
+-r--r--r--    1 root    root             1295 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fclose.html
+-r--r--r--    1 root    root             1291 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fget.html
+-r--r--r--    1 root    root             1291 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fopen.html
+-r--r--r--    1 root    root             1287 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fput.html
+-r--r--r--    1 root    root             1287 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fset.html
+-r--r--r--    1 root    root             1291 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_fsync.html
+-r--r--r--    1 root    root             1300 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_register.html
+-r--r--r--    1 root    root             5505 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_stat.html
+-r--r--r--    1 root    root             1287 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_sync.html
+-r--r--r--    1 root    root             2702 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/memp_trickle.html
+-r--r--r--    1 root    root            15122 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/pindex.src
+-r--r--r--    1 root    root             2204 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/runrec_class.html
+-r--r--r--    1 root    root             3234 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_abort.html
+-r--r--r--    1 root    root             5114 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_begin.html
+-r--r--r--    1 root    root             3677 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_checkpoint.html
+-r--r--r--    1 root    root             2816 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_class.html
+-r--r--r--    1 root    root             4619 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_commit.html
+-r--r--r--    1 root    root             2255 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_id.html
+-r--r--r--    1 root    root             2997 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_prepare.html
+-r--r--r--    1 root    root             5037 Jul 31  2000 /usr/doc/db3-3.1.17/api_java/txn_stat.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl
+-r--r--r--    1 root    root             2879 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_close.html
+-r--r--r--    1 root    root             1623 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_count.html
+-r--r--r--    1 root    root             1821 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_cursor.html
+-r--r--r--    1 root    root             1997 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_del.html
+-r--r--r--    1 root    root             3928 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_get.html
+-r--r--r--    1 root    root             1849 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_get_join.html
+-r--r--r--    1 root    root             1438 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_get_type.html
+-r--r--r--    1 root    root             1686 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_is_byteswapped.html
+-r--r--r--    1 root    root             2100 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_join.html
+-r--r--r--    1 root    root            17066 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_open.html
+-r--r--r--    1 root    root             3196 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_put.html
+-r--r--r--    1 root    root             2026 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_remove.html
+-r--r--r--    1 root    root             1997 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_rename.html
+-r--r--r--    1 root    root             1710 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_stat.html
+-r--r--r--    1 root    root             1524 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/db_sync.html
+-r--r--r--    1 root    root             1536 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/dbc_close.html
+-r--r--r--    1 root    root             1601 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/dbc_del.html
+-r--r--r--    1 root    root             2010 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/dbc_dup.html
+-r--r--r--    1 root    root             8773 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/dbc_get.html
+-r--r--r--    1 root    root             6902 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/dbc_put.html
+-r--r--r--    1 root    root             1859 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/env_close.html
+-r--r--r--    1 root    root             9542 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/env_open.html
+-r--r--r--    1 root    root             3450 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/env_remove.html
+-r--r--r--    1 root    root             1256 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/pindex.src
+-r--r--r--    1 root    root             4010 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/tcl_index.html
+-r--r--r--    1 root    root            25494 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/tcl_pindex.html
+-r--r--r--    1 root    root             2941 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/txn.html
+-r--r--r--    1 root    root             1989 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/txn_abort.html
+-r--r--r--    1 root    root             3070 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/txn_commit.html
+-r--r--r--    1 root    root             1576 Jul 31  2000 /usr/doc/db3-3.1.17/api_tcl/version.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/examples_c
+-r--r--r--    1 root    root              823 Nov 22  1999 /usr/doc/db3-3.1.17/examples_c/README
+-r--r--r--    1 root    root             3605 May 22  2000 /usr/doc/db3-3.1.17/examples_c/ex_access.c
+-r--r--r--    1 root    root             5345 May 22  2000 /usr/doc/db3-3.1.17/examples_c/ex_btrec.c
+-r--r--r--    1 root    root             5937 May 22  2000 /usr/doc/db3-3.1.17/examples_c/ex_dbclient.c
+-r--r--r--    1 root    root             3550 May 22  2000 /usr/doc/db3-3.1.17/examples_c/ex_env.c
+-r--r--r--    1 root    root             5055 Feb 21  2000 /usr/doc/db3-3.1.17/examples_c/ex_lock.c
+-r--r--r--    1 root    root             5662 May 22  2000 /usr/doc/db3-3.1.17/examples_c/ex_mpool.c
+-r--r--r--    1 root    root            12515 May 31  2000 /usr/doc/db3-3.1.17/examples_c/ex_thread.c
+-r--r--r--    1 root    root            19581 Jun  9  2000 /usr/doc/db3-3.1.17/examples_c/ex_tpcb.c
+-r--r--r--    1 root    root              832 May 17  2000 /usr/doc/db3-3.1.17/examples_c/ex_tpcb.h
+-r--r--r--    1 root    root           191799 Jul 31  2000 /usr/doc/db3-3.1.17/examples_c/tags
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/examples_cxx
+-r--r--r--    1 root    root             2996 Feb 13  2000 /usr/doc/db3-3.1.17/examples_cxx/AccessExample.cpp
+-r--r--r--    1 root    root             4830 Feb 19  2000 /usr/doc/db3-3.1.17/examples_cxx/BtRecExample.cpp
+-r--r--r--    1 root    root             2774 Apr  1  2000 /usr/doc/db3-3.1.17/examples_cxx/EnvExample.cpp
+-r--r--r--    1 root    root             4874 Mar 19  2000 /usr/doc/db3-3.1.17/examples_cxx/LockExample.cpp
+-r--r--r--    1 root    root             4382 Mar 19  2000 /usr/doc/db3-3.1.17/examples_cxx/MpoolExample.cpp
+-r--r--r--    1 root    root            15621 May 17  2000 /usr/doc/db3-3.1.17/examples_cxx/TpcbExample.cpp
+-r--r--r--    1 root    root           191799 Jul 31  2000 /usr/doc/db3-3.1.17/examples_cxx/tags
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/images
+-r--r--r--    1 root    root              121 Jul 31  2000 /usr/doc/db3-3.1.17/images/api.gif
+-r--r--r--    1 root    root              225 Jul 31  2000 /usr/doc/db3-3.1.17/images/next.gif
+-r--r--r--    1 root    root              234 Jul 31  2000 /usr/doc/db3-3.1.17/images/prev.gif
+-r--r--r--    1 root    root              244 Jul 31  2000 /usr/doc/db3-3.1.17/images/ps.gif
+-r--r--r--    1 root    root              119 Jul 31  2000 /usr/doc/db3-3.1.17/images/ref.gif
+-r--r--r--    1 root    root             6211 Jul 31  2000 /usr/doc/db3-3.1.17/images/sleepycat.gif
+-r--r--r--    1 root    root             2219 Jul 31  2000 /usr/doc/db3-3.1.17/index.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am
+-r--r--r--    1 root    root             2649 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/close.html
+-r--r--r--    1 root    root             1868 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/count.html
+-r--r--r--    1 root    root             1856 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/curclose.html
+-r--r--r--    1 root    root             1776 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/curdel.html
+-r--r--r--    1 root    root             2276 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/curdup.html
+-r--r--r--    1 root    root             5310 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/curget.html
+-r--r--r--    1 root    root             2782 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/curput.html
+-r--r--r--    1 root    root             2655 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/cursor.html
+-r--r--r--    1 root    root             1907 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/delete.html
+-r--r--r--    1 root    root             3538 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/error.html
+-r--r--r--    1 root    root             2567 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/get.html
+-r--r--r--    1 root    root             7676 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/join.html
+-r--r--r--    1 root    root             3045 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/open.html
+-r--r--r--    1 root    root             4105 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/opensub.html
+-r--r--r--    1 root    root             2412 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/ops.html
+-r--r--r--    1 root    root             5549 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/partial.html
+-r--r--r--    1 root    root             2404 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/put.html
+-r--r--r--    1 root    root             2566 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/stat.html
+-r--r--r--    1 root    root             2329 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/sync.html
+-r--r--r--    1 root    root             4489 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/upgrade.html
+-r--r--r--    1 root    root             3407 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am/verify.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf
+-r--r--r--    1 root    root             3469 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/bt_compare.html
+-r--r--r--    1 root    root             3644 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/bt_minkey.html
+-r--r--r--    1 root    root             3532 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/bt_prefix.html
+-r--r--r--    1 root    root             2489 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/bt_recnum.html
+-r--r--r--    1 root    root             2439 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/byteorder.html
+-r--r--r--    1 root    root             5356 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/cachesize.html
+-r--r--r--    1 root    root             5780 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/dup.html
+-r--r--r--    1 root    root             2097 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/h_ffactor.html
+-r--r--r--    1 root    root             2619 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/h_hash.html
+-r--r--r--    1 root    root             2230 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/h_nelem.html
+-r--r--r--    1 root    root             2774 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/intro.html
+-r--r--r--    1 root    root             2925 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/logrec.html
+-r--r--r--    1 root    root             2229 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/malloc.html
+-r--r--r--    1 root    root             4403 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/pagesize.html
+-r--r--r--    1 root    root             4462 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/re_source.html
+-r--r--r--    1 root    root             4377 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/recno.html
+-r--r--r--    1 root    root             5588 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/renumber.html
+-r--r--r--    1 root    root             7872 Jul 31  2000 /usr/doc/db3-3.1.17/ref/am_conf/select.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch
+-r--r--r--    1 root    root             4770 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/apis.html
+-r--r--r--    1 root    root             2589 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/bigpic.gif
+-r--r--r--    1 root    root             6531 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/bigpic.html
+-r--r--r--    1 root    root             2821 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/progmodel.html
+-r--r--r--    1 root    root             1840 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/script.html
+-r--r--r--    1 root    root             1613 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/smallpic.gif
+-r--r--r--    1 root    root             4980 Jul 31  2000 /usr/doc/db3-3.1.17/ref/arch/utilities.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix
+-r--r--r--    1 root    root             3568 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/aix.html
+-r--r--r--    1 root    root             9378 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/conf.html
+-r--r--r--    1 root    root             3977 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/flags.html
+-r--r--r--    1 root    root             2972 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/freebsd.html
+-r--r--r--    1 root    root             5383 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/hpux.html
+-r--r--r--    1 root    root             3165 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/install.html
+-r--r--r--    1 root    root             3475 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/intro.html
+-r--r--r--    1 root    root             1850 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/irix.html
+-r--r--r--    1 root    root             1843 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/linux.html
+-r--r--r--    1 root    root             9893 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/notes.html
+-r--r--r--    1 root    root             1842 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/osf1.html
+-r--r--r--    1 root    root             1715 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/sco.html
+-r--r--r--    1 root    root             6399 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/shlib.html
+-r--r--r--    1 root    root             5012 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/solaris.html
+-r--r--r--    1 root    root             1974 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/sunos.html
+-r--r--r--    1 root    root             3403 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/test.html
+-r--r--r--    1 root    root             1667 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_unix/ultrix.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_vxworks
+-r--r--r--    1 root    root             4493 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_vxworks/faq.html
+-r--r--r--    1 root    root             5388 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_vxworks/intro.html
+-r--r--r--    1 root    root             3721 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_vxworks/notes.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_win
+-r--r--r--    1 root    root             3175 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_win/faq.html
+-r--r--r--    1 root    root             7863 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_win/intro.html
+-r--r--r--    1 root    root             3079 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_win/notes.html
+-r--r--r--    1 root    root             4903 Jul 31  2000 /usr/doc/db3-3.1.17/ref/build_win/test.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/cam
+-r--r--r--    1 root    root             4574 Jul 31  2000 /usr/doc/db3-3.1.17/ref/cam/intro.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug
+-r--r--r--    1 root    root             6440 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug/common.html
+-r--r--r--    1 root    root             2640 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug/compile.html
+-r--r--r--    1 root    root             3500 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug/intro.html
+-r--r--r--    1 root    root            11070 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug/printlog.html
+-r--r--r--    1 root    root             3287 Jul 31  2000 /usr/doc/db3-3.1.17/ref/debug/runtime.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/distrib
+-r--r--r--    1 root    root             4499 Jul 31  2000 /usr/doc/db3-3.1.17/ref/distrib/layout.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/dumpload
+-r--r--r--    1 root    root             4731 Jul 31  2000 /usr/doc/db3-3.1.17/ref/dumpload/format.html
+-r--r--r--    1 root    root             2038 Jul 31  2000 /usr/doc/db3-3.1.17/ref/dumpload/text.html
+-r--r--r--    1 root    root             3242 Jul 31  2000 /usr/doc/db3-3.1.17/ref/dumpload/utility.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env
+-r--r--r--    1 root    root             5802 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/create.html
+-r--r--r--    1 root    root             3439 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/error.html
+-r--r--r--    1 root    root             3802 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/intro.html
+-r--r--r--    1 root    root             9635 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/naming.html
+-r--r--r--    1 root    root             2060 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/open.html
+-r--r--r--    1 root    root             4466 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/region.html
+-r--r--r--    1 root    root             3049 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/remote.html
+-r--r--r--    1 root    root             3670 Jul 31  2000 /usr/doc/db3-3.1.17/ref/env/security.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/install
+-r--r--r--    1 root    root             2380 Jul 31  2000 /usr/doc/db3-3.1.17/ref/install/file.html
+-r--r--r--    1 root    root             2606 Jul 31  2000 /usr/doc/db3-3.1.17/ref/install/magic.s5.be.txt
+-r--r--r--    1 root    root             2626 Jul 31  2000 /usr/doc/db3-3.1.17/ref/install/magic.s5.le.txt
+-r--r--r--    1 root    root             1851 Jul 31  2000 /usr/doc/db3-3.1.17/ref/install/magic.txt
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro
+-r--r--r--    1 root    root             1857 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro/distrib.html
+-r--r--r--    1 root    root             5038 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro/do.html
+-r--r--r--    1 root    root             4930 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro/products.html
+-r--r--r--    1 root    root             5208 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro/what.html
+-r--r--r--    1 root    root             2313 Jul 31  2000 /usr/doc/db3-3.1.17/ref/intro/where.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/java
+-r--r--r--    1 root    root             2079 Jul 31  2000 /usr/doc/db3-3.1.17/ref/java/compat.html
+-r--r--r--    1 root    root             4566 Jul 31  2000 /usr/doc/db3-3.1.17/ref/java/conf.html
+-r--r--r--    1 root    root             5457 Jul 31  2000 /usr/doc/db3-3.1.17/ref/java/program.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock
+-r--r--r--    1 root    root             8935 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/am_conv.html
+-r--r--r--    1 root    root             3229 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/cam_conv.html
+-r--r--r--    1 root    root             5125 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/config.html
+-r--r--r--    1 root    root             6555 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/dead.html
+-r--r--r--    1 root    root             6766 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/intro.html
+-r--r--r--    1 root    root             3528 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/nondb.html
+-r--r--r--    1 root    root             3485 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/notxn.html
+-r--r--r--    1 root    root             4099 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/page.html
+-r--r--r--    1 root    root             3333 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/stdmode.html
+-r--r--r--    1 root    root             3142 Jul 31  2000 /usr/doc/db3-3.1.17/ref/lock/twopl.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/log
+-r--r--r--    1 root    root             2706 Jul 31  2000 /usr/doc/db3-3.1.17/ref/log/config.html
+-r--r--r--    1 root    root             4278 Jul 31  2000 /usr/doc/db3-3.1.17/ref/log/intro.html
+-r--r--r--    1 root    root             2936 Jul 31  2000 /usr/doc/db3-3.1.17/ref/log/limits.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/mp
+-r--r--r--    1 root    root             4012 Jul 31  2000 /usr/doc/db3-3.1.17/ref/mp/config.html
+-r--r--r--    1 root    root             4336 Jul 31  2000 /usr/doc/db3-3.1.17/ref/mp/intro.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/perl
+-r--r--r--    1 root    root             2659 Jul 31  2000 /usr/doc/db3-3.1.17/ref/perl/intro.html
+-r--r--r--    1 root    root            12506 Jul 31  2000 /usr/doc/db3-3.1.17/ref/pindex.src
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program
+-r--r--r--    1 root    root             2291 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/appsignals.html
+-r--r--r--    1 root    root             2021 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/byteorder.html
+-r--r--r--    1 root    root             2348 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/compatible.html
+-r--r--r--    1 root    root             4221 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/copy.html
+-r--r--r--    1 root    root             3000 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/dbsizes.html
+-r--r--r--    1 root    root             8718 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/diskspace.html
+-r--r--r--    1 root    root             2197 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/environ.html
+-r--r--r--    1 root    root             6544 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/errorret.html
+-r--r--r--    1 root    root            14195 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/extending.html
+-r--r--r--    1 root    root             6925 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/mt.html
+-r--r--r--    1 root    root             2953 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/namespace.html
+-r--r--r--    1 root    root             3939 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/runtime.html
+-r--r--r--    1 root    root             5752 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/solaris.txt
+-r--r--r--    1 root    root             3034 Jul 31  2000 /usr/doc/db3-3.1.17/ref/program/version.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs
+-r--r--r--    1 root    root            39627 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/bdb_usenix.html
+-r--r--r--    1 root    root            83908 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/bdb_usenix.ps
+-r--r--r--    1 root    root            32382 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/embedded.html
+-r--r--r--    1 root    root           158771 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/hash_usenix.ps
+-r--r--r--    1 root    root           168201 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/libtp_usenix.ps
+-r--r--r--    1 root    root             4935 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/refs.html
+-r--r--r--    1 root    root              792 Jul 31  2000 /usr/doc/db3-3.1.17/ref/refs/witold.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/rpc
+-r--r--r--    1 root    root             4764 Jul 31  2000 /usr/doc/db3-3.1.17/ref/rpc/client.html
+-r--r--r--    1 root    root             3948 Jul 31  2000 /usr/doc/db3-3.1.17/ref/rpc/intro.html
+-r--r--r--    1 root    root             3712 Jul 31  2000 /usr/doc/db3-3.1.17/ref/rpc/server.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/sendmail
+-r--r--r--    1 root    root             3153 Jul 31  2000 /usr/doc/db3-3.1.17/ref/sendmail/intro.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut
+-r--r--r--    1 root    root             4048 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/close.html
+-r--r--r--    1 root    root             4014 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/del.html
+-r--r--r--    1 root    root             3036 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/errors.html
+-r--r--r--    1 root    root             1653 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/example.txt
+-r--r--r--    1 root    root             4415 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/get.html
+-r--r--r--    1 root    root             1928 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/handles.html
+-r--r--r--    1 root    root             2152 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/intro.html
+-r--r--r--    1 root    root             2854 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/keydata.html
+-r--r--r--    1 root    root             5116 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/open.html
+-r--r--r--    1 root    root             6244 Jul 31  2000 /usr/doc/db3-3.1.17/ref/simple_tut/put.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/tcl
+-r--r--r--    1 root    root             3950 Jul 31  2000 /usr/doc/db3-3.1.17/ref/tcl/error.html
+-r--r--r--    1 root    root             4100 Jul 31  2000 /usr/doc/db3-3.1.17/ref/tcl/intro.html
+-r--r--r--    1 root    root             2147 Jul 31  2000 /usr/doc/db3-3.1.17/ref/tcl/program.html
+-r--r--r--    1 root    root             3090 Jul 31  2000 /usr/doc/db3-3.1.17/ref/tcl/using.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/test
+-r--r--r--    1 root    root             4032 Jul 31  2000 /usr/doc/db3-3.1.17/ref/test/run.html
+-r--r--r--    1 root    root            17724 Jul 31  2000 /usr/doc/db3-3.1.17/ref/toc.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp
+-r--r--r--    1 root    root             1815 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/admin.html
+-r--r--r--    1 root    root             7207 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/app.html
+-r--r--r--    1 root    root             8053 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/archival.html
+-r--r--r--    1 root    root             2975 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/checkpoint.html
+-r--r--r--    1 root    root             3688 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/deadlock.html
+-r--r--r--    1 root    root             3838 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/filesys.html
+-r--r--r--    1 root    root             3716 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/intro.html
+-r--r--r--    1 root    root             3221 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/recimp.html
+-r--r--r--    1 root    root             7044 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/reclimit.html
+-r--r--r--    1 root    root             5209 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/recovery.html
+-r--r--r--    1 root    root             5633 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/routine.html
+-r--r--r--    1 root    root             6088 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/term.html
+-r--r--r--    1 root    root             6629 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/throughput.html
+-r--r--r--    1 root    root             1964 Jul 31  2000 /usr/doc/db3-3.1.17/ref/transapp/writetest.txt
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn
+-r--r--r--    1 root    root             2610 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/config.html
+-r--r--r--    1 root    root             6161 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/intro.html
+-r--r--r--    1 root    root             4086 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/limits.html
+-r--r--r--    1 root    root             4507 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/nested.html
+-r--r--r--    1 root    root             4997 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/other.html
+-r--r--r--    1 root    root             3401 Jul 31  2000 /usr/doc/db3-3.1.17/ref/txn/stability.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.2.0
+-r--r--r--    1 root    root             5153 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.2.0/convert.html
+-r--r--r--    1 root    root             1679 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.2.0/disk.html
+-r--r--r--    1 root    root             2170 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.2.0/intro.html
+-r--r--r--    1 root    root             5920 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.2.0/system.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0
+-r--r--r--    1 root    root             2826 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/close.html
+-r--r--r--    1 root    root             2046 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/cxx.html
+-r--r--r--    1 root    root             2992 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/db.html
+-r--r--r--    1 root    root             3151 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/db_cxx.html
+-r--r--r--    1 root    root             4957 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/dbenv.html
+-r--r--r--    1 root    root             3537 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/dbenv_cxx.html
+-r--r--r--    1 root    root             5137 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/dbinfo.html
+-r--r--r--    1 root    root             2067 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/disk.html
+-r--r--r--    1 root    root             2057 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/eacces.html
+-r--r--r--    1 root    root             2285 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/eagain.html
+-r--r--r--    1 root    root             8317 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/envopen.html
+-r--r--r--    1 root    root             3248 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/func.html
+-r--r--r--    1 root    root             1715 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/intro.html
+-r--r--r--    1 root    root             2359 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/java.html
+-r--r--r--    1 root    root             2019 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/join.html
+-r--r--r--    1 root    root             3954 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/jump_set.html
+-r--r--r--    1 root    root             1808 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/lock_detect.html
+-r--r--r--    1 root    root             1926 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/lock_notheld.html
+-r--r--r--    1 root    root             1849 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/lock_put.html
+-r--r--r--    1 root    root             1740 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/lock_stat.html
+-r--r--r--    1 root    root             1816 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/log_register.html
+-r--r--r--    1 root    root             1671 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/log_stat.html
+-r--r--r--    1 root    root             1857 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/memp_stat.html
+-r--r--r--    1 root    root             3643 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/open.html
+-r--r--r--    1 root    root             2253 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/rmw.html
+-r--r--r--    1 root    root             1676 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/stat.html
+-r--r--r--    1 root    root             1800 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/txn_begin.html
+-r--r--r--    1 root    root             1803 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/txn_commit.html
+-r--r--r--    1 root    root             1655 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/txn_stat.html
+-r--r--r--    1 root    root             3089 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/value_set.html
+-r--r--r--    1 root    root             2466 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.0/xa.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1
+-r--r--r--    1 root    root             3463 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/btstat.html
+-r--r--r--    1 root    root             2659 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/config.html
+-r--r--r--    1 root    root             2414 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/disk.html
+-r--r--r--    1 root    root             2118 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/dup.html
+-r--r--r--    1 root    root             4677 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/env.html
+-r--r--r--    1 root    root             1712 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/intro.html
+-r--r--r--    1 root    root             2105 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/log_register.html
+-r--r--r--    1 root    root             1829 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/logalloc.html
+-r--r--r--    1 root    root             2153 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/memp_register.html
+-r--r--r--    1 root    root             3686 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/put.html
+-r--r--r--    1 root    root             2084 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/set_feedback.html
+-r--r--r--    1 root    root             2069 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/set_paniccall.html
+-r--r--r--    1 root    root             2463 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/set_tx_recover.html
+-r--r--r--    1 root    root             1875 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/sysmem.html
+-r--r--r--    1 root    root             2034 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/tcl.html
+-r--r--r--    1 root    root             2300 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/tmp.html
+-r--r--r--    1 root    root             1823 Jul 31  2000 /usr/doc/db3-3.1.17/ref/upgrade.3.1/txn_check.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/ref/xa
+-r--r--r--    1 root    root             5026 Jul 31  2000 /usr/doc/db3-3.1.17/ref/xa/config.html
+-r--r--r--    1 root    root             3483 Jul 31  2000 /usr/doc/db3-3.1.17/ref/xa/faq.html
+-r--r--r--    1 root    root             3315 Jul 31  2000 /usr/doc/db3-3.1.17/ref/xa/intro.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/sleepycat
+-r--r--r--    1 root    root             1811 Jul 31  2000 /usr/doc/db3-3.1.17/sleepycat/contact.html
+-r--r--r--    1 root    root             3361 Jul 31  2000 /usr/doc/db3-3.1.17/sleepycat/legal.html
+-r--r--r--    1 root    root             6298 Jul 31  2000 /usr/doc/db3-3.1.17/sleepycat/license.html
+drwxr-xr-x    2 root    root                0 Jul 31  2000 /usr/doc/db3-3.1.17/utility
+-r--r--r--    1 root    root             4403 Jul 31  2000 /usr/doc/db3-3.1.17/utility/berkeley_db_svc.html
+-r--r--r--    1 root    root             4076 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_archive.html
+-r--r--r--    1 root    root             4109 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_checkpoint.html
+-r--r--r--    1 root    root             4243 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_deadlock.html
+-r--r--r--    1 root    root             6802 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_dump.html
+-r--r--r--    1 root    root             8784 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_load.html
+-r--r--r--    1 root    root             3244 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_printlog.html
+-r--r--r--    1 root    root             4816 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_recover.html
+-r--r--r--    1 root    root             5228 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_stat.html
+-r--r--r--    1 root    root             4906 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_upgrade.html
+-r--r--r--    1 root    root             3535 Jul 31  2000 /usr/doc/db3-3.1.17/utility/db_verify.html
+-r--r--r--    1 root    root             1895 Jul 31  2000 /usr/doc/db3-3.1.17/utility/index.html
+?rwxrwxrwx    1 root    root                8 Dec 13  2000 /usr/include/db.h
+-r--r--r--    1 root    root            47976 Dec 13  2000 /usr/include/db3/db.h
+-r--r--r--    1 root    root             5657 Dec 13  2000 /usr/include/db3/db_185.h
+-r--r--r--    1 root    root            18813 Jun  1  2000 /usr/include/db3/db_cxx.h
+-r--r--r--    1 root    root           523390 Dec 13  2000 /usr/lib/libdb-3.1.a
+?rwxrwxrwx    1 root    root               11 Dec 13  2000 /usr/lib/libdb.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/db3-3.1.17-1.m68kmint.rpm">Download</A></H2> (1,041,608 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

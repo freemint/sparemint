@@ -1,0 +1,109 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - subversion, version 1.5.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>subversion</H2>
+
+<UL> 
+<LI>Summary: A Concurrent Versioning system similar to but better than CVS.<BR>
+<LI>URL: <A HREF="http://subversion.tigris.org">http://subversion.tigris.org</A><BR>
+<LI>Version: 1.5.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Utilities/System">Utilities/System</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 18,343,657 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>subversion = 1.5.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Mar 14 18:30:34 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:39 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/subversion-1.5.6-1.src.rpm">subversion-1.5.6-1.src.rpm</A>  (4,944,679 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Fri Mar 14 22:00:00 2008 UTC<BR>
+- Updated to latest version
+<LI>Description:<BR>
+Subversion is a concurrent version control system which enables one or more<BR>users to collaborate in developing and maintaining a hierarchy of files and<BR>directories while keeping a history of all changes.  Subversion only stores<BR>the differences between versions, instead of every complete file.  Subversion<BR>also keeps a log of who, when, and why changes occurred.<BR><P><BR>As such it basically does the same thing CVS does (Concurrent Versioning System)<BR>but has major enhancements compared to CVS and fixes a lot of the annoyances<BR>that CVS users face.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root          4091382 Mar 14  2009 /usr/bin/svn
+-rwxr-xr-x    1 root    root          2275360 Mar 14  2009 /usr/bin/svnadmin
+-rwxr-xr-x    1 root    root          2233356 Mar 14  2009 /usr/bin/svndumpfilter
+-rwxr-xr-x    1 root    root          2251221 Mar 14  2009 /usr/bin/svnlook
+-rwxr-xr-x    1 root    root          2301349 Mar 14  2009 /usr/bin/svnserve
+-rwxr-xr-x    1 root    root          3692170 Mar 14  2009 /usr/bin/svnsync
+-rwxr-xr-x    1 root    root          1259817 Mar 14  2009 /usr/bin/svnversion
+drwxr-xr-x    2 root    root                0 Mar 14  2009 /usr/doc/subversion-1.5.6
+-rw-r--r--    1 root    root              107 Sep 20  2005 /usr/doc/subversion-1.5.6/BUGS
+-rw-r--r--    1 root    root           146624 Feb 25  2009 /usr/doc/subversion-1.5.6/CHANGES
+-rw-r--r--    1 root    root            10420 Feb 25  2009 /usr/doc/subversion-1.5.6/COMMITTERS
+-rw-r--r--    1 root    root             2787 May 28  2006 /usr/doc/subversion-1.5.6/COPYING
+-rw-r--r--    1 root    root              113 Jul 21  2005 /usr/doc/subversion-1.5.6/HACKING
+-rw-r--r--    1 root    root            63562 Jun  4  2008 /usr/doc/subversion-1.5.6/INSTALL
+-rw-r--r--    1 root    root             2348 May 28  2006 /usr/doc/subversion-1.5.6/LICENSE
+-rw-r--r--    1 root    root             2244 Nov 30  2007 /usr/doc/subversion-1.5.6/README
+-rw-r--r--    1 root    root              619 Mar 14  2009 /usr/share/man/man1/svn.1.gz
+-rw-r--r--    1 root    root              634 Mar 14  2009 /usr/share/man/man1/svnadmin.1.gz
+-rw-r--r--    1 root    root              632 Mar 14  2009 /usr/share/man/man1/svndumpfilter.1.gz
+-rw-r--r--    1 root    root              632 Mar 14  2009 /usr/share/man/man1/svnlook.1.gz
+-rw-r--r--    1 root    root              634 Mar 14  2009 /usr/share/man/man1/svnsync.1.gz
+-rw-r--r--    1 root    root              639 Mar 14  2009 /usr/share/man/man1/svnversion.1.gz
+-rw-r--r--    1 root    root             1138 Mar 14  2009 /usr/share/man/man5/svnserve.conf.5.gz
+-rw-r--r--    1 root    root             1773 Mar 14  2009 /usr/share/man/man8/svnserve.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/subversion-1.5.6-1.m68kmint.rpm">Download</A></H2> (9,324,887 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

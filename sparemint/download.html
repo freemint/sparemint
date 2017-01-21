@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>SpareMiNT and the FreeMiNT Software Archive - Downloads</title>
+
+<link rel="stylesheet" href="sparemint.css" type="text/css">
+<script type="text/javascript">
+/*<![CDATA[*/
+<!--
+function decode_mt(s) { //
+var n=0;
+var r="";
+for(var i=0; i < s.length; i++) {
+n=s.charCodeAt(i);
+if (n>=8364) {n = 128;}
+r += String.fromCharCode(n-(1));
+}
+return r;
+}
+function linkto_decode_mt(s) { //
+location.href=decode_mt(s);
+}
+// -->
+/*]]>*/
+</script>
+</head>
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="html/images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="index.html">Home</a><img src="html/images/leaf-bullet.gif"> <a href="info.html">Information</a> <img src="html/images/leaf-bullet.gif"> <a href="NEWS.html">News</a>
+<img src="html/images/leaf-bullet.gif"> <a href="development.html">Development</a> <img src="html/images/leaf-bullet.gif"> <a href="download.html">Download</a>
+<img src="html/images/leaf-bullet.gif"> <a href="mirrors.html">Mirrors</a></h4>
+<br>
+&nbsp;<br>
+<table style="background-color: #98FB98; width: 100%;" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="middle"><span style="font-weight: bold;">&nbsp;FreeMiNT Binaries:</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+<ul>
+<li><a href="./html/packages.html">RPM
+Packages Sorted Alphabetically</a>
+</li>
+<li><a href="./html/groups.html">RPM
+Packages Sorted by Group</a>
+</li>
+<li><a target="_top" href="./mint/">kernels/tools</a>
+</li>
+<li><a target="_top" href="./misc/">RPM-Bootstrapping
+Archive</a>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+&nbsp;<br>
+<table bgcolor="#98FB98" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="middle"><span style="font-weight: bold;">&nbsp;EasyMiNT Installer:</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+<p></p>
+<p>EasyMiNT is a GEM based installer for MiNT/Sparemint.
+With EasyMiNT you're only a few mouse clicks away from a real MiNT
+system. EasyMiNT is for the beginner, who doesn't want to edit scripts
+or use cryptic command line tools. The motto of EasyMiNT is "first
+install and then learn". The only requirements for using EasyMiNT is
+that you know how to unpack a ZIP archive, to know how to copy files
+and to create a LNX or RAW partition with your harddisk tool. EasyMiNT
+is based on the Sparemint packages, it will install the packages needed
+to have a running MiNT system.
+</p>
+<br>
+Download from - <a target="_top" href="http://atari.st-katharina-apotheke.de/">EasyMiNT
+Website</a>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+&nbsp;<br>
+<table style="background-color: #98FB98; width: 100%;" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="middle"><span style="font-weight: bold;">&nbsp;FreeMiNT 1.17.0
+Release:</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="white">
+<p></p>
+<p>This is a short desription taken from the 1.17.0 readme,
+it is suggest that you read the FULL file before installing.<br>
+The complete readme file is - <a target="_top" href="/sparemint/mint/kernel/1.17.0/readme.txt">/sparemint/mint/kernel/1.17.0/readme.txt</a></p>
+The files can be download from this directory - <a target="_top" href="/sparemint/mint/kernel/1.17.0/">/sparemint/mint/kernel/1.17.0/</a><br>
+<br>
+<pre>Like with previous installations you need to place the FreeMiNT kernel in the<br>AUTO folder of your boot drive. If you choose the wrong kernel for your<br>hardware the kernel will detect this, display an error message and not enter<br>the boot sequence (e.g. return to TOS). The next step is to copy the MINT<br>folder from the distribution archive to your boot drive (rename or delete<br>any already existing MINT folder).<br><br>In summary (if your boot drive is C:):<br><br>Step 1: - copy the appropriate kernel for your hardware to C:\AUTO<br> - deactivate any existing FreeMiNT kernel<br> - sort FreeMiNT as last kernel; take a look at section 3.4, Tips <br> Tricks<br><br>Step 2: - Copy the MINT folder from the distribution archive to C:\.<br><br>	If there exists a MINT folder on C: you can do 2 things:<br><br>	1. Remove/rename the existing MINT folder thus deactivating your<br>	existing FreeMiNT installation.<br><br>	2. Copy the 1-17-0 folder from the distribution archive to C:\MINT<br>	and install FreeMiNT 1.17.0 in parallel. You can switch back<br>	to your old FreeMiNT installation by booting the old kernel.<br><br>Step 3: - Edit C:\MINT\1-17-0\MINT.CNF; take a look at section 3.3.<br><br> The distribution archive is setup to boot XaAES; if you don't want<br> this, change the INIT configuration directive to your choice.<br><br> If you want to boot XaAES, edit C:\MINT\1-17-0\XAAES\XAAES.CNF<br> and adjust the settings for the desktop.<br><br>Step 4: - Reboot; the new kernel and XaAES is booted<br><br> NOTE: If you want to disable memory protection press the shift<br> key while the FreeMiNT message appears on screen. You will<br>	then enter the boot menu and can select whether or not to<br> use the memory protection.<br><br> You can also activate step-by-step initialization, which might<br> be useful if you encounter problems with your boot sequence.<br> If this setting is enabled, the kernel will wait for a<br> key press after each initialization step.<br></pre>
+</td>
+</tr>
+</tbody>
+</table>
+</body></html>

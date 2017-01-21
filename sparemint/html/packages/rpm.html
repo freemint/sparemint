@@ -1,0 +1,160 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - rpm, version 3.0.6, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>rpm</H2>
+
+<UL> 
+<LI>Summary: The Red Hat package management system.<BR>
+<LI>URL: <A HREF="http://www.rpm.org/">http://www.rpm.org/</A><BR>
+<LI>Version: 3.0.6<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,910,954 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>rpm = 3.0.6-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>popt  <BR>
+  <LI>bzip2 >= 0.9.0c-2<BR>
+  <LI>gawk  <BR>
+  <LI>fileutils  <BR>
+  <LI>textutils  <BR>
+  <LI>sh-utils  <BR>
+  <LI>mktemp  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Oct 11 17:05:07 2001 UTC<BR>
+<LI>Upload date: Thu Oct 11 17:06:12 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/rpm-3.0.6-4.src.rpm">rpm-3.0.6-4.src.rpm</A>  (1,652,311 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Oct 11 09:00:00 2001 UTC<BR>
+- updated to 3.0.6<BR>- recompiled against updated MiNTLib, db-lib etc.
+<LI>Description:<BR>
+The RPM Package Manager (RPM) is a powerful command line driven<BR>package management system capable of installing, uninstalling,<BR>verifying, querying, and updating software packages.  Each software<BR>package consists of an archive of files along with information about<BR>the package like its version, a description, etc.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           613466 Oct 11  2001 /bin/rpm
+drwxr-xr-x    2 root    root                0 Oct 11  2001 /etc/rpm
+-rwxr-xr-x    1 root    root              222 Oct 11  2001 /usr/bin/gendiff
+-rwxr-xr-x    1 root    root           461352 Oct 11  2001 /usr/bin/rpm2cpio
+drwxr-xr-x    2 root    root                0 Oct 11  2001 /usr/doc/rpm-3.0.6
+-rw-r--r--    1 root    root            70131 Sep 13  2000 /usr/doc/rpm-3.0.6/CHANGES
+-rw-r--r--    1 root    root              656 Mar 16  1999 /usr/doc/rpm-3.0.6/GROUPS
+-rw-r--r--    1 root    root             6747 Oct 11  2001 /usr/doc/rpm-3.0.6/Makefile
+-rw-r--r--    1 root    root              180 Sep  7  1999 /usr/doc/rpm-3.0.6/Makefile.am
+-rw-r--r--    1 root    root             6313 Sep 13  2000 /usr/doc/rpm-3.0.6/Makefile.in
+-rw-r--r--    1 root    root             1908 Dec  7  1999 /usr/doc/rpm-3.0.6/RPM-GPG-KEY
+-rw-r--r--    1 root    root             2751 Feb 24  1997 /usr/doc/rpm-3.0.6/RPM-PGP-KEY
+-rw-r--r--    1 root    root             3589 Sep  7  1999 /usr/doc/rpm-3.0.6/buildroot
+-rw-r--r--    1 root    root             8051 Sep  7  1999 /usr/doc/rpm-3.0.6/dependencies
+-rw-r--r--    1 root    root             9911 Jul 19  1999 /usr/doc/rpm-3.0.6/format
+-rw-r--r--    1 root    root             7988 Sep  7  1999 /usr/doc/rpm-3.0.6/macros
+-rw-r--r--    1 root    root             1793 Sep  7  1999 /usr/doc/rpm-3.0.6/multiplebuilds
+-rw-r--r--    1 root    root             5253 Jul 19  1999 /usr/doc/rpm-3.0.6/queryformat
+-rw-r--r--    1 root    root             1957 Jul 19  1999 /usr/doc/rpm-3.0.6/relocatable
+-rw-r--r--    1 root    root             2435 Aug 18  1999 /usr/doc/rpm-3.0.6/signatures
+-rw-r--r--    1 root    root             3416 Sep  7  1999 /usr/doc/rpm-3.0.6/spec
+-rw-r--r--    1 root    root             5295 Aug 20  1999 /usr/doc/rpm-3.0.6/triggers
+-rwxr-xr-x    1 root    root             1382 Oct 11  2001 /usr/lib/rpm/brp-compress
+-rwxr-xr-x    1 root    root              347 Oct 11  2001 /usr/lib/rpm/brp-redhat
+-rwxr-xr-x    1 root    root             1075 Oct 11  2001 /usr/lib/rpm/brp-sparc64-linux
+-rwxr-xr-x    1 root    root              372 Oct 11  2001 /usr/lib/rpm/brp-strip
+-rwxr-xr-x    1 root    root              584 Oct 11  2001 /usr/lib/rpm/brp-strip-comment-note
+-rwxr-xr-x    1 root    root            33085 Oct 11  2001 /usr/lib/rpm/config.guess
+-rwxr-xr-x    1 root    root            25243 Oct 11  2001 /usr/lib/rpm/config.sub
+-rwxr-xr-x    1 root    root             2561 Oct 11  2001 /usr/lib/rpm/convertrpmrc.sh
+-rwxr-xr-x    1 root    root             4188 Oct 11  2001 /usr/lib/rpm/find-prov.pl
+-rwxr-xr-x    1 root    root               65 Oct 11  2001 /usr/lib/rpm/find-provides
+-rwxr-xr-x    1 root    root             3571 Oct 11  2001 /usr/lib/rpm/find-req.pl
+-rwxr-xr-x    1 root    root               65 Oct 11  2001 /usr/lib/rpm/find-requires
+-rw-r--r--    1 root    root            18983 Oct 11  2001 /usr/lib/rpm/macros
+-rwxr-xr-x    1 root    root              726 Oct 11  2001 /usr/lib/rpm/mkinstalldirs
+-rw-r--r--    1 root    root             3630 Oct 11  2001 /usr/lib/rpm/rpmpopt
+-rw-r--r--    1 root    root             8441 Oct 11  2001 /usr/lib/rpm/rpmrc
+-rwxr-xr-x    1 root    root             8427 Oct 11  2001 /usr/lib/rpm/vpkg-provides.sh
+-rwxr-xr-x    1 root    root             2429 Oct 11  2001 /usr/lib/rpm/vpkg-provides2.sh
+-rw-r--r--    1 root    root            36924 Oct 11  2001 /usr/share/locale/cs/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            29225 Oct 11  2001 /usr/share/locale/de/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            28056 Oct 11  2001 /usr/share/locale/fi/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root             2933 Oct 11  2001 /usr/share/locale/fr/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            45863 Oct 11  2001 /usr/share/locale/ja/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            63435 Oct 11  2001 /usr/share/locale/pl/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            17117 Oct 11  2001 /usr/share/locale/pt_BR/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            62343 Oct 11  2001 /usr/share/locale/ru/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            60314 Oct 11  2001 /usr/share/locale/sk/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            70946 Oct 11  2001 /usr/share/locale/sl/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            24177 Oct 11  2001 /usr/share/locale/sr/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            69053 Oct 11  2001 /usr/share/locale/sv/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root            28521 Oct 11  2001 /usr/share/locale/tr/LC_MESSAGES/rpm.mo
+-rw-r--r--    1 root    root              850 Oct 11  2001 /usr/share/man/man1/gendiff.1.gz
+-rw-r--r--    1 root    root             7080 Oct 11  2001 /usr/share/man/man8/rpm.8.gz
+-rw-r--r--    1 root    root              361 Oct 11  2001 /usr/share/man/man8/rpm2cpio.8.gz
+-rw-r--r--    1 root    root             7833 Oct 11  2001 /usr/share/man/pl/man8/rpm.8.gz
+-rw-r--r--    1 root    root             8264 Oct 11  2001 /usr/share/man/ru/man8/rpm.8.gz
+-rw-r--r--    1 root    root              439 Oct 11  2001 /usr/share/man/ru/man8/rpm2cpio.8.gz
+-rw-r--r--    1 root    root             8392 Oct 11  2001 /usr/share/man/sk/man8/rpm.8.gz
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/BUILD
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/RPMS
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/RPMS/m68kmint
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/RPMS/noarch
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/SOURCES
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/SPECS
+drwxrwxrwx    2 root    root                0 Oct 11  2001 /usr/src/redhat/SRPMS
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/rpm-3.0.6-4.m68kmint.rpm">Download</A></H2> (831,568 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

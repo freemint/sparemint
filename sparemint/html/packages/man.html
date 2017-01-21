@@ -1,0 +1,136 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - man, version 1.5g, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>man</H2>
+
+<UL> 
+<LI>Summary: A set of documentation tools: man, apropos and whatis.<BR>
+
+<LI>Version: 1.5g<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 392,353 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>man = 1.5g-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>groff  <BR>
+  <LI>less  <BR>
+  <LI>ncurses  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov  8 12:22:05 2001 UTC<BR>
+<LI>Upload date: Thu Nov  8 12:22:26 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/man-1.5g-4.src.rpm">man-1.5g-4.src.rpm</A>  (181,700 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov  8 10:00:00 2001 UTC<BR>
+- recompiled, corrected MAN_PATH to include /usr/share/man<BR>- fixed PATH to cat
+<LI>Description:<BR>
+The man package includes three tools for finding information and/or<BR>documentation about your Linux system:  man, apropos and whatis.  The man<BR>system formats and displays on-line manual pages about commands or<BR>functions on your system.  Apropos searches the whatis database<BR>(containing short descriptions of system commands) for a string.  Whatis<BR>searches its own database for a complete word.<BR><P><BR>The man package should be installed on your system because it is the<BR>primary way for finding documentation.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              390 Nov  8  2001 /etc/cron.daily/makewhatis.cron
+-rwxr-xr-x    1 root    root              387 Nov  8  2001 /etc/cron.weekly/makewhatis.cron
+-rw-r--r--    1 root    root             3075 Nov  8  2001 /etc/man.config
+-rwxr-xr-x    1 root    root             1676 Nov  8  2001 /usr/bin/apropos
+-rwxr-sr-x    1 root    man            124100 Nov  8  2001 /usr/bin/man
+-rwxr-xr-x    1 root    root           210883 Nov  8  2001 /usr/bin/man2html
+?rwxrwxrwx    1 root    root                3 Nov  8  2001 /usr/bin/manpath
+-rwxr-xr-x    1 root    root             1743 Nov  8  2001 /usr/bin/whatis
+-rw-r--r--    1 root    root              495 Nov  8  2001 /usr/man/man1/apropos.1.gz
+-rw-r--r--    1 root    root             3172 Nov  8  2001 /usr/man/man1/man.1.gz
+-rw-r--r--    1 root    root             1880 Nov  8  2001 /usr/man/man1/man2html.1.gz
+?rwxrwxrwx    1 root    root                8 Nov  8  2001 /usr/man/man1/manpath.1.gz
+-rw-r--r--    1 root    root              550 Nov  8  2001 /usr/man/man1/whatis.1.gz
+-rw-r--r--    1 root    root              602 Nov  8  2001 /usr/man/man5/man.config.5.gz
+-rwxr-xr--    1 root    root             9597 Nov  8  2001 /usr/sbin/makewhatis
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat1
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat2
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat3
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat4
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat5
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat6
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat7
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat8
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/cat9
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/X11R6/catn
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat1
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat2
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat3
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat4
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat5
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat6
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat7
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat8
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/cat9
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/catn
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat1
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat2
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat3
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat4
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat5
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat6
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat7
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat8
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/cat9
+drwxrwxr-x    2 root    man                 0 Nov  8  2001 /var/catman/local/catn
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/man-1.5g-4.m68kmint.rpm">Download</A></H2> (181,689 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

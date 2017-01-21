@@ -1,0 +1,202 @@
+Sparemint TODO List
+===================
+
+Work in Progress
+----------------
+
+The following packages are already assigned to a maintainer.  They will
+appear here soon.  If you want to take over maintainance for Sparemint
+packages you should rather look in the sections for orphaned packages or
+waiting packages (below).
+
+o at
+  New maintainer: Daniel Pralle <pralle(at)informatik.uni-hannover.de>
+o getty_ps
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o leafnode
+  New maintainer: Keith Scroggins <kws(at)radix.net>
+o mailx
+  New maintainer: Edgar Aichinger <eaiching(at)t0.or.at>
+o metamail
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o netkit-base
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o pwdb
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o rpmfind
+  New maintainer: Edgar Aichinger <eaiching(at)t0.or.at>
+o talk
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o tcsh
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o vixie-cron
+  New maintainer: Daniel Pralle <pralle(at)informatik.uni-hannover.de>
+o wu-ftpd
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+o zsh
+  New maintainer: Guido Flohr <guido(at)freemint.de>
+
+Orphaned packages
+-----------------
+
+The following packages are currently orphaned.  There is a binary
+package available but it may be outdated because the last maintainer
+has abandoned the package.
+
+Please contact the Sparemint project if you are interested in
+taking over maintainance for one of these packages.
+
+o elm
+  Old maintainer: Guido Flohr <guido(at)freemint.de>
+o smail
+  Old maintainer: Guido Flohr <guido(at)freemint.de>
+
+Waiting packages
+----------------
+
+The following packages are waiting for a maintainer.  There is
+currently no binary package available, so the new maintainer
+would have to start from the beginning.
+
+Please contact the Sparemint project if you are interested in
+taking over maintainance for one of these packages.
+
+o anonftp
+o biff
+o bind
+o bind-utils
+o c-ares
+o c-ares-devel
+o colour-yahtzee
+o comanche
+o curl
+o curl-devel
+o dip
+o dosemu
+o dosemu-freedos
+o efax
+o emAcs-el
+o emacs
+o emacs-nox
+o exmh
+o f2c
+o f77
+o faq
+o freemint-xaaes
+o gated
+o gcc4
+o gcc4-c++
+o gd
+o gd-devel
+o gnuchess
+o gnuplot
+o howto
+o howto-dvi
+o howto-html
+o ical
+o imap
+o inews
+o inn
+o inn-devel
+o ipfwadm
+o ipxutils
+o ircii
+o jupp
+o kaffe
+o libg++
+o libgr
+o libmad
+o lout
+o lout-doc
+o man-pages
+o maplay
+o mars-nwe
+o mcserv
+o mkisofs
+o mkkickstart
+o mksh
+o mt-st
+o mtools
+o mysterious
+o ncompress
+o ncpfs
+o nenscript
+o nmh
+o nt
+o open
+o p2c
+o p2c-devel
+o pam
+o pamconfig
+o passwd
+o pidentd
+o pinfocom
+o playmidi
+o pmake
+o postgresql
+o postgresql-clients
+o postgresql-data
+o postgresql-devel
+o printtool
+o procps
+o psacct
+o pythonlib
+o qmail
+o qt
+o qt-devel
+o quota
+o raidtools
+o rdist
+o rhbackup
+o rhmask
+o rhs-printfilters
+o rhsound
+o rmt
+o routed
+o sag
+o scottfree
+o screen
+o sendmail
+o sendmail-cf
+o sendmail-doc
+o setconsole
+o setuptool
+o sgml-tools
+o slang-devel
+o sliplogin
+o slrn
+o smbfs
+o sndconfig
+o spice
+o squid
+o squid-novm
+o stat
+o statserial
+o strace
+o svgalib
+o svgalib-devel
+o taper
+o tetex-xdvi
+o timeconfig
+o timed
+o tkinter
+o tkmc
+o tksysv
+o trn
+o trojka
+o ucd-snmp
+o ucd-snmp-devel
+o ucd-snmp-utils
+o umb-scheme
+o uucp
+o vga_cardgames
+o vga_gamespack
+o vlock
+o xpp
+o yp-tools
+o ypbind
+o ypserv
+o zgv
+
+Generated automatically Fri Jan 20 20:20:29 2017 UTC by buildsite.pl Revision 2.7 .
+

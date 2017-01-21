@@ -1,0 +1,150 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mint-util, version 0.3.2, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mint-util</H2>
+
+<UL> 
+<LI>Summary: MiNT Utilities<BR>
+<LI>URL: <A HREF="http://sparemint.atari.org/">http://sparemint.atari.org/</A><BR>
+<LI>Version: 0.3.2<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 3,085,130 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mint-util = 0.3.2-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>sh-utils  <BR>
+  <LI>fileutils  <BR>
+  <LI>textutils  <BR>
+  <LI>/bin/bash  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Nov  2 20:27:04 2001 UTC<BR>
+<LI>Upload date: Fri Nov  2 20:42:18 2001 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mint-util-0.3.2-2.src.rpm">mint-util-0.3.2-2.src.rpm</A>  (193,191 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Nov  2 10:00:00 2001 UTC<BR>
+- updated to 0.3.2<BR>- new getif skript<BR>- AES starter set now AESDIR
+<LI>Description:<BR>
+The package mint-util is a collection of small utilities that don't<BR>really fit into other packages.  Thus the package hasn't got a real<BR>theme.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           118378 Nov  2  2001 /bin/aes
+-rwxr-xr-x    1 root    root           118009 Nov  2  2001 /bin/crlf
+-rwxr-xr-x    1 root    root           108413 Nov  2  2001 /bin/free
+-rwxr-xr-x    1 root    root           114595 Nov  2  2001 /bin/kill
+-rwxr-xr-x    1 root    root           189722 Nov  2  2001 /bin/more
+-rwxr-xr-x    1 root    root           109947 Nov  2  2001 /bin/rename
+-rwxr-xr-x    1 root    root            56573 Nov  2  2001 /bin/sln
+-rwxr-xr-x    1 root    root            13421 Nov  2  2001 /sbin/drivers
+-rwxr-xr-x    1 root    root           113708 Nov  2  2001 /usr/bin/arch
+-rwxr-xr-x    1 root    root           125931 Nov  2  2001 /usr/bin/banner
+-rwxr-xr-x    1 root    root           116364 Nov  2  2001 /usr/bin/col
+-rwxr-xr-x    1 root    root           110552 Nov  2  2001 /usr/bin/colcrt
+-rwxr-xr-x    1 root    root            57239 Nov  2  2001 /usr/bin/colrm
+-rwxr-xr-x    1 root    root           118497 Nov  2  2001 /usr/bin/column
+-rwxr-xr-x    1 root    root           113956 Nov  2  2001 /usr/bin/ddate
+-rwxr-xr-x    1 root    root           110192 Nov  2  2001 /usr/bin/fragments
+-rwxr-xr-x    1 root    root           124827 Nov  2  2001 /usr/bin/hexdump
+-rwxr-xr-x    1 root    root           122215 Nov  2  2001 /usr/bin/logger
+-rwxr-xr-x    1 root    root           116744 Nov  2  2001 /usr/bin/mcookie
+-rwxr-xr-x    1 root    root           116554 Nov  2  2001 /usr/bin/namei
+-rwxr-xr-x    1 root    root           111190 Nov  2  2001 /usr/bin/renice
+-rwxr-xr-x    1 root    root           113481 Nov  2  2001 /usr/bin/rev
+-rwxr-xr-x    1 root    root           126253 Nov  2  2001 /usr/bin/script
+-rwxr-xr-x    1 root    root           114190 Nov  2  2001 /usr/bin/setsid
+-rwxr-xr-x    1 root    root           145874 Nov  2  2001 /usr/bin/ul
+-rwxr-xr-x    1 root    root           113756 Nov  2  2001 /usr/bin/whereis
+-rwxr-xr-x    1 root    root           119651 Nov  2  2001 /usr/bin/write
+drwxr-xr-x    2 root    root                0 Nov  2  2001 /usr/doc/mint-util-0.3.2
+-rw-r--r--    1 root    root            17992 Jul 18  1999 /usr/doc/mint-util-0.3.2/COPYING
+-rw-r--r--    1 root    root              407 Sep 13  2001 /usr/doc/mint-util-0.3.2/ChangeLog
+-rw-r--r--    1 root    root              535 Nov  2  2001 /usr/doc/mint-util-0.3.2/NEWS
+-rw-r--r--    1 root    root              147 Sep 10  2001 /usr/doc/mint-util-0.3.2/README
+-rw-r--r--    1 root    root             2264 Jul  8  1999 /usr/doc/mint-util-0.3.2/README.cal
+-rw-r--r--    1 root    root             2206 Jul  8  1999 /usr/doc/mint-util-0.3.2/README.col
+-rw-r--r--    1 root    root              989 Jul  8  1999 /usr/doc/mint-util-0.3.2/README.namei
+-rw-r--r--    1 root    root              203 Jul  8  1999 /usr/doc/mint-util-0.3.2/README.script
+-rw-r--r--    1 root    root              619 Sep 24  1999 /usr/doc/mint-util-0.3.2/README.widechar
+-rw-r--r--    1 root    root             1391 May 29  1998 /usr/doc/mint-util-0.3.2/crlf.doc
+-rw-r--r--    1 root    root              674 Nov  2  2001 /usr/share/man/man1/arch.1.gz
+-rw-r--r--    1 root    root             2077 Nov  2  2001 /usr/share/man/man1/col.1.gz
+-rw-r--r--    1 root    root             1809 Nov  2  2001 /usr/share/man/man1/colcrt.1.gz
+-rw-r--r--    1 root    root             1279 Nov  2  2001 /usr/share/man/man1/colrm.1.gz
+-rw-r--r--    1 root    root             1662 Nov  2  2001 /usr/share/man/man1/column.1.gz
+-rw-r--r--    1 root    root             1442 Nov  2  2001 /usr/share/man/man1/ddate.1.gz
+-rw-r--r--    1 root    root             4143 Nov  2  2001 /usr/share/man/man1/hexdump.1.gz
+-rw-r--r--    1 root    root             1112 Nov  2  2001 /usr/share/man/man1/kill.1.gz
+-rw-r--r--    1 root    root             1995 Nov  2  2001 /usr/share/man/man1/logger.1.gz
+-rw-r--r--    1 root    root              708 Nov  2  2001 /usr/share/man/man1/mcookie.1.gz
+-rw-r--r--    1 root    root             2828 Nov  2  2001 /usr/share/man/man1/more.1.gz
+-rw-r--r--    1 root    root              837 Nov  2  2001 /usr/share/man/man1/namei.1.gz
+-rw-r--r--    1 root    root              424 Nov  2  2001 /usr/share/man/man1/rename.1.gz
+-rw-r--r--    1 root    root             1238 Nov  2  2001 /usr/share/man/man1/rev.1.gz
+-rw-r--r--    1 root    root             1889 Nov  2  2001 /usr/share/man/man1/script.1.gz
+-rw-r--r--    1 root    root             1811 Nov  2  2001 /usr/share/man/man1/ul.1.gz
+-rw-r--r--    1 root    root             1984 Nov  2  2001 /usr/share/man/man1/whereis.1.gz
+-rw-r--r--    1 root    root             1930 Nov  2  2001 /usr/share/man/man1/write.1.gz
+-rw-r--r--    1 root    root             1580 Nov  2  2001 /usr/share/man/man6/banner.6.gz
+-rw-r--r--    1 root    root              684 Nov  2  2001 /usr/share/man/man8/ctrlaltdel.8.gz
+-rw-r--r--    1 root    root             2355 Nov  2  2001 /usr/share/man/man8/drivers.8.gz
+-rw-r--r--    1 root    root             1990 Nov  2  2001 /usr/share/man/man8/renice.8.gz
+-rw-r--r--    1 root    root              288 Nov  2  2001 /usr/share/man/man8/setsid.8.gz
+-rw-r--r--    1 root    root              382 Nov  2  2001 /usr/share/man/man8/sln.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mint-util-0.3.2-2.m68kmint.rpm">Download</A></H2> (1,525,524 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

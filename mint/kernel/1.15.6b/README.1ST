@@ -1,0 +1,14 @@
+This is FreeMiNT.  Please see the file `copying' for licensing conditions.
+Please send electronic mail to mint@atari.archive.umich.edu for further
+information.
+
+The current FreeMiNT kernel coordinator is Frank Naumann
+<fnaumann@cs.uni-magdeburg.de>.
+
+Please feel free to send mails concerning the kernel development subjects.
+
+Please note that if your file system doesn't support long filenames
+some of the files could have unpacked with truncated names.  This
+applies (not only) to the files of the subdirectory `man'.  You
+will possibly find a file named `MANIFEST' in the top directory
+that has a list of the files and their sizes included in the distribution.

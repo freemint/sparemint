@@ -1,0 +1,99 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gemlib, version 0.43.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gemlib</H2>
+
+<UL> 
+<LI>Summary: GEM libraries and header files<BR>
+<LI>URL: <A HREF="http://arnaud.bercegeay.free.fr/gemlib/">http://arnaud.bercegeay.free.fr/gemlib/</A><BR>
+<LI>Version: 0.43.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: Public Domain</BR>
+<LI>Installation size: 579,165 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gemlib = 0.43.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Mon Dec 19 20:40:31 2005 UTC<BR>
+<LI>Upload date: Tue Jan  3 09:24:33 2006 UTC<BR>
+<LI>Packager: <A HREF="http://arnaud.bercegeay.free.fr/">Arnaud Bercegeay</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;bsobve/cfsdfhfbzAgsff/gs');">arnaud.bercegeay(at)free.fr</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gemlib-0.43.6-1.src.rpm">gemlib-0.43.6-1.src.rpm</A>  (260,478 bytes)<BR>
+<LI>Last change: Arnaud Bercegeay &lt;arnaud.bercegeay@free.fr&gt; Mon Dec 19 10:00:00 2005 UTC<BR>
+- updated to version 0.43.6
+<LI>Description:<BR>
+Contains the standard libraries and header files to develop your own GEM<BR>applications.<BR><P><BR>Attention, starting from version 0.40.0 the gemlib is heavily modernized<BR>and updated. There are incompatible changes that require modifications<BR>of programs that use this lib too.<BR><P><BR>Package version numbering has been modified to the one used by the<BR>library itself. Please use the --oldpackage option if upgrading from a<BR>0.40.0 or older gemlib and rpm complains about installed package being<BR>newer than this one.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    root               20 Dec 19  2005 /usr/GEM/include/gem.h
+?rwxrwxrwx    1 root    root               21 Dec 19  2005 /usr/GEM/include/gemx.h
+?rwxrwxrwx    1 root    root               23 Dec 19  2005 /usr/GEM/include/mt_gem.h
+?rwxrwxrwx    1 root    root               24 Dec 19  2005 /usr/GEM/include/mt_gemx.h
+?rwxrwxrwx    1 root    root               19 Dec 19  2005 /usr/GEM/lib/libgem.a
+?rwxrwxrwx    1 root    root               21 Dec 19  2005 /usr/GEM/lib/libgem16.a
+drwxr-xr-x    2 root    root                0 Dec 19  2005 /usr/doc/gemlib-0.43.6
+-rw-r--r--    1 root    root            18111 Sep 18  2000 /usr/doc/gemlib-0.43.6/ChangeLog.old
+-rw-r--r--    1 root    root             9102 Dec 19  2005 /usr/include/gem.h
+-rw-r--r--    1 root    root             8679 Dec 19  2005 /usr/include/gemx.h
+-rw-r--r--    1 root    root           100468 Dec 19  2005 /usr/include/mt_gem.h
+-rw-r--r--    1 root    root            59989 Dec 19  2005 /usr/include/mt_gemx.h
+-rw-r--r--    1 root    root           191544 Dec 19  2005 /usr/lib/libgem.a
+-rw-r--r--    1 root    root           190120 Dec 19  2005 /usr/lib/libgem16.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gemlib-0.43.6-1.m68kmint.rpm">Download</A></H2> (120,633 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

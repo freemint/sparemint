@@ -1,0 +1,478 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gettext, version 0.12.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gettext</H2>
+
+<UL> 
+<LI>Summary: Libraries and utilties for program national language support<BR>
+
+<LI>Version: 0.12.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Tools">Development/Tools</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 18,745,273 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gettext = 0.12.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Feb 27 18:32:20 2004 UTC<BR>
+<LI>Upload date: Thu Mar 11 14:54:23 2004 UTC<BR>
+<LI>Packager: Mark Duckworth (<A HREF="javascript:linkto_decode_mt('nbjmup;nevdlxpsuiAbubsj.tpvsdf/dpn');">mduckworth(at)atari-source.com</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gettext-0.12.1-1.src.rpm">gettext-0.12.1-1.src.rpm</A>  (5,696,855 bytes)<BR>
+<LI>Last change: Mark Duckworth &lt;mduckworth@atari-source.com&gt; Tue Feb 24 22:00:00 2004 UTC<BR>
+- Original packager, guido flohr but because of the changes and upgrades<BR>- bug reports should surely go to me.<BR>- Upgraded to version 0.12.1 compiled against mintlib cvs<BR>- Removed stuff about xgemtext, it doesn't seem to be part of this pkg?
+<LI>Description:<BR>
+The gettext library provides an easy to use library and tools for creating,<BR>using, and modifying natural language catalogs. It is a powerfull and simple<BR>method for internationalizing programs.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            14705 Feb 27  2004 /usr/bin/autopoint
+-rwxr-xr-x    1 root    root           763875 Feb 27  2004 /usr/bin/gettext
+-rwxr-xr-x    1 root    root            34226 Feb 27  2004 /usr/bin/gettextize
+-rwxr-xr-x    1 root    root           835197 Feb 27  2004 /usr/bin/msgattrib
+-rwxr-xr-x    1 root    root           841589 Feb 27  2004 /usr/bin/msgcat
+-rwxr-xr-x    1 root    root           823339 Feb 27  2004 /usr/bin/msgcmp
+-rwxr-xr-x    1 root    root           841490 Feb 27  2004 /usr/bin/msgcomm
+-rwxr-xr-x    1 root    root           833062 Feb 27  2004 /usr/bin/msgconv
+-rwxr-xr-x    1 root    root           833246 Feb 27  2004 /usr/bin/msgen
+-rwxr-xr-x    1 root    root           826738 Feb 27  2004 /usr/bin/msgexec
+-rwxr-xr-x    1 root    root           843758 Feb 27  2004 /usr/bin/msgfilter
+-rwxr-xr-x    1 root    root           905807 Feb 27  2004 /usr/bin/msgfmt
+-rwxr-xr-x    1 root    root           843665 Feb 27  2004 /usr/bin/msggrep
+-rwxr-xr-x    1 root    root           852846 Feb 27  2004 /usr/bin/msginit
+-rwxr-xr-x    1 root    root           890668 Feb 27  2004 /usr/bin/msgmerge
+-rwxr-xr-x    1 root    root           846365 Feb 27  2004 /usr/bin/msgunfmt
+-rwxr-xr-x    1 root    root           840163 Feb 27  2004 /usr/bin/msguniq
+-rwxr-xr-x    1 root    root           763492 Feb 27  2004 /usr/bin/ngettext
+-rwxr-xr-x    1 root    root          1258353 Feb 27  2004 /usr/bin/xgettext
+drwxr-xr-x    2 root    root                0 Feb 27  2004 /usr/doc/gettext-0.12.1
+-rw-r--r--    1 root    root              575 Aug 28  2002 /usr/doc/gettext-0.12.1/AUTHORS
+-rw-r--r--    1 root    root            18007 Jun 16  2000 /usr/doc/gettext-0.12.1/COPYING
+-rw-r--r--    1 root    root             3935 May 22  2003 /usr/doc/gettext-0.12.1/ChangeLog
+-rw-r--r--    1 root    root            14335 May 22  2003 /usr/doc/gettext-0.12.1/NEWS
+-rw-r--r--    1 root    root             5142 Jan  7  2002 /usr/doc/gettext-0.12.1/README
+-rw-r--r--    1 root    root            20408 Mar  9  2001 /usr/doc/gettext-0.12.1/README.gemtext
+-rw-r--r--    1 root    root             6272 May 20  2003 /usr/doc/gettext-0.12.1/THANKS
+-rw-r--r--    1 root    root             2280 Feb 27  2004 /usr/include/autosprintf.h
+-rw-r--r--    1 root    root             3556 Feb 27  2004 /usr/include/gettext-po.h
+-rw-r--r--    1 root    root            11058 Feb 27  2004 /usr/include/libintl.h
+-rw-r--r--    1 root    root             1722 Feb 27  2004 /usr/info/autosprintf.info.gz
+-rw-r--r--    1 root    root            16843 Feb 27  2004 /usr/info/gettext.info-1.gz
+-rw-r--r--    1 root    root             4571 Feb 27  2004 /usr/info/gettext.info-10.gz
+-rw-r--r--    1 root    root            17740 Feb 27  2004 /usr/info/gettext.info-2.gz
+-rw-r--r--    1 root    root            15999 Feb 27  2004 /usr/info/gettext.info-3.gz
+-rw-r--r--    1 root    root            10889 Feb 27  2004 /usr/info/gettext.info-4.gz
+-rw-r--r--    1 root    root            14353 Feb 27  2004 /usr/info/gettext.info-5.gz
+-rw-r--r--    1 root    root            17244 Feb 27  2004 /usr/info/gettext.info-6.gz
+-rw-r--r--    1 root    root            16783 Feb 27  2004 /usr/info/gettext.info-7.gz
+-rw-r--r--    1 root    root            15480 Feb 27  2004 /usr/info/gettext.info-8.gz
+-rw-r--r--    1 root    root             7972 Feb 27  2004 /usr/info/gettext.info-9.gz
+-rw-r--r--    1 root    root             2891 Feb 27  2004 /usr/info/gettext.info.gz
+-rw-r--r--    1 root    root            55338 Feb 27  2004 /usr/lib/libasprintf.a
+-rwxr-xr-x    1 root    root              737 Feb 27  2004 /usr/lib/libasprintf.la
+-rwxr-xr-x    1 root    root              799 Feb 27  2004 /usr/lib/libgettextlib.la
+-rw-r--r--    1 root    root            14782 Feb 27  2004 /usr/lib/libgettextpo.a
+-rwxr-xr-x    1 root    root              848 Feb 27  2004 /usr/lib/libgettextpo.la
+-rwxr-xr-x    1 root    root              825 Feb 27  2004 /usr/lib/libgettextsrc.la
+-rw-r--r--    1 root    root           177944 Feb 27  2004 /usr/lib/libintl.a
+-rw-r--r--    1 root    root              761 Feb 27  2004 /usr/lib/libintl.la
+-rw-r--r--    1 root    root              894 Feb 27  2004 /usr/share/aclocal/codeset.m4
+-rw-r--r--    1 root    root            16721 Feb 27  2004 /usr/share/aclocal/gettext.m4
+-rw-r--r--    1 root    root              983 Feb 27  2004 /usr/share/aclocal/glibc21.m4
+-rw-r--r--    1 root    root             3499 Feb 27  2004 /usr/share/aclocal/iconv.m4
+-rw-r--r--    1 root    root             1909 Feb 27  2004 /usr/share/aclocal/intdiv0.m4
+-rw-r--r--    1 root    root             1175 Feb 27  2004 /usr/share/aclocal/inttypes-pri.m4
+-rw-r--r--    1 root    root              975 Feb 27  2004 /usr/share/aclocal/inttypes.m4
+-rw-r--r--    1 root    root             1091 Feb 27  2004 /usr/share/aclocal/inttypes_h.m4
+-rw-r--r--    1 root    root             1115 Feb 27  2004 /usr/share/aclocal/isc-posix.m4
+-rw-r--r--    1 root    root             1422 Feb 27  2004 /usr/share/aclocal/lcmessage.m4
+-rw-r--r--    1 root    root             3569 Feb 27  2004 /usr/share/aclocal/lib-ld.m4
+-rw-r--r--    1 root    root            23267 Feb 27  2004 /usr/share/aclocal/lib-link.m4
+-rw-r--r--    1 root    root             5445 Feb 27  2004 /usr/share/aclocal/lib-prefix.m4
+-rw-r--r--    1 root    root             1861 Feb 27  2004 /usr/share/aclocal/nls.m4
+-rw-r--r--    1 root    root             9040 Feb 27  2004 /usr/share/aclocal/po.m4
+-rw-r--r--    1 root    root             2972 Feb 27  2004 /usr/share/aclocal/progtest.m4
+-rw-r--r--    1 root    root             1067 Feb 27  2004 /usr/share/aclocal/stdint_h.m4
+-rw-r--r--    1 root    root             1256 Feb 27  2004 /usr/share/aclocal/uintmax_t.m4
+-rw-r--r--    1 root    root             1024 Feb 27  2004 /usr/share/aclocal/ulonglong.m4
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext
+-rw-r--r--    1 root    root             4996 Feb 27  2004 /usr/share/doc/gettext/autopoint.1.html
+-rw-r--r--    1 root    root             5732 Feb 27  2004 /usr/share/doc/gettext/bind_textdomain_codeset.3.html
+-rw-r--r--    1 root    root             5586 Feb 27  2004 /usr/share/doc/gettext/bindtextdomain.3.html
+-rw-r--r--    1 root    root             7312 Feb 27  2004 /usr/share/doc/gettext/gettext.1.html
+-rw-r--r--    1 root    root             7720 Feb 27  2004 /usr/share/doc/gettext/gettext.3.html
+-rw-r--r--    1 root    root            29839 Feb 27  2004 /usr/share/doc/gettext/gettext_1.html
+-rw-r--r--    1 root    root            48640 Feb 27  2004 /usr/share/doc/gettext/gettext_10.html
+-rw-r--r--    1 root    root            24819 Feb 27  2004 /usr/share/doc/gettext/gettext_11.html
+-rw-r--r--    1 root    root            57519 Feb 27  2004 /usr/share/doc/gettext/gettext_12.html
+-rw-r--r--    1 root    root            36638 Feb 27  2004 /usr/share/doc/gettext/gettext_13.html
+-rw-r--r--    1 root    root             7311 Feb 27  2004 /usr/share/doc/gettext/gettext_14.html
+-rw-r--r--    1 root    root             8320 Feb 27  2004 /usr/share/doc/gettext/gettext_15.html
+-rw-r--r--    1 root    root            11667 Feb 27  2004 /usr/share/doc/gettext/gettext_16.html
+-rw-r--r--    1 root    root             2146 Feb 27  2004 /usr/share/doc/gettext/gettext_17.html
+-rw-r--r--    1 root    root            38948 Feb 27  2004 /usr/share/doc/gettext/gettext_18.html
+-rw-r--r--    1 root    root             2449 Feb 27  2004 /usr/share/doc/gettext/gettext_19.html
+-rw-r--r--    1 root    root            32647 Feb 27  2004 /usr/share/doc/gettext/gettext_2.html
+-rw-r--r--    1 root    root             3884 Feb 27  2004 /usr/share/doc/gettext/gettext_20.html
+-rw-r--r--    1 root    root             1066 Feb 27  2004 /usr/share/doc/gettext/gettext_21.html
+-rw-r--r--    1 root    root            21719 Feb 27  2004 /usr/share/doc/gettext/gettext_22.html
+-rw-r--r--    1 root    root            36630 Feb 27  2004 /usr/share/doc/gettext/gettext_3.html
+-rw-r--r--    1 root    root            14063 Feb 27  2004 /usr/share/doc/gettext/gettext_4.html
+-rw-r--r--    1 root    root            13291 Feb 27  2004 /usr/share/doc/gettext/gettext_5.html
+-rw-r--r--    1 root    root            53835 Feb 27  2004 /usr/share/doc/gettext/gettext_6.html
+-rw-r--r--    1 root    root            65961 Feb 27  2004 /usr/share/doc/gettext/gettext_7.html
+-rw-r--r--    1 root    root            23803 Feb 27  2004 /usr/share/doc/gettext/gettext_8.html
+-rw-r--r--    1 root    root             5831 Feb 27  2004 /usr/share/doc/gettext/gettext_9.html
+-rw-r--r--    1 root    root             1754 Feb 27  2004 /usr/share/doc/gettext/gettext_foot.html
+-rw-r--r--    1 root    root            24197 Feb 27  2004 /usr/share/doc/gettext/gettext_toc.html
+-rw-r--r--    1 root    root             6312 Feb 27  2004 /usr/share/doc/gettext/gettextize.1.html
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc1
+-rw-r--r--    1 root    root             2903 Feb 27  2004 /usr/share/doc/gettext/javadoc1/AllNames.html
+-rw-r--r--    1 root    root             6190 Feb 27  2004 /usr/share/doc/gettext/javadoc1/gnu.gettext.GettextResource.html
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images
+-rw-r--r--    1 root    root              255 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/blue-ball-small.gif
+-rw-r--r--    1 root    root              925 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/blue-ball.gif
+-rw-r--r--    1 root    root             1497 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/class-index.gif
+-rw-r--r--    1 root    root             1711 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/constructor-index.gif
+-rw-r--r--    1 root    root             1565 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/constructors.gif
+-rw-r--r--    1 root    root              255 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/cyan-ball-small.gif
+-rw-r--r--    1 root    root              925 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/cyan-ball.gif
+-rw-r--r--    1 root    root             1438 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/error-index.gif
+-rw-r--r--    1 root    root             1707 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/exception-index.gif
+-rw-r--r--    1 root    root              102 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/green-ball-small.gif
+-rw-r--r--    1 root    root              886 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/green-ball.gif
+-rw-r--r--    1 root    root             1648 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/interface-index.gif
+-rw-r--r--    1 root    root              104 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/magenta-ball-small.gif
+-rw-r--r--    1 root    root              896 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/magenta-ball.gif
+-rw-r--r--    1 root    root             1588 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/method-index.gif
+-rw-r--r--    1 root    root             1403 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/methods.gif
+-rw-r--r--    1 root    root             1607 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/package-index.gif
+-rw-r--r--    1 root    root              255 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/red-ball-small.gif
+-rw-r--r--    1 root    root              527 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/red-ball.gif
+-rw-r--r--    1 root    root             1576 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/variable-index.gif
+-rw-r--r--    1 root    root             1380 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/variables.gif
+-rw-r--r--    1 root    root              255 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/yellow-ball-small.gif
+-rw-r--r--    1 root    root              925 Feb 27  2004 /usr/share/doc/gettext/javadoc1/images/yellow-ball.gif
+-rw-r--r--    1 root    root              457 Feb 27  2004 /usr/share/doc/gettext/javadoc1/packages.html
+-rw-r--r--    1 root    root              561 Feb 27  2004 /usr/share/doc/gettext/javadoc1/tree.html
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc2
+-rw-r--r--    1 root    root              616 Feb 27  2004 /usr/share/doc/gettext/javadoc2/allclasses-frame.html
+-rw-r--r--    1 root    root             3248 Feb 27  2004 /usr/share/doc/gettext/javadoc2/deprecated-list.html
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu/gettext
+-rw-r--r--    1 root    root            12936 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu/gettext/GettextResource.html
+-rw-r--r--    1 root    root              742 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu/gettext/package-frame.html
+-rw-r--r--    1 root    root             4006 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu/gettext/package-summary.html
+-rw-r--r--    1 root    root             3868 Feb 27  2004 /usr/share/doc/gettext/javadoc2/gnu/gettext/package-tree.html
+-rw-r--r--    1 root    root             6438 Feb 27  2004 /usr/share/doc/gettext/javadoc2/help-doc.html
+-rw-r--r--    1 root    root             4769 Feb 27  2004 /usr/share/doc/gettext/javadoc2/index-all.html
+-rw-r--r--    1 root    root              686 Feb 27  2004 /usr/share/doc/gettext/javadoc2/index.html
+-rw-r--r--    1 root    root             3506 Feb 27  2004 /usr/share/doc/gettext/javadoc2/overview-tree.html
+-rw-r--r--    1 root    root                0 Feb 27  2004 /usr/share/doc/gettext/javadoc2/package-list
+-rw-r--r--    1 root    root              656 Feb 27  2004 /usr/share/doc/gettext/javadoc2/packages.html
+-rw-r--r--    1 root    root             3292 Feb 27  2004 /usr/share/doc/gettext/javadoc2/serialized-form.html
+-rw-r--r--    1 root    root             1240 Feb 27  2004 /usr/share/doc/gettext/javadoc2/stylesheet.css
+-rw-r--r--    1 root    root            19525 Feb 27  2004 /usr/share/doc/gettext/msgattrib.1.html
+-rw-r--r--    1 root    root            16564 Feb 27  2004 /usr/share/doc/gettext/msgcat.1.html
+-rw-r--r--    1 root    root             7732 Feb 27  2004 /usr/share/doc/gettext/msgcmp.1.html
+-rw-r--r--    1 root    root            16005 Feb 27  2004 /usr/share/doc/gettext/msgcomm.1.html
+-rw-r--r--    1 root    root            13816 Feb 27  2004 /usr/share/doc/gettext/msgconv.1.html
+-rw-r--r--    1 root    root            13045 Feb 27  2004 /usr/share/doc/gettext/msgen.1.html
+-rw-r--r--    1 root    root             7172 Feb 27  2004 /usr/share/doc/gettext/msgexec.1.html
+-rw-r--r--    1 root    root            15360 Feb 27  2004 /usr/share/doc/gettext/msgfilter.1.html
+-rw-r--r--    1 root    root            18196 Feb 27  2004 /usr/share/doc/gettext/msgfmt.1.html
+-rw-r--r--    1 root    root            19557 Feb 27  2004 /usr/share/doc/gettext/msggrep.1.html
+-rw-r--r--    1 root    root             9602 Feb 27  2004 /usr/share/doc/gettext/msginit.1.html
+-rw-r--r--    1 root    root            20284 Feb 27  2004 /usr/share/doc/gettext/msgmerge.1.html
+-rw-r--r--    1 root    root            14900 Feb 27  2004 /usr/share/doc/gettext/msgunfmt.1.html
+-rw-r--r--    1 root    root            15502 Feb 27  2004 /usr/share/doc/gettext/msguniq.1.html
+-rw-r--r--    1 root    root             7724 Feb 27  2004 /usr/share/doc/gettext/ngettext.1.html
+-rw-r--r--    1 root    root             4917 Feb 27  2004 /usr/share/doc/gettext/ngettext.3.html
+-rw-r--r--    1 root    root             4813 Feb 27  2004 /usr/share/doc/gettext/textdomain.3.html
+-rw-r--r--    1 root    root            22481 Feb 27  2004 /usr/share/doc/gettext/xgettext.1.html
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/doc/libasprintf
+-rw-r--r--    1 root    root             3793 Feb 27  2004 /usr/share/doc/libasprintf/autosprintf.html
+-rw-r--r--    1 root    root             9835 Feb 27  2004 /usr/share/emacs/site-lisp/po-compat.el
+-rw-r--r--    1 root    root           118072 Feb 27  2004 /usr/share/emacs/site-lisp/po-mode.el
+-rw-r--r--    1 root    root            38475 Feb 27  2004 /usr/share/gettext/ABOUT-NLS
+-rw-r--r--    1 root    root           183284 Feb 27  2004 /usr/share/gettext/archive.tar.gz
+-rwxr-xr-x    1 root    root            14991 Feb 27  2004 /usr/share/gettext/config.rpath
+-rw-r--r--    1 root    root             3049 Feb 27  2004 /usr/share/gettext/gettext.h
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/intl
+-rw-r--r--    1 root    root            25283 Feb 27  2004 /usr/share/gettext/intl/COPYING.LIB-2.0
+-rw-r--r--    1 root    root            26532 Feb 27  2004 /usr/share/gettext/intl/COPYING.LIB-2.1
+-rw-r--r--    1 root    root               73 Feb 27  2004 /usr/share/gettext/intl/ChangeLog
+-rw-r--r--    1 root    root            15539 Feb 27  2004 /usr/share/gettext/intl/Makefile.in
+-rw-r--r--    1 root    root               40 Feb 27  2004 /usr/share/gettext/intl/VERSION
+-rw-r--r--    1 root    root            10080 Feb 27  2004 /usr/share/gettext/intl/bindtextdom.c
+-rwxr-xr-x    1 root    root            14123 Feb 27  2004 /usr/share/gettext/intl/config.charset
+-rw-r--r--    1 root    root             1856 Feb 27  2004 /usr/share/gettext/intl/dcgettext.c
+-rw-r--r--    1 root    root            33804 Feb 27  2004 /usr/share/gettext/intl/dcigettext.c
+-rw-r--r--    1 root    root             1911 Feb 27  2004 /usr/share/gettext/intl/dcngettext.c
+-rw-r--r--    1 root    root             1816 Feb 27  2004 /usr/share/gettext/intl/dgettext.c
+-rw-r--r--    1 root    root             1943 Feb 27  2004 /usr/share/gettext/intl/dngettext.c
+-rw-r--r--    1 root    root             2918 Feb 27  2004 /usr/share/gettext/intl/eval-plural.h
+-rw-r--r--    1 root    root             4648 Feb 27  2004 /usr/share/gettext/intl/explodename.c
+-rw-r--r--    1 root    root             5659 Feb 27  2004 /usr/share/gettext/intl/finddomain.c
+-rw-r--r--    1 root    root             1915 Feb 27  2004 /usr/share/gettext/intl/gettext.c
+-rw-r--r--    1 root    root             6820 Feb 27  2004 /usr/share/gettext/intl/gettextP.h
+-rw-r--r--    1 root    root             4783 Feb 27  2004 /usr/share/gettext/intl/gmo.h
+-rw-r--r--    1 root    root             1916 Feb 27  2004 /usr/share/gettext/intl/hash-string.h
+-rw-r--r--    1 root    root             3664 Feb 27  2004 /usr/share/gettext/intl/intl-compat.c
+-rw-r--r--    1 root    root            12624 Feb 27  2004 /usr/share/gettext/intl/l10nflist.c
+-rw-r--r--    1 root    root            11058 Feb 27  2004 /usr/share/gettext/intl/libgnuintl.h.in
+-rw-r--r--    1 root    root             6111 Feb 27  2004 /usr/share/gettext/intl/loadinfo.h
+-rw-r--r--    1 root    root            34520 Feb 27  2004 /usr/share/gettext/intl/loadmsgcat.c
+-rw-r--r--    1 root    root            10477 Feb 27  2004 /usr/share/gettext/intl/localcharset.c
+-rw-r--r--    1 root    root             1391 Feb 27  2004 /usr/share/gettext/intl/localcharset.h
+-rw-r--r--    1 root    root             2657 Feb 27  2004 /usr/share/gettext/intl/locale.alias
+-rw-r--r--    1 root    root            10065 Feb 27  2004 /usr/share/gettext/intl/localealias.c
+-rw-r--r--    1 root    root            22614 Feb 27  2004 /usr/share/gettext/intl/localename.c
+-rw-r--r--    1 root    root             2844 Feb 27  2004 /usr/share/gettext/intl/log.c
+-rw-r--r--    1 root    root             2017 Feb 27  2004 /usr/share/gettext/intl/ngettext.c
+-rw-r--r--    1 root    root             2883 Feb 27  2004 /usr/share/gettext/intl/os2compat.c
+-rw-r--r--    1 root    root             1554 Feb 27  2004 /usr/share/gettext/intl/os2compat.h
+-rw-r--r--    1 root    root              931 Feb 27  2004 /usr/share/gettext/intl/osdep.c
+-rw-r--r--    1 root    root             4044 Feb 27  2004 /usr/share/gettext/intl/plural-exp.c
+-rw-r--r--    1 root    root             4292 Feb 27  2004 /usr/share/gettext/intl/plural-exp.h
+-rw-r--r--    1 root    root            38092 Feb 27  2004 /usr/share/gettext/intl/plural.c
+-rw-r--r--    1 root    root             8156 Feb 27  2004 /usr/share/gettext/intl/plural.y
+-rw-r--r--    1 root    root             1089 Feb 27  2004 /usr/share/gettext/intl/ref-add.sin
+-rw-r--r--    1 root    root             1044 Feb 27  2004 /usr/share/gettext/intl/ref-del.sin
+-rw-r--r--    1 root    root            12750 Feb 27  2004 /usr/share/gettext/intl/relocatable.c
+-rw-r--r--    1 root    root             2646 Feb 27  2004 /usr/share/gettext/intl/relocatable.h
+-rw-r--r--    1 root    root             4552 Feb 27  2004 /usr/share/gettext/intl/textdomain.c
+-rwxr-xr-x    1 root    root             1988 Feb 27  2004 /usr/share/gettext/mkinstalldirs
+-rw-r--r--    1 root    root             2528 Feb 27  2004 /usr/share/gettext/msgunfmt.tcl
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/po
+-rw-r--r--    1 root    root            12065 Feb 27  2004 /usr/share/gettext/po/Makefile.in.in
+-rw-r--r--    1 root    root             1806 Feb 27  2004 /usr/share/gettext/po/Makevars.template
+-rw-r--r--    1 root    root             1689 Feb 27  2004 /usr/share/gettext/po/Rules-quot
+-rw-r--r--    1 root    root              217 Feb 27  2004 /usr/share/gettext/po/boldquot.sed
+-rw-r--r--    1 root    root             1337 Feb 27  2004 /usr/share/gettext/po/en@boldquot.header
+-rw-r--r--    1 root    root             1203 Feb 27  2004 /usr/share/gettext/po/en@quot.header
+-rw-r--r--    1 root    root              672 Feb 27  2004 /usr/share/gettext/po/insert-header.sin
+-rw-r--r--    1 root    root              153 Feb 27  2004 /usr/share/gettext/po/quot.sed
+-rw-r--r--    1 root    root              432 Feb 27  2004 /usr/share/gettext/po/remove-potcdate.sin
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/projects
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/projects/GNOME
+-rwxr-xr-x    1 root    root             2619 Feb 27  2004 /usr/share/gettext/projects/GNOME/team-address
+-rw-r--r--    1 root    root            37157 Feb 27  2004 /usr/share/gettext/projects/GNOME/teams.html
+-rw-r--r--    1 root    root               51 Feb 27  2004 /usr/share/gettext/projects/GNOME/teams.url
+-rwxr-xr-x    1 root    root              783 Feb 27  2004 /usr/share/gettext/projects/GNOME/trigger
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/projects/KDE
+-rwxr-xr-x    1 root    root             3854 Feb 27  2004 /usr/share/gettext/projects/KDE/team-address
+-rw-r--r--    1 root    root            81201 Feb 27  2004 /usr/share/gettext/projects/KDE/teams.html
+-rw-r--r--    1 root    root               38 Feb 27  2004 /usr/share/gettext/projects/KDE/teams.url
+-rwxr-xr-x    1 root    root              905 Feb 27  2004 /usr/share/gettext/projects/KDE/trigger
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/gettext/projects/TP
+-rwxr-xr-x    1 root    root             3066 Feb 27  2004 /usr/share/gettext/projects/TP/team-address
+-rw-r--r--    1 root    root            13248 Feb 27  2004 /usr/share/gettext/projects/TP/teams.html
+-rw-r--r--    1 root    root               64 Feb 27  2004 /usr/share/gettext/projects/TP/teams.url
+-rwxr-xr-x    1 root    root               89 Feb 27  2004 /usr/share/gettext/projects/TP/trigger
+-rw-r--r--    1 root    root               13 Feb 27  2004 /usr/share/gettext/projects/index
+-rwxr-xr-x    1 root    root              410 Feb 27  2004 /usr/share/gettext/projects/team-address
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/be
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/be/LC_MESSAGES
+-rw-r--r--    1 root    root             7439 Feb 27  2004 /usr/share/locale/be/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            38413 Feb 27  2004 /usr/share/locale/be/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ca
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ca/LC_MESSAGES
+-rw-r--r--    1 root    root             7086 Feb 27  2004 /usr/share/locale/ca/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            39744 Feb 27  2004 /usr/share/locale/ca/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/cs
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/cs/LC_MESSAGES
+-rw-r--r--    1 root    root             2472 Feb 27  2004 /usr/share/locale/cs/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             9806 Feb 27  2004 /usr/share/locale/cs/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/da
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/da/LC_MESSAGES
+-rw-r--r--    1 root    root             6737 Feb 27  2004 /usr/share/locale/da/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            37364 Feb 27  2004 /usr/share/locale/da/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/de
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/de/LC_MESSAGES
+-rw-r--r--    1 root    root             7241 Feb 27  2004 /usr/share/locale/de/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            69215 Feb 27  2004 /usr/share/locale/de/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/el
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/el/LC_MESSAGES
+-rw-r--r--    1 root    root             2373 Feb 27  2004 /usr/share/locale/el/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             6527 Feb 27  2004 /usr/share/locale/el/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/en@boldquot
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/en@boldquot/LC_MESSAGES
+-rw-r--r--    1 root    root             6831 Feb 27  2004 /usr/share/locale/en@boldquot/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            75845 Feb 27  2004 /usr/share/locale/en@boldquot/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/en@quot
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/en@quot/LC_MESSAGES
+-rw-r--r--    1 root    root             6751 Feb 27  2004 /usr/share/locale/en@quot/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            74605 Feb 27  2004 /usr/share/locale/en@quot/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/es
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/es/LC_MESSAGES
+-rw-r--r--    1 root    root             7105 Feb 27  2004 /usr/share/locale/es/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            80727 Feb 27  2004 /usr/share/locale/es/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/et
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/et/LC_MESSAGES
+-rw-r--r--    1 root    root             2387 Feb 27  2004 /usr/share/locale/et/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             9696 Feb 27  2004 /usr/share/locale/et/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/fi
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/fi/LC_MESSAGES
+-rw-r--r--    1 root    root             6969 Feb 27  2004 /usr/share/locale/fi/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             6417 Feb 27  2004 /usr/share/locale/fi/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/fr
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/fr/LC_MESSAGES
+-rw-r--r--    1 root    root             7067 Feb 27  2004 /usr/share/locale/fr/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            79356 Feb 27  2004 /usr/share/locale/fr/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/gl
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/gl/LC_MESSAGES
+-rw-r--r--    1 root    root             2344 Feb 27  2004 /usr/share/locale/gl/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             9898 Feb 27  2004 /usr/share/locale/gl/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/id
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/id/LC_MESSAGES
+-rw-r--r--    1 root    root             6814 Feb 27  2004 /usr/share/locale/id/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             6142 Feb 27  2004 /usr/share/locale/id/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/it
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/it/LC_MESSAGES
+-rw-r--r--    1 root    root             2312 Feb 27  2004 /usr/share/locale/it/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             6403 Feb 27  2004 /usr/share/locale/it/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ja
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ja/LC_MESSAGES
+-rw-r--r--    1 root    root             6820 Feb 27  2004 /usr/share/locale/ja/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            73545 Feb 27  2004 /usr/share/locale/ja/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ko
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ko/LC_MESSAGES
+-rw-r--r--    1 root    root             6628 Feb 27  2004 /usr/share/locale/ko/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            73231 Feb 27  2004 /usr/share/locale/ko/LC_MESSAGES/gettext-tools.mo
+-rw-r--r--    1 root    root             2687 Feb 27  2004 /usr/share/locale/locale.alias
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/nl
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/nl/LC_MESSAGES
+-rw-r--r--    1 root    root             2256 Feb 27  2004 /usr/share/locale/nl/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             5987 Feb 27  2004 /usr/share/locale/nl/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/nn
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/nn/LC_MESSAGES
+-rw-r--r--    1 root    root             1064 Feb 27  2004 /usr/share/locale/nn/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             2660 Feb 27  2004 /usr/share/locale/nn/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/no
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/no/LC_MESSAGES
+-rw-r--r--    1 root    root             2288 Feb 27  2004 /usr/share/locale/no/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             9468 Feb 27  2004 /usr/share/locale/no/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pl
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pl/LC_MESSAGES
+-rw-r--r--    1 root    root             7105 Feb 27  2004 /usr/share/locale/pl/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            37033 Feb 27  2004 /usr/share/locale/pl/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pt
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pt/LC_MESSAGES
+-rw-r--r--    1 root    root             1414 Feb 27  2004 /usr/share/locale/pt/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             4290 Feb 27  2004 /usr/share/locale/pt/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pt_BR
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/pt_BR/LC_MESSAGES
+-rw-r--r--    1 root    root             2340 Feb 27  2004 /usr/share/locale/pt_BR/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root             8362 Feb 27  2004 /usr/share/locale/pt_BR/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ru
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/ru/LC_MESSAGES
+-rw-r--r--    1 root    root             7113 Feb 27  2004 /usr/share/locale/ru/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            39265 Feb 27  2004 /usr/share/locale/ru/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sk
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sk/LC_MESSAGES
+-rw-r--r--    1 root    root             7317 Feb 27  2004 /usr/share/locale/sk/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            78562 Feb 27  2004 /usr/share/locale/sk/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sl
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sl/LC_MESSAGES
+-rw-r--r--    1 root    root             6674 Feb 27  2004 /usr/share/locale/sl/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            64921 Feb 27  2004 /usr/share/locale/sl/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sv
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/sv/LC_MESSAGES
+-rw-r--r--    1 root    root             6711 Feb 27  2004 /usr/share/locale/sv/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            73992 Feb 27  2004 /usr/share/locale/sv/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/tr
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/tr/LC_MESSAGES
+-rw-r--r--    1 root    root             6883 Feb 27  2004 /usr/share/locale/tr/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            76931 Feb 27  2004 /usr/share/locale/tr/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/zh_TW
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/locale/zh_TW/LC_MESSAGES
+-rw-r--r--    1 root    root             6015 Feb 27  2004 /usr/share/locale/zh_TW/LC_MESSAGES/gettext-runtime.mo
+-rw-r--r--    1 root    root            31275 Feb 27  2004 /usr/share/locale/zh_TW/LC_MESSAGES/gettext-tools.mo
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/man/man1
+-rw-r--r--    1 root    root             1197 Feb 27  2004 /usr/share/man/man1/autopoint.1
+-rw-r--r--    1 root    root             2097 Feb 27  2004 /usr/share/man/man1/gettext.1
+-rw-r--r--    1 root    root             1405 Feb 27  2004 /usr/share/man/man1/gettextize.1
+-rw-r--r--    1 root    root             3634 Feb 27  2004 /usr/share/man/man1/msgattrib.1
+-rw-r--r--    1 root    root             3790 Feb 27  2004 /usr/share/man/man1/msgcat.1
+-rw-r--r--    1 root    root             1962 Feb 27  2004 /usr/share/man/man1/msgcmp.1
+-rw-r--r--    1 root    root             3588 Feb 27  2004 /usr/share/man/man1/msgcomm.1
+-rw-r--r--    1 root    root             2698 Feb 27  2004 /usr/share/man/man1/msgconv.1
+-rw-r--r--    1 root    root             2670 Feb 27  2004 /usr/share/man/man1/msgen.1
+-rw-r--r--    1 root    root             1939 Feb 27  2004 /usr/share/man/man1/msgexec.1
+-rw-r--r--    1 root    root             3132 Feb 27  2004 /usr/share/man/man1/msgfilter.1
+-rw-r--r--    1 root    root             3756 Feb 27  2004 /usr/share/man/man1/msgfmt.1
+-rw-r--r--    1 root    root             4198 Feb 27  2004 /usr/share/man/man1/msggrep.1
+-rw-r--r--    1 root    root             2172 Feb 27  2004 /usr/share/man/man1/msginit.1
+-rw-r--r--    1 root    root             4370 Feb 27  2004 /usr/share/man/man1/msgmerge.1
+-rw-r--r--    1 root    root             3036 Feb 27  2004 /usr/share/man/man1/msgunfmt.1
+-rw-r--r--    1 root    root             3471 Feb 27  2004 /usr/share/man/man1/msguniq.1
+-rw-r--r--    1 root    root             2143 Feb 27  2004 /usr/share/man/man1/ngettext.1
+-rw-r--r--    1 root    root             4502 Feb 27  2004 /usr/share/man/man1/xgettext.1
+drwxrwxrwx    2 root    root                0 Feb 27  2004 /usr/share/man/man3
+-rw-r--r--    1 root    root             2865 Feb 27  2004 /usr/share/man/man3/bind_textdomain_codeset.3
+-rw-r--r--    1 root    root             2717 Feb 27  2004 /usr/share/man/man3/bindtextdomain.3
+-rw-r--r--    1 root    root               19 Feb 27  2004 /usr/share/man/man3/dcgettext.3
+-rw-r--r--    1 root    root               20 Feb 27  2004 /usr/share/man/man3/dcngettext.3
+-rw-r--r--    1 root    root               19 Feb 27  2004 /usr/share/man/man3/dgettext.3
+-rw-r--r--    1 root    root               20 Feb 27  2004 /usr/share/man/man3/dngettext.3
+-rw-r--r--    1 root    root             4779 Feb 27  2004 /usr/share/man/man3/gettext.3
+-rw-r--r--    1 root    root             2731 Feb 27  2004 /usr/share/man/man3/ngettext.3
+-rw-r--r--    1 root    root             2163 Feb 27  2004 /usr/share/man/man3/textdomain.3
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gettext-0.12.1-1.m68kmint.rpm">Download</A></H2> (10,746,671 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

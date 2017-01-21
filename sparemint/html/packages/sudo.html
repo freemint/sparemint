@@ -1,0 +1,105 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - sudo, version 1.5.9p1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>sudo</H2>
+
+<UL> 
+<LI>Summary: Allows restricted root access for specified users.<BR>
+<LI>URL: <A HREF="http://www.courtesan.com/sudo/">http://www.courtesan.com/sudo/</A><BR>
+<LI>Version: 1.5.9p1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 313,437 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>sudo = 1.5.9p1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Sep 15 19:07:09 1999 UTC<BR>
+<LI>Upload date: Wed Sep 15 19:19:54 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/sudo-1.5.9p1-1.src.rpm">sudo-1.5.9p1-1.src.rpm</A>  (229,511 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;gufl0000@stud.uni-sb.de&gt; Wed Sep 15 09:00:00 1999 UTC<BR>
+- Initial version for Sparemint.
+<LI>Description:<BR>
+Sudo (superuser do) allows a system administrator to give certain<BR>users (or groups of users) the ability to run some (or all) commands<BR>as root while logging all commands and arguments. Sudo operates on a<BR>per-command basis.  It is not a replacement for the shell.  Features<BR>include:  the ability to restrict what commands a user may run on a<BR>per-host basis, copious logging of each command (providing a clear audit<BR>trail of who did what), a configurable timeout of the sudo command, and<BR>the ability to use the same configuration file (`sudoers') on many<BR>different machines.
+<LI>Files:<BR>
+<PRE>
+-r--r-----    1 root    root              286 Sep 15  1999 /etc/sudoers
+---s--x--x    1 root    root           112845 Sep 15  1999 /usr/bin/sudo
+drwxr-xr-x    2 root    root                0 Sep 15  1999 /usr/doc/sudo-1.5.9p1
+-rw-r--r--    1 root    root              589 Mar 28  1999 /usr/doc/sudo-1.5.9p1/BUGS
+-rw-r--r--    1 root    root            38800 Apr  2  1999 /usr/doc/sudo-1.5.9p1/CHANGES
+-rw-r--r--    1 root    root            17982 Mar 10  1994 /usr/doc/sudo-1.5.9p1/COPYING
+-rw-r--r--    1 root    root             6790 Nov  3  1998 /usr/doc/sudo-1.5.9p1/FAQ
+-rw-r--r--    1 root    root             1075 Oct 10  1997 /usr/doc/sudo-1.5.9p1/HISTORY
+-rw-r--r--    1 root    root             3541 Mar 28  1999 /usr/doc/sudo-1.5.9p1/README
+-rw-r--r--    1 root    root             6767 Mar 30  1999 /usr/doc/sudo-1.5.9p1/RUNSON
+-rw-r--r--    1 root    root             2523 Jan 17  1999 /usr/doc/sudo-1.5.9p1/TODO
+-rw-r--r--    1 root    root             6790 Nov  3  1998 /usr/doc/sudo-1.5.9p1/TROUBLESHOOTING
+-rw-r--r--    1 root    root             8384 Feb 17  1999 /usr/doc/sudo-1.5.9p1/sudo.pod
+-rw-r--r--    1 root    root             8991 Jan 17  1999 /usr/doc/sudo-1.5.9p1/sudoers.pod
+-rw-r--r--    1 root    root             3551 Mar 28  1999 /usr/doc/sudo-1.5.9p1/visudo.pod
+-r--r--r--    1 root    root             5424 Sep 15  1999 /usr/man/man5/sudoers.5.gz
+-r--r--r--    1 root    root             5747 Sep 15  1999 /usr/man/man8/sudo.8.gz
+-r--r--r--    1 root    root             3697 Sep 15  1999 /usr/man/man8/visudo.8.gz
+---x--x--x    1 root    root            78631 Sep 15  1999 /usr/sbin/visudo
+drwx------    2 root    root                0 Sep 15  1999 /var/run/sudo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/sudo-1.5.9p1-1.m68kmint.rpm">Download</A></H2> (152,546 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

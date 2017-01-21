@@ -1,0 +1,91 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mksh, version 40e, release 4.1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mksh</H2>
+
+<UL> 
+<LI>Summary: MirBSD Korn Shell<BR>
+<LI>URL: <A HREF="http://mirbsd.de/mksh">http://mirbsd.de/mksh</A><BR>
+<LI>Version: 40e<BR>
+<LI>Release: 4.1<BR>
+<LI>Group: <A HREF="../groups.html#System/Shells">System/Shells</A>
+<LI>License: MirOS and ISC</BR>
+<LI>Installation size: 728,779 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mksh = 40e-4.1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Mar 25 20:33:57 2012 UTC<BR>
+<LI>Upload date: Sun Mar 25 22:42:43 2012 UTC<BR>
+<LI>Packager:  (<A HREF="javascript:linkto_decode_mt('');"></A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/mksh-40e-4.1.src.rpm">mksh-40e-4.1.src.rpm</A>  (343,849 bytes)<BR>
+<LI>Last change: Thorsten Glaser &lt;tg@mirbsd.org&gt; 40e-4 Sun Mar 25 09:00:00 2012 UTC<BR>
+- initial SpareMiNT support, with ragnar76<BR>- regression testsuite failures are no longer fatal to the build
+<LI>Description:<BR>
+mksh is the MirBSD enhanced version of the Public Domain Korn<BR>shell (pdksh), a Bourne-compatible shell which is largely si‐<BR>milar to the original AT&amp;T Korn shell; mksh is the only pdksh<BR>derivate currently being actively developed.  It includes bug<BR>fixes and feature improvements, in order to produce a modern,<BR>robust shell good for interactive and especially script use.<BR>mksh has UTF-8 support (in substring operations and the Emacs<BR>editing mode) and, while R40e corresponds to OpenBSD 5.1-cur‐<BR>rent ksh (without GNU bash-like PS1 and fancy character clas‐<BR>ses), adheres to SUSv4 and is much more robust.  The code has<BR>been cleaned up and simplified, bugs fixed, standards compli‐<BR>ance added, and several enhancements (for extended compatibi‐<BR>lity to other modern shells – as well as a couple of its own)<BR>are available. It has sensible defaults as usual with BSD.<BR><P><BR>Authors:<BR>	Thorsten Glaser &lt;tg@mirbsd.org&gt;
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           551152 Mar 25  2012 /bin/mksh
+-rw-r--r--    1 root    root             8942 Dec 30  2011 /etc/mkshrc
+-rw-r--r--    1 root    root             1008 Dec 11  2011 /etc/skel/.mkshrc
+drwxr-xr-x    2 root    root                0 Mar 25  2012 /usr/doc/mksh-40e
+-rw-r--r--    1 root    root             8942 Dec 30  2011 /usr/doc/mksh-40e/dot.mkshrc
+-rw-r--r--    1 root    root           154639 Dec 30  2011 /usr/man/man1/mksh.1
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mksh-40e-4.1.m68kmint.rpm">Download</A></H2> (336,937 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

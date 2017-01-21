@@ -1,0 +1,165 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gphoto, version 0.4.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gphoto</H2>
+
+<UL> 
+<LI>Summary: gPhoto - the GNU Digital Still Camera Program<BR>
+<LI>URL: <A HREF="http://www.gphoto.org/">http://www.gphoto.org/</A><BR>
+<LI>Version: 0.4.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Graphics">Applications/Graphics</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 6,922,952 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gphoto = 0.4.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>gtk+ >= 1.2.3<BR>
+  <LI>imlib-devel >= 1.9.4<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Apr 15 15:57:07 2001 UTC<BR>
+<LI>Upload date: Wed Apr 18 18:51:46 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gphoto-0.4.3-1.src.rpm">gphoto-0.4.3-1.src.rpm</A>  (715,327 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;m.kehr@ndh.net&gt; Sat Apr 14 12:00:00 2001 UTC<BR>
+- ported by Frank Naumann<BR>- build against MiNTLib 0.56.1
+<LI>Description:<BR>
+gPhoto is part of the GNU project - and is an universal, free<BR>GTK+ application and library framework that lets you download<BR>images from several different digital camera models, and from<BR>the local harddrive, and generate HTML albums.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel          119794 Apr 15  2001 /usr/bin/dc21x_cam
+-rwxr-xr-x    1 root    wheel         2841437 Apr 15  2001 /usr/bin/gphoto
+-rwxr-xr-x    1 root    wheel          113941 Apr 15  2001 /usr/bin/gphoto-exifdump
+-rwxr-xr-x    1 root    wheel         1487551 Apr 15  2001 /usr/bin/qm100
+-rwxr-xr-x    1 root    wheel         1377220 Apr 15  2001 /usr/bin/qmxxx
+-rwxr-xr-x    1 root    wheel          154996 Apr 15  2001 /usr/bin/rsony
+drwxr-xr-x    2 root    wheel               0 Apr 15  2001 /usr/doc/gphoto-0.4.3
+-rw-r--r--    1 root    wheel            3058 Mar  6  2000 /usr/doc/gphoto-0.4.3/AUTHORS
+-rw-r--r--    1 root    wheel           17976 May 27  1999 /usr/doc/gphoto-0.4.3/COPYING
+-rw-r--r--    1 root    wheel          110542 Mar  6  2000 /usr/doc/gphoto-0.4.3/ChangeLog
+-rw-r--r--    1 root    wheel           14401 Oct  4  1999 /usr/doc/gphoto-0.4.3/FAQ
+-rw-r--r--    1 root    wheel           14654 Oct  4  1999 /usr/doc/gphoto-0.4.3/MANUAL
+-rw-r--r--    1 root    wheel            3101 Mar  6  2000 /usr/doc/gphoto-0.4.3/NEWS
+-rw-r--r--    1 root    wheel            8145 Mar  6  2000 /usr/doc/gphoto-0.4.3/README
+-rw-r--r--    1 root    wheel            5905 Oct  4  1999 /usr/doc/gphoto-0.4.3/THANKS
+-rw-r--r--    1 root    wheel            3927 Jun 25  1999 /usr/doc/gphoto-0.4.3/THEMES
+-rw-r--r--    1 root    wheel           39078 Apr 15  2001 /usr/lib/libgphoto_canon.a
+-rwxr-xr-x    1 root    wheel             627 Apr 15  2001 /usr/lib/libgphoto_canon.la
+-rw-r--r--    1 root    wheel           47978 Apr 15  2001 /usr/lib/libgphoto_casio_qv.a
+-rwxr-xr-x    1 root    wheel             636 Apr 15  2001 /usr/lib/libgphoto_casio_qv.la
+-rw-r--r--    1 root    wheel            4980 Apr 15  2001 /usr/lib/libgphoto_coolpix600.a
+-rwxr-xr-x    1 root    wheel             642 Apr 15  2001 /usr/lib/libgphoto_coolpix600.la
+-rw-r--r--    1 root    wheel           16948 Apr 15  2001 /usr/lib/libgphoto_dimage_v.a
+-rwxr-xr-x    1 root    wheel             636 Apr 15  2001 /usr/lib/libgphoto_dimage_v.la
+-rw-r--r--    1 root    wheel            3980 Apr 15  2001 /usr/lib/libgphoto_dir.a
+-rwxr-xr-x    1 root    wheel             621 Apr 15  2001 /usr/lib/libgphoto_dir.la
+-rw-r--r--    1 root    wheel           28784 Apr 15  2001 /usr/lib/libgphoto_fuji.a
+-rwxr-xr-x    1 root    wheel             624 Apr 15  2001 /usr/lib/libgphoto_fuji.la
+-rw-r--r--    1 root    wheel           57882 Apr 15  2001 /usr/lib/libgphoto_kodak_dc2x.a
+-rwxr-xr-x    1 root    wheel             642 Apr 15  2001 /usr/lib/libgphoto_kodak_dc2x.la
+-rw-r--r--    1 root    wheel           19480 Apr 15  2001 /usr/lib/libgphoto_kodak_generic.a
+-rwxr-xr-x    1 root    wheel             651 Apr 15  2001 /usr/lib/libgphoto_kodak_generic.la
+-rw-r--r--    1 root    wheel           39650 Apr 15  2001 /usr/lib/libgphoto_konica_qm100.a
+-rwxr-xr-x    1 root    wheel             648 Apr 15  2001 /usr/lib/libgphoto_konica_qm100.la
+-rw-r--r--    1 root    wheel           31574 Apr 15  2001 /usr/lib/libgphoto_konica_qmxxx.a
+-rwxr-xr-x    1 root    wheel             648 Apr 15  2001 /usr/lib/libgphoto_konica_qmxxx.la
+-rw-r--r--    1 root    wheel           32298 Apr 15  2001 /usr/lib/libgphoto_mustek_mdc800.a
+-rwxr-xr-x    1 root    wheel             651 Apr 15  2001 /usr/lib/libgphoto_mustek_mdc800.la
+-rw-r--r--    1 root    wheel           88468 Apr 15  2001 /usr/lib/libgphoto_philips.a
+-rwxr-xr-x    1 root    wheel             633 Apr 15  2001 /usr/lib/libgphoto_philips.la
+-rw-r--r--    1 root    wheel           23586 Apr 15  2001 /usr/lib/libgphoto_photopc.a
+-rwxr-xr-x    1 root    wheel             633 Apr 15  2001 /usr/lib/libgphoto_photopc.la
+-rw-r--r--    1 root    wheel           50502 Apr 15  2001 /usr/lib/libgphoto_ricoh300z.a
+-rwxr-xr-x    1 root    wheel             639 Apr 15  2001 /usr/lib/libgphoto_ricoh300z.la
+-rw-r--r--    1 root    wheel            3712 Apr 15  2001 /usr/lib/libgphoto_samsung.a
+-rwxr-xr-x    1 root    wheel             633 Apr 15  2001 /usr/lib/libgphoto_samsung.la
+-rw-r--r--    1 root    wheel           22160 Apr 15  2001 /usr/lib/libgphoto_sony_dscf1.a
+-rwxr-xr-x    1 root    wheel             642 Apr 15  2001 /usr/lib/libgphoto_sony_dscf1.la
+-rw-r--r--    1 root    wheel           43900 Apr 15  2001 /usr/lib/libgphoto_sony_dscf55.a
+-rwxr-xr-x    1 root    wheel             645 Apr 15  2001 /usr/lib/libgphoto_sony_dscf55.la
+-rw-r--r--    1 root    wheel            2429 Apr 15  2001 /usr/man/man1/gphoto.1
+-rw-r--r--    1 root    wheel             144 Apr 15  2001 /usr/share/gnome/apps/Graphics/gphoto.desktop
+-rw-r--r--    1 root    wheel            3058 Apr 15  2001 /usr/share/gphoto/doc/AUTHORS
+-rw-r--r--    1 root    wheel           14654 Apr 15  2001 /usr/share/gphoto/doc/MANUAL
+-rw-r--r--    1 root    wheel            4597 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/gphotobutton.png
+-rw-r--r--    1 root    wheel             534 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/index_bottom.html
+-rw-r--r--    1 root    wheel             483 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/index_top.html
+-rw-r--r--    1 root    wheel             941 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/mwcos.png
+-rw-r--r--    1 root    wheel            1329 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/picture.html
+-rw-r--r--    1 root    wheel            1008 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/styles.css
+-rw-r--r--    1 root    wheel             122 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/thumbnail.html
+-rw-r--r--    1 root    wheel            1149 Apr 15  2001 /usr/share/gphoto/gallery/CSStheme/vh40.png
+-rw-r--r--    1 root    wheel           13470 Apr 15  2001 /usr/share/gphoto/gallery/Default/banner.gif
+-rw-r--r--    1 root    wheel            3398 Apr 15  2001 /usr/share/gphoto/gallery/Default/index.gif
+-rw-r--r--    1 root    wheel              76 Apr 15  2001 /usr/share/gphoto/gallery/Default/index_bottom.html
+-rw-r--r--    1 root    wheel             207 Apr 15  2001 /usr/share/gphoto/gallery/Default/index_top.html
+-rw-r--r--    1 root    wheel            3283 Apr 15  2001 /usr/share/gphoto/gallery/Default/next.gif
+-rw-r--r--    1 root    wheel             543 Apr 15  2001 /usr/share/gphoto/gallery/Default/picture.html
+-rw-r--r--    1 root    wheel            3738 Apr 15  2001 /usr/share/gphoto/gallery/Default/previous.gif
+-rw-r--r--    1 root    wheel             133 Apr 15  2001 /usr/share/gphoto/gallery/Default/thumbnail.html
+-rw-r--r--    1 root    wheel             126 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/backgrnd.gif
+-rw-r--r--    1 root    wheel           14282 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/banner.gif
+-rw-r--r--    1 root    wheel            2829 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/index.gif
+-rw-r--r--    1 root    wheel             101 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/index_bottom.html
+-rw-r--r--    1 root    wheel             268 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/index_top.html
+-rw-r--r--    1 root    wheel            2730 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/next.gif
+-rw-r--r--    1 root    wheel             684 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/picture.html
+-rw-r--r--    1 root    wheel            3064 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/previous.gif
+-rw-r--r--    1 root    wheel              89 Apr 15  2001 /usr/share/gphoto/gallery/RedNGray/thumbnail.html
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gphoto-0.4.3-1.m68kmint.rpm">Download</A></H2> (3,186,603 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

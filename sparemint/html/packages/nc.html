@@ -1,0 +1,102 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - nc, version 1.10, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>nc</H2>
+
+<UL> 
+<LI>Summary: Reads and writes data across network connections using TCP or UDP.<BR>
+
+<LI>Version: 1.10<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 169,142 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>nc = 1.10-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Aug 26 09:47:20 1999 UTC<BR>
+<LI>Upload date: Thu Aug 26 11:47:32 1999 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/nc-1.10-2.src.rpm">nc-1.10-2.src.rpm</A>  (79,874 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Wed Aug 25 09:00:00 1999 UTC<BR>
+- correct Packager and Vendor
+<LI>Description:<BR>
+The nc package contains Netcat (the program is actually nc), a simple<BR>utility for reading and writing data across network connections, using<BR>the TCP or UDP protocols. Netcat is intended to be a reliable back-end<BR>tool which can be used directly or easily driven by other programs and<BR>scripts.  Netcat is also a feature-rich network debugging and exploration<BR>tool, since it can create many different connections and has many<BR>built-in capabilities.<BR><P><BR>You may want to install the netcat package if you are administering a<BR>network and you'd like to use its debugging and network exploration<BR>capabilities.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            78074 Aug 26  1999 /usr/bin/nc
+drwxr-xr-x    2 root    root                0 Aug 26  1999 /usr/doc/nc-1.10
+-rw-r--r--    1 root    root             3840 Mar 20  1996 /usr/doc/nc-1.10/Changelog
+-rw-r--r--    1 root    root            60834 Mar 20  1996 /usr/doc/nc-1.10/README
+drwxr-xr-x    2 root    root                0 Aug 26  1999 /usr/doc/nc-1.10/scripts
+-rw-r--r--    1 root    root              239 Feb 23  1996 /usr/doc/nc-1.10/scripts/README
+-rwxr-xr-x    1 root    root             1140 Feb 23  1996 /usr/doc/nc-1.10/scripts/alta
+-rwxr-xr-x    1 root    root              487 Feb 23  1996 /usr/doc/nc-1.10/scripts/bsh
+-rwxr-xr-x    1 root    root              883 Mar 20  1996 /usr/doc/nc-1.10/scripts/dist.sh
+-rwxr-xr-x    1 root    root             1892 Feb 23  1996 /usr/doc/nc-1.10/scripts/irc
+-rwxr-xr-x    1 root    root             1005 Feb 23  1996 /usr/doc/nc-1.10/scripts/iscan
+-rwxr-xr-x    1 root    root             1467 Feb 23  1996 /usr/doc/nc-1.10/scripts/ncp
+-rwxr-xr-x    1 root    root             2116 Mar 20  1996 /usr/doc/nc-1.10/scripts/probe
+-rwxr-xr-x    1 root    root             5070 Feb 23  1996 /usr/doc/nc-1.10/scripts/web
+-rwxr-xr-x    1 root    root             5499 Feb 23  1996 /usr/doc/nc-1.10/scripts/webproxy
+-rwxr-xr-x    1 root    root             1559 Feb 23  1996 /usr/doc/nc-1.10/scripts/webrelay
+-rwxr-xr-x    1 root    root             2989 Feb 23  1996 /usr/doc/nc-1.10/scripts/websearch
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/nc-1.10-2.m68kmint.rpm">Download</A></H2> (81,122 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

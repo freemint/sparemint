@@ -1,0 +1,389 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - samba-swat, version 3.0.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>samba-swat</H2>
+
+<UL> 
+<LI>Summary: The Samba SMB server configuration program.<BR>
+<LI>URL: <A HREF="http://www.samba.org/">http://www.samba.org/</A><BR>
+<LI>Version: 3.0.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: GNU GPL Version 2</BR>
+<LI>Installation size: 10,087,654 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>samba-swat = 3.0.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>samba = 3.0.1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon Feb 23 03:19:44 2004 UTC<BR>
+<LI>Upload date: Sun Feb 29 09:57:08 2004 UTC<BR>
+<LI>Packager: Mark Duckworth (<A HREF="javascript:linkto_decode_mt('nbjmup;nevdlxpsuiAbubsj.tpvsdf/dpn');">mduckworth(at)atari-source.com</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/samba-3.0.1-1.src.rpm">samba-3.0.1-1.src.rpm</A>  (8,282,747 bytes)<BR>
+<LI>Last change: Mark Duckworth &lt;mduckworth@atari-source.com&gt; 3.0.1-1 Wed Feb 18 22:00:00 2004 UTC<BR>
+- Initial port to sparemint with spec creation
+<LI>Description:<BR>
+The samba-swat package includes the new SWAT (Samba Web Administration<BR>Tool), for remotely managing Samba's smb.conf file using your favorite<BR>Web browser.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            12449 Feb 22  2004 /usr/lib/samba/de.msg
+-rwxr-xr-x    1 root    root            10589 Feb 22  2004 /usr/lib/samba/en.msg
+-rwxr-xr-x    1 root    root            12776 Feb 22  2004 /usr/lib/samba/fr.msg
+-rwxr-xr-x    1 root    root            12458 Feb 22  2004 /usr/lib/samba/it.msg
+-rwxr-xr-x    1 root    root            13341 Feb 22  2004 /usr/lib/samba/ja.msg
+-rwxr-xr-x    1 root    root            13448 Feb 22  2004 /usr/lib/samba/nl.msg
+-rwxr-xr-x    1 root    root            12443 Feb 22  2004 /usr/lib/samba/pl.msg
+-rwxr-xr-x    1 root    root            12528 Feb 22  2004 /usr/lib/samba/tr.msg
+-rw-r--r--    1 root    root             6611 Feb 22  2004 /usr/man/man8/swat.8
+-rwxr-xr-x    1 root    root          1417529 Feb 22  2004 /usr/sbin/swat
+drwxr-xr-x    2 root    root                0 Feb 22  2004 /usr/share/swat
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/help
+-rw-r--r--    1 root    root            66785 Feb 22  2004 /usr/share/swat/help/AccessControls.html
+-rw-r--r--    1 root    root            15451 Feb 22  2004 /usr/share/swat/help/AdvancedNetworkManagement.html
+-rw-r--r--    1 root    root             5961 Feb 22  2004 /usr/share/swat/help/Appendixes.html
+-rw-r--r--    1 root    root             3127 Feb 22  2004 /usr/share/swat/help/Backup.html
+-rw-r--r--    1 root    root           260084 Feb 22  2004 /usr/share/swat/help/CUPS-printing.html
+-rw-r--r--    1 root    root             2664 Feb 22  2004 /usr/share/swat/help/ClientConfig.html
+-rw-r--r--    1 root    root             2617 Feb 22  2004 /usr/share/swat/help/DNSDHCP.html
+-rw-r--r--    1 root    root             2617 Feb 22  2004 /usr/share/swat/help/FastStart.html
+-rw-r--r--    1 root    root             7474 Feb 22  2004 /usr/share/swat/help/Further-Resources.html
+-rw-r--r--    1 root    root            22790 Feb 22  2004 /usr/share/swat/help/InterdomainTrusts.html
+-rw-r--r--    1 root    root            15284 Feb 22  2004 /usr/share/swat/help/IntroSMB.html
+-rw-r--r--    1 root    root            23863 Feb 22  2004 /usr/share/swat/help/NT4Migration.html
+-rw-r--r--    1 root    root            77813 Feb 22  2004 /usr/share/swat/help/NetworkBrowsing.html
+-rw-r--r--    1 root    root            20068 Feb 22  2004 /usr/share/swat/help/Other-Clients.html
+-rw-r--r--    1 root    root            27290 Feb 22  2004 /usr/share/swat/help/PolicyMgmt.html
+-rw-r--r--    1 root    root            10828 Feb 22  2004 /usr/share/swat/help/Portability.html
+-rw-r--r--    1 root    root            60713 Feb 22  2004 /usr/share/swat/help/ProfileMgmt.html
+-rw-r--r--    1 root    root            27125 Feb 22  2004 /usr/share/swat/help/SWAT.html
+-rw-r--r--    1 root    root           275411 Feb 22  2004 /usr/share/swat/help/Samba-Developers-Guide.html
+-rw-r--r--    1 root    root          1576283 Feb 22  2004 /usr/share/swat/help/Samba-HOWTO-Collection.html
+-rw-r--r--    1 root    root             2599 Feb 22  2004 /usr/share/swat/help/SambaHA.html
+-rw-r--r--    1 root    root            32520 Feb 22  2004 /usr/share/swat/help/ServerType.html
+-rw-r--r--    1 root    root            14208 Feb 22  2004 /usr/share/swat/help/StandAloneServer.html
+-rw-r--r--    1 root    root            16307 Feb 22  2004 /usr/share/swat/help/VFS.html
+-rw-r--r--    1 root    root            11492 Feb 22  2004 /usr/share/swat/help/bugreport.html
+-rw-r--r--    1 root    root            21708 Feb 22  2004 /usr/share/swat/help/compiling.html
+-rw-r--r--    1 root    root            25457 Feb 22  2004 /usr/share/swat/help/diagnosis.html
+-rw-r--r--    1 root    root            50526 Feb 22  2004 /usr/share/swat/help/domain-member.html
+-rw-r--r--    1 root    root             2118 Feb 22  2004 /usr/share/swat/help/editreg.1.html
+-rw-r--r--    1 root    root             5909 Feb 22  2004 /usr/share/swat/help/findsmb.1.html
+-rw-r--r--    1 root    root            26454 Feb 22  2004 /usr/share/swat/help/groupmapping.html
+-rw-r--r--    1 root    root            65786 Feb 22  2004 /usr/share/swat/help/index.html
+-rw-r--r--    1 root    root            20864 Feb 22  2004 /usr/share/swat/help/install.html
+-rw-r--r--    1 root    root            32281 Feb 22  2004 /usr/share/swat/help/integrate-ms-networks.html
+-rw-r--r--    1 root    root             3808 Feb 22  2004 /usr/share/swat/help/introduction.html
+-rw-r--r--    1 root    root            64197 Feb 22  2004 /usr/share/swat/help/ix01.html
+-rw-r--r--    1 root    root             4096 Feb 22  2004 /usr/share/swat/help/lmhosts.5.html
+-rw-r--r--    1 root    root            48993 Feb 22  2004 /usr/share/swat/help/locking.html
+-rw-r--r--    1 root    root             3624 Feb 22  2004 /usr/share/swat/help/log2pcap.1.html
+-rw-r--r--    1 root    root             4625 Feb 22  2004 /usr/share/swat/help/migration.html
+-rw-r--r--    1 root    root             8769 Feb 22  2004 /usr/share/swat/help/mount.cifs.8.html
+-rw-r--r--    1 root    root             9040 Feb 22  2004 /usr/share/swat/help/msdfs.html
+-rw-r--r--    1 root    root            23231 Feb 22  2004 /usr/share/swat/help/net.8.html
+-rw-r--r--    1 root    root            13617 Feb 22  2004 /usr/share/swat/help/nmbd.8.html
+-rw-r--r--    1 root    root            10308 Feb 22  2004 /usr/share/swat/help/nmblookup.1.html
+-rw-r--r--    1 root    root             8635 Feb 22  2004 /usr/share/swat/help/ntlm_auth.1.html
+-rw-r--r--    1 root    root            37522 Feb 22  2004 /usr/share/swat/help/optional.html
+-rw-r--r--    1 root    root            45330 Feb 22  2004 /usr/share/swat/help/pam.html
+-rw-r--r--    1 root    root            81393 Feb 22  2004 /usr/share/swat/help/passdb.html
+-rw-r--r--    1 root    root            12106 Feb 22  2004 /usr/share/swat/help/pdbedit.8.html
+-rw-r--r--    1 root    root             1947 Feb 22  2004 /usr/share/swat/help/pr01.html
+-rw-r--r--    1 root    root            20495 Feb 22  2004 /usr/share/swat/help/pr02.html
+-rw-r--r--    1 root    root           162395 Feb 22  2004 /usr/share/swat/help/printing.html
+-rw-r--r--    1 root    root            16785 Feb 22  2004 /usr/share/swat/help/problems.html
+-rw-r--r--    1 root    root             2038 Feb 22  2004 /usr/share/swat/help/profiles.1.html
+-rw-r--r--    1 root    root            22007 Feb 22  2004 /usr/share/swat/help/rpcclient.1.html
+-rw-r--r--    1 root    root            34778 Feb 22  2004 /usr/share/swat/help/samba-bdc.html
+-rw-r--r--    1 root    root            52294 Feb 22  2004 /usr/share/swat/help/samba-pdc.html
+-rw-r--r--    1 root    root            13388 Feb 22  2004 /usr/share/swat/help/samba.7.html
+-rw-r--r--    1 root    root            18357 Feb 22  2004 /usr/share/swat/help/securing-samba.html
+-rw-r--r--    1 root    root           366986 Feb 22  2004 /usr/share/swat/help/smb.conf.5.html
+-rw-r--r--    1 root    root             9912 Feb 22  2004 /usr/share/swat/help/smbcacls.1.html
+-rw-r--r--    1 root    root            38150 Feb 22  2004 /usr/share/swat/help/smbclient.1.html
+-rw-r--r--    1 root    root             9152 Feb 22  2004 /usr/share/swat/help/smbcontrol.1.html
+-rw-r--r--    1 root    root             7979 Feb 22  2004 /usr/share/swat/help/smbcquotas.1.html
+-rw-r--r--    1 root    root            16467 Feb 22  2004 /usr/share/swat/help/smbd.8.html
+-rw-r--r--    1 root    root             3152 Feb 22  2004 /usr/share/swat/help/smbmnt.8.html
+-rw-r--r--    1 root    root            10062 Feb 22  2004 /usr/share/swat/help/smbmount.8.html
+-rw-r--r--    1 root    root             8291 Feb 22  2004 /usr/share/swat/help/smbpasswd.5.html
+-rw-r--r--    1 root    root            15445 Feb 22  2004 /usr/share/swat/help/smbpasswd.8.html
+-rw-r--r--    1 root    root             9200 Feb 22  2004 /usr/share/swat/help/smbsh.1.html
+-rw-r--r--    1 root    root             4295 Feb 22  2004 /usr/share/swat/help/smbspool.8.html
+-rw-r--r--    1 root    root             5252 Feb 22  2004 /usr/share/swat/help/smbstatus.1.html
+-rw-r--r--    1 root    root             6007 Feb 22  2004 /usr/share/swat/help/smbtar.1.html
+-rw-r--r--    1 root    root             6100 Feb 22  2004 /usr/share/swat/help/smbtree.1.html
+-rw-r--r--    1 root    root             2287 Feb 22  2004 /usr/share/swat/help/smbumount.8.html
+-rw-r--r--    1 root    root            15660 Feb 22  2004 /usr/share/swat/help/speed.html
+-rw-r--r--    1 root    root             9388 Feb 22  2004 /usr/share/swat/help/swat.8.html
+-rw-r--r--    1 root    root             3445 Feb 22  2004 /usr/share/swat/help/tdbbackup.8.html
+-rw-r--r--    1 root    root             6215 Feb 22  2004 /usr/share/swat/help/testparm.1.html
+-rw-r--r--    1 root    root             4651 Feb 22  2004 /usr/share/swat/help/testprns.1.html
+-rw-r--r--    1 root    root             3201 Feb 22  2004 /usr/share/swat/help/troubleshooting.html
+-rw-r--r--    1 root    root             8927 Feb 22  2004 /usr/share/swat/help/type.html
+-rw-r--r--    1 root    root            25206 Feb 22  2004 /usr/share/swat/help/unicode.html
+-rw-r--r--    1 root    root            24080 Feb 22  2004 /usr/share/swat/help/upgrading-to-3.0.html
+-rw-r--r--    1 root    root             6965 Feb 22  2004 /usr/share/swat/help/vfstest.1.html
+-rw-r--r--    1 root    root             9871 Feb 22  2004 /usr/share/swat/help/wbinfo.1.html
+-rw-r--r--    1 root    root             4178 Feb 22  2004 /usr/share/swat/help/welcome.html
+-rw-r--r--    1 root    root            53194 Feb 22  2004 /usr/share/swat/help/winbind.html
+-rw-r--r--    1 root    root            18293 Feb 22  2004 /usr/share/swat/help/winbindd.8.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/images
+-rw-r--r--    1 root    root             2004 Feb 22  2004 /usr/share/swat/images/globals.gif
+-rw-r--r--    1 root    root             2044 Feb 22  2004 /usr/share/swat/images/home.gif
+-rw-r--r--    1 root    root             1993 Feb 22  2004 /usr/share/swat/images/passwd.gif
+-rw-r--r--    1 root    root             2077 Feb 22  2004 /usr/share/swat/images/printers.gif
+-rw-r--r--    1 root    root             3643 Feb 22  2004 /usr/share/swat/images/samba.gif
+-rw-r--r--    1 root    root             2006 Feb 22  2004 /usr/share/swat/images/shares.gif
+-rw-r--r--    1 root    root             2080 Feb 22  2004 /usr/share/swat/images/status.gif
+-rw-r--r--    1 root    root             1939 Feb 22  2004 /usr/share/swat/images/viewconfig.gif
+-rw-r--r--    1 root    root             2554 Feb 22  2004 /usr/share/swat/images/wizard.gif
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/include
+-rw-r--r--    1 root    root               44 Feb 22  2004 /usr/share/swat/include/footer.html
+-rw-r--r--    1 root    root              297 Feb 22  2004 /usr/share/swat/include/header.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/ja
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/ja/help
+-rw-r--r--    1 root    root             4498 Feb 22  2004 /usr/share/swat/lang/ja/help/welcome.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/ja/images
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/ja/include
+-rw-r--r--    1 root    root               44 Feb 22  2004 /usr/share/swat/lang/ja/include/footer.html
+-rw-r--r--    1 root    root              446 Feb 22  2004 /usr/share/swat/lang/ja/include/header.html
+-rw-r--r--    1 root    root              369 Feb 22  2004 /usr/share/swat/lang/ja/include/header.nocss.html
+-rw-r--r--    1 root    root               39 Feb 22  2004 /usr/share/swat/lang/ja/include/header_css.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/tr
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/tr/help
+-rw-r--r--    1 root    root             4189 Feb 22  2004 /usr/share/swat/lang/tr/help/welcome.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/tr/images
+-rw-r--r--    1 root    root              442 Feb 22  2004 /usr/share/swat/lang/tr/images/globals.gif
+-rw-r--r--    1 root    root              608 Feb 22  2004 /usr/share/swat/lang/tr/images/home.gif
+-rw-r--r--    1 root    root              326 Feb 22  2004 /usr/share/swat/lang/tr/images/passwd.gif
+-rw-r--r--    1 root    root              519 Feb 22  2004 /usr/share/swat/lang/tr/images/printers.gif
+-rw-r--r--    1 root    root             3643 Feb 22  2004 /usr/share/swat/lang/tr/images/samba.gif
+-rw-r--r--    1 root    root              474 Feb 22  2004 /usr/share/swat/lang/tr/images/shares.gif
+-rw-r--r--    1 root    root              431 Feb 22  2004 /usr/share/swat/lang/tr/images/status.gif
+-rw-r--r--    1 root    root              455 Feb 22  2004 /usr/share/swat/lang/tr/images/viewconfig.gif
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/lang/tr/include
+-rw-r--r--    1 root    root              291 Feb 22  2004 /usr/share/swat/lang/tr/include/header.html
+drwxr-xr-x    2 root    root                0 Feb 22  2004 /usr/share/swat/using_samba
+-rw-r--r--    1 root    root             9603 Feb 22  2004 /usr/share/swat/using_samba/appa.html
+-rw-r--r--    1 root    root           244007 Feb 22  2004 /usr/share/swat/using_samba/appb.html
+-rw-r--r--    1 root    root           150859 Feb 22  2004 /usr/share/swat/using_samba/appc.html
+-rw-r--r--    1 root    root             4700 Feb 22  2004 /usr/share/swat/using_samba/appd.html
+-rw-r--r--    1 root    root            25247 Feb 22  2004 /usr/share/swat/using_samba/appe.html
+-rw-r--r--    1 root    root            24675 Feb 22  2004 /usr/share/swat/using_samba/appf.html
+-rw-r--r--    1 root    root            21387 Feb 22  2004 /usr/share/swat/using_samba/appg.html
+-rw-r--r--    1 root    root            13275 Feb 22  2004 /usr/share/swat/using_samba/ch00.html
+-rw-r--r--    1 root    root           110637 Feb 22  2004 /usr/share/swat/using_samba/ch01.html
+-rw-r--r--    1 root    root            73608 Feb 22  2004 /usr/share/swat/using_samba/ch02.html
+-rw-r--r--    1 root    root            92841 Feb 22  2004 /usr/share/swat/using_samba/ch03.html
+-rw-r--r--    1 root    root           117236 Feb 22  2004 /usr/share/swat/using_samba/ch04.html
+-rw-r--r--    1 root    root            74171 Feb 22  2004 /usr/share/swat/using_samba/ch05.html
+-rw-r--r--    1 root    root            89217 Feb 22  2004 /usr/share/swat/using_samba/ch06.html
+-rw-r--r--    1 root    root            72288 Feb 22  2004 /usr/share/swat/using_samba/ch07.html
+-rw-r--r--    1 root    root           127097 Feb 22  2004 /usr/share/swat/using_samba/ch08.html
+-rw-r--r--    1 root    root           125503 Feb 22  2004 /usr/share/swat/using_samba/ch09.html
+-rw-r--r--    1 root    root            58292 Feb 22  2004 /usr/share/swat/using_samba/ch10.html
+-rw-r--r--    1 root    root            50755 Feb 22  2004 /usr/share/swat/using_samba/ch11.html
+-rw-r--r--    1 root    root           134140 Feb 22  2004 /usr/share/swat/using_samba/ch12.html
+drwxrwxrwx    2 root    root                0 Feb 22  2004 /usr/share/swat/using_samba/figs
+-rw-r--r--    1 root    root             7665 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0101.gif
+-rw-r--r--    1 root    root            21795 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0102.gif
+-rw-r--r--    1 root    root            10700 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0103.gif
+-rw-r--r--    1 root    root            13928 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0104.gif
+-rw-r--r--    1 root    root            18031 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0105.gif
+-rw-r--r--    1 root    root            17191 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0106.gif
+-rw-r--r--    1 root    root            11492 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0107.gif
+-rw-r--r--    1 root    root            18629 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0108.gif
+-rw-r--r--    1 root    root            18727 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0109.gif
+-rw-r--r--    1 root    root             4794 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0110.gif
+-rw-r--r--    1 root    root             5251 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0111.gif
+-rw-r--r--    1 root    root             7330 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0112.gif
+-rw-r--r--    1 root    root            10850 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0113.gif
+-rw-r--r--    1 root    root            22017 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0114.gif
+-rw-r--r--    1 root    root             8734 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0201.gif
+-rw-r--r--    1 root    root            35825 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0202.gif
+-rw-r--r--    1 root    root            35921 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0203.gif
+-rw-r--r--    1 root    root            73792 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0204.gif
+-rw-r--r--    1 root    root             7580 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0301.gif
+-rw-r--r--    1 root    root             5703 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0302.gif
+-rw-r--r--    1 root    root            14966 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0303.gif
+-rw-r--r--    1 root    root            10735 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0304.gif
+-rw-r--r--    1 root    root            14728 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0305.gif
+-rw-r--r--    1 root    root            18300 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0306.gif
+-rw-r--r--    1 root    root            13970 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0307.gif
+-rw-r--r--    1 root    root            14879 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0308.gif
+-rw-r--r--    1 root    root            15071 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0309.gif
+-rw-r--r--    1 root    root            11721 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0310.gif
+-rw-r--r--    1 root    root            11759 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0311.gif
+-rw-r--r--    1 root    root            17058 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0312.gif
+-rw-r--r--    1 root    root             8350 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0313.gif
+-rw-r--r--    1 root    root            12776 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0314.gif
+-rw-r--r--    1 root    root            15011 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0315.gif
+-rw-r--r--    1 root    root            20310 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0316.gif
+-rw-r--r--    1 root    root            15084 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0317.gif
+-rw-r--r--    1 root    root            17269 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0318.gif
+-rw-r--r--    1 root    root            15653 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0319.gif
+-rw-r--r--    1 root    root             9507 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0320.gif
+-rw-r--r--    1 root    root            10245 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0321.gif
+-rw-r--r--    1 root    root            11067 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0322.gif
+-rw-r--r--    1 root    root            10528 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0323.gif
+-rw-r--r--    1 root    root            13707 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0324.gif
+-rw-r--r--    1 root    root            12024 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0325.gif
+-rw-r--r--    1 root    root            13686 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0326.gif
+-rw-r--r--    1 root    root            16603 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0327.gif
+-rw-r--r--    1 root    root             8453 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0328.gif
+-rw-r--r--    1 root    root            14858 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0329.gif
+-rw-r--r--    1 root    root            17140 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0330.gif
+-rw-r--r--    1 root    root            10450 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0331.gif
+-rw-r--r--    1 root    root             7011 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0332.gif
+-rw-r--r--    1 root    root             3784 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0333.gif
+-rw-r--r--    1 root    root             5820 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0334.gif
+-rw-r--r--    1 root    root             5928 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0335.gif
+-rw-r--r--    1 root    root            16622 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0336.gif
+-rw-r--r--    1 root    root            17157 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0337.gif
+-rw-r--r--    1 root    root            15670 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0338.gif
+-rw-r--r--    1 root    root            12941 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0339.gif
+-rw-r--r--    1 root    root            10493 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0340.gif
+-rw-r--r--    1 root    root             9531 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0341.gif
+-rw-r--r--    1 root    root            16674 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0342.gif
+-rw-r--r--    1 root    root            17796 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0343.gif
+-rw-r--r--    1 root    root            20926 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0344.gif
+-rw-r--r--    1 root    root            19423 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0345.gif
+-rw-r--r--    1 root    root            15320 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0346.gif
+-rw-r--r--    1 root    root             7563 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0347.gif
+-rw-r--r--    1 root    root             7634 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0348.gif
+-rw-r--r--    1 root    root            26522 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0349.gif
+-rw-r--r--    1 root    root            35358 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0350.gif
+-rw-r--r--    1 root    root            29480 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0351.gif
+-rw-r--r--    1 root    root            25568 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0352.gif
+-rw-r--r--    1 root    root            22024 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0353.gif
+-rw-r--r--    1 root    root            18138 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0354.gif
+-rw-r--r--    1 root    root            47008 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0355.gif
+-rw-r--r--    1 root    root            20807 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0356.gif
+-rw-r--r--    1 root    root            33800 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0357.gif
+-rw-r--r--    1 root    root            24628 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0358.gif
+-rw-r--r--    1 root    root            24233 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0359.gif
+-rw-r--r--    1 root    root            13343 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0360.gif
+-rw-r--r--    1 root    root            13356 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0361.gif
+-rw-r--r--    1 root    root            24274 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0401.gif
+-rw-r--r--    1 root    root            11721 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0402.gif
+-rw-r--r--    1 root    root             8500 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0403.gif
+-rw-r--r--    1 root    root            10769 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0404.gif
+-rw-r--r--    1 root    root            14430 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0405.gif
+-rw-r--r--    1 root    root            10133 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0406.gif
+-rw-r--r--    1 root    root            24997 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0407.gif
+-rw-r--r--    1 root    root            11005 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0408.gif
+-rw-r--r--    1 root    root            17776 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0409.gif
+-rw-r--r--    1 root    root            22502 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0410.gif
+-rw-r--r--    1 root    root            28112 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0411.gif
+-rw-r--r--    1 root    root            17096 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0412.gif
+-rw-r--r--    1 root    root            16881 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0413.gif
+-rw-r--r--    1 root    root             7370 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0414.gif
+-rw-r--r--    1 root    root            15906 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0415.gif
+-rw-r--r--    1 root    root            10504 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0416.gif
+-rw-r--r--    1 root    root            18004 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0417.gif
+-rw-r--r--    1 root    root            11580 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0501.gif
+-rw-r--r--    1 root    root            12753 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0502.gif
+-rw-r--r--    1 root    root            11949 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0503.gif
+-rw-r--r--    1 root    root            16743 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0504.gif
+-rw-r--r--    1 root    root            16510 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0505.gif
+-rw-r--r--    1 root    root            32191 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0506.gif
+-rw-r--r--    1 root    root            25309 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0507.gif
+-rw-r--r--    1 root    root            40920 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0508.gif
+-rw-r--r--    1 root    root             6044 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0601.gif
+-rw-r--r--    1 root    root            13383 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0602.gif
+-rw-r--r--    1 root    root            13631 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0603.gif
+-rw-r--r--    1 root    root             8752 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0604.gif
+-rw-r--r--    1 root    root            14388 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0605.gif
+-rw-r--r--    1 root    root            13517 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0701.gif
+-rw-r--r--    1 root    root            35667 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0801.gif
+-rw-r--r--    1 root    root             6906 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0802.gif
+-rw-r--r--    1 root    root            17604 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0803.gif
+-rw-r--r--    1 root    root            17326 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0804.gif
+-rw-r--r--    1 root    root            19273 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0805.gif
+-rw-r--r--    1 root    root            14242 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0806.gif
+-rw-r--r--    1 root    root            15799 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0807.gif
+-rw-r--r--    1 root    root            15894 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0808.gif
+-rw-r--r--    1 root    root            19323 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0809.gif
+-rw-r--r--    1 root    root            20065 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0810.gif
+-rw-r--r--    1 root    root            12228 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0811.gif
+-rw-r--r--    1 root    root            11925 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0901.gif
+-rw-r--r--    1 root    root             6760 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0902.gif
+-rw-r--r--    1 root    root             4640 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_0903.gif
+-rw-r--r--    1 root    root            12687 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1001.gif
+-rw-r--r--    1 root    root            15746 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1002.gif
+-rw-r--r--    1 root    root            26173 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1003.gif
+-rw-r--r--    1 root    root             8851 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1004.gif
+-rw-r--r--    1 root    root            11687 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1005.gif
+-rw-r--r--    1 root    root            13955 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1006.gif
+-rw-r--r--    1 root    root            14447 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1101.gif
+-rw-r--r--    1 root    root             5408 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_1102.gif
+-rw-r--r--    1 root    root            54745 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af01.gif
+-rw-r--r--    1 root    root            42621 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af02.gif
+-rw-r--r--    1 root    root            32704 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af03.gif
+-rw-r--r--    1 root    root            57137 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af04.gif
+-rw-r--r--    1 root    root            46773 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af05.gif
+-rw-r--r--    1 root    root            53929 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af06.gif
+-rw-r--r--    1 root    root            50762 Feb 22  2004 /usr/share/swat/using_samba/figs/sam2_af07.gif
+-rw-r--r--    1 root    root            88025 Feb 22  2004 /usr/share/swat/using_samba/inx.html
+-rw-r--r--    1 root    root             9733 Feb 22  2004 /usr/share/swat/using_samba/samba2_s.gif
+-rw-r--r--    1 root    root             4172 Feb 22  2004 /usr/share/swat/using_samba/samba2_xs.gif
+-rw-r--r--    1 root    root             5505 Feb 22  2004 /usr/share/swat/using_samba/toc.html
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/samba-swat-3.0.1-1.m68kmint.rpm">Download</A></H2> (4,736,695 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

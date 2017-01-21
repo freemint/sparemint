@@ -1,0 +1,90 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - doschk, version 1.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>doschk</H2>
+
+<UL> 
+<LI>Summary: doschk checks filenames for DOS, TOS and SYSV compatibility<BR>
+
+<LI>Version: 1.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/File">Applications/File</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 70,457 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>doschk = 1.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Oct 22 10:37:25 1999 UTC<BR>
+<LI>Upload date: Fri Oct 22 11:33:43 1999 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/doschk-1.1-1.src.rpm">doschk-1.1-1.src.rpm</A>  (18,019 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Fri Oct 22 09:00:00 1999 UTC<BR>
+- first relase for Sparemint
+<LI>Description:<BR>
+Doschk is a utility to help software developers and users ensure that their source<BR>file names are distinguishable on  platforms with short filenames, e.g. MS-DOS,<BR>Atari TOS and SYSV. To perform this task, doschk reads a list of filenames<BR>and produces a report of all the conflicts that would arise if the files were<BR>transferred to such a filesystem.<BR><P><BR>Install doschk if you want to find out which conflicts would appear when<BR>copying files to DOS, TOS or SYSV filesystems.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            49346 Oct 22  1999 /usr/bin/doschk
+drwxr-xr-x    2 root    root                0 Oct 22  1999 /usr/doc/doschk-1.1
+-rw-r--r--    1 root    root            17976 Apr 12  1993 /usr/doc/doschk-1.1/COPYING
+-rw-r--r--    1 root    root             1761 May 21  1993 /usr/doc/doschk-1.1/ChangeLog
+-rw-r--r--    1 root    root             1054 Apr 16  1993 /usr/doc/doschk-1.1/README
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/doschk-1.1-1.m68kmint.rpm">Download</A></H2> (35,817 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

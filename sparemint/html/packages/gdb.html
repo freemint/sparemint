@@ -1,0 +1,116 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gdb, version 5.0, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gdb</H2>
+
+<UL> 
+<LI>Summary: A GNU source-level debugger for C, C++ and Fortran.<BR>
+<LI>URL: <A HREF="http://sourceware.cygnus.com/gdb/5/">http://sourceware.cygnus.com/gdb/5/</A><BR>
+<LI>Version: 5.0<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#Development/Other">Development/Other</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,734,566 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gdb = 5.0-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 22 13:27:45 2001 UTC<BR>
+<LI>Upload date: Thu Nov 22 13:31:36 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gdb-5.0-4.src.rpm">gdb-5.0-4.src.rpm</A>  (12,305,962 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Nov 28 10:00:00 2000 UTC<BR>
+- recompiled against newer MiNTLib without a signal handling bug<BR>  under 1.15 kernels
+<LI>Description:<BR>
+Gdb is a full featured, command driven debugger. Gdb allows you to<BR>trace the execution of programs and examine their internal state at<BR>any time.  Gdb works for C and C++ compiled with the GNU C compiler<BR>gcc.<BR><P><BR>If you are going to develop C and/or C++ programs and use the GNU gcc<BR>compiler, you may want to install gdb to help you debug your<BR>programs.<BR><P><BR>WARNING: You require a FreeMiNT kernel that support new ptrace()<BR>system call. This is true for 1.15.12 and higher (including the<BR>1.16 kernel line).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root          1330900 Nov 22  2001 /usr/bin/gdb
+drwxr-xr-x    2 root    root                0 Nov 22  2001 /usr/doc/gdb-5.0
+-rw-r--r--    1 root    root            18007 May  3  1999 /usr/doc/gdb-5.0/COPYING
+-rw-r--r--    1 root    root            25283 May  3  1999 /usr/doc/gdb-5.0/COPYING.LIB
+-rw-r--r--    1 root    root            64614 Nov 22  2001 /usr/doc/gdb-5.0/NEWS
+-rw-r--r--    1 root    root             1719 May  3  1999 /usr/doc/gdb-5.0/README
+-rw-r--r--    1 root    root            17570 Nov 22  2001 /usr/info/gdb.info-1.gz
+-rw-r--r--    1 root    root            10782 Nov 22  2001 /usr/info/gdb.info-10.gz
+-rw-r--r--    1 root    root            14294 Nov 22  2001 /usr/info/gdb.info-11.gz
+-rw-r--r--    1 root    root            15493 Nov 22  2001 /usr/info/gdb.info-12.gz
+-rw-r--r--    1 root    root            11032 Nov 22  2001 /usr/info/gdb.info-13.gz
+-rw-r--r--    1 root    root            14186 Nov 22  2001 /usr/info/gdb.info-2.gz
+-rw-r--r--    1 root    root            16363 Nov 22  2001 /usr/info/gdb.info-3.gz
+-rw-r--r--    1 root    root            16512 Nov 22  2001 /usr/info/gdb.info-4.gz
+-rw-r--r--    1 root    root            14343 Nov 22  2001 /usr/info/gdb.info-5.gz
+-rw-r--r--    1 root    root            15716 Nov 22  2001 /usr/info/gdb.info-6.gz
+-rw-r--r--    1 root    root            12897 Nov 22  2001 /usr/info/gdb.info-7.gz
+-rw-r--r--    1 root    root            16304 Nov 22  2001 /usr/info/gdb.info-8.gz
+-rw-r--r--    1 root    root            16045 Nov 22  2001 /usr/info/gdb.info-9.gz
+-rw-r--r--    1 root    root             3301 Nov 22  2001 /usr/info/gdb.info.gz
+-rw-r--r--    1 root    root            15265 Nov 22  2001 /usr/info/gdbint.info-1.gz
+-rw-r--r--    1 root    root            16642 Nov 22  2001 /usr/info/gdbint.info-2.gz
+-rw-r--r--    1 root    root            13352 Nov 22  2001 /usr/info/gdbint.info-3.gz
+-rw-r--r--    1 root    root              747 Nov 22  2001 /usr/info/gdbint.info.gz
+-rw-r--r--    1 root    root            16182 Nov 22  2001 /usr/info/stabs.info-1.gz
+-rw-r--r--    1 root    root            15648 Nov 22  2001 /usr/info/stabs.info-2.gz
+-rw-r--r--    1 root    root            14509 Nov 22  2001 /usr/info/stabs.info-3.gz
+-rw-r--r--    1 root    root             1099 Nov 22  2001 /usr/info/stabs.info-4.gz
+-rw-r--r--    1 root    root             1528 Nov 22  2001 /usr/info/stabs.info.gz
+-rw-r--r--    1 root    root             3209 Nov 22  2001 /usr/share/man/man1/gdb.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gdb-5.0-4.m68kmint.rpm">Download</A></H2> (959,547 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

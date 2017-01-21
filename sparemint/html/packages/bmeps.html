@@ -1,0 +1,127 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bmeps, version 1.0.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bmeps</H2>
+
+<UL> 
+<LI>Summary: converts bitmaps to EPS<BR>
+<LI>URL: <A HREF="http://www.ctan.org/tex-archive/support/bmeps">http://www.ctan.org/tex-archive/support/bmeps</A><BR>
+<LI>Version: 1.0.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Multimedia">Applications/Multimedia</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 1,421,556 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>bmeps = 1.0.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Jun 20 23:34:28 2003 UTC<BR>
+<LI>Upload date: Sat Sep 27 08:32:37 2003 UTC<BR>
+<LI>Packager: <A HREF="http://www.home.zonnet.nl/m.tarenskeen/download/mint/">Martin Tarenskeen</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/ubsfotlffoA{poofu/om');">m.tarenskeen(at)zonnet.nl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bmeps-1.0.7-1.src.rpm">bmeps-1.0.7-1.src.rpm</A>  (1,321,800 bytes)<BR>
+<LI>Last change: Dirk Krause &lt;krause.dirk@web.de&gt; Wed Jun 18 09:00:00 2003 UTC<BR>
+- version number changed for 1.0.7
+<LI>Description:<BR>
+The bmeps package contains a library and a command line tool to convert PNG<BR>and other images to EPS. It is intended to be used together with LaTeX<BR>and dvips.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           310545 Jun 20  2003 /usr/bin/bmeps
+drwxr-xr-x    2 root    root                0 Jun 20  2003 /usr/doc/bmeps-1.0.7
+-rw-r--r--    1 root    root            25292 Jun 18  2003 /usr/doc/bmeps-1.0.7/COPYING
+drwxr-xr-x    2 root    root                0 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU
+-rw-r--r--    1 root    root            15156 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/1g.png
+-rw-r--r--    1 root    root            14473 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/2c8r.png
+-rw-r--r--    1 root    root            15165 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/2g8r.png
+-rw-r--r--    1 root    root            14501 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/3c8rf.png
+drwxr-xr-x    2 root    root                0 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES
+-rw-r--r--    1 root    root            69373 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/1g.ps
+-rw-r--r--    1 root    root            56158 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/2c8r.ps
+-rw-r--r--    1 root    root            34265 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/2g8r.ps
+-rw-r--r--    1 root    root            34773 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/3c8rf.ps
+-rw-r--r--    1 root    root           436009 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/arch5.jpg
+-rw-r--r--    1 root    root            34824 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/bg3c8rf.ps
+-rw-r--r--    1 root    root            33095 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/bg3c8rfa.ps
+-rw-r--r--    1 root    root            38324 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/bg3c8rfam.ps
+-rw-r--r--    1 root    root            39693 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/bg3c8rfams0_255_255.ps
+-rw-r--r--    1 root    root            20112 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/d.ps
+-rw-r--r--    1 root    root              841 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/example.tex
+-rw-r--r--    1 root    root              841 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/example.txt
+-rw-r--r--    1 root    root             1736 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/german.tex
+-rw-r--r--    1 root    root             7390 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/pdfexample.pdf
+-rw-r--r--    1 root    root              657 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/pdfexample.tex
+-rw-r--r--    1 root    root               27 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/stefan_255_rgba.bb
+-rw-r--r--    1 root    root            12887 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/EXAMPLES/stefan_255_rgba.png
+-rw-r--r--    1 root    root            16252 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bg3c8rf.png
+-rw-r--r--    1 root    root            12630 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bg3c8rfa.png
+-rw-r--r--    1 root    root            16442 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bg3c8rfam.png
+-rw-r--r--    1 root    root            14079 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bg3c8rfams0_255_255.png
+-rw-r--r--    1 root    root            42454 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bmeps.pdf
+-rw-r--r--    1 root    root            17419 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/bmeps.tex
+-rw-r--r--    1 root    root             7380 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/changes.html
+-rw-r--r--    1 root    root             8057 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/d.png
+-rw-r--r--    1 root    root            25813 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/faq.html
+-rw-r--r--    1 root    root             2695 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/index.html
+-rw-r--r--    1 root    root             4998 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/install.html
+-rw-r--r--    1 root    root             3551 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/ntmak.txt
+-rw-r--r--    1 root    root             1969 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/overview.html
+-rw-r--r--    1 root    root             3448 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/simple.html
+-rw-r--r--    1 root    root            15193 Jun 18  2003 /usr/doc/bmeps-1.0.7/DOCU/usage.html
+-rw-r--r--    1 root    root              751 Jun 18  2003 /usr/doc/bmeps-1.0.7/README
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/bmeps-1.0.7-1.m68kmint.rpm">Download</A></H2> (975,977 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

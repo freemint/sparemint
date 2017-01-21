@@ -1,0 +1,135 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - fetchmail, version 5.9.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>fetchmail</H2>
+
+<UL> 
+<LI>Summary: Full-featured POP/IMAP mail retrieval daemon<BR>
+<LI>URL: <A HREF="http://www.tuxedo.org/~esr/fetchmail">http://www.tuxedo.org/~esr/fetchmail</A><BR>
+<LI>Version: 5.9.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Mail">Applications/Mail</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,019,227 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>fetchmail = 5.9.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>smtpdaemon  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Wed Jul 31 09:14:59 2002 UTC<BR>
+<LI>Upload date: Wed Jul 31 15:13:56 2002 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Eric Conspiracy Secret Labs<BR>
+<LI>Sources: <A HREF="../../SRPMS/fetchmail-5.9.0-1.src.rpm">fetchmail-5.9.0-1.src.rpm</A>  (874,628 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Tue Jul 30 09:00:00 2002 UTC<BR>
+- initial release for Sparemint
+<LI>Description:<BR>
+Fetchmail is a free, full-featured, robust, and well-documented remote<BR>mail retrieval and forwarding utility intended to be used over<BR>on-demand TCP/IP links (such as SLIP or PPP connections).  It<BR>retrieves mail from remote mail servers and forwards it to your local<BR>(client) machine's delivery system, so it can then be be read by<BR>normal mail user agents such as mutt, elm, pine, (x)emacs/gnus, or mailx.<BR>Comes with an interactive GUI configurator suitable for end-users.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              190 Jul 31  2002 /etc/X11/wmconfig/fetchmailconf
+-rwxr-xr-x    1 root    root           304516 Jul 31  2002 /usr/bin/fetchmail
+-rwxr-xr-x    1 root    root            83824 Jul 31  2002 /usr/bin/fetchmailconf
+drwxr-xr-x    2 root    root                0 Jul 31  2002 /usr/doc/fetchmail-5.9.0
+-rw-r--r--    1 root    root            15735 Mar  3  2001 /usr/doc/fetchmail-5.9.0/COPYING
+-rw-r--r--    1 root    root           130280 Aug  7  2001 /usr/doc/fetchmail-5.9.0/FAQ
+-rw-r--r--    1 root    root             8542 Jul 31  2001 /usr/doc/fetchmail-5.9.0/FEATURES
+-rw-r--r--    1 root    root           126453 Aug 12  2001 /usr/doc/fetchmail-5.9.0/NEWS
+-rw-r--r--    1 root    root            24483 Jul 31  2001 /usr/doc/fetchmail-5.9.0/NOTES
+-rw-r--r--    1 root    root             2086 Mar  3  2001 /usr/doc/fetchmail-5.9.0/README
+drwxr-xr-x    2 root    root                0 Jul 31  2002 /usr/doc/fetchmail-5.9.0/contrib
+-rw-r--r--    1 root    root             5240 Jun  4  2001 /usr/doc/fetchmail-5.9.0/contrib/README
+-rw-r--r--    1 root    root             2509 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/README.getmail
+-rw-r--r--    1 root    root             1161 Mar  5  2000 /usr/doc/fetchmail-5.9.0/contrib/debian_rc
+-rw-r--r--    1 root    root             2504 Apr 11  2000 /usr/doc/fetchmail-5.9.0/contrib/domino
+-rw-r--r--    1 root    root             5808 Feb 18  2001 /usr/doc/fetchmail-5.9.0/contrib/fetchmail-mode.el
+-rw-r--r--    1 root    root              977 Jan  2  2000 /usr/doc/fetchmail-5.9.0/contrib/fetchmaildistrib
+-rw-r--r--    1 root    root             5376 May 21  2001 /usr/doc/fetchmail-5.9.0/contrib/fetchmailnochda.pl
+-rw-r--r--    1 root    root             3542 Mar 31  1999 /usr/doc/fetchmail-5.9.0/contrib/fetchsetup
+-rw-r--r--    1 root    root             1513 Oct 14  1998 /usr/doc/fetchmail-5.9.0/contrib/fetchspool
+-rw-r--r--    1 root    root              675 Dec 18  1998 /usr/doc/fetchmail-5.9.0/contrib/getfetchmail
+-rw-r--r--    1 root    root             1676 Jul 23  2001 /usr/doc/fetchmail-5.9.0/contrib/getfetchmail.pl
+-rw-r--r--    1 root    root             2166 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/getmail
+-rw-r--r--    1 root    root             2361 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/gotmail
+-rw-r--r--    1 root    root             1561 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/gotmail.awk
+-rw-r--r--    1 root    root              614 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/gotmail.conf
+-rw-r--r--    1 root    root             3035 Sep 21  1999 /usr/doc/fetchmail-5.9.0/contrib/gotmail.html.awk
+-rw-r--r--    1 root    root             2566 Sep  3  1997 /usr/doc/fetchmail-5.9.0/contrib/ip-up
+-rw-r--r--    1 root    root              334 Apr 16  1997 /usr/doc/fetchmail-5.9.0/contrib/login
+-rw-r--r--    1 root    root              844 Jan  4  1999 /usr/doc/fetchmail-5.9.0/contrib/logout
+-rw-r--r--    1 root    root             2435 May 28  1997 /usr/doc/fetchmail-5.9.0/contrib/maildaemon
+-rw-r--r--    1 root    root            13851 Sep  8  1998 /usr/doc/fetchmail-5.9.0/contrib/mailqueue.pl
+-rw-r--r--    1 root    root             8372 Jan 31  2000 /usr/doc/fetchmail-5.9.0/contrib/multidrop
+-rw-r--r--    1 root    root             2251 Jun 12  1997 /usr/doc/fetchmail-5.9.0/contrib/novell
+-rw-r--r--    1 root    root             2454 Jul 23  2000 /usr/doc/fetchmail-5.9.0/contrib/poptest
+-rw-r--r--    1 root    root             1443 Apr 21  2000 /usr/doc/fetchmail-5.9.0/contrib/preauth-harness
+-rw-r--r--    1 root    root             1307 Mar  7  1999 /usr/doc/fetchmail-5.9.0/contrib/redhat_rc
+-rw-r--r--    1 root    root             5351 Feb  2  1998 /usr/doc/fetchmail-5.9.0/contrib/runfetchmail
+-rw-r--r--    1 root    root            32154 Oct  8  2000 /usr/doc/fetchmail-5.9.0/contrib/sm-hybrid
+-rw-r--r--    1 root    root              564 Feb 16  1998 /usr/doc/fetchmail-5.9.0/contrib/start_dynamic_ppp
+-rw-r--r--    1 root    root              917 Apr  7  2000 /usr/doc/fetchmail-5.9.0/contrib/toprocmail
+-rw-r--r--    1 root    root              868 Feb  1  1999 /usr/doc/fetchmail-5.9.0/contrib/zsh-completion
+-rw-r--r--    1 root    root            26060 Jul 31  2001 /usr/doc/fetchmail-5.9.0/design-notes.html
+-rw-r--r--    1 root    root           127043 Aug  6  2001 /usr/doc/fetchmail-5.9.0/fetchmail-FAQ.html
+-rw-r--r--    1 root    root             8839 Jul 25  2001 /usr/doc/fetchmail-5.9.0/fetchmail-features.html
+-rw-r--r--    1 root    root              120 Jul 31  2002 /usr/lib/rhs/control-panel/fetchmailconf.init
+-rw-r--r--    1 root    root             9999 Jul 31  2002 /usr/lib/rhs/control-panel/fetchmailconf.xpm
+-rw-r--r--    1 root    man             32555 Jul 31  2002 /usr/share/man/man1/fetchmail.1.gz
+?rw-r--r--    1 root    man                11 Jul 31  2002 /usr/share/man/man1/fetchmailconf.1
+?rw-r--r--    1 root    man                14 Jul 31  2002 /usr/share/man/man1/fetchmailconf.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/fetchmail-5.9.0-1.m68kmint.rpm">Download</A></H2> (444,094 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

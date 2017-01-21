@@ -1,0 +1,94 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - oldstuff, version 1.0, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>oldstuff</H2>
+
+<UL> 
+<LI>Summary: old MiNT Utilities<BR>
+<LI>URL: <A HREF="http://sparemint.atari.org/">http://sparemint.atari.org/</A><BR>
+<LI>Version: 1.0<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: Freeware</BR>
+<LI>Installation size: 204,159 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>oldstuff = 1.0-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/bash  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>mintinit  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 15 12:31:43 2001 UTC<BR>
+<LI>Upload date: Thu Nov 15 12:31:48 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/oldstuff-1.0-3.src.rpm">oldstuff-1.0-3.src.rpm</A>  (135,277 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Nov 14 10:00:00 2001 UTC<BR>
+- first release
+<LI>Description:<BR>
+This package include some old tools that arn't available as modern<BR>rpm replacements yet. This include init, reboot and such things.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             3024 Nov 15  2001 /etc/gettytab
+-rw-r--r--    1 root    root             1056 Nov 15  2001 /etc/ttytab
+-rwxr-xr-x    1 root    root            12981 Nov 15  2001 /sbin/execgem
+-rwxr-xr-x    1 root    root            19221 Nov 15  2001 /sbin/execmtos
+-rwxr-xr-x    1 root    root            44043 Nov 15  2001 /sbin/init
+-rwxr-xr-x    1 root    root            14485 Nov 15  2001 /sbin/reboot
+-rwxr-xr-x    1 root    root            31559 Nov 15  2001 /sbin/shutdown
+-rwxr-xr-x    1 root    root            33508 Nov 15  2001 /usr/bin/last
+-rwxr-xr-x    1 root    root            44282 Nov 15  2001 /usr/sbin/getty
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/oldstuff-1.0-3.m68kmint.rpm">Download</A></H2> (101,306 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

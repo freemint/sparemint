@@ -1,0 +1,145 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - freetype-devel, version 2.0.4, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>freetype-devel</H2>
+
+<UL> 
+<LI>Summary: A free and portable TrueType font rendering engine.<BR>
+<LI>URL: <A HREF="http://www.freetype.org/">http://www.freetype.org/</A><BR>
+<LI>Version: 2.0.4<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: GPL or FTL</BR>
+<LI>Installation size: 1,227,984 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>freetype-devel = 2.0.4-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freetype = 2.0.4<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Jul 11 09:03:18 2001 UTC<BR>
+<LI>Upload date: Wed Jul 11 10:32:47 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/freetype-2.0.4-1.src.rpm">freetype-2.0.4-1.src.rpm</A>  (2,018,979 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Jul 10 09:00:00 2001 UTC<BR>
+- updated to 2.0.4, dropped old 1.x libs
+<LI>Description:<BR>
+The FreeType engine is a free and portable TrueType font rendering<BR>engine. It has been developed to provide TrueType support to a great<BR>variety of platforms and environments.<BR><P><BR>Note that FreeType is a *library*. It is not a font server for your<BR>favorite platform, even though it was designed to be used in many of<BR>them. Note also that it is *not* a complete text-rendering library.<BR>Its purpose is simply to open and manage font files, as well as load,<BR>hint and render individual glyphs efficiently. You can also see it as<BR>a "TrueType driver" for a higher-level library, though rendering text<BR>with it is extremely easy, as demo-ed by the test programs.<BR><P><BR>This package includes the header files documentations and libraries<BR>necessary to develop applications that use freetype.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1401 Jul 11  2001 /usr/bin/freetype-config
+?rwxrwxrwx    1 root    root               18 Jul 11  2001 /usr/include/freetype
+drwxrwxrwx    2 root    root                0 Jul 11  2001 /usr/include/freetype2
+drwxrwxrwx    2 root    root                0 Jul 11  2001 /usr/include/freetype2/freetype
+drwxrwxrwx    2 root    root                0 Jul 11  2001 /usr/include/freetype2/freetype/cache
+-rw-r--r--    1 root    root             8637 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftcchunk.h
+-rw-r--r--    1 root    root             8894 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftcglyph.h
+-rw-r--r--    1 root    root             9904 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftcimage.h
+-rw-r--r--    1 root    root            22309 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftcmanag.h
+-rw-r--r--    1 root    root            10388 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftcsbits.h
+-rw-r--r--    1 root    root             7787 Jul 11  2001 /usr/include/freetype2/freetype/cache/ftlru.h
+drwxrwxrwx    2 root    root                0 Jul 11  2001 /usr/include/freetype2/freetype/config
+-rw-r--r--    1 root    root            11198 Jul 11  2001 /usr/include/freetype2/freetype/config/ftconfig.h
+-rw-r--r--    1 root    root            28951 Jul 11  2001 /usr/include/freetype2/freetype/config/ftheader.h
+-rw-r--r--    1 root    root              416 Jul 11  2001 /usr/include/freetype2/freetype/config/ftmodule.h
+-rw-r--r--    1 root    root            26546 Jul 11  2001 /usr/include/freetype2/freetype/config/ftoption.h
+-rw-r--r--    1 root    root           167567 Jul 11  2001 /usr/include/freetype2/freetype/freetype.h
+-rw-r--r--    1 root    root             4372 Jul 11  2001 /usr/include/freetype2/freetype/ftbbox.h
+-rw-r--r--    1 root    root            22572 Jul 11  2001 /usr/include/freetype2/freetype/ftcache.h
+-rw-r--r--    1 root    root             3829 Jul 11  2001 /usr/include/freetype2/freetype/ftchapters.h
+-rw-r--r--    1 root    root            18386 Jul 11  2001 /usr/include/freetype2/freetype/fterrors.h
+-rw-r--r--    1 root    root            30457 Jul 11  2001 /usr/include/freetype2/freetype/ftglyph.h
+-rw-r--r--    1 root    root            70563 Jul 11  2001 /usr/include/freetype2/freetype/ftimage.h
+-rw-r--r--    1 root    root            16577 Jul 11  2001 /usr/include/freetype2/freetype/ftlist.h
+-rw-r--r--    1 root    root             5972 Jul 11  2001 /usr/include/freetype2/freetype/ftmac.h
+-rw-r--r--    1 root    root            11511 Jul 11  2001 /usr/include/freetype2/freetype/ftmm.h
+-rw-r--r--    1 root    root             7046 Jul 11  2001 /usr/include/freetype2/freetype/ftmoderr.h
+-rw-r--r--    1 root    root            17913 Jul 11  2001 /usr/include/freetype2/freetype/ftmodule.h
+-rw-r--r--    1 root    root            24770 Jul 11  2001 /usr/include/freetype2/freetype/ftoutln.h
+-rw-r--r--    1 root    root            10748 Jul 11  2001 /usr/include/freetype2/freetype/ftrender.h
+-rw-r--r--    1 root    root             9630 Jul 11  2001 /usr/include/freetype2/freetype/ftsnames.h
+-rw-r--r--    1 root    root             3274 Jul 11  2001 /usr/include/freetype2/freetype/ftsynth.h
+-rw-r--r--    1 root    root            18209 Jul 11  2001 /usr/include/freetype2/freetype/ftsystem.h
+-rw-r--r--    1 root    root             6855 Jul 11  2001 /usr/include/freetype2/freetype/fttrigon.h
+-rw-r--r--    1 root    root            31052 Jul 11  2001 /usr/include/freetype2/freetype/fttypes.h
+drwxrwxrwx    2 root    root                0 Jul 11  2001 /usr/include/freetype2/freetype/internal
+-rw-r--r--    1 root    root            12468 Jul 11  2001 /usr/include/freetype2/freetype/internal/autohint.h
+-rw-r--r--    1 root    root             7504 Jul 11  2001 /usr/include/freetype2/freetype/internal/cfftypes.h
+-rw-r--r--    1 root    root             3780 Jul 11  2001 /usr/include/freetype2/freetype/internal/fnttypes.h
+-rw-r--r--    1 root    root            11568 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftcalc.h
+-rw-r--r--    1 root    root             9434 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftdebug.h
+-rw-r--r--    1 root    root             9792 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftdriver.h
+-rw-r--r--    1 root    root            11965 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftextend.h
+-rw-r--r--    1 root    root            12139 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftmemory.h
+-rw-r--r--    1 root    root            40175 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftobjs.h
+-rw-r--r--    1 root    root            15992 Jul 11  2001 /usr/include/freetype2/freetype/internal/ftstream.h
+-rw-r--r--    1 root    root             2857 Jul 11  2001 /usr/include/freetype2/freetype/internal/internal.h
+-rw-r--r--    1 root    root             1566 Jul 11  2001 /usr/include/freetype2/freetype/internal/pcftypes.h
+-rw-r--r--    1 root    root            28578 Jul 11  2001 /usr/include/freetype2/freetype/internal/psaux.h
+-rw-r--r--    1 root    root            13669 Jul 11  2001 /usr/include/freetype2/freetype/internal/psnames.h
+-rw-r--r--    1 root    root            33245 Jul 11  2001 /usr/include/freetype2/freetype/internal/sfnt.h
+-rw-r--r--    1 root    root             7655 Jul 11  2001 /usr/include/freetype2/freetype/internal/t1types.h
+-rw-r--r--    1 root    root            88803 Jul 11  2001 /usr/include/freetype2/freetype/internal/tttypes.h
+-rw-r--r--    1 root    root             9048 Jul 11  2001 /usr/include/freetype2/freetype/t1tables.h
+-rw-r--r--    1 root    root            42197 Jul 11  2001 /usr/include/freetype2/freetype/ttnameid.h
+-rw-r--r--    1 root    root            32929 Jul 11  2001 /usr/include/freetype2/freetype/tttables.h
+-rw-r--r--    1 root    root             3372 Jul 11  2001 /usr/include/freetype2/freetype/tttags.h
+-rw-r--r--    1 root    root             3814 Jul 11  2001 /usr/include/ft2build.h
+-rw-r--r--    1 root    root           201910 Jul 11  2001 /usr/lib/libfreetype.a
+-rwxr-xr-x    1 root    root              652 Jul 11  2001 /usr/lib/libfreetype.la
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/freetype-devel-2.0.4-1.m68kmint.rpm">Download</A></H2> (242,021 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

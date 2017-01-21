@@ -1,0 +1,183 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gcc, version 2.95.3, release 5</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gcc</H2>
+
+<UL> 
+<LI>Summary: Various compilers (C, C++, Objective-C, Chill, ...)<BR>
+<LI>URL: <A HREF="http://gcc.gnu.org/">http://gcc.gnu.org/</A><BR>
+<LI>Version: 2.95.3<BR>
+<LI>Release: 5<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 6,283,663 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gcc = 2.95.3-5<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>binutils  <BR>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Aug  4 08:09:42 2004 UTC<BR>
+<LI>Upload date: Wed Aug  4 14:59:25 2004 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gcc-2.95.3-5.src.rpm">gcc-2.95.3-5.src.rpm</A>  (12,939,618 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Feb 27 10:00:00 2003 UTC<BR>
+- fixed bug in -pg option for the mint port
+<LI>Description:<BR>
+The gcc package contains the GNU Compiler Collection: cc and gcc. You'll need<BR>this package in order to compile C code.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    root                3 Aug  4  2004 /usr/bin/cc
+-rwxr-xr-x    1 root    root           157086 Aug  4  2004 /usr/bin/cpp
+-rwxr-xr-x    2 root    root           155813 Aug  4  2004 /usr/bin/gcc
+-rwxr-xr-x    1 root    root           155813 Aug  4  2004 /usr/bin/gcc.2.95.3
+-rwxr-xr-x    1 root    root           100299 Aug  4  2004 /usr/bin/gcov
+-rwxr-xr-x    2 root    root           155813 Aug  4  2004 /usr/bin/m68k-atari-mint-gcc
+-rwxr-xr-x    1 root    root           124816 Aug  4  2004 /usr/bin/protoize
+-rwxr-xr-x    1 root    root           121067 Aug  4  2004 /usr/bin/unprotoize
+drwxr-xr-x    2 root    root                0 Aug  4  2004 /usr/doc/gcc-2.95.3
+-rw-r--r--    1 root    root             1157 Aug  9  1999 /usr/doc/gcc-2.95.3/BUGS
+-rw-r--r--    1 root    root           663731 Mar 16  2001 /usr/doc/gcc-2.95.3/ChangeLog
+-rw-r--r--    1 root    root           472885 Apr 13  1999 /usr/doc/gcc-2.95.3/ChangeLog.0
+-rw-r--r--    1 root    root           133977 Dec 16  1998 /usr/doc/gcc-2.95.3/ChangeLog.lib
+-rw-r--r--    1 root    root            82987 Mar 27  1999 /usr/doc/gcc-2.95.3/FSFChangeLog
+-rw-r--r--    1 root    root           390466 Jan 26  1999 /usr/doc/gcc-2.95.3/FSFChangeLog.10
+-rw-r--r--    1 root    root           563169 Jan 26  1999 /usr/doc/gcc-2.95.3/FSFChangeLog.11
+-rw-r--r--    1 root    root             3857 Dec 16  1998 /usr/doc/gcc-2.95.3/LANGUAGES
+-rw-r--r--    1 root    root            70848 Mar 16  2001 /usr/doc/gcc-2.95.3/NEWS
+-rw-r--r--    1 root    root             4877 Dec 16  1998 /usr/doc/gcc-2.95.3/PROBLEMS
+-rw-r--r--    1 root    root             1154 Jul 28  1999 /usr/doc/gcc-2.95.3/README
+-rw-r--r--    1 root    root             6287 Dec 16  1998 /usr/doc/gcc-2.95.3/README-bugs
+-rw-r--r--    1 root    root              495 Dec 16  1998 /usr/doc/gcc-2.95.3/README-fixinc
+-rw-r--r--    1 root    root              738 Dec 16  1998 /usr/doc/gcc-2.95.3/README.ACORN
+-rw-r--r--    1 root    root             1851 Dec 16  1998 /usr/doc/gcc-2.95.3/README.ALTOS
+-rw-r--r--    1 root    root             3060 Dec 16  1998 /usr/doc/gcc-2.95.3/README.APOLLO
+-rw-r--r--    1 root    root             2064 Dec 16  1998 /usr/doc/gcc-2.95.3/README.C4X
+-rw-r--r--    1 root    root            28551 Dec 16  1998 /usr/doc/gcc-2.95.3/README.DWARF
+-rw-r--r--    1 root    root              625 Dec 16  1998 /usr/doc/gcc-2.95.3/README.FRESCO
+-rw-r--r--    1 root    root             7390 Aug  4  2004 /usr/doc/gcc-2.95.3/README.MiNT
+-rw-r--r--    1 root    root             7412 Dec 16  1998 /usr/doc/gcc-2.95.3/README.NS32K
+-rw-r--r--    1 root    root             6813 Feb 19  1999 /usr/doc/gcc-2.95.3/README.RS6000
+-rw-r--r--    1 root    root             1922 Dec 16  1998 /usr/doc/gcc-2.95.3/README.TRAD
+-rw-r--r--    1 root    root            13990 Dec 16  1998 /usr/doc/gcc-2.95.3/README.X11
+-rw-r--r--    1 root    root            14022 Dec 16  1998 /usr/doc/gcc-2.95.3/README.gnat
+-rw-r--r--    1 root    root            55669 Feb 27  1999 /usr/doc/gcc-2.95.3/SERVICE
+-rw-r--r--    1 root    root            16396 Aug  4  2004 /usr/info/cpp.info-1.gz
+-rw-r--r--    1 root    root            14072 Aug  4  2004 /usr/info/cpp.info-2.gz
+-rw-r--r--    1 root    root             7087 Aug  4  2004 /usr/info/cpp.info-3.gz
+-rw-r--r--    1 root    root             1035 Aug  4  2004 /usr/info/cpp.info.gz
+-rw-r--r--    1 root    root            13672 Aug  4  2004 /usr/info/gcc.info-1.gz
+-rw-r--r--    1 root    root            13301 Aug  4  2004 /usr/info/gcc.info-10.gz
+-rw-r--r--    1 root    root            16392 Aug  4  2004 /usr/info/gcc.info-11.gz
+-rw-r--r--    1 root    root            14581 Aug  4  2004 /usr/info/gcc.info-12.gz
+-rw-r--r--    1 root    root            17401 Aug  4  2004 /usr/info/gcc.info-13.gz
+-rw-r--r--    1 root    root            17076 Aug  4  2004 /usr/info/gcc.info-14.gz
+-rw-r--r--    1 root    root            15359 Aug  4  2004 /usr/info/gcc.info-15.gz
+-rw-r--r--    1 root    root            15448 Aug  4  2004 /usr/info/gcc.info-16.gz
+-rw-r--r--    1 root    root            16218 Aug  4  2004 /usr/info/gcc.info-17.gz
+-rw-r--r--    1 root    root            14625 Aug  4  2004 /usr/info/gcc.info-18.gz
+-rw-r--r--    1 root    root            14979 Aug  4  2004 /usr/info/gcc.info-19.gz
+-rw-r--r--    1 root    root            12077 Aug  4  2004 /usr/info/gcc.info-2.gz
+-rw-r--r--    1 root    root            15737 Aug  4  2004 /usr/info/gcc.info-20.gz
+-rw-r--r--    1 root    root            11517 Aug  4  2004 /usr/info/gcc.info-21.gz
+-rw-r--r--    1 root    root            12748 Aug  4  2004 /usr/info/gcc.info-22.gz
+-rw-r--r--    1 root    root            13737 Aug  4  2004 /usr/info/gcc.info-23.gz
+-rw-r--r--    1 root    root            13991 Aug  4  2004 /usr/info/gcc.info-24.gz
+-rw-r--r--    1 root    root            13921 Aug  4  2004 /usr/info/gcc.info-25.gz
+-rw-r--r--    1 root    root            14276 Aug  4  2004 /usr/info/gcc.info-26.gz
+-rw-r--r--    1 root    root            12138 Aug  4  2004 /usr/info/gcc.info-27.gz
+-rw-r--r--    1 root    root            15475 Aug  4  2004 /usr/info/gcc.info-28.gz
+-rw-r--r--    1 root    root             9502 Aug  4  2004 /usr/info/gcc.info-29.gz
+-rw-r--r--    1 root    root            15481 Aug  4  2004 /usr/info/gcc.info-3.gz
+-rw-r--r--    1 root    root            22617 Aug  4  2004 /usr/info/gcc.info-30.gz
+-rw-r--r--    1 root    root            12771 Aug  4  2004 /usr/info/gcc.info-4.gz
+-rw-r--r--    1 root    root            14056 Aug  4  2004 /usr/info/gcc.info-5.gz
+-rw-r--r--    1 root    root            15349 Aug  4  2004 /usr/info/gcc.info-6.gz
+-rw-r--r--    1 root    root            13809 Aug  4  2004 /usr/info/gcc.info-7.gz
+-rw-r--r--    1 root    root            15779 Aug  4  2004 /usr/info/gcc.info-8.gz
+-rw-r--r--    1 root    root            17175 Aug  4  2004 /usr/info/gcc.info-9.gz
+-rw-r--r--    1 root    root             3812 Aug  4  2004 /usr/info/gcc.info.gz
+drwxrwxrwx    2 root    root                0 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3
+-rw-r--r--    1 root    root            88205 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/SYSCALLS.c.X
+-rwxr-xr-x    1 root    root          1420357 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/cc1
+-rwxr-xr-x    1 root    root           183864 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/collect2
+-rwxr-xr-x    1 root    root           170180 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/cpp0
+drwxr-xr-x    2 root    root                0 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include
+-rw-r--r--    1 root    root             3360 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/float.h
+-rw-r--r--    1 root    root              275 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/iso646.h
+-rw-r--r--    1 root    root             3312 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/limits.h
+-rw-r--r--    1 root    root              137 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/proto.h
+-rw-r--r--    1 root    root             6038 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/stdarg.h
+-rw-r--r--    1 root    root              502 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/stdbool.h
+-rw-r--r--    1 root    root             9834 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/stddef.h
+-rw-r--r--    1 root    root              330 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/syslimits.h
+-rw-r--r--    1 root    root             6196 Aug  3  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/include/varargs.h
+-rw-r--r--    1 root    root            85444 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/libgcc.a
+drwxrwxrwx    2 root    root                0 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/m68020-60
+-rw-r--r--    1 root    root            79914 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/m68020-60/libgcc.a
+drwxrwxrwx    2 root    root                0 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/m68020-60/mshort
+-rw-r--r--    1 root    root            80190 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/m68020-60/mshort/libgcc.a
+drwxrwxrwx    2 root    root                0 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/mshort
+-rw-r--r--    1 root    root            85552 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/mshort/libgcc.a
+-rw-r--r--    1 root    root             2117 Aug  4  2004 /usr/lib/gcc-lib/m68k-atari-mint/2.95.3/specs
+-rw-r--r--    1 root    root             5239 Aug  4  2004 /usr/man/man1/cccp.1.gz
+?rwxrwxrwx    1 root    root                9 Aug  4  2004 /usr/man/man1/cpp.1.gz
+-rw-r--r--    1 root    root            33715 Aug  4  2004 /usr/man/man1/gcc.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gcc-2.95.3-5.m68kmint.rpm">Download</A></H2> (2,691,726 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

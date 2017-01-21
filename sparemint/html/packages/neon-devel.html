@@ -1,0 +1,375 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - neon-devel, version 0.24.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>neon-devel</H2>
+
+<UL> 
+<LI>Summary: Static Libraries and header files for neon<BR>
+<LI>URL: <A HREF="http://www.webdav.org/neon">http://www.webdav.org/neon</A><BR>
+<LI>Version: 0.24.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 781,848 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>neon-devel = 0.24.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>openssl-devel  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Sep  7 07:59:22 2004 UTC<BR>
+<LI>Upload date: Tue Sep  7 08:48:41 2004 UTC<BR>
+<LI>Packager: Jens Syckor (<A HREF="javascript:linkto_decode_mt('nbjmup;kt823799Anbjm/jog/uv.esftefo/ef');">js712688(at)mail.inf.tu-dresden.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/neon-0.24.7-1.src.rpm">neon-0.24.7-1.src.rpm</A>  (0 bytes)<BR>
+<LI>Last change: Jens Syckor &lt;js712688@inf.tu-dresden.de&gt; Mon Sep  6 09:00:00 2004 UTC<BR>
+- Created .spec and built first RPM based on 0.24.7
+<LI>Description:<BR>
+Static libraries and C header files for the neon library.<BR><P><BR>neon is an HTTP and WebDAV client library, with a C interface. Featuring:<BR> * High-level interface to HTTP and WebDAV methods (PUT, GET, HEAD etc)<BR> * Low-level interface to HTTP request handling, to allow implementing<BR>   new methods easily.<BR> * HTTP/1.1 and HTTP/1.0 persistent connections<BR> * RFC2617 basic and digest authentication (including auth-int, md5-sess)<BR> * Proxy support (including basic/digest authentication)<BR> * Generic WebDAV 207 XML response handling mechanism<BR> * XML parsing using the expat or libxml parsers<BR> * Easy generation of error messages from 207 error responses<BR> * WebDAV resource manipulation: MOVE, COPY, DELETE, MKCOL.<BR> * WebDAV metadata support: set and remove properties, query any set of<BR>   properties (PROPPATCH/PROPFIND).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1681 Sep  7  2004 /usr/bin/neon-config
+drwxr-xr-x    2 root    root                0 Sep  7  2004 /usr/doc/neon-devel-0.24.7
+-rw-r--r--    1 root    root              272 Mar 26  2003 /usr/doc/neon-devel-0.24.7/AUTHORS
+-rw-r--r--    1 root    root             1166 Oct 25  2003 /usr/doc/neon-devel-0.24.7/BUGS
+-rw-r--r--    1 root    root            20753 May 17  2004 /usr/doc/neon-devel-0.24.7/ChangeLog
+-rw-r--r--    1 root    root            45561 Jul  5  2004 /usr/doc/neon-devel-0.24.7/NEWS
+-rw-r--r--    1 root    root             2041 Mar 26  2003 /usr/doc/neon-devel-0.24.7/README
+-rw-r--r--    1 root    root             1702 May 19  2004 /usr/doc/neon-devel-0.24.7/THANKS
+-rw-r--r--    1 root    root             5899 May 23  2002 /usr/doc/neon-devel-0.24.7/TODO
+-rw-r--r--    1 root    root             3142 Jun 21  2003 /usr/doc/neon-devel-0.24.7/biblio.xml
+-rw-r--r--    1 root    root               12 Jul  5  2004 /usr/doc/neon-devel-0.24.7/date.xml
+-rw-r--r--    1 root    root            21762 Dec  9  2001 /usr/doc/neon-devel-0.24.7/fdl.sgml
+-rw-r--r--    1 root    root             2947 Apr 21  2003 /usr/doc/neon-devel-0.24.7/feat.xml
+drwxr-xr-x    2 root    root                0 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html
+-rw-r--r--    1 root    root             2435 Apr 21  2003 /usr/doc/neon-devel-0.24.7/html.xsl
+-rw-r--r--    1 root    root             3033 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas01.html
+-rw-r--r--    1 root    root             5136 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas02.html
+-rw-r--r--    1 root    root             2550 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas03.html
+-rw-r--r--    1 root    root             3880 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas04.html
+-rw-r--r--    1 root    root             7031 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas05.html
+-rw-r--r--    1 root    root             3043 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas06.html
+-rw-r--r--    1 root    root             2492 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas07.html
+-rw-r--r--    1 root    root             2748 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas08.html
+-rw-r--r--    1 root    root             2449 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas09.html
+-rw-r--r--    1 root    root             2235 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas10.html
+-rw-r--r--    1 root    root             2780 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas11.html
+-rw-r--r--    1 root    root             3006 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/apas12.html
+-rw-r--r--    1 root    root             2549 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/api.html
+-rw-r--r--    1 root    root             5022 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/biblio.html
+-rw-r--r--    1 root    root             4242 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/compliance.html
+-rw-r--r--    1 root    root             4177 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/features.html
+-rw-r--r--    1 root    root             3171 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/gfdl.html
+-rw-r--r--    1 root    root             7793 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/index.html
+-rw-r--r--    1 root    root             2946 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/intro.html
+-rw-r--r--    1 root    root             4428 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/ref.html
+-rw-r--r--    1 root    root             4585 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refalloc.html
+-rw-r--r--    1 root    root             5545 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refauth.html
+-rw-r--r--    1 root    root             3448 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refbuf.html
+-rw-r--r--    1 root    root             4718 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refbufapp.html
+-rw-r--r--    1 root    root             3181 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refbufcr.html
+-rw-r--r--    1 root    root             3864 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refbufdest.html
+-rw-r--r--    1 root    root             3665 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refbufutil.html
+-rw-r--r--    1 root    root             5597 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refcert.html
+-rw-r--r--    1 root    root             7537 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refclicert.html
+-rw-r--r--    1 root    root             5007 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refconfig.html
+-rw-r--r--    1 root    root             3503 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/referr.html
+-rw-r--r--    1 root    root             3339 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refgetst.html
+-rw-r--r--    1 root    root             5551 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refiaddr.html
+-rw-r--r--    1 root    root             8055 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refneon.html
+-rw-r--r--    1 root    root             6099 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refopts.html
+-rw-r--r--    1 root    root             7790 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refreq.html
+-rw-r--r--    1 root    root             2793 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refreqbody.html
+-rw-r--r--    1 root    root             3527 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refreqhdr.html
+-rw-r--r--    1 root    root             6953 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refresolve.html
+-rw-r--r--    1 root    root             6496 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsess.html
+-rw-r--r--    1 root    root             2820 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refshave.html
+-rw-r--r--    1 root    root             2892 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsockinit.html
+-rw-r--r--    1 root    root             3815 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsslca.html
+-rw-r--r--    1 root    root             2959 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsslcert2.html
+-rw-r--r--    1 root    root             5275 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsslcertio.html
+-rw-r--r--    1 root    root             3691 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refssldname.html
+-rw-r--r--    1 root    root             6879 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refsslvfy.html
+-rw-r--r--    1 root    root             3993 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refstatus.html
+-rw-r--r--    1 root    root             3842 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/reftok.html
+-rw-r--r--    1 root    root             3228 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/refvers.html
+-rw-r--r--    1 root    root             4751 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/using.html
+-rw-r--r--    1 root    root            10734 Sep  7  2004 /usr/doc/neon-devel-0.24.7/html/xml.html
+drwxr-xr-x    2 root    root                0 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man
+-rw-r--r--    1 root    root             1319 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_add_request_header.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_destroy.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_error.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_first.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_next.3
+-rw-r--r--    1 root    root             3401 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_resolve.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_addr_result.3
+-rw-r--r--    1 root    root             1500 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_altered.3
+-rw-r--r--    1 root    root             2042 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_append.3
+-rw-r--r--    1 root    root             1367 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_clear.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_concat.3
+-rw-r--r--    1 root    root             1107 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_create.3
+-rw-r--r--    1 root    root             1565 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_destroy.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_finish.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_grow.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_ncreate.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_buffer_zappend.3
+-rw-r--r--    1 root    root               21 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_calloc.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_close_connection.3
+-rw-r--r--    1 root    root               30 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_forget_auth.3
+-rw-r--r--    1 root    root             1526 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_get_error.3
+-rw-r--r--    1 root    root             1405 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_get_status.3
+-rw-r--r--    1 root    root               25 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_iaddr_cmp.3
+-rw-r--r--    1 root    root               25 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_iaddr_free.3
+-rw-r--r--    1 root    root             2644 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_iaddr_make.3
+-rw-r--r--    1 root    root               25 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_iaddr_print.3
+-rw-r--r--    1 root    root             1694 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_malloc.3
+-rw-r--r--    1 root    root               21 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_oom_callback.3
+-rw-r--r--    1 root    root               33 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_print_request_header.3
+-rw-r--r--    1 root    root               20 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_qtoken.3
+-rw-r--r--    1 root    root               21 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_realloc.3
+-rw-r--r--    1 root    root             4134 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_request_create.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_request_destroy.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_request_dispatch.3
+-rw-r--r--    1 root    root             3308 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_session_create.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_session_destroy.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_session_proxy.3
+-rw-r--r--    1 root    root               24 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_error.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_expect100.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_persist.3
+-rw-r--r--    1 root    root               30 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_proxy_auth.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_read_timeout.3
+-rw-r--r--    1 root    root              926 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_request_body_buffer.3
+-rw-r--r--    1 root    root               38 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_request_body_fd.3
+-rw-r--r--    1 root    root             2721 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_server_auth.3
+-rw-r--r--    1 root    root             3254 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_set_useragent.3
+-rw-r--r--    1 root    root              962 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_shave.3
+-rw-r--r--    1 root    root             1052 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_sock_init.3
+-rw-r--r--    1 root    root             1042 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_cmp.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_export.3
+-rw-r--r--    1 root    root               27 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_free.3
+-rw-r--r--    1 root    root             2671 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_identity.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_import.3
+-rw-r--r--    1 root    root               32 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_issuer.3
+-rw-r--r--    1 root    root             2423 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_read.3
+-rw-r--r--    1 root    root               32 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_signedby.3
+-rw-r--r--    1 root    root               32 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_subject.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_cert_write.3
+-rw-r--r--    1 root    root               31 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_decrypt.3
+-rw-r--r--    1 root    root               31 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_encrypted.3
+-rw-r--r--    1 root    root               31 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_free.3
+-rw-r--r--    1 root    root               31 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_name.3
+-rw-r--r--    1 root    root               31 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_owner.3
+-rw-r--r--    1 root    root             3961 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_clicert_read.3
+-rw-r--r--    1 root    root               33 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_dname_cmp.3
+-rw-r--r--    1 root    root             1382 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_readable_dname.3
+-rw-r--r--    1 root    root             3956 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_set_verify.3
+-rw-r--r--    1 root    root             1643 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_trust_cert.3
+-rw-r--r--    1 root    root               29 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_ssl_trust_default_ca.3
+-rw-r--r--    1 root    root             1383 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_status.3
+-rw-r--r--    1 root    root               21 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_strdup.3
+-rw-r--r--    1 root    root               21 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_strndup.3
+-rw-r--r--    1 root    root             1663 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_token.3
+-rw-r--r--    1 root    root             1268 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_version_match.3
+-rw-r--r--    1 root    root               28 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/ne_version_string.3
+-rw-r--r--    1 root    root             2500 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/neon-config.1
+-rw-r--r--    1 root    root             4887 Jul  5  2004 /usr/doc/neon-devel-0.24.7/man/neon.3
+-rw-r--r--    1 root    root             1075 Jun 21  2003 /usr/doc/neon-devel-0.24.7/manual.css
+-rw-r--r--    1 root    root             5913 Jun 21  2003 /usr/doc/neon-devel-0.24.7/manual.xml
+-rw-r--r--    1 root    root             5599 Jan  8  2001 /usr/doc/neon-devel-0.24.7/parsing-xml.txt
+drwxr-xr-x    2 root    root                0 Jul  5  2004 /usr/doc/neon-devel-0.24.7/ref
+-rw-r--r--    1 root    root             2821 Aug 17  2002 /usr/doc/neon-devel-0.24.7/ref/alloc.xml
+-rw-r--r--    1 root    root             3803 Jul 19  2002 /usr/doc/neon-devel-0.24.7/ref/auth.xml
+-rw-r--r--    1 root    root             1728 Apr  6  2003 /usr/doc/neon-devel-0.24.7/ref/buf.xml
+-rw-r--r--    1 root    root             2980 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/bufapp.xml
+-rw-r--r--    1 root    root             1532 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/bufcr.xml
+-rw-r--r--    1 root    root             2193 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/bufdest.xml
+-rw-r--r--    1 root    root             1980 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/bufutil.xml
+-rw-r--r--    1 root    root             5685 Sep  9  2003 /usr/doc/neon-devel-0.24.7/ref/clicert.xml
+-rw-r--r--    1 root    root             3783 Apr 12  2003 /usr/doc/neon-devel-0.24.7/ref/config.xml
+-rw-r--r--    1 root    root             1928 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/err.xml
+-rw-r--r--    1 root    root             1742 Jan  5  2003 /usr/doc/neon-devel-0.24.7/ref/getst.xml
+-rw-r--r--    1 root    root             3902 Apr 21  2003 /usr/doc/neon-devel-0.24.7/ref/iaddr.xml
+-rw-r--r--    1 root    root             1289 Aug 17  2002 /usr/doc/neon-devel-0.24.7/ref/init.xml
+-rw-r--r--    1 root    root             6315 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/neon.xml
+-rw-r--r--    1 root    root             4718 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/opts.xml
+-rw-r--r--    1 root    root             6129 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/req.xml
+-rw-r--r--    1 root    root             2245 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/reqbody.xml
+-rw-r--r--    1 root    root             1998 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/reqhdr.xml
+-rw-r--r--    1 root    root             5169 Apr 21  2003 /usr/doc/neon-devel-0.24.7/ref/resolve.xml
+-rw-r--r--    1 root    root             4618 Jul  1  2003 /usr/doc/neon-devel-0.24.7/ref/sess.xml
+-rw-r--r--    1 root    root             1270 Jul  1  2003 /usr/doc/neon-devel-0.24.7/ref/shave.xml
+-rw-r--r--    1 root    root             3736 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/sslcert.xml
+-rw-r--r--    1 root    root             1414 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/sslcert2.xml
+-rw-r--r--    1 root    root             3481 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/sslcertio.xml
+-rw-r--r--    1 root    root             2020 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ref/ssldname.xml
+-rw-r--r--    1 root    root             2121 Jul  1  2003 /usr/doc/neon-devel-0.24.7/ref/ssltrust.xml
+-rw-r--r--    1 root    root             5299 Jun 22  2003 /usr/doc/neon-devel-0.24.7/ref/sslvfy.xml
+-rw-r--r--    1 root    root             2362 Jul  1  2003 /usr/doc/neon-devel-0.24.7/ref/status.xml
+-rw-r--r--    1 root    root             2257 Jun  2  2002 /usr/doc/neon-devel-0.24.7/ref/tok.xml
+-rw-r--r--    1 root    root             1706 Apr  6  2003 /usr/doc/neon-devel-0.24.7/ref/vers.xml
+-rw-r--r--    1 root    root             1048 Aug 25  2002 /usr/doc/neon-devel-0.24.7/refentry.xml
+-rw-r--r--    1 root    root             1004 Jun 21  2003 /usr/doc/neon-devel-0.24.7/ssl.xml
+-rw-r--r--    1 root    root             5838 Sep 18  2001 /usr/doc/neon-devel-0.24.7/using-neon.txt
+-rw-r--r--    1 root    root             5353 Apr 21  2003 /usr/doc/neon-devel-0.24.7/using.xml
+-rw-r--r--    1 root    root                6 Jul  5  2004 /usr/doc/neon-devel-0.24.7/version.xml
+-rw-r--r--    1 root    root             7257 Jul  1  2003 /usr/doc/neon-devel-0.24.7/xml.xml
+drwxr-xr-x    2 root    root                0 Sep  7  2004 /usr/include/neon
+-rw-r--r--    1 root    root             4123 Sep  7  2004 /usr/include/neon/ne_207.h
+-rw-r--r--    1 root    root             1372 Sep  7  2004 /usr/include/neon/ne_acl.h
+-rw-r--r--    1 root    root             1872 Sep  7  2004 /usr/include/neon/ne_alloc.h
+-rw-r--r--    1 root    root             2445 Sep  7  2004 /usr/include/neon/ne_auth.h
+-rw-r--r--    1 root    root             4908 Sep  7  2004 /usr/include/neon/ne_basic.h
+-rw-r--r--    1 root    root             1718 Sep  7  2004 /usr/include/neon/ne_compress.h
+-rw-r--r--    1 root    root             1446 Sep  7  2004 /usr/include/neon/ne_cookies.h
+-rw-r--r--    1 root    root             1635 Sep  7  2004 /usr/include/neon/ne_dates.h
+-rw-r--r--    1 root    root             1255 Sep  7  2004 /usr/include/neon/ne_defs.h
+-rw-r--r--    1 root    root             1114 Sep  7  2004 /usr/include/neon/ne_i18n.h
+-rw-r--r--    1 root    root             6328 Sep  7  2004 /usr/include/neon/ne_locks.h
+-rw-r--r--    1 root    root             4961 Sep  7  2004 /usr/include/neon/ne_md5.h
+-rw-r--r--    1 root    root             9724 Sep  7  2004 /usr/include/neon/ne_props.h
+-rw-r--r--    1 root    root             1448 Sep  7  2004 /usr/include/neon/ne_redirect.h
+-rw-r--r--    1 root    root            10880 Sep  7  2004 /usr/include/neon/ne_request.h
+-rw-r--r--    1 root    root             7514 Sep  7  2004 /usr/include/neon/ne_session.h
+-rw-r--r--    1 root    root             6691 Sep  7  2004 /usr/include/neon/ne_socket.h
+-rw-r--r--    1 root    root             6060 Sep  7  2004 /usr/include/neon/ne_ssl.h
+-rw-r--r--    1 root    root             5112 Sep  7  2004 /usr/include/neon/ne_string.h
+-rw-r--r--    1 root    root             2830 Sep  7  2004 /usr/include/neon/ne_uri.h
+-rw-r--r--    1 root    root             3469 Sep  7  2004 /usr/include/neon/ne_utils.h
+-rw-r--r--    1 root    root             5589 Sep  7  2004 /usr/include/neon/ne_xml.h
+-rw-r--r--    1 root    root           103814 Sep  7  2004 /usr/lib/libneon.a
+-rwxr-xr-x    1 root    root              806 Sep  7  2004 /usr/lib/libneon.la
+-rw-r--r--    1 root    root              305 Sep  7  2004 /usr/lib/pkgconfig/neon.pc
+-rw-r--r--    1 root    root             1095 Sep  7  2004 /usr/share/man/man1/neon-config.1.gz
+-rw-r--r--    1 root    root              651 Sep  7  2004 /usr/share/man/man3/ne_add_request_header.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_addr_destroy.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_addr_error.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_addr_first.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_addr_next.3.gz
+-rw-r--r--    1 root    root             1417 Sep  7  2004 /usr/share/man/man3/ne_addr_resolve.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_addr_result.3.gz
+-rw-r--r--    1 root    root              778 Sep  7  2004 /usr/share/man/man3/ne_buffer.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_buffer_altered.3.gz
+-rw-r--r--    1 root    root              924 Sep  7  2004 /usr/share/man/man3/ne_buffer_append.3.gz
+-rw-r--r--    1 root    root              700 Sep  7  2004 /usr/share/man/man3/ne_buffer_clear.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_buffer_concat.3.gz
+-rw-r--r--    1 root    root              638 Sep  7  2004 /usr/share/man/man3/ne_buffer_create.3.gz
+-rw-r--r--    1 root    root              811 Sep  7  2004 /usr/share/man/man3/ne_buffer_destroy.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_buffer_finish.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_buffer_grow.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_buffer_ncreate.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_buffer_zappend.3.gz
+-rw-r--r--    1 root    root               41 Sep  7  2004 /usr/share/man/man3/ne_calloc.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_close_connection.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_forget_auth.3.gz
+-rw-r--r--    1 root    root              772 Sep  7  2004 /usr/share/man/man3/ne_get_error.3.gz
+-rw-r--r--    1 root    root              784 Sep  7  2004 /usr/share/man/man3/ne_get_status.3.gz
+-rw-r--r--    1 root    root               45 Sep  7  2004 /usr/share/man/man3/ne_iaddr_cmp.3.gz
+-rw-r--r--    1 root    root               45 Sep  7  2004 /usr/share/man/man3/ne_iaddr_free.3.gz
+-rw-r--r--    1 root    root             1222 Sep  7  2004 /usr/share/man/man3/ne_iaddr_make.3.gz
+-rw-r--r--    1 root    root               45 Sep  7  2004 /usr/share/man/man3/ne_iaddr_print.3.gz
+-rw-r--r--    1 root    root              817 Sep  7  2004 /usr/share/man/man3/ne_malloc.3.gz
+-rw-r--r--    1 root    root               41 Sep  7  2004 /usr/share/man/man3/ne_oom_callback.3.gz
+-rw-r--r--    1 root    root               53 Sep  7  2004 /usr/share/man/man3/ne_print_request_header.3.gz
+-rw-r--r--    1 root    root               40 Sep  7  2004 /usr/share/man/man3/ne_qtoken.3.gz
+-rw-r--r--    1 root    root               41 Sep  7  2004 /usr/share/man/man3/ne_realloc.3.gz
+-rw-r--r--    1 root    root             1738 Sep  7  2004 /usr/share/man/man3/ne_request_create.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_request_destroy.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_request_dispatch.3.gz
+-rw-r--r--    1 root    root             1461 Sep  7  2004 /usr/share/man/man3/ne_session_create.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_session_destroy.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_session_proxy.3.gz
+-rw-r--r--    1 root    root               44 Sep  7  2004 /usr/share/man/man3/ne_set_error.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_set_expect100.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_set_persist.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_set_proxy_auth.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_set_read_timeout.3.gz
+-rw-r--r--    1 root    root              555 Sep  7  2004 /usr/share/man/man3/ne_set_request_body_buffer.3.gz
+-rw-r--r--    1 root    root               58 Sep  7  2004 /usr/share/man/man3/ne_set_request_body_fd.3.gz
+-rw-r--r--    1 root    root             1204 Sep  7  2004 /usr/share/man/man3/ne_set_server_auth.3.gz
+-rw-r--r--    1 root    root             1457 Sep  7  2004 /usr/share/man/man3/ne_set_useragent.3.gz
+-rw-r--r--    1 root    root              604 Sep  7  2004 /usr/share/man/man3/ne_shave.3.gz
+-rw-r--r--    1 root    root              637 Sep  7  2004 /usr/share/man/man3/ne_sock_init.3.gz
+-rw-r--r--    1 root    root              579 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_cmp.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_export.3.gz
+-rw-r--r--    1 root    root               47 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_free.3.gz
+-rw-r--r--    1 root    root             1081 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_identity.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_import.3.gz
+-rw-r--r--    1 root    root               52 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_issuer.3.gz
+-rw-r--r--    1 root    root              985 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_read.3.gz
+-rw-r--r--    1 root    root               52 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_signedby.3.gz
+-rw-r--r--    1 root    root               52 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_subject.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_ssl_cert_write.3.gz
+-rw-r--r--    1 root    root               51 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_decrypt.3.gz
+-rw-r--r--    1 root    root               51 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_encrypted.3.gz
+-rw-r--r--    1 root    root               51 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_free.3.gz
+-rw-r--r--    1 root    root               51 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_name.3.gz
+-rw-r--r--    1 root    root               51 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_owner.3.gz
+-rw-r--r--    1 root    root             1440 Sep  7  2004 /usr/share/man/man3/ne_ssl_clicert_read.3.gz
+-rw-r--r--    1 root    root               53 Sep  7  2004 /usr/share/man/man3/ne_ssl_dname_cmp.3.gz
+-rw-r--r--    1 root    root              716 Sep  7  2004 /usr/share/man/man3/ne_ssl_readable_dname.3.gz
+-rw-r--r--    1 root    root             1659 Sep  7  2004 /usr/share/man/man3/ne_ssl_set_verify.3.gz
+-rw-r--r--    1 root    root              835 Sep  7  2004 /usr/share/man/man3/ne_ssl_trust_cert.3.gz
+-rw-r--r--    1 root    root               49 Sep  7  2004 /usr/share/man/man3/ne_ssl_trust_default_ca.3.gz
+-rw-r--r--    1 root    root              800 Sep  7  2004 /usr/share/man/man3/ne_status.3.gz
+-rw-r--r--    1 root    root               41 Sep  7  2004 /usr/share/man/man3/ne_strdup.3.gz
+-rw-r--r--    1 root    root               41 Sep  7  2004 /usr/share/man/man3/ne_strndup.3.gz
+-rw-r--r--    1 root    root              868 Sep  7  2004 /usr/share/man/man3/ne_token.3.gz
+-rw-r--r--    1 root    root              691 Sep  7  2004 /usr/share/man/man3/ne_version_match.3.gz
+-rw-r--r--    1 root    root               48 Sep  7  2004 /usr/share/man/man3/ne_version_string.3.gz
+-rw-r--r--    1 root    root             2159 Sep  7  2004 /usr/share/man/man3/neon.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/neon-devel-0.24.7-1.m68kmint.rpm">Download</A></H2> (255,222 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

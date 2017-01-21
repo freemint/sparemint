@@ -1,0 +1,117 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gv, version 3.5.8, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gv</H2>
+
+<UL> 
+<LI>Summary: A X front-end for the Ghostscript PostScript(TM) interpreter.<BR>
+<LI>URL: <A HREF="http://wwwthep.physik.uni-mainz.de/~plass/gv/">http://wwwthep.physik.uni-mainz.de/~plass/gv/</A><BR>
+<LI>Version: 3.5.8<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Publishing">Applications/Publishing</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,470,692 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gv = 3.5.8-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>XFree86  <BR>
+  <LI>ghostscript  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Dec 30 11:30:08 2000 UTC<BR>
+<LI>Upload date: Mon Jan  8 01:46:42 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gv-3.5.8-2.src.rpm">gv-3.5.8-2.src.rpm</A>  (373,558 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sat Dec 30 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Gv is a user interface for the Ghostscript PostScript(TM) interpreter.<BR>Gv can display PostScript and PDF documents on an X Window System.<BR><P><BR>Install the gv package if you'd like to view PostScript and PDF<BR>documents on your system.  You'll also need to have the ghostscript<BR>package and X installed.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             3527 Dec 30  2000 /etc/X11/app-defaults/GV
+-rw-r--r--    1 root    root               76 Dec 30  2000 /etc/X11/applnk/Graphics/gv.desktop
+?rwxrwxrwx    1 root    root                2 Dec 30  2000 /usr/X11R6/bin/ghostview
+-rwxr-xr-x    1 root    root          1301909 Dec 30  2000 /usr/X11R6/bin/gv
+drwxrwxrwx    2 root    root                0 Dec 30  2000 /usr/X11R6/lib/X11/gv
+-rw-r--r--    1 root    root            39448 Dec 30  2000 /usr/X11R6/lib/X11/gv/gv_class.ad
+-rw-r--r--    1 root    root             3527 Dec 30  2000 /usr/X11R6/lib/X11/gv/gv_system.ad
+-rw-r--r--    1 root    root             3527 Dec 30  2000 /usr/X11R6/lib/X11/gv/gv_user.ad
+-r--r--r--    1 root    root             9848 Dec 30  2000 /usr/X11R6/man/man1/gv.1x.gz
+drwxr-xr-x    2 root    root                0 Dec 30  2000 /usr/doc/gv-3.5.8
+-rw-r--r--    1 root    root            25019 Jun 20  1997 /usr/doc/gv-3.5.8/CHANGES
+-rw-r--r--    1 root    root            18054 Apr  5  1997 /usr/doc/gv-3.5.8/COPYING
+-rw-r--r--    1 root    root              610 Jun 20  1997 /usr/doc/gv-3.5.8/README
+-rw-r--r--    1 root    root             1489 Apr  5  1997 /usr/doc/gv-3.5.8/comments.doc
+-rw-r--r--    1 root    root             1022 Jun 20  1997 /usr/doc/gv-3.5.8/gv-1.html
+-rw-r--r--    1 root    root             1155 Jun 20  1997 /usr/doc/gv-3.5.8/gv-10.html
+-rw-r--r--    1 root    root              579 Jun 20  1997 /usr/doc/gv-3.5.8/gv-11.html
+-rw-r--r--    1 root    root             1027 Jun 20  1997 /usr/doc/gv-3.5.8/gv-12.html
+-rw-r--r--    1 root    root             1067 Jun 20  1997 /usr/doc/gv-3.5.8/gv-13.html
+-rw-r--r--    1 root    root              803 Jun 20  1997 /usr/doc/gv-3.5.8/gv-2.html
+-rw-r--r--    1 root    root             4972 Jun 20  1997 /usr/doc/gv-3.5.8/gv-3.html
+-rw-r--r--    1 root    root            16618 Jun 20  1997 /usr/doc/gv-3.5.8/gv-4.html
+-rw-r--r--    1 root    root             8040 Jun 20  1997 /usr/doc/gv-3.5.8/gv-5.html
+-rw-r--r--    1 root    root             4722 Jun 20  1997 /usr/doc/gv-3.5.8/gv-6.html
+-rw-r--r--    1 root    root             5472 Jun 20  1997 /usr/doc/gv-3.5.8/gv-7.html
+-rw-r--r--    1 root    root              776 Jun 20  1997 /usr/doc/gv-3.5.8/gv-8.html
+-rw-r--r--    1 root    root              915 Jun 20  1997 /usr/doc/gv-3.5.8/gv-9.html
+-rw-r--r--    1 root    root             5472 Jun 20  1997 /usr/doc/gv-3.5.8/gv-faq.html
+-rw-r--r--    1 root    root             4167 Jun 20  1997 /usr/doc/gv-3.5.8/gv-faq.txt
+-rw-r--r--    1 root    root             1666 Jun 20  1997 /usr/doc/gv-3.5.8/gv.html
+-rw-r--r--    1 root    root             3135 Jun 20  1997 /usr/doc/gv-3.5.8/key-bindings.txt
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gv-3.5.8-2.m68kmint.rpm">Download</A></H2> (741,932 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

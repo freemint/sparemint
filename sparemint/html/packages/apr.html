@@ -1,0 +1,138 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - apr, version 0.9.17, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>apr</H2>
+
+<UL> 
+<LI>Summary: Apache Portable Runtime library<BR>
+<LI>URL: <A HREF="http://apr.apache.org/">http://apr.apache.org/</A><BR>
+<LI>Version: 0.9.17<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: Apache Software License</BR>
+<LI>Installation size: 886,119 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>apr = 0.9.17-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Mar 14 17:42:43 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:14 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/apr-0.9.17-1.src.rpm">apr-0.9.17-1.src.rpm</A>  (1,062,208 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Mar 10 22:00:00 2009 UTC<BR>
+- Updated to latest version
+<LI>Description:<BR>
+The mission of the Apache Portable Runtime (APR) is to provide a<BR>free library of C data structures and routines, forming a system<BR>portability layer to as many operating systems as possible,<BR>including Unices, MS Win32, BeOS and OS/2.<BR><P><BR>This package provides the support files which can be used to<BR>build applications using the APR library.  The mission of the<BR>Apache Portable Runtime (APR) is to provide a free library of<BR>C data structures and routines.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             6683 Mar 14  2009 /usr/bin/apr-config
+-rw-rw-rw-    1 root    root             5574 Mar 14  2009 /usr/build/apr_rules.mk
+-rwxr-xr-x    1 root    root           205581 Mar 14  2009 /usr/build/libtool
+-rw-r--r--    1 root    root             2991 Mar 14  2009 /usr/build/make_exports.awk
+-rw-r--r--    1 root    root             1023 Mar 14  2009 /usr/build/make_var_export.awk
+-rwxr-xr-x    1 root    root              980 Mar 14  2009 /usr/build/mkdir.sh
+drwxr-xr-x    2 root    root                0 Mar 14  2009 /usr/doc/apr-0.9.17
+-rw-r--r--    1 root    root            16092 Nov 24  2004 /usr/doc/apr-0.9.17/APRDesign.html
+-rw-r--r--    1 root    root            81078 Nov  8  2007 /usr/doc/apr-0.9.17/CHANGES
+-rw-r--r--    1 root    root            17139 Nov 24  2004 /usr/doc/apr-0.9.17/LICENSE
+-rw-r--r--    1 root    root              355 Nov 24  2004 /usr/doc/apr-0.9.17/NOTICE
+-rw-r--r--    1 root    root             7174 Nov 24  2004 /usr/doc/apr-0.9.17/canonical_filenames.html
+-rw-r--r--    1 root    root             3065 Nov 24  2004 /usr/doc/apr-0.9.17/incomplete_types
+-rw-r--r--    1 root    root             1719 Nov 24  2004 /usr/doc/apr-0.9.17/non_apr_programs
+drwxr-xr-x    2 root    root                0 Mar 14  2009 /usr/include/apr-0
+-rw-rw-rw-    1 root    root            12610 Mar 14  2009 /usr/include/apr-0/apr.h
+-rw-r--r--    1 root    root             5693 Sep 20  2006 /usr/include/apr-0/apr_allocator.h
+-rw-r--r--    1 root    root            10804 Sep 20  2006 /usr/include/apr-0/apr_atomic.h
+-rw-r--r--    1 root    root             8742 Sep 20  2006 /usr/include/apr-0/apr_compat.h
+-rw-r--r--    1 root    root             2700 Sep 20  2006 /usr/include/apr-0/apr_dso.h
+-rw-r--r--    1 root    root             2105 Sep 20  2006 /usr/include/apr-0/apr_env.h
+-rw-r--r--    1 root    root            50773 Sep 20  2006 /usr/include/apr-0/apr_errno.h
+-rw-r--r--    1 root    root            16758 Oct 24  2007 /usr/include/apr-0/apr_file_info.h
+-rw-r--r--    1 root    root            31796 May 14  2007 /usr/include/apr-0/apr_file_io.h
+-rw-r--r--    1 root    root             4222 Nov 24  2004 /usr/include/apr-0/apr_fnmatch.h
+-rw-r--r--    1 root    root             7248 Sep 20  2006 /usr/include/apr-0/apr_general.h
+-rw-r--r--    1 root    root             5903 Sep 20  2006 /usr/include/apr-0/apr_getopt.h
+-rw-r--r--    1 root    root             5680 Sep 20  2006 /usr/include/apr-0/apr_global_mutex.h
+-rw-r--r--    1 root    root             7134 Sep 20  2006 /usr/include/apr-0/apr_hash.h
+-rw-r--r--    1 root    root             2137 Sep 20  2006 /usr/include/apr-0/apr_inherit.h
+-rw-r--r--    1 root    root             7669 Sep 20  2006 /usr/include/apr-0/apr_lib.h
+-rw-r--r--    1 root    root             6032 Sep 20  2006 /usr/include/apr-0/apr_mmap.h
+-rw-r--r--    1 root    root            32810 Sep 20  2006 /usr/include/apr-0/apr_network_io.h
+-rw-r--r--    1 root    root            10079 Sep 20  2006 /usr/include/apr-0/apr_poll.h
+-rw-r--r--    1 root    root            23562 Sep 20  2006 /usr/include/apr-0/apr_pools.h
+-rw-r--r--    1 root    root            18379 Sep 20  2006 /usr/include/apr-0/apr_portable.h
+-rw-r--r--    1 root    root             6002 Sep 20  2006 /usr/include/apr-0/apr_proc_mutex.h
+-rw-r--r--    1 root    root            20276 Aug 16  2007 /usr/include/apr-0/apr_ring.h
+-rw-r--r--    1 root    root             4453 Sep 20  2006 /usr/include/apr-0/apr_shm.h
+-rw-r--r--    1 root    root             2545 Sep 20  2006 /usr/include/apr-0/apr_signal.h
+-rw-r--r--    1 root    root            12718 Nov 17  2006 /usr/include/apr-0/apr_strings.h
+-rw-r--r--    1 root    root             1368 Sep 20  2006 /usr/include/apr-0/apr_support.h
+-rw-r--r--    1 root    root            15599 Sep 20  2006 /usr/include/apr-0/apr_tables.h
+-rw-r--r--    1 root    root             4974 Sep 20  2006 /usr/include/apr-0/apr_thread_cond.h
+-rw-r--r--    1 root    root             3836 Sep 20  2006 /usr/include/apr-0/apr_thread_mutex.h
+-rw-r--r--    1 root    root            32222 Oct  4  2007 /usr/include/apr-0/apr_thread_proc.h
+-rw-r--r--    1 root    root             4400 Sep 20  2006 /usr/include/apr-0/apr_thread_rwlock.h
+-rw-r--r--    1 root    root             7962 Sep 20  2006 /usr/include/apr-0/apr_time.h
+-rw-r--r--    1 root    root             7210 Sep 20  2006 /usr/include/apr-0/apr_user.h
+-rw-r--r--    1 root    root             3421 Nov 15  2007 /usr/include/apr-0/apr_version.h
+-rw-r--r--    1 root    root             2756 Sep 20  2006 /usr/include/apr-0/apr_want.h
+-rw-r--r--    1 root    root           125144 Mar 14  2009 /usr/lib/libapr-0.a
+-rw-rw-rw-    1 root    root              751 Mar 14  2009 /usr/lib/libapr-0.la
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/apr-0.9.17-1.m68kmint.rpm">Download</A></H2> (236,910 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

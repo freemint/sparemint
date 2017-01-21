@@ -1,0 +1,107 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - rpm2html, version 1.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>rpm2html</H2>
+
+<UL> 
+<LI>Summary: Translates rpm database into HTML and RDF info<BR>
+<LI>URL: <A HREF="http://rufus.w3.org/linux/rpm2html/">http://rufus.w3.org/linux/rpm2html/</A><BR>
+<LI>Version: 1.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Utilities/System">Utilities/System</A>
+<LI>License: W3C Copyright (BSD like).</BR>
+<LI>Installation size: 520,013 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>rpm2html = 1.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Sep 16 02:10:16 1999 UTC<BR>
+<LI>Upload date: Thu Sep 23 23:32:14 1999 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/rpm2html-1.2-1.src.rpm">rpm2html-1.2-1.src.rpm</A>  (206,490 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Wed Sep 15 09:00:00 1999 UTC<BR>
+- First Release for SpareMiNT
+<LI>Description:<BR>
+Rpm2html tries to solve 2 big problems one face when<BR>grabbing a RPM package from a mirror on the net and trying to<BR>install it:<BR>   - it gives more information than just the filename before<BR>     installing the package.<BR>   - it tries to solve the dependancy problem by analyzing all<BR>     the Provides and Requires of the set of RPMs. It shows the<BR>     cross references by the way of hypertext links.<BR>Rpm2html can now dump the metadata associated to RPM packages into<BR>standard RDF files.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             1352 Sep 15  1999 /etc/rpm2html.config
+drwxr-xr-x    2 root    root                0 Sep 15  1999 /usr/bin
+-rwxr-xr-x    1 root    root           352574 Sep 15  1999 /usr/bin/rpm2html
+drwxr-xr-x    2 root    root                0 Sep 15  1999 /usr/doc/rpm2html-1.2
+-rw-r--r--    1 root    root              231 Mar 20  1998 /usr/doc/rpm2html-1.2/BUGS
+-rw-r--r--    1 root    root             5273 Nov 15  1998 /usr/doc/rpm2html-1.2/CHANGES
+-rw-r--r--    1 root    root             2221 May 25  1998 /usr/doc/rpm2html-1.2/Copyright
+-rw-r--r--    1 root    root             4725 Apr 27  1998 /usr/doc/rpm2html-1.2/PRINCIPLES
+-rw-r--r--    1 root    root             1110 May  5  1998 /usr/doc/rpm2html-1.2/README
+-rw-r--r--    1 root    root             2143 Sep 11  1998 /usr/doc/rpm2html-1.2/TODO
+-rw-r--r--    1 root    root              475 May 25  1998 /usr/doc/rpm2html-1.2/rpm2html-cdrom.config
+-rw-r--r--    1 root    root            56431 Mar 27  1999 /usr/doc/rpm2html-1.2/rpm2html-en.config
+-rw-r--r--    1 root    root             9848 Jun  9  1998 /usr/doc/rpm2html-1.2/rpm2html-fr.config
+-rw-r--r--    1 root    root             9915 Jun 25  1998 /usr/doc/rpm2html-1.2/rpm2html-rdf.config
+-rw-r--r--    1 root    root            46071 Nov 15  1998 /usr/doc/rpm2html-1.2/rpm2html.config.mirrors
+-rw-r--r--    1 root    root             9534 May 27  1998 /usr/doc/rpm2html-1.2/rpm2html.config.resources
+-rw-r--r--    1 root    root             2166 Sep 15  1999 /usr/man/man1/rpm2html.1.gz
+-rw-r--r--    1 root    root             2892 Sep 15  1999 /usr/share/rpm2html/msg.cz
+-rw-r--r--    1 root    root             2736 Sep 15  1999 /usr/share/rpm2html/msg.de
+-rw-r--r--    1 root    root             3002 Sep 15  1999 /usr/share/rpm2html/msg.es
+-rw-r--r--    1 root    root             2851 Sep 15  1999 /usr/share/rpm2html/msg.fr
+-rw-r--r--    1 root    root             3311 Sep 15  1999 /usr/share/rpm2html/msg.pl
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/rpm2html-1.2-1.m68kmint.rpm">Download</A></H2> (198,957 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

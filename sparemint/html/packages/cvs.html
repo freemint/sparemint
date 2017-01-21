@@ -1,0 +1,169 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - cvs, version 1.11.1p1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>cvs</H2>
+
+<UL> 
+<LI>Summary: A version control system.<BR>
+<LI>URL: <A HREF="http://www.cvshome.org/">http://www.cvshome.org/</A><BR>
+<LI>Version: 1.11.1p1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Tools">Development/Tools</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 3,705,978 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>cvs = 1.11.1p1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Mon Aug 20 19:41:48 2001 UTC<BR>
+<LI>Upload date: Mon Aug 20 19:43:34 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/cvs-1.11.1p1-1.src.rpm">cvs-1.11.1p1-1.src.rpm</A>  (2,784,345 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Mon Aug 20 09:00:00 2001 UTC<BR>
+- updated to 1.11.1p1
+<LI>Description:<BR>
+CVS means Concurrent Version System; it is a version control<BR>system which can record the history of your files (usually,<BR>but not always, source code). CVS only stores the differences<BR>between versions, instead of every version of every file<BR>you've ever created. CVS also keeps a log of who, when and<BR>why changes occurred, among other aspects.<BR><P><BR>CVS is very helpful for managing releases and controlling<BR>the concurrent editing of source files among multiple<BR>authors. Instead of providing version control for a<BR>collection of files in a single directory, CVS provides<BR>version control for a hierarchical collection of<BR>directories consisting of revision controlled files.<BR><P><BR>These directories and files can then be combined together<BR>to form a software release.<BR><P><BR>Install the cvs package if you need to use a version<BR>control system.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           653114 Aug 20  2001 /usr/bin/cvs
+-rwxr-xr-x    1 root    root            13996 Aug 20  2001 /usr/bin/cvsbug
+?rwxrwxrwx    1 root    root               28 Aug 20  2001 /usr/bin/rcs2log
+drwxr-xr-x    2 root    root                0 Aug 20  2001 /usr/doc/cvs-1.11.1p1
+-rw-r--r--    1 root    root            10018 Apr 19  2001 /usr/doc/cvs-1.11.1p1/BUGS
+-rw-r--r--    1 root    root           345335 Apr 24  2001 /usr/doc/cvs-1.11.1p1/FAQ
+-rw-r--r--    1 root    root             2822 Apr 19  2001 /usr/doc/cvs-1.11.1p1/MINOR-BUGS
+-rw-r--r--    1 root    root            50095 Apr 27  2001 /usr/doc/cvs-1.11.1p1/NEWS
+-rw-r--r--    1 root    root             2388 Apr 19  2001 /usr/doc/cvs-1.11.1p1/PROJECTS
+-rw-r--r--    1 root    root             8219 Apr 24  2001 /usr/doc/cvs-1.11.1p1/README
+-rw-r--r--    1 root    root            41134 Apr 24  2001 /usr/doc/cvs-1.11.1p1/TODO
+-rw-r--r--    1 root    root            85412 Apr 19  2001 /usr/doc/cvs-1.11.1p1/cvs-paper.ps
+-rw-r--r--    1 root    root          1057980 Apr 27  2001 /usr/doc/cvs-1.11.1p1/cvs.ps
+-rw-r--r--    1 root    root           250596 Apr 27  2001 /usr/doc/cvs-1.11.1p1/cvsclient.ps
+drwxr-xr-x    2 root    root                0 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html
+-rw-r--r--    1 root    root             6823 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs.html
+-rw-r--r--    1 root    root            28033 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_1.html
+-rw-r--r--    1 root    root            46869 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_10.html
+-rw-r--r--    1 root    root             5951 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_11.html
+-rw-r--r--    1 root    root            20005 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_12.html
+-rw-r--r--    1 root    root            19071 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_13.html
+-rw-r--r--    1 root    root             5838 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_14.html
+-rw-r--r--    1 root    root             3811 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_15.html
+-rw-r--r--    1 root    root           145903 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_16.html
+-rw-r--r--    1 root    root            35609 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_17.html
+-rw-r--r--    1 root    root            76727 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_18.html
+-rw-r--r--    1 root    root             9174 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_19.html
+-rw-r--r--    1 root    root           114600 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_2.html
+-rw-r--r--    1 root    root             4106 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_20.html
+-rw-r--r--    1 root    root            31025 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_21.html
+-rw-r--r--    1 root    root             4684 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_22.html
+-rw-r--r--    1 root    root             6764 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_23.html
+-rw-r--r--    1 root    root            44187 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_24.html
+-rw-r--r--    1 root    root            27926 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_25.html
+-rw-r--r--    1 root    root            29267 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_26.html
+-rw-r--r--    1 root    root            28109 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_27.html
+-rw-r--r--    1 root    root            23386 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_28.html
+-rw-r--r--    1 root    root            17435 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_3.html
+-rw-r--r--    1 root    root            35274 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_4.html
+-rw-r--r--    1 root    root            38297 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_5.html
+-rw-r--r--    1 root    root             5333 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_6.html
+-rw-r--r--    1 root    root            27577 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_7.html
+-rw-r--r--    1 root    root            13013 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_8.html
+-rw-r--r--    1 root    root            11603 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_9.html
+-rw-r--r--    1 root    root             4174 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_abt.html
+-rw-r--r--    1 root    root             3633 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_ovr.html
+-rw-r--r--    1 root    root            18053 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/cvs_toc.html
+-rw-r--r--    1 root    root             6823 Jun 13  2001 /usr/doc/cvs-1.11.1p1/html/index.html
+-rw-r--r--    1 root    root            16448 Aug 20  2001 /usr/info/cvs.info-1.gz
+-rw-r--r--    1 root    root            16030 Aug 20  2001 /usr/info/cvs.info-2.gz
+-rw-r--r--    1 root    root            14961 Aug 20  2001 /usr/info/cvs.info-3.gz
+-rw-r--r--    1 root    root            16458 Aug 20  2001 /usr/info/cvs.info-4.gz
+-rw-r--r--    1 root    root            16311 Aug 20  2001 /usr/info/cvs.info-5.gz
+-rw-r--r--    1 root    root            12572 Aug 20  2001 /usr/info/cvs.info-6.gz
+-rw-r--r--    1 root    root            12374 Aug 20  2001 /usr/info/cvs.info-7.gz
+-rw-r--r--    1 root    root            15200 Aug 20  2001 /usr/info/cvs.info-8.gz
+-rw-r--r--    1 root    root             6838 Aug 20  2001 /usr/info/cvs.info-9.gz
+-rw-r--r--    1 root    root             2610 Aug 20  2001 /usr/info/cvs.info.gz
+-rw-r--r--    1 root    root             9071 Aug 20  2001 /usr/info/cvsclient.info-1.gz
+-rw-r--r--    1 root    root            11486 Aug 20  2001 /usr/info/cvsclient.info-2.gz
+-rw-r--r--    1 root    root             9750 Aug 20  2001 /usr/info/cvsclient.info-3.gz
+-rw-r--r--    1 root    root              484 Aug 20  2001 /usr/info/cvsclient.info.gz
+drwxrwxrwx    2 root    root                0 Aug 20  2001 /usr/share/cvs
+drwxrwxrwx    2 root    root                0 Aug 20  2001 /usr/share/cvs/contrib
+-rw-r--r--    1 root    root             5029 Aug 20  2001 /usr/share/cvs/contrib/README
+-rwxr-xr-x    1 root    root             3344 Aug 20  2001 /usr/share/cvs/contrib/clmerge
+-rwxr-xr-x    1 root    root             1925 Aug 20  2001 /usr/share/cvs/contrib/cln_hist
+-rwxr-xr-x    1 root    root             5520 Aug 20  2001 /usr/share/cvs/contrib/commit_prep
+-rwxr-xr-x    1 root    root             4530 Aug 20  2001 /usr/share/cvs/contrib/cvs2vendor
+-rwxr-xr-x    1 root    root             5241 Aug 20  2001 /usr/share/cvs/contrib/cvs_acls
+-rwxr-xr-x    1 root    root             2264 Aug 20  2001 /usr/share/cvs/contrib/cvscheck
+-rwxr-xr-x    1 root    root             4456 Aug 20  2001 /usr/share/cvs/contrib/debug_check_log
+-rw-r--r--    1 root    root             4002 Aug 20  2001 /usr/share/cvs/contrib/intro.doc
+-rwxr-xr-x    1 root    root             4885 Aug 20  2001 /usr/share/cvs/contrib/log
+-rwxr-xr-x    1 root    root            14694 Aug 20  2001 /usr/share/cvs/contrib/log_accum
+-rwxr-xr-x    1 root    root             1877 Aug 20  2001 /usr/share/cvs/contrib/mfpipe
+-rwxr-xr-x    1 root    root             4647 Aug 20  2001 /usr/share/cvs/contrib/rcs-to-cvs
+-rwxr-xr-x    1 root    root            17623 Aug 20  2001 /usr/share/cvs/contrib/rcs2log
+-rwxr-xr-x    1 root    root             6575 Aug 20  2001 /usr/share/cvs/contrib/rcslock
+-rwxr-xr-x    1 root    root             8340 Aug 20  2001 /usr/share/cvs/contrib/sccs2rcs
+-rw-r--r--    1 root    root            18555 Aug 20  2001 /usr/share/man/man1/cvs.1.gz
+-rw-r--r--    1 root    root             4522 Aug 20  2001 /usr/share/man/man5/cvs.5.gz
+-rw-r--r--    1 root    root             3040 Aug 20  2001 /usr/share/man/man8/cvsbug.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/cvs-1.11.1p1-1.m68kmint.rpm">Download</A></H2> (1,282,353 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

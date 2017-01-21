@@ -1,0 +1,448 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - itcl, version 3.0.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>itcl</H2>
+
+<UL> 
+<LI>Summary: Object-oriented mega-widgets for Tcl.<BR>
+
+<LI>Version: 3.0.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 3,537,394 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>itcl = 3.0.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 16 15:15:17 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcltk-8.0.5-1.src.rpm">tcltk-8.0.5-1.src.rpm</A>  (7,145,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov 16 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+[incr Tcl] is an object-oriented extension of the Tcl language and was<BR>created to support more structured programming in Tcl.  Tcl scripts<BR>longer than a few thousand lines become extremely difficult to<BR>maintain because the building blocks of vanilla Tcl are procedures and<BR>global variables. All of these building blocks must reside in a single<BR>global namespace and there is no support for protection or<BR>encapsulation.<BR><P><BR>To help out with this problem, [incr Tcl] introduces the notion of<BR>objects.  Each object is a bag of data with a set of procedures or<BR>"methods" that are used to manipulate it.  Objects are organized into<BR>"classes" with identical characteristics, and classes can inherit<BR>functionality from one another.  This object-oriented paradigm adds<BR>another level of organization on top of the basic variable/procedure<BR>elements, and the resulting code is easier to understand and<BR>maintain.<BR><P><BR>Install itcl if you're programming with Tcl, and you need the<BR>object-oriented functionality that [incr Tcl] can provide.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    wheel              13 Nov 16  2000 /usr/lib/iwidgets
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets2.2.0
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos
+-rwxr-xr-x    1 root    wheel             611 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/buttonbox
+-rwxr-xr-x    1 root    wheel            1007 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/canvasprintdialog
+-rwxr-xr-x    1 root    wheel           12459 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/catalog
+-rwxr-xr-x    1 root    wheel             670 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/combobox
+-r-xr-xr-x    1 root    wheel            1005 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/demo.html
+-rwxr-xr-x    1 root    wheel            1291 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/dialog
+-rwxr-xr-x    1 root    wheel            1098 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/dialogshell
+-rwxr-xr-x    1 root    wheel            1214 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/entryfield
+-rwxr-xr-x    1 root    wheel             633 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/feedback
+-rwxr-xr-x    1 root    wheel             492 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/fileselectionbox
+-rwxr-xr-x    1 root    wheel             642 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/fileselectiondialog
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html
+-r--r--r--    1 root    wheel            7291 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/buttonbox.n.html
+-r--r--r--    1 root    wheel            9798 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/canvasprintbox.n.html
+-r--r--r--    1 root    wheel            5784 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/canvasprintdialog.n.html
+-r--r--r--    1 root    wheel           14798 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/combobox.n.html
+-r--r--r--    1 root    wheel            4750 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/dialog.n.html
+-r--r--r--    1 root    wheel            6928 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/dialogshell.n.html
+-r--r--r--    1 root    wheel            9581 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/entryfield.n.html
+-r--r--r--    1 root    wheel            5147 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/feedback.n.html
+-r--r--r--    1 root    wheel           17281 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/fileselectionbox.n.html
+-r--r--r--    1 root    wheel            8266 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/fileselectiondialog.n.html
+-r--r--r--    1 root    wheel            6135 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/hyperhelp.n.html
+-r--r--r--    1 root    wheel            2600 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/iwidgets2.2.0UserCmds.html
+-r--r--r--    1 root    wheel            6454 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/labeledwidget.n.html
+-r--r--r--    1 root    wheel           23445 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/menubar.n.html
+-r--r--r--    1 root    wheel            6780 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/messagedialog.n.html
+-r--r--r--    1 root    wheel           15374 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/notebook.n.html
+-r--r--r--    1 root    wheel            9777 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/optionmenu.n.html
+-r--r--r--    1 root    wheel           10955 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/panedwindow.n.html
+-r--r--r--    1 root    wheel            7228 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/promptdialog.n.html
+-r--r--r--    1 root    wheel            5360 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/pushbutton.n.html
+-r--r--r--    1 root    wheel            6548 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/radiobox.n.html
+-r--r--r--    1 root    wheel            9430 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/scrolledcanvas.n.html
+-r--r--r--    1 root    wheel            8737 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/scrolledframe.n.html
+-r--r--r--    1 root    wheel           13866 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/scrolledhtml.n.html
+-r--r--r--    1 root    wheel           13322 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/scrolledlistbox.n.html
+-r--r--r--    1 root    wheel           10383 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/scrolledtext.n.html
+-r--r--r--    1 root    wheel           10648 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/selectionbox.n.html
+-r--r--r--    1 root    wheel            8100 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/selectiondialog.n.html
+-r--r--r--    1 root    wheel            5620 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/shell.n.html
+-r--r--r--    1 root    wheel           11108 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/spindate.n.html
+-r--r--r--    1 root    wheel            6605 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/spinint.n.html
+-r--r--r--    1 root    wheel            7819 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/spinner.n.html
+-r--r--r--    1 root    wheel           10888 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/spintime.n.html
+-r--r--r--    1 root    wheel           30439 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/tabnotebook.n.html
+-r--r--r--    1 root    wheel           21443 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/tabset.n.html
+-r--r--r--    1 root    wheel           13698 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/html/toolbar.n.html
+-rwxr-xr-x    1 root    wheel             655 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/hyperhelp
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/images
+-r--r--r--    1 root    wheel             183 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/images/mag.gif
+-r--r--r--    1 root    wheel             141 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/images/poly.gif
+-r--r--r--    1 root    wheel             174 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/images/ruler.gif
+-r--r--r--    1 root    wheel             124 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/images/select.gif
+-r-xr-xr-x    1 root    wheel            7727 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/iwidgets.gif
+-rwxr-xr-x    1 root    wheel             861 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/labeledwidget
+-rwxr-xr-x    1 root    wheel            2541 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/menubar
+-rwxr-xr-x    1 root    wheel             736 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/messagedialog
+-rwxr-xr-x    1 root    wheel            2303 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/notebook
+-rwxr-xr-x    1 root    wheel             617 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/optionmenu
+-rwxr-xr-x    1 root    wheel            1021 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/panedwindow
+-rwxr-xr-x    1 root    wheel             712 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/promptdialog
+-rwxr-xr-x    1 root    wheel             684 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/pushbutton
+-rwxr-xr-x    1 root    wheel             590 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/radiobox
+-rwxr-xr-x    1 root    wheel            1714 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/scrolledcanvas
+-rwxr-xr-x    1 root    wheel             969 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/scrolledframe
+-rwxr-xr-x    1 root    wheel             623 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/scrolledhtml
+-rwxr-xr-x    1 root    wheel             972 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/scrolledlistbox
+-rwxr-xr-x    1 root    wheel             621 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/scrolledtext
+-rwxr-xr-x    1 root    wheel             602 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/selectionbox
+-rwxr-xr-x    1 root    wheel             799 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/selectiondialog
+-rwxr-xr-x    1 root    wheel             458 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/spindate
+-rwxr-xr-x    1 root    wheel             990 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/spinint
+-rwxr-xr-x    1 root    wheel             924 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/spinner
+-rwxr-xr-x    1 root    wheel             438 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/spintime
+-rwxr-xr-x    1 root    wheel            2355 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/tabnotebook
+-rwxr-xr-x    1 root    wheel             561 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/tabset
+-rwxr-xr-x    1 root    wheel            1665 Nov 16  2000 /usr/lib/iwidgets2.2.0/demos/toolbar
+-rw-r--r--    1 root    wheel             980 Nov 16  2000 /usr/lib/iwidgets2.2.0/iwidgets.tcl
+-rw-r--r--    1 root    wheel             115 Nov 16  2000 /usr/lib/iwidgets2.2.0/pkgIndex.tcl
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts
+-rw-r--r--    1 root    wheel           17929 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/buttonbox.itk
+-rw-r--r--    1 root    wheel           35739 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/canvasprintbox.itk
+-rw-r--r--    1 root    wheel            5631 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/canvasprintdialog.itk
+-rw-r--r--    1 root    wheel            7256 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/colors.itk
+-rw-r--r--    1 root    wheel           36974 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/combobox.itk
+-rw-r--r--    1 root    wheel            3475 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/dialog.itk
+-rw-r--r--    1 root    wheel           11859 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/dialogshell.itk
+-rw-r--r--    1 root    wheel           17519 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/entryfield.itk
+-rw-r--r--    1 root    wheel            6915 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/feedback.itk
+-rw-r--r--    1 root    wheel           38448 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/fileselectionbox.itk
+-rw-r--r--    1 root    wheel            8162 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/fileselectiondialog.itk
+-rw-r--r--    1 root    wheel           17177 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/hyperhelp.itk
+-rw-r--r--    1 root    wheel           13535 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/labeledwidget.itk
+-rw-r--r--    1 root    wheel           76410 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/menubar.itk
+-rw-r--r--    1 root    wheel            5738 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/messagedialog.itk
+-rw-r--r--    1 root    wheel           29660 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/notebook.itk
+-rw-r--r--    1 root    wheel           20987 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/optionmenu.itk
+-rw-r--r--    1 root    wheel            4810 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/pane.itk
+-rw-r--r--    1 root    wheel           30263 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/panedwindow.itk
+-rw-r--r--    1 root    wheel            7406 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/promptdialog.itk
+-rw-r--r--    1 root    wheel           12565 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/pushbutton.itk
+-rw-r--r--    1 root    wheel           10467 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/radiobox.itk
+-rw-r--r--    1 root    wheel           24363 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/scrolledcanvas.itk
+-rw-r--r--    1 root    wheel           19980 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/scrolledframe.itk
+-rw-r--r--    1 root    wheel           60802 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/scrolledhtml.itk
+-rw-r--r--    1 root    wheel           33815 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/scrolledlistbox.itk
+-rw-r--r--    1 root    wheel           26097 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/scrolledtext.itk
+-rw-r--r--    1 root    wheel           18741 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/selectionbox.itk
+-rw-r--r--    1 root    wheel            9983 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/selectiondialog.itk
+-rw-r--r--    1 root    wheel           11069 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/shell.itk
+-rw-r--r--    1 root    wheel           18855 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/spindate.itk
+-rw-r--r--    1 root    wheel            8786 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/spinint.itk
+-rw-r--r--    1 root    wheel           15707 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/spinner.itk
+-rw-r--r--    1 root    wheel           15814 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/spintime.itk
+-rw-r--r--    1 root    wheel           36314 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/tabnotebook.itk
+-rw-r--r--    1 root    wheel           83149 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/tabset.itk
+-rw-r--r--    1 root    wheel           96978 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/tclIndex
+-rw-r--r--    1 root    wheel           32403 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/toolbar.itk
+-rw-r--r--    1 root    wheel             472 Nov 16  2000 /usr/lib/iwidgets2.2.0/scripts/unknownimage.gif
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets3.0.0
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos
+-rwxr-xr-x    1 root    wheel             505 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/buttonbox
+-rwxr-xr-x    1 root    wheel             910 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/calendar
+-rwxr-xr-x    1 root    wheel             619 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/canvasprintbox
+-rwxr-xr-x    1 root    wheel             997 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/canvasprintdialog
+-rwxr-xr-x    1 root    wheel           12986 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/catalog
+-rwxr-xr-x    1 root    wheel             493 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/checkbox
+-rwxr-xr-x    1 root    wheel             625 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/combobox
+-rwxr-xr-x    1 root    wheel             443 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/dateentry
+-rwxr-xr-x    1 root    wheel             442 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/datefield
+-r-xr-xr-x    1 root    wheel            1005 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/demo.html
+-rwxr-xr-x    1 root    wheel            1281 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/dialog
+-rwxr-xr-x    1 root    wheel            1088 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/dialogshell
+-rwxr-xr-x    1 root    wheel             403 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/disjointlistbox
+-rwxr-xr-x    1 root    wheel            1204 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/entryfield
+-rwxr-xr-x    1 root    wheel             473 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/extfileselectionbox
+-rwxr-xr-x    1 root    wheel             498 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/extfileselectiondialog
+-rwxr-xr-x    1 root    wheel             623 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/feedback
+-rwxr-xr-x    1 root    wheel             467 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/fileselectionbox
+-rwxr-xr-x    1 root    wheel             489 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/fileselectiondialog
+-rwxr-xr-x    1 root    wheel            9765 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/finddialog
+-rwxr-xr-x    1 root    wheel            5035 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/hierarchy
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html
+-r--r--r--    1 root    wheel            8514 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/buttonbox.n.html
+-r--r--r--    1 root    wheel           13018 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/calendar.n.html
+-r--r--r--    1 root    wheel           11753 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/canvasprintbox.n.html
+-r--r--r--    1 root    wheel            6945 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/canvasprintdialog.n.html
+-r--r--r--    1 root    wheel            7694 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/checkbox.n.html
+-r--r--r--    1 root    wheel           16702 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/combobox.n.html
+-r--r--r--    1 root    wheel            7655 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/dateentry.n.html
+-r--r--r--    1 root    wheel            8403 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/datefield.n.html
+-r--r--r--    1 root    wheel            5560 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/dialog.n.html
+-r--r--r--    1 root    wheel            8779 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/dialogshell.n.html
+-r--r--r--    1 root    wheel           10500 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/disjointlistbox.n.html
+-r--r--r--    1 root    wheel           11075 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/entryfield.n.html
+-r--r--r--    1 root    wheel           14255 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/extfileselectionbox.n.html
+-r--r--r--    1 root    wheel            8527 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/extfileselectiondialog.n.html
+-r--r--r--    1 root    wheel            6366 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/feedback.n.html
+-r--r--r--    1 root    wheel           14341 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/fileselectionbox.n.html
+-r--r--r--    1 root    wheel            8054 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/fileselectiondialog.n.html
+-r--r--r--    1 root    wheel           11387 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/finddialog.n.html
+-r--r--r--    1 root    wheel           23190 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/hierarchy.n.html
+-r--r--r--    1 root    wheel            8592 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/hyperhelp.n.html
+-r--r--r--    1 root    wheel            8403 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/labeledframe.n.html
+-r--r--r--    1 root    wheel            8876 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/labeledwidget.n.html
+-r--r--r--    1 root    wheel           12197 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/mainwindow.n.html
+-r--r--r--    1 root    wheel           23701 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/menubar.n.html
+-r--r--r--    1 root    wheel           10199 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/messagebox.n.html
+-r--r--r--    1 root    wheel            7986 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/messagedialog.n.html
+-r--r--r--    1 root    wheel           15427 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/notebook.n.html
+-r--r--r--    1 root    wheel           11485 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/optionmenu.n.html
+-r--r--r--    1 root    wheel           12596 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/panedwindow.n.html
+-r--r--r--    1 root    wheel            7350 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/promptdialog.n.html
+-r--r--r--    1 root    wheel            6738 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/pushbutton.n.html
+-r--r--r--    1 root    wheel            7668 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/radiobox.n.html
+-r--r--r--    1 root    wheel            4559 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scopedobject.n.html
+-r--r--r--    1 root    wheel           10942 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scrolledcanvas.n.html
+-r--r--r--    1 root    wheel            9333 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scrolledframe.n.html
+-r--r--r--    1 root    wheel           13478 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scrolledhtml.n.html
+-r--r--r--    1 root    wheel           15031 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scrolledlistbox.n.html
+-r--r--r--    1 root    wheel           12072 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/scrolledtext.n.html
+-r--r--r--    1 root    wheel           12011 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/selectionbox.n.html
+-r--r--r--    1 root    wheel            7633 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/selectiondialog.n.html
+-r--r--r--    1 root    wheel            8404 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/shell.n.html
+-r--r--r--    1 root    wheel           10424 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/spindate.n.html
+-r--r--r--    1 root    wheel            7740 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/spinint.n.html
+-r--r--r--    1 root    wheel            9215 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/spinner.n.html
+-r--r--r--    1 root    wheel           10118 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/spintime.n.html
+-r--r--r--    1 root    wheel           31441 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/tabnotebook.n.html
+-r--r--r--    1 root    wheel           22064 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/tabset.n.html
+-r--r--r--    1 root    wheel            8158 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/timeentry.n.html
+-r--r--r--    1 root    wheel            7441 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/timefield.n.html
+-r--r--r--    1 root    wheel           14827 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/toolbar.n.html
+-r--r--r--    1 root    wheel           11256 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/html/watch.n.html
+-rwxr-xr-x    1 root    wheel             645 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/hyperhelp
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images
+-r--r--r--    1 root    wheel             896 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/box.xbm
+-r--r--r--    1 root    wheel             279 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/clear.gif
+-r--r--r--    1 root    wheel             249 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/close.gif
+-r--r--r--    1 root    wheel             269 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/copy.gif
+-r--r--r--    1 root    wheel             179 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/cut.gif
+-r--r--r--    1 root    wheel             396 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/exit.gif
+-r--r--r--    1 root    wheel             386 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/find.gif
+-r--r--r--    1 root    wheel             591 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/help.gif
+-r--r--r--    1 root    wheel             890 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/line.xbm
+-r--r--r--    1 root    wheel             183 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/mag.gif
+-r--r--r--    1 root    wheel             212 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/new.gif
+-r--r--r--    1 root    wheel             258 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/open.gif
+-r--r--r--    1 root    wheel             890 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/oval.xbm
+-r--r--r--    1 root    wheel             376 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/paste.gif
+-r--r--r--    1 root    wheel             896 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/points.xbm
+-r--r--r--    1 root    wheel             141 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/poly.gif
+-r--r--r--    1 root    wheel             263 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/print.gif
+-r--r--r--    1 root    wheel             174 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/ruler.gif
+-r--r--r--    1 root    wheel             270 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/save.gif
+-r--r--r--    1 root    wheel             124 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/select.gif
+-r--r--r--    1 root    wheel             890 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/images/text.xbm
+-r-xr-xr-x    1 root    wheel            7727 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/iwidgets.gif
+-rwxr-xr-x    1 root    wheel            1309 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/labeledframe
+-rwxr-xr-x    1 root    wheel             843 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/labeledwidget
+-rwxr-xr-x    1 root    wheel            5354 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/mainwindow
+-rwxr-xr-x    1 root    wheel            2531 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/menubar
+-rwxr-xr-x    1 root    wheel            1126 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/messagebox
+-rwxr-xr-x    1 root    wheel             726 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/messagedialog
+-rwxr-xr-x    1 root    wheel            2288 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/notebook
+-rwxr-xr-x    1 root    wheel             567 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/optionmenu
+-rwxr-xr-x    1 root    wheel            1011 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/panedwindow
+-rwxr-xr-x    1 root    wheel             702 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/promptdialog
+-rwxr-xr-x    1 root    wheel             674 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/pushbutton
+-rwxr-xr-x    1 root    wheel             580 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/radiobox
+-rwxr-xr-x    1 root    wheel             326 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scopedobject
+-rwxr-xr-x    1 root    wheel            1465 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scrolledcanvas
+-rwxr-xr-x    1 root    wheel             959 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scrolledframe
+-rwxr-xr-x    1 root    wheel             613 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scrolledhtml
+-rwxr-xr-x    1 root    wheel             938 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scrolledlistbox
+-rwxr-xr-x    1 root    wheel             611 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/scrolledtext
+-rwxr-xr-x    1 root    wheel             573 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/selectionbox
+-rwxr-xr-x    1 root    wheel             770 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/selectiondialog
+-rwxr-xr-x    1 root    wheel             256 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/shell
+-rwxr-xr-x    1 root    wheel             447 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/spindate
+-rwxr-xr-x    1 root    wheel             980 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/spinint
+-rwxr-xr-x    1 root    wheel             914 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/spinner
+-rwxr-xr-x    1 root    wheel             428 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/spintime
+-rwxr-xr-x    1 root    wheel            2355 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/tabnotebook
+-rwxr-xr-x    1 root    wheel             551 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/tabset
+-rwxr-xr-x    1 root    wheel             344 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/timeentry
+-rwxr-xr-x    1 root    wheel             404 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/timefield
+-rwxr-xr-x    1 root    wheel            1655 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/toolbar
+-rwxr-xr-x    1 root    wheel             459 Nov 16  2000 /usr/lib/iwidgets3.0.0/demos/watch
+-rw-r--r--    1 root    wheel            1004 Nov 16  2000 /usr/lib/iwidgets3.0.0/iwidgets.tcl
+-rw-r--r--    1 root    wheel             115 Nov 16  2000 /usr/lib/iwidgets3.0.0/pkgIndex.tcl
+drwxrwxrwx    2 root    wheel               0 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts
+-rw-r--r--    1 root    wheel           18095 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/buttonbox.itk
+-rw-r--r--    1 root    wheel           31249 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/calendar.itk
+-rw-r--r--    1 root    wheel           31833 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/canvasprintbox.itk
+-rw-r--r--    1 root    wheel            5586 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/canvasprintdialog.itk
+-rw-r--r--    1 root    wheel           10829 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/checkbox.itk
+-rw-r--r--    1 root    wheel            7256 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/colors.itcl
+-rw-r--r--    1 root    wheel           41749 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/combobox.itk
+-rw-r--r--    1 root    wheel           15019 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/dateentry.itk
+-rw-r--r--    1 root    wheel           26109 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/datefield.itk
+-rw-r--r--    1 root    wheel            3551 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/dialog.itk
+-rw-r--r--    1 root    wheel           12636 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/dialogshell.itk
+-rw-r--r--    1 root    wheel           13843 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/disjointlistbox.itk
+-rw-r--r--    1 root    wheel           17925 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/entryfield.itk
+-rw-r--r--    1 root    wheel           36580 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/extfileselectionbox.itk
+-rw-r--r--    1 root    wheel            6794 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/extfileselectiondialog.itk
+-rw-r--r--    1 root    wheel            7560 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/feedback.itk
+-rw-r--r--    1 root    wheel           39452 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/fileselectionbox.itk
+-rw-r--r--    1 root    wheel            6705 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/fileselectiondialog.itk
+-rw-r--r--    1 root    wheel           16245 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/finddialog.itk
+-rw-r--r--    1 root    wheel           56015 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/hierarchy.itk
+-rw-r--r--    1 root    wheel           18518 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/hyperhelp.itk
+-rw-r--r--    1 root    wheel           17314 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/labeledframe.itk
+-rw-r--r--    1 root    wheel           14348 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/labeledwidget.itk
+-rw-r--r--    1 root    wheel           10472 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/mainwindow.itk
+-rw-r--r--    1 root    wheel           70819 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/menubar.itk
+-rw-r--r--    1 root    wheel           12920 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/messagebox.itk
+-rw-r--r--    1 root    wheel            5060 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/messagedialog.itk
+-rw-r--r--    1 root    wheel           30513 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/notebook.itk
+-rw-r--r--    1 root    wheel           21089 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/optionmenu.itk
+-rw-r--r--    1 root    wheel            4704 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/pane.itk
+-rw-r--r--    1 root    wheel           29439 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/panedwindow.itk
+-rw-r--r--    1 root    wheel            7052 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/promptdialog.itk
+-rw-r--r--    1 root    wheel           12213 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/pushbutton.itk
+-rw-r--r--    1 root    wheel           11651 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/radiobox.itk
+-rw-r--r--    1 root    wheel           15111 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/regexpfield.itk
+-rw-r--r--    1 root    wheel             711 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/roman.itcl
+-rw-r--r--    1 root    wheel            5016 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scopedobject.itcl
+-rw-r--r--    1 root    wheel           17287 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledcanvas.itk
+-rw-r--r--    1 root    wheel            8728 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledframe.itk
+-rw-r--r--    1 root    wheel           77847 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledhtml.itk
+-rw-r--r--    1 root    wheel           24436 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledlistbox.itk
+-rw-r--r--    1 root    wheel           17313 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledtext.itk
+-rw-r--r--    1 root    wheel           12195 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/scrolledwidget.itk
+-rw-r--r--    1 root    wheel           19011 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/selectionbox.itk
+-rw-r--r--    1 root    wheel            8470 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/selectiondialog.itk
+-rw-r--r--    1 root    wheel           12531 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/shell.itk
+-rw-r--r--    1 root    wheel           21546 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/spindate.itk
+-rw-r--r--    1 root    wheel            8522 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/spinint.itk
+-rw-r--r--    1 root    wheel           15575 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/spinner.itk
+-rw-r--r--    1 root    wheel           16195 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/spintime.itk
+-rw-r--r--    1 root    wheel           36359 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/tabnotebook.itk
+-rw-r--r--    1 root    wheel           83384 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/tabset.itk
+-rw-r--r--    1 root    wheel          127544 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/tclIndex
+-rw-r--r--    1 root    wheel           13744 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/timeentry.itk
+-rw-r--r--    1 root    wheel           29226 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/timefield.itk
+-rw-r--r--    1 root    wheel           31985 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/toolbar.itk
+-rw-r--r--    1 root    wheel             472 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/unknownimage.gif
+-rw-r--r--    1 root    wheel           19386 Nov 16  2000 /usr/lib/iwidgets3.0.0/scripts/watch.itk
+-r--r--r--    1 root    wheel            3986 Nov 16  2000 /usr/man/mann/buttonbox.n.gz
+-r--r--r--    1 root    wheel            4426 Nov 16  2000 /usr/man/mann/calendar.n.gz
+-r--r--r--    1 root    wheel            4495 Nov 16  2000 /usr/man/mann/canvasprintbox.n.gz
+-r--r--r--    1 root    wheel            3280 Nov 16  2000 /usr/man/mann/canvasprintdialog.n.gz
+-r--r--r--    1 root    wheel            3761 Nov 16  2000 /usr/man/mann/checkbox.n.gz
+-r--r--r--    1 root    wheel            5870 Nov 16  2000 /usr/man/mann/combobox.n.gz
+-r--r--r--    1 root    wheel            3569 Nov 16  2000 /usr/man/mann/dateentry.n.gz
+-r--r--r--    1 root    wheel            3988 Nov 16  2000 /usr/man/mann/datefield.n.gz
+-r--r--r--    1 root    wheel            3541 Nov 16  2000 /usr/man/mann/dialogshell.n.gz
+-r--r--r--    1 root    wheel            3882 Nov 16  2000 /usr/man/mann/disjointlistbox.n.gz
+-r--r--r--    1 root    wheel            4403 Nov 16  2000 /usr/man/mann/entryfield.n.gz
+-r--r--r--    1 root    wheel            4200 Nov 16  2000 /usr/man/mann/extfileselectionbox.n.gz
+-r--r--r--    1 root    wheel            3615 Nov 16  2000 /usr/man/mann/extfileselectiondialog.n.gz
+-r--r--r--    1 root    wheel            3340 Nov 16  2000 /usr/man/mann/feedback.n.gz
+-r--r--r--    1 root    wheel            4251 Nov 16  2000 /usr/man/mann/fileselectionbox.n.gz
+-r--r--r--    1 root    wheel            3523 Nov 16  2000 /usr/man/mann/fileselectiondialog.n.gz
+-r--r--r--    1 root    wheel            4081 Nov 16  2000 /usr/man/mann/finddialog.n.gz
+-r--r--r--    1 root    wheel            7020 Nov 16  2000 /usr/man/mann/hierarchy.n.gz
+-r--r--r--    1 root    wheel            3840 Nov 16  2000 /usr/man/mann/hyperhelp.n.gz
+-r--r--r--    1 root    wheel            3684 Nov 16  2000 /usr/man/mann/labeledframe.n.gz
+-r--r--r--    1 root    wheel            3851 Nov 16  2000 /usr/man/mann/labeledwidget.n.gz
+-r--r--r--    1 root    wheel            4166 Nov 16  2000 /usr/man/mann/mainwindow.n.gz
+-r--r--r--    1 root    wheel            4652 Nov 16  2000 /usr/man/mann/messagebox.n.gz
+-r--r--r--    1 root    wheel            3583 Nov 16  2000 /usr/man/mann/messagedialog.n.gz
+-r--r--r--    1 root    wheel            5872 Nov 16  2000 /usr/man/mann/notebook.n.gz
+-r--r--r--    1 root    wheel            4720 Nov 16  2000 /usr/man/mann/optionmenu.n.gz
+-r--r--r--    1 root    wheel            4944 Nov 16  2000 /usr/man/mann/panedwindow.n.gz
+-r--r--r--    1 root    wheel            3395 Nov 16  2000 /usr/man/mann/promptdialog.n.gz
+-r--r--r--    1 root    wheel            3322 Nov 16  2000 /usr/man/mann/pushbutton.n.gz
+-r--r--r--    1 root    wheel            3760 Nov 16  2000 /usr/man/mann/radiobox.n.gz
+-r--r--r--    1 root    wheel            2957 Nov 16  2000 /usr/man/mann/scopedobject.n.gz
+-r--r--r--    1 root    wheel            4109 Nov 16  2000 /usr/man/mann/scrolledcanvas.n.gz
+-r--r--r--    1 root    wheel            3839 Nov 16  2000 /usr/man/mann/scrolledframe.n.gz
+-r--r--r--    1 root    wheel            4965 Nov 16  2000 /usr/man/mann/scrolledhtml.n.gz
+-r--r--r--    1 root    wheel            5208 Nov 16  2000 /usr/man/mann/scrolledlistbox.n.gz
+-r--r--r--    1 root    wheel            4385 Nov 16  2000 /usr/man/mann/scrolledtext.n.gz
+-r--r--r--    1 root    wheel            4141 Nov 16  2000 /usr/man/mann/selectionbox.n.gz
+-r--r--r--    1 root    wheel            3376 Nov 16  2000 /usr/man/mann/selectiondialog.n.gz
+-r--r--r--    1 root    wheel            3827 Nov 16  2000 /usr/man/mann/shell.n.gz
+-r--r--r--    1 root    wheel            3753 Nov 16  2000 /usr/man/mann/spindate.n.gz
+-r--r--r--    1 root    wheel            3507 Nov 16  2000 /usr/man/mann/spinint.n.gz
+-r--r--r--    1 root    wheel            3860 Nov 16  2000 /usr/man/mann/spinner.n.gz
+-r--r--r--    1 root    wheel            3659 Nov 16  2000 /usr/man/mann/spintime.n.gz
+-r--r--r--    1 root    wheel            8794 Nov 16  2000 /usr/man/mann/tabnotebook.n.gz
+-r--r--r--    1 root    wheel            7044 Nov 16  2000 /usr/man/mann/tabset.n.gz
+-r--r--r--    1 root    wheel            3663 Nov 16  2000 /usr/man/mann/timeentry.n.gz
+-r--r--r--    1 root    wheel            3631 Nov 16  2000 /usr/man/mann/timefield.n.gz
+-r--r--r--    1 root    wheel            5591 Nov 16  2000 /usr/man/mann/toolbar.n.gz
+-r--r--r--    1 root    wheel            3891 Nov 16  2000 /usr/man/mann/watch.n.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/itcl-3.0.1-1.m68kmint.rpm">Download</A></H2> (815,807 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

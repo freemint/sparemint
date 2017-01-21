@@ -1,0 +1,176 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - openssl-devel, version 1.0.0c, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>openssl-devel</H2>
+
+<UL> 
+<LI>Summary: Secure Sockets Layer and cryptography static libraries and headers<BR>
+<LI>URL: <A HREF="http://www.openssl.org/">http://www.openssl.org/</A><BR>
+<LI>Version: 1.0.0c<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: Freely distributable</BR>
+<LI>Installation size: 11,162,822 bytes<BR>
+<LI>Operating system: mint<BR>
+<LI>Provides:<UL>
+  <LI>openssl-devel = 1.0.0c-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+  <LI>mintlib-devel >= 0.55<BR>
+  <LI>openssl  <BR>
+  <LI>rpmlib(CompressedFileNames) <= 3.0.4-1<BR>
+  <LI>rpmlib(PayloadFilesHavePrefix) <= 4.0-1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Wed Dec  8 19:09:36 2010 UTC<BR>
+<LI>Upload date: Fri Dec 10 15:08:55 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/openssl-1.0.0c-1.src.rpm">openssl-1.0.0c-1.src.rpm</A>  (4,027,960 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu Dec  9 22:00:00 2010 UTC<BR>
+- Upgraded to 1.0.0c
+<LI>Description:<BR>
+The OpenSSL Project is a collaborative effort to develop a robust,<BR>commercial-grade, fully featured, and Open Source toolkit implementing the<BR>Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1)<BR>protocols as well as a full-strength general purpose cryptography library.<BR>The project is managed by a worldwide community of volunteers that use the<BR>Internet to communicate, plan, and develop the OpenSSL tookit and its related<BR>documentation.<BR><P><BR>OpenSSL is based on the excellent SSLeay library developed from Eric A.<BR>Young and Tim J. Hudson.  The OpenSSL toolkit is licensed under an<BR>Apache-style licence, which basically means that you are free to get and<BR>use it for commercial and non-commercial purposes.<BR><P><BR>This package contains the the OpenSSL cryptography and SSL/TLS<BR>static libraries and header files required when developing applications.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             5318 Dec  8 14:09 /usr/include/openssl/aes.h
+-rw-r--r--    1 root    root            52116 Dec  8 14:09 /usr/include/openssl/asn1.h
+-rw-r--r--    1 root    root            19143 Dec  8 14:09 /usr/include/openssl/asn1_mac.h
+-rw-r--r--    1 root    root            30092 Dec  8 14:09 /usr/include/openssl/asn1t.h
+-rw-r--r--    1 root    root            30922 Dec  8 14:09 /usr/include/openssl/bio.h
+-rw-r--r--    1 root    root             5043 Dec  8 14:09 /usr/include/openssl/blowfish.h
+-rw-r--r--    1 root    root            34997 Dec  8 14:09 /usr/include/openssl/bn.h
+-rw-r--r--    1 root    root             4646 Dec  8 14:09 /usr/include/openssl/buffer.h
+-rw-r--r--    1 root    root             4833 Dec  8 14:09 /usr/include/openssl/camellia.h
+-rw-r--r--    1 root    root             4388 Dec  8 14:09 /usr/include/openssl/cast.h
+-rw-r--r--    1 root    root            19070 Dec  8 14:09 /usr/include/openssl/cms.h
+-rw-r--r--    1 root    root             1978 Dec  8 14:09 /usr/include/openssl/comp.h
+-rw-r--r--    1 root    root             9848 Dec  8 14:09 /usr/include/openssl/conf.h
+-rw-r--r--    1 root    root             4080 Dec  8 14:09 /usr/include/openssl/conf_api.h
+-rw-r--r--    1 root    root            23162 Dec  8 14:09 /usr/include/openssl/crypto.h
+-rw-r--r--    1 root    root            10736 Dec  8 14:09 /usr/include/openssl/des.h
+-rw-r--r--    1 root    root            18238 Dec  8 14:09 /usr/include/openssl/des_old.h
+-rw-r--r--    1 root    root             9275 Dec  8 14:09 /usr/include/openssl/dh.h
+-rw-r--r--    1 root    root            11340 Dec  8 14:09 /usr/include/openssl/dsa.h
+-rw-r--r--    1 root    root            18095 Dec  8 14:09 /usr/include/openssl/dso.h
+-rw-r--r--    1 root    root             7629 Dec  8 14:09 /usr/include/openssl/dtls1.h
+-rw-r--r--    1 root    root             9877 Dec  8 14:09 /usr/include/openssl/e_os2.h
+-rw-r--r--    1 root    root              540 Dec  8 14:09 /usr/include/openssl/ebcdic.h
+-rw-r--r--    1 root    root            43844 Dec  8 14:09 /usr/include/openssl/ec.h
+-rw-r--r--    1 root    root             4609 Dec  8 14:09 /usr/include/openssl/ecdh.h
+-rw-r--r--    1 root    root            10434 Dec  8 14:09 /usr/include/openssl/ecdsa.h
+-rw-r--r--    1 root    root            40140 Dec  8 14:09 /usr/include/openssl/engine.h
+-rw-r--r--    1 root    root            15813 Dec  8 14:09 /usr/include/openssl/err.h
+-rw-r--r--    1 root    root            49369 Dec  8 14:09 /usr/include/openssl/evp.h
+-rw-r--r--    1 root    root             4476 Dec  8 14:09 /usr/include/openssl/hmac.h
+-rw-r--r--    1 root    root             4358 Dec  8 14:09 /usr/include/openssl/idea.h
+-rw-r--r--    1 root    root             7642 Dec  8 14:09 /usr/include/openssl/krb5_asn.h
+-rw-r--r--    1 root    root             5927 Dec  8 14:09 /usr/include/openssl/kssl.h
+-rw-r--r--    1 root    root             9092 Dec  8 14:09 /usr/include/openssl/lhash.h
+-rw-r--r--    1 root    root             4631 Dec  8 14:09 /usr/include/openssl/md4.h
+-rw-r--r--    1 root    root             4631 Dec  8 14:09 /usr/include/openssl/md5.h
+-rw-r--r--    1 root    root             3854 Dec  8 14:09 /usr/include/openssl/mdc2.h
+-rw-r--r--    1 root    root             2328 Dec  8 14:09 /usr/include/openssl/modes.h
+-rw-r--r--    1 root    root           132587 Dec  8 14:09 /usr/include/openssl/obj_mac.h
+-rw-r--r--    1 root    root            36641 Dec  8 14:09 /usr/include/openssl/objects.h
+-rw-r--r--    1 root    root            24041 Dec  8 14:09 /usr/include/openssl/ocsp.h
+-rw-r--r--    1 root    root             5945 Dec  8 14:09 /usr/include/openssl/opensslconf.h
+-rw-r--r--    1 root    root             3749 Dec  8 14:09 /usr/include/openssl/opensslv.h
+-rw-r--r--    1 root    root             7315 Dec  8 14:09 /usr/include/openssl/ossl_typ.h
+-rw-r--r--    1 root    root            21992 Dec  8 14:09 /usr/include/openssl/pem.h
+-rw-r--r--    1 root    root             2863 Dec  8 14:09 /usr/include/openssl/pem2.h
+-rw-r--r--    1 root    root            12654 Dec  8 14:09 /usr/include/openssl/pkcs12.h
+-rw-r--r--    1 root    root            18064 Dec  8 14:09 /usr/include/openssl/pkcs7.h
+-rw-r--r--    1 root    root             3580 Dec  8 14:09 /usr/include/openssl/pqueue.h
+-rw-r--r--    1 root    root             5251 Dec  8 14:09 /usr/include/openssl/rand.h
+-rw-r--r--    1 root    root             4294 Dec  8 14:09 /usr/include/openssl/rc2.h
+-rw-r--r--    1 root    root             3721 Dec  8 14:09 /usr/include/openssl/rc4.h
+-rw-r--r--    1 root    root             4254 Dec  8 14:09 /usr/include/openssl/ripemd.h
+-rw-r--r--    1 root    root            19986 Dec  8 14:09 /usr/include/openssl/rsa.h
+-rw-r--r--    1 root    root           178023 Dec  8 14:09 /usr/include/openssl/safestack.h
+-rw-r--r--    1 root    root             5593 Dec  8 14:09 /usr/include/openssl/seed.h
+-rw-r--r--    1 root    root             7299 Dec  8 14:09 /usr/include/openssl/sha.h
+-rw-r--r--    1 root    root            93660 Dec  8 14:09 /usr/include/openssl/ssl.h
+-rw-r--r--    1 root    root            10716 Dec  8 14:09 /usr/include/openssl/ssl2.h
+-rw-r--r--    1 root    root             3744 Dec  8 14:09 /usr/include/openssl/ssl23.h
+-rw-r--r--    1 root    root            25225 Dec  8 14:09 /usr/include/openssl/ssl3.h
+-rw-r--r--    1 root    root             4412 Dec  8 14:09 /usr/include/openssl/stack.h
+-rw-r--r--    1 root    root            22527 Dec  8 14:09 /usr/include/openssl/symhacks.h
+-rw-r--r--    1 root    root            25358 Dec  8 14:09 /usr/include/openssl/tls1.h
+-rw-r--r--    1 root    root            31033 Dec  8 14:09 /usr/include/openssl/ts.h
+-rw-r--r--    1 root    root             4481 Dec  8 14:09 /usr/include/openssl/txt_db.h
+-rw-r--r--    1 root    root            16655 Dec  8 14:09 /usr/include/openssl/ui.h
+-rw-r--r--    1 root    root             3439 Dec  8 14:09 /usr/include/openssl/ui_compat.h
+-rw-r--r--    1 root    root              946 Dec  8 14:09 /usr/include/openssl/whrlpool.h
+-rw-r--r--    1 root    root            44508 Dec  8 14:09 /usr/include/openssl/x509.h
+-rw-r--r--    1 root    root            22408 Dec  8 14:09 /usr/include/openssl/x509_vfy.h
+-rw-r--r--    1 root    root            32713 Dec  8 14:09 /usr/include/openssl/x509v3.h
+-rw-r--r--    1 root    root          2626732 Dec  8 14:09 /usr/lib/libcrypto.a
+-rw-r--r--    1 root    root           465694 Dec  8 14:09 /usr/lib/libssl.a
+-rw-r--r--    1 root    root          2659756 Dec  8 14:09 /usr/lib/m5475/libcrypto.a
+-rw-r--r--    1 root    root           463588 Dec  8 14:09 /usr/lib/m5475/libssl.a
+-rw-r--r--    1 root    root          2603502 Dec  8 14:09 /usr/lib/m68020-60/libcrypto.a
+-rw-r--r--    1 root    root           463882 Dec  8 14:09 /usr/lib/m68020-60/libssl.a
+-rw-r--r--    1 root    root              236 Dec  8 14:09 /usr/lib/pkgconfig/libcrypto.pc
+-rw-r--r--    1 root    root              251 Dec  8 14:09 /usr/lib/pkgconfig/libssl.pc
+-rw-r--r--    1 root    root              261 Dec  8 14:09 /usr/lib/pkgconfig/openssl.pc
+drwxr-xr-x    2 root    root                0 Dec  8 14:09 /usr/share/doc/openssl-devel-1.0.0c
+-rw-r--r--    1 root    root           410173 Dec  2 13:29 /usr/share/doc/openssl-devel-1.0.0c/CHANGES
+-rw-r--r--    1 root    root            42751 Apr 16  2009 /usr/share/doc/openssl-devel-1.0.0c/CHANGES.SSLeay
+-rw-r--r--    1 root    root             6279 May 27  2008 /usr/share/doc/openssl-devel-1.0.0c/LICENSE
+-rw-r--r--    1 root    root            24397 Dec  2 13:24 /usr/share/doc/openssl-devel-1.0.0c/NEWS
+-rw-r--r--    1 root    root             9129 Dec  2 13:29 /usr/share/doc/openssl-devel-1.0.0c/README
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/openssl-devel-1.0.0c-1.m68kmint.rpm">Download</A></H2> (4,225,222 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Thu Dec 16 18:03:13 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

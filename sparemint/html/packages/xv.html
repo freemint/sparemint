@@ -1,0 +1,115 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - xv, version 3.10a, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>xv</H2>
+
+<UL> 
+<LI>Summary: An X based image file viewer and manipulator.<BR>
+<LI>URL: <A HREF="http://www.trilon.com/xv/xv.html">http://www.trilon.com/xv/xv.html</A><BR>
+<LI>Version: 3.10a<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Graphics">Applications/Graphics</A>
+<LI>License: Shareware</BR>
+<LI>Installation size: 7,411,733 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>xv = 3.10a-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>XFree86  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Dec 22 12:13:36 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/xv-3.10a-2.src.rpm">xv-3.10a-2.src.rpm</A>  (2,292,345 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Dec 22 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Xv is an image display and manipulation utility for the X Window<BR>System.  Xv can display GIF, JPEG, TIFF, PBM, PPM, X11 bitmap, Utah<BR>Raster Toolkit RLE, PDS/VICAR, Sun Rasterfile, BMP, PCX, IRIS RGB, XPM,<BR>Targa, XWD, PostScript(TM) and PM format image files.  Xv is also<BR>capable of image manipulation like cropping, expanding, taking<BR>screenshots, etc.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              114 Dec 22  2000 /etc/X11/applnk/Graphics/xv.desktop
+-rw-r--r--    1 root    root              101 Dec 22  2000 /etc/X11/wmconfig/xv
+-rwxr-xr-x    1 root    root           668102 Dec 22  2000 /usr/X11R6/bin/bggen
+-rwxr-xr-x    1 root    root           140273 Dec 22  2000 /usr/X11R6/bin/vdcomp
+-rwxr-xr-x    1 root    root           620920 Dec 22  2000 /usr/X11R6/bin/xcmap
+-rwxr-xr-x    1 root    root          1617701 Dec 22  2000 /usr/X11R6/bin/xv
+-rwxr-xr-x    1 root    root           132062 Dec 22  2000 /usr/X11R6/bin/xvpictoppm
+-r--r--r--    1 root    root             1626 Dec 22  2000 /usr/X11R6/man/man1/bggen.1x.gz
+-r--r--r--    1 root    root             1252 Dec 22  2000 /usr/X11R6/man/man1/vdcomp.1x.gz
+-r--r--r--    1 root    root              630 Dec 22  2000 /usr/X11R6/man/man1/xcmap.1x.gz
+-r--r--r--    1 root    root              697 Dec 22  2000 /usr/X11R6/man/man1/xv.1x.gz
+-r--r--r--    1 root    root              293 Dec 22  2000 /usr/X11R6/man/man1/xvpictoppm.1x.gz
+drwxr-xr-x    2 root    root                0 Dec 22  2000 /usr/doc/xv-3.10a
+-rw-r--r--    1 root    root              789 Jan 19  1995 /usr/doc/xv-3.10a/BUGS
+-rw-r--r--    1 root    root           116772 Jan 23  1995 /usr/doc/xv-3.10a/CHANGELOG
+-rw-r--r--    1 root    root             7725 Dec 22  1994 /usr/doc/xv-3.10a/IDEAS
+-rw-r--r--    1 root    root             6972 Dec 22  1994 /usr/doc/xv-3.10a/README
+-rw-r--r--    1 root    root            38987 Dec 22  1994 /usr/doc/xv-3.10a/bmp.doc
+-rw-r--r--    1 root    root            74226 Dec 22  1994 /usr/doc/xv-3.10a/epsf.ps
+-rw-r--r--    1 root    root             1105 Dec 22  1994 /usr/doc/xv-3.10a/gif.ack
+-rw-r--r--    1 root    root             2628 Dec 22  1994 /usr/doc/xv-3.10a/gif.aspect
+-rw-r--r--    1 root    root            31072 Dec 22  1994 /usr/doc/xv-3.10a/gif87.doc
+-rw-r--r--    1 root    root            83001 Dec 22  1994 /usr/doc/xv-3.10a/gif89.doc
+-rw-r--r--    1 root    root             5522 Dec 22  1994 /usr/doc/xv-3.10a/help
+-rw-r--r--    1 root    root             4708 Dec 22  1994 /usr/doc/xv-3.10a/penn.policy
+-rw-r--r--    1 root    root             2408 Jan 13  1995 /usr/doc/xv-3.10a/vdcomp.man
+-rw-r--r--    1 root    root           169000 Dec 22  1994 /usr/doc/xv-3.10a/xpm.ps
+-rw-r--r--    1 root    root             1420 Jan  3  1995 /usr/doc/xv-3.10a/xv.ann
+-rw-r--r--    1 root    root             2300 Dec 22  1994 /usr/doc/xv-3.10a/xv.blurb
+-rw-r--r--    1 root    root          3678303 Jan 22  1995 /usr/doc/xv-3.10a/xvdocs.ps
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/xv-3.10a-2.m68kmint.rpm">Download</A></H2> (2,536,756 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

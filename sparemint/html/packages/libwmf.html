@@ -1,0 +1,383 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libwmf, version 0.2.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libwmf</H2>
+
+<UL> 
+<LI>Summary: library and utilities for displaying and converting metafile images<BR>
+<LI>URL: <A HREF="http://www.wvware.com/">http://www.wvware.com/</A><BR>
+<LI>Version: 0.2.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 11,668,601 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libwmf = 0.2.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>libpng  <BR>
+  <LI>zlib-devel  <BR>
+  <LI>freetype-devel >= 2.0.4<BR>
+  <LI>libxml2-devel  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Nov  6 15:46:08 2001 UTC<BR>
+<LI>Upload date: Tue Nov  6 15:50:28 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libwmf-0.2.2-1.src.rpm">libwmf-0.2.2-1.src.rpm</A>  (1,634,470 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Nov  6 10:00:00 2001 UTC<BR>
+- updated to 0.2.2
+<LI>Description:<BR>
+This is a library for interpreting metafile images and either displaying them<BR>using X or converting them to standard formats such as PNG, JPEG, PS, EPS,...
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1911 Nov  6  2001 /usr/bin/libwmf-config
+-rwxr-xr-x    1 root    root            13083 Nov  6  2001 /usr/bin/libwmf-fontmap
+-rwxr-xr-x    1 root    root          1550679 Nov  6  2001 /usr/bin/wmf2eps
+-rwxr-xr-x    1 root    root          1546829 Nov  6  2001 /usr/bin/wmf2fig
+-rwxr-xr-x    1 root    root          1544134 Nov  6  2001 /usr/bin/wmf2gd
+-rwxr-xr-x    1 root    root          1546237 Nov  6  2001 /usr/bin/wmf2svg
+-rwxr-xr-x    1 root    root          2061098 Nov  6  2001 /usr/bin/wmf2x
+drwxr-xr-x    2 root    root                0 Nov  6  2001 /usr/doc/libwmf-0.2.2
+-rw-r--r--    1 root    root            25292 Mar 28  2001 /usr/doc/libwmf-0.2.2/COPYING
+-rw-r--r--    1 root    root            20345 Oct 28  2001 /usr/doc/libwmf-0.2.2/ChangeLog
+-rw-r--r--    1 root    root             8267 Oct 28  2001 /usr/doc/libwmf-0.2.2/README
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/include/libwmf
+-rw-r--r--    1 root    root             9411 Nov  6  2001 /usr/include/libwmf/api.h
+-rw-r--r--    1 root    root             5334 Nov  6  2001 /usr/include/libwmf/color.h
+-rw-r--r--    1 root    root             6429 Nov  6  2001 /usr/include/libwmf/defs.h
+-rw-r--r--    1 root    root             1741 Nov  6  2001 /usr/include/libwmf/eps.h
+-rw-r--r--    1 root    root             2515 Nov  6  2001 /usr/include/libwmf/fig.h
+-rw-r--r--    1 root    root             1724 Nov  6  2001 /usr/include/libwmf/foreign.h
+-rw-r--r--    1 root    root             1759 Nov  6  2001 /usr/include/libwmf/fund.h
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/include/libwmf/gd
+-rw-r--r--    1 root    root             2007 Nov  6  2001 /usr/include/libwmf/gd.h
+-rw-r--r--    1 root    root            19440 Nov  6  2001 /usr/include/libwmf/gd/gd.h
+-rw-r--r--    1 root    root              449 Nov  6  2001 /usr/include/libwmf/gd/gd_clip.h
+-rw-r--r--    1 root    root              917 Nov  6  2001 /usr/include/libwmf/gd/gd_io.h
+-rw-r--r--    1 root    root             2679 Nov  6  2001 /usr/include/libwmf/gd/gdcache.h
+-rw-r--r--    1 root    root              490 Nov  6  2001 /usr/include/libwmf/gd/gdfontg.h
+-rw-r--r--    1 root    root              488 Nov  6  2001 /usr/include/libwmf/gd/gdfontl.h
+-rw-r--r--    1 root    root              451 Nov  6  2001 /usr/include/libwmf/gd/gdfontmb.h
+-rw-r--r--    1 root    root              452 Nov  6  2001 /usr/include/libwmf/gd/gdfonts.h
+-rw-r--r--    1 root    root              484 Nov  6  2001 /usr/include/libwmf/gd/gdfontt.h
+-rw-r--r--    1 root    root            10435 Nov  6  2001 /usr/include/libwmf/ipa.h
+-rw-r--r--    1 root    root            10671 Nov  6  2001 /usr/include/libwmf/macro.h
+-rw-r--r--    1 root    root             4356 Nov  6  2001 /usr/include/libwmf/magick.h
+-rw-r--r--    1 root    root             1715 Nov  6  2001 /usr/include/libwmf/plot.h
+-rw-r--r--    1 root    root             1623 Nov  6  2001 /usr/include/libwmf/svg.h
+-rw-r--r--    1 root    root             9849 Nov  6  2001 /usr/include/libwmf/types.h
+-rw-r--r--    1 root    root             2342 Nov  6  2001 /usr/include/libwmf/x.h
+-rw-r--r--    1 root    root           391352 Nov  6  2001 /usr/lib/libwmf.a
+-rwxr-xr-x    1 root    root              832 Nov  6  2001 /usr/lib/libwmf.la
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/doc/libwmf
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/doc/libwmf/caolan
+-rw-r--r--    1 root    root            12490 Nov  6  2001 /usr/share/doc/libwmf/caolan/2.html
+-rw-r--r--    1 root    root             1497 Nov  6  2001 /usr/share/doc/libwmf/caolan/Arc.html
+-rw-r--r--    1 root    root              787 Nov  6  2001 /usr/share/doc/libwmf/caolan/BitBlt.html
+-rw-r--r--    1 root    root            33523 Nov  6  2001 /usr/share/doc/libwmf/caolan/Bmpfrmat.html
+-rw-r--r--    1 root    root              558 Nov  6  2001 /usr/share/doc/libwmf/caolan/Chord.html
+-rw-r--r--    1 root    root             1144 Nov  6  2001 /usr/share/doc/libwmf/caolan/CreateBrushIndirect.html
+-rw-r--r--    1 root    root             1612 Nov  6  2001 /usr/share/doc/libwmf/caolan/CreatePenIndirect.html
+-rw-r--r--    1 root    root             1452 Nov  6  2001 /usr/share/doc/libwmf/caolan/CreateRegion.html
+-rw-r--r--    1 root    root              735 Nov  6  2001 /usr/share/doc/libwmf/caolan/DeleteObject.html
+-rw-r--r--    1 root    root             3421 Nov  6  2001 /usr/share/doc/libwmf/caolan/DibBitBlt.html
+-rw-r--r--    1 root    root              542 Nov  6  2001 /usr/share/doc/libwmf/caolan/DibCreatePatternBrush.html
+-rw-r--r--    1 root    root             1159 Nov  6  2001 /usr/share/doc/libwmf/caolan/DibStretchBlt.html
+-rw-r--r--    1 root    root              763 Nov  6  2001 /usr/share/doc/libwmf/caolan/Ellipse.html
+-rw-r--r--    1 root    root              834 Nov  6  2001 /usr/share/doc/libwmf/caolan/ExcludeClipRect.html
+-rw-r--r--    1 root    root              962 Nov  6  2001 /usr/share/doc/libwmf/caolan/ExtFloodFill.html
+-rw-r--r--    1 root    root             2118 Nov  6  2001 /usr/share/doc/libwmf/caolan/ExtTextOut.html
+-rw-r--r--    1 root    root              652 Nov  6  2001 /usr/share/doc/libwmf/caolan/FillRgn.html
+-rw-r--r--    1 root    root              775 Nov  6  2001 /usr/share/doc/libwmf/caolan/FloodFill.html
+-rw-r--r--    1 root    root              862 Nov  6  2001 /usr/share/doc/libwmf/caolan/FrameRgn.html
+-rw-r--r--    1 root    root              828 Nov  6  2001 /usr/share/doc/libwmf/caolan/IntersectClipRect.html
+-rw-r--r--    1 root    root              550 Nov  6  2001 /usr/share/doc/libwmf/caolan/InvertRgn.html
+-rw-r--r--    1 root    root              679 Nov  6  2001 /usr/share/doc/libwmf/caolan/LineTo.html
+-rw-r--r--    1 root    root              597 Nov  6  2001 /usr/share/doc/libwmf/caolan/MoveTo.html
+-rw-r--r--    1 root    root              572 Nov  6  2001 /usr/share/doc/libwmf/caolan/OffsetClipRgn.html
+-rw-r--r--    1 root    root              682 Nov  6  2001 /usr/share/doc/libwmf/caolan/OffsetViewportOrg.html
+-rw-r--r--    1 root    root              673 Nov  6  2001 /usr/share/doc/libwmf/caolan/OffsetWindowOrg.html
+-rw-r--r--    1 root    root              580 Nov  6  2001 /usr/share/doc/libwmf/caolan/PaintRgn.html
+-rw-r--r--    1 root    root              894 Nov  6  2001 /usr/share/doc/libwmf/caolan/PatBlt.html
+-rw-r--r--    1 root    root             1496 Nov  6  2001 /usr/share/doc/libwmf/caolan/Pie.html
+-rw-r--r--    1 root    root              981 Nov  6  2001 /usr/share/doc/libwmf/caolan/PolyPolygon.html
+-rw-r--r--    1 root    root              768 Nov  6  2001 /usr/share/doc/libwmf/caolan/Polygon.html
+-rw-r--r--    1 root    root              728 Nov  6  2001 /usr/share/doc/libwmf/caolan/Polyline.html
+-rw-r--r--    1 root    root              685 Nov  6  2001 /usr/share/doc/libwmf/caolan/Rectangle.html
+-rw-r--r--    1 root    root              749 Nov  6  2001 /usr/share/doc/libwmf/caolan/RestoreDC.html
+-rw-r--r--    1 root    root              923 Nov  6  2001 /usr/share/doc/libwmf/caolan/RoundRect.html
+-rw-r--r--    1 root    root              559 Nov  6  2001 /usr/share/doc/libwmf/caolan/SaveDC.html
+-rw-r--r--    1 root    root              875 Nov  6  2001 /usr/share/doc/libwmf/caolan/ScaleViewportExt.html
+-rw-r--r--    1 root    root              866 Nov  6  2001 /usr/share/doc/libwmf/caolan/ScaleWindowExt.html
+-rw-r--r--    1 root    root              607 Nov  6  2001 /usr/share/doc/libwmf/caolan/SelectClipRgn.html
+-rw-r--r--    1 root    root              962 Nov  6  2001 /usr/share/doc/libwmf/caolan/SelectObject.html
+-rw-r--r--    1 root    root             1170 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetBkColor.html
+-rw-r--r--    1 root    root              811 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetBkMode.html
+-rw-r--r--    1 root    root             1963 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetDIBitsToDevice.html
+-rw-r--r--    1 root    root             1414 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetMapMode.html
+-rw-r--r--    1 root    root             1592 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetMapperFlags.html
+-rw-r--r--    1 root    root              650 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetPixel.html
+-rw-r--r--    1 root    root              772 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetPolyFillMode.html
+-rw-r--r--    1 root    root             2178 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetROP2.html
+-rw-r--r--    1 root    root              765 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetStretchBltMode.html
+-rw-r--r--    1 root    root              871 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetTextAlign.html
+-rw-r--r--    1 root    root              612 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetTextCharacterExtra.html
+-rw-r--r--    1 root    root              605 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetTextColor.html
+-rw-r--r--    1 root    root              415 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetTextJustification.html
+-rw-r--r--    1 root    root              672 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetViewportExt.html
+-rw-r--r--    1 root    root              660 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetViewportOrg.html
+-rw-r--r--    1 root    root              662 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetWindowExt.html
+-rw-r--r--    1 root    root              650 Nov  6  2001 /usr/share/doc/libwmf/caolan/SetWindowOrg.html
+-rw-r--r--    1 root    root             1072 Nov  6  2001 /usr/share/doc/libwmf/caolan/StretchDib.html
+-rw-r--r--    1 root    root              634 Nov  6  2001 /usr/share/doc/libwmf/caolan/TextOut.html
+-rw-r--r--    1 root    root            28478 Nov  6  2001 /usr/share/doc/libwmf/caolan/dibs.html
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/doc/libwmf/caolan/esc.html
+-rw-r--r--    1 root    root             4429 Nov  6  2001 /usr/share/doc/libwmf/caolan/index.html
+-rw-r--r--    1 root    root            14650 Nov  6  2001 /usr/share/doc/libwmf/caolan/mapmode.html
+-rw-r--r--    1 root    root             3995 Nov  6  2001 /usr/share/doc/libwmf/caolan/msmeta01.gif
+-rw-r--r--    1 root    root             5272 Nov  6  2001 /usr/share/doc/libwmf/caolan/msmeta02.gif
+-rw-r--r--    1 root    root             5295 Nov  6  2001 /usr/share/doc/libwmf/caolan/msmeta03.gif
+-rw-r--r--    1 root    root             5825 Nov  6  2001 /usr/share/doc/libwmf/caolan/msmeta04.gif
+-rw-r--r--    1 root    root            20457 Nov  6  2001 /usr/share/doc/libwmf/caolan/ora-clp.html
+-rw-r--r--    1 root    root            54627 Nov  6  2001 /usr/share/doc/libwmf/caolan/ora-wmf.html
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/doc/libwmf/caolan/pics
+-rw-r--r--    1 root    root             7031 Nov  6  2001 /usr/share/doc/libwmf/caolan/pics/weave.jpg
+-rw-r--r--    1 root    root             1107 Nov  6  2001 /usr/share/doc/libwmf/caolan/rop.html
+-rw-r--r--    1 root    root            11642 Nov  6  2001 /usr/share/doc/libwmf/caolan/support.html
+-rw-r--r--    1 root    root             3382 Nov  6  2001 /usr/share/doc/libwmf/caolan/support2.html
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/doc/libwmf/caolan/template.html
+-rw-r--r--    1 root    root              390 Nov  6  2001 /usr/share/doc/libwmf/caolan/unknown.html
+-rw-r--r--    1 root    root              866 Nov  6  2001 /usr/share/doc/libwmf/dlayer.html
+-rw-r--r--    1 root    root           159958 Nov  6  2001 /usr/share/doc/libwmf/gd.html
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/doc/libwmf/html
+-rw-r--r--    1 root    root             4887 Nov  6  2001 /usr/share/doc/libwmf/html/annotated.html
+-rw-r--r--    1 root    root            36638 Nov  6  2001 /usr/share/doc/libwmf/html/api_8c.html
+-rw-r--r--    1 root    root           103008 Nov  6  2001 /usr/share/doc/libwmf/html/api_8h.html
+-rw-r--r--    1 root    root            17992 Nov  6  2001 /usr/share/doc/libwmf/html/bbuf_8c.html
+-rw-r--r--    1 root    root             6313 Nov  6  2001 /usr/share/doc/libwmf/html/classes.html
+-rw-r--r--    1 root    root             1125 Nov  6  2001 /usr/share/doc/libwmf/html/clip_8h.html
+-rw-r--r--    1 root    root             2919 Nov  6  2001 /usr/share/doc/libwmf/html/coord_8h.html
+-rw-r--r--    1 root    root             1121 Nov  6  2001 /usr/share/doc/libwmf/html/dc_8h.html
+-rw-r--r--    1 root    root             1133 Nov  6  2001 /usr/share/doc/libwmf/html/defaults_8h.html
+-rw-r--r--    1 root    root            69701 Nov  6  2001 /usr/share/doc/libwmf/html/defs_8h.html
+-rw-r--r--    1 root    root             1092 Nov  6  2001 /usr/share/doc/libwmf/html/doxygen.css
+-rw-r--r--    1 root    root             2378 Nov  6  2001 /usr/share/doc/libwmf/html/doxygen.gif
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/eps_2bmp_8h.html
+-rw-r--r--    1 root    root             1133 Nov  6  2001 /usr/share/doc/libwmf/html/eps_2device_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/eps_2draw_8h.html
+-rw-r--r--    1 root    root             2157 Nov  6  2001 /usr/share/doc/libwmf/html/eps_8c.html
+-rw-r--r--    1 root    root             5535 Nov  6  2001 /usr/share/doc/libwmf/html/eps_8h.html
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/fig_2bmp_8h.html
+-rw-r--r--    1 root    root             1133 Nov  6  2001 /usr/share/doc/libwmf/html/fig_2device_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/fig_2draw_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/fig_2font_8h.html
+-rw-r--r--    1 root    root             2157 Nov  6  2001 /usr/share/doc/libwmf/html/fig_8c.html
+-rw-r--r--    1 root    root            11905 Nov  6  2001 /usr/share/doc/libwmf/html/fig_8h.html
+-rw-r--r--    1 root    root             5358 Nov  6  2001 /usr/share/doc/libwmf/html/files.html
+-rw-r--r--    1 root    root             8480 Nov  6  2001 /usr/share/doc/libwmf/html/foreign_8c.html
+-rw-r--r--    1 root    root            11963 Nov  6  2001 /usr/share/doc/libwmf/html/foreign_8h.html
+-rw-r--r--    1 root    root            31774 Nov  6  2001 /usr/share/doc/libwmf/html/functions.html
+-rw-r--r--    1 root    root             6186 Nov  6  2001 /usr/share/doc/libwmf/html/fund_8h.html
+-rw-r--r--    1 root    root             6705 Nov  6  2001 /usr/share/doc/libwmf/html/gd_2bmp_8h.html
+-rw-r--r--    1 root    root             5078 Nov  6  2001 /usr/share/doc/libwmf/html/gd_2device_8h.html
+-rw-r--r--    1 root    root            16519 Nov  6  2001 /usr/share/doc/libwmf/html/gd_2draw_8h.html
+-rw-r--r--    1 root    root             9029 Nov  6  2001 /usr/share/doc/libwmf/html/gd_8c.html
+-rw-r--r--    1 root    root             9869 Nov  6  2001 /usr/share/doc/libwmf/html/gd_8h.html
+-rw-r--r--    1 root    root            68458 Nov  6  2001 /usr/share/doc/libwmf/html/globals.html
+-rw-r--r--    1 root    root           104602 Nov  6  2001 /usr/share/doc/libwmf/html/include_2libwmf_2color_8h.html
+-rw-r--r--    1 root    root             1092 Nov  6  2001 /usr/share/doc/libwmf/html/index.html
+-rw-r--r--    1 root    root            19687 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2bmp_8h.html
+-rw-r--r--    1 root    root             1137 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2eps_2region_8h.html
+-rw-r--r--    1 root    root             1137 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2fig_2region_8h.html
+-rw-r--r--    1 root    root            15654 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2font_8h.html
+-rw-r--r--    1 root    root             5477 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2gd_2region_8h.html
+-rw-r--r--    1 root    root             1140 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2magick_2region_8h.html
+-rw-r--r--    1 root    root             1138 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2plot_2region_8h.html
+-rw-r--r--    1 root    root             1137 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2svg_2region_8h.html
+-rw-r--r--    1 root    root             1135 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2x_2region_8h.html
+-rw-r--r--    1 root    root             1137 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_2xgd_2region_8h.html
+-rw-r--r--    1 root    root             6660 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_8c.html
+-rw-r--r--    1 root    root            74599 Nov  6  2001 /usr/share/doc/libwmf/html/ipa_8h.html
+-rw-r--r--    1 root    root            76884 Nov  6  2001 /usr/share/doc/libwmf/html/macro_8h.html
+-rw-r--r--    1 root    root             1130 Nov  6  2001 /usr/share/doc/libwmf/html/magick_2bmp_8h.html
+-rw-r--r--    1 root    root             1136 Nov  6  2001 /usr/share/doc/libwmf/html/magick_2device_8h.html
+-rw-r--r--    1 root    root             1132 Nov  6  2001 /usr/share/doc/libwmf/html/magick_2draw_8h.html
+-rw-r--r--    1 root    root             2176 Nov  6  2001 /usr/share/doc/libwmf/html/magick_8c.html
+-rw-r--r--    1 root    root             4487 Nov  6  2001 /usr/share/doc/libwmf/html/magick_8h.html
+-rw-r--r--    1 root    root             6837 Nov  6  2001 /usr/share/doc/libwmf/html/meta_8c.html
+-rw-r--r--    1 root    root             1125 Nov  6  2001 /usr/share/doc/libwmf/html/meta_8h.html
+-rw-r--r--    1 root    root             2297 Nov  6  2001 /usr/share/doc/libwmf/html/player_2region_8h.html
+-rw-r--r--    1 root    root            10507 Nov  6  2001 /usr/share/doc/libwmf/html/player_8c.html
+-rw-r--r--    1 root    root             1128 Nov  6  2001 /usr/share/doc/libwmf/html/plot_2bmp_8h.html
+-rw-r--r--    1 root    root             1134 Nov  6  2001 /usr/share/doc/libwmf/html/plot_2device_8h.html
+-rw-r--r--    1 root    root             1130 Nov  6  2001 /usr/share/doc/libwmf/html/plot_2draw_8h.html
+-rw-r--r--    1 root    root             2162 Nov  6  2001 /usr/share/doc/libwmf/html/plot_8c.html
+-rw-r--r--    1 root    root             9249 Nov  6  2001 /usr/share/doc/libwmf/html/plot_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/record_8h.html
+-rw-r--r--    1 root    root             1139 Nov  6  2001 /usr/share/doc/libwmf/html/src_2ipa_2fig_2color_8h.html
+-rw-r--r--    1 root    root           115728 Nov  6  2001 /usr/share/doc/libwmf/html/src_2ipa_2ipa_2color_8h.html
+-rw-r--r--    1 root    root             1137 Nov  6  2001 /usr/share/doc/libwmf/html/src_2ipa_2x_2color_8h.html
+-rw-r--r--    1 root    root             6691 Nov  6  2001 /usr/share/doc/libwmf/html/src_2player_2color_8h.html
+-rw-r--r--    1 root    root            17237 Nov  6  2001 /usr/share/doc/libwmf/html/stream_8c.html
+-rw-r--r--    1 root    root             7754 Nov  6  2001 /usr/share/doc/libwmf/html/struct__gd__t.html
+-rw-r--r--    1 root    root            18272 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfAPI.html
+-rw-r--r--    1 root    root            14011 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfAPI__Options.html
+-rw-r--r--    1 root    root             3118 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfBMP.html
+-rw-r--r--    1 root    root             8257 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfBMP__Draw__t.html
+-rw-r--r--    1 root    root             5106 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfBMP__Read__t.html
+-rw-r--r--    1 root    root             3899 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfBrush.html
+-rw-r--r--    1 root    root             3296 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfColorData.html
+-rw-r--r--    1 root    root            14016 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDC.html
+-rw-r--r--    1 root    root             2644 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfD__Coord.html
+-rw-r--r--    1 root    root             2946 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfD__Rect.html
+-rw-r--r--    1 root    root             4824 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDrawArc__t.html
+-rw-r--r--    1 root    root             3461 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDrawLine__t.html
+-rw-r--r--    1 root    root             4710 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDrawPixel__t.html
+-rw-r--r--    1 root    root             4743 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDrawRectangle__t.html
+-rw-r--r--    1 root    root             8574 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfDrawText__t.html
+-rw-r--r--    1 root    root             3235 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFT__CacheEntry.html
+-rw-r--r--    1 root    root             3832 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFT__Mapping.html
+-rw-r--r--    1 root    root             5226 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFlood__t.html
+-rw-r--r--    1 root    root            10894 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFont.html
+-rw-r--r--    1 root    root             7407 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFontData.html
+-rw-r--r--    1 root    root             4375 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFontMap.html
+-rw-r--r--    1 root    root            24253 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfFunctionReference.html
+-rw-r--r--    1 root    root             3326 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfGS__FontData.html
+-rw-r--r--    1 root    root             2612 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfGS__FontInfo.html
+-rw-r--r--    1 root    root             5629 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfHead.html
+-rw-r--r--    1 root    root             3916 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfImage.html
+-rw-r--r--    1 root    root             3201 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfMapping.html
+-rw-r--r--    1 root    root             4721 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfMetaHeader.html
+-rw-r--r--    1 root    root             3812 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfPen.html
+-rw-r--r--    1 root    root             7122 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfPlaceableMetaHeader.html
+-rw-r--r--    1 root    root             3367 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfPolyLine__t.html
+-rw-r--r--    1 root    root             5378 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfPolyRectangle__t.html
+-rw-r--r--    1 root    root             3137 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfRGB.html
+-rw-r--r--    1 root    root             5294 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfROP__Draw__t.html
+-rw-r--r--    1 root    root             4270 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfStream.html
+-rw-r--r--    1 root    root             2679 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfUserData__t.html
+-rw-r--r--    1 root    root             3339 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfXML__FontData.html
+-rw-r--r--    1 root    root             6914 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmfXML__FontInfo.html
+-rw-r--r--    1 root    root             9367 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__eps__t.html
+-rw-r--r--    1 root    root            12002 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__fig__t.html
+-rw-r--r--    1 root    root             2741 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__fig__t_1_1__wmf__fig__image.html
+-rw-r--r--    1 root    root             2034 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__foreign__t.html
+-rw-r--r--    1 root    root             7679 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__gd__t.html
+-rw-r--r--    1 root    root             2928 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__gd__t_1_1__wmf__gd__sink.html
+-rw-r--r--    1 root    root             5445 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__magick__t.html
+-rw-r--r--    1 root    root             2798 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__magick__t_1_1__wmf__magick__image.html
+-rw-r--r--    1 root    root             5796 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__plot__t.html
+-rw-r--r--    1 root    root             5960 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__svg__t.html
+-rw-r--r--    1 root    root             2741 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__svg__t_1_1__wmf__svg__image.html
+-rw-r--r--    1 root    root             2737 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__template__t.html
+-rw-r--r--    1 root    root            16334 Nov  6  2001 /usr/share/doc/libwmf/html/struct__wmf__x__t.html
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/svg_2bmp_8h.html
+-rw-r--r--    1 root    root             1133 Nov  6  2001 /usr/share/doc/libwmf/html/svg_2device_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/svg_2draw_8h.html
+-rw-r--r--    1 root    root             2157 Nov  6  2001 /usr/share/doc/libwmf/html/svg_8c.html
+-rw-r--r--    1 root    root             5069 Nov  6  2001 /usr/share/doc/libwmf/html/svg_8h.html
+-rw-r--r--    1 root    root            38533 Nov  6  2001 /usr/share/doc/libwmf/html/template_8c.html
+-rw-r--r--    1 root    root             4347 Nov  6  2001 /usr/share/doc/libwmf/html/template_8h.html
+-rw-r--r--    1 root    root            31571 Nov  6  2001 /usr/share/doc/libwmf/html/types_8h.html
+-rw-r--r--    1 root    root             1125 Nov  6  2001 /usr/share/doc/libwmf/html/x_2bmp_8h.html
+-rw-r--r--    1 root    root             1131 Nov  6  2001 /usr/share/doc/libwmf/html/x_2device_8h.html
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/x_2draw_8h.html
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/x_2font_8h.html
+-rw-r--r--    1 root    root             2143 Nov  6  2001 /usr/share/doc/libwmf/html/x_8c.html
+-rw-r--r--    1 root    root             8893 Nov  6  2001 /usr/share/doc/libwmf/html/x_8h.html
+-rw-r--r--    1 root    root             1127 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_2bmp_8h.html
+-rw-r--r--    1 root    root             1133 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_2device_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_2draw_8h.html
+-rw-r--r--    1 root    root             1129 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_2font_8h.html
+-rw-r--r--    1 root    root             2152 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_8c.html
+-rw-r--r--    1 root    root             7949 Nov  6  2001 /usr/share/doc/libwmf/html/xgd_8h.html
+-rw-r--r--    1 root    root             3778 Nov  6  2001 /usr/share/doc/libwmf/index.html
+-rw-r--r--    1 root    root             2833 Nov  6  2001 /usr/share/doc/libwmf/smlogo2.gif
+-rw-r--r--    1 root    root            23439 Nov  6  2001 /usr/share/doc/libwmf/tutapi.html
+-rw-r--r--    1 root    root            32729 Nov  6  2001 /usr/share/doc/libwmf/tutipa.html
+-rw-r--r--    1 root    root            13725 Nov  6  2001 /usr/share/doc/libwmf/wmfpic.png
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/libwmf
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/libwmf/fonts
+-rw-r--r--    1 root    root             2879 Nov  6  2001 /usr/share/libwmf/fonts/fontmap
+-rw-r--r--    1 root    root            31763 Nov  6  2001 /usr/share/libwmf/fonts/n019003l.afm
+-rw-r--r--    1 root    root            36026 Nov  6  2001 /usr/share/libwmf/fonts/n019003l.pfb
+-rw-r--r--    1 root    root            31595 Nov  6  2001 /usr/share/libwmf/fonts/n019004l.afm
+-rw-r--r--    1 root    root            35941 Nov  6  2001 /usr/share/libwmf/fonts/n019004l.pfb
+-rw-r--r--    1 root    root            32114 Nov  6  2001 /usr/share/libwmf/fonts/n019023l.afm
+-rw-r--r--    1 root    root            38314 Nov  6  2001 /usr/share/libwmf/fonts/n019023l.pfb
+-rw-r--r--    1 root    root            31901 Nov  6  2001 /usr/share/libwmf/fonts/n019024l.afm
+-rw-r--r--    1 root    root            39013 Nov  6  2001 /usr/share/libwmf/fonts/n019024l.pfb
+-rw-r--r--    1 root    root            31943 Nov  6  2001 /usr/share/libwmf/fonts/n021003l.afm
+-rw-r--r--    1 root    root            46026 Nov  6  2001 /usr/share/libwmf/fonts/n021003l.pfb
+-rw-r--r--    1 root    root            31889 Nov  6  2001 /usr/share/libwmf/fonts/n021004l.afm
+-rw-r--r--    1 root    root            44729 Nov  6  2001 /usr/share/libwmf/fonts/n021004l.pfb
+-rw-r--r--    1 root    root            31920 Nov  6  2001 /usr/share/libwmf/fonts/n021023l.afm
+-rw-r--r--    1 root    root            45458 Nov  6  2001 /usr/share/libwmf/fonts/n021023l.pfb
+-rw-r--r--    1 root    root            32028 Nov  6  2001 /usr/share/libwmf/fonts/n021024l.afm
+-rw-r--r--    1 root    root            44656 Nov  6  2001 /usr/share/libwmf/fonts/n021024l.pfb
+-rw-r--r--    1 root    root            31926 Nov  6  2001 /usr/share/libwmf/fonts/n022003l.afm
+-rw-r--r--    1 root    root            45758 Nov  6  2001 /usr/share/libwmf/fonts/n022003l.pfb
+-rw-r--r--    1 root    root            31779 Nov  6  2001 /usr/share/libwmf/fonts/n022004l.afm
+-rw-r--r--    1 root    root            50493 Nov  6  2001 /usr/share/libwmf/fonts/n022004l.pfb
+-rw-r--r--    1 root    root            32136 Nov  6  2001 /usr/share/libwmf/fonts/n022023l.afm
+-rw-r--r--    1 root    root            44404 Nov  6  2001 /usr/share/libwmf/fonts/n022023l.pfb
+-rw-r--r--    1 root    root            31961 Nov  6  2001 /usr/share/libwmf/fonts/n022024l.afm
+-rw-r--r--    1 root    root            51527 Nov  6  2001 /usr/share/libwmf/fonts/n022024l.pfb
+-rw-r--r--    1 root    root             9686 Nov  6  2001 /usr/share/libwmf/fonts/s050000l.afm
+-rw-r--r--    1 root    root            33709 Nov  6  2001 /usr/share/libwmf/fonts/s050000l.pfb
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libwmf-0.2.2-1.m68kmint.rpm">Download</A></H2> (5,875,676 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

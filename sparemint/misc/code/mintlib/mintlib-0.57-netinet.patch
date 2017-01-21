@@ -1,0 +1,10 @@
+--- mintlib/include/netinet/if_ether.h.~	Fri Jul  6 15:42:22 2001
++++ mintlib/include/netinet/if_ether.h	Thu Aug 16 08:18:24 2001
+@@ -57,6 +57,6 @@
+ #define	arp_pln	ea_hdr.ar_pln
+ #define	arp_op	ea_hdr.ar_op
+ 
+-_END_DECLS
++__END_DECLS
+ 
+ #endif

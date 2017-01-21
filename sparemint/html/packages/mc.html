@@ -1,0 +1,240 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mc, version 4.6.0, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mc</H2>
+
+<UL> 
+<LI>Summary: Midnight Commander visual shell<BR>
+<LI>URL: <A HREF="http://www.ibiblio.org/mc/">http://www.ibiblio.org/mc/</A><BR>
+<LI>Version: 4.6.0<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/File">Applications/File</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 4,861,635 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mc = 1:4.6.0-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Oct 28 19:19:29 2003 UTC<BR>
+<LI>Upload date: Fri Nov 14 11:43:35 2003 UTC<BR>
+<LI>Packager: Adam Klobukowski (<A HREF="javascript:linkto_decode_mt('nbjmup;bubsjAhbcp/qm');">atari(at)gabo.pl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mc-4.6.0-2.src.rpm">mc-4.6.0-2.src.rpm</A>  (3,754,686 bytes)<BR>
+<LI>Last change: Adam Klobukowski &lt;atari@gabo.pl&gt; Tue Oct 14 08:00:00 2003 UTC<BR>
+- Added Advenced Midnight Commander patch
+<LI>Description:<BR>
+GNU Midnight Commander is a visual file manager.  It's a feature rich<BR>full-screen text mode application that allows you to copy, move and<BR>delete files and whole directory trees, search for files and run<BR>commands in the subshell.  Internal viewer and editor are included.<BR>Mouse is supported under X Window System and on Linux console.  VFS<BR>(Virtual Filesystem) allows you to view archives and files on remote<BR>servers.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root               51 Oct 28  2003 /etc/profile.d/mc.csh
+-rwxr-xr-x    1 root    root               45 Oct 28  2003 /etc/profile.d/mc.sh
+-rwxr-xr-x    1 root    root           653573 Oct 28  2003 /usr/bin/mc
+?rwxrwxrwx    1 root    root                2 Oct 28  2003 /usr/bin/mcedit
+-rwxr-xr-x    1 root    root            90356 Oct 28  2003 /usr/bin/mcmfmt
+?rwxrwxrwx    1 root    root                2 Oct 28  2003 /usr/bin/mcview
+drwxr-xr-x    2 root    root                0 Oct 28  2003 /usr/doc/mc-4.6.0
+-rw-r--r--    1 root    root            17992 Dec  9  2002 /usr/doc/mc-4.6.0/COPYING
+-rw-r--r--    1 root    root            33637 Oct 23  2002 /usr/doc/mc-4.6.0/FAQ
+-rw-r--r--    1 root    root            21794 Feb  5  2003 /usr/doc/mc-4.6.0/NEWS
+-rw-r--r--    1 root    root             5829 Nov 15  2002 /usr/doc/mc-4.6.0/README
+-rw-r--r--    1 root    root             1287 Oct 28  2003 /usr/doc/mc-4.6.0/README.AMC
+drwxrwxrwx    2 root    root                0 Oct 28  2003 /usr/lib/mc
+-rw-r--r--    1 root    root           116639 Oct 28  2003 /usr/man/es/man1/mc.1
+-rw-r--r--    1 root    root           108633 Oct 28  2003 /usr/man/hu/man1/mc.1
+-rw-r--r--    1 root    root           111706 Oct 28  2003 /usr/man/it/man1/mc.1
+-rw-r--r--    1 root    root           105174 Oct 28  2003 /usr/man/man1/mc.1
+-rw-r--r--    1 root    root            16235 Oct 28  2003 /usr/man/man1/mcedit.1
+-rw-r--r--    1 root    root             2496 Oct 28  2003 /usr/man/man1/mcview.1
+-rw-r--r--    1 root    root           105036 Oct 28  2003 /usr/man/pl/man1/mc.1
+-rw-r--r--    1 root    root           133341 Oct 28  2003 /usr/man/ru/man1/mc.1
+-rw-r--r--    1 root    root            67935 Oct 28  2003 /usr/share/locale/az/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            65511 Oct 28  2003 /usr/share/locale/be/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            80542 Oct 28  2003 /usr/share/locale/bg/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68515 Oct 28  2003 /usr/share/locale/ca/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            67608 Oct 28  2003 /usr/share/locale/cs/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            63857 Oct 28  2003 /usr/share/locale/da/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            66375 Oct 28  2003 /usr/share/locale/de/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root             8586 Oct 28  2003 /usr/share/locale/el/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            69036 Oct 28  2003 /usr/share/locale/es/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            67642 Oct 28  2003 /usr/share/locale/eu/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            22011 Oct 28  2003 /usr/share/locale/fi/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            69162 Oct 28  2003 /usr/share/locale/fr/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68960 Oct 28  2003 /usr/share/locale/hu/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68970 Oct 28  2003 /usr/share/locale/it/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            65024 Oct 28  2003 /usr/share/locale/ja/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            64910 Oct 28  2003 /usr/share/locale/ko/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            64575 Oct 28  2003 /usr/share/locale/lv/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            67920 Oct 28  2003 /usr/share/locale/nl/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            65526 Oct 28  2003 /usr/share/locale/no/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68699 Oct 28  2003 /usr/share/locale/pl/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            66902 Oct 28  2003 /usr/share/locale/pt/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            62653 Oct 28  2003 /usr/share/locale/pt_BR/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68894 Oct 28  2003 /usr/share/locale/ro/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68995 Oct 28  2003 /usr/share/locale/ru/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            69745 Oct 28  2003 /usr/share/locale/sk/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68954 Oct 28  2003 /usr/share/locale/sl/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            66956 Oct 28  2003 /usr/share/locale/sv/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root             9337 Oct 28  2003 /usr/share/locale/ta/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            64218 Oct 28  2003 /usr/share/locale/tr/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            68846 Oct 28  2003 /usr/share/locale/uk/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            51145 Oct 28  2003 /usr/share/locale/wa/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            61164 Oct 28  2003 /usr/share/locale/zh_CN/LC_MESSAGES/mc.mo
+-rw-r--r--    1 root    root            57855 Oct 28  2003 /usr/share/locale/zh_TW/LC_MESSAGES/mc.mo
+drwxrwxrwx    2 root    root                0 Oct 28  2003 /usr/share/mc
+-rwxr-xr-x    1 root    root              334 Oct 28  2003 /usr/share/mc/bin/mc-wrapper.csh
+-rwxr-xr-x    1 root    root              270 Oct 28  2003 /usr/share/mc/bin/mc-wrapper.sh
+-rwxr-xr-x    1 root    root               51 Oct 28  2003 /usr/share/mc/bin/mc.csh
+-rwxr-xr-x    1 root    root               45 Oct 28  2003 /usr/share/mc/bin/mc.sh
+-rw-r--r--    1 root    root            11986 Oct 28  2003 /usr/share/mc/cedit.menu
+-rw-r--r--    1 root    root              810 Oct 28  2003 /usr/share/mc/edit.indent.rc
+-rw-r--r--    1 root    root              247 Oct 28  2003 /usr/share/mc/edit.spell.rc
+drwxrwxrwx    2 root    root                0 Oct 28  2003 /usr/share/mc/extfs
+-rw-r--r--    1 root    root             7458 Oct 28  2003 /usr/share/mc/extfs/README
+-rwxr-xr-x    1 root    root             2885 Oct 28  2003 /usr/share/mc/extfs/a
+-rwxr-xr-x    1 root    root             9443 Oct 28  2003 /usr/share/mc/extfs/apt
+-rwxr-xr-x    1 root    root             1308 Oct 28  2003 /usr/share/mc/extfs/audio
+-rwxr-xr-x    1 root    root             1205 Oct 28  2003 /usr/share/mc/extfs/bpp
+-rwxr-xr-x    1 root    root             4908 Oct 28  2003 /usr/share/mc/extfs/deb
+-rwxr-xr-x    1 root    root             4373 Oct 28  2003 /usr/share/mc/extfs/deba
+-rwxr-xr-x    1 root    root            10144 Oct 28  2003 /usr/share/mc/extfs/debd
+-rwxr-xr-x    1 root    root             8823 Oct 28  2003 /usr/share/mc/extfs/dpkg
+-rw-r--r--    1 root    root              830 Oct 28  2003 /usr/share/mc/extfs/extfs.ini
+-rwxr-xr-x    1 root    root             2521 Oct 28  2003 /usr/share/mc/extfs/hp48
+-rwxr-xr-x    1 root    root             1005 Oct 28  2003 /usr/share/mc/extfs/lslR
+-rwxr-xr-x    1 root    root             3441 Oct 28  2003 /usr/share/mc/extfs/mailfs
+-rwxr-xr-x    1 root    root             6459 Oct 28  2003 /usr/share/mc/extfs/patchfs
+-rwxr-xr-x    1 root    root             8048 Oct 28  2003 /usr/share/mc/extfs/rpm
+-rwxr-xr-x    1 root    root             1509 Oct 28  2003 /usr/share/mc/extfs/rpms
+-rw-r--r--    1 root    root              649 Oct 28  2003 /usr/share/mc/extfs/sfs.ini
+-rwxr-xr-x    1 root    root             6866 Oct 28  2003 /usr/share/mc/extfs/trpm
+-rwxr-xr-x    1 root    root              811 Oct 28  2003 /usr/share/mc/extfs/uar
+-rwxr-xr-x    1 root    root             1639 Oct 28  2003 /usr/share/mc/extfs/uarj
+-rwxr-xr-x    1 root    root              240 Oct 28  2003 /usr/share/mc/extfs/uesp
+-rwxr-xr-x    1 root    root              951 Oct 28  2003 /usr/share/mc/extfs/uha
+-rwxr-xr-x    1 root    root             4047 Oct 28  2003 /usr/share/mc/extfs/ulha
+-rwxr-xr-x    1 root    root             2551 Oct 28  2003 /usr/share/mc/extfs/urar
+-rwxr-xr-x    1 root    root            12790 Oct 28  2003 /usr/share/mc/extfs/uzip
+-rwxr-xr-x    1 root    root             1407 Oct 28  2003 /usr/share/mc/extfs/uzoo
+-rw-r--r--    1 root    root            12442 Oct 28  2003 /usr/share/mc/mc.ext
+-rw-r--r--    1 root    root             3100 Oct 28  2003 /usr/share/mc/mc.hint
+-rw-r--r--    1 root    root             3018 Oct 28  2003 /usr/share/mc/mc.hint.cs
+-rw-r--r--    1 root    root             3286 Oct 28  2003 /usr/share/mc/mc.hint.es
+-rw-r--r--    1 root    root             3424 Oct 28  2003 /usr/share/mc/mc.hint.hu
+-rw-r--r--    1 root    root             3265 Oct 28  2003 /usr/share/mc/mc.hint.it
+-rw-r--r--    1 root    root             3261 Oct 28  2003 /usr/share/mc/mc.hint.nl
+-rw-r--r--    1 root    root             3309 Oct 28  2003 /usr/share/mc/mc.hint.pl
+-rw-r--r--    1 root    root             3328 Oct 28  2003 /usr/share/mc/mc.hint.ru
+-rw-r--r--    1 root    root             3393 Oct 28  2003 /usr/share/mc/mc.hint.uk
+-rw-r--r--    1 root    root             2525 Oct 28  2003 /usr/share/mc/mc.hint.zh
+-rw-r--r--    1 root    root           125069 Oct 28  2003 /usr/share/mc/mc.hlp
+-rw-r--r--    1 root    root           158936 Oct 28  2003 /usr/share/mc/mc.hlp.es
+-rw-r--r--    1 root    root           128913 Oct 28  2003 /usr/share/mc/mc.hlp.hu
+-rw-r--r--    1 root    root           131554 Oct 28  2003 /usr/share/mc/mc.hlp.it
+-rw-r--r--    1 root    root           147108 Oct 28  2003 /usr/share/mc/mc.hlp.pl
+-rw-r--r--    1 root    root           175403 Oct 28  2003 /usr/share/mc/mc.hlp.ru
+-rw-r--r--    1 root    root             1851 Oct 28  2003 /usr/share/mc/mc.lib
+-rw-r--r--    1 root    root             7853 Oct 28  2003 /usr/share/mc/mc.menu
+drwxrwxrwx    2 root    root                0 Oct 28  2003 /usr/share/mc/syntax
+-rw-r--r--    1 root    root             2810 Oct 28  2003 /usr/share/mc/syntax/Syntax
+-rw-r--r--    1 root    root             1604 Oct 28  2003 /usr/share/mc/syntax/ada95.syntax
+-rw-r--r--    1 root    root             5358 Oct 28  2003 /usr/share/mc/syntax/bapc.syntax
+-rw-r--r--    1 root    root             3867 Oct 28  2003 /usr/share/mc/syntax/c.syntax
+-rw-r--r--    1 root    root              936 Oct 28  2003 /usr/share/mc/syntax/changelog.syntax
+-rw-r--r--    1 root    root             1151 Oct 28  2003 /usr/share/mc/syntax/diff.syntax
+-rw-r--r--    1 root    root             3080 Oct 28  2003 /usr/share/mc/syntax/dos.syntax
+-rw-r--r--    1 root    root             8604 Oct 28  2003 /usr/share/mc/syntax/fortran.syntax
+-rw-r--r--    1 root    root              369 Oct 28  2003 /usr/share/mc/syntax/html.syntax
+-rw-r--r--    1 root    root             5900 Oct 28  2003 /usr/share/mc/syntax/jasm.syntax
+-rw-r--r--    1 root    root             4558 Oct 28  2003 /usr/share/mc/syntax/java.syntax
+-rw-r--r--    1 root    root             4802 Oct 28  2003 /usr/share/mc/syntax/js.syntax
+-rw-r--r--    1 root    root             8970 Oct 28  2003 /usr/share/mc/syntax/latex.syntax
+-rw-r--r--    1 root    root             2191 Oct 28  2003 /usr/share/mc/syntax/lisp.syntax
+-rw-r--r--    1 root    root             1253 Oct 28  2003 /usr/share/mc/syntax/lsm.syntax
+-rw-r--r--    1 root    root             2898 Oct 28  2003 /usr/share/mc/syntax/m4.syntax
+-rw-r--r--    1 root    root             2958 Oct 28  2003 /usr/share/mc/syntax/mail.syntax
+-rw-r--r--    1 root    root             1305 Oct 28  2003 /usr/share/mc/syntax/makefile.syntax
+-rw-r--r--    1 root    root             1260 Oct 28  2003 /usr/share/mc/syntax/mhtml.syntax
+-rw-r--r--    1 root    root             7955 Oct 28  2003 /usr/share/mc/syntax/ml.syntax
+-rw-r--r--    1 root    root             8141 Oct 28  2003 /usr/share/mc/syntax/nroff.syntax
+-rw-r--r--    1 root    root            10770 Oct 28  2003 /usr/share/mc/syntax/octave.syntax
+-rw-r--r--    1 root    root             3812 Oct 28  2003 /usr/share/mc/syntax/pascal.syntax
+-rw-r--r--    1 root    root            10823 Oct 28  2003 /usr/share/mc/syntax/perl.syntax
+-rw-r--r--    1 root    root            39420 Oct 28  2003 /usr/share/mc/syntax/php.syntax
+-rw-r--r--    1 root    root             2318 Oct 28  2003 /usr/share/mc/syntax/po.syntax
+-rw-r--r--    1 root    root             8356 Oct 28  2003 /usr/share/mc/syntax/python.syntax
+-rw-r--r--    1 root    root             9117 Oct 28  2003 /usr/share/mc/syntax/sh.syntax
+-rw-r--r--    1 root    root             3426 Oct 28  2003 /usr/share/mc/syntax/slang.syntax
+-rw-r--r--    1 root    root             5277 Oct 28  2003 /usr/share/mc/syntax/smalltalk.syntax
+-rw-r--r--    1 root    root             6047 Oct 28  2003 /usr/share/mc/syntax/spec.syntax
+-rw-r--r--    1 root    root            15522 Oct 28  2003 /usr/share/mc/syntax/sql.syntax
+-rw-r--r--    1 root    root             5562 Oct 28  2003 /usr/share/mc/syntax/swig.syntax
+-rw-r--r--    1 root    root             1919 Oct 28  2003 /usr/share/mc/syntax/syntax.syntax
+-rw-r--r--    1 root    root             4016 Oct 28  2003 /usr/share/mc/syntax/tcl.syntax
+-rw-r--r--    1 root    root             9087 Oct 28  2003 /usr/share/mc/syntax/texinfo.syntax
+-rw-r--r--    1 root    root               31 Oct 28  2003 /usr/share/mc/syntax/unknown.syntax
+-rw-r--r--    1 root    root             1054 Oct 28  2003 /usr/share/mc/syntax/xml.syntax
+drwxrwxrwx    2 root    root                0 Oct 28  2003 /usr/share/mc/term
+-rw-r--r--    1 root    root             5365 Oct 28  2003 /usr/share/mc/term/README.xterm
+-rw-r--r--    1 root    root              833 Oct 28  2003 /usr/share/mc/term/ansi.ti
+-rw-r--r--    1 root    root             2316 Oct 28  2003 /usr/share/mc/term/linux.ti
+-rw-r--r--    1 root    root             1035 Oct 28  2003 /usr/share/mc/term/vt100.ti
+-rw-r--r--    1 root    root             3874 Oct 28  2003 /usr/share/mc/term/xterm.ad
+-rw-r--r--    1 root    root             1934 Oct 28  2003 /usr/share/mc/term/xterm.tcap
+-rw-r--r--    1 root    root             3227 Oct 28  2003 /usr/share/mc/term/xterm.ti
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mc-4.6.0-2.m68kmint.rpm">Download</A></H2> (1,904,228 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

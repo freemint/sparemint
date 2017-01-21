@@ -1,0 +1,376 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tix, version 4.1.0.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tix</H2>
+
+<UL> 
+<LI>Summary: A set of capable widgets for Tk.<BR>
+
+<LI>Version: 4.1.0.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 3,935,958 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tix = 4.1.0.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 16 15:15:17 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcltk-8.0.5-1.src.rpm">tcltk-8.0.5-1.src.rpm</A>  (7,145,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov 16 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Tix (Tk Interface Extension), an add-on for the Tk widget set, is an<BR>extensive set of over 40 widgets.  In general, Tix widgets are more<BR>complex and more capable than the widgets provided in Tk.  Tix widgets<BR>include a ComboBox, a Motif-style FileSelectBox, an MS Windows-style<BR>FileSelectBox, a PanedWindow, a NoteBook, a hierarchical list, a<BR>directory tree and a file manager.<BR><P><BR>Install the tix package if you want to try out more complicated<BR>widgets for Tk.  You'll also need to have the tcl and tk packages<BR>installed.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel            2121 Nov 16  2000 /usr/bin/tixindex
+-rwxrwxrwx    1 root    wheel         1678777 Nov 16  2000 /usr/bin/tixwish4.1.8.0
+-rw-r--r--    1 root    wheel           13813 Nov 16  2000 /usr/include/tix.h
+-rw-rw-rw-    1 root    wheel          285820 Nov 16  2000 /usr/lib/libtix4.1.8.0.a
+-rw-rw-rw-    1 root    wheel          878434 Nov 16  2000 /usr/lib/libtixsam4.1.8.0.a
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1
+-rw-r--r--    1 root    wheel           12455 Nov 16  2000 /usr/lib/tix4.1/Balloon.tcl
+-rw-r--r--    1 root    wheel            2497 Nov 16  2000 /usr/lib/tix4.1/BtnBox.tcl
+-rw-r--r--    1 root    wheel            7650 Nov 16  2000 /usr/lib/tix4.1/CObjView.tcl
+-rw-r--r--    1 root    wheel            5084 Nov 16  2000 /usr/lib/tix4.1/ChkList.tcl
+-rw-r--r--    1 root    wheel           34182 Nov 16  2000 /usr/lib/tix4.1/ComboBox.tcl
+-rw-r--r--    1 root    wheel             827 Nov 16  2000 /usr/lib/tix4.1/Compat.tcl
+-rw-r--r--    1 root    wheel           12262 Nov 16  2000 /usr/lib/tix4.1/Console.tcl
+-rw-r--r--    1 root    wheel           11917 Nov 16  2000 /usr/lib/tix4.1/Control.tcl
+-rw-r--r--    1 root    wheel            2638 Nov 16  2000 /usr/lib/tix4.1/DefSchm.tcl
+-rw-r--r--    1 root    wheel            4094 Nov 16  2000 /usr/lib/tix4.1/DialogS.tcl
+-rw-r--r--    1 root    wheel            5511 Nov 16  2000 /usr/lib/tix4.1/DirBox.tcl
+-rw-r--r--    1 root    wheel            2027 Nov 16  2000 /usr/lib/tix4.1/DirDlg.tcl
+-rw-r--r--    1 root    wheel            7328 Nov 16  2000 /usr/lib/tix4.1/DirList.tcl
+-rw-r--r--    1 root    wheel            9533 Nov 16  2000 /usr/lib/tix4.1/DirTree.tcl
+-rw-r--r--    1 root    wheel            3817 Nov 16  2000 /usr/lib/tix4.1/DragDrop.tcl
+-rw-r--r--    1 root    wheel             827 Nov 16  2000 /usr/lib/tix4.1/DtlList.tcl
+-rw-r--r--    1 root    wheel           11284 Nov 16  2000 /usr/lib/tix4.1/EFileBox.tcl
+-rw-r--r--    1 root    wheel            1403 Nov 16  2000 /usr/lib/tix4.1/EFileDlg.tcl
+-rw-r--r--    1 root    wheel            5566 Nov 16  2000 /usr/lib/tix4.1/Event.tcl
+-rw-r--r--    1 root    wheel           14502 Nov 16  2000 /usr/lib/tix4.1/FileBox.tcl
+-rw-r--r--    1 root    wheel            2191 Nov 16  2000 /usr/lib/tix4.1/FileCbx.tcl
+-rw-r--r--    1 root    wheel             886 Nov 16  2000 /usr/lib/tix4.1/FileCmpt.tcl
+-rw-r--r--    1 root    wheel            2005 Nov 16  2000 /usr/lib/tix4.1/FileDlg.tcl
+-rw-r--r--    1 root    wheel            6022 Nov 16  2000 /usr/lib/tix4.1/FileEnt.tcl
+-rw-r--r--    1 root    wheel            1507 Nov 16  2000 /usr/lib/tix4.1/FileUtil.tcl
+-rw-r--r--    1 root    wheel            2979 Nov 16  2000 /usr/lib/tix4.1/FloatEnt.tcl
+-rw-r--r--    1 root    wheel           21194 Nov 16  2000 /usr/lib/tix4.1/Grid.tcl
+-rw-r--r--    1 root    wheel           15928 Nov 16  2000 /usr/lib/tix4.1/HList.tcl
+-rw-r--r--    1 root    wheel            4320 Nov 16  2000 /usr/lib/tix4.1/HListDD.tcl
+-rw-r--r--    1 root    wheel            6056 Nov 16  2000 /usr/lib/tix4.1/IconView.tcl
+-rw-r--r--    1 root    wheel            4253 Nov 16  2000 /usr/lib/tix4.1/Init.tcl
+-rw-r--r--    1 root    wheel            2084 Nov 16  2000 /usr/lib/tix4.1/LabEntry.tcl
+-rw-r--r--    1 root    wheel            1071 Nov 16  2000 /usr/lib/tix4.1/LabFrame.tcl
+-rw-r--r--    1 root    wheel            3774 Nov 16  2000 /usr/lib/tix4.1/LabWidg.tcl
+-rw-r--r--    1 root    wheel            3420 Nov 16  2000 /usr/lib/tix4.1/ListNBk.tcl
+-rw-r--r--    1 root    wheel            2815 Nov 16  2000 /usr/lib/tix4.1/Meter.tcl
+-rw-r--r--    1 root    wheel            3523 Nov 16  2000 /usr/lib/tix4.1/MultView.tcl
+-rw-r--r--    1 root    wheel            5923 Nov 16  2000 /usr/lib/tix4.1/NoteBook.tcl
+-rw-r--r--    1 root    wheel            5507 Nov 16  2000 /usr/lib/tix4.1/OldUtil.tcl
+-rw-r--r--    1 root    wheel            9209 Nov 16  2000 /usr/lib/tix4.1/OptMenu.tcl
+-rw-r--r--    1 root    wheel           27353 Nov 16  2000 /usr/lib/tix4.1/PanedWin.tcl
+-rw-r--r--    1 root    wheel            4824 Nov 16  2000 /usr/lib/tix4.1/PopMenu.tcl
+-rw-r--r--    1 root    wheel           10263 Nov 16  2000 /usr/lib/tix4.1/Primitiv.tcl
+-rw-r--r--    1 root    wheel           12856 Nov 16  2000 /usr/lib/tix4.1/ResizeH.tcl
+-rw-r--r--    1 root    wheel            5549 Nov 16  2000 /usr/lib/tix4.1/SGrid.tcl
+-rw-r--r--    1 root    wheel            3849 Nov 16  2000 /usr/lib/tix4.1/SHList.tcl
+-rw-r--r--    1 root    wheel            7132 Nov 16  2000 /usr/lib/tix4.1/SListBox.tcl
+-rw-r--r--    1 root    wheel            2371 Nov 16  2000 /usr/lib/tix4.1/STList.tcl
+-rw-r--r--    1 root    wheel            3261 Nov 16  2000 /usr/lib/tix4.1/SText.tcl
+-rw-r--r--    1 root    wheel           10213 Nov 16  2000 /usr/lib/tix4.1/SWidget.tcl
+-rw-r--r--    1 root    wheel            6831 Nov 16  2000 /usr/lib/tix4.1/SWindow.tcl
+-rw-r--r--    1 root    wheel            7022 Nov 16  2000 /usr/lib/tix4.1/Select.tcl
+-rw-r--r--    1 root    wheel             886 Nov 16  2000 /usr/lib/tix4.1/Shell.tcl
+-rw-r--r--    1 root    wheel             982 Nov 16  2000 /usr/lib/tix4.1/SimpDlg.tcl
+-rw-r--r--    1 root    wheel            1810 Nov 16  2000 /usr/lib/tix4.1/StackWin.tcl
+-rw-r--r--    1 root    wheel            1164 Nov 16  2000 /usr/lib/tix4.1/StatBar.tcl
+-rw-r--r--    1 root    wheel            1481 Nov 16  2000 /usr/lib/tix4.1/StdBBox.tcl
+-rw-r--r--    1 root    wheel             997 Nov 16  2000 /usr/lib/tix4.1/StdShell.tcl
+-rw-r--r--    1 root    wheel           18646 Nov 16  2000 /usr/lib/tix4.1/TList.tcl
+-rw-r--r--    1 root    wheel           12067 Nov 16  2000 /usr/lib/tix4.1/Tix.tcl
+-rw-r--r--    1 root    wheel            4142 Nov 16  2000 /usr/lib/tix4.1/Tree.tcl
+-rw-r--r--    1 root    wheel            7730 Nov 16  2000 /usr/lib/tix4.1/UnixFile.tcl
+-rw-r--r--    1 root    wheel           11345 Nov 16  2000 /usr/lib/tix4.1/Utils.tcl
+-rw-r--r--    1 root    wheel            4835 Nov 16  2000 /usr/lib/tix4.1/VResize.tcl
+-rw-r--r--    1 root    wheel            9567 Nov 16  2000 /usr/lib/tix4.1/VStack.tcl
+-rw-r--r--    1 root    wheel            4453 Nov 16  2000 /usr/lib/tix4.1/VTree.tcl
+-rw-r--r--    1 root    wheel            2383 Nov 16  2000 /usr/lib/tix4.1/Variable.tcl
+-rw-r--r--    1 root    wheel             434 Nov 16  2000 /usr/lib/tix4.1/Verify.tcl
+-rw-r--r--    1 root    wheel             375 Nov 16  2000 /usr/lib/tix4.1/Version.tcl
+-rw-r--r--    1 root    wheel             792 Nov 16  2000 /usr/lib/tix4.1/WInfo.tcl
+-rw-r--r--    1 root    wheel           13883 Nov 16  2000 /usr/lib/tix4.1/WinFile.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1/bitmaps
+-rw-r--r--    1 root    wheel              90 Nov 16  2000 /usr/lib/tix4.1/bitmaps/act_fold.gif
+-rw-r--r--    1 root    wheel             221 Nov 16  2000 /usr/lib/tix4.1/bitmaps/act_fold.xbm
+-rw-r--r--    1 root    wheel             436 Nov 16  2000 /usr/lib/tix4.1/bitmaps/act_fold.xpm
+-rw-r--r--    1 root    wheel             123 Nov 16  2000 /usr/lib/tix4.1/bitmaps/balarrow.xbm
+-rw-r--r--    1 root    wheel             263 Nov 16  2000 /usr/lib/tix4.1/bitmaps/cbxarrow.xbm
+-rw-r--r--    1 root    wheel             254 Nov 16  2000 /usr/lib/tix4.1/bitmaps/ck_def.xbm
+-rw-r--r--    1 root    wheel             254 Nov 16  2000 /usr/lib/tix4.1/bitmaps/ck_off.xbm
+-rw-r--r--    1 root    wheel             251 Nov 16  2000 /usr/lib/tix4.1/bitmaps/ck_on.xbm
+-rw-r--r--    1 root    wheel             254 Nov 16  2000 /usr/lib/tix4.1/bitmaps/cross.xbm
+-rw-r--r--    1 root    wheel              99 Nov 16  2000 /usr/lib/tix4.1/bitmaps/decr.xbm
+-rw-r--r--    1 root    wheel             326 Nov 16  2000 /usr/lib/tix4.1/bitmaps/drop.xbm
+-rw-r--r--    1 root    wheel              76 Nov 16  2000 /usr/lib/tix4.1/bitmaps/file.gif
+-rw-r--r--    1 root    wheel             233 Nov 16  2000 /usr/lib/tix4.1/bitmaps/file.xbm
+-rw-r--r--    1 root    wheel             298 Nov 16  2000 /usr/lib/tix4.1/bitmaps/file.xpm
+-rw-r--r--    1 root    wheel              79 Nov 16  2000 /usr/lib/tix4.1/bitmaps/folder.gif
+-rw-r--r--    1 root    wheel             215 Nov 16  2000 /usr/lib/tix4.1/bitmaps/folder.xbm
+-rw-r--r--    1 root    wheel             418 Nov 16  2000 /usr/lib/tix4.1/bitmaps/folder.xpm
+-rw-r--r--    1 root    wheel             896 Nov 16  2000 /usr/lib/tix4.1/bitmaps/harddisk.xbm
+-rw-r--r--    1 root    wheel             969 Nov 16  2000 /usr/lib/tix4.1/bitmaps/hourglas.mask
+-rw-r--r--    1 root    wheel             940 Nov 16  2000 /usr/lib/tix4.1/bitmaps/hourglas.xbm
+-rw-r--r--    1 root    wheel              99 Nov 16  2000 /usr/lib/tix4.1/bitmaps/incr.xbm
+-rw-r--r--    1 root    wheel             159 Nov 16  2000 /usr/lib/tix4.1/bitmaps/info.gif
+-rw-r--r--    1 root    wheel            1258 Nov 16  2000 /usr/lib/tix4.1/bitmaps/info.xpm
+-rw-r--r--    1 root    wheel             284 Nov 16  2000 /usr/lib/tix4.1/bitmaps/maximize.xbm
+-rw-r--r--    1 root    wheel             284 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minimize.xbm
+-rw-r--r--    1 root    wheel              57 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minus.gif
+-rw-r--r--    1 root    wheel             198 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minus.xbm
+-rw-r--r--    1 root    wheel             201 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minus.xpm
+-rw-r--r--    1 root    wheel              59 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minusarm.gif
+-rw-r--r--    1 root    wheel             207 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minusarm.xbm
+-rw-r--r--    1 root    wheel             220 Nov 16  2000 /usr/lib/tix4.1/bitmaps/minusarm.xpm
+-rw-r--r--    1 root    wheel             176 Nov 16  2000 /usr/lib/tix4.1/bitmaps/mktransgif.tcl
+-rw-r--r--    1 root    wheel             893 Nov 16  2000 /usr/lib/tix4.1/bitmaps/network.xbm
+-rw-r--r--    1 root    wheel             176 Nov 16  2000 /usr/lib/tix4.1/bitmaps/no_entry.gif
+-rw-r--r--    1 root    wheel            1274 Nov 16  2000 /usr/lib/tix4.1/bitmaps/no_entry.xpm
+-rw-r--r--    1 root    wheel             221 Nov 16  2000 /usr/lib/tix4.1/bitmaps/openfile.xbm
+-rw-r--r--    1 root    wheel              84 Nov 16  2000 /usr/lib/tix4.1/bitmaps/openfold.gif
+-rw-r--r--    1 root    wheel             221 Nov 16  2000 /usr/lib/tix4.1/bitmaps/openfold.xbm
+-rw-r--r--    1 root    wheel             418 Nov 16  2000 /usr/lib/tix4.1/bitmaps/openfold.xpm
+-rw-r--r--    1 root    wheel              58 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plus.gif
+-rw-r--r--    1 root    wheel             195 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plus.xbm
+-rw-r--r--    1 root    wheel             200 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plus.xpm
+-rw-r--r--    1 root    wheel              60 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plusarm.gif
+-rw-r--r--    1 root    wheel             204 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plusarm.xbm
+-rw-r--r--    1 root    wheel             212 Nov 16  2000 /usr/lib/tix4.1/bitmaps/plusarm.xpm
+-rw-r--r--    1 root    wheel             305 Nov 16  2000 /usr/lib/tix4.1/bitmaps/resize1.xbm
+-rw-r--r--    1 root    wheel             305 Nov 16  2000 /usr/lib/tix4.1/bitmaps/resize2.xbm
+-rw-r--r--    1 root    wheel             281 Nov 16  2000 /usr/lib/tix4.1/bitmaps/restore.xbm
+-rw-r--r--    1 root    wheel              79 Nov 16  2000 /usr/lib/tix4.1/bitmaps/srcfile.gif
+-rw-r--r--    1 root    wheel             242 Nov 16  2000 /usr/lib/tix4.1/bitmaps/srcfile.xbm
+-rw-r--r--    1 root    wheel             294 Nov 16  2000 /usr/lib/tix4.1/bitmaps/srcfile.xpm
+-rw-r--r--    1 root    wheel             278 Nov 16  2000 /usr/lib/tix4.1/bitmaps/system.xbm
+-rw-r--r--    1 root    wheel              79 Nov 16  2000 /usr/lib/tix4.1/bitmaps/textfile.gif
+-rw-r--r--    1 root    wheel             245 Nov 16  2000 /usr/lib/tix4.1/bitmaps/textfile.xbm
+-rw-r--r--    1 root    wheel             302 Nov 16  2000 /usr/lib/tix4.1/bitmaps/textfile.xpm
+-rw-r--r--    1 root    wheel             251 Nov 16  2000 /usr/lib/tix4.1/bitmaps/tick.xbm
+-rw-r--r--    1 root    wheel             180 Nov 16  2000 /usr/lib/tix4.1/bitmaps/warning.gif
+-rw-r--r--    1 root    wheel            1262 Nov 16  2000 /usr/lib/tix4.1/bitmaps/warning.xpm
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1/demos
+-rw-rw-rw-    1 root    wheel            8991 Nov 16  2000 /usr/lib/tix4.1/demos/MkChoose.tcl
+-rw-rw-rw-    1 root    wheel            1975 Nov 16  2000 /usr/lib/tix4.1/demos/MkDirLis.tcl
+-rw-rw-rw-    1 root    wheel            6096 Nov 16  2000 /usr/lib/tix4.1/demos/MkManag.tcl
+-rw-rw-rw-    1 root    wheel            6702 Nov 16  2000 /usr/lib/tix4.1/demos/MkSample.tcl
+-rw-rw-rw-    1 root    wheel            5169 Nov 16  2000 /usr/lib/tix4.1/demos/MkScroll.tcl
+-rw-rw-rw-    1 root    wheel             706 Nov 16  2000 /usr/lib/tix4.1/demos/README
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps
+-rw-r--r--    1 root    wheel            2310 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/about.xpm
+-rw-r--r--    1 root    wheel             284 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/bold.xbm
+-rw-r--r--    1 root    wheel             293 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/capital.xbm
+-rw-r--r--    1 root    wheel             293 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/centerj.xbm
+-rw-r--r--    1 root    wheel             896 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/combobox.xbm
+-rw-r--r--    1 root    wheel            2318 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/combobox.xpm
+-rw-r--r--    1 root    wheel             890 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/drivea.xbm
+-rw-r--r--    1 root    wheel            1371 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/drivea.xpm
+-rw-r--r--    1 root    wheel            2293 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/exit.xpm
+-rw-r--r--    1 root    wheel             893 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/filebox.xbm
+-rw-r--r--    1 root    wheel            2310 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/filebox.xpm
+-rw-r--r--    1 root    wheel             890 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/harddisk.xbm
+-rw-r--r--    1 root    wheel            1371 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/harddisk.xpm
+-rw-r--r--    1 root    wheel             290 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/italic.xbm
+-rw-r--r--    1 root    wheel             293 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/justify.xbm
+-rw-r--r--    1 root    wheel             287 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/leftj.xbm
+-rw-r--r--    1 root    wheel             884 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/netw.xbm
+-rw-r--r--    1 root    wheel            1386 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/netw.xpm
+-rw-r--r--    1 root    wheel             884 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/network.xbm
+-rw-r--r--    1 root    wheel            1386 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/network.xpm
+-rw-r--r--    1 root    wheel            2289 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/optmenu.xpm
+-rw-r--r--    1 root    wheel             290 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/rightj.xbm
+-rw-r--r--    1 root    wheel            2356 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/select.xpm
+-rw-r--r--    1 root    wheel           11042 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/tix.gif
+-rw-r--r--    1 root    wheel             299 Nov 16  2000 /usr/lib/tix4.1/demos/bitmaps/underlin.xbm
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1/demos/samples
+-rw-r--r--    1 root    wheel            4550 Nov 16  2000 /usr/lib/tix4.1/demos/samples/AllSampl.tcl
+-rw-r--r--    1 root    wheel            4605 Nov 16  2000 /usr/lib/tix4.1/demos/samples/ArrowBtn.tcl
+-rw-r--r--    1 root    wheel            1556 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Balloon.tcl
+-rw-r--r--    1 root    wheel            1830 Nov 16  2000 /usr/lib/tix4.1/demos/samples/BtnBox.tcl
+-rw-r--r--    1 root    wheel            2645 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CObjView.tcl
+-rw-r--r--    1 root    wheel            5090 Nov 16  2000 /usr/lib/tix4.1/demos/samples/ChkList.tcl
+-rw-r--r--    1 root    wheel            1801 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CmpImg.tcl
+-rw-r--r--    1 root    wheel            5822 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CmpImg1.tcl
+-rw-r--r--    1 root    wheel            4354 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CmpImg2.tcl
+-rw-r--r--    1 root    wheel            2369 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CmpImg3.tcl
+-rw-r--r--    1 root    wheel            4142 Nov 16  2000 /usr/lib/tix4.1/demos/samples/CmpImg4.tcl
+-rw-r--r--    1 root    wheel            3350 Nov 16  2000 /usr/lib/tix4.1/demos/samples/ComboBox.tcl
+-rw-r--r--    1 root    wheel            3413 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Control.tcl
+-rw-r--r--    1 root    wheel            2319 Nov 16  2000 /usr/lib/tix4.1/demos/samples/DirDlg.tcl
+-rw-r--r--    1 root    wheel            2588 Nov 16  2000 /usr/lib/tix4.1/demos/samples/DirList.tcl
+-rw-r--r--    1 root    wheel            2564 Nov 16  2000 /usr/lib/tix4.1/demos/samples/DirTree.tcl
+-rw-r--r--    1 root    wheel            1449 Nov 16  2000 /usr/lib/tix4.1/demos/samples/DragDrop.tcl
+-rw-r--r--    1 root    wheel            3608 Nov 16  2000 /usr/lib/tix4.1/demos/samples/DynTree.tcl
+-rw-r--r--    1 root    wheel            2914 Nov 16  2000 /usr/lib/tix4.1/demos/samples/EFileDlg.tcl
+-rw-r--r--    1 root    wheel            6575 Nov 16  2000 /usr/lib/tix4.1/demos/samples/EditGrid.tcl
+-rw-r--r--    1 root    wheel            2834 Nov 16  2000 /usr/lib/tix4.1/demos/samples/FileDlg.tcl
+-rw-r--r--    1 root    wheel            2037 Nov 16  2000 /usr/lib/tix4.1/demos/samples/FileEnt.tcl
+-rw-r--r--    1 root    wheel            4457 Nov 16  2000 /usr/lib/tix4.1/demos/samples/HList1.tcl
+-rw-r--r--    1 root    wheel            2597 Nov 16  2000 /usr/lib/tix4.1/demos/samples/LabEntry.tcl
+-rw-r--r--    1 root    wheel            2621 Nov 16  2000 /usr/lib/tix4.1/demos/samples/LabFrame.tcl
+-rw-r--r--    1 root    wheel            2854 Nov 16  2000 /usr/lib/tix4.1/demos/samples/ListNBK.tcl
+-rw-r--r--    1 root    wheel            1982 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Meter.tcl
+-rw-r--r--    1 root    wheel            3439 Nov 16  2000 /usr/lib/tix4.1/demos/samples/NoteBook.tcl
+-rw-r--r--    1 root    wheel            2972 Nov 16  2000 /usr/lib/tix4.1/demos/samples/OptMenu.tcl
+-rw-r--r--    1 root    wheel            4077 Nov 16  2000 /usr/lib/tix4.1/demos/samples/PanedWin.tcl
+-rw-r--r--    1 root    wheel            2198 Nov 16  2000 /usr/lib/tix4.1/demos/samples/PopMenu.tcl
+-rw-r--r--    1 root    wheel            3277 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SGrid0.tcl
+-rw-r--r--    1 root    wheel            5257 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SGrid1.tcl
+-rw-r--r--    1 root    wheel            2936 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SHList.tcl
+-rw-r--r--    1 root    wheel            4938 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SHList2.tcl
+-rw-r--r--    1 root    wheel            2759 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SListBox.tcl
+-rw-r--r--    1 root    wheel            1393 Nov 16  2000 /usr/lib/tix4.1/demos/samples/STList1.tcl
+-rw-r--r--    1 root    wheel            2226 Nov 16  2000 /usr/lib/tix4.1/demos/samples/STList2.tcl
+-rw-r--r--    1 root    wheel            2985 Nov 16  2000 /usr/lib/tix4.1/demos/samples/STList3.tcl
+-rw-r--r--    1 root    wheel            2379 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SText.tcl
+-rw-r--r--    1 root    wheel            2553 Nov 16  2000 /usr/lib/tix4.1/demos/samples/SWindow.tcl
+-rw-r--r--    1 root    wheel             868 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Sample.tcl
+-rw-r--r--    1 root    wheel            3128 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Select.tcl
+-rw-r--r--    1 root    wheel            2091 Nov 16  2000 /usr/lib/tix4.1/demos/samples/StdBBox.tcl
+-rw-r--r--    1 root    wheel            2491 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Tree.tcl
+-rw-r--r--    1 root    wheel            2762 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Xpm.tcl
+-rw-r--r--    1 root    wheel            3290 Nov 16  2000 /usr/lib/tix4.1/demos/samples/Xpm1.tcl
+-rw-rw-rw-    1 root    wheel            2850 Nov 16  2000 /usr/lib/tix4.1/demos/tclIndex
+-rwxr-xr-x    1 root    wheel            8874 Nov 16  2000 /usr/lib/tix4.1/demos/widget
+-rw-r--r--    1 root    wheel           11080 Nov 16  2000 /usr/lib/tix4.1/fs.tcl
+-rw-r--r--    1 root    wheel             135 Nov 16  2000 /usr/lib/tix4.1/pkgIndex.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tix4.1/pref
+-rw-r--r--    1 root    wheel             468 Nov 16  2000 /usr/lib/tix4.1/pref/12Point.fs
+-rw-r--r--    1 root    wheel            1872 Nov 16  2000 /usr/lib/tix4.1/pref/12Point.fsc
+-rw-r--r--    1 root    wheel             434 Nov 16  2000 /usr/lib/tix4.1/pref/14Point.fs
+-rw-r--r--    1 root    wheel            1839 Nov 16  2000 /usr/lib/tix4.1/pref/14Point.fsc
+-rw-r--r--    1 root    wheel             960 Nov 16  2000 /usr/lib/tix4.1/pref/Bisque.cs
+-rw-r--r--    1 root    wheel           22450 Nov 16  2000 /usr/lib/tix4.1/pref/Bisque.csc
+-rw-r--r--    1 root    wheel             979 Nov 16  2000 /usr/lib/tix4.1/pref/Blue.cs
+-rw-r--r--    1 root    wheel           22465 Nov 16  2000 /usr/lib/tix4.1/pref/Blue.csc
+-rw-r--r--    1 root    wheel             979 Nov 16  2000 /usr/lib/tix4.1/pref/Gray.cs
+-rw-r--r--    1 root    wheel           22465 Nov 16  2000 /usr/lib/tix4.1/pref/Gray.csc
+-rw-r--r--    1 root    wheel             754 Nov 16  2000 /usr/lib/tix4.1/pref/Makefile
+-rw-r--r--    1 root    wheel             476 Nov 16  2000 /usr/lib/tix4.1/pref/Old12Pt.fs
+-rw-r--r--    1 root    wheel             434 Nov 16  2000 /usr/lib/tix4.1/pref/Old14Pt.fs
+-rw-r--r--    1 root    wheel             957 Nov 16  2000 /usr/lib/tix4.1/pref/SGIGray.cs
+-rw-r--r--    1 root    wheel           22447 Nov 16  2000 /usr/lib/tix4.1/pref/SGIGray.csc
+-rw-r--r--    1 root    wheel             960 Nov 16  2000 /usr/lib/tix4.1/pref/TK.cs
+-rw-r--r--    1 root    wheel            1958 Nov 16  2000 /usr/lib/tix4.1/pref/TK.csc
+-rw-r--r--    1 root    wheel             446 Nov 16  2000 /usr/lib/tix4.1/pref/TK.fs
+-rw-r--r--    1 root    wheel             508 Nov 16  2000 /usr/lib/tix4.1/pref/TK.fsc
+-rw-r--r--    1 root    wheel             957 Nov 16  2000 /usr/lib/tix4.1/pref/TixGray.cs
+-rw-r--r--    1 root    wheel           22449 Nov 16  2000 /usr/lib/tix4.1/pref/TixGray.csc
+-rw-r--r--    1 root    wheel            9642 Nov 16  2000 /usr/lib/tix4.1/pref/tixmkpref
+-rw-r--r--    1 root    wheel           31294 Nov 16  2000 /usr/lib/tix4.1/tclIndex
+-r--r--r--    1 root    wheel            4353 Nov 16  2000 /usr/man/man1/tixwish.1.gz
+-r--r--r--    1 root    wheel            3986 Nov 16  2000 /usr/man/mann/Balloon.n.gz
+-r--r--r--    1 root    wheel            3619 Nov 16  2000 /usr/man/mann/BtnBox.n.gz
+-r--r--r--    1 root    wheel            3982 Nov 16  2000 /usr/man/mann/ChkList.n.gz
+-r--r--r--    1 root    wheel            5827 Nov 16  2000 /usr/man/mann/ComboBox.n.gz
+-r--r--r--    1 root    wheel            4890 Nov 16  2000 /usr/man/mann/Control.n.gz
+-r--r--r--    1 root    wheel            5980 Nov 16  2000 /usr/man/mann/DItem.n.gz
+-r--r--r--    1 root    wheel            2154 Nov 16  2000 /usr/man/mann/Destroy.n.gz
+-r--r--r--    1 root    wheel            3361 Nov 16  2000 /usr/man/mann/DirDlg.n.gz
+-r--r--r--    1 root    wheel            4171 Nov 16  2000 /usr/man/mann/DirList.n.gz
+-r--r--r--    1 root    wheel            4045 Nov 16  2000 /usr/man/mann/DirTree.n.gz
+-r--r--r--    1 root    wheel            4550 Nov 16  2000 /usr/man/mann/EFileBox.n.gz
+-r--r--r--    1 root    wheel            3330 Nov 16  2000 /usr/man/mann/EFileDlg.n.gz
+-r--r--r--    1 root    wheel            4058 Nov 16  2000 /usr/man/mann/FileBox.n.gz
+-r--r--r--    1 root    wheel            3381 Nov 16  2000 /usr/man/mann/FileDlg.n.gz
+-r--r--r--    1 root    wheel            4501 Nov 16  2000 /usr/man/mann/FileEnt.n.gz
+-r--r--r--    1 root    wheel            5799 Nov 16  2000 /usr/man/mann/Form.n.gz
+-r--r--r--    1 root    wheel            2196 Nov 16  2000 /usr/man/mann/GetBool.n.gz
+-r--r--r--    1 root    wheel            2242 Nov 16  2000 /usr/man/mann/GetInt.n.gz
+-r--r--r--    1 root    wheel            4705 Nov 16  2000 /usr/man/mann/Grid.n.gz
+-r--r--r--    1 root    wheel           10492 Nov 16  2000 /usr/man/mann/HList.n.gz
+-r--r--r--    1 root    wheel            3036 Nov 16  2000 /usr/man/mann/InpOnly.n.gz
+-r--r--r--    1 root    wheel            3472 Nov 16  2000 /usr/man/mann/LabEntry.n.gz
+-r--r--r--    1 root    wheel            3605 Nov 16  2000 /usr/man/mann/LabFrame.n.gz
+-r--r--r--    1 root    wheel            4240 Nov 16  2000 /usr/man/mann/ListNBK.n.gz
+-r--r--r--    1 root    wheel            3132 Nov 16  2000 /usr/man/mann/Meter.n.gz
+-r--r--r--    1 root    wheel            2949 Nov 16  2000 /usr/man/mann/Mwm.n.gz
+-r--r--r--    1 root    wheel            2875 Nov 16  2000 /usr/man/mann/NBFrame.n.gz
+-r--r--r--    1 root    wheel            4916 Nov 16  2000 /usr/man/mann/NoteBook.n.gz
+-r--r--r--    1 root    wheel            4055 Nov 16  2000 /usr/man/mann/OptMenu.n.gz
+-r--r--r--    1 root    wheel            4903 Nov 16  2000 /usr/man/mann/PanedWin.n.gz
+-r--r--r--    1 root    wheel            4081 Nov 16  2000 /usr/man/mann/PopMenu.n.gz
+-r--r--r--    1 root    wheel            3422 Nov 16  2000 /usr/man/mann/SHList.n.gz
+-r--r--r--    1 root    wheel            3875 Nov 16  2000 /usr/man/mann/SListBox.n.gz
+-r--r--r--    1 root    wheel            3418 Nov 16  2000 /usr/man/mann/SText.n.gz
+-r--r--r--    1 root    wheel            3810 Nov 16  2000 /usr/man/mann/SWindow.n.gz
+-r--r--r--    1 root    wheel            4730 Nov 16  2000 /usr/man/mann/Select.n.gz
+-r--r--r--    1 root    wheel            3513 Nov 16  2000 /usr/man/mann/StdBBox.n.gz
+-r--r--r--    1 root    wheel            7315 Nov 16  2000 /usr/man/mann/TList.n.gz
+-r--r--r--    1 root    wheel            2552 Nov 16  2000 /usr/man/mann/TixIntro.n.gz
+-r--r--r--    1 root    wheel            4507 Nov 16  2000 /usr/man/mann/Tree.n.gz
+-r--r--r--    1 root    wheel            2530 Nov 16  2000 /usr/man/mann/Utils.n.gz
+-r--r--r--    1 root    wheel            2435 Nov 16  2000 /usr/man/mann/Wm.n.gz
+-r--r--r--    1 root    wheel            4626 Nov 16  2000 /usr/man/mann/compound.n.gz
+-r--r--r--    1 root    wheel            3032 Nov 16  2000 /usr/man/mann/pixmap.n.gz
+-r--r--r--    1 root    wheel            4553 Nov 16  2000 /usr/man/mann/tix.n.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tix-4.1.0.6-1.m68kmint.rpm">Download</A></H2> (1,554,435 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,129 @@
+#! /usr/bin/perl -w
+#
+# Copyright (C) 2001, Guido Flohr <guido@imperia.net>
+# All rights reserved.
+#
+# Notify user of changes on sparemint server.
+
+use strict;
+
+# Configure the location of the pkglist file on the mirror.
+my $pkglist_url = "http://sparemint.atariforge.net/sparemint/pkglist";
+#my $pkglist_url = "http://trunk.prinzen.hof/pkglist";
+
+#########################################################################
+
+sub get_pkglist;
+
+my $current = get_pkglist "wget -O - -q $pkglist_url", 
+    "wget -O - $pkglist_url";
+my $installed = get_pkglist "rpm -qa";
+
+my @missing;
+my @obsolete;
+
+foreach my $package (sort keys %$current) {
+    unless (exists $installed->{$package}) {
+	push @missing, $package;
+	next;
+    }
+
+    unless ($current->{$package}->{version} eq 
+	    $installed->{$package}->{version} &&
+	    $current->{$package}->{release} eq
+	    $installed->{$package}->{release}) {
+	push @obsolete, $package;
+    }
+}
+
+if (@missing) {
+    print <<EOF;
+The following packages from the Sparemint server are not installed:
+===================================================================
+EOF
+
+    foreach (@missing) {
+	print <<EOF;
+
+Package: $_
+Version: $current->{$_}->{version}
+Release: $current->{$_}->{release}
+EOF
+    }
+}
+
+if (@obsolete) {
+    print <<EOF;
+The following packages from the Sparemint need an update:
+=========================================================
+EOF
+
+    foreach (@obsolete) {
+	print <<EOF;
+
+Package: $_
+Version: $current->{$_}->{version} (installed: $installed->{$_}->{version})
+Release: $current->{$_}->{release} (installed: $installed->{$_}->{release})
+EOF
+    }
+}
+
+sub get_pkglist {
+    my $cmd = shift;
+    my $try = shift || $cmd;
+
+    local *CMD;
+
+    my %packages;
+
+    open CMD, "$cmd|" or die <<EOF;
+$0: cannot get package list, try
+
+  $cmd
+
+for details.
+EOF
+
+    while (<CMD>) {
+	chomp;
+	next unless s/^(.*)-(.*)-(.*)$/$1#$2#$3/;
+	my ($package, $version, $release) = split /#/;
+	$packages{$package}->{version} = $version;
+	$packages{$package}->{release} = $release;
+    }
+
+    return \%packages;
+}
+
+__END__
+
+=cut
+
+=head1 NAME
+
+sparemint_notify - Smart update for Sparemint
+
+=head1 SYNOPSIS
+
+perl sparemint_notify
+
+=head1 DESCRIPTION
+
+The perl script B<sparemint_notify> compares and summarizes the content
+of your local rpm database with the available packages on your sparemint
+server.  The default server is the main Sparemint server.  You should
+change that in the source code to a URL on your favorite mirror.
+
+The script requires wget(3).
+
+=head1 AUTHOR
+
+This script was written by Guido Flohr (guido@imperia.net).
+
+=head1 COPYRIGHT
+
+Copyright (C) 2001 by Guido Flohr.  All rights reserved.
+
+=head1 SEE ALSO
+
+perl(1)

@@ -1,0 +1,19 @@
+The Sparemint project wishes to thank all volunteers that have contributed
+their work to it.  Software maintainers are listed in the file AUTHORS
+in the same directory.  Apart from that our thanks go to:
+
+Jeff Johnson <jbj(at)redhat.com>
+  who didn't hesitate to incorporate the necessary changes for MiNT
+  support into the Redhat Package Manager and has helped with a lot
+  of problems in the very beginning.
+
+Katherine Ellis <kellis(at)leading.net>
+  who contributed the Sparemint logo and was kind enough to do that
+  work twice because of a misunderstanding.
+
+Erich Arning <Erich_Arning(at)lb.maus.de>
+  who sponsored a nice networkadapter for this server.
+
+Thomas Binder <gryf(at)hrzpub.tu-darmstadt.de>
+  who sponsored PS/2 RAM SIMMS for this server.
+

@@ -1,0 +1,132 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - wget-ssl, version 1.9.1, release 0</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>wget-ssl</H2>
+
+<UL> 
+<LI>Summary: Retrieve files from the World Wide Web using HTTP and FTP<BR>
+<LI>URL: <A HREF="http://wget.sunsite.dk/">http://wget.sunsite.dk/</A><BR>
+<LI>Version: 1.9.1<BR>
+<LI>Release: 0<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Networking">Applications/Networking</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,766,016 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>wget-ssl = 1.9.1-0<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>wget  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Jun 11 08:14:14 2014 UTC<BR>
+<LI>Upload date: Mon Dec  8 14:36:09 2003 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/wget-ssl-1.9.1-0.src.rpm">wget-ssl-1.9.1-0.src.rpm</A>  (1,328,328 bytes)<BR>
+<LI>Last change: Adam Klobukowski &lt;atari@gabo.pl&gt; Thu Oct 23 08:00:00 2003 UTC<BR>
+- updated to version 1.9
+<LI>Description:<BR>
+GNU Wget is a freely available network utility to retrieve files from the<BR>World Wide Web using HTTP and FTP, the two most widely used Internet<BR>protocols.  It works non-interactively, thus enabling work in the background,<BR>after having logged off.<BR><P><BR>The recursive retrieval of HTML pages, as well as FTP sites is supported --<BR>you can use Wget to make mirrors of archives and home pages, or traverse the<BR>web like a WWW robot (Wget understands /robots.txt).<BR><P><BR>Wget works exceedingly well on slow or unstable connections, keeping getting<BR>the document until it is fully retrieved. Re-getting files from where it left<BR>off works on servers (both HTTP and FTP) that support it. Matching of<BR>wildcards and recursive mirroring of directories are available when retrieving<BR>via FTP. Both HTTP and FTP retrievals can be time-stamped, thus Wget can see<BR>if the remote file has changed since last retrieval and automatically retrieve<BR>the new version if it has.<BR><P><BR>By default, Wget supports proxy servers, which can lighten the network load,<BR>speed up retrieval and provide access behind firewalls. However, if you are<BR>behind a firewall that requires that you use a socks style gateway, you can<BR>get the socks library and compile wget with support for socks.<BR><P><BR>Most of the features are configurable, either through command-line options, or<BR>via initialization file .wgetrc.  Wget allows you to install a global startup<BR>file (/etc/wgetrc on Sparemint or RedHat) for site settings.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             4022 Jun 11  2014 /etc/wgetrc
+-rwxr-xr-x    1 root    root           793557 Jun 11  2014 /usr/bin/wget
+drwxr-xr-x    2 root    root                0 Jun 11  2014 /usr/doc/wget-ssl-1.9.1
+-rw-r--r--    1 root    root              865 Apr 16  2002 /usr/doc/wget-ssl-1.9.1/AUTHORS
+-rw-r--r--    1 root    root            17976 Dec  2  1999 /usr/doc/wget-ssl-1.9.1/COPYING
+-rw-r--r--    1 root    root            34901 Nov  8  2003 /usr/doc/wget-ssl-1.9.1/ChangeLog
+-rw-r--r--    1 root    root              884 Jan 15  2002 /usr/doc/wget-ssl-1.9.1/MACHINES
+-rw-r--r--    1 root    root             1751 Dec 10  2001 /usr/doc/wget-ssl-1.9.1/MAILING-LIST
+-rw-r--r--    1 root    root            16121 Nov  7  2003 /usr/doc/wget-ssl-1.9.1/NEWS
+-rw-r--r--    1 root    root             6839 Nov  8  2003 /usr/doc/wget-ssl-1.9.1/PATCHES
+-rw-r--r--    1 root    root             4052 Nov  7  2003 /usr/doc/wget-ssl-1.9.1/README
+-rw-r--r--    1 root    root             5322 Oct  8  2003 /usr/doc/wget-ssl-1.9.1/TODO
+-rw-r--r--    1 root    root            16108 Jun 11  2014 /usr/info/wget.info-1.gz
+-rw-r--r--    1 root    root            16825 Jun 11  2014 /usr/info/wget.info-2.gz
+-rw-r--r--    1 root    root            16359 Jun 11  2014 /usr/info/wget.info-3.gz
+-rw-r--r--    1 root    root             8793 Jun 11  2014 /usr/info/wget.info-4.gz
+-rw-r--r--    1 root    root             1226 Jun 11  2014 /usr/info/wget.info.gz
+-rw-r--r--    1 root    root            34848 Jun 11  2014 /usr/share/locale/bg/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            29579 Jun 11  2014 /usr/share/locale/ca/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            28197 Jun 11  2014 /usr/share/locale/cs/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            27628 Jun 11  2014 /usr/share/locale/da/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            34217 Jun 11  2014 /usr/share/locale/de/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            29580 Jun 11  2014 /usr/share/locale/el/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            29880 Jun 11  2014 /usr/share/locale/es/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            30424 Jun 11  2014 /usr/share/locale/et/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            32897 Jun 11  2014 /usr/share/locale/fr/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            29709 Jun 11  2014 /usr/share/locale/gl/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            27138 Jun 11  2014 /usr/share/locale/he/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            30867 Jun 11  2014 /usr/share/locale/hr/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            28680 Jun 11  2014 /usr/share/locale/hu/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            14445 Jun 11  2014 /usr/share/locale/it/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            31960 Jun 11  2014 /usr/share/locale/ja/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            27668 Jun 11  2014 /usr/share/locale/nl/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            13815 Jun 11  2014 /usr/share/locale/no/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            31416 Jun 11  2014 /usr/share/locale/pl/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            14115 Jun 11  2014 /usr/share/locale/pt_BR/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            27690 Jun 11  2014 /usr/share/locale/ro/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            28748 Jun 11  2014 /usr/share/locale/ru/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            32336 Jun 11  2014 /usr/share/locale/sk/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            31506 Jun 11  2014 /usr/share/locale/sl/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            32114 Jun 11  2014 /usr/share/locale/sv/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            32097 Jun 11  2014 /usr/share/locale/tr/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            28000 Jun 11  2014 /usr/share/locale/uk/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            31488 Jun 11  2014 /usr/share/locale/zh_CN/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            25546 Jun 11  2014 /usr/share/locale/zh_TW/LC_MESSAGES/wget.mo
+-rw-r--r--    1 root    root            19731 Jun 11  2014 /usr/share/man/man1/wget.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/wget-ssl-1.9.1-0.m68kmint.rpm">Download</A></H2> (710,912 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

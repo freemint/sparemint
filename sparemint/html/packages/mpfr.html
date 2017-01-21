@@ -1,0 +1,102 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mpfr, version 2.4.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mpfr</H2>
+
+<UL> 
+<LI>Summary: GNU C library for multiple-precision floating-point computations<BR>
+<LI>URL: <A HREF="http://www.mpfr.org/">http://www.mpfr.org/</A><BR>
+<LI>Version: 2.4.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: LGPLv2+ / GPLv2+</BR>
+<LI>Installation size: 857,753 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mpfr = 2.4.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>gmp >= 4.2.1<BR>
+  <LI>mintlib-devel >= 0.58<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu May 27 23:10:41 2010 UTC<BR>
+<LI>Upload date: Fri May 28 17:01:37 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mpfr-2.4.2-1.src.rpm">mpfr-2.4.2-1.src.rpm</A>  (1,083,931 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu May 27 22:00:00 2010 UTC<BR>
+- Initial build of MPFR RPM with the latest patch from the developers for<BR>- the 68000 target.<BR>- Currently 3 tests fail out of 148.  <BR>- tset_ld seems to just hang, it ran for 4 hours without returning results.<BR>- tcmp_ld returns ERROR for NAN (1)<BR>- tsprintf gets the following reasults (but the test might not be correct)<BR>- Error in mpfr_sprintf (s, "%'Rf", x);<BR>- expected: "100000000000000000.000000"<BR>- got:      "100,000,000,000,000,000.000000"
+<LI>Description:<BR>
+The MPFR library is a C library for multiple-precision floating-point<BR>computations with "correct rounding". The MPFR is efficient and also has a<BR>well-defined semantics. It copies the good ideas from the ANSI/IEEE-754<BR>standard for double-precision floating-point arithmetic (53-bit mantissa).<BR>MPFR is based on the GMP multiple-precision library.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 May 27 19:10 /usr/doc/mpfr-2.4.2
+-rw-r--r--    1 root    root              789 Nov 29  2009 /usr/doc/mpfr-2.4.2/AUTHORS
+-rw-r--r--    1 root    root             3313 Nov 29  2009 /usr/doc/mpfr-2.4.2/BUGS
+-rw-r--r--    1 root    root            18013 Nov 29  2009 /usr/doc/mpfr-2.4.2/COPYING
+-rw-r--r--    1 root    root            26440 Nov 29  2009 /usr/doc/mpfr-2.4.2/COPYING.LIB
+-rw-r--r--    1 root    root            16213 Nov 29  2009 /usr/doc/mpfr-2.4.2/FAQ.html
+-rw-r--r--    1 root    root            11337 Nov 29  2009 /usr/doc/mpfr-2.4.2/NEWS
+-rw-r--r--    1 root    root               41 Nov 29  2009 /usr/doc/mpfr-2.4.2/ReadMe
+-rw-r--r--    1 root    root            18708 Nov 29  2009 /usr/doc/mpfr-2.4.2/TODO
+-rw-r--r--    1 root    root             2976 Nov 29  2009 /usr/doc/mpfr-2.4.2/divworst.c
+-rw-r--r--    1 root    root             2592 Nov 29  2009 /usr/doc/mpfr-2.4.2/rndo-add.c
+-rw-r--r--    1 root    root             1653 Nov 29  2009 /usr/doc/mpfr-2.4.2/sample.c
+-rw-r--r--    1 root    root             6165 May 27 19:10 /usr/include/mpf2mpfr.h
+-rw-r--r--    1 root    root            42840 May 27 19:10 /usr/include/mpfr.h
+-rw-r--r--    1 root    root           519820 May 27 19:10 /usr/lib/libmpfr.a
+-rw-r--r--    1 root    root           182757 May 27 19:10 /usr/share/info/mpfr.info
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mpfr-2.4.2-1.m68kmint.rpm">Download</A></H2> (299,722 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

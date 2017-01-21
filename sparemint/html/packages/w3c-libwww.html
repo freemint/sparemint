@@ -1,0 +1,354 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - w3c-libwww, version 5.3.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>w3c-libwww</H2>
+
+<UL> 
+<LI>Summary: HTTP library of common code<BR>
+<LI>URL: <A HREF="http://www.w3.org/Library/">http://www.w3.org/Library/</A><BR>
+<LI>Version: 5.3.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: W3C (see: http://www.w3.org/Consortium/Legal/copyright-software.html)</BR>
+<LI>Installation size: 1,383,681 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>w3c-libwww = 5.3.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Mar 16 09:24:08 2001 UTC<BR>
+<LI>Upload date: Fri Mar 16 09:24:50 2001 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/w3c-libwww-5.3.2-1.src.rpm">w3c-libwww-5.3.2-1.src.rpm</A>  (1,959,671 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Mar 15 10:00:00 2001 UTC<BR>
+- updated to 5.3.2
+<LI>Description:<BR>
+Libwww is a general-purpose Web API written in C for Unix, MiNT and and<BR>Windows (Win32). With a highly extensible and layered API, it can accommodate<BR>many different types of applications including clients, robots, etc.<BR>The purpose of libwww is to provide a highly optimized HTTP sample<BR>implementation as well as other Internet protocols and to serve as a testbed<BR>for protocol experiments.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Mar 16  2001 /usr/doc/w3c-libwww-5.3.2
+-rw-r--r--    1 root    root             5112 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/AboutNewsServers.html
+-rw-r--r--    1 root    root             3053 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/Activity.html
+-rw-r--r--    1 root    root             2369 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/Applications.html
+-rw-r--r--    1 root    root             3138 Jul 12  2000 /usr/doc/w3c-libwww-5.3.2/BeforeCommitting.html
+-rw-r--r--    1 root    root              346 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/Bug48x.gif
+-rw-r--r--    1 root    root              779 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/Bugs.html
+-rw-r--r--    1 root    root             1718 Aug 19  1998 /usr/doc/w3c-libwww-5.3.2/COPYRIGHT.html
+-rw-r--r--    1 root    root             5763 May 20  1998 /usr/doc/w3c-libwww-5.3.2/CSLApp.html
+-rw-r--r--    1 root    root             4240 May 26  1998 /usr/doc/w3c-libwww-5.3.2/CSLL.html
+-rw-r--r--    1 root    root             3635 May 13  1998 /usr/doc/w3c-libwww-5.3.2/CSLLSt.html
+-rw-r--r--    1 root    root            10436 Jul 11  1996 /usr/doc/w3c-libwww-5.3.2/CSLUtils.html
+-rw-r--r--    1 root    root            72545 May  4  1998 /usr/doc/w3c-libwww-5.3.2/CSLabel.html
+-rw-r--r--    1 root    root             3439 Apr 24  1996 /usr/doc/w3c-libwww-5.3.2/CSMR.html
+-rw-r--r--    1 root    root             2087 May 13  1998 /usr/doc/w3c-libwww-5.3.2/CSMRSt.html
+-rw-r--r--    1 root    root            45295 May  4  1998 /usr/doc/w3c-libwww-5.3.2/CSMacRed.html
+-rw-r--r--    1 root    root             9142 Apr 24  1996 /usr/doc/w3c-libwww-5.3.2/CSParse.html
+-rw-r--r--    1 root    root             4343 May 26  1998 /usr/doc/w3c-libwww-5.3.2/CSUser.html
+-rw-r--r--    1 root    root             1786 Apr 19  1996 /usr/doc/w3c-libwww-5.3.2/CSUserSt.html
+-rw-r--r--    1 root    root             1183 Apr 19  1996 /usr/doc/w3c-libwww-5.3.2/CSUsrLst.html
+-rw-r--r--    1 root    root             4337 Apr 13  1999 /usr/doc/w3c-libwww-5.3.2/Collaborators.html
+-rw-r--r--    1 root    root            17687 May  4  1999 /usr/doc/w3c-libwww-5.3.2/CommandLine.html
+-rw-r--r--    1 root    root             7760 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Commands.html
+-rw-r--r--    1 root    root              558 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Config.html
+-rw-r--r--    1 root    root              350 Oct  1  1998 /usr/doc/w3c-libwww-5.3.2/Constraint-frames.html
+-rw-r--r--    1 root    root             1577 Oct  1  1998 /usr/doc/w3c-libwww-5.3.2/Constraint-menu.html
+-rw-r--r--    1 root    root            17995 Oct  1  1998 /usr/doc/w3c-libwww-5.3.2/Constraint.html
+-rw-r--r--    1 root    root             3520 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Customisation.html
+-rw-r--r--    1 root    root             6551 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/Distribution.html
+-rw-r--r--    1 root    root             1189 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/EnvVariables.html
+-rw-r--r--    1 root    root            77572 Dec 20  2000 /usr/doc/w3c-libwww-5.3.2/Extrnals.html
+-rw-r--r--    1 root    root            21311 Apr 22  1998 /usr/doc/w3c-libwww-5.3.2/Features.html
+-rw-r--r--    1 root    root             5194 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Files.html
+-rw-r--r--    1 root    root             5683 Jun 24  1999 /usr/doc/w3c-libwww-5.3.2/GridStyle.html
+-rw-r--r--    1 root    root             2164 Jul 31  2000 /usr/doc/w3c-libwww-5.3.2/GridText.html
+-rw-r--r--    1 root    root             1667 Jan 27  1999 /usr/doc/w3c-libwww-5.3.2/HTAABrow.html
+-rw-r--r--    1 root    root             8087 Jan 27  1999 /usr/doc/w3c-libwww-5.3.2/HTAAUtil.html
+-rw-r--r--    1 root    root             1568 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTANSI.html
+-rw-r--r--    1 root    root            31532 Dec 16  1998 /usr/doc/w3c-libwww-5.3.2/HTAccess.html
+-rw-r--r--    1 root    root             9546 Jun 30  1999 /usr/doc/w3c-libwww-5.3.2/HTAlert.html
+-rw-r--r--    1 root    root             4088 Mar  5  1998 /usr/doc/w3c-libwww-5.3.2/HTAncMan.html
+-rw-r--r--    1 root    root            18391 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/HTAnchor.html
+-rw-r--r--    1 root    root             2949 Aug  7  2000 /usr/doc/w3c-libwww-5.3.2/HTArray.html
+-rw-r--r--    1 root    root             3944 Apr 18  1999 /usr/doc/w3c-libwww-5.3.2/HTAssoc.html
+-rw-r--r--    1 root    root             2340 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/HTAtom.html
+-rw-r--r--    1 root    root             1849 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTBInit.html
+-rw-r--r--    1 root    root             1800 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTBTree.html
+-rw-r--r--    1 root    root             7013 Jun 30  1999 /usr/doc/w3c-libwww-5.3.2/HTBind.html
+-rw-r--r--    1 root    root              984 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTBound.html
+-rw-r--r--    1 root    root             1672 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTBrowse.html
+-rw-r--r--    1 root    root             2311 Apr  3  1999 /usr/doc/w3c-libwww-5.3.2/HTBufWrt.html
+-rw-r--r--    1 root    root            12718 Jun 19  2000 /usr/doc/w3c-libwww-5.3.2/HTCache.html
+-rw-r--r--    1 root    root             4506 Jul  7  1999 /usr/doc/w3c-libwww-5.3.2/HTChannl.html
+-rw-r--r--    1 root    root             6277 Sep  1  2000 /usr/doc/w3c-libwww-5.3.2/HTChunk.html
+-rw-r--r--    1 root    root             3040 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTConLen.html
+-rw-r--r--    1 root    root             4782 Jul 30  1999 /usr/doc/w3c-libwww-5.3.2/HTCookie.html
+-rw-r--r--    1 root    root             3791 Feb  5  1999 /usr/doc/w3c-libwww-5.3.2/HTDNS.html
+-rw-r--r--    1 root    root             1368 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTDemux.html
+-rw-r--r--    1 root    root             3315 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTDescpt.html
+-rw-r--r--    1 root    root            11434 Apr  1  1999 /usr/doc/w3c-libwww-5.3.2/HTDialog.html
+-rw-r--r--    1 root    root             1838 Feb 22  1999 /usr/doc/w3c-libwww-5.3.2/HTDigest.html
+-rw-r--r--    1 root    root             3374 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTDir.html
+-rw-r--r--    1 root    root             1163 Feb 13  1999 /usr/doc/w3c-libwww-5.3.2/HTEPtoCl.html
+-rw-r--r--    1 root    root             9511 Apr  1  1999 /usr/doc/w3c-libwww-5.3.2/HTError.html
+-rw-r--r--    1 root    root             2263 May 24  1998 /usr/doc/w3c-libwww-5.3.2/HTEscape.html
+-rw-r--r--    1 root    root             9068 Aug  9  1998 /usr/doc/w3c-libwww-5.3.2/HTEvent.html
+-rw-r--r--    1 root    root             4868 Nov 20  1998 /usr/doc/w3c-libwww-5.3.2/HTEvtLst.html
+-rw-r--r--    1 root    root             2377 Feb  7  1999 /usr/doc/w3c-libwww-5.3.2/HTFSave.html
+-rw-r--r--    1 root    root             2054 May 19  1998 /usr/doc/w3c-libwww-5.3.2/HTFTP.html
+-rw-r--r--    1 root    root              836 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTFTPDir.html
+-rw-r--r--    1 root    root             1309 Feb  7  1999 /usr/doc/w3c-libwww-5.3.2/HTFWrite.html
+-rw-r--r--    1 root    root             2312 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTFile.html
+-rw-r--r--    1 root    root             5190 Feb  3  1999 /usr/doc/w3c-libwww-5.3.2/HTFilter.html
+-rw-r--r--    1 root    root              674 Jun 24  1999 /usr/doc/w3c-libwww-5.3.2/HTFont.html
+-rw-r--r--    1 root    root            25381 Dec 18  2000 /usr/doc/w3c-libwww-5.3.2/HTFormat.html
+-rw-r--r--    1 root    root             4951 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/HTFuncs.html
+-rw-r--r--    1 root    root              751 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTGopher.html
+-rw-r--r--    1 root    root             1168 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTGuess.html
+-rw-r--r--    1 root    root             2153 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTHInit.html
+-rw-r--r--    1 root    root             2597 Aug 11  2000 /usr/doc/w3c-libwww-5.3.2/HTHash.html
+-rw-r--r--    1 root    root             3274 Feb  7  1999 /usr/doc/w3c-libwww-5.3.2/HTHeader.html
+-rw-r--r--    1 root    root             4891 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTHist.html
+-rw-r--r--    1 root    root             6436 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/HTHome.html
+-rw-r--r--    1 root    root            18932 Jul  7  1999 /usr/doc/w3c-libwww-5.3.2/HTHost.html
+-rw-r--r--    1 root    root             4290 Jul 28  2000 /usr/doc/w3c-libwww-5.3.2/HTHstMan.html
+-rw-r--r--    1 root    root             5464 Apr  3  1999 /usr/doc/w3c-libwww-5.3.2/HTIOStream.html
+-rw-r--r--    1 root    root             4650 Jan  4  2000 /usr/doc/w3c-libwww-5.3.2/HTIcons.html
+-rw-r--r--    1 root    root             4286 Sep 22  1998 /usr/doc/w3c-libwww-5.3.2/HTInet.html
+-rw-r--r--    1 root    root             7726 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/HTInit.html
+-rw-r--r--    1 root    root             3557 Jul 12  2000 /usr/doc/w3c-libwww-5.3.2/HTLib.html
+-rw-r--r--    1 root    root             1086 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/HTLine.html
+-rw-r--r--    1 root    root             6022 Mar 29  1999 /usr/doc/w3c-libwww-5.3.2/HTLink.html
+-rw-r--r--    1 root    root             4763 Jun 15  2000 /usr/doc/w3c-libwww-5.3.2/HTList.html
+-rw-r--r--    1 root    root             2249 Feb 29  2000 /usr/doc/w3c-libwww-5.3.2/HTLocal.html
+-rw-r--r--    1 root    root             2038 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTLog.html
+-rw-r--r--    1 root    root             4587 Dec 18  2000 /usr/doc/w3c-libwww-5.3.2/HTMIME.html
+-rw-r--r--    1 root    root             1111 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMIMERq.html
+-rw-r--r--    1 root    root             2298 Dec 16  1998 /usr/doc/w3c-libwww-5.3.2/HTMIMImp.html
+-rw-r--r--    1 root    root             2515 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMIMPrs.html
+-rw-r--r--    1 root    root             2025 Jan  6  1999 /usr/doc/w3c-libwww-5.3.2/HTML.html
+-rw-r--r--    1 root    root             1259 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMLGen.html
+-rw-r--r--    1 root    root            19047 Jan  6  2000 /usr/doc/w3c-libwww-5.3.2/HTMLPDTD.html
+-rw-r--r--    1 root    root             1191 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMemLog.html
+-rw-r--r--    1 root    root             5629 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMemory.html
+-rw-r--r--    1 root    root             1059 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMerge.html
+-rw-r--r--    1 root    root             2558 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMethod.html
+-rw-r--r--    1 root    root             1989 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMulpar.html
+-rw-r--r--    1 root    root             1956 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMulti.html
+-rw-r--r--    1 root    root             3407 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/HTMuxCh.html
+-rw-r--r--    1 root    root             2719 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMuxHeader.html
+-rw-r--r--    1 root    root             1241 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTMuxTx.html
+-rw-r--r--    1 root    root             3065 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTNDir.html
+-rw-r--r--    1 root    root            22000 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/HTNet.html
+-rw-r--r--    1 root    root             4207 Sep 24  1998 /usr/doc/w3c-libwww-5.3.2/HTNetMan.html
+-rw-r--r--    1 root    root              967 Feb 13  1999 /usr/doc/w3c-libwww-5.3.2/HTNetTxt.html
+-rw-r--r--    1 root    root             1486 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTNews.html
+-rw-r--r--    1 root    root             1065 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTNewsLs.html
+-rw-r--r--    1 root    root              997 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTNewsRq.html
+-rw-r--r--    1 root    root             1004 Feb  1  1999 /usr/doc/w3c-libwww-5.3.2/HTNoFree.html
+-rw-r--r--    1 root    root             5491 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTPEP.html
+-rw-r--r--    1 root    root             5440 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/HTParse.html
+-rw-r--r--    1 root    root              678 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTPlain.html
+-rw-r--r--    1 root    root             5508 Jul 12  2000 /usr/doc/w3c-libwww-5.3.2/HTProfil.html
+-rw-r--r--    1 root    root             6144 Dec  1  1999 /usr/doc/w3c-libwww-5.3.2/HTProt.html
+-rw-r--r--    1 root    root             6139 Feb 29  2000 /usr/doc/w3c-libwww-5.3.2/HTProxy.html
+-rw-r--r--    1 root    root              874 Oct 26  1998 /usr/doc/w3c-libwww-5.3.2/HTQueue.html
+-rw-r--r--    1 root    root            10957 Aug 30  2000 /usr/doc/w3c-libwww-5.3.2/HTRDF.html
+-rw-r--r--    1 root    root             1830 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTReader.html
+-rw-r--r--    1 root    root            43207 Jul 12  2000 /usr/doc/w3c-libwww-5.3.2/HTReq.html
+-rw-r--r--    1 root    root             9432 Feb 29  2000 /usr/doc/w3c-libwww-5.3.2/HTReqMan.html
+-rw-r--r--    1 root    root             5501 Oct 30  2000 /usr/doc/w3c-libwww-5.3.2/HTResMan.html
+-rw-r--r--    1 root    root            13312 Dec 19  2000 /usr/doc/w3c-libwww-5.3.2/HTResponse.html
+-rw-r--r--    1 root    root             6879 Mar 13  1999 /usr/doc/w3c-libwww-5.3.2/HTRobMan.html
+-rw-r--r--    1 root    root              957 Oct 26  1998 /usr/doc/w3c-libwww-5.3.2/HTRobot.html
+-rw-r--r--    1 root    root             3921 Aug 10  1998 /usr/doc/w3c-libwww-5.3.2/HTRules.html
+-rw-r--r--    1 root    root             1268 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTSChunk.html
+-rw-r--r--    1 root    root             3845 May 19  1998 /usr/doc/w3c-libwww-5.3.2/HTSQL.html
+-rw-r--r--    1 root    root             2901 May 19  1998 /usr/doc/w3c-libwww-5.3.2/HTSQLLog.html
+-rw-r--r--    1 root    root             1296 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTSocket.html
+-rw-r--r--    1 root    root             4709 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTStream.html
+-rw-r--r--    1 root    root             3719 Jul 30  1999 /usr/doc/w3c-libwww-5.3.2/HTString.html
+-rw-r--r--    1 root    root             2648 Jan  6  1999 /usr/doc/w3c-libwww-5.3.2/HTStruct.html
+-rw-r--r--    1 root    root             2354 Jan  6  1999 /usr/doc/w3c-libwww-5.3.2/HTStyle.html
+-rw-r--r--    1 root    root             2934 Jul  7  1999 /usr/doc/w3c-libwww-5.3.2/HTTCP.html
+-rw-r--r--    1 root    root             1486 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTChunk.html
+-rw-r--r--    1 root    root             2612 Feb 29  2000 /usr/doc/w3c-libwww-5.3.2/HTTP.html
+-rw-r--r--    1 root    root             1235 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTPGen.html
+-rw-r--r--    1 root    root             1138 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTPReq.html
+-rw-r--r--    1 root    root             1151 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTPRes.html
+-rw-r--r--    1 root    root              787 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTPServ.html
+-rw-r--r--    1 root    root              950 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/HTTPUtil.html
+-rw-r--r--    1 root    root             1095 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTeXGen.html
+-rw-r--r--    1 root    root             1445 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTee.html
+-rw-r--r--    1 root    root              700 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTTelnet.html
+-rw-r--r--    1 root    root             4201 Jun 30  1999 /usr/doc/w3c-libwww-5.3.2/HTTimer.html
+-rw-r--r--    1 root    root             4093 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/HTTrans.html
+-rw-r--r--    1 root    root             4168 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTUTree.html
+-rw-r--r--    1 root    root             1233 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTUU.html
+-rw-r--r--    1 root    root             4469 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTUser.html
+-rw-r--r--    1 root    root            12047 Jan  6  2000 /usr/doc/w3c-libwww-5.3.2/HTUtils.html
+-rw-r--r--    1 root    root             1858 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTWAIS.html
+-rw-r--r--    1 root    root             1431 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTWSRC.html
+-rw-r--r--    1 root    root             7205 Mar 24  1999 /usr/doc/w3c-libwww-5.3.2/HTWWWStr.html
+-rw-r--r--    1 root    root             1590 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTWriter.html
+-rw-r--r--    1 root    root             3133 Dec 19  2000 /usr/doc/w3c-libwww-5.3.2/HTXML.html
+-rw-r--r--    1 root    root             1648 Feb 13  1999 /usr/doc/w3c-libwww-5.3.2/HTXParse.html
+-rw-r--r--    1 root    root             1000 May 13  1998 /usr/doc/w3c-libwww-5.3.2/HTZip.html
+-rw-r--r--    1 root    root             8311 Jan  6  1999 /usr/doc/w3c-libwww-5.3.2/HText.html
+-rw-r--r--    1 root    root             1577 Jan  6  1999 /usr/doc/w3c-libwww-5.3.2/HTextImp.html
+-rw-r--r--    1 root    root           121209 Dec 14  2000 /usr/doc/w3c-libwww-5.3.2/History.html
+-rw-r--r--    1 root    root            17133 Aug  3  2000 /usr/doc/w3c-libwww-5.3.2/INSTALL.html
+-rw-r--r--    1 root    root              965 May  4  1998 /usr/doc/w3c-libwww-5.3.2/Installation.html
+-rw-r--r--    1 root    root             3937 Mar 10  1996 /usr/doc/w3c-libwww-5.3.2/Installation_VMS.html
+-rw-r--r--    1 root    root             2523 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Installation_VMS_NewTCP.html
+-rw-r--r--    1 root    root             1924 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/Internals.html
+-rw-r--r--    1 root    root            11401 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Intrface.html
+-rw-r--r--    1 root    root             4158 Aug 19  1998 /usr/doc/w3c-libwww-5.3.2/LICENSE.html
+-rw-r--r--    1 root    root              323 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/LMB48x.gif
+-rw-r--r--    1 root    root              701 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/Lib48x.gif
+-rw-r--r--    1 root    root            20163 Feb 21  1999 /usr/doc/w3c-libwww-5.3.2/MPL-1_0.html
+-rw-r--r--    1 root    root             2897 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/NewsServer.html
+-rw-r--r--    1 root    root             4144 Dec  5  1998 /usr/doc/w3c-libwww-5.3.2/NoMoreLostUpdates.html
+-rw-r--r--    1 root    root             4459 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/OldEvents.html
+-rw-r--r--    1 root    root             2088 Mar  1  1999 /usr/doc/w3c-libwww-5.3.2/Overview.html
+-rw-r--r--    1 root    root             1048 May 18  1995 /usr/doc/w3c-libwww-5.3.2/PATCHES.html
+-rw-r--r--    1 root    root             7468 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Parsing.html
+-rw-r--r--    1 root    root             1034 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/Platform48x.gif
+-rw-r--r--    1 root    root             1774 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/QuickGuide.html
+-rw-r--r--    1 root    root              349 Aug  3  2000 /usr/doc/w3c-libwww-5.3.2/README.html
+-rw-r--r--    1 root    root             2052 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/ReleaseNotes.html
+-rw-r--r--    1 root    root             1759 Oct 27  1998 /usr/doc/w3c-libwww-5.3.2/RobotTxt.html
+-rw-r--r--    1 root    root             3961 Apr  2  1999 /usr/doc/w3c-libwww-5.3.2/SGML.html
+-rw-r--r--    1 root    root             5338 Oct 15  1998 /usr/doc/w3c-libwww-5.3.2/ScreenShots.html
+-rw-r--r--    1 root    root             3167 Dec  8  1996 /usr/doc/w3c-libwww-5.3.2/Simple.html
+-rw-r--r--    1 root    root            10236 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/Start.html
+-rwxr-xr-x    1 root    root             6606 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/Status.html
+-rwxr-xr-x    1 root    root             1650 Dec 14  2000 /usr/doc/w3c-libwww-5.3.2/Survey.html
+-rw-r--r--    1 root    root             8023 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/ToDo.html
+-rw-r--r--    1 root    root             9901 Feb 16  1997 /usr/doc/w3c-libwww-5.3.2/Using.html
+-rw-r--r--    1 root    root             1805 Aug  4  2000 /usr/doc/w3c-libwww-5.3.2/WAIS.html
+-rw-r--r--    1 root    root             6055 May 24  1998 /usr/doc/w3c-libwww-5.3.2/WWWApp.html
+-rw-r--r--    1 root    root             1958 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWCache.html
+-rw-r--r--    1 root    root            10210 Feb  7  1999 /usr/doc/w3c-libwww-5.3.2/WWWCore.html
+-rw-r--r--    1 root    root             2764 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWDir.html
+-rw-r--r--    1 root    root             1419 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWFTP.html
+-rw-r--r--    1 root    root             3182 Jul  4  2000 /usr/doc/w3c-libwww-5.3.2/WWWFile.html
+-rw-r--r--    1 root    root             1271 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWGophe.html
+-rw-r--r--    1 root    root             1322 Feb 22  1999 /usr/doc/w3c-libwww-5.3.2/WWWHTML.html
+-rw-r--r--    1 root    root             4813 Mar 24  1999 /usr/doc/w3c-libwww-5.3.2/WWWHTTP.html
+-rw-r--r--    1 root    root             2346 Mar 30  1999 /usr/doc/w3c-libwww-5.3.2/WWWInit.html
+-rw-r--r--    1 root    root             2340 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWLib.html
+-rw-r--r--    1 root    root             3873 May 13  1998 /usr/doc/w3c-libwww-5.3.2/WWWMIME.html
+-rw-r--r--    1 root    root             1015 Jul 22  1998 /usr/doc/w3c-libwww-5.3.2/WWWMux.html
+-rw-r--r--    1 root    root             2180 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWNews.html
+-rw-r--r--    1 root    root             1947 May 24  1998 /usr/doc/w3c-libwww-5.3.2/WWWSQL.html
+-rw-r--r--    1 root    root             4456 Feb 13  1999 /usr/doc/w3c-libwww-5.3.2/WWWStream.html
+-rw-r--r--    1 root    root             1371 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWTelnt.html
+-rw-r--r--    1 root    root             1374 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWTrans.html
+-rw-r--r--    1 root    root             4344 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWUtil.html
+-rw-r--r--    1 root    root             1351 May  4  1998 /usr/doc/w3c-libwww-5.3.2/WWWWAIS.html
+-rw-r--r--    1 root    root             1816 Apr 18  1999 /usr/doc/w3c-libwww-5.3.2/WWWXML.html
+-rw-r--r--    1 root    root             1321 May 24  1998 /usr/doc/w3c-libwww-5.3.2/WWWZip.html
+-rw-r--r--    1 root    root              723 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/WinCom.html
+-rw-r--r--    1 root    root               72 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/bullet.gif
+-rw-r--r--    1 root    root              179 Oct 23  1996 /usr/doc/w3c-libwww-5.3.2/caution.gif
+-rw-r--r--    1 root    root            12602 Aug  9  2000 /usr/doc/w3c-libwww-5.3.2/cvs.html
+-rw-r--r--    1 root    root              486 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/design48x.gif
+-rw-r--r--    1 root    root              423 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/doc48x.gif
+-rw-r--r--    1 root    root             3235 Aug 28  2000 /usr/doc/w3c-libwww-5.3.2/expat.html
+-rw-r--r--    1 root    root             1717 Feb 21  1999 /usr/doc/w3c-libwww-5.3.2/gplelect.html
+-rw-r--r--    1 root    root              431 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/guide48x.gif
+-rw-r--r--    1 root    root              489 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/install48x.gif
+-rw-r--r--    1 root    root              380 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/internals48x.gif
+-rw-r--r--    1 root    root             2508 Aug  5  1999 /usr/doc/w3c-libwww-5.3.2/libwww-config.html
+-rw-r--r--    1 root    root              275 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/lines48x.gif
+-rw-r--r--    1 root    root              218 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/listen48x.gif
+-rw-r--r--    1 root    root               93 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/new_red.gif
+-rw-r--r--    1 root    root              653 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/progstyle48x.gif
+-rw-r--r--    1 root    root              488 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/relnotes48x.gif
+-rw-r--r--    1 root    root              343 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/robot48x.gif
+-rw-r--r--    1 root    root              411 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/serv48x.gif
+-rw-r--r--    1 root    root              168 Oct 23  1996 /usr/doc/w3c-libwww-5.3.2/smiley.gif
+-rw-r--r--    1 root    root              412 Feb 10  1997 /usr/doc/w3c-libwww-5.3.2/startup48x.gif
+-rwxr-xr-x    1 root    root              901 Dec  9  1996 /usr/doc/w3c-libwww-5.3.2/w3c_home.gif
+-rw-r--r--    1 root    root              179 Oct 23  1996 /usr/doc/w3c-libwww-5.3.2/warning.gif
+-rw-r--r--    1 root    root            30968 Jul 11  2000 /usr/doc/w3c-libwww-5.3.2/wwwsys.html
+drwxrwxrwx    2 root    root                0 Mar 16  2001 /usr/share/w3c-libwww
+-rw-r--r--    1 root    root              429 Mar 16  2001 /usr/share/w3c-libwww/back.xbm
+-rw-r--r--    1 root    root              512 Mar 16  2001 /usr/share/w3c-libwww/binary.xbm
+-rw-r--r--    1 root    root              512 Mar 16  2001 /usr/share/w3c-libwww/binhex.xbm
+-rw-r--r--    1 root    root              432 Mar 16  2001 /usr/share/w3c-libwww/blank.xbm
+-rw-r--r--    1 root    root              524 Mar 16  2001 /usr/share/w3c-libwww/compressed.xbm
+-rw-r--r--    1 root    root              521 Mar 16  2001 /usr/share/w3c-libwww/directory.xbm
+-rw-r--r--    1 root    root              508 Mar 16  2001 /usr/share/w3c-libwww/doc.xbm
+-rw-r--r--    1 root    root              432 Mar 16  2001 /usr/share/w3c-libwww/dummy.xbm
+-rw-r--r--    1 root    root              503 Mar 16  2001 /usr/share/w3c-libwww/ftp.xbm
+-rw-r--r--    1 root    root              511 Mar 16  2001 /usr/share/w3c-libwww/gzip.xbm
+-rw-r--r--    1 root    root              509 Mar 16  2001 /usr/share/w3c-libwww/image.xbm
+-rw-r--r--    1 root    root              512 Mar 16  2001 /usr/share/w3c-libwww/index.xbm
+-rw-r--r--    1 root    root              509 Mar 16  2001 /usr/share/w3c-libwww/index2.xbm
+-rw-r--r--    1 root    root              509 Mar 16  2001 /usr/share/w3c-libwww/movie.xbm
+-rw-r--r--    1 root    root              509 Mar 16  2001 /usr/share/w3c-libwww/sound.xbm
+-rw-r--r--    1 root    root              503 Mar 16  2001 /usr/share/w3c-libwww/tar.xbm
+-rw-r--r--    1 root    root              512 Mar 16  2001 /usr/share/w3c-libwww/telnet.xbm
+-rw-r--r--    1 root    root              506 Mar 16  2001 /usr/share/w3c-libwww/text.xbm
+-rw-r--r--    1 root    root              515 Mar 16  2001 /usr/share/w3c-libwww/unknown.doc.xbm
+-rw-r--r--    1 root    root              515 Mar 16  2001 /usr/share/w3c-libwww/unknown.old.xbm
+-rw-r--r--    1 root    root              532 Mar 16  2001 /usr/share/w3c-libwww/unknown.xbm
+-rw-r--r--    1 root    root              500 Mar 16  2001 /usr/share/w3c-libwww/uu.xbm
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/w3c-libwww-5.3.2-1.m68kmint.rpm">Download</A></H2> (406,050 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

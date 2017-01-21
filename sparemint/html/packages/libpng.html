@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libpng, version 1.5.9, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libpng</H2>
+
+<UL> 
+<LI>Summary: A library of functions for manipulating PNG image format files.<BR>
+<LI>URL: <A HREF="http://www.libpng.org/pub/png/">http://www.libpng.org/pub/png/</A><BR>
+<LI>Version: 1.5.9<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 1,321,724 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libpng = 1.5.9-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>zlib-devel  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>libpng < 1.5.0<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Mar  2 00:29:32 2012 UTC<BR>
+<LI>Upload date: Thu Mar  1 23:30:47 2012 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libpng-1.5.9-1.src.rpm">libpng-1.5.9-1.src.rpm</A>  (1,070,399 bytes)<BR>
+<LI>Last change: Ole Loots &lt;ole@monochrom.net&gt; Wed Feb 29 12:00:00 2012 UTC<BR>
+- initial release of libpng-1.5
+<LI>Description:<BR>
+The libpng package contains a library of functions for creating and<BR>manipulating PNG (Portable Network Graphics) image format files.  PNG<BR>is a bit-mapped graphics format similar to the GIF format.  PNG was<BR>created to replace the GIF format, since GIF uses a patented data<BR>compression algorithm.<BR><P><BR>If you want to develop programs which will manipulate PNG image format<BR>files, you should install libpng.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Mar  1  2012 /usr/doc/libpng-1.5.9
+-rw-r--r--    1 root    root             1279 Feb 18  2012 /usr/doc/libpng-1.5.9/ANNOUNCE
+-rw-r--r--    1 root    root           187335 Feb 18  2012 /usr/doc/libpng-1.5.9/CHANGES
+-rw-r--r--    1 root    root             4202 Feb 18  2012 /usr/doc/libpng-1.5.9/LICENSE
+-rw-r--r--    1 root    root            10416 Feb 18  2012 /usr/doc/libpng-1.5.9/README
+-rw-r--r--    1 root    root             1120 Aug 27  2010 /usr/doc/libpng-1.5.9/TODO
+-rw-r--r--    1 root    root            31311 Feb 18  2012 /usr/doc/libpng-1.5.9/example.c
+-rw-r--r--    1 root    root           193677 Feb 18  2012 /usr/doc/libpng-1.5.9/libpng-manual.txt
+drwxrwxrwx    2 root    root                0 Mar  1  2012 /usr/include/libpng15
+-rw-r--r--    1 root    root           115248 Mar  1  2012 /usr/include/libpng15/png.h
+-rw-r--r--    1 root    root            21354 Mar  1  2012 /usr/include/libpng15/pngconf.h
+-rw-r--r--    1 root    root             6033 Mar  1  2012 /usr/include/libpng15/pnglibconf.h
+?rwxrwxrwx    1 root    root               14 Mar  1  2012 /usr/include/png.h
+?rwxrwxrwx    1 root    root               18 Mar  1  2012 /usr/include/pngconf.h
+?rwxrwxrwx    1 root    root               21 Mar  1  2012 /usr/include/pnglibconf.h
+?rwxrwxrwx    1 root    root               10 Mar  1  2012 /usr/lib/libpng.a
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/libpng.la
+-rw-r--r--    1 root    root           227378 Mar  1  2012 /usr/lib/libpng15.a
+-rwxr-xr-x    1 root    root              871 Mar  1  2012 /usr/lib/libpng15.la
+?rwxrwxrwx    1 root    root               10 Mar  1  2012 /usr/lib/m5475/libpng.a
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/m5475/libpng.la
+-rw-r--r--    1 root    root           221200 Mar  1  2012 /usr/lib/m5475/libpng15.a
+-rwxr-xr-x    1 root    root              877 Mar  1  2012 /usr/lib/m5475/libpng15.la
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/m5475/pkgconfig/libpng.pc
+-rw-r--r--    1 root    root              235 Mar  1  2012 /usr/lib/m5475/pkgconfig/libpng15.pc
+?rwxrwxrwx    1 root    root               10 Mar  1  2012 /usr/lib/m68020-60/libpng.a
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/m68020-60/libpng.la
+-rw-r--r--    1 root    root           219372 Mar  1  2012 /usr/lib/m68020-60/libpng15.a
+-rwxr-xr-x    1 root    root              881 Mar  1  2012 /usr/lib/m68020-60/libpng15.la
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/m68020-60/pkgconfig/libpng.pc
+-rw-r--r--    1 root    root              239 Mar  1  2012 /usr/lib/m68020-60/pkgconfig/libpng15.pc
+?rwxrwxrwx    1 root    root               11 Mar  1  2012 /usr/lib/pkgconfig/libpng.pc
+-rw-r--r--    1 root    root              229 Mar  1  2012 /usr/lib/pkgconfig/libpng15.pc
+-rw-r--r--    1 root    root            68492 Mar  1  2012 /usr/share/man/man3/libpng.3.gz
+-rw-r--r--    1 root    root              486 Mar  1  2012 /usr/share/man/man3/libpngpf.3.gz
+-rw-r--r--    1 root    root             1148 Mar  1  2012 /usr/share/man/man5/png.5.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libpng-1.5.9-1.m68kmint.rpm">Download</A></H2> (567,713 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

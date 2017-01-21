@@ -1,0 +1,179 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - fileutils, version 4.1, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>fileutils</H2>
+
+<UL> 
+<LI>Summary: GNU File Utilities<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/fileutils/">http://www.gnu.org/software/fileutils/</A><BR>
+<LI>Version: 4.1<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/File">Applications/File</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 4,437,588 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>fileutils = 4.1-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 28 21:02:47 2001 UTC<BR>
+<LI>Upload date: Fri Sep 28 21:05:38 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/fileutils-4.1-2.src.rpm">fileutils-4.1-2.src.rpm</A>  (1,825,469 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Sep 28 09:00:00 2001 UTC<BR>
+- added missing df tool<BR>- compiled against MiNTLib 0.57.1
+<LI>Description:<BR>
+The fileutils package includes a number of GNU versions of common and<BR>popular file management utilities. Fileutils includes the following<BR>tools:<BR>- chgrp (changes a file's group ownership),<BR>- chown (changes a file's ownership),<BR>- chmod (changes a file's permissions),<BR>- cp (copies files),<BR>- dd (copies and converts files),<BR>- df (shows a filesystem's disk usage),<BR>- dir (gives a brief directory listing),<BR>- dircolors (the setup program for the color version of the ls<BR>  command),<BR>- du (shows disk usage),<BR>- install (copies files and sets permissions),<BR>- ln (creates file links),<BR>- ls (lists directory contents in color),<BR>- mkdir (creates directories),<BR>- mkfifo (creates FIFOs, which are named pipes),<BR>- mknod (creates special files),<BR>- mv (renames files),<BR>- rm (removes/deletes files),<BR>- rmdir (removes empty directories),<BR>- sync (synchronizes memory and disk),<BR>- touch (changes file timestamps),<BR>- vdir (provides long directory listings).<BR><P><BR>You should install the fileutils package, because it includes many<BR>file management utilities that you'll use frequently.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           112637 Sep 28  2001 /bin/chgrp
+-rwxr-xr-x    1 root    root           112820 Sep 28  2001 /bin/chmod
+-rwxr-xr-x    1 root    root           114574 Sep 28  2001 /bin/chown
+-rwxr-xr-x    1 root    root           153178 Sep 28  2001 /bin/cp
+-rwxr-xr-x    1 root    root           126858 Sep 28  2001 /bin/dd
+-rwxr-xr-x    1 root    root           124692 Sep 28  2001 /bin/df
+-rwxr-xr-x    1 root    root           137291 Sep 28  2001 /bin/ln
+-rwxr-xr-x    1 root    root           151137 Sep 28  2001 /bin/ls
+-rwxr-xr-x    1 root    root           112747 Sep 28  2001 /bin/mkdir
+-rwxr-xr-x    1 root    root           165070 Sep 28  2001 /bin/mv
+-rwxr-xr-x    1 root    root           146252 Sep 28  2001 /bin/rm
+-rwxr-xr-x    1 root    root           107760 Sep 28  2001 /bin/rmdir
+-rwxr-xr-x    1 root    root           106442 Sep 28  2001 /bin/sync
+-rwxr-xr-x    1 root    root           120665 Sep 28  2001 /bin/touch
+-rw-r--r--    1 root    root             2434 Sep 28  2001 /etc/DIR_COLORS
+-rwxr-xr-x    1 root    root                0 Sep 28  2001 /etc/profile.d/fileutils.csh
+-rwxr-xr-x    1 root    root                0 Sep 28  2001 /etc/profile.d/fileutils.sh
+-rwxr-xr-x    1 root    root           151137 Sep 28  2001 /usr/bin/dir
+-rwxr-xr-x    1 root    root           115181 Sep 28  2001 /usr/bin/dircolors
+-rwxr-xr-x    1 root    root           125637 Sep 28  2001 /usr/bin/du
+-rwxr-xr-x    1 root    root           159978 Sep 28  2001 /usr/bin/install
+-rwxr-xr-x    1 root    root           126840 Sep 28  2001 /usr/bin/shred
+-rwxr-xr-x    1 root    root           151137 Sep 28  2001 /usr/bin/vdir
+drwxr-xr-x    2 root    root                0 Sep 28  2001 /usr/doc/fileutils-4.1
+-rw-r--r--    1 root    root            11651 May  3  1998 /usr/doc/fileutils-4.1/ABOUT-NLS
+-rw-r--r--    1 root    root                0 Mar 28  1996 /usr/doc/fileutils-4.1/AUTHORS
+-rw-r--r--    1 root    root            17992 Jan 12  2000 /usr/doc/fileutils-4.1/COPYING
+-rw-r--r--    1 root    root           215535 Apr 29  2001 /usr/doc/fileutils-4.1/ChangeLog
+-rw-r--r--    1 root    root            31485 Apr 25  2001 /usr/doc/fileutils-4.1/NEWS
+-rw-r--r--    1 root    root             3641 Apr 29  2001 /usr/doc/fileutils-4.1/README
+-rw-r--r--    1 root    root            17789 Apr 22  2001 /usr/doc/fileutils-4.1/THANKS
+-rw-r--r--    1 root    root             4548 Apr 29  2001 /usr/doc/fileutils-4.1/TODO
+-rw-r--r--    1 root    root            43633 Sep 28  2001 /usr/info/fileutils.info.gz
+-rw-r--r--    2 root    root            41718 Sep 28  2001 /usr/share/locale/cs/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            41718 Sep 28  2001 /usr/share/locale/cs/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            36528 Sep 28  2001 /usr/share/locale/da/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            36528 Sep 28  2001 /usr/share/locale/da/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            74537 Sep 28  2001 /usr/share/locale/de/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            74537 Sep 28  2001 /usr/share/locale/de/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            40052 Sep 28  2001 /usr/share/locale/el/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            40052 Sep 28  2001 /usr/share/locale/el/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            39830 Sep 28  2001 /usr/share/locale/es/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            39830 Sep 28  2001 /usr/share/locale/es/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            41323 Sep 28  2001 /usr/share/locale/fr/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            41323 Sep 28  2001 /usr/share/locale/fr/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            38830 Sep 28  2001 /usr/share/locale/gl/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            38830 Sep 28  2001 /usr/share/locale/gl/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            29837 Sep 28  2001 /usr/share/locale/it/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            29837 Sep 28  2001 /usr/share/locale/it/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            38120 Sep 28  2001 /usr/share/locale/ja/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            38120 Sep 28  2001 /usr/share/locale/ja/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            35843 Sep 28  2001 /usr/share/locale/ko/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            35843 Sep 28  2001 /usr/share/locale/ko/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            38003 Sep 28  2001 /usr/share/locale/nl/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            38003 Sep 28  2001 /usr/share/locale/nl/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            15409 Sep 28  2001 /usr/share/locale/no/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            15409 Sep 28  2001 /usr/share/locale/no/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            37454 Sep 28  2001 /usr/share/locale/pl/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            37454 Sep 28  2001 /usr/share/locale/pl/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root             7760 Sep 28  2001 /usr/share/locale/pt/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root             7760 Sep 28  2001 /usr/share/locale/pt/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            41675 Sep 28  2001 /usr/share/locale/pt_BR/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            41675 Sep 28  2001 /usr/share/locale/pt_BR/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            37720 Sep 28  2001 /usr/share/locale/ru/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            37720 Sep 28  2001 /usr/share/locale/ru/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            37434 Sep 28  2001 /usr/share/locale/sk/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            37434 Sep 28  2001 /usr/share/locale/sk/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            39883 Sep 28  2001 /usr/share/locale/sl/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            39883 Sep 28  2001 /usr/share/locale/sl/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root            40049 Sep 28  2001 /usr/share/locale/sv/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root            40049 Sep 28  2001 /usr/share/locale/sv/LC_TIME/fileutils.mo
+-rw-r--r--    2 root    root             7105 Sep 28  2001 /usr/share/locale/zh/LC_MESSAGES/fileutils.mo
+-rw-r--r--    2 root    root             7105 Sep 28  2001 /usr/share/locale/zh/LC_TIME/fileutils.mo
+-rw-r--r--    1 root    root              953 Sep 28  2001 /usr/share/man/man1/chgrp.1.gz
+-rw-r--r--    1 root    root             1819 Sep 28  2001 /usr/share/man/man1/chmod.1.gz
+-rw-r--r--    1 root    root             1444 Sep 28  2001 /usr/share/man/man1/chown.1.gz
+-rw-r--r--    1 root    root             1857 Sep 28  2001 /usr/share/man/man1/cp.1.gz
+-rw-r--r--    1 root    root             1232 Sep 28  2001 /usr/share/man/man1/dd.1.gz
+-rw-r--r--    1 root    root             1394 Sep 28  2001 /usr/share/man/man1/df.1.gz
+-rw-r--r--    1 root    root             2298 Sep 28  2001 /usr/share/man/man1/dir.1.gz
+-rw-r--r--    1 root    root              854 Sep 28  2001 /usr/share/man/man1/dircolors.1.gz
+-rw-r--r--    1 root    root             1229 Sep 28  2001 /usr/share/man/man1/du.1.gz
+-rw-r--r--    1 root    root             1526 Sep 28  2001 /usr/share/man/man1/install.1.gz
+-rw-r--r--    1 root    root             1396 Sep 28  2001 /usr/share/man/man1/ln.1.gz
+-rw-r--r--    1 root    root             2296 Sep 28  2001 /usr/share/man/man1/ls.1.gz
+-rw-r--r--    1 root    root              769 Sep 28  2001 /usr/share/man/man1/mkdir.1.gz
+-rw-r--r--    1 root    root             1200 Sep 28  2001 /usr/share/man/man1/mv.1.gz
+-rw-r--r--    1 root    root             1154 Sep 28  2001 /usr/share/man/man1/rm.1.gz
+-rw-r--r--    1 root    root              827 Sep 28  2001 /usr/share/man/man1/rmdir.1.gz
+-rw-r--r--    1 root    root             1434 Sep 28  2001 /usr/share/man/man1/shred.1.gz
+-rw-r--r--    1 root    root              635 Sep 28  2001 /usr/share/man/man1/sync.1.gz
+-rw-r--r--    1 root    root              985 Sep 28  2001 /usr/share/man/man1/touch.1.gz
+-rw-r--r--    1 root    root             2301 Sep 28  2001 /usr/share/man/man1/vdir.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/fileutils-4.1-2.m68kmint.rpm">Download</A></H2> (1,908,709 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

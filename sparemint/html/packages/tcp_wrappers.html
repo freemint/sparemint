@@ -1,0 +1,108 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tcp_wrappers, version 7.6, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tcp_wrappers</H2>
+
+<UL> 
+<LI>Summary: Security wrapper for tcp daemons<BR>
+
+<LI>Version: 7.6<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#Base System/Networking">Base System/Networking</A>
+<LI>License: Distributable</BR>
+<LI>Installation size: 900,998 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tcp_wrappers = 7.6-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freemint-net  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Sep 28 08:50:28 2001 UTC<BR>
+<LI>Upload date: Fri Sep 28 08:50:44 2001 UTC<BR>
+<LI>Packager: John Blakeley (<A HREF="javascript:linkto_decode_mt('nbjmup;kpioojfAmjhpubhf/efnpo/dp/vl');">johnnie(at)ligotage.demon.co.uk</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcp_wrappers-7.6-3.src.rpm">tcp_wrappers-7.6-3.src.rpm</A>  (105,794 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Sep 25 09:00:00 2001 UTC<BR>
+- rebuild against new MiNTLib 0.57
+<LI>Description:<BR>
+With this package you can monitor and filter incoming requests for the<BR>SYSTAT, FINGER, FTP, TELNET, RLOGIN, RSH, EXEC, TFTP, TALK, and other<BR>network services.<BR><P><BR>Please note: to rebuild this, you will need patches for the mintlib.<BR>Please contact the packager.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    wheel               0 Sep 28  2001 /usr/doc/tcp_wrappers-7.6
+-r--r--r--    1 root    wheel            1736 Mar 21  1997 /usr/doc/tcp_wrappers-7.6/BLURB
+-r--r--r--    1 root    wheel            2225 Feb 11  1997 /usr/doc/tcp_wrappers-7.6/Banners.Makefile
+-r--r--r--    1 root    wheel           19195 Mar 21  1997 /usr/doc/tcp_wrappers-7.6/CHANGES
+-r--r--r--    1 root    wheel             792 Feb 11  1996 /usr/doc/tcp_wrappers-7.6/DISCLAIMER
+-r--r--r--    1 root    wheel           48215 Mar 21  1997 /usr/doc/tcp_wrappers-7.6/README
+-r--r--r--    1 root    wheel            2634 Dec 28  1994 /usr/doc/tcp_wrappers-7.6/README.IRIX
+-r--r--r--    1 root    wheel            6680 Feb 11  1996 /usr/doc/tcp_wrappers-7.6/README.NIS
+-rw-r--r--    1 root    wheel            7874 Sep 28  2001 /usr/include/tcpd.h
+-rw-r--r--    1 root    wheel           24704 Sep 28  2001 /usr/lib/libwrap.a
+-rwxr-xr-x    1 root    wheel           95442 Sep 28  2001 /usr/sbin/safe_finger
+-rwxr-xr-x    1 root    wheel          171418 Sep 28  2001 /usr/sbin/tcpd
+-rwxr-xr-x    1 root    wheel          173532 Sep 28  2001 /usr/sbin/tcpdchk
+-rwxr-xr-x    1 root    wheel          173719 Sep 28  2001 /usr/sbin/tcpdmatch
+-rwxr-xr-x    1 root    wheel          155672 Sep 28  2001 /usr/sbin/try-from
+-rw-r--r--    1 root    wheel            1518 Sep 28  2001 /usr/share/man/man3/hosts_access.3.gz
+-rw-r--r--    1 root    wheel              47 Sep 28  2001 /usr/share/man/man5/hosts.allow.5.gz
+-rw-r--r--    1 root    wheel              47 Sep 28  2001 /usr/share/man/man5/hosts.deny.5.gz
+-rw-r--r--    1 root    wheel            5919 Sep 28  2001 /usr/share/man/man5/hosts_access.5.gz
+-rw-r--r--    1 root    wheel            2997 Sep 28  2001 /usr/share/man/man5/hosts_options.5.gz
+-rw-r--r--    1 root    wheel            2954 Sep 28  2001 /usr/share/man/man8/tcpd.8.gz
+-rw-r--r--    1 root    wheel            1232 Sep 28  2001 /usr/share/man/man8/tcpdchk.8.gz
+-rw-r--r--    1 root    wheel            1422 Sep 28  2001 /usr/share/man/man8/tcpdmatch.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tcp_wrappers-7.6-3.m68kmint.rpm">Download</A></H2> (426,551 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

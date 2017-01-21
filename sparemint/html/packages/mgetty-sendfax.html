@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mgetty-sendfax, version 1.1.22, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mgetty-sendfax</H2>
+
+<UL> 
+<LI>Summary: Provides support for sending faxes over a modem.<BR>
+<LI>URL: <A HREF="ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/">ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/</A><BR>
+<LI>Version: 1.1.22<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Communications">Applications/Communications</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 801,353 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mgetty-sendfax = 1.1.22-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>mgetty = 1.1.22<BR>
+  <LI>netpbm-progs  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jan  9 14:04:35 2001 UTC<BR>
+<LI>Upload date: Tue Jan  9 14:05:24 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mgetty-1.1.22-1.src.rpm">mgetty-1.1.22-1.src.rpm</A>  (971,382 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Jan  9 10:00:00 2001 UTC<BR>
+- updated to 1.1.22<BR>- integrated all Redhat 7.0 patches<BR>- patched to compile with current MiNTLib<BR>- added built of X11 faxviewer package
+<LI>Description:<BR>
+Sendfax is a standalone backend program for sending fax files.  The<BR>mgetty program (a getty replacement for handling logins over a serial<BR>line) plus sendfax will allow you to send faxes through a Class 2<BR>modem.<BR><P><BR>If you'd like to send faxes over a Class 2 modem, you'll need to<BR>install the mgetty-sendfax and the mgetty packages.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root               49 Jan  9  2001 /etc/logrotate.d/sendfax
+-rw-r--r--    1 root    root               86 Jan  9  2001 /etc/mgetty+sendfax/faxheader
+-rw-------    1 root    root             2368 Jan  9  2001 /etc/mgetty+sendfax/faxrunq.config
+-rw-r--r--    1 root    root             1052 Jan  9  2001 /etc/mgetty+sendfax/sendfax.config
+-rwxr-xr-x    1 root    root            87580 Jan  9  2001 /usr/bin/ct
+-rwxr-xr-x    1 root    root             4237 Jan  9  2001 /usr/bin/faxq
+-rwxr-xr-x    1 root    root             2083 Jan  9  2001 /usr/bin/faxrm
+-rwx------    1 root    root             8870 Jan  9  2001 /usr/bin/faxrunq
+-rwxr-xr-x    1 root    root            23140 Jan  9  2001 /usr/bin/faxspool
+-rwxr-xr-x    1 root    root            99212 Jan  9  2001 /usr/bin/g32pbm
+-rwxr-xr-x    1 root    root           108216 Jan  9  2001 /usr/bin/g3cat
+-rwxr-xr-x    1 root    root              608 Jan  9  2001 /usr/bin/kvg
+-rwxr-xr-x    1 root    root            87877 Jan  9  2001 /usr/bin/newslock
+-rwxr-xr-x    1 root    root           106276 Jan  9  2001 /usr/bin/pbm2g3
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /usr/lib/mgetty+sendfax
+-rw-r--r--    1 root    root             8302 Jan  9  2001 /usr/lib/mgetty+sendfax/cour25.pbm
+-rw-r--r--    1 root    root             5422 Jan  9  2001 /usr/lib/mgetty+sendfax/cour25n.pbm
+-rwx------    1 root    root            42851 Jan  9  2001 /usr/sbin/faxrunqd
+-rwx------    1 root    root           187823 Jan  9  2001 /usr/sbin/sendfax
+-rw-r--r--    1 root    root             1297 Jan  9  2001 /usr/share/man/man1/coverpg.1.gz
+-rw-r--r--    1 root    root              764 Jan  9  2001 /usr/share/man/man1/faxq.1.gz
+-rw-r--r--    1 root    root              760 Jan  9  2001 /usr/share/man/man1/faxrm.1.gz
+-rw-r--r--    1 root    root             1674 Jan  9  2001 /usr/share/man/man1/faxrunq.1.gz
+-rw-r--r--    1 root    root             3404 Jan  9  2001 /usr/share/man/man1/faxspool.1.gz
+-rw-r--r--    1 root    root             1228 Jan  9  2001 /usr/share/man/man1/g32pbm.1.gz
+-rw-r--r--    1 root    root             1021 Jan  9  2001 /usr/share/man/man1/g3cat.1.gz
+-rw-r--r--    1 root    root             1588 Jan  9  2001 /usr/share/man/man1/mgetty_fax.1.gz
+-rw-r--r--    1 root    root             1025 Jan  9  2001 /usr/share/man/man1/pbm2g3.1.gz
+-rw-r--r--    1 root    root             1839 Jan  9  2001 /usr/share/man/man5/faxqueue.5.gz
+-rw-r--r--    1 root    root             3272 Jan  9  2001 /usr/share/man/man8/faxrunqd.8.gz
+-rw-r--r--    1 root    root             2309 Jan  9  2001 /usr/share/man/man8/sendfax.8.gz
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /var/spool/fax
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /var/spool/fax/incoming
+drwxrwxrwt    2 root    root                0 Jan  9  2001 /var/spool/fax/outgoing
+drwxrwxrwx    2 root    root                0 Jan  9  2001 /var/spool/fax/outgoing/locks
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mgetty-sendfax-1.1.22-1.m68kmint.rpm">Download</A></H2> (385,800 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

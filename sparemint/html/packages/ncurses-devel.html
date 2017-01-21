@@ -1,0 +1,811 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ncurses-devel, version 5.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ncurses-devel</H2>
+
+<UL> 
+<LI>Summary: The development files for applications which use ncurses.<BR>
+<LI>URL: <A HREF="http://dickey.his.com/ncurses/ncurses.html">http://dickey.his.com/ncurses/ncurses.html</A><BR>
+<LI>Version: 5.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 2,317,152 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ncurses-devel = 5.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>ncurses = 5.1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Dec 14 19:44:24 2000 UTC<BR>
+<LI>Upload date: Thu Dec 14 19:47:48 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ncurses-5.1-1.src.rpm">ncurses-5.1-1.src.rpm</A>  (1,772,721 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Dec 14 10:00:00 2000 UTC<BR>
+- updated to 5.1
+<LI>Description:<BR>
+The header files and libraries for developing applications that use<BR>the ncurses CRT screen handling and optimization package.<BR><P><BR>Install the ncurses-devel package if you want to develop applications<BR>which will use ncurses.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 14  2000 /usr/doc/ncurses-devel-5.1
+-rw-r--r--    1 root    root             2010 Jul 31  1999 /usr/doc/ncurses-devel-5.1/NEWS
+-rw-r--r--    1 root    root              128 Sep  8  1997 /usr/doc/ncurses-devel-5.1/PROBLEMS
+-rw-r--r--    1 root    root             2815 May 16  1999 /usr/doc/ncurses-devel-5.1/README-first
+-rw-r--r--    1 root    root            17263 Jul  4  2000 /usr/doc/ncurses-devel-5.1/announce.html
+-rw-r--r--    1 root    root            10407 Sep 11  1999 /usr/doc/ncurses-devel-5.1/demo.cc
+-rw-r--r--    1 root    root            32639 Mar 25  2000 /usr/doc/ncurses-devel-5.1/hackguide.doc
+-rw-r--r--    1 root    root            33688 Mar 25  2000 /usr/doc/ncurses-devel-5.1/hackguide.html
+-rw-r--r--    1 root    root              883 Mar  5  2000 /usr/doc/ncurses-devel-5.1/index.html
+drwxr-xr-x    2 root    root                0 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man
+-rw-r--r--    1 root    root             6240 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/captoinfo.1m.html
+-rw-r--r--    1 root    root              762 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/clear.1.html
+-rw-r--r--    1 root    root             7071 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_addch.3x.html
+-rw-r--r--    1 root    root             3115 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_addchstr.3x.html
+-rw-r--r--    1 root    root             2667 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_addstr.3x.html
+-rw-r--r--    1 root    root             9986 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_attr.3x.html
+-rw-r--r--    1 root    root             1637 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_beep.3x.html
+-rw-r--r--    1 root    root             3278 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_bkgd.3x.html
+-rw-r--r--    1 root    root             4857 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_border.3x.html
+-rw-r--r--    1 root    root             3058 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_clear.3x.html
+-rw-r--r--    1 root    root            10018 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_color.3x.html
+-rw-r--r--    1 root    root             1841 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_delch.3x.html
+-rw-r--r--    1 root    root             2592 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_deleteln.3x.html
+-rw-r--r--    1 root    root             2372 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_extend.3x.html
+-rw-r--r--    1 root    root            11988 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_getch.3x.html
+-rw-r--r--    1 root    root             4124 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_getstr.3x.html
+-rw-r--r--    1 root    root             2071 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_getyx.3x.html
+-rw-r--r--    1 root    root             1800 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_inch.3x.html
+-rw-r--r--    1 root    root             3129 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_inchstr.3x.html
+-rw-r--r--    1 root    root             5223 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_initscr.3x.html
+-rw-r--r--    1 root    root            11068 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_inopts.3x.html
+-rw-r--r--    1 root    root             1924 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_insch.3x.html
+-rw-r--r--    1 root    root             3730 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_insstr.3x.html
+-rw-r--r--    1 root    root             2672 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_instr.3x.html
+-rw-r--r--    1 root    root             7060 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_kernel.3x.html
+-rw-r--r--    1 root    root            10516 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_mouse.3x.html
+-rw-r--r--    1 root    root             1745 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_move.3x.html
+-rw-r--r--    1 root    root             8713 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_outopts.3x.html
+-rw-r--r--    1 root    root             2744 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_overlay.3x.html
+-rw-r--r--    1 root    root             5455 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_pad.3x.html
+-rw-r--r--    1 root    root             2252 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_print.3x.html
+-rw-r--r--    1 root    root             2606 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_printw.3x.html
+-rw-r--r--    1 root    root             4992 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_refresh.3x.html
+-rw-r--r--    1 root    root             2866 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_scanw.3x.html
+-rw-r--r--    1 root    root             3506 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_scr_dump.3x.html
+-rw-r--r--    1 root    root             2563 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_scroll.3x.html
+-rw-r--r--    1 root    root             6370 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_slk.3x.html
+-rw-r--r--    1 root    root             3633 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_termattrs.3x.html
+-rw-r--r--    1 root    root             4293 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_termcap.3x.html
+-rw-r--r--    1 root    root            12665 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_terminfo.3x.html
+-rw-r--r--    1 root    root             3314 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_touch.3x.html
+-rw-r--r--    1 root    root             4232 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/curs_trace.3x.html
+-rw-r--r--    1 root    root             4287 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_util.3x.html
+-rw-r--r--    1 root    root             6550 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/curs_window.3x.html
+-rw-r--r--    1 root    root             1556 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/define_key.3x.html
+-rw-r--r--    1 root    root             4612 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/dft_fgbg.3x.html
+-rw-r--r--    1 root    root            10461 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form.3x.html
+-rw-r--r--    1 root    root             1726 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_cursor.3x.html
+-rw-r--r--    1 root    root             1408 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_data.3x.html
+-rw-r--r--    1 root    root             6449 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_driver.3x.html
+-rw-r--r--    1 root    root             2622 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field.3x.html
+-rw-r--r--    1 root    root             2494 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_attributes.3x.html
+-rw-r--r--    1 root    root             3331 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_buffer.3x.html
+-rw-r--r--    1 root    root             2385 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_info.3x.html
+-rw-r--r--    1 root    root             1903 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_just.3x.html
+-rw-r--r--    1 root    root             2961 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_new.3x.html
+-rw-r--r--    1 root    root             3102 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_opts.3x.html
+-rw-r--r--    1 root    root             1755 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_userptr.3x.html
+-rw-r--r--    1 root    root             5885 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_field_validation.3x.html
+-rw-r--r--    1 root    root             4662 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_fieldtype.3x.html
+-rw-r--r--    1 root    root             3051 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_hook.3x.html
+-rw-r--r--    1 root    root             1831 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_new.3x.html
+-rw-r--r--    1 root    root             1813 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_new_page.3x.html
+-rw-r--r--    1 root    root             2376 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_opts.3x.html
+-rw-r--r--    1 root    root             2518 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_page.3x.html
+-rw-r--r--    1 root    root             2267 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_post.3x.html
+-rw-r--r--    1 root    root             1738 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_requestname.3x.html
+-rw-r--r--    1 root    root             1767 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_userptr.3x.html
+-rw-r--r--    1 root    root             2694 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/form_win.3x.html
+-rw-r--r--    1 root    root            18426 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/infocmp.1m.html
+-rw-r--r--    1 root    root             1898 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/infotocap.1m.html
+-rw-r--r--    1 root    root             1439 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/keybound.3x.html
+-rw-r--r--    1 root    root             1526 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/keyok.3x.html
+-rw-r--r--    1 root    root             9506 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu.3x.html
+-rw-r--r--    1 root    root             2918 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_attribs.3x.html
+-rw-r--r--    1 root    root             1695 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_cursor.3x.html
+-rw-r--r--    1 root    root             5704 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_driver.3x.html
+-rw-r--r--    1 root    root             2366 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_format.3x.html
+-rw-r--r--    1 root    root             3085 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_hook.3x.html
+-rw-r--r--    1 root    root             2400 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_items.3x.html
+-rw-r--r--    1 root    root             2310 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_mark.3x.html
+-rw-r--r--    1 root    root             1829 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_new.3x.html
+-rw-r--r--    1 root    root             2619 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_opts.3x.html
+-rw-r--r--    1 root    root             2234 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_pattern.3x.html
+-rw-r--r--    1 root    root             2421 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_post.3x.html
+-rw-r--r--    1 root    root             1738 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_requestname.3x.html
+-rw-r--r--    1 root    root             2763 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_spacing.3x.html
+-rw-r--r--    1 root    root             1748 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_userptr.3x.html
+-rw-r--r--    1 root    root             2694 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/menu_win.3x.html
+-rw-r--r--    1 root    root             2913 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_current.3x.html
+-rw-r--r--    1 root    root             1387 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_name.3x.html
+-rw-r--r--    1 root    root             2205 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_new.3x.html
+-rw-r--r--    1 root    root             2076 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_opts.3x.html
+-rw-r--r--    1 root    root             1724 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_userptr.3x.html
+-rw-r--r--    1 root    root             1893 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_value.3x.html
+-rw-r--r--    1 root    root             1279 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/mitem_visible.3x.html
+-rw-r--r--    1 root    root            58371 Jul  8  2000 /usr/doc/ncurses-devel-5.1/man/ncurses.3x.html
+-rw-r--r--    1 root    root             7688 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/panel.3x.html
+-rw-r--r--    1 root    root             2577 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/resizeterm.3x.html
+-rw-r--r--    1 root    root             8472 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/term.5.html
+-rw-r--r--    1 root    root             9019 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/term.7.html
+-rw-r--r--    1 root    root           121562 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/terminfo.5.html
+-rw-r--r--    1 root    root            12307 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/tic.1m.html
+-rw-r--r--    1 root    root             2724 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/toe.1m.html
+-rw-r--r--    1 root    root            11071 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/tput.1.html
+-rw-r--r--    1 root    root            11595 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/tset.1.html
+-rw-r--r--    1 root    root             1767 Jun 17  2000 /usr/doc/ncurses-devel-5.1/man/wresize.3x.html
+-rw-r--r--    1 root    root           111713 Mar 11  2000 /usr/doc/ncurses-devel-5.1/ncurses-intro.doc
+-rw-r--r--    1 root    root           119310 Jun 10  2000 /usr/doc/ncurses-devel-5.1/ncurses-intro.html
+drwxr-xr-x    2 root    root                0 Dec 14  2000 /usr/doc/ncurses-devel-5.1/test
+-rw-rw-rw-    1 root    root            10982 Dec 14  2000 /usr/doc/ncurses-devel-5.1/test/Makefile
+-rw-r--r--    1 root    root             6960 May 27  2000 /usr/doc/ncurses-devel-5.1/test/Makefile.in
+-rw-r--r--    1 root    root              994 Nov 25  1995 /usr/doc/ncurses-devel-5.1/test/README
+-rw-r--r--    1 root    root            10305 Jan 16  1999 /usr/doc/ncurses-devel-5.1/test/blue.c
+-rw-r--r--    1 root    root             1816 Dec  7  1994 /usr/doc/ncurses-devel-5.1/test/bs.6
+-rw-r--r--    1 root    root            28567 Aug 21  1999 /usr/doc/ncurses-devel-5.1/test/bs.c
+-rw-r--r--    1 root    root             9673 Mar 18  2000 /usr/doc/ncurses-devel-5.1/test/cardfile.c
+-rw-r--r--    1 root    root              394 Apr 10  1999 /usr/doc/ncurses-devel-5.1/test/cardfile.dat
+-rwxr-xr-x    1 root    root            59457 Dec 18  1999 /usr/doc/ncurses-devel-5.1/test/configure
+-rw-r--r--    1 root    root             6789 Dec 18  1999 /usr/doc/ncurses-devel-5.1/test/configure.in
+-rw-r--r--    1 root    root             4198 Aug 15  1998 /usr/doc/ncurses-devel-5.1/test/ditto.c
+-rw-r--r--    1 root    root             4187 Feb 12  2000 /usr/doc/ncurses-devel-5.1/test/dots.c
+-rw-r--r--    1 root    root             3938 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/filter.c
+-rw-r--r--    1 root    root             3543 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/firework.c
+-rw-r--r--    1 root    root             1400 Oct 18  1997 /usr/doc/ncurses-devel-5.1/test/firstlast.c
+-rw-r--r--    1 root    root              482 Dec  7  1994 /usr/doc/ncurses-devel-5.1/test/gdc.6
+-rw-r--r--    1 root    root             6510 Apr 22  2000 /usr/doc/ncurses-devel-5.1/test/gdc.c
+-rw-r--r--    1 root    root             6156 Apr  1  2000 /usr/doc/ncurses-devel-5.1/test/hanoi.c
+-rw-r--r--    1 root    root             4528 Jun 13  1998 /usr/doc/ncurses-devel-5.1/test/hashtest.c
+-rw-r--r--    1 root    root              253 Jun  6  1998 /usr/doc/ncurses-devel-5.1/test/keynames.c
+-rw-r--r--    1 root    root            14366 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/knight.c
+-rw-r--r--    1 root    root             2764 Oct 23  1999 /usr/doc/ncurses-devel-5.1/test/lrtest.c
+-rw-r--r--    1 root    root             3092 Feb 12  2000 /usr/doc/ncurses-devel-5.1/test/modules
+-rw-r--r--    1 root    root            79473 Dec 14  2000 /usr/doc/ncurses-devel-5.1/test/ncurses.c
+-rw-r--r--    1 root    root             2951 Feb 11  1998 /usr/doc/ncurses-devel-5.1/test/ncurses_tst.hin
+-rw-r--r--    1 root    root             8438 Sep 20  1997 /usr/doc/ncurses-devel-5.1/test/newdemo.c
+-rw-r--r--    1 root    root             4721 Jan 14  2000 /usr/doc/ncurses-devel-5.1/test/railroad.c
+-rw-r--r--    1 root    root             2380 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/rain.c
+-rw-r--r--    1 root    root             4412 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/tclock.c
+-rw-r--r--    1 root    root             3648 Dec 14  2000 /usr/doc/ncurses-devel-5.1/test/test.priv.h
+-rw-r--r--    1 root    root             1266 Oct 18  1997 /usr/doc/ncurses-devel-5.1/test/testaddch.c
+-rw-r--r--    1 root    root            14721 Jun 17  2000 /usr/doc/ncurses-devel-5.1/test/testcurs.c
+-rw-r--r--    1 root    root              779 Sep 20  1997 /usr/doc/ncurses-devel-5.1/test/testscanw.c
+-rwxr-xr-x    1 root    root             2292 Oct  6  1995 /usr/doc/ncurses-devel-5.1/test/tracemunch
+-rw-r--r--    1 root    root             9321 May 20  2000 /usr/doc/ncurses-devel-5.1/test/view.c
+-rw-r--r--    1 root    root             9480 Apr 15  2000 /usr/doc/ncurses-devel-5.1/test/worm.c
+-rw-r--r--    1 root    root            32379 Nov 13  1999 /usr/doc/ncurses-devel-5.1/test/xmas.c
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/include/curses.h
+?rwxrwxrwx    1 root    root               13 Dec 14  2000 /usr/include/eti.h
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/include/form.h
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/include/menu.h
+drwxr-xr-x    2 root    root                0 Dec 14  2000 /usr/include/ncurses
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/include/ncurses.h
+-rw-r--r--    1 root    root            60703 Dec 14  2000 /usr/include/ncurses/curses.h
+-rw-r--r--    1 root    root             6275 Dec 14  2000 /usr/include/ncurses/cursesapp.h
+-rw-r--r--    1 root    root            24654 Dec 14  2000 /usr/include/ncurses/cursesf.h
+-rw-r--r--    1 root    root            17796 Dec 14  2000 /usr/include/ncurses/cursesm.h
+-rw-r--r--    1 root    root             7781 Dec 14  2000 /usr/include/ncurses/cursesp.h
+-rw-r--r--    1 root    root            41980 Dec 14  2000 /usr/include/ncurses/cursesw.h
+-rw-r--r--    1 root    root             6514 Dec 14  2000 /usr/include/ncurses/cursslk.h
+-rw-r--r--    1 root    root             2825 Dec 14  2000 /usr/include/ncurses/eti.h
+-rw-r--r--    1 root    root             7048 Dec 14  2000 /usr/include/ncurses/etip.h
+-rw-r--r--    1 root    root            16107 Dec 14  2000 /usr/include/ncurses/form.h
+-rw-r--r--    1 root    root            10967 Dec 14  2000 /usr/include/ncurses/menu.h
+?rwxrwxrwx    1 root    root                8 Dec 14  2000 /usr/include/ncurses/ncurses.h
+-rw-r--r--    1 root    root             3442 Dec 14  2000 /usr/include/ncurses/panel.h
+-rw-r--r--    1 root    root            36954 Dec 14  2000 /usr/include/ncurses/term.h
+-rw-r--r--    1 root    root             3205 Dec 14  2000 /usr/include/ncurses/termcap.h
+-rw-r--r--    1 root    root             2965 Dec 14  2000 /usr/include/ncurses/unctrl.h
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/include/panel.h
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/include/term.h
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/include/unctrl.h
+?rwxrwxrwx    1 root    root               12 Dec 14  2000 /usr/lib/libcurses.a
+-rw-rw-rw-    1 root    root            48788 Dec 14  2000 /usr/lib/libform.a
+-rw-rw-rw-    1 root    root            24884 Dec 14  2000 /usr/lib/libmenu.a
+-rwxr-xr-x    1 root    root           171682 Dec 14  2000 /usr/lib/libncurses++.a
+-rw-rw-rw-    1 root    root           276560 Dec 14  2000 /usr/lib/libncurses.a
+-rw-rw-rw-    1 root    root            10168 Dec 14  2000 /usr/lib/libpanel.a
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/COLOR_PAIR.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/PAIR_NUMBER.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_nc_tracebits.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_traceattr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_traceattr2.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracechar.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracechtype.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracechtype2.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracedump.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracef.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/_tracemouse.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/addch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/addchnstr.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/addchstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/addnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/addstr.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/assume_default_colors.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attr_get.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attr_off.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attr_on.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attr_set.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attroff.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attron.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/attrset.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/baudrate.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/beep.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/bkgd.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/bkgdset.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/border.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/bottom_panel.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/box.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/can_change_color.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/cbreak.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/chgat.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/clear.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/clearok.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/clrtobot.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/clrtoeol.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/color_content.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/color_set.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/copywin.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/current_field.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/current_item.3x.gz
+-rw-r--r--    1 root    root             3023 Dec 14  2000 /usr/share/man/man3/curs_addch.3x.gz
+-rw-r--r--    1 root    root             1776 Dec 14  2000 /usr/share/man/man3/curs_addchstr.3x.gz
+-rw-r--r--    1 root    root             1611 Dec 14  2000 /usr/share/man/man3/curs_addstr.3x.gz
+-rw-r--r--    1 root    root             3339 Dec 14  2000 /usr/share/man/man3/curs_attr.3x.gz
+-rw-r--r--    1 root    root             1461 Dec 14  2000 /usr/share/man/man3/curs_beep.3x.gz
+-rw-r--r--    1 root    root             1877 Dec 14  2000 /usr/share/man/man3/curs_bkgd.3x.gz
+-rw-r--r--    1 root    root             2056 Dec 14  2000 /usr/share/man/man3/curs_border.3x.gz
+-rw-r--r--    1 root    root             1822 Dec 14  2000 /usr/share/man/man3/curs_clear.3x.gz
+-rw-r--r--    1 root    root             3682 Dec 14  2000 /usr/share/man/man3/curs_color.3x.gz
+-rw-r--r--    1 root    root             1502 Dec 14  2000 /usr/share/man/man3/curs_delch.3x.gz
+-rw-r--r--    1 root    root             1711 Dec 14  2000 /usr/share/man/man3/curs_deleteln.3x.gz
+-rw-r--r--    1 root    root             1704 Dec 14  2000 /usr/share/man/man3/curs_extend.3x.gz
+-rw-r--r--    1 root    root             4349 Dec 14  2000 /usr/share/man/man3/curs_getch.3x.gz
+-rw-r--r--    1 root    root             2168 Dec 14  2000 /usr/share/man/man3/curs_getstr.3x.gz
+-rw-r--r--    1 root    root             1495 Dec 14  2000 /usr/share/man/man3/curs_getyx.3x.gz
+-rw-r--r--    1 root    root             1477 Dec 14  2000 /usr/share/man/man3/curs_inch.3x.gz
+-rw-r--r--    1 root    root             1767 Dec 14  2000 /usr/share/man/man3/curs_inchstr.3x.gz
+-rw-r--r--    1 root    root             2560 Dec 14  2000 /usr/share/man/man3/curs_initscr.3x.gz
+-rw-r--r--    1 root    root             4127 Dec 14  2000 /usr/share/man/man3/curs_inopts.3x.gz
+-rw-r--r--    1 root    root             1506 Dec 14  2000 /usr/share/man/man3/curs_insch.3x.gz
+-rw-r--r--    1 root    root             1987 Dec 14  2000 /usr/share/man/man3/curs_insstr.3x.gz
+-rw-r--r--    1 root    root             1650 Dec 14  2000 /usr/share/man/man3/curs_instr.3x.gz
+-rw-r--r--    1 root    root             2925 Dec 14  2000 /usr/share/man/man3/curs_kernel.3x.gz
+-rw-r--r--    1 root    root             3967 Dec 14  2000 /usr/share/man/man3/curs_mouse.3x.gz
+-rw-r--r--    1 root    root             1504 Dec 14  2000 /usr/share/man/man3/curs_move.3x.gz
+-rw-r--r--    1 root    root             3480 Dec 14  2000 /usr/share/man/man3/curs_outopts.3x.gz
+-rw-r--r--    1 root    root             1757 Dec 14  2000 /usr/share/man/man3/curs_overlay.3x.gz
+-rw-r--r--    1 root    root             2504 Dec 14  2000 /usr/share/man/man3/curs_pad.3x.gz
+-rw-r--r--    1 root    root             1742 Dec 14  2000 /usr/share/man/man3/curs_print.3x.gz
+-rw-r--r--    1 root    root             1620 Dec 14  2000 /usr/share/man/man3/curs_printw.3x.gz
+-rw-r--r--    1 root    root             2517 Dec 14  2000 /usr/share/man/man3/curs_refresh.3x.gz
+-rw-r--r--    1 root    root             1694 Dec 14  2000 /usr/share/man/man3/curs_scanw.3x.gz
+-rw-r--r--    1 root    root             1962 Dec 14  2000 /usr/share/man/man3/curs_scr_dump.3x.gz
+-rw-r--r--    1 root    root             1764 Dec 14  2000 /usr/share/man/man3/curs_scroll.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/curs_set.3x.gz
+-rw-r--r--    1 root    root             2720 Dec 14  2000 /usr/share/man/man3/curs_slk.3x.gz
+-rw-r--r--    1 root    root             2050 Dec 14  2000 /usr/share/man/man3/curs_termattrs.3x.gz
+-rw-r--r--    1 root    root             2286 Dec 14  2000 /usr/share/man/man3/curs_termcap.3x.gz
+-rw-r--r--    1 root    root             4345 Dec 14  2000 /usr/share/man/man3/curs_terminfo.3x.gz
+-rw-r--r--    1 root    root             1904 Dec 14  2000 /usr/share/man/man3/curs_touch.3x.gz
+-rw-r--r--    1 root    root             2201 Dec 14  2000 /usr/share/man/man3/curs_trace.3x.gz
+-rw-r--r--    1 root    root             2277 Dec 14  2000 /usr/share/man/man3/curs_util.3x.gz
+-rw-r--r--    1 root    root             2745 Dec 14  2000 /usr/share/man/man3/curs_window.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/curses_version.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/data_ahead.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/data_behind.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/def_prog_mode.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/def_shell_mode.3x.gz
+-rw-r--r--    1 root    root             2363 Dec 14  2000 /usr/share/man/man3/default_colors.3x.gz
+-rw-r--r--    1 root    root             1492 Dec 14  2000 /usr/share/man/man3/define_key.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/del_curterm.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/del_panel.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/delay_output.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/delch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/deleteln.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/delscreen.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/delwin.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/derwin.3x.gz
+-rw-r--r--    1 root    root             2368 Dec 14  2000 /usr/share/man/man3/dft_fgbg.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/doupdate.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/dup_field.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/dupwin.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/dynamic_field_info.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/echo.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/echochar.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/endwin.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/erase.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/erasechar.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/field_arg.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/field_back.3x.gz
+?rwxrwxrwx    1 root    root               23 Dec 14  2000 /usr/share/man/man3/field_buffer.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/field_count.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/field_fore.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/field_index.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/field_info.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/field_just.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/field_opts.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/field_opts_off.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/field_opts_on.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/field_pad.3x.gz
+?rwxrwxrwx    1 root    root               23 Dec 14  2000 /usr/share/man/man3/field_status.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/field_type.3x.gz
+?rwxrwxrwx    1 root    root               24 Dec 14  2000 /usr/share/man/man3/field_userptr.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/filter.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/flash.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/flushinp.3x.gz
+-rw-r--r--    1 root    root             2750 Dec 14  2000 /usr/share/man/man3/form.3x.gz
+-rw-r--r--    1 root    root             1535 Dec 14  2000 /usr/share/man/man3/form_cursor.3x.gz
+-rw-r--r--    1 root    root             1358 Dec 14  2000 /usr/share/man/man3/form_data.3x.gz
+-rw-r--r--    1 root    root             2504 Dec 14  2000 /usr/share/man/man3/form_driver.3x.gz
+-rw-r--r--    1 root    root             1737 Dec 14  2000 /usr/share/man/man3/form_field.3x.gz
+-rw-r--r--    1 root    root             1697 Dec 14  2000 /usr/share/man/man3/form_field_attributes.3x.gz
+-rw-r--r--    1 root    root             2034 Dec 14  2000 /usr/share/man/man3/form_field_buffer.3x.gz
+-rw-r--r--    1 root    root             1818 Dec 14  2000 /usr/share/man/man3/form_field_info.3x.gz
+-rw-r--r--    1 root    root             1573 Dec 14  2000 /usr/share/man/man3/form_field_just.3x.gz
+-rw-r--r--    1 root    root             1911 Dec 14  2000 /usr/share/man/man3/form_field_new.3x.gz
+-rw-r--r--    1 root    root             1923 Dec 14  2000 /usr/share/man/man3/form_field_opts.3x.gz
+-rw-r--r--    1 root    root             1546 Dec 14  2000 /usr/share/man/man3/form_field_userptr.3x.gz
+-rw-r--r--    1 root    root             2653 Dec 14  2000 /usr/share/man/man3/form_field_validation.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/form_fields.3x.gz
+-rw-r--r--    1 root    root             2440 Dec 14  2000 /usr/share/man/man3/form_fieldtype.3x.gz
+-rw-r--r--    1 root    root             1722 Dec 14  2000 /usr/share/man/man3/form_hook.3x.gz
+-rw-r--r--    1 root    root             1563 Dec 14  2000 /usr/share/man/man3/form_new.3x.gz
+-rw-r--r--    1 root    root             1556 Dec 14  2000 /usr/share/man/man3/form_new_page.3x.gz
+-rw-r--r--    1 root    root             1640 Dec 14  2000 /usr/share/man/man3/form_opts.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/form_opts_off.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/form_opts_on.3x.gz
+-rw-r--r--    1 root    root             1718 Dec 14  2000 /usr/share/man/man3/form_page.3x.gz
+-rw-r--r--    1 root    root             1664 Dec 14  2000 /usr/share/man/man3/form_post.3x.gz
+?rwxrwxrwx    1 root    root               22 Dec 14  2000 /usr/share/man/man3/form_request_by_name.3x.gz
+?rwxrwxrwx    1 root    root               22 Dec 14  2000 /usr/share/man/man3/form_request_name.3x.gz
+-rw-r--r--    1 root    root             1495 Dec 14  2000 /usr/share/man/man3/form_requestname.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/form_sub.3x.gz
+-rw-r--r--    1 root    root             1546 Dec 14  2000 /usr/share/man/man3/form_userptr.3x.gz
+-rw-r--r--    1 root    root             1831 Dec 14  2000 /usr/share/man/man3/form_win.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/free_field.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/free_fieldtype.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/free_form.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/free_item.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/free_menu.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getbegyx.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/getbkgd.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getch.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getmaxyx.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getmouse.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/getnstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getparyx.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/getstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/getsyx.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/getwin.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/getyx.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/halfdelay.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/has_colors.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/has_ic.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/has_il.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/has_key.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/hide_panel.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/hline.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/idcok.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/idlok.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/immedok.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/inch.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/inchnstr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/inchstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/init_color.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/init_pair.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/initscr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/innstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/insch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/insdelln.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/insertln.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/insnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/insstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/instr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/intrflush.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/is_linetouched.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/is_wintouched.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/isendwin.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_count.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_description.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/item_index.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_name.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_opts.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_opts_off.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/item_opts_on.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/item_userptr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/item_value.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/item_visible.3x.gz
+-rw-r--r--    1 root    root             1439 Dec 14  2000 /usr/share/man/man3/keybound.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/keyname.3x.gz
+-rw-r--r--    1 root    root             1477 Dec 14  2000 /usr/share/man/man3/keyok.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/keypad.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/killchar.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/leaveok.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/link_field.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/link_fieldtype.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/longname.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mcprint.3x.gz
+-rw-r--r--    1 root    root             2718 Dec 14  2000 /usr/share/man/man3/menu.3x.gz
+-rw-r--r--    1 root    root             1789 Dec 14  2000 /usr/share/man/man3/menu_attribs.3x.gz
+-rw-r--r--    1 root    root             1789 Dec 14  2000 /usr/share/man/man3/menu_attributes.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/menu_back.3x.gz
+-rw-r--r--    1 root    root             1520 Dec 14  2000 /usr/share/man/man3/menu_cursor.3x.gz
+-rw-r--r--    1 root    root             2606 Dec 14  2000 /usr/share/man/man3/menu_driver.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/menu_fore.3x.gz
+-rw-r--r--    1 root    root             1725 Dec 14  2000 /usr/share/man/man3/menu_format.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/menu_grey.3x.gz
+-rw-r--r--    1 root    root             1738 Dec 14  2000 /usr/share/man/man3/menu_hook.3x.gz
+-rw-r--r--    1 root    root             1668 Dec 14  2000 /usr/share/man/man3/menu_items.3x.gz
+-rw-r--r--    1 root    root             1704 Dec 14  2000 /usr/share/man/man3/menu_mark.3x.gz
+-rw-r--r--    1 root    root             1560 Dec 14  2000 /usr/share/man/man3/menu_new.3x.gz
+-rw-r--r--    1 root    root             1757 Dec 14  2000 /usr/share/man/man3/menu_opts.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/menu_opts_off.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/menu_opts_on.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/menu_pad.3x.gz
+-rw-r--r--    1 root    root             1671 Dec 14  2000 /usr/share/man/man3/menu_pattern.3x.gz
+-rw-r--r--    1 root    root             1731 Dec 14  2000 /usr/share/man/man3/menu_post.3x.gz
+?rwxrwxrwx    1 root    root               22 Dec 14  2000 /usr/share/man/man3/menu_request_by_name.3x.gz
+?rwxrwxrwx    1 root    root               22 Dec 14  2000 /usr/share/man/man3/menu_request_name.3x.gz
+-rw-r--r--    1 root    root             1498 Dec 14  2000 /usr/share/man/man3/menu_requestname.3x.gz
+-rw-r--r--    1 root    root             1814 Dec 14  2000 /usr/share/man/man3/menu_spacing.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/menu_sub.3x.gz
+-rw-r--r--    1 root    root             1554 Dec 14  2000 /usr/share/man/man3/menu_userptr.3x.gz
+-rw-r--r--    1 root    root             1834 Dec 14  2000 /usr/share/man/man3/menu_win.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/meta.3x.gz
+-rw-r--r--    1 root    root             1847 Dec 14  2000 /usr/share/man/man3/mitem_current.3x.gz
+-rw-r--r--    1 root    root             1353 Dec 14  2000 /usr/share/man/man3/mitem_name.3x.gz
+-rw-r--r--    1 root    root             1695 Dec 14  2000 /usr/share/man/man3/mitem_new.3x.gz
+-rw-r--r--    1 root    root             1584 Dec 14  2000 /usr/share/man/man3/mitem_opts.3x.gz
+-rw-r--r--    1 root    root             1548 Dec 14  2000 /usr/share/man/man3/mitem_userptr.3x.gz
+-rw-r--r--    1 root    root             1586 Dec 14  2000 /usr/share/man/man3/mitem_value.3x.gz
+-rw-r--r--    1 root    root             1364 Dec 14  2000 /usr/share/man/man3/mitem_visible.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mouse_trafo.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mouseinterval.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mousemask.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/move.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/move_field.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/move_panel.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvaddch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/mvaddchnstr.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/mvaddchstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvaddnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvaddstr.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/mvchgat.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/mvcur.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvdelch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvderwin.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvgetch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvgetnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvgetstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvhline.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/mvinch.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/mvinchnstr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/mvinchstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvinnstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvinsch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvinsnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvinsstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvinstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvprintw.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvscanw.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvvline.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwaddch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/mvwaddchnstr.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/mvwaddchstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwaddnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwaddstr.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/mvwchgat.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwdelch.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwgetch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwgetnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwgetstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwhline.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwin.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/mvwinch.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/mvwinchnstr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/mvwinchstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwinnstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwinsch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwinsnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwinsstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwinstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwprintw.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/mvwscanw.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/mvwvline.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/napms.3x.gz
+-rw-r--r--    1 root    root            10675 Dec 14  2000 /usr/share/man/man3/ncurses.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/new_field.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/new_fieldtype.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/new_form.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/new_item.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/new_menu.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/new_page.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/new_panel.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/newpad.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/newterm.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/newwin.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/nl.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/nocbreak.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/nodelay.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/noecho.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/nonl.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/noqiflush.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/noraw.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/notimeout.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/overlay.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/overwrite.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/pair_content.3x.gz
+-rw-r--r--    1 root    root             2967 Dec 14  2000 /usr/share/man/man3/panel.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/panel_above.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/panel_below.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/panel_hidden.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/panel_userptr.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/panel_window.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/pechochar.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/pnoutrefresh.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/pos_form_cursor.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/pos_menu_cursor.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/post_form.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/post_menu.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/prefresh.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/printw.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/putp.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/putwin.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/qiflush.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/raw.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/redrawwin.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/refresh.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/replace_panel.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/reset_prog_mode.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/reset_shell_mode.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/resetty.3x.gz
+-rw-r--r--    1 root    root             1935 Dec 14  2000 /usr/share/man/man3/resizeterm.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/restartterm.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/ripoffline.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/savetty.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/scale_form.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/scale_menu.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/scanw.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/scr_dump.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/scr_init.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/scr_restore.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/scr_set.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/scrl.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/scroll.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/scrollok.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_current_field.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/set_current_item.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/set_curterm.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/set_field_back.3x.gz
+?rwxrwxrwx    1 root    root               23 Dec 14  2000 /usr/share/man/man3/set_field_buffer.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/set_field_fore.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_field_init.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_field_just.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_field_opts.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/set_field_pad.3x.gz
+?rwxrwxrwx    1 root    root               23 Dec 14  2000 /usr/share/man/man3/set_field_status.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_field_term.3x.gz
+?rwxrwxrwx    1 root    root               27 Dec 14  2000 /usr/share/man/man3/set_field_type.3x.gz
+?rwxrwxrwx    1 root    root               24 Dec 14  2000 /usr/share/man/man3/set_field_userptr.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/set_fieldtype_arg.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/set_fieldtype_choice.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/set_form_fields.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_form_init.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_form_opts.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_form_page.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/set_form_sub.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_form_term.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/set_form_userptr.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/set_form_win.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_item_init.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/set_item_opts.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_item_term.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/set_item_userptr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/set_item_value.3x.gz
+?rwxrwxrwx    1 root    root               23 Dec 14  2000 /usr/share/man/man3/set_max_field.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_menu_back.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_menu_fore.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/set_menu_format.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_menu_grey.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_menu_init.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/set_menu_items.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_menu_mark.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_menu_opts.3x.gz
+?rwxrwxrwx    1 root    root               21 Dec 14  2000 /usr/share/man/man3/set_menu_pad.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/set_menu_pattern.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/set_menu_spacing.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/set_menu_sub.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/set_menu_term.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/set_menu_userptr.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/set_menu_win.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/set_new_page.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/set_panel_userptr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/set_term.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/set_top_row.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/setscrreg.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/setsyx.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/setterm.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/setupterm.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/show_panel.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attr.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attr_off.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attr_on.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attr_set.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attroff.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attron.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_attrset.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_clear.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_color.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_init.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_label.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_noutrefresh.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_refresh.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_restore.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_set.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/slk_touch.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/standend.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/standout.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/start_color.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/subpad.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/subwin.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/syncok.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/termattrs.3x.gz
+?rwxrwxrwx    1 root    root               20 Dec 14  2000 /usr/share/man/man3/termname.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/tgetent.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/tgetflag.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/tgetnum.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/tgetstr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/tgoto.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/tigetflag.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/tigetnum.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/tigetstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/timeout.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/top_panel.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/top_row.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/touchline.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/touchwin.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/tparm.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/tputs.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/trace.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/typeahead.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/unctrl.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/ungetch.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/ungetmouse.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/unpost_form.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/unpost_menu.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/untouchwin.3x.gz
+?rwxrwxrwx    1 root    root               11 Dec 14  2000 /usr/share/man/man3/update_panels.3x.gz
+?rwxrwxrwx    1 root    root               14 Dec 14  2000 /usr/share/man/man3/use_default_colors.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/use_env.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/use_extended_names.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/vidattr.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/vidputs.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/vline.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/vw_printw.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/vw_scanw.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/vwprintw.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/vwscanw.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/waddch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/waddchnstr.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/waddchstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/waddnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/waddstr.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattr_get.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattr_off.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattr_on.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattr_set.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattroff.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattron.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wattrset.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wbkgd.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wbkgdset.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wborder.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wchgat.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wclear.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wclrtobot.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wclrtoeol.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wcolor_set.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wcursyncup.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wdelch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/wdeleteln.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wechochar.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wenclose.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/werase.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wgetch.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wgetnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wgetstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/whline.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/winch.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/winchnstr.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/winchstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/winnstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/winsch.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/winsdelln.3x.gz
+?rwxrwxrwx    1 root    root               19 Dec 14  2000 /usr/share/man/man3/winsertln.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/winsnstr.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/winsstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/winstr.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wmouse_trafo.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wmove.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/wnoutrefresh.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wprintw.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/wredrawln.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/wrefresh.3x.gz
+-rw-r--r--    1 root    root             1559 Dec 14  2000 /usr/share/man/man3/wresize.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wscanw.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wscrl.3x.gz
+?rwxrwxrwx    1 root    root               18 Dec 14  2000 /usr/share/man/man3/wsetscrreg.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wstandend.3x.gz
+?rwxrwxrwx    1 root    root               15 Dec 14  2000 /usr/share/man/man3/wstandout.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wsyncdown.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wsyncup.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wtimeout.3x.gz
+?rwxrwxrwx    1 root    root               16 Dec 14  2000 /usr/share/man/man3/wtouchln.3x.gz
+?rwxrwxrwx    1 root    root               17 Dec 14  2000 /usr/share/man/man3/wvline.3x.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ncurses-devel-5.1-1.m68kmint.rpm">Download</A></H2> (874,846 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

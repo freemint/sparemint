@@ -1,0 +1,29 @@
+This is README for Sparemint.
+
+Sparemint is not a full-blown distribution as you may know it from other
+operating systems.  This has mainly two reasons:
+
+- Sparemint is not yet ready. ;-)
+- It is not intended to be such a full-blown distribution.
+
+Sparemint is based on the Redhat Package Manager rpm.  You will find a 
+binary port of this program in the subdirectory `misc'.  Please
+install rpm first.
+
+Next you should prepare your system for Sparemint.  Sparemint expects 
+a certain directory structure as well as the existence of certain users 
+(with certain user ids) and certain groups (with certain group ids).  You
+should read the file SETUP for more information on this.
+
+If you want to join the Sparemint project you should contact the current
+maintainers
+
+	Frank Naumann <fnaumann(at)freemint.de> or
+	Guido Flohr <guido(at)freemint.de>
+
+If you plan to contribute your own ports of software you should also
+check the file `FAQ.MiNT'.
+
+If you plan to contribute a full-blown MiNT distribution to the MiNT
+community you should consider to base it on Sparemint.  If you plan to
+mirror this site or this directory you're welcome!

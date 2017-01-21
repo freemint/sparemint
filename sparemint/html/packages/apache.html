@@ -1,0 +1,388 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - apache, version 1.3.31, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>apache</H2>
+
+<UL> 
+<LI>Summary: Apache Web server<BR>
+<LI>URL: <A HREF="http://httpd.apache.org/">http://httpd.apache.org/</A><BR>
+<LI>Version: 1.3.31<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: Apache</BR>
+<LI>Installation size: 1,692,192 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>apache = 1.3.31-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>perl  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>apache_ssl  <BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Aug 13 17:57:24 2004 UTC<BR>
+<LI>Upload date: Fri Aug 13 18:23:37 2004 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/apache-1.3.31-1.src.rpm">apache-1.3.31-1.src.rpm</A>  (2,468,643 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Fri Aug 13 22:00:00 2004 UTC<BR>
+- Updated to Apache 1.3.31
+<LI>Description:<BR>
+Apache is an HTTP server designed as a plug-in replacement for<BR>the NCSA server version 1.3 (or 1.4). It fixes numerous bugs in<BR>the NCSA server and includes many frequently requested new<BR>features, and has an API which allows it to be extended to meet<BR>users' needs more easily.<BR><P><BR>This package includes all files necessary to run the Apache Web<BR>server.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root              348 Aug 13  2004 /etc/httpd/conf/access.conf
+-rw-r--r--    1 root    root              348 Aug 13  2004 /etc/httpd/conf/access.conf.default
+-rw-r--r--    1 root    root            32688 Aug 13  2004 /etc/httpd/conf/httpd.conf
+-rw-r--r--    1 root    root            32688 Aug 13  2004 /etc/httpd/conf/httpd.conf.default
+-rw-r--r--    1 root    root            12965 Aug 13  2004 /etc/httpd/conf/magic
+-rw-r--r--    1 root    root            12965 Aug 13  2004 /etc/httpd/conf/magic.default
+-rw-r--r--    1 root    root            14987 Aug 13  2004 /etc/httpd/conf/mime.types
+-rw-r--r--    1 root    root            14987 Aug 13  2004 /etc/httpd/conf/mime.types.default
+-rw-r--r--    1 root    root              357 Aug 13  2004 /etc/httpd/conf/srm.conf
+-rw-r--r--    1 root    root              357 Aug 13  2004 /etc/httpd/conf/srm.conf.default
+?rwxrwxrwx    1 root    root               21 Aug 13  2004 /etc/rc.d/init.d/apache
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/bin
+-rwxr-xr-x    1 root    root            90292 Aug 13  2004 /usr/bin/checkgid
+-rwxr-xr-x    1 root    root             8693 Aug 13  2004 /usr/bin/dbmmanage
+-rwxr-xr-x    1 root    root           106635 Aug 13  2004 /usr/bin/htdigest
+-rwxr-xr-x    1 root    root           128416 Aug 13  2004 /usr/bin/htpasswd
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/doc/apache-1.3.31
+-rw-r--r--    1 root    root            14787 Oct 16  2002 /usr/doc/apache-1.3.31/ABOUT_APACHE
+-rw-r--r--    1 root    root             6667 Apr 29  2004 /usr/doc/apache-1.3.31/Announcement
+-rw-r--r--    1 root    root            27989 Oct 13  2003 /usr/doc/apache-1.3.31/INSTALL
+-rw-r--r--    1 root    root            23535 Feb 16  2004 /usr/doc/apache-1.3.31/LICENSE
+-rw-r--r--    1 root    root             2075 Aug 22  2001 /usr/doc/apache-1.3.31/README
+-rw-r--r--    1 root    root             4094 Mar  1  2001 /usr/doc/apache-1.3.31/README-WIN.TXT
+-rw-r--r--    1 root    root            11162 Aug 22  2001 /usr/doc/apache-1.3.31/README.configure
+-rw-r--r--    1 root    root             1316 Mar  1  2001 /usr/doc/apache-1.3.31/WARNING-WIN.TXT
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/lib/apache
+-rwxr-xr-x    1 root    root           142100 Aug 13  2004 /usr/sbin/ab
+-rwxr-xr-x    1 root    root             4846 Aug 13  2004 /usr/sbin/apachectl
+-rwxr-xr-x    1 root    root           569281 Aug 13  2004 /usr/sbin/httpd
+-rwxr-xr-x    1 root    root           107461 Aug 13  2004 /usr/sbin/logresolve
+-rwxr-xr-x    1 root    root            96354 Aug 13  2004 /usr/sbin/rotatelogs
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/share/man
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/share/man/man1
+-rw-r--r--    1 root    root             1976 Aug 13  2004 /usr/share/man/man1/dbmmanage.1.gz
+-rw-r--r--    1 root    root              971 Aug 13  2004 /usr/share/man/man1/htdigest.1.gz
+-rw-r--r--    1 root    root             2766 Aug 13  2004 /usr/share/man/man1/htpasswd.1.gz
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /usr/share/man/man8
+-rw-r--r--    1 root    root             2950 Aug 13  2004 /usr/share/man/man8/ab.8.gz
+-rw-r--r--    1 root    root             1491 Aug 13  2004 /usr/share/man/man8/apachectl.8.gz
+-rw-r--r--    1 root    root             3511 Aug 13  2004 /usr/share/man/man8/apxs.8.gz
+-rw-r--r--    1 root    root             1914 Aug 13  2004 /usr/share/man/man8/httpd.8.gz
+-rw-r--r--    1 root    root              829 Aug 13  2004 /usr/share/man/man8/logresolve.8.gz
+-rw-r--r--    1 root    root             1052 Aug 13  2004 /usr/share/man/man8/rotatelogs.8.gz
+drwxr-xr-x    2 httpd   httpd               0 Aug 13  2004 /var/cache
+drwxr-xr-x    2 httpd   httpd               0 Aug 13  2004 /var/cache/httpd
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /var/log
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /var/log/httpd
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /var/run
+-rwxr-xr-x    1 root    root              268 Aug 13  2004 /var/www/cgi-bin/printenv
+-rwxr-xr-x    1 root    root              757 Aug 13  2004 /var/www/cgi-bin/test-cgi
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /var/www/html
+-rw-r--r--    1 root    root             2326 Jul  3  1996 /var/www/html/apache_pb.gif
+-rw-r--r--    1 root    root             1884 Jun 26  2001 /var/www/html/index.html.ca
+-rw-r--r--    1 root    root             1583 Jun 27  2001 /var/www/html/index.html.cz
+-rw-r--r--    1 root    root             2274 Sep 17  2001 /var/www/html/index.html.de
+-rw-r--r--    1 root    root             1557 Jun 27  2001 /var/www/html/index.html.dk
+-rw-r--r--    1 root    root             1877 Jun 27  2001 /var/www/html/index.html.ee
+-rw-r--r--    1 root    root             1677 Jun 27  2001 /var/www/html/index.html.el
+-rw-r--r--    1 root    root             1456 May  3  2001 /var/www/html/index.html.en
+-rw-r--r--    1 root    root             1799 Jun 27  2001 /var/www/html/index.html.es
+-rw-r--r--    1 root    root             1525 Jun 27  2001 /var/www/html/index.html.fr
+-rw-r--r--    1 root    root             3706 Jun 27  2001 /var/www/html/index.html.he.iso8859-8
+-rw-r--r--    1 root    root             2585 Feb  2  2004 /var/www/html/index.html.hu
+-rw-r--r--    1 root    root             1847 Nov  7  2001 /var/www/html/index.html.it
+-rw-r--r--    1 root    root             1799 Dec 14  2001 /var/www/html/index.html.ja.jis
+-rw-r--r--    1 root    root             1333 Jun 28  2001 /var/www/html/index.html.kr.iso-kr
+-rw-r--r--    1 root    root             1896 May 21  2002 /var/www/html/index.html.lb.utf8
+-rw-r--r--    1 root    root             2007 Jun 28  2001 /var/www/html/index.html.nl
+-rw-r--r--    1 root    root             1534 Sep  6  2001 /var/www/html/index.html.nn
+-rw-r--r--    1 root    root             1526 Jun 28  2001 /var/www/html/index.html.no
+-rw-r--r--    1 root    root             1497 Jun 28  2001 /var/www/html/index.html.po.iso-pl
+-rw-r--r--    1 root    root             1842 Jun 28  2001 /var/www/html/index.html.pt
+-rw-r--r--    1 root    root             2035 Mar 22  2001 /var/www/html/index.html.pt-br
+-rw-r--r--    1 root    root             1591 Jun 28  2001 /var/www/html/index.html.ru.cp-1251
+-rw-r--r--    1 root    root             1585 Jun 28  2001 /var/www/html/index.html.ru.cp866
+-rw-r--r--    1 root    root             1589 Jun 28  2001 /var/www/html/index.html.ru.iso-ru
+-rw-r--r--    1 root    root             1585 Jun 28  2001 /var/www/html/index.html.ru.koi8-r
+-rw-r--r--    1 root    root             3134 Jan 27  2001 /var/www/html/index.html.ru.ucs2
+-rw-r--r--    1 root    root             6268 Jan 27  2001 /var/www/html/index.html.ru.ucs4
+-rw-r--r--    1 root    root             2318 Jun 28  2001 /var/www/html/index.html.ru.utf8
+-rw-r--r--    1 root    root             1700 Jun 28  2001 /var/www/html/index.html.se
+-rw-r--r--    1 root    root             1062 May 13  2003 /var/www/html/index.html.zh-tw.big5
+drwxr-xr-x    2 root    root                0 Aug 13  2004 /var/www/icons
+-rw-r--r--    1 root    root             4872 Jan  3  1999 /var/www/icons/README
+-rw-r--r--    1 root    root              246 Feb 22  1996 /var/www/icons/a.gif
+-rw-r--r--    1 root    root              293 May 30  2001 /var/www/icons/a.png
+-rw-r--r--    1 root    root              242 Feb 22  1996 /var/www/icons/alert.black.gif
+-rw-r--r--    1 root    root              279 May 30  2001 /var/www/icons/alert.black.png
+-rw-r--r--    1 root    root              247 Feb 22  1996 /var/www/icons/alert.red.gif
+-rw-r--r--    1 root    root              298 May 30  2001 /var/www/icons/alert.red.png
+-rw-r--r--    1 root    root             2326 Feb 22  1996 /var/www/icons/apache_pb.gif
+-rw-r--r--    1 root    root             1385 May 30  2001 /var/www/icons/apache_pb.png
+-rw-r--r--    1 root    root              216 Feb 22  1996 /var/www/icons/back.gif
+-rw-r--r--    1 root    root              284 May 30  2001 /var/www/icons/back.png
+-rw-r--r--    1 root    root              233 Feb 22  1996 /var/www/icons/ball.gray.gif
+-rw-r--r--    1 root    root              277 May 30  2001 /var/www/icons/ball.gray.png
+-rw-r--r--    1 root    root              205 Feb 22  1996 /var/www/icons/ball.red.gif
+-rw-r--r--    1 root    root              265 May 30  2001 /var/www/icons/ball.red.png
+-rw-r--r--    1 root    root              246 Feb 22  1996 /var/www/icons/binary.gif
+-rw-r--r--    1 root    root              296 May 30  2001 /var/www/icons/binary.png
+-rw-r--r--    1 root    root              246 Feb 22  1996 /var/www/icons/binhex.gif
+-rw-r--r--    1 root    root              304 May 30  2001 /var/www/icons/binhex.png
+-rw-r--r--    1 root    root              148 Feb 22  1996 /var/www/icons/blank.gif
+-rw-r--r--    1 root    root              195 May 30  2001 /var/www/icons/blank.png
+-rw-r--r--    1 root    root              308 Feb 22  1996 /var/www/icons/bomb.gif
+-rw-r--r--    1 root    root              356 May 30  2001 /var/www/icons/bomb.png
+-rw-r--r--    1 root    root              251 Feb 22  1996 /var/www/icons/box1.gif
+-rw-r--r--    1 root    root              308 May 30  2001 /var/www/icons/box1.png
+-rw-r--r--    1 root    root              268 Feb 22  1996 /var/www/icons/box2.gif
+-rw-r--r--    1 root    root              322 May 30  2001 /var/www/icons/box2.png
+-rw-r--r--    1 root    root              247 Feb 22  1996 /var/www/icons/broken.gif
+-rw-r--r--    1 root    root              305 May 30  2001 /var/www/icons/broken.png
+-rw-r--r--    1 root    root              235 Feb 22  1996 /var/www/icons/burst.gif
+-rw-r--r--    1 root    root              314 May 30  2001 /var/www/icons/burst.png
+-rw-r--r--    1 root    root              242 Feb 22  1996 /var/www/icons/c.gif
+-rw-r--r--    1 root    root              285 May 30  2001 /var/www/icons/c.png
+-rw-r--r--    1 root    root              251 Feb 22  1996 /var/www/icons/comp.blue.gif
+-rw-r--r--    1 root    root              313 May 30  2001 /var/www/icons/comp.blue.png
+-rw-r--r--    1 root    root              246 Feb 22  1996 /var/www/icons/comp.gray.gif
+-rw-r--r--    1 root    root              304 May 30  2001 /var/www/icons/comp.gray.png
+-rw-r--r--    1 root    root             1038 Feb 22  1996 /var/www/icons/compressed.gif
+-rw-r--r--    1 root    root              315 May 30  2001 /var/www/icons/compressed.png
+-rw-r--r--    1 root    root              214 Feb 22  1996 /var/www/icons/continued.gif
+-rw-r--r--    1 root    root              272 May 30  2001 /var/www/icons/continued.png
+-rw-r--r--    1 root    root              225 Feb 22  1996 /var/www/icons/dir.gif
+-rw-r--r--    1 root    root              272 May 30  2001 /var/www/icons/dir.png
+-rw-r--r--    1 root    root              167 May 21  2002 /var/www/icons/diskimg.gif
+-rw-r--r--    1 root    root              202 May 21  2002 /var/www/icons/diskimg.png
+-rw-r--r--    1 root    root              163 Feb 22  1996 /var/www/icons/down.gif
+-rw-r--r--    1 root    root              232 May 30  2001 /var/www/icons/down.png
+-rw-r--r--    1 root    root              238 Feb 22  1996 /var/www/icons/dvi.gif
+-rw-r--r--    1 root    root              290 May 30  2001 /var/www/icons/dvi.png
+-rw-r--r--    1 root    root              236 Feb 22  1996 /var/www/icons/f.gif
+-rw-r--r--    1 root    root              282 May 30  2001 /var/www/icons/f.png
+-rw-r--r--    1 root    root              225 Feb 22  1996 /var/www/icons/folder.gif
+-rw-r--r--    1 root    root              242 Feb 22  1996 /var/www/icons/folder.open.gif
+-rw-r--r--    1 root    root              305 May 30  2001 /var/www/icons/folder.open.png
+-rw-r--r--    1 root    root              272 May 30  2001 /var/www/icons/folder.png
+-rw-r--r--    1 root    root              243 Feb 22  1996 /var/www/icons/folder.sec.gif
+-rw-r--r--    1 root    root              290 May 30  2001 /var/www/icons/folder.sec.png
+-rw-r--r--    1 root    root              219 Feb 22  1996 /var/www/icons/forward.gif
+-rw-r--r--    1 root    root              284 May 30  2001 /var/www/icons/forward.png
+-rw-r--r--    1 root    root              221 Feb 22  1996 /var/www/icons/generic.gif
+-rw-r--r--    1 root    root              260 May 30  2001 /var/www/icons/generic.png
+-rw-r--r--    1 root    root              220 Feb 22  1996 /var/www/icons/generic.red.gif
+-rw-r--r--    1 root    root              262 May 30  2001 /var/www/icons/generic.red.png
+-rw-r--r--    1 root    root              249 Feb 22  1996 /var/www/icons/generic.sec.gif
+-rw-r--r--    1 root    root              279 May 30  2001 /var/www/icons/generic.sec.png
+-rw-r--r--    1 root    root              217 Feb 22  1996 /var/www/icons/hand.right.gif
+-rw-r--r--    1 root    root              280 May 30  2001 /var/www/icons/hand.right.png
+-rw-r--r--    1 root    root              223 Feb 22  1996 /var/www/icons/hand.up.gif
+-rw-r--r--    1 root    root              280 May 30  2001 /var/www/icons/hand.up.png
+-rw-r--r--    1 root    root            11977 Feb 22  1996 /var/www/icons/icon.sheet.gif
+-rw-r--r--    1 root    root             8898 May 30  2001 /var/www/icons/icon.sheet.png
+-rw-r--r--    1 root    root              274 Feb 22  1996 /var/www/icons/image1.gif
+-rw-r--r--    1 root    root              307 May 30  2001 /var/www/icons/image1.png
+-rw-r--r--    1 root    root              309 Feb 22  1996 /var/www/icons/image2.gif
+-rw-r--r--    1 root    root              355 May 30  2001 /var/www/icons/image2.png
+-rw-r--r--    1 root    root              286 Feb 22  1996 /var/www/icons/image3.gif
+-rw-r--r--    1 root    root              323 May 30  2001 /var/www/icons/image3.png
+-rw-r--r--    1 root    root              268 Feb 22  1996 /var/www/icons/index.gif
+-rw-r--r--    1 root    root              316 May 30  2001 /var/www/icons/index.png
+-rw-r--r--    1 root    root              276 Feb 22  1996 /var/www/icons/layout.gif
+-rw-r--r--    1 root    root              306 May 30  2001 /var/www/icons/layout.png
+-rw-r--r--    1 root    root              172 Feb 22  1996 /var/www/icons/left.gif
+-rw-r--r--    1 root    root              235 May 30  2001 /var/www/icons/left.png
+-rw-r--r--    1 root    root              249 Feb 22  1996 /var/www/icons/link.gif
+-rw-r--r--    1 root    root              297 May 30  2001 /var/www/icons/link.png
+-rw-r--r--    1 root    root              243 Feb 22  1996 /var/www/icons/movie.gif
+-rw-r--r--    1 root    root              258 May 30  2001 /var/www/icons/movie.png
+-rw-r--r--    1 root    root              237 Feb 22  1996 /var/www/icons/p.gif
+-rw-r--r--    1 root    root              284 May 30  2001 /var/www/icons/p.png
+-rw-r--r--    1 root    root              251 Feb 22  1996 /var/www/icons/patch.gif
+-rw-r--r--    1 root    root              295 May 30  2001 /var/www/icons/patch.png
+-rw-r--r--    1 root    root              249 Feb 22  1996 /var/www/icons/pdf.gif
+-rw-r--r--    1 root    root              289 May 30  2001 /var/www/icons/pdf.png
+-rw-r--r--    1 root    root              188 Feb 22  1996 /var/www/icons/pie0.gif
+-rw-r--r--    1 root    root              242 May 30  2001 /var/www/icons/pie0.png
+-rw-r--r--    1 root    root              198 Feb 22  1996 /var/www/icons/pie1.gif
+-rw-r--r--    1 root    root              261 May 30  2001 /var/www/icons/pie1.png
+-rw-r--r--    1 root    root              198 Feb 22  1996 /var/www/icons/pie2.gif
+-rw-r--r--    1 root    root              253 May 30  2001 /var/www/icons/pie2.png
+-rw-r--r--    1 root    root              191 Feb 22  1996 /var/www/icons/pie3.gif
+-rw-r--r--    1 root    root              256 May 30  2001 /var/www/icons/pie3.png
+-rw-r--r--    1 root    root              193 Feb 22  1996 /var/www/icons/pie4.gif
+-rw-r--r--    1 root    root              239 May 30  2001 /var/www/icons/pie4.png
+-rw-r--r--    1 root    root              189 Feb 22  1996 /var/www/icons/pie5.gif
+-rw-r--r--    1 root    root              258 May 30  2001 /var/www/icons/pie5.png
+-rw-r--r--    1 root    root              186 Feb 22  1996 /var/www/icons/pie6.gif
+-rw-r--r--    1 root    root              253 May 30  2001 /var/www/icons/pie6.png
+-rw-r--r--    1 root    root              185 Feb 22  1996 /var/www/icons/pie7.gif
+-rw-r--r--    1 root    root              258 May 30  2001 /var/www/icons/pie7.png
+-rw-r--r--    1 root    root              173 Feb 22  1996 /var/www/icons/pie8.gif
+-rw-r--r--    1 root    root              233 May 30  2001 /var/www/icons/pie8.png
+-rw-r--r--    1 root    root              254 Feb 22  1996 /var/www/icons/portal.gif
+-rw-r--r--    1 root    root              303 May 30  2001 /var/www/icons/portal.png
+-rw-r--r--    1 root    root              244 Feb 22  1996 /var/www/icons/ps.gif
+-rw-r--r--    1 root    root              287 May 30  2001 /var/www/icons/ps.png
+-rw-r--r--    1 root    root              267 Feb 22  1996 /var/www/icons/quill.gif
+-rw-r--r--    1 root    root              315 May 30  2001 /var/www/icons/quill.png
+-rw-r--r--    1 root    root              172 Feb 22  1996 /var/www/icons/right.gif
+-rw-r--r--    1 root    root              233 May 30  2001 /var/www/icons/right.png
+-rw-r--r--    1 root    root              258 Feb 22  1996 /var/www/icons/screw1.gif
+-rw-r--r--    1 root    root              312 May 30  2001 /var/www/icons/screw1.png
+-rw-r--r--    1 root    root              263 Feb 22  1996 /var/www/icons/screw2.gif
+-rw-r--r--    1 root    root              318 May 30  2001 /var/www/icons/screw2.png
+-rw-r--r--    1 root    root              242 Feb 22  1996 /var/www/icons/script.gif
+-rw-r--r--    1 root    root              275 May 30  2001 /var/www/icons/script.png
+drwxr-xr-x    2 root    root                0 May  7  2004 /var/www/icons/small
+-rw-r--r--    1 root    root              300 Dec 16  1998 /var/www/icons/small/README.txt
+-rw-r--r--    1 root    root              129 Dec 16  1998 /var/www/icons/small/back.gif
+-rw-r--r--    1 root    root              238 May 30  2001 /var/www/icons/small/back.png
+-rw-r--r--    1 root    root              134 Dec 16  1998 /var/www/icons/small/binary.gif
+-rw-r--r--    1 root    root              242 May 30  2001 /var/www/icons/small/binary.png
+-rw-r--r--    1 root    root              131 Dec 16  1998 /var/www/icons/small/binhex.gif
+-rw-r--r--    1 root    root              248 May 30  2001 /var/www/icons/small/binhex.png
+-rw-r--r--    1 root    root               55 Dec 16  1998 /var/www/icons/small/blank.gif
+-rw-r--r--    1 root    root               90 May 30  2001 /var/www/icons/small/blank.png
+-rw-r--r--    1 root    root              139 Dec 16  1998 /var/www/icons/small/broken.gif
+-rw-r--r--    1 root    root              254 May 30  2001 /var/www/icons/small/broken.png
+-rw-r--r--    1 root    root              128 Dec 16  1998 /var/www/icons/small/burst.gif
+-rw-r--r--    1 root    root              194 May 30  2001 /var/www/icons/small/burst.png
+-rw-r--r--    1 root    root              130 Dec 16  1998 /var/www/icons/small/comp1.gif
+-rw-r--r--    1 root    root              197 May 30  2001 /var/www/icons/small/comp1.png
+-rw-r--r--    1 root    root              131 Dec 16  1998 /var/www/icons/small/comp2.gif
+-rw-r--r--    1 root    root              194 May 30  2001 /var/www/icons/small/comp2.png
+-rw-r--r--    1 root    root              128 Dec 16  1998 /var/www/icons/small/compressed.gif
+-rw-r--r--    1 root    root              189 May 30  2001 /var/www/icons/small/compressed.png
+-rw-r--r--    1 root    root              114 Dec 16  1998 /var/www/icons/small/continued.gif
+-rw-r--r--    1 root    root              214 May 30  2001 /var/www/icons/small/continued.png
+-rw-r--r--    1 root    root              132 Dec 16  1998 /var/www/icons/small/dir.gif
+-rw-r--r--    1 root    root              175 May 30  2001 /var/www/icons/small/dir.png
+-rw-r--r--    1 root    root              122 Dec 16  1998 /var/www/icons/small/dir2.gif
+-rw-r--r--    1 root    root              161 May 30  2001 /var/www/icons/small/dir2.png
+-rw-r--r--    1 root    root              191 Jan 18  1999 /var/www/icons/small/doc.gif
+-rw-r--r--    1 root    root              269 May 30  2001 /var/www/icons/small/doc.png
+-rw-r--r--    1 root    root              125 Dec 16  1998 /var/www/icons/small/forward.gif
+-rw-r--r--    1 root    root              244 May 30  2001 /var/www/icons/small/forward.png
+-rw-r--r--    1 root    root              116 Dec 16  1998 /var/www/icons/small/generic.gif
+-rw-r--r--    1 root    root              182 May 30  2001 /var/www/icons/small/generic.png
+-rw-r--r--    1 root    root              127 Dec 16  1998 /var/www/icons/small/generic2.gif
+-rw-r--r--    1 root    root              158 May 30  2001 /var/www/icons/small/generic2.png
+-rw-r--r--    1 root    root              113 Dec 16  1998 /var/www/icons/small/generic3.gif
+-rw-r--r--    1 root    root              147 May 30  2001 /var/www/icons/small/generic3.png
+-rw-r--r--    1 root    root              126 Dec 16  1998 /var/www/icons/small/image.gif
+-rw-r--r--    1 root    root              178 May 30  2001 /var/www/icons/small/image.png
+-rw-r--r--    1 root    root              138 Dec 16  1998 /var/www/icons/small/image2.gif
+-rw-r--r--    1 root    root              186 May 30  2001 /var/www/icons/small/image2.png
+-rw-r--r--    1 root    root              145 Dec 16  1998 /var/www/icons/small/index.gif
+-rw-r--r--    1 root    root              206 May 30  2001 /var/www/icons/small/index.png
+-rw-r--r--    1 root    root              187 Jan  9  1999 /var/www/icons/small/key.gif
+-rw-r--r--    1 root    root              254 May 30  2001 /var/www/icons/small/key.png
+-rw-r--r--    1 root    root              134 Dec 16  1998 /var/www/icons/small/movie.gif
+-rw-r--r--    1 root    root              202 May 30  2001 /var/www/icons/small/movie.png
+-rw-r--r--    1 root    root              182 Jan 18  1999 /var/www/icons/small/patch.gif
+-rw-r--r--    1 root    root              250 May 30  2001 /var/www/icons/small/patch.png
+-rw-r--r--    1 root    root              184 Jan 18  1999 /var/www/icons/small/ps.gif
+-rw-r--r--    1 root    root              254 May 30  2001 /var/www/icons/small/ps.png
+-rw-r--r--    1 root    root             3811 Dec 16  1998 /var/www/icons/small/rainbow.gif
+-rw-r--r--    1 root    root             2418 May 30  2001 /var/www/icons/small/rainbow.png
+-rw-r--r--    1 root    root              130 Dec 16  1998 /var/www/icons/small/sound.gif
+-rw-r--r--    1 root    root              176 May 30  2001 /var/www/icons/small/sound.png
+-rw-r--r--    1 root    root              119 Dec 16  1998 /var/www/icons/small/sound2.gif
+-rw-r--r--    1 root    root              236 May 30  2001 /var/www/icons/small/sound2.png
+-rw-r--r--    1 root    root              132 Dec 16  1998 /var/www/icons/small/tar.gif
+-rw-r--r--    1 root    root              227 May 30  2001 /var/www/icons/small/tar.png
+-rw-r--r--    1 root    root              128 Dec 16  1998 /var/www/icons/small/text.gif
+-rw-r--r--    1 root    root              202 May 30  2001 /var/www/icons/small/text.png
+-rw-r--r--    1 root    root              124 Dec 16  1998 /var/www/icons/small/transfer.gif
+-rw-r--r--    1 root    root              186 May 30  2001 /var/www/icons/small/transfer.png
+-rw-r--r--    1 root    root              131 Dec 16  1998 /var/www/icons/small/unknown.gif
+-rw-r--r--    1 root    root              226 May 30  2001 /var/www/icons/small/unknown.png
+-rw-r--r--    1 root    root              125 Dec 16  1998 /var/www/icons/small/uu.gif
+-rw-r--r--    1 root    root              217 May 30  2001 /var/www/icons/small/uu.png
+-rw-r--r--    1 root    root              248 Feb 22  1996 /var/www/icons/sound1.gif
+-rw-r--r--    1 root    root              310 May 30  2001 /var/www/icons/sound1.png
+-rw-r--r--    1 root    root              221 Feb 22  1996 /var/www/icons/sound2.gif
+-rw-r--r--    1 root    root              297 May 30  2001 /var/www/icons/sound2.png
+-rw-r--r--    1 root    root              285 Feb 22  1996 /var/www/icons/sphere1.gif
+-rw-r--r--    1 root    root              326 May 30  2001 /var/www/icons/sphere1.png
+-rw-r--r--    1 root    root              264 Feb 22  1996 /var/www/icons/sphere2.gif
+-rw-r--r--    1 root    root              322 May 30  2001 /var/www/icons/sphere2.png
+-rw-r--r--    1 root    root              219 Jan 10  1997 /var/www/icons/tar.gif
+-rw-r--r--    1 root    root              261 May 30  2001 /var/www/icons/tar.png
+-rw-r--r--    1 root    root              251 Feb 22  1996 /var/www/icons/tex.gif
+-rw-r--r--    1 root    root              295 May 30  2001 /var/www/icons/tex.png
+-rw-r--r--    1 root    root              229 Feb 22  1996 /var/www/icons/text.gif
+-rw-r--r--    1 root    root              273 May 30  2001 /var/www/icons/text.png
+-rw-r--r--    1 root    root              242 Feb 22  1996 /var/www/icons/transfer.gif
+-rw-r--r--    1 root    root              319 May 30  2001 /var/www/icons/transfer.png
+-rw-r--r--    1 root    root              245 Feb 22  1996 /var/www/icons/unknown.gif
+-rw-r--r--    1 root    root              291 May 30  2001 /var/www/icons/unknown.png
+-rw-r--r--    1 root    root              164 Feb 22  1996 /var/www/icons/up.gif
+-rw-r--r--    1 root    root              234 May 30  2001 /var/www/icons/up.png
+-rw-r--r--    1 root    root              236 Feb 22  1996 /var/www/icons/uu.gif
+-rw-r--r--    1 root    root              280 May 30  2001 /var/www/icons/uu.png
+-rw-r--r--    1 root    root              236 Feb 22  1996 /var/www/icons/uuencoded.gif
+-rw-r--r--    1 root    root              280 May 30  2001 /var/www/icons/uuencoded.png
+-rw-r--r--    1 root    root              228 Feb 22  1996 /var/www/icons/world1.gif
+-rw-r--r--    1 root    root              315 May 30  2001 /var/www/icons/world1.png
+-rw-r--r--    1 root    root              261 Feb 22  1996 /var/www/icons/world2.gif
+-rw-r--r--    1 root    root              339 May 30  2001 /var/www/icons/world2.png
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/apache-1.3.31-1.m68kmint.rpm">Download</A></H2> (805,020 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,153 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - binutils, version 2.21, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>binutils</H2>
+
+<UL> 
+<LI>Summary: GNU Binary Utility Development Utilities<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/binutils/">http://www.gnu.org/software/binutils/</A><BR>
+<LI>Version: 2.21<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Tools">Development/Tools</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 10,724,897 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>binutils = 2.21-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>mintbin  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Dec 15 19:55:29 2010 UTC<BR>
+<LI>Upload date: Mon Dec 20 17:07:25 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/binutils-2.21-1.src.rpm">binutils-2.21-1.src.rpm</A>  (18,207,286 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Mon Dec 13 22:00:00 2010 UTC<BR>
+- Initial build of 2.21 version
+<LI>Description:<BR>
+Binutils is a collection of binary utilities, including:<BR>+ addr2line: converting addresses to file and line;<BR>+ ar: creating modifying and extracting from archives;<BR>+ nm: listing symbols from object files;<BR>+ objcopy: copying and translating object files;<BR>+ objdump: displaying information from object files;<BR>+ ranlib: generating an index for the contents of an archive;<BR>+ size: listing the section sizes of an object or archive file;<BR>+ strings: listing printable strings from files;<BR>+ strip: discarding symbols.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           511643 Dec 15  2010 /usr/bin/addr2line
+-rwxr-xr-x    1 root    root           530876 Dec 15  2010 /usr/bin/ar
+-rwxr-xr-x    1 root    root           806613 Dec 15  2010 /usr/bin/as
+-rwxr-xr-x    1 root    root           510697 Dec 15  2010 /usr/bin/c++filt
+-rwxr-xr-x    1 root    root           118199 Dec 15  2010 /usr/bin/elfedit
+-rwxr-xr-x    1 root    root           568375 Dec 15  2010 /usr/bin/gprof
+-rwxr-xr-x    2 root    root           680178 Dec 15  2010 /usr/bin/ld
+-rwxr-xr-x    2 root    root           680178 Dec 15  2010 /usr/bin/ld.bfd
+-rwxr-xr-x    1 root    root           520773 Dec 15  2010 /usr/bin/nm
+-rwxr-xr-x    1 root    root           654846 Dec 15  2010 /usr/bin/objcopy
+-rwxr-xr-x    1 root    root           786473 Dec 15  2010 /usr/bin/objdump
+-rwxr-xr-x    1 root    root           530882 Dec 15  2010 /usr/bin/ranlib
+-rwxr-xr-x    1 root    root           450336 Dec 15  2010 /usr/bin/readelf
+-rwxr-xr-x    1 root    root           513425 Dec 15  2010 /usr/bin/size
+-rwxr-xr-x    1 root    root           512454 Dec 15  2010 /usr/bin/strings
+-rwxr-xr-x    1 root    root           654850 Dec 15  2010 /usr/bin/strip
+drwxr-xr-x    2 root    root                0 Dec 15  2010 /usr/doc/binutils-2.21
+-rw-r--r--    1 root    root            18002 Jul 13  2005 /usr/doc/binutils-2.21/COPYING
+-rw-r--r--    1 root    root            25291 Jul 15  2005 /usr/doc/binutils-2.21/COPYING.LIB
+-rw-r--r--    1 root    root            17175 Dec 15  2010 /usr/doc/binutils-2.21/NEWS.binutils
+-rw-r--r--    1 root    root            20386 Dec 15  2010 /usr/doc/binutils-2.21/NEWS.gas
+-rw-r--r--    1 root    root            20484 Dec 15  2010 /usr/doc/binutils-2.21/NEWS.ld
+-rw-r--r--    1 root    root             1719 May  3  1999 /usr/doc/binutils-2.21/README
+-rw-r--r--    1 root    root              961 Aug 22  2009 /usr/doc/binutils-2.21/README-maintainer-mode
+-rw-r--r--    1 root    root             2069 Dec 15  2010 /usr/doc/binutils-2.21/README.bfd
+-rw-r--r--    1 root    root            10886 Dec 15  2010 /usr/doc/binutils-2.21/README.binutils
+-rw-r--r--    1 root    root             6123 Dec 15  2010 /usr/doc/binutils-2.21/README.gas
+-rw-r--r--    1 root    root            17422 Dec 15  2010 /usr/doc/binutils-2.21/README.gprof
+-rw-r--r--    1 root    root             2423 Dec 15  2010 /usr/doc/binutils-2.21/README.ld
+-rw-r--r--    1 root    root            13917 Dec 15  2010 /usr/include/ansidecl.h
+-rw-r--r--    1 root    root           198417 Dec 15  2010 /usr/include/bfd.h
+-rw-r--r--    1 root    root            29684 Dec 15  2010 /usr/include/bfdlink.h
+drwxrwxrwx    2 root    root                0 Dec 15  2010 /usr/lib/ldscripts
+-rw-r--r--    1 root    root              632 Dec 15  2010 /usr/lib/ldscripts/m68kmint.x
+-rw-r--r--    1 root    root              650 Dec 15  2010 /usr/lib/ldscripts/m68kmint.xbn
+-rw-r--r--    1 root    root              632 Dec 15  2010 /usr/lib/ldscripts/m68kmint.xn
+-rw-r--r--    1 root    root              222 Dec 15  2010 /usr/lib/ldscripts/m68kmint.xr
+-rw-r--r--    1 root    root              262 Dec 15  2010 /usr/lib/ldscripts/m68kmint.xu
+-rw-r--r--    1 root    root           477114 Dec 15  2010 /usr/lib/libbfd.a
+-rwxr-xr-x    1 root    root              879 Dec 15  2010 /usr/lib/libbfd.la
+-rw-r--r--    1 root    root           155024 Dec 15  2010 /usr/lib/libopcodes.a
+-rwxr-xr-x    1 root    root              887 Dec 15  2010 /usr/lib/libopcodes.la
+-rw-r--r--    1 root    root           229550 Dec 15  2010 /usr/share/info/as.info.gz
+-rw-r--r--    1 root    root           110356 Dec 15  2010 /usr/share/info/bfd.info.gz
+-rw-r--r--    1 root    root            53819 Dec 15  2010 /usr/share/info/binutils.info.gz
+-rw-r--r--    1 root    root            34103 Dec 15  2010 /usr/share/info/gprof.info.gz
+-rw-r--r--    1 root    root            99838 Dec 15  2010 /usr/share/info/ld.info.gz
+-rw-r--r--    1 root    root             3853 Dec 15  2010 /usr/share/man/man1/addr2line.1.gz
+-rw-r--r--    1 root    root             6640 Dec 15  2010 /usr/share/man/man1/ar.1.gz
+-rw-r--r--    1 root    root            14240 Dec 15  2010 /usr/share/man/man1/as.1.gz
+-rw-r--r--    1 root    root             4342 Dec 15  2010 /usr/share/man/man1/c++filt.1.gz
+-rw-r--r--    1 root    root             6512 Dec 15  2010 /usr/share/man/man1/dlltool.1.gz
+-rw-r--r--    1 root    root             3211 Dec 15  2010 /usr/share/man/man1/elfedit.1.gz
+-rw-r--r--    1 root    root             8744 Dec 15  2010 /usr/share/man/man1/gprof.1.gz
+-rw-r--r--    1 root    root            31371 Dec 15  2010 /usr/share/man/man1/ld.1.gz
+-rw-r--r--    1 root    root             3300 Dec 15  2010 /usr/share/man/man1/nlmconv.1.gz
+-rw-r--r--    1 root    root             5998 Dec 15  2010 /usr/share/man/man1/nm.1.gz
+-rw-r--r--    1 root    root            11530 Dec 15  2010 /usr/share/man/man1/objcopy.1.gz
+-rw-r--r--    1 root    root             9572 Dec 15  2010 /usr/share/man/man1/objdump.1.gz
+-rw-r--r--    1 root    root             2778 Dec 15  2010 /usr/share/man/man1/ranlib.1.gz
+-rw-r--r--    1 root    root             4543 Dec 15  2010 /usr/share/man/man1/readelf.1.gz
+-rw-r--r--    1 root    root             3589 Dec 15  2010 /usr/share/man/man1/size.1.gz
+-rw-r--r--    1 root    root             3467 Dec 15  2010 /usr/share/man/man1/strings.1.gz
+-rw-r--r--    1 root    root             4781 Dec 15  2010 /usr/share/man/man1/strip.1.gz
+-rw-r--r--    1 root    root             3910 Dec 15  2010 /usr/share/man/man1/windmc.1.gz
+-rw-r--r--    1 root    root             4599 Dec 15  2010 /usr/share/man/man1/windres.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/binutils-2.21-1.m68kmint.rpm">Download</A></H2> (5,200,685 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

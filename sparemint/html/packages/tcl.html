@@ -1,0 +1,513 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tcl, version 8.0.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tcl</H2>
+
+<UL> 
+<LI>Summary: An embeddable scripting language.<BR>
+<LI>URL: <A HREF="http://www.scriptics.com">http://www.scriptics.com</A><BR>
+<LI>Version: 8.0.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Languages">Development/Languages</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 3,000,023 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tcl = 8.0.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Nov 16 15:15:17 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tcltk-8.0.5-1.src.rpm">tcltk-8.0.5-1.src.rpm</A>  (7,145,687 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Nov 16 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Tcl is a simple scripting language designed to be embedded into other<BR>applications.  Tcl is designed to be used with Tk, a widget set, which<BR>is provided in the tk package.  This package also includes tclsh, a<BR>simple example of a Tcl application.<BR><P><BR>If you're installing the tcl package and you want to use Tcl for<BR>development, you should also install the tk and tclx packages.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    wheel               8 Nov 16  2000 /usr/bin/tclsh
+-rwxrwxrwx    1 root    wheel          504320 Nov 16  2000 /usr/bin/tclsh8.0
+-rw-r--r--    1 root    wheel           61558 Nov 16  2000 /usr/include/tcl.h
+-r-xr-xr-x    1 root    wheel          471200 Nov 16  2000 /usr/lib/libtcl8.0.a
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tcl8.0
+-rw-r--r--    1 root    wheel            8989 Nov 16  2000 /usr/lib/tcl8.0/history.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tcl8.0/http1.0
+-rw-r--r--    1 root    wheel            9750 Nov 16  2000 /usr/lib/tcl8.0/http1.0/http.tcl
+-rw-r--r--    1 root    wheel             735 Nov 16  2000 /usr/lib/tcl8.0/http1.0/pkgIndex.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tcl8.0/http2.0
+-rw-r--r--    1 root    wheel           11460 Nov 16  2000 /usr/lib/tcl8.0/http2.0/http.tcl
+-rw-r--r--    1 root    wheel             624 Nov 16  2000 /usr/lib/tcl8.0/http2.0/pkgIndex.tcl
+-rw-r--r--    1 root    wheel           47407 Nov 16  2000 /usr/lib/tcl8.0/init.tcl
+-rw-r--r--    1 root    wheel            2645 Nov 16  2000 /usr/lib/tcl8.0/ldAix
+-rw-r--r--    1 root    wheel            6664 Nov 16  2000 /usr/lib/tcl8.0/ldAout.tcl
+drwxr-xr-x    2 root    wheel               0 Nov 16  2000 /usr/lib/tcl8.0/opt0.1
+-rw-r--r--    1 root    wheel           33468 Nov 16  2000 /usr/lib/tcl8.0/opt0.1/optparse.tcl
+-rw-r--r--    1 root    wheel             400 Nov 16  2000 /usr/lib/tcl8.0/opt0.1/pkgIndex.tcl
+-rw-r--r--    1 root    wheel             882 Nov 16  2000 /usr/lib/tcl8.0/parray.tcl
+-rw-r--r--    1 root    wheel           26754 Nov 16  2000 /usr/lib/tcl8.0/safe.tcl
+-rw-r--r--    1 root    wheel            3869 Nov 16  2000 /usr/lib/tcl8.0/tclAppInit.c
+-rw-r--r--    1 root    wheel            1485 Nov 16  2000 /usr/lib/tcl8.0/tclIndex
+-rw-r--r--    1 root    wheel            4470 Nov 16  2000 /usr/lib/tcl8.0/word.tcl
+-rw-r--r--    1 root    wheel            5008 Nov 16  2000 /usr/lib/tclConfig.sh
+-r--r--r--    1 root    wheel            4002 Nov 16  2000 /usr/man/man1/tclsh.1.gz
+-r--r--r--    1 root    wheel            4520 Nov 16  2000 /usr/man/man3/AddErrInfo.3.gz
+-r--r--r--    1 root    wheel            2797 Nov 16  2000 /usr/man/man3/Alloc.3.gz
+-r--r--r--    1 root    wheel            2752 Nov 16  2000 /usr/man/man3/AllowExc.3.gz
+-r--r--r--    1 root    wheel            3218 Nov 16  2000 /usr/man/man3/AppInit.3.gz
+-r--r--r--    1 root    wheel            3368 Nov 16  2000 /usr/man/man3/AssocData.3.gz
+-r--r--r--    1 root    wheel            4356 Nov 16  2000 /usr/man/man3/Async.3.gz
+-r--r--r--    1 root    wheel            3028 Nov 16  2000 /usr/man/man3/BackgdErr.3.gz
+-r--r--r--    1 root    wheel            2650 Nov 16  2000 /usr/man/man3/Backslash.3.gz
+-r--r--r--    1 root    wheel            3148 Nov 16  2000 /usr/man/man3/BoolObj.3.gz
+-r--r--r--    1 root    wheel            2922 Nov 16  2000 /usr/man/man3/CallDel.3.gz
+-r--r--r--    1 root    wheel            2566 Nov 16  2000 /usr/man/man3/CmdCmplt.3.gz
+-r--r--r--    1 root    wheel            2897 Nov 16  2000 /usr/man/man3/Concat.3.gz
+-r--r--r--    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/CrtChannel.3.gz
+-r--r--r--    1 root    wheel            3512 Nov 16  2000 /usr/man/man3/CrtChnlHdlr.3.gz
+-r--r--r--    1 root    wheel            2791 Nov 16  2000 /usr/man/man3/CrtCloseHdlr.3.gz
+-r--r--r--    1 root    wheel            4372 Nov 16  2000 /usr/man/man3/CrtCommand.3.gz
+-r--r--r--    1 root    wheel            3567 Nov 16  2000 /usr/man/man3/CrtFileHdlr.3.gz
+-r--r--r--    1 root    wheel            4215 Nov 16  2000 /usr/man/man3/CrtInterp.3.gz
+-r--r--r--    1 root    wheel            3488 Nov 16  2000 /usr/man/man3/CrtMathFnc.3.gz
+-r--r--r--    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/CrtObjCmd.3.gz
+-r--r--r--    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/CrtSlave.3.gz
+-r--r--r--    1 root    wheel            3196 Nov 16  2000 /usr/man/man3/CrtTimerHdlr.3.gz
+-r--r--r--    1 root    wheel            3743 Nov 16  2000 /usr/man/man3/CrtTrace.3.gz
+-r--r--r--    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/DString.3.gz
+-r--r--r--    1 root    wheel            3129 Nov 16  2000 /usr/man/man3/DetachPids.3.gz
+-r--r--r--    1 root    wheel            3659 Nov 16  2000 /usr/man/man3/DoOneEvent.3.gz
+-r--r--r--    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/DoWhenIdle.3.gz
+-r--r--r--    1 root    wheel            3097 Nov 16  2000 /usr/man/man3/DoubleObj.3.gz
+-r--r--r--    1 root    wheel            3779 Nov 16  2000 /usr/man/man3/Eval.3.gz
+-r--r--r--    1 root    wheel            3426 Nov 16  2000 /usr/man/man3/EvalObj.3.gz
+-r--r--r--    1 root    wheel            3678 Nov 16  2000 /usr/man/man3/Exit.3.gz
+-r--r--r--    1 root    wheel            3531 Nov 16  2000 /usr/man/man3/ExprLong.3.gz
+-r--r--r--    1 root    wheel            3331 Nov 16  2000 /usr/man/man3/ExprLongObj.3.gz
+-r--r--r--    1 root    wheel            2866 Nov 16  2000 /usr/man/man3/FindExec.3.gz
+-r--r--r--    1 root    wheel            3347 Nov 16  2000 /usr/man/man3/GetIndex.3.gz
+-r--r--r--    1 root    wheel            3299 Nov 16  2000 /usr/man/man3/GetInt.3.gz
+-r--r--r--    1 root    wheel            3007 Nov 16  2000 /usr/man/man3/GetOpnFl.3.gz
+-r--r--r--    1 root    wheel            3165 Nov 16  2000 /usr/man/man3/GetStdChan.3.gz
+-r--r--r--    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Hash.3.gz
+-r--r--r--    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/IntObj.3.gz
+-r--r--r--    1 root    wheel            4126 Nov 16  2000 /usr/man/man3/Interp.3.gz
+-r--r--r--    1 root    wheel            3624 Nov 16  2000 /usr/man/man3/LinkVar.3.gz
+-r--r--r--    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/ListObj.3.gz
+-r--r--r--    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Notifier.3.gz
+-r--r--r--    1 root    wheel            4175 Nov 16  2000 /usr/man/man3/ObjSetVar.3.gz
+-r--r--r--    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Object.3.gz
+-r--r--r--    1 root    wheel            4674 Nov 16  2000 /usr/man/man3/ObjectType.3.gz
+-r--r--r--    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/OpenFileChnl.3.gz
+-r--r--r--    1 root    wheel            4603 Nov 16  2000 /usr/man/man3/OpenTcp.3.gz
+-r--r--r--    1 root    wheel            2879 Nov 16  2000 /usr/man/man3/PkgRequire.3.gz
+-r--r--r--    1 root    wheel            3672 Nov 16  2000 /usr/man/man3/Preserve.3.gz
+-r--r--r--    1 root    wheel            2807 Nov 16  2000 /usr/man/man3/PrintDbl.3.gz
+-r--r--r--    1 root    wheel            2921 Nov 16  2000 /usr/man/man3/RecEvalObj.3.gz
+-r--r--r--    1 root    wheel            2965 Nov 16  2000 /usr/man/man3/RecordEval.3.gz
+-r--r--r--    1 root    wheel            3817 Nov 16  2000 /usr/man/man3/RegExp.3.gz
+-r--r--r--    1 root    wheel            2698 Nov 16  2000 /usr/man/man3/SetErrno.3.gz
+-r--r--r--    1 root    wheel            2898 Nov 16  2000 /usr/man/man3/SetRecLmt.3.gz
+-r--r--r--    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/SetResult.3.gz
+-r--r--r--    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/SetVar.3.gz
+-r--r--r--    1 root    wheel            2623 Nov 16  2000 /usr/man/man3/Sleep.3.gz
+-r--r--r--    1 root    wheel            4622 Nov 16  2000 /usr/man/man3/SplitList.3.gz
+-r--r--r--    1 root    wheel            3423 Nov 16  2000 /usr/man/man3/SplitPath.3.gz
+-r--r--r--    1 root    wheel            3188 Nov 16  2000 /usr/man/man3/StaticPkg.3.gz
+-r--r--r--    1 root    wheel            2621 Nov 16  2000 /usr/man/man3/StrMatch.3.gz
+-r--r--r--    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/StringObj.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/TclConcatObj.3.gz
+-rwxrwxrwx    1 root    wheel            4520 Nov 16  2000 /usr/man/man3/Tcl_AddErrorInfo.3.gz
+-rwxrwxrwx    1 root    wheel            4520 Nov 16  2000 /usr/man/man3/Tcl_AddObjErrorInfo.3.gz
+-rwxrwxrwx    1 root    wheel            2797 Nov 16  2000 /usr/man/man3/Tcl_Alloc.3.gz
+-rwxrwxrwx    1 root    wheel            2752 Nov 16  2000 /usr/man/man3/Tcl_AllowExceptions.3.gz
+-rwxrwxrwx    1 root    wheel            3218 Nov 16  2000 /usr/man/man3/Tcl_AppInit.3.gz
+-rwxrwxrwx    1 root    wheel            4674 Nov 16  2000 /usr/man/man3/Tcl_AppendAllObjTypes.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_AppendElement.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_AppendResult.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_AppendStringsToObj.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_AppendToObj.3.gz
+-rwxrwxrwx    1 root    wheel            4356 Nov 16  2000 /usr/man/man3/Tcl_AsyncCreate.3.gz
+-rwxrwxrwx    1 root    wheel            4356 Nov 16  2000 /usr/man/man3/Tcl_AsyncDelete.3.gz
+-rwxrwxrwx    1 root    wheel            4356 Nov 16  2000 /usr/man/man3/Tcl_AsyncInvoke.3.gz
+-rwxrwxrwx    1 root    wheel            4356 Nov 16  2000 /usr/man/man3/Tcl_AsyncMark.3.gz
+-rwxrwxrwx    1 root    wheel            3028 Nov 16  2000 /usr/man/man3/Tcl_BackgroundError.3.gz
+-rwxrwxrwx    1 root    wheel            2650 Nov 16  2000 /usr/man/man3/Tcl_Backslash.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_BadChannelOption.3.gz
+-rwxrwxrwx    1 root    wheel            2922 Nov 16  2000 /usr/man/man3/Tcl_CallWhenDeleted.3.gz
+-rwxrwxrwx    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/Tcl_CancelIdleCall.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Close.3.gz
+-rwxrwxrwx    1 root    wheel            2566 Nov 16  2000 /usr/man/man3/Tcl_CommandComplete.3.gz
+-rwxrwxrwx    1 root    wheel            2897 Nov 16  2000 /usr/man/man3/Tcl_Concat.3.gz
+-rwxrwxrwx    1 root    wheel            4622 Nov 16  2000 /usr/man/man3/Tcl_ConvertElement.3.gz
+-rwxrwxrwx    1 root    wheel            4674 Nov 16  2000 /usr/man/man3/Tcl_ConvertToType.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_CreateAlias.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_CreateAliasObj.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_CreateChannel.3.gz
+-rwxrwxrwx    1 root    wheel            3512 Nov 16  2000 /usr/man/man3/Tcl_CreateChannelHandler.3.gz
+-rwxrwxrwx    1 root    wheel            2791 Nov 16  2000 /usr/man/man3/Tcl_CreateCloseHandler.3.gz
+-rwxrwxrwx    1 root    wheel            4372 Nov 16  2000 /usr/man/man3/Tcl_CreateCommand.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_CreateEventSource.3.gz
+-rwxrwxrwx    1 root    wheel            3678 Nov 16  2000 /usr/man/man3/Tcl_CreateExitHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3567 Nov 16  2000 /usr/man/man3/Tcl_CreateFileHandler.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_CreateHashEntry.3.gz
+-rwxrwxrwx    1 root    wheel            4215 Nov 16  2000 /usr/man/man3/Tcl_CreateInterp.3.gz
+-rwxrwxrwx    1 root    wheel            3488 Nov 16  2000 /usr/man/man3/Tcl_CreateMathFunc.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_CreateObjCommand.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_CreateSlave.3.gz
+-rwxrwxrwx    1 root    wheel            3196 Nov 16  2000 /usr/man/man3/Tcl_CreateTimerHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3743 Nov 16  2000 /usr/man/man3/Tcl_CreateTrace.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringAppend.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringAppendElement.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringEndSublist.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringFree.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringGetResult.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringInit.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringLength.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringResult.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringSetLength.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringStartSublist.3.gz
+-rwxrwxrwx    1 root    wheel            3954 Nov 16  2000 /usr/man/man3/Tcl_DStringValue.3.gz
+-rwxrwxrwx    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Tcl_DecrRefCount.3.gz
+-rwxrwxrwx    1 root    wheel            3368 Nov 16  2000 /usr/man/man3/Tcl_DeleteAssocData.3.gz
+-rwxrwxrwx    1 root    wheel            3512 Nov 16  2000 /usr/man/man3/Tcl_DeleteChannelHandler.3.gz
+-rwxrwxrwx    1 root    wheel            2791 Nov 16  2000 /usr/man/man3/Tcl_DeleteCloseHandler.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_DeleteCommand.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_DeleteCommandFromToken.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_DeleteEventSource.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_DeleteEvents.3.gz
+-rwxrwxrwx    1 root    wheel            3678 Nov 16  2000 /usr/man/man3/Tcl_DeleteExitHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3567 Nov 16  2000 /usr/man/man3/Tcl_DeleteFileHandler.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_DeleteHashEntry.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_DeleteHashTable.3.gz
+-rwxrwxrwx    1 root    wheel            4215 Nov 16  2000 /usr/man/man3/Tcl_DeleteInterp.3.gz
+-rwxrwxrwx    1 root    wheel            3196 Nov 16  2000 /usr/man/man3/Tcl_DeleteTimerHandler.3.gz
+-rwxrwxrwx    1 root    wheel            3743 Nov 16  2000 /usr/man/man3/Tcl_DeleteTrace.3.gz
+-rwxrwxrwx    1 root    wheel            3129 Nov 16  2000 /usr/man/man3/Tcl_DetachPids.3.gz
+-rwxrwxrwx    1 root    wheel            3659 Nov 16  2000 /usr/man/man3/Tcl_DoOneEvent.3.gz
+-rwxrwxrwx    1 root    wheel            3444 Nov 16  2000 /usr/man/man3/Tcl_DoWhenIdle.3.gz
+-rwxrwxrwx    1 root    wheel            2922 Nov 16  2000 /usr/man/man3/Tcl_DontCallWhenDeleted.3.gz
+-rwxrwxrwx    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Tcl_DuplicateObj.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Eof.3.gz
+-rwxrwxrwx    1 root    wheel            3779 Nov 16  2000 /usr/man/man3/Tcl_Eval.3.gz
+-rwxrwxrwx    1 root    wheel            3779 Nov 16  2000 /usr/man/man3/Tcl_EvalFile.3.gz
+-rwxrwxrwx    1 root    wheel            3426 Nov 16  2000 /usr/man/man3/Tcl_EvalObj.3.gz
+-rwxrwxrwx    1 root    wheel            3672 Nov 16  2000 /usr/man/man3/Tcl_EventuallyFree.3.gz
+-rwxrwxrwx    1 root    wheel            3678 Nov 16  2000 /usr/man/man3/Tcl_Exit.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_ExposeCommand.3.gz
+-rwxrwxrwx    1 root    wheel            3531 Nov 16  2000 /usr/man/man3/Tcl_ExprBoolean.3.gz
+-rwxrwxrwx    1 root    wheel            3331 Nov 16  2000 /usr/man/man3/Tcl_ExprBooleanObj.3.gz
+-rwxrwxrwx    1 root    wheel            3531 Nov 16  2000 /usr/man/man3/Tcl_ExprDouble.3.gz
+-rwxrwxrwx    1 root    wheel            3331 Nov 16  2000 /usr/man/man3/Tcl_ExprDoubleObj.3.gz
+-rwxrwxrwx    1 root    wheel            3531 Nov 16  2000 /usr/man/man3/Tcl_ExprLong.3.gz
+-rwxrwxrwx    1 root    wheel            3331 Nov 16  2000 /usr/man/man3/Tcl_ExprLongObj.3.gz
+-rwxrwxrwx    1 root    wheel            3331 Nov 16  2000 /usr/man/man3/Tcl_ExprObj.3.gz
+-rwxrwxrwx    1 root    wheel            3531 Nov 16  2000 /usr/man/man3/Tcl_ExprString.3.gz
+-rwxrwxrwx    1 root    wheel            3678 Nov 16  2000 /usr/man/man3/Tcl_Finalize.3.gz
+-rwxrwxrwx    1 root    wheel            2866 Nov 16  2000 /usr/man/man3/Tcl_FindExecutable.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_FindHashEntry.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_FirstHashEntry.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Flush.3.gz
+-rwxrwxrwx    1 root    wheel            2797 Nov 16  2000 /usr/man/man3/Tcl_Free.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_GetAlias.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_GetAliasObj.3.gz
+-rwxrwxrwx    1 root    wheel            3368 Nov 16  2000 /usr/man/man3/Tcl_GetAssocData.3.gz
+-rwxrwxrwx    1 root    wheel            3299 Nov 16  2000 /usr/man/man3/Tcl_GetBoolean.3.gz
+-rwxrwxrwx    1 root    wheel            3148 Nov 16  2000 /usr/man/man3/Tcl_GetBooleanFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_GetChannel.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelBufferSize.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelHandle.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelInstanceData.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelMode.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelName.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_GetChannelOption.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_GetChannelType.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_GetCommandInfo.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_GetCommandName.3.gz
+-rwxrwxrwx    1 root    wheel            3299 Nov 16  2000 /usr/man/man3/Tcl_GetDouble.3.gz
+-rwxrwxrwx    1 root    wheel            3097 Nov 16  2000 /usr/man/man3/Tcl_GetDoubleFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            2698 Nov 16  2000 /usr/man/man3/Tcl_GetErrno.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_GetHashKey.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_GetHashValue.3.gz
+-rwxrwxrwx    1 root    wheel            3347 Nov 16  2000 /usr/man/man3/Tcl_GetIndexFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            3299 Nov 16  2000 /usr/man/man3/Tcl_GetInt.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_GetIntFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_GetInterpPath.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_GetLongFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_GetMaster.3.gz
+-rwxrwxrwx    1 root    wheel            2866 Nov 16  2000 /usr/man/man3/Tcl_GetNameOfExecutable.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_GetObjResult.3.gz
+-rwxrwxrwx    1 root    wheel            4674 Nov 16  2000 /usr/man/man3/Tcl_GetObjType.3.gz
+-rwxrwxrwx    1 root    wheel            3007 Nov 16  2000 /usr/man/man3/Tcl_GetOpenFile.3.gz
+-rwxrwxrwx    1 root    wheel            3423 Nov 16  2000 /usr/man/man3/Tcl_GetPathType.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_GetServiceMode.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_GetSlave.3.gz
+-rwxrwxrwx    1 root    wheel            3165 Nov 16  2000 /usr/man/man3/Tcl_GetStdChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_GetStringFromObj.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_GetStringResult.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_GetVar.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_GetVar2.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Gets.3.gz
+-rwxrwxrwx    1 root    wheel            3779 Nov 16  2000 /usr/man/man3/Tcl_GlobalEval.3.gz
+-rwxrwxrwx    1 root    wheel            3426 Nov 16  2000 /usr/man/man3/Tcl_GlobalEvalObj.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_HashStats.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_HideCommand.3.gz
+-rwxrwxrwx    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Tcl_IncrRefCount.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_InitHashTable.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_InputBlocked.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_InputBuffered.3.gz
+-rwxrwxrwx    1 root    wheel            4126 Nov 16  2000 /usr/man/man3/Tcl_Interp.3.gz
+-rwxrwxrwx    1 root    wheel            4215 Nov 16  2000 /usr/man/man3/Tcl_InterpDeleted.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_IsSafe.3.gz
+-rwxrwxrwx    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Tcl_IsShared.3.gz
+-rwxrwxrwx    1 root    wheel            3423 Nov 16  2000 /usr/man/man3/Tcl_JoinPath.3.gz
+-rwxrwxrwx    1 root    wheel            3624 Nov 16  2000 /usr/man/man3/Tcl_LinkVar.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjAppendElement.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjAppendList.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjGetElements.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjIndex.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjLength.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_ListObjReplace.3.gz
+-r--r--r--    1 root    wheel            3010 Nov 16  2000 /usr/man/man3/Tcl_Main.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_MakeFileChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4873 Nov 16  2000 /usr/man/man3/Tcl_MakeSafe.3.gz
+-rwxrwxrwx    1 root    wheel            4603 Nov 16  2000 /usr/man/man3/Tcl_MakeTcpClientChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4622 Nov 16  2000 /usr/man/man3/Tcl_Merge.3.gz
+-rwxrwxrwx    1 root    wheel            3148 Nov 16  2000 /usr/man/man3/Tcl_NewBooleanObj.3.gz
+-rwxrwxrwx    1 root    wheel            3097 Nov 16  2000 /usr/man/man3/Tcl_NewDoubleObj.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_NewIntObj.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_NewListObj.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_NewLongObj.3.gz
+-rwxrwxrwx    1 root    wheel            6705 Nov 16  2000 /usr/man/man3/Tcl_NewObj.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_NewStringObj.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_NextHashEntry.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_NotifyChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4175 Nov 16  2000 /usr/man/man3/Tcl_ObjGetVar2.3.gz
+-rwxrwxrwx    1 root    wheel            4175 Nov 16  2000 /usr/man/man3/Tcl_ObjSetVar2.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_OpenCommandChannel.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_OpenFileChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4603 Nov 16  2000 /usr/man/man3/Tcl_OpenTcpClient.3.gz
+-rwxrwxrwx    1 root    wheel            4603 Nov 16  2000 /usr/man/man3/Tcl_OpenTcpServer.3.gz
+-rwxrwxrwx    1 root    wheel            2879 Nov 16  2000 /usr/man/man3/Tcl_PkgProvide.3.gz
+-rwxrwxrwx    1 root    wheel            2879 Nov 16  2000 /usr/man/man3/Tcl_PkgRequire.3.gz
+-rwxrwxrwx    1 root    wheel            4520 Nov 16  2000 /usr/man/man3/Tcl_PosixError.3.gz
+-rwxrwxrwx    1 root    wheel            3672 Nov 16  2000 /usr/man/man3/Tcl_Preserve.3.gz
+-rwxrwxrwx    1 root    wheel            2807 Nov 16  2000 /usr/man/man3/Tcl_PrintDouble.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_QueueEvent.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Read.3.gz
+-rwxrwxrwx    1 root    wheel            2797 Nov 16  2000 /usr/man/man3/Tcl_Realloc.3.gz
+-rwxrwxrwx    1 root    wheel            3129 Nov 16  2000 /usr/man/man3/Tcl_ReapDetachedProcs.3.gz
+-rwxrwxrwx    1 root    wheel            2965 Nov 16  2000 /usr/man/man3/Tcl_RecordAndEval.3.gz
+-rwxrwxrwx    1 root    wheel            2921 Nov 16  2000 /usr/man/man3/Tcl_RecordAndEvalObj.3.gz
+-rwxrwxrwx    1 root    wheel            3817 Nov 16  2000 /usr/man/man3/Tcl_RegExpCompile.3.gz
+-rwxrwxrwx    1 root    wheel            3817 Nov 16  2000 /usr/man/man3/Tcl_RegExpExec.3.gz
+-rwxrwxrwx    1 root    wheel            3817 Nov 16  2000 /usr/man/man3/Tcl_RegExpMatch.3.gz
+-rwxrwxrwx    1 root    wheel            3817 Nov 16  2000 /usr/man/man3/Tcl_RegExpRange.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_RegisterChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4674 Nov 16  2000 /usr/man/man3/Tcl_RegisterObjType.3.gz
+-rwxrwxrwx    1 root    wheel            3672 Nov 16  2000 /usr/man/man3/Tcl_Release.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_ResetResult.3.gz
+-rwxrwxrwx    1 root    wheel            4622 Nov 16  2000 /usr/man/man3/Tcl_ScanElement.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Seek.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_ServiceAll.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_ServiceEvent.3.gz
+-rwxrwxrwx    1 root    wheel            3368 Nov 16  2000 /usr/man/man3/Tcl_SetAssocData.3.gz
+-rwxrwxrwx    1 root    wheel            3148 Nov 16  2000 /usr/man/man3/Tcl_SetBooleanObj.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_SetChannelBufferSize.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_SetChannelOption.3.gz
+-rwxrwxrwx    1 root    wheel            5443 Nov 16  2000 /usr/man/man3/Tcl_SetCommandInfo.3.gz
+-rwxrwxrwx    1 root    wheel            8358 Nov 16  2000 /usr/man/man3/Tcl_SetDefaultTranslation.3.gz
+-rwxrwxrwx    1 root    wheel            3097 Nov 16  2000 /usr/man/man3/Tcl_SetDoubleObj.3.gz
+-rwxrwxrwx    1 root    wheel            2698 Nov 16  2000 /usr/man/man3/Tcl_SetErrno.3.gz
+-rwxrwxrwx    1 root    wheel            4520 Nov 16  2000 /usr/man/man3/Tcl_SetErrorCode.3.gz
+-rwxrwxrwx    1 root    wheel            5006 Nov 16  2000 /usr/man/man3/Tcl_SetHashValue.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_SetIntObj.3.gz
+-rwxrwxrwx    1 root    wheel            4639 Nov 16  2000 /usr/man/man3/Tcl_SetListObj.3.gz
+-rwxrwxrwx    1 root    wheel            3267 Nov 16  2000 /usr/man/man3/Tcl_SetLongObj.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_SetMaxBlockTime.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_SetObjLength.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_SetObjResult.3.gz
+-rwxrwxrwx    1 root    wheel            2898 Nov 16  2000 /usr/man/man3/Tcl_SetRecursionLimit.3.gz
+-rwxrwxrwx    1 root    wheel            5195 Nov 16  2000 /usr/man/man3/Tcl_SetResult.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_SetServiceMode.3.gz
+-rwxrwxrwx    1 root    wheel            3165 Nov 16  2000 /usr/man/man3/Tcl_SetStdChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4038 Nov 16  2000 /usr/man/man3/Tcl_SetStringObj.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_SetTimer.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_SetVar.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_SetVar2.3.gz
+-rwxrwxrwx    1 root    wheel            2623 Nov 16  2000 /usr/man/man3/Tcl_Sleep.3.gz
+-rwxrwxrwx    1 root    wheel            4622 Nov 16  2000 /usr/man/man3/Tcl_SplitList.3.gz
+-rwxrwxrwx    1 root    wheel            3423 Nov 16  2000 /usr/man/man3/Tcl_SplitPath.3.gz
+-rwxrwxrwx    1 root    wheel            3188 Nov 16  2000 /usr/man/man3/Tcl_StaticPackage.3.gz
+-rwxrwxrwx    1 root    wheel            2621 Nov 16  2000 /usr/man/man3/Tcl_StringMatch.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Tell.3.gz
+-r--r--r--    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_TraceVar.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_TraceVar2.3.gz
+-r--r--r--    1 root    wheel            3075 Nov 16  2000 /usr/man/man3/Tcl_TranslateFileName.3.gz
+-rwxrwxrwx    1 root    wheel            3624 Nov 16  2000 /usr/man/man3/Tcl_UnlinkVar.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_UnregisterChannel.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_UnsetVar.3.gz
+-rwxrwxrwx    1 root    wheel            4660 Nov 16  2000 /usr/man/man3/Tcl_UnsetVar2.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_UntraceVar.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_UntraceVar2.3.gz
+-r--r--r--    1 root    wheel            3256 Nov 16  2000 /usr/man/man3/Tcl_UpVar.3.gz
+-rwxrwxrwx    1 root    wheel            3256 Nov 16  2000 /usr/man/man3/Tcl_UpVar2.3.gz
+-rwxrwxrwx    1 root    wheel            3624 Nov 16  2000 /usr/man/man3/Tcl_UpdateLinkedVar.3.gz
+-rwxrwxrwx    1 root    wheel            3779 Nov 16  2000 /usr/man/man3/Tcl_VarEval.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_VarTraceInfo.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/Tcl_VarTraceInfo2.3.gz
+-rwxrwxrwx    1 root    wheel            9554 Nov 16  2000 /usr/man/man3/Tcl_WaitForEvent.3.gz
+-rwxrwxrwx    1 root    wheel            8495 Nov 16  2000 /usr/man/man3/Tcl_Write.3.gz
+-r--r--r--    1 root    wheel            3203 Nov 16  2000 /usr/man/man3/Tcl_WrongNumArgs.3.gz
+-rwxrwxrwx    1 root    wheel            6811 Nov 16  2000 /usr/man/man3/TraceVar.3.gz
+-rwxrwxrwx    1 root    wheel            3075 Nov 16  2000 /usr/man/man3/Translate.3.gz
+-rwxrwxrwx    1 root    wheel            3256 Nov 16  2000 /usr/man/man3/UpVar.3.gz
+-rwxrwxrwx    1 root    wheel            3203 Nov 16  2000 /usr/man/man3/WrongNumArgs.3.gz
+-r--r--r--    1 root    wheel            6343 Nov 16  2000 /usr/man/mann/Http.n.gz
+-r--r--r--    1 root    wheel            7128 Nov 16  2000 /usr/man/mann/SafeBase.n.gz
+-r--r--r--    1 root    wheel            4477 Nov 16  2000 /usr/man/mann/Tcl.n.gz
+-r--r--r--    1 root    wheel            3595 Nov 16  2000 /usr/man/mann/after.n.gz
+-r--r--r--    1 root    wheel            2561 Nov 16  2000 /usr/man/mann/append.n.gz
+-r--r--r--    1 root    wheel            3727 Nov 16  2000 /usr/man/mann/array.n.gz
+-r--r--r--    1 root    wheel            3233 Nov 16  2000 /usr/man/mann/bgerror.n.gz
+-r--r--r--    1 root    wheel            6691 Nov 16  2000 /usr/man/mann/binary.n.gz
+-r--r--r--    1 root    wheel            2611 Nov 16  2000 /usr/man/mann/break.n.gz
+-r--r--r--    1 root    wheel            3153 Nov 16  2000 /usr/man/mann/case.n.gz
+-r--r--r--    1 root    wheel            2800 Nov 16  2000 /usr/man/mann/catch.n.gz
+-r--r--r--    1 root    wheel            2458 Nov 16  2000 /usr/man/mann/cd.n.gz
+-r--r--r--    1 root    wheel            4643 Nov 16  2000 /usr/man/mann/clock.n.gz
+-r--r--r--    1 root    wheel            2979 Nov 16  2000 /usr/man/mann/close.n.gz
+-r--r--r--    1 root    wheel            2600 Nov 16  2000 /usr/man/mann/concat.n.gz
+-r--r--r--    1 root    wheel            2611 Nov 16  2000 /usr/man/mann/continue.n.gz
+-r--r--r--    1 root    wheel            2449 Nov 16  2000 /usr/man/mann/eof.n.gz
+-r--r--r--    1 root    wheel            3052 Nov 16  2000 /usr/man/mann/error.n.gz
+-r--r--r--    1 root    wheel            2546 Nov 16  2000 /usr/man/mann/eval.n.gz
+-r--r--r--    1 root    wheel            6346 Nov 16  2000 /usr/man/mann/exec.n.gz
+-r--r--r--    1 root    wheel            2439 Nov 16  2000 /usr/man/mann/exit.n.gz
+-r--r--r--    1 root    wheel            6463 Nov 16  2000 /usr/man/mann/expr.n.gz
+-r--r--r--    1 root    wheel            2569 Nov 16  2000 /usr/man/mann/fblocked.n.gz
+-r--r--r--    1 root    wheel            4688 Nov 16  2000 /usr/man/mann/fconfigure.n.gz
+-r--r--r--    1 root    wheel            3783 Nov 16  2000 /usr/man/mann/fcopy.n.gz
+-r--r--r--    1 root    wheel            6171 Nov 16  2000 /usr/man/mann/file.n.gz
+-r--r--r--    1 root    wheel            3938 Nov 16  2000 /usr/man/mann/fileevent.n.gz
+-r--r--r--    1 root    wheel            4600 Nov 16  2000 /usr/man/mann/filename.n.gz
+-r--r--r--    1 root    wheel            2649 Nov 16  2000 /usr/man/mann/flush.n.gz
+-r--r--r--    1 root    wheel            3033 Nov 16  2000 /usr/man/mann/for.n.gz
+-r--r--r--    1 root    wheel            3202 Nov 16  2000 /usr/man/mann/foreach.n.gz
+-r--r--r--    1 root    wheel            5017 Nov 16  2000 /usr/man/mann/format.n.gz
+-r--r--r--    1 root    wheel            2875 Nov 16  2000 /usr/man/mann/gets.n.gz
+-r--r--r--    1 root    wheel            3356 Nov 16  2000 /usr/man/mann/glob.n.gz
+-r--r--r--    1 root    wheel            2583 Nov 16  2000 /usr/man/mann/global.n.gz
+-r--r--r--    1 root    wheel            3685 Nov 16  2000 /usr/man/mann/history.n.gz
+-rwxrwxrwx    1 root    wheel            6343 Nov 16  2000 /usr/man/mann/http.n.gz
+-r--r--r--    1 root    wheel            2843 Nov 16  2000 /usr/man/mann/if.n.gz
+-r--r--r--    1 root    wheel            2536 Nov 16  2000 /usr/man/mann/incr.n.gz
+-r--r--r--    1 root    wheel            4397 Nov 16  2000 /usr/man/mann/info.n.gz
+-r--r--r--    1 root    wheel            9398 Nov 16  2000 /usr/man/mann/interp.n.gz
+-r--r--r--    1 root    wheel            2511 Nov 16  2000 /usr/man/mann/join.n.gz
+-r--r--r--    1 root    wheel            2664 Nov 16  2000 /usr/man/mann/lappend.n.gz
+-r--r--r--    1 root    wheel            5797 Nov 16  2000 /usr/man/mann/library.n.gz
+-r--r--r--    1 root    wheel            2638 Nov 16  2000 /usr/man/mann/lindex.n.gz
+-r--r--r--    1 root    wheel            2586 Nov 16  2000 /usr/man/mann/linsert.n.gz
+-r--r--r--    1 root    wheel            2727 Nov 16  2000 /usr/man/mann/list.n.gz
+-r--r--r--    1 root    wheel            2426 Nov 16  2000 /usr/man/mann/llength.n.gz
+-r--r--r--    1 root    wheel            3975 Nov 16  2000 /usr/man/mann/load.n.gz
+-r--r--r--    1 root    wheel            2745 Nov 16  2000 /usr/man/mann/lrange.n.gz
+-r--r--r--    1 root    wheel            2746 Nov 16  2000 /usr/man/mann/lreplace.n.gz
+-r--r--r--    1 root    wheel            2713 Nov 16  2000 /usr/man/mann/lsearch.n.gz
+-r--r--r--    1 root    wheel            3372 Nov 16  2000 /usr/man/mann/lsort.n.gz
+-r--r--r--    1 root    wheel            8377 Nov 16  2000 /usr/man/mann/namespace.n.gz
+-r--r--r--    1 root    wheel            5374 Nov 16  2000 /usr/man/mann/open.n.gz
+-r--r--r--    1 root    wheel            4873 Nov 16  2000 /usr/man/mann/package.n.gz
+-r--r--r--    1 root    wheel            2583 Nov 16  2000 /usr/man/mann/pid.n.gz
+-r--r--r--    1 root    wheel            5752 Nov 16  2000 /usr/man/mann/pkgMkIndex.n.gz
+-rwxrwxrwx    1 root    wheel            5752 Nov 16  2000 /usr/man/mann/pkg_mkIndex.n.gz
+-r--r--r--    1 root    wheel            3324 Nov 16  2000 /usr/man/mann/proc.n.gz
+-r--r--r--    1 root    wheel            3283 Nov 16  2000 /usr/man/mann/puts.n.gz
+-r--r--r--    1 root    wheel            2389 Nov 16  2000 /usr/man/mann/pwd.n.gz
+-r--r--r--    1 root    wheel            2847 Nov 16  2000 /usr/man/mann/read.n.gz
+-r--r--r--    1 root    wheel            4406 Nov 16  2000 /usr/man/mann/regexp.n.gz
+-r--r--r--    1 root    wheel            4126 Nov 16  2000 /usr/man/mann/registry.n.gz
+-r--r--r--    1 root    wheel            3186 Nov 16  2000 /usr/man/mann/regsub.n.gz
+-r--r--r--    1 root    wheel            2559 Nov 16  2000 /usr/man/mann/rename.n.gz
+-r--r--r--    1 root    wheel            4337 Nov 16  2000 /usr/man/mann/resource.n.gz
+-r--r--r--    1 root    wheel            3253 Nov 16  2000 /usr/man/mann/return.n.gz
+-rwxrwxrwx    1 root    wheel            7128 Nov 16  2000 /usr/man/mann/safe.n.gz
+-r--r--r--    1 root    wheel            3974 Nov 16  2000 /usr/man/mann/scan.n.gz
+-r--r--r--    1 root    wheel            2874 Nov 16  2000 /usr/man/mann/seek.n.gz
+-r--r--r--    1 root    wheel            2807 Nov 16  2000 /usr/man/mann/set.n.gz
+-r--r--r--    1 root    wheel            4133 Nov 16  2000 /usr/man/mann/socket.n.gz
+-r--r--r--    1 root    wheel            2821 Nov 16  2000 /usr/man/mann/source.n.gz
+-r--r--r--    1 root    wheel            2691 Nov 16  2000 /usr/man/mann/split.n.gz
+-r--r--r--    1 root    wheel            3656 Nov 16  2000 /usr/man/mann/string.n.gz
+-r--r--r--    1 root    wheel            2808 Nov 16  2000 /usr/man/mann/subst.n.gz
+-r--r--r--    1 root    wheel            3465 Nov 16  2000 /usr/man/mann/switch.n.gz
+-r--r--r--    1 root    wheel            7056 Nov 16  2000 /usr/man/mann/tclvars.n.gz
+-r--r--r--    1 root    wheel            2456 Nov 16  2000 /usr/man/mann/tell.n.gz
+-r--r--r--    1 root    wheel            2553 Nov 16  2000 /usr/man/mann/time.n.gz
+-r--r--r--    1 root    wheel            4391 Nov 16  2000 /usr/man/mann/trace.n.gz
+-r--r--r--    1 root    wheel            3400 Nov 16  2000 /usr/man/mann/unknown.n.gz
+-r--r--r--    1 root    wheel            2622 Nov 16  2000 /usr/man/mann/unset.n.gz
+-r--r--r--    1 root    wheel            2931 Nov 16  2000 /usr/man/mann/update.n.gz
+-r--r--r--    1 root    wheel            3351 Nov 16  2000 /usr/man/mann/uplevel.n.gz
+-r--r--r--    1 root    wheel            3613 Nov 16  2000 /usr/man/mann/upvar.n.gz
+-r--r--r--    1 root    wheel            2981 Nov 16  2000 /usr/man/mann/variable.n.gz
+-r--r--r--    1 root    wheel            2682 Nov 16  2000 /usr/man/mann/vwait.n.gz
+-r--r--r--    1 root    wheel            2951 Nov 16  2000 /usr/man/mann/while.n.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tcl-8.0.5-1.m68kmint.rpm">Download</A></H2> (1,938,080 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

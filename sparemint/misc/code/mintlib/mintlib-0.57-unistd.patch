@@ -1,0 +1,13 @@
+--- mintlib/include/unistd.h.~	Tue Jul 17 13:03:00 2001
++++ mintlib/include/unistd.h	Wed Aug 15 12:09:24 2001
+@@ -282,8 +282,8 @@
+    the current position (if WHENCE is SEEK_CUR),
+    or the end of the file (if WHENCE is SEEK_END).
+    Return the new file position.  */
+-extern off_t lseek (int __fd, __off_t __offset, int __whence) __THROW;
+-extern off_t __lseek (int __fd, __off_t __offset, int __whence) __THROW;
++extern __off_t lseek (int __fd, __off_t __offset, int __whence) __THROW;
++extern __off_t __lseek (int __fd, __off_t __offset, int __whence) __THROW;
+ 
+ /* Close the file descriptor FD.  */
+ extern int close (int __fd) __THROW;

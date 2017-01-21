@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - smmgr, version 1.1.2, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>smmgr</H2>
+
+<UL> 
+<LI>Summary: Selfmode Manager for USR Sportster Message Plus (Pro)<BR>
+
+<LI>Version: 1.1.2<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/File">Applications/File</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 323,666 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>smmgr = 1.1.2-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Feb 21 12:24:20 2001 UTC<BR>
+<LI>Upload date: Fri Feb 23 01:57:03 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/smmgr-1.1.2-2.src.rpm">smmgr-1.1.2-2.src.rpm</A>  (44,218 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;m.kehr@ndh.net&gt; Sun Feb 18 10:00:00 2001 UTC<BR>
+- build against MiNTLib 0.56<BR>- enabled GSM support<BR>- fixed lockfile problem when exiting (thanks to Frank)
+<LI>Description:<BR>
+The US Robotics Sportster Message Plus can receive fax and voice messages<BR>on its own and has a 2MB flash memory to store them. They can later be<BR>downloaded using this program. It is also used to conviently change settings<BR>for the independent mode.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             1003 Feb 21  2001 /etc/smmgr.conf
+-rwxr-xr-x    1 root    root             5814 Feb 21  2001 /usr/bin/lsmmgr
+-rwxr-xr-x    1 root    root           308054 Feb 21  2001 /usr/bin/smmgr
+drwxr-xr-x    2 root    wheel               0 Feb 21  2001 /usr/doc/smmgr-1.1.2
+-rw-r--r--    1 root    wheel            3519 Dec 20  1999 /usr/doc/smmgr-1.1.2/Commands.txt
+-rw-r--r--    1 root    wheel            3116 Dec 20  1999 /usr/doc/smmgr-1.1.2/README
+-rw-r--r--    1 root    wheel            1136 Dec 23  1999 /usr/doc/smmgr-1.1.2/TODO
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/smmgr-1.1.2-2.m68kmint.rpm">Download</A></H2> (144,470 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

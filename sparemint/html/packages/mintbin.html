@@ -1,0 +1,121 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mintbin, version 0.3, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mintbin</H2>
+
+<UL> 
+<LI>Summary: MiNT Binary Utility Development Utilities<BR>
+
+<LI>Version: 0.3<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#Development/Tools">Development/Tools</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 2,141,068 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mintbin = 0.3-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon May 31 20:17:04 2010 UTC<BR>
+<LI>Upload date: Sun Jun 13 18:01:13 2010 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mintbin-0.3-4.src.rpm">mintbin-0.3-4.src.rpm</A>  (336,058 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Mon May 31 22:00:00 2010 UTC<BR>
+- Incorporated Vincent Rivière's patch and removed ar.h which conflicts with<BR>- current MiNTLib
+<LI>Description:<BR>
+MiNTBin is a collection of supplementary utilities necessary for compiling<BR>programs for MiNT in a GNU development environment.  It also contains<BR>tools that are necessary for non-programmers like programs for changing<BR>resp. inquiring program flags but its primary use it to accompany the<BR>GNU binutils (version &gt;2.9.1) on MiNT systems.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    2 root    root           122960 May 31 16:16 /usr/bin/arconv
+-rwxr-xr-x    2 root    root           124460 May 31 16:16 /usr/bin/cnm
+-rwxr-xr-x    2 root    root           123773 May 31 16:16 /usr/bin/csize
+-rwxr-xr-x    2 root    root           130963 May 31 16:16 /usr/bin/cstrip
+-rwxr-xr-x    2 root    root           127113 May 31 16:16 /usr/bin/flags
+-rwxr-xr-x    2 root    root           121375 May 31 16:16 /usr/bin/mintbin
+-rwxr-xr-x    2 root    root           126788 May 31 16:16 /usr/bin/stack
+-rwxr-xr-x    2 root    root           122256 May 31 16:16 /usr/bin/symex
+drwxr-xr-x    2 root    root                0 May 31 16:17 /usr/doc/mintbin-0.3
+-rw-r--r--    1 root    root            11651 Oct  2  1998 /usr/doc/mintbin-0.3/ABOUT-NLS
+-rw-r--r--    1 root    root            17992 Jun  5  1999 /usr/doc/mintbin-0.3/COPYING
+-rw-r--r--    1 root    root             2292 Jun 28  1999 /usr/doc/mintbin-0.3/ChangeLog
+-rw-r--r--    1 root    root              818 Jun 28  1999 /usr/doc/mintbin-0.3/NEWS
+-r--r--r--    1 root    root             3059 Jun 28  1999 /usr/doc/mintbin-0.3/README
+-rw-r--r--    1 root    root              180 Jan  9  1999 /usr/doc/mintbin-0.3/README-alpha
+-rw-r--r--    1 root    root              143 Jun 28  1999 /usr/doc/mintbin-0.3/TODO
+-rw-r--r--    2 root    root               24 May 31 16:16 /usr/include/a.out.h
+-rw-r--r--    2 root    root            10588 May 31 16:16 /usr/include/mint/a.out.h
+-rw-r--r--    2 root    root             6646 May 31 16:16 /usr/include/mint/prg-out.h
+-rw-r--r--    2 root    root            10859 May 31 16:16 /usr/include/stab.def
+-rw-r--r--    2 root    root              878 May 31 16:16 /usr/include/stab.h
+-rw-r--r--    1 root    root            14840 May 31 16:16 /usr/info/mintbin.info.gz
+-rwxr-xr-x    2 root    root           122960 May 31 16:16 /usr/m68k-atari-mint/bin/arconv
+-rwxr-xr-x    2 root    root           124460 May 31 16:16 /usr/m68k-atari-mint/bin/cnm
+-rwxr-xr-x    2 root    root           123773 May 31 16:16 /usr/m68k-atari-mint/bin/csize
+-rwxr-xr-x    2 root    root           130963 May 31 16:16 /usr/m68k-atari-mint/bin/cstrip
+-rwxr-xr-x    2 root    root           127113 May 31 16:16 /usr/m68k-atari-mint/bin/flags
+-rwxr-xr-x    2 root    root           121375 May 31 16:16 /usr/m68k-atari-mint/bin/mintbin
+-rwxr-xr-x    2 root    root           126788 May 31 16:16 /usr/m68k-atari-mint/bin/stack
+-rwxr-xr-x    2 root    root           122256 May 31 16:16 /usr/m68k-atari-mint/bin/symex
+-rw-r--r--    2 root    root               24 May 31 16:16 /usr/m68k-atari-mint/include/a.out.h
+-rw-r--r--    2 root    root            10588 May 31 16:16 /usr/m68k-atari-mint/include/mint/a.out.h
+-rw-r--r--    2 root    root             6646 May 31 16:16 /usr/m68k-atari-mint/include/mint/prg-out.h
+-rw-r--r--    2 root    root            10859 May 31 16:16 /usr/m68k-atari-mint/include/stab.def
+-rw-r--r--    2 root    root              878 May 31 16:16 /usr/m68k-atari-mint/include/stab.h
+-rw-r--r--    1 root    root            28631 May 31 16:16 /usr/share/locale/de/LC_MESSAGES/mintbin.mo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mintbin-0.3-4.m68kmint.rpm">Download</A></H2> (592,547 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,36 @@
+Attention:
+----------
+
+From version 0.55.3 MiNTLib development use cvs as version control
+system. The current development branch is available through anonymous
+cvs access.
+
+If you want to contribute code/patches to the MiNTLib it's strictly
+recommended that you use cvs.
+
+Frank Naumann <fnaumann@freemint.de>
+2000-10-12
+
+---------------------------------------------------------------------------
+
+This directory contains MiNTLib source archives.  Versions that end in 
+a lowercase letter (e. g. 0.54.1b) are unstable alpha versions and should 
+only be downloaded by the experienced or very patient user.  Archives
+that end in ``.bin.tar.gz'' are precompiled binary versions.  If you have
+rpm you will rather install a binary rpm instead that is available from
+the Sparemint server.  Note that not all MiNTLib versions are available
+as precompiled binaries.  
+
+Please read the file README-about-patches if you update your source tree
+from a patch file.  The absence of a patch file that leads from one version
+to the next is usually a sign that the resulting patch would be bigger than
+the new archive.
+
+Please read README.1st before you upgrade from a version prior to 0.55.
+
+If the above mentioned files do not appear in the directory listing
+the web server has hidden them.  Use the symbolic links PATCHES.README
+(-> README-about-patches) and IMPORTANT (-> README.1st) instead.
+
+Guido Flohr <guido@freemint.de>
+

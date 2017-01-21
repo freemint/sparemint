@@ -1,0 +1,92 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - cvsweb, version 1.58, release 4</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>cvsweb</H2>
+
+<UL> 
+<LI>Summary: CGI script that allows Web-browsing of a CVS repository<BR>
+<LI>URL: <A HREF="http://linux.fh-heilbronn.de/~zeller/cgi/cvsweb.cgi/">http://linux.fh-heilbronn.de/~zeller/cgi/cvsweb.cgi/</A><BR>
+<LI>Version: 1.58<BR>
+<LI>Release: 4<BR>
+<LI>Group: <A HREF="../groups.html#Development/Version Control">Development/Version Control</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 92,570 bytes<BR>
+<LI>Operating system: FreeMiNT<BR>
+<LI>Provides:<UL>
+  <LI>cvsweb = 1.58-4<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>perl >= 5<BR>
+  <LI>apache  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Aug 26 09:35:44 1999 UTC<BR>
+<LI>Upload date: Thu Aug 26 11:35:52 1999 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/cvsweb-1.58-4.src.rpm">cvsweb-1.58-4.src.rpm</A>  (38,631 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Wed Aug 25 09:00:00 1999 UTC<BR>
+- correct Packager and Vendor
+<LI>Description:<BR>
+The cgi-script cvsweb.cgi is written by Bill Fenner &lt;fenner@freebsd.org&gt;<BR>for the freebsd project. It allows browsing of CVS repositories<BR>with an HTML browser.<BR><P><BR>This package contains the version of cvsweb script modified by<BR>Henner Zeller &lt;zeller@think.de&gt;, Henrik Nordström &lt;hno@hem.passagen.se&gt;<BR>and Alexey Nogin &lt;nogin@cs.cornell.edu&gt;
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root             9921 Aug 26  1999 /etc/httpd/conf/cvsweb.conf
+-r-xr-xr-x    1 root    root            73263 Aug 26  1999 /home/httpd/cgi-bin/cvsweb.cgi
+drwxr-xr-x    2 root    root                0 Aug 26  1999 /usr/doc/cvsweb-1.58
+-r--r--r--    1 root    root             4529 Feb 23  1999 /usr/doc/cvsweb-1.58/INSTALL
+-r--r--r--    1 root    root             3149 Jan 16  1999 /usr/doc/cvsweb-1.58/README
+-r--r--r--    1 root    root             1583 Jan 17  1999 /usr/doc/cvsweb-1.58/TODO
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/noarch/cvsweb-1.58-4.noarch.rpm">Download</A></H2> (34,151 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

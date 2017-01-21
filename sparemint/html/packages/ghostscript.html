@@ -1,0 +1,446 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ghostscript, version 8.15, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ghostscript</H2>
+
+<UL> 
+<LI>Summary: A PostScript(TM) interpreter and renderer.<BR>
+<LI>URL: <A HREF="http://www.ghostscript.com">http://www.ghostscript.com</A><BR>
+<LI>Version: 8.15<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Graphics">Applications/Graphics</A>
+<LI>License: GNU</BR>
+<LI>Installation size: 8,247,955 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ghostscript = 8.15-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>urw-fonts >= 1.1<BR>
+  <LI>ghostscript-fonts >= 6.0<BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>ghostscript-68000  <BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Nov  7 22:33:19 2004 UTC<BR>
+<LI>Upload date: Wed Nov 10 10:42:50 2004 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ghostscript-8.15-1.src.rpm">ghostscript-8.15-1.src.rpm</A>  (9,648,266 bytes)<BR>
+<LI>Last change: Martin Tarenskeen &lt;m.tarenskeen@zonnet.nl&gt; Sun Nov  7 10:00:00 2004 UTC<BR>
+- updated to GNU Ghostscript 8.15<BR>- new URL in specfile header
+<LI>Description:<BR>
+Ghostscript is a set of software that provides a PostScript(TM)<BR>interpreter, a set of C procedures (the Ghostscript library, which<BR>implements the graphics capabilities in the PostScript language) and<BR>an interpreter for Portable Document Format (PDF) files.  Ghostscript<BR>translates PostScript code into many common, bitmapped formats, like<BR>those understood by your printer or screen.  Ghostscript is normally<BR>used to display PostScript files and to print PostScript files to<BR>non-PostScript printers.<BR><P><BR>If you need to display PostScript files or print them to<BR>non-PostScript printers, you should install ghostscript.  If you<BR>install ghostscript, you also need to install the ghostscript-fonts<BR>package.<BR><P><BR>==========================================================================<BR>This packages was compiled with -m68020-060. This means you need at least<BR>a machine with an 68020 CPU and an FPU to use the programs herein.<BR>==========================================================================<BR><P><BR>Install the ghostscript-68000 package if you have an ST or an Falcon<BR>without FPU.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              113 Nov  7  2004 /usr/bin/bdftops
+-rwxr-xr-x    1 root    root              843 Nov  7  2004 /usr/bin/dvipdf
+-rwxr-xr-x    1 root    root              436 Nov  7  2004 /usr/bin/eps2eps
+-rwxr-xr-x    1 root    root             4585 Nov  7  2004 /usr/bin/fixmswrd.pl
+-rwxr-xr-x    1 root    root              121 Nov  7  2004 /usr/bin/font2c
+?rwxrwxrwx    1 root    root                2 Nov  7  2004 /usr/bin/ghostscript
+-rwxr-xr-x    1 root    root          3080857 Nov  7  2004 /usr/bin/gs
+-rwxr-xr-x    1 root    root              158 Nov  7  2004 /usr/bin/gsbj
+-rwxr-xr-x    1 root    root              160 Nov  7  2004 /usr/bin/gsdj
+-rwxr-xr-x    1 root    root              163 Nov  7  2004 /usr/bin/gsdj500
+-rwxr-xr-x    1 root    root              161 Nov  7  2004 /usr/bin/gslj
+-rwxr-xr-x    1 root    root              158 Nov  7  2004 /usr/bin/gslp
+-rwxr-xr-x    1 root    root               85 Nov  7  2004 /usr/bin/gsnd
+-rwxr-xr-x    1 root    root             4665 Nov  7  2004 /usr/bin/lprsetup.sh
+-rwxr-xr-x    1 root    root              518 Nov  7  2004 /usr/bin/pdf2dsc
+-rwxr-xr-x    1 root    root              723 Nov  7  2004 /usr/bin/pdf2ps
+-rwxr-xr-x    1 root    root              364 Nov  7  2004 /usr/bin/pdfopt
+-rwxr-xr-x    1 root    root              317 Nov  7  2004 /usr/bin/pf2afm
+-rwxr-xr-x    1 root    root              333 Nov  7  2004 /usr/bin/pfbtopfa
+-rwxr-xr-x    1 root    root              208 Nov  7  2004 /usr/bin/printafm
+-rwxr-xr-x    1 root    root              645 Nov  7  2004 /usr/bin/ps2ascii
+-rwxr-xr-x    1 root    root             1694 Nov  7  2004 /usr/bin/ps2epsi
+-rwxr-xr-x    1 root    root              213 Nov  7  2004 /usr/bin/ps2pdf
+-rwxr-xr-x    1 root    root              175 Nov  7  2004 /usr/bin/ps2pdf12
+-rwxr-xr-x    1 root    root              175 Nov  7  2004 /usr/bin/ps2pdf13
+-rwxr-xr-x    1 root    root              175 Nov  7  2004 /usr/bin/ps2pdf14
+-rwxr-xr-x    1 root    root              893 Nov  7  2004 /usr/bin/ps2pdfwr
+-rwxr-xr-x    1 root    root              438 Nov  7  2004 /usr/bin/ps2ps
+-rwxr-xr-x    1 root    root             1127 Nov  7  2004 /usr/bin/pv.sh
+-rwxr-xr-x    1 root    root             4085 Nov  7  2004 /usr/bin/unix-lpr.sh
+-rwxr-xr-x    1 root    root              105 Nov  7  2004 /usr/bin/wftopfa
+drwxrwxrwx    2 root    root                0 Nov  7  2004 /usr/doc/ghostscript-8.15
+-rw-r--r--    1 root    root            23457 Nov  7  2004 /usr/doc/ghostscript-8.15/API.htm
+-rw-r--r--    1 root    root             5310 Nov  7  2004 /usr/doc/ghostscript-8.15/Bug-form.htm
+-rw-r--r--    1 root    root             7487 Nov  7  2004 /usr/doc/ghostscript-8.15/Bug-info.htm
+-rw-r--r--    1 root    root            56093 Nov  7  2004 /usr/doc/ghostscript-8.15/C-style.htm
+-rw-r--r--    1 root    root            42068 Nov  7  2004 /usr/doc/ghostscript-8.15/Changes.htm
+-rw-r--r--    1 root    root            13261 Nov  7  2004 /usr/doc/ghostscript-8.15/Commprod.htm
+-rw-r--r--    1 root    root            25603 Nov  7  2004 /usr/doc/ghostscript-8.15/DLL.htm
+-rw-r--r--    1 root    root           159921 Nov  7  2004 /usr/doc/ghostscript-8.15/Develop.htm
+-rw-r--r--    1 root    root            50322 Nov  7  2004 /usr/doc/ghostscript-8.15/Devices.htm
+-rw-r--r--    1 root    root           120141 Nov  7  2004 /usr/doc/ghostscript-8.15/Drivers.htm
+-rw-r--r--    1 root    root            45134 Nov  7  2004 /usr/doc/ghostscript-8.15/Fonts.htm
+-rw-r--r--    1 root    root            10471 Nov  7  2004 /usr/doc/ghostscript-8.15/Helpers.htm
+-rw-r--r--    1 root    root            14205 Nov  7  2004 /usr/doc/ghostscript-8.15/Hershey.htm
+-rw-r--r--    1 root    root            15601 Nov  7  2004 /usr/doc/ghostscript-8.15/History1.htm
+-rw-r--r--    1 root    root           211267 Nov  7  2004 /usr/doc/ghostscript-8.15/History2.htm
+-rw-r--r--    1 root    root           348913 Nov  7  2004 /usr/doc/ghostscript-8.15/History3.htm
+-rw-r--r--    1 root    root           162226 Nov  7  2004 /usr/doc/ghostscript-8.15/History4.htm
+-rw-r--r--    1 root    root           564967 Nov  7  2004 /usr/doc/ghostscript-8.15/History5.htm
+-rw-r--r--    1 root    root           365328 Nov  7  2004 /usr/doc/ghostscript-8.15/History6.htm
+-rw-r--r--    1 root    root            28081 Nov  7  2004 /usr/doc/ghostscript-8.15/Htmstyle.htm
+-rw-r--r--    1 root    root             3633 Nov  7  2004 /usr/doc/ghostscript-8.15/Humor.htm
+-rw-r--r--    1 root    root            20622 Nov  7  2004 /usr/doc/ghostscript-8.15/Install.htm
+-rw-r--r--    1 root    root            84748 Nov  7  2004 /usr/doc/ghostscript-8.15/Language.htm
+-rw-r--r--    1 root    root            32838 Nov  7  2004 /usr/doc/ghostscript-8.15/Lib.htm
+-rw-r--r--    1 root    root             8767 Nov  7  2004 /usr/doc/ghostscript-8.15/Maintain.htm
+-rw-r--r--    1 root    root           111897 Nov  7  2004 /usr/doc/ghostscript-8.15/Make.htm
+-rw-r--r--    1 root    root            36127 Nov  7  2004 /usr/doc/ghostscript-8.15/New-user.htm
+-rw-r--r--    1 root    root             4217 Nov  7  2004 /usr/doc/ghostscript-8.15/News.htm
+-rw-r--r--    1 root    root            30742 Nov  7  2004 /usr/doc/ghostscript-8.15/Projects.htm
+-rw-r--r--    1 root    root            14828 Nov  7  2004 /usr/doc/ghostscript-8.15/Ps-style.htm
+-rw-r--r--    1 root    root             6611 Nov  7  2004 /usr/doc/ghostscript-8.15/Ps2epsi.htm
+-rw-r--r--    1 root    root            32405 Nov  7  2004 /usr/doc/ghostscript-8.15/Ps2pdf.htm
+-rw-r--r--    1 root    root            29358 Nov  7  2004 /usr/doc/ghostscript-8.15/Psfiles.htm
+-rw-r--r--    1 root    root            14407 Nov  7  2004 /usr/doc/ghostscript-8.15/Public.htm
+-rw-r--r--    1 root    root            16904 Nov  7  2004 /usr/doc/ghostscript-8.15/README
+-rw-r--r--    1 root    root            24151 Nov  7  2004 /usr/doc/ghostscript-8.15/Readme.htm
+-rw-r--r--    1 root    root            30052 Nov  7  2004 /usr/doc/ghostscript-8.15/Release.htm
+-rw-r--r--    1 root    root            13861 Nov  7  2004 /usr/doc/ghostscript-8.15/Source.htm
+-rw-r--r--    1 root    root             4634 Nov  7  2004 /usr/doc/ghostscript-8.15/Tester.htm
+-rw-r--r--    1 root    root            10703 Nov  7  2004 /usr/doc/ghostscript-8.15/Unix-lpr.htm
+-rw-r--r--    1 root    root           130335 Nov  7  2004 /usr/doc/ghostscript-8.15/Use.htm
+-rw-r--r--    1 root    root            10652 Nov  7  2004 /usr/doc/ghostscript-8.15/Xfonts.htm
+-rw-r--r--    1 root    root              990 Nov  7  2004 /usr/doc/ghostscript-8.15/gs.css
+-rw-r--r--    1 root    root              456 Nov  7  2004 /usr/doc/ghostscript-8.15/index.html
+drwxrwxrwx    2 root    root                0 Nov  7  2004 /usr/share/ghostscript/8.15
+drwxrwxrwx    2 root    root                0 Nov  7  2004 /usr/share/ghostscript/8.15/examples
+-rw-r--r--    1 root    root             1551 Nov  7  2004 /usr/share/ghostscript/8.15/examples/alphabet.ps
+-rw-r--r--    1 root    root            61791 Nov  7  2004 /usr/share/ghostscript/8.15/examples/chess.ps
+-rw-r--r--    1 root    root             1973 Nov  7  2004 /usr/share/ghostscript/8.15/examples/colorcir.ps
+-rw-r--r--    1 root    root           137290 Nov  7  2004 /usr/share/ghostscript/8.15/examples/doretree.ps
+-rw-r--r--    1 root    root            10617 Nov  7  2004 /usr/share/ghostscript/8.15/examples/escher.ps
+-rw-r--r--    1 root    root            25574 Nov  7  2004 /usr/share/ghostscript/8.15/examples/golfer.eps
+-rw-r--r--    1 root    root             1624 Nov  7  2004 /usr/share/ghostscript/8.15/examples/grayalph.ps
+-rw-r--r--    1 root    root             3020 Nov  7  2004 /usr/share/ghostscript/8.15/examples/ridt91.eps
+-rw-r--r--    1 root    root             2165 Nov  7  2004 /usr/share/ghostscript/8.15/examples/snowflak.ps
+-rw-r--r--    1 root    root            78599 Nov  7  2004 /usr/share/ghostscript/8.15/examples/tiger.eps
+-rw-r--r--    1 root    root            13189 Nov  7  2004 /usr/share/ghostscript/8.15/examples/vasarely.ps
+-rw-r--r--    1 root    root             2532 Nov  7  2004 /usr/share/ghostscript/8.15/examples/waterfal.ps
+drwxrwxrwx    2 root    root                0 Nov  7  2004 /usr/share/ghostscript/8.15/lib
+-rw-r--r--    1 root    root             1495 Nov  7  2004 /usr/share/ghostscript/8.15/lib/FAPIcidfmap
+-rw-r--r--    1 root    root              778 Nov  7  2004 /usr/share/ghostscript/8.15/lib/FAPIconfig
+-rw-r--r--    1 root    root             1480 Nov  7  2004 /usr/share/ghostscript/8.15/lib/FAPIfontmap
+-rw-r--r--    1 root    root              109 Nov  7  2004 /usr/share/ghostscript/8.15/lib/Fontmap
+-rw-r--r--    1 root    root            13531 Nov  7  2004 /usr/share/ghostscript/8.15/lib/Fontmap.GS
+-rw-r--r--    1 root    root             4328 Nov  7  2004 /usr/share/ghostscript/8.15/lib/acctest.ps
+-rw-r--r--    1 root    root             9852 Nov  7  2004 /usr/share/ghostscript/8.15/lib/addxchar.ps
+-rw-r--r--    1 root    root             2317 Nov  7  2004 /usr/share/ghostscript/8.15/lib/align.ps
+-rw-r--r--    1 root    root            23411 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bdftops.ps
+-rw-r--r--    1 root    root              639 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8.rpd
+-rw-r--r--    1 root    root             1528 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8gc12f.upp
+-rw-r--r--    1 root    root             1527 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8hg12f.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8oh06n.upp
+-rw-r--r--    1 root    root             1521 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8pa06n.upp
+-rw-r--r--    1 root    root             1538 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8pp12f.upp
+-rw-r--r--    1 root    root             1526 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bj8ts06n.upp
+-rw-r--r--    1 root    root             1523 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a0.upp
+-rw-r--r--    1 root    root             1512 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a1.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a2.upp
+-rw-r--r--    1 root    root             1518 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a3.upp
+-rw-r--r--    1 root    root             1526 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a4.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a5.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a6.upp
+-rw-r--r--    1 root    root             1516 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a7.upp
+-rw-r--r--    1 root    root             1522 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610a8.upp
+-rw-r--r--    1 root    root             1512 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b1.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b2.upp
+-rw-r--r--    1 root    root             1518 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b3.upp
+-rw-r--r--    1 root    root             1526 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b4.upp
+-rw-r--r--    1 root    root             1513 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b6.upp
+-rw-r--r--    1 root    root             1517 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b7.upp
+-rw-r--r--    1 root    root             1522 Nov  7  2004 /usr/share/ghostscript/8.15/lib/bjc610b8.upp
+-rw-r--r--    1 root    root             1725 Nov  7  2004 /usr/share/ghostscript/8.15/lib/caption.ps
+-rw-r--r--    1 root    root            11040 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cbjc600.ppd
+-rw-r--r--    1 root    root            11383 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cbjc800.ppd
+-rw-r--r--    1 root    root             1686 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cdj550.upp
+-rw-r--r--    1 root    root             1995 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cdj690.upp
+-rw-r--r--    1 root    root             2056 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cdj690ec.upp
+-rw-r--r--    1 root    root             4479 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cid2code.ps
+-rw-r--r--    1 root    root              996 Nov  7  2004 /usr/share/ghostscript/8.15/lib/cidfmap
+-rw-r--r--    1 root    root              354 Nov  7  2004 /usr/share/ghostscript/8.15/lib/decrypt.ps
+-rw-r--r--    1 root    root             2804 Nov  7  2004 /usr/share/ghostscript/8.15/lib/dnj750c.upp
+-rw-r--r--    1 root    root             1971 Nov  7  2004 /usr/share/ghostscript/8.15/lib/dnj750m.upp
+-rw-r--r--    1 root    root             7123 Nov  7  2004 /usr/share/ghostscript/8.15/lib/docie.ps
+-rw-r--r--    1 root    root             8598 Nov  7  2004 /usr/share/ghostscript/8.15/lib/errpage.ps
+-rw-r--r--    1 root    root            19599 Nov  7  2004 /usr/share/ghostscript/8.15/lib/font2c.ps
+-rw-r--r--    1 root    root            17575 Nov  7  2004 /usr/share/ghostscript/8.15/lib/font2pcl.ps
+-rw-r--r--    1 root    root            24983 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ghostpdf.ppd
+-rw-r--r--    1 root    root            28612 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_agl.ps
+-rw-r--r--    1 root    root            11103 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_btokn.ps
+-rw-r--r--    1 root    root             2167 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ccfnt.ps
+-rw-r--r--    1 root    root             2368 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ce_e.ps
+-rw-r--r--    1 root    root            22114 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cff.ps
+-rw-r--r--    1 root    root            16251 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cidcm.ps
+-rw-r--r--    1 root    root             7290 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ciddc.ps
+-rw-r--r--    1 root    root             4421 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cidfm.ps
+-rw-r--r--    1 root    root            12617 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cidfn.ps
+-rw-r--r--    1 root    root             4629 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cidtt.ps
+-rw-r--r--    1 root    root             3477 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ciecs2.ps
+-rw-r--r--    1 root    root             3183 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ciecs3.ps
+-rw-r--r--    1 root    root            17210 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cmap.ps
+-rw-r--r--    1 root    root             4848 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cmdl.ps
+-rw-r--r--    1 root    root            29504 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_cspace.ps
+-rw-r--r--    1 root    root             4955 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_css_e.ps
+-rw-r--r--    1 root    root             2288 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dbt_e.ps
+-rw-r--r--    1 root    root             5773 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_devcs.ps
+-rw-r--r--    1 root    root             5556 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_devn.ps
+-rw-r--r--    1 root    root             2244 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_devpxl.ps
+-rw-r--r--    1 root    root             7584 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_diskf.ps
+-rw-r--r--    1 root    root             6898 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_diskn.ps
+-rw-r--r--    1 root    root             4766 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dpnxt.ps
+-rw-r--r--    1 root    root             7842 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dps.ps
+-rw-r--r--    1 root    root             4576 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dps1.ps
+-rw-r--r--    1 root    root             6977 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dps2.ps
+-rw-r--r--    1 root    root             3936 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_dscp.ps
+-rw-r--r--    1 root    root             7099 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_epsf.ps
+-rw-r--r--    1 root    root             9287 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_fapi.ps
+-rw-r--r--    1 root    root             3166 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_fform.ps
+-rw-r--r--    1 root    root            10697 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_fntem.ps
+-rw-r--r--    1 root    root            43837 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_fonts.ps
+-rw-r--r--    1 root    root             2972 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_frsd.ps
+-rw-r--r--    1 root    root            10603 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_icc.ps
+-rw-r--r--    1 root    root             2800 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_il1_e.ps
+-rw-r--r--    1 root    root             2781 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_il2_e.ps
+-rw-r--r--    1 root    root            21397 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_img.ps
+-rw-r--r--    1 root    root             5462 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_indxd.ps
+-rw-r--r--    1 root    root            71051 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_init.ps
+-rw-r--r--    1 root    root             3946 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_kanji.ps
+-rw-r--r--    1 root    root             3295 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ksb_e.ps
+-rw-r--r--    1 root    root             1945 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_l.xbm
+-rw-r--r--    1 root    root             2751 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_l.xpm
+-rw-r--r--    1 root    root             5635 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_l2img.ps
+-rw-r--r--    1 root    root             1955 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_l_m.xbm
+-rw-r--r--    1 root    root            30962 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_lev2.ps
+-rw-r--r--    1 root    root             2890 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_lgo_e.ps
+-rw-r--r--    1 root    root             1916 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_lgx_e.ps
+-rw-r--r--    1 root    root            10555 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ll3.ps
+-rw-r--r--    1 root    root              945 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_m.xbm
+-rw-r--r--    1 root    root             1437 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_m.xpm
+-rw-r--r--    1 root    root              955 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_m_m.xbm
+-rw-r--r--    1 root    root             3997 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_mex_e.ps
+-rw-r--r--    1 root    root             2193 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_mgl_e.ps
+-rw-r--r--    1 root    root             2539 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_mro_e.ps
+-rw-r--r--    1 root    root             7927 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_patrn.ps
+-rw-r--r--    1 root    root             1709 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_pdf_e.ps
+-rw-r--r--    1 root    root            20920 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_pdfwr.ps
+-rw-r--r--    1 root    root             4351 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_pfile.ps
+-rw-r--r--    1 root    root              866 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_rdlin.ps
+-rw-r--r--    1 root    root            34620 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_res.ps
+-rw-r--r--    1 root    root            21103 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_resmp.ps
+-rw-r--r--    1 root    root             5679 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_resst.ps
+-rw-r--r--    1 root    root              594 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_s.xbm
+-rw-r--r--    1 root    root              957 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_s.xpm
+-rw-r--r--    1 root    root              604 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_s_m.xbm
+-rw-r--r--    1 root    root             8299 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_sepr.ps
+-rw-r--r--    1 root    root            28049 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_setpd.ps
+-rw-r--r--    1 root    root            13465 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_statd.ps
+-rw-r--r--    1 root    root             3243 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_std_e.ps
+-rw-r--r--    1 root    root             4179 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_stres.ps
+-rw-r--r--    1 root    root             3102 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_sym_e.ps
+-rw-r--r--    1 root    root              345 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_t.xbm
+-rw-r--r--    1 root    root              605 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_t.xpm
+-rw-r--r--    1 root    root              355 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_t_m.xbm
+-rw-r--r--    1 root    root             3040 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_trap.ps
+-rw-r--r--    1 root    root            41871 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_ttf.ps
+-rw-r--r--    1 root    root             4220 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_typ32.ps
+-rw-r--r--    1 root    root             1633 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_typ42.ps
+-rw-r--r--    1 root    root             7461 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_type1.ps
+-rw-r--r--    1 root    root             1687 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_wan_e.ps
+-rw-r--r--    1 root    root             2534 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_wl1_e.ps
+-rw-r--r--    1 root    root             2532 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_wl2_e.ps
+-rw-r--r--    1 root    root             2550 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gs_wl5_e.ps
+-rw-r--r--    1 root    root            19595 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gslp.ps
+-rw-r--r--    1 root    root             2655 Nov  7  2004 /usr/share/ghostscript/8.15/lib/gsnup.ps
+-rw-r--r--    1 root    root           227916 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ht_ccsto.ps
+-rw-r--r--    1 root    root            73327 Nov  7  2004 /usr/share/ghostscript/8.15/lib/image-qa.ps
+-rw-r--r--    1 root    root             5542 Nov  7  2004 /usr/share/ghostscript/8.15/lib/impath.ps
+-rw-r--r--    1 root    root              934 Nov  7  2004 /usr/share/ghostscript/8.15/lib/jispaper.ps
+-rw-r--r--    1 root    root             1529 Nov  7  2004 /usr/share/ghostscript/8.15/lib/landscap.ps
+-rw-r--r--    1 root    root              114 Nov  7  2004 /usr/share/ghostscript/8.15/lib/level1.ps
+-rw-r--r--    1 root    root             3872 Nov  7  2004 /usr/share/ghostscript/8.15/lib/lines.ps
+-rw-r--r--    1 root    root             3477 Nov  7  2004 /usr/share/ghostscript/8.15/lib/markhint.ps
+-rw-r--r--    1 root    root             1894 Nov  7  2004 /usr/share/ghostscript/8.15/lib/markpath.ps
+-rw-r--r--    1 root    root             1041 Nov  7  2004 /usr/share/ghostscript/8.15/lib/necp2x.upp
+-rw-r--r--    1 root    root             1065 Nov  7  2004 /usr/share/ghostscript/8.15/lib/necp2x6.upp
+-rw-r--r--    1 root    root            10365 Nov  7  2004 /usr/share/ghostscript/8.15/lib/packfile.ps
+-rw-r--r--    1 root    root             3588 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pcharstr.ps
+-rw-r--r--    1 root    root             5094 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf2dsc.ps
+-rw-r--r--    1 root    root            24808 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_base.ps
+-rw-r--r--    1 root    root            39733 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_draw.ps
+-rw-r--r--    1 root    root            42260 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_font.ps
+-rw-r--r--    1 root    root            34356 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_main.ps
+-rw-r--r--    1 root    root            20437 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_ops.ps
+-rw-r--r--    1 root    root            13357 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_rbld.ps
+-rw-r--r--    1 root    root             9832 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdf_sec.ps
+-rw-r--r--    1 root    root            36026 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdfopt.ps
+-rw-r--r--    1 root    root             9904 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pdfwrite.ps
+-rw-r--r--    1 root    root            14902 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pf2afm.ps
+-rw-r--r--    1 root    root             1145 Nov  7  2004 /usr/share/ghostscript/8.15/lib/pfbtopfa.ps
+-rw-r--r--    1 root    root             1978 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ppath.ps
+-rw-r--r--    1 root    root             6343 Nov  7  2004 /usr/share/ghostscript/8.15/lib/prfont.ps
+-rw-r--r--    1 root    root             3244 Nov  7  2004 /usr/share/ghostscript/8.15/lib/printafm.ps
+-rw-r--r--    1 root    root            22503 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ps2ai.ps
+-rw-r--r--    1 root    root            44574 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ps2ascii.ps
+-rw-r--r--    1 root    root             8258 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ps2epsi.ps
+-rw-r--r--    1 root    root                5 Nov  7  2004 /usr/share/ghostscript/8.15/lib/quit.ps
+-rw-r--r--    1 root    root              211 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras1.upp
+-rw-r--r--    1 root    root              215 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras24.upp
+-rw-r--r--    1 root    root              210 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras3.upp
+-rw-r--r--    1 root    root              192 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras32.upp
+-rw-r--r--    1 root    root              216 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras4.upp
+-rw-r--r--    1 root    root              205 Nov  7  2004 /usr/share/ghostscript/8.15/lib/ras8m.upp
+-rw-r--r--    1 root    root            11768 Nov  7  2004 /usr/share/ghostscript/8.15/lib/rollconv.ps
+-rw-r--r--    1 root    root             2936 Nov  7  2004 /usr/share/ghostscript/8.15/lib/showchar.ps
+-rw-r--r--    1 root    root                9 Nov  7  2004 /usr/share/ghostscript/8.15/lib/showpage.ps
+-rw-r--r--    1 root    root             2277 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640ih.upp
+-rw-r--r--    1 root    root             1504 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640ihg.upp
+-rw-r--r--    1 root    root             1910 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640p.upp
+-rw-r--r--    1 root    root             1137 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640pg.upp
+-rw-r--r--    1 root    root             1874 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640pl.upp
+-rw-r--r--    1 root    root             1101 Nov  7  2004 /usr/share/ghostscript/8.15/lib/st640plg.upp
+-rw-r--r--    1 root    root             1919 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc.upp
+-rw-r--r--    1 root    root             2150 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc1520h.upp
+-rw-r--r--    1 root    root             1900 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc2.upp
+-rw-r--r--    1 root    root             1844 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc200_h.upp
+-rw-r--r--    1 root    root             1875 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc2_h.upp
+-rw-r--r--    1 root    root             2268 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc2s_h.upp
+-rw-r--r--    1 root    root             2132 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc300.upp
+-rw-r--r--    1 root    root             1337 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc300bl.upp
+-rw-r--r--    1 root    root             1426 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc300bm.upp
+-rw-r--r--    1 root    root             1899 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc500p.upp
+-rw-r--r--    1 root    root             1899 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc500ph.upp
+-rw-r--r--    1 root    root             2277 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc600ih.upp
+-rw-r--r--    1 root    root             1147 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc600p.upp
+-rw-r--r--    1 root    root             1111 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc600pl.upp
+-rw-r--r--    1 root    root             1091 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc640p.upp
+-rw-r--r--    1 root    root             2154 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc800ih.upp
+-rw-r--r--    1 root    root             1111 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc800p.upp
+-rw-r--r--    1 root    root             1093 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc800pl.upp
+-rw-r--r--    1 root    root             1909 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc_h.upp
+-rw-r--r--    1 root    root              730 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stc_l.upp
+-rw-r--r--    1 root    root              669 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stcany.upp
+-rw-r--r--    1 root    root              677 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stcany_h.upp
+-rw-r--r--    1 root    root            25737 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stcinfo.ps
+-rw-r--r--    1 root    root             5225 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stcolor.ps
+-rw-r--r--    1 root    root             2642 Nov  7  2004 /usr/share/ghostscript/8.15/lib/stocht.ps
+-rw-r--r--    1 root    root             1535 Nov  7  2004 /usr/share/ghostscript/8.15/lib/traceimg.ps
+-rw-r--r--    1 root    root             2738 Nov  7  2004 /usr/share/ghostscript/8.15/lib/traceop.ps
+-rw-r--r--    1 root    root             2540 Nov  7  2004 /usr/share/ghostscript/8.15/lib/type1enc.ps
+-rw-r--r--    1 root    root             7580 Nov  7  2004 /usr/share/ghostscript/8.15/lib/type1ops.ps
+-rw-r--r--    1 root    root             6140 Nov  7  2004 /usr/share/ghostscript/8.15/lib/uninfo.ps
+-rw-r--r--    1 root    root             1908 Nov  7  2004 /usr/share/ghostscript/8.15/lib/unprot.ps
+-rw-r--r--    1 root    root             2120 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewcmyk.ps
+-rw-r--r--    1 root    root             4575 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewgif.ps
+-rw-r--r--    1 root    root             4953 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewjpeg.ps
+-rw-r--r--    1 root    root             3782 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewmiff.ps
+-rw-r--r--    1 root    root             5314 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewpbm.ps
+-rw-r--r--    1 root    root             4352 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewpcx.ps
+-rw-r--r--    1 root    root             1286 Nov  7  2004 /usr/share/ghostscript/8.15/lib/viewps2a.ps
+-rw-r--r--    1 root    root             8931 Nov  7  2004 /usr/share/ghostscript/8.15/lib/wftopfa.ps
+-rw-r--r--    1 root    root             3747 Nov  7  2004 /usr/share/ghostscript/8.15/lib/winmaps.ps
+-rw-r--r--    1 root    root            18170 Nov  7  2004 /usr/share/ghostscript/8.15/lib/wrfont.ps
+-rw-r--r--    1 root    root             1750 Nov  7  2004 /usr/share/ghostscript/8.15/lib/xlatmap
+-rw-r--r--    1 root    root             2467 Nov  7  2004 /usr/share/ghostscript/8.15/lib/zeroline.ps
+drw-r--r--    2 root    root                0 Nov  7  2004 /usr/share/man/de/man1
+-rw-r--r--    1 root    root             1002 Nov  7  2004 /usr/share/man/de/man1/dvipdf.1
+?rwxrwxrwx    1 root    root                7 Nov  7  2004 /usr/share/man/de/man1/eps2eps.1
+-rw-r--r--    1 root    root              924 Nov  7  2004 /usr/share/man/de/man1/font2c.1
+?rwxrwxrwx    1 root    root                6 Nov  7  2004 /usr/share/man/de/man1/gsbj.1
+?rwxrwxrwx    1 root    root                6 Nov  7  2004 /usr/share/man/de/man1/gsdj.1
+?rwxrwxrwx    1 root    root                6 Nov  7  2004 /usr/share/man/de/man1/gsdj500.1
+?rwxrwxrwx    1 root    root                6 Nov  7  2004 /usr/share/man/de/man1/gslj.1
+-rw-r--r--    1 root    root              792 Nov  7  2004 /usr/share/man/de/man1/gsnd.1
+-rw-r--r--    1 root    root             1603 Nov  7  2004 /usr/share/man/de/man1/pdf2dsc.1
+-rw-r--r--    1 root    root             1177 Nov  7  2004 /usr/share/man/de/man1/pdf2ps.1
+-rw-r--r--    1 root    root             1462 Nov  7  2004 /usr/share/man/de/man1/pdfopt.1
+-rw-r--r--    1 root    root              794 Nov  7  2004 /usr/share/man/de/man1/printafm.1
+-rw-r--r--    1 root    root             1640 Nov  7  2004 /usr/share/man/de/man1/ps2ascii.1
+-rw-r--r--    1 root    root             1972 Nov  7  2004 /usr/share/man/de/man1/ps2pdf.1
+?rwxrwxrwx    1 root    root                8 Nov  7  2004 /usr/share/man/de/man1/ps2pdf12.1
+?rwxrwxrwx    1 root    root                8 Nov  7  2004 /usr/share/man/de/man1/ps2pdf13.1
+-rw-r--r--    1 root    root             1223 Nov  7  2004 /usr/share/man/de/man1/ps2ps.1
+-rw-r--r--    1 root    root              817 Nov  7  2004 /usr/share/man/de/man1/wftopfa.1
+-rw-r--r--    1 root    root              517 Nov  7  2004 /usr/share/man/man1/dvipdf.1.gz
+-rw-r--r--    1 root    root              794 Nov  7  2004 /usr/share/man/man1/eps2eps.1.gz
+-rw-r--r--    1 root    root              494 Nov  7  2004 /usr/share/man/man1/font2c.1.gz
+?rwxrwxrwx    1 root    root                7 Nov  7  2004 /usr/share/man/man1/ghostscript.1.gz
+-rw-r--r--    1 root    root             5218 Nov  7  2004 /usr/share/man/man1/gs.1.gz
+-rw-r--r--    1 root    root             1398 Nov  7  2004 /usr/share/man/man1/gsbj.1.gz
+-rw-r--r--    1 root    root             1398 Nov  7  2004 /usr/share/man/man1/gsdj.1.gz
+-rw-r--r--    1 root    root             1398 Nov  7  2004 /usr/share/man/man1/gsdj500.1.gz
+-rw-r--r--    1 root    root             1398 Nov  7  2004 /usr/share/man/man1/gslj.1.gz
+-rw-r--r--    1 root    root             1398 Nov  7  2004 /usr/share/man/man1/gslp.1.gz
+-rw-r--r--    1 root    root              450 Nov  7  2004 /usr/share/man/man1/gsnd.1.gz
+-rw-r--r--    1 root    root              835 Nov  7  2004 /usr/share/man/man1/pdf2dsc.1.gz
+-rw-r--r--    1 root    root              589 Nov  7  2004 /usr/share/man/man1/pdf2ps.1.gz
+-rw-r--r--    1 root    root              760 Nov  7  2004 /usr/share/man/man1/pdfopt.1.gz
+-rw-r--r--    1 root    root              484 Nov  7  2004 /usr/share/man/man1/pf2afm.1.gz
+-rw-r--r--    1 root    root              416 Nov  7  2004 /usr/share/man/man1/pfbtopfa.1.gz
+-rw-r--r--    1 root    root              419 Nov  7  2004 /usr/share/man/man1/printafm.1.gz
+-rw-r--r--    1 root    root              821 Nov  7  2004 /usr/share/man/man1/ps2ascii.1.gz
+-rw-r--r--    1 root    root             1362 Nov  7  2004 /usr/share/man/man1/ps2epsi.1.gz
+-rw-r--r--    1 root    root              819 Nov  7  2004 /usr/share/man/man1/ps2pdf.1.gz
+?rwxrwxrwx    1 root    root                8 Nov  7  2004 /usr/share/man/man1/ps2pdf12.1
+?rwxrwxrwx    1 root    root                8 Nov  7  2004 /usr/share/man/man1/ps2pdf13.1
+-rw-r--r--    1 root    root              637 Nov  7  2004 /usr/share/man/man1/ps2pdfwr.1.gz
+-rw-r--r--    1 root    root              794 Nov  7  2004 /usr/share/man/man1/ps2ps.1.gz
+-rw-r--r--    1 root    root              408 Nov  7  2004 /usr/share/man/man1/wftopfa.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ghostscript-8.15-1.m68kmint.rpm">Download</A></H2> (3,025,059 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

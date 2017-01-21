@@ -1,0 +1,107 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - lzo, version 2.03, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>lzo</H2>
+
+<UL> 
+<LI>Summary: Data compression library with very fast (de)compression<BR>
+<LI>URL: <A HREF="http://www.oberhumer.com/opensource/lzo/">http://www.oberhumer.com/opensource/lzo/</A><BR>
+<LI>Version: 2.03<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: GPLv2+</BR>
+<LI>Installation size: 324,505 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>lzo = 2.03-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu May 14 21:17:40 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:26 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/lzo-2.03-1.src.rpm">lzo-2.03-1.src.rpm</A>  (625,953 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu May 14 21:00:00 2009 UTC<BR>
+- Initial build of lzo RPM
+<LI>Description:<BR>
+LZO is a portable lossless data compression library written in ANSI C.<BR>It offers pretty fast compression and very fast decompression.<BR>Decompression requires no memory. In addition there are slower<BR>compression levels achieving a quite competitive compression ratio<BR>while still decompressing at this very high speed.<BR>This package contains development files needed for lzo.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 May 14  2009 /usr/doc/lzo-2.03
+-rw-r--r--    1 root    root              112 Apr 30  2008 /usr/doc/lzo-2.03/AUTHORS
+-rw-r--r--    1 root    root            18098 Apr 30  2008 /usr/doc/lzo-2.03/COPYING
+-rw-r--r--    1 root    root             7614 Apr 30  2008 /usr/doc/lzo-2.03/LZO.FAQ
+-rw-r--r--    1 root    root            13058 Apr 30  2008 /usr/doc/lzo-2.03/LZO.TXT
+-rw-r--r--    1 root    root             7099 Apr 30  2008 /usr/doc/lzo-2.03/LZOAPI.TXT
+-rw-r--r--    1 root    root            10834 Apr 30  2008 /usr/doc/lzo-2.03/NEWS
+-rw-r--r--    1 root    root              690 Apr 30  2008 /usr/doc/lzo-2.03/THANKS
+-rw-r--r--    1 root    root             3334 May 14  2009 /usr/include/lzo/lzo1.h
+-rw-r--r--    1 root    root             3338 May 14  2009 /usr/include/lzo/lzo1a.h
+-rw-r--r--    1 root    root             6085 May 14  2009 /usr/include/lzo/lzo1b.h
+-rw-r--r--    1 root    root             6082 May 14  2009 /usr/include/lzo/lzo1c.h
+-rw-r--r--    1 root    root             3773 May 14  2009 /usr/include/lzo/lzo1f.h
+-rw-r--r--    1 root    root             6561 May 14  2009 /usr/include/lzo/lzo1x.h
+-rw-r--r--    1 root    root             5337 May 14  2009 /usr/include/lzo/lzo1y.h
+-rw-r--r--    1 root    root             5414 May 14  2009 /usr/include/lzo/lzo1z.h
+-rw-r--r--    1 root    root             3227 May 14  2009 /usr/include/lzo/lzo2a.h
+-rw-r--r--    1 root    root             5769 May 14  2009 /usr/include/lzo/lzo_asm.h
+-rw-r--r--    1 root    root            14090 May 14  2009 /usr/include/lzo/lzoconf.h
+-rw-r--r--    1 root    root            65826 May 14  2009 /usr/include/lzo/lzodefs.h
+-rw-r--r--    1 root    root             2512 May 14  2009 /usr/include/lzo/lzoutil.h
+-rw-r--r--    1 root    root           131556 May 14  2009 /usr/lib/liblzo2.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/lzo-2.03-1.m68kmint.rpm">Download</A></H2> (65,249 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

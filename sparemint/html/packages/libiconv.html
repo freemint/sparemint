@@ -1,0 +1,107 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libiconv, version 1.13.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libiconv</H2>
+
+<UL> 
+<LI>Summary: libiconv - character set conversion library<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/libiconv">http://www.gnu.org/software/libiconv</A><BR>
+<LI>Version: 1.13.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 1,354,790 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libiconv = 1.13.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Dec 16 22:22:21 2010 UTC<BR>
+<LI>Upload date: Thu Dec 16 21:42:51 2010 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libiconv-1.13.1-1.src.rpm">libiconv-1.13.1-1.src.rpm</A>  (4,234,002 bytes)<BR>
+<LI>Last change: Ole Loots &lt;ole@monochrom.net&gt; Sun Oct 24 12:00:00 2010 UTC<BR>
+- updated to version 1.13<BR>- enabled extra-encodings
+<LI>Description:<BR>
+libiconv library provides an iconv() implementation, for use on<BR>systems which don't have one, or whose implementation cannot convert<BR>from/to Unicode.<BR><P><BR>libiconv provides support for the encodings:<BR>European languages<BR>  ASCII, ISO-8859-{1,2,3,4,5,7,9,10,13,14,15,16},<BR>  KOI8-R, KOI8-U, KOI8-RU,<BR>  CP{1250,1251,1252,1253,1254,1257}, CP{850,866},<BR>  Mac{Roman,CentralEurope,Iceland,Croatian,Romania},<BR>  Mac{Cyrillic,Ukraine,Greek,Turkish},<BR>  Macintosh<BR>Semitic languages<BR>  ISO-8859-{6,8}, CP{1255,1256}, Mac{Hebrew,Arabic}<BR>Japanese<BR>  EUC-JP, SHIFT-JIS, CP932, ISO-2022-JP, ISO-2022-JP-2, ISO-2022-JP-1<BR>Chinese<BR>  EUC-CN, HZ, GBK, EUC-TW, BIG5, CP950, ISO-2022-CN, ISO-2022-CN-EXT<BR>Korean<BR>  EUC-KR, CP949, ISO-2022-KR<BR>Armenian<BR>  ARMSCII-8<BR>Georgian<BR>  Georgian-Academy, Georgian-PS<BR>Thai<BR>  TIS-620, CP874, MacThai<BR>Laotian<BR>  MuleLao-1, CP1133<BR>Vietnamese<BR>  VISCII, TCVN, CP1258<BR>Platform specifics<BR>  HP-ROMAN8, NEXTSTEP, ATARIST<BR>Full Unicode<BR>  UTF-8, UCS-2, UCS-2BE, UCS-2LE, UCS-4, UCS-4BE, UCS-4LE,<BR>  UTF-16, UTF-16BE, UTF-16LE, UTF-7, JAVA<BR>Full Unicode, in terms of `uint16_t' or `uint32_t'<BR>  (with machine dependent endianness and alignment)<BR>   UCS-2-INTERNAL, UCS-4-INTERNAL
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 16  2010 /usr/doc/libiconv-1.13.1
+-rw-r--r--    1 root    root               31 Jun 21  2009 /usr/doc/libiconv-1.13.1/AUTHORS
+-rw-r--r--    1 root    root            25291 Jun 21  2009 /usr/doc/libiconv-1.13.1/COPYING.LIB
+-rw-r--r--    1 root    root           178998 Jun 30  2009 /usr/doc/libiconv-1.13.1/ChangeLog
+-rw-r--r--    1 root    root             3371 Jun 21  2009 /usr/doc/libiconv-1.13.1/DESIGN
+-rw-r--r--    1 root    root             7557 Jun 21  2009 /usr/doc/libiconv-1.13.1/NEWS
+-rw-r--r--    1 root    root            17333 Jun 21  2009 /usr/doc/libiconv-1.13.1/NOTES
+-rw-r--r--    1 root    root              461 Jun 21  2009 /usr/doc/libiconv-1.13.1/PORTS
+-rw-r--r--    1 root    root             5754 Jun 30  2009 /usr/doc/libiconv-1.13.1/README
+-rw-r--r--    1 root    root             9244 Dec 16  2010 /usr/include/iconv.h
+-rw-r--r--    1 root    root             1550 Dec 16  2010 /usr/include/libcharset.h
+-rw-r--r--    1 root    root              184 Dec 16  2010 /usr/lib/charset.alias
+-rw-r--r--    1 root    root             3602 Dec 16  2010 /usr/lib/libcharset.a
+-rw-r--r--    1 root    root              870 Dec 16  2010 /usr/lib/libcharset.la
+-rw-r--r--    1 root    root          1090666 Dec 16  2010 /usr/lib/libiconv.a
+-rw-r--r--    1 root    root              864 Dec 16  2010 /usr/lib/libiconv.la
+-rw-r--r--    1 root    root             1573 Dec 16  2010 /usr/share/man/man1/iconv.1.gz
+-rw-r--r--    1 root    root             1541 Dec 16  2010 /usr/share/man/man3/iconv.3.gz
+-rw-r--r--    1 root    root              651 Dec 16  2010 /usr/share/man/man3/iconv_close.3.gz
+-rw-r--r--    1 root    root             2193 Dec 16  2010 /usr/share/man/man3/iconv_open.3.gz
+-rw-r--r--    1 root    root              938 Dec 16  2010 /usr/share/man/man3/iconv_open_into.3.gz
+-rw-r--r--    1 root    root             1094 Dec 16  2010 /usr/share/man/man3/iconvctl.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libiconv-1.13.1-1.m68kmint.rpm">Download</A></H2> (841,084 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

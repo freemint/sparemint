@@ -1,0 +1,396 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mintlib-devel, version 0.59.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mintlib-devel</H2>
+
+<UL> 
+<LI>Summary: Headers and static libraries for developping MiNT applications.<BR>
+<LI>URL: <A HREF="http://sparemint.org/sparemint/misc/code/mintlib/">http://sparemint.org/sparemint/misc/code/mintlib/</A><BR>
+<LI>Version: 0.59.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries/Libc">Development/Libraries/Libc</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 4,353,240 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mintlib-devel = 0.59.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>mintlib >= 0.59.1<BR>
+  <LI>binutils >= 2.9.1<BR>
+  <LI>gcc >= 2.95.2<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>audiofile-devel < 0.1.9-3<BR>
+  <LI>bind <= 4.9.7<BR>
+  <LI>bind-utils <= 4.9.7<BR>
+  <LI>bzip2 < 0.9.5d-2<BR>
+  <LI>cflib < 11m-3<BR>
+  <LI>cracklib < 2.7-3<BR>
+  <LI>e2fsprogs-devel < 1.14-6<BR>
+  <LI>flex < 2.5.4a-5<BR>
+  <LI>freetype-devel < 1.2-5<BR>
+  <LI>gdbm < 1.7.3-4<BR>
+  <LI>gettext < 0.10.35-4<BR>
+  <LI>libjpeg-devel < 6b-3<BR>
+  <LI>libmikmod-devel < 3.1.6-5<BR>
+  <LI>libpng < 1.0.1-4<BR>
+  <LI>libtermcap-devel < 2.0.8-4<BR>
+  <LI>libtiff-devel < 3.4-3<BR>
+  <LI>libxml-devel < 1.7.3-3<BR>
+  <LI>mintbin < 0.3-4<BR>
+  <LI>mintdb < 1.85-5<BR>
+  <LI>mintnet < 1.04-4<BR>
+  <LI>ncurses-devel < 4.2-9<BR>
+  <LI>newt-devel < 0.50-4<BR>
+  <LI>pml < 2.03-3<BR>
+  <LI>popt < 1.3-4<BR>
+  <LI>readline-devel < 2.2.1-5<BR>
+  <LI>slang < 1.2.2-3<BR>
+  <LI>tcp_wrappers < 7.6-2<BR>
+  <LI>not  <BR>
+  <LI>really  <BR>
+  <LI>useful  <BR>
+  <LI>w3c-libwww-devel < 5.2.8-3<BR>
+  <LI>zlib-devel < 1.1.3-5<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Jun  3 00:48:37 2010 UTC<BR>
+<LI>Upload date: Sun Jun 13 18:01:21 2010 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mintlib-0.59.1-1.src.rpm">mintlib-0.59.1-1.src.rpm</A>  (1,442,079 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Jun  1 22:00:00 2010 UTC<BR>
+- update to 0.59.1 stable release and enabled / added Coldfire libraries to the<BR>- distribution also changed mintbin to require latest package build
+<LI>Description:<BR>
+These are the header files and static libraries from the MiNTLib<BR>distribution.  It provides the standard libc for MiNT.<BR><P><BR>If you want to develop software for MiNT you have to install this<BR>package.
+<LI>Files:<BR>
+<PRE>
+-rw-r--r--    1 root    root            25283 Jun  2 20:39 /usr/include/COPYING.LIB
+-rw-r--r--    1 root    root             4355 Jun  2 20:39 /usr/include/COPYMINT
+-rw-r--r--    1 root    root              766 Jun  2 20:39 /usr/include/alloca.h
+-rw-r--r--    1 root    root             1792 Jun  2 20:39 /usr/include/ar.h
+-rw-r--r--    1 root    root            26507 Jun  2 20:39 /usr/include/argp.h
+-rw-r--r--    1 root    root             7287 Jun  2 20:39 /usr/include/argz.h
+-rw-r--r--    1 root    root             3432 Jun  2 20:39 /usr/include/arpa/ftp.h
+-rw-r--r--    1 root    root             4361 Jun  2 20:39 /usr/include/arpa/inet.h
+-rw-r--r--    1 root    root             8828 Jun  2 20:39 /usr/include/arpa/nameser.h
+-rw-r--r--    1 root    root            10263 Jun  2 20:39 /usr/include/arpa/telnet.h
+-rw-r--r--    1 root    root             2901 Jun  2 20:39 /usr/include/arpa/tftp.h
+-rw-r--r--    1 root    root             3091 Jun  2 20:39 /usr/include/assert.h
+-rw-r--r--    1 root    root             2460 Jun  2 20:39 /usr/include/bits/byteswap.h
+-rw-r--r--    1 root    root             6775 Jun  2 20:39 /usr/include/bits/confname.h
+-rw-r--r--    1 root    root             1184 Jun  2 20:39 /usr/include/bits/dirent.h
+-rw-r--r--    1 root    root              162 Jun  2 20:39 /usr/include/bits/endian.h
+-rw-r--r--    1 root    root             4812 Jun  2 20:39 /usr/include/bits/fcntl.h
+-rw-r--r--    1 root    root             2346 Jun  2 20:39 /usr/include/bits/huge_val.h
+-rw-r--r--    1 root    root             3794 Jun  2 20:39 /usr/include/bits/in.h
+-rw-r--r--    1 root    root             1952 Jun  2 20:39 /usr/include/bits/ipc.h
+-rw-r--r--    1 root    root             3842 Jun  2 20:39 /usr/include/bits/libc-lock.h
+-rw-r--r--    1 root    root             1625 Jun  2 20:39 /usr/include/bits/local_lim.h
+-rw-r--r--    1 root    root             9498 Jun  2 20:39 /usr/include/bits/math-68881.h
+-rw-r--r--    1 root    root             1684 Jun  2 20:39 /usr/include/bits/mathdef.h
+-rw-r--r--    1 root    root             4819 Jun  2 20:39 /usr/include/bits/mint_stdio.h
+-rw-r--r--    1 root    root             1948 Jun  2 20:39 /usr/include/bits/msq.h
+-rw-r--r--    1 root    root             1589 Jun  2 20:39 /usr/include/bits/nan.h
+-rw-r--r--    1 root    root             2179 Jun  2 20:39 /usr/include/bits/poll.h
+-rw-r--r--    1 root    root             4137 Jun  2 20:39 /usr/include/bits/posix1_lim.h
+-rw-r--r--    1 root    root             3369 Jun  2 20:39 /usr/include/bits/posix2_lim.h
+-rw-r--r--    1 root    root             2702 Jun  2 20:39 /usr/include/bits/posix_opt.h
+-rw-r--r--    1 root    root             1286 Jun  2 20:39 /usr/include/bits/sched.h
+-rw-r--r--    1 root    root             1578 Jun  2 20:39 /usr/include/bits/select.h
+-rw-r--r--    1 root    root             2511 Jun  2 20:39 /usr/include/bits/sem.h
+-rw-r--r--    1 root    root             2074 Jun  2 20:39 /usr/include/bits/shm.h
+-rw-r--r--    1 root    root             1599 Jun  2 20:39 /usr/include/bits/sigaction.h
+-rw-r--r--    1 root    root             1254 Jun  2 20:39 /usr/include/bits/sigcontext.h
+-rw-r--r--    1 root    root             3102 Jun  2 20:39 /usr/include/bits/signum.h
+-rw-r--r--    1 root    root             3120 Jun  2 20:39 /usr/include/bits/sigset.h
+-rw-r--r--    1 root    root             1488 Jun  2 20:39 /usr/include/bits/sigstack.h
+-rw-r--r--    1 root    root             1724 Jun  2 20:39 /usr/include/bits/sockaddr.h
+-rw-r--r--    1 root    root            11236 Jun  2 20:39 /usr/include/bits/socket.h
+-rw-r--r--    1 root    root             3691 Jun  2 20:39 /usr/include/bits/stat.h
+-rw-r--r--    1 root    root              754 Jun  2 20:39 /usr/include/bits/statfs.h
+-rw-r--r--    1 root    root             1020 Jun  2 20:39 /usr/include/bits/stdio_lim.h
+-rw-r--r--    1 root    root             1299 Jun  2 20:39 /usr/include/bits/string.h
+-rw-r--r--    1 root    root            37791 Jun  2 20:39 /usr/include/bits/string2.h
+-rw-r--r--    1 root    root             3677 Jun  2 20:39 /usr/include/bits/termios.h
+-rw-r--r--    1 root    root             1778 Jun  2 20:39 /usr/include/bits/time.h
+-rw-r--r--    1 root    root             4796 Jun  2 20:39 /usr/include/bits/types.h
+-rw-r--r--    1 root    root             3082 Jun  2 20:39 /usr/include/bits/xopen_lim.h
+-rw-r--r--    1 root    root             1519 Jun  2 20:39 /usr/include/byteswap.h
+-rw-r--r--    1 root    root             4052 Jun  2 20:39 /usr/include/compiler.h
+-rw-r--r--    1 root    root             2235 Jun  2 20:39 /usr/include/crypt.h
+-rw-r--r--    1 root    root             4406 Jun  2 20:39 /usr/include/ctype.h
+-rw-r--r--    1 root    root             1226 Jun  2 20:39 /usr/include/device.h
+-rw-r--r--    1 root    root               24 Jun  2 20:39 /usr/include/dirent.h
+-rw-r--r--    1 root    root             2140 Jun  2 20:39 /usr/include/endian.h
+-rw-r--r--    1 root    root             2428 Jun  2 20:39 /usr/include/err.h
+-rw-r--r--    1 root    root             1787 Jun  2 20:39 /usr/include/errno.h
+-rw-r--r--    1 root    root             2764 Jun  2 20:39 /usr/include/error.h
+-rw-r--r--    1 root    root             4297 Jun  2 20:39 /usr/include/fcntl.h
+-rw-r--r--    1 root    root            10898 Jun  2 20:39 /usr/include/features.h
+-rw-r--r--    1 root    root             2959 Jun  2 20:39 /usr/include/fnmatch.h
+-rw-r--r--    1 root    root              512 Jun  2 20:39 /usr/include/ftw.h
+-rw-r--r--    1 root    root             6152 Jun  2 20:39 /usr/include/getopt.h
+-rw-r--r--    1 root    root             4766 Jun  2 20:39 /usr/include/getopt_int.h
+-rw-r--r--    1 root    root             5794 Jun  2 20:39 /usr/include/glob.h
+-rw-r--r--    1 root    root             7782 Jun  2 20:39 /usr/include/gnu-out.h
+-rw-r--r--    1 root    root             1504 Jun  2 20:39 /usr/include/grp.h
+-rw-r--r--    1 root    root             4175 Jun  2 20:39 /usr/include/ieee754.h
+-rw-r--r--    1 root    root             9806 Jun  2 20:39 /usr/include/inttypes.h
+-rw-r--r--    1 root    root             1795 Jun  2 20:39 /usr/include/iovec.h
+-rw-r--r--    1 root    root              125 Jun  2 20:39 /usr/include/lastlog.h
+-rw-r--r--    1 root    root             1052 Jun  2 20:39 /usr/include/libgen.h
+-rw-r--r--    1 root    root             4798 Jun  2 20:39 /usr/include/limits.h
+-rw-r--r--    1 root    root              743 Jun  2 20:39 /usr/include/linker.h
+-rw-r--r--    1 root    root             1258 Jun  2 20:39 /usr/include/locale.h
+-rw-r--r--    1 root    root             3631 Jun  2 20:39 /usr/include/macros.h
+-rw-r--r--    1 root    root              839 Jun  2 20:39 /usr/include/malloc.h
+-rw-r--r--    1 root    root               46 Jun  2 20:39 /usr/include/memory.h
+-rw-r--r--    1 root    root              896 Jun  2 20:39 /usr/include/minimal.h
+-rw-r--r--    1 root    root             1394 Jun  2 20:39 /usr/include/mint/arch/ptrace.h
+-rw-r--r--    1 root    root             1011 Jun  2 20:39 /usr/include/mint/basepage.h
+-rw-r--r--    1 root    root             8408 Jun  2 20:39 /usr/include/mint/cdromio.h
+-rw-r--r--    1 root    root            30837 Jun  2 20:39 /usr/include/mint/cookie.h
+-rw-r--r--    1 root    root            16324 Jun  2 20:39 /usr/include/mint/dcntl.h
+-rw-r--r--    1 root    root            32661 Jun  2 20:39 /usr/include/mint/errno.h
+-rw-r--r--    1 root    root            16228 Jun  2 20:39 /usr/include/mint/falcon.h
+-rw-r--r--    1 root    root              351 Jun  2 20:39 /usr/include/mint/iflink.h
+-rw-r--r--    1 root    root            38904 Jun  2 20:39 /usr/include/mint/linea.h
+-rw-r--r--    1 root    root             4877 Jun  2 20:39 /usr/include/mint/metados.h
+-rw-r--r--    1 root    root            20572 Jun  2 20:39 /usr/include/mint/mintbind.h
+-rw-r--r--    1 root    root              442 Jun  2 20:39 /usr/include/mint/mouse.h
+-rw-r--r--    1 root    root             4231 Jun  2 20:39 /usr/include/mint/net.h
+-rw-r--r--    1 root    root             4155 Jun  2 20:39 /usr/include/mint/nfs.h
+-rw-r--r--    1 root    root            41161 Jun  2 20:39 /usr/include/mint/osbind.h
+-rw-r--r--    1 root    root            13789 Jun  2 20:39 /usr/include/mint/ostruct.h
+-rw-r--r--    1 root    root             1883 Jun  2 20:39 /usr/include/mint/ptrace.h
+-rw-r--r--    1 root    root             2193 Jun  2 20:39 /usr/include/mint/random.h
+-rw-r--r--    1 root    root             2090 Jun  2 20:39 /usr/include/mint/screen.h
+-rw-r--r--    1 root    root             1123 Jun  2 20:39 /usr/include/mint/slb.h
+-rw-r--r--    1 root    root             1915 Jun  2 20:39 /usr/include/mint/ssystem.h
+-rw-r--r--    1 root    root            22049 Jun  2 20:39 /usr/include/mint/sysbind.h
+-rw-r--r--    1 root    root             6879 Jun  2 20:39 /usr/include/mint/sysctl.h
+-rw-r--r--    1 root    root             4719 Jun  2 20:39 /usr/include/mint/sysvars.h
+-rw-r--r--    1 root    root            16267 Jun  2 20:39 /usr/include/mint/trap1.h
+-rw-r--r--    1 root    root             5065 Jun  2 20:39 /usr/include/mint/trap13.h
+-rw-r--r--    1 root    root            16063 Jun  2 20:39 /usr/include/mint/trap14.h
+-rw-r--r--    1 root    root              938 Jun  2 20:39 /usr/include/mint/xbra.h
+-rw-r--r--    1 root    root              541 Jun  2 20:39 /usr/include/mintbind.h
+-rw-r--r--    1 root    root             3863 Jun  2 20:39 /usr/include/mntent.h
+-rw-r--r--    1 root    root            11845 Jun  2 20:39 /usr/include/net/bpf.h
+-rw-r--r--    1 root    root              543 Jun  2 20:39 /usr/include/net/ethernet.h
+-rw-r--r--    1 root    root            15250 Jun  2 20:39 /usr/include/net/ethertypes.h
+-rw-r--r--    1 root    root             6730 Jun  2 20:39 /usr/include/net/if.h
+-rw-r--r--    1 root    root             3759 Jun  2 20:39 /usr/include/net/if_arp.h
+-rw-r--r--    1 root    root             2258 Jun  2 20:39 /usr/include/net/if_ether.h
+-rw-r--r--    1 root    root             1780 Jun  2 20:39 /usr/include/net/if_ppp.h
+-rw-r--r--    1 root    root              804 Jun  2 20:39 /usr/include/net/if_sl.h
+-rw-r--r--    1 root    root              936 Jun  2 20:39 /usr/include/net/route.h
+-rw-r--r--    1 root    root             4926 Jun  2 20:39 /usr/include/net/slcompress.h
+-rw-r--r--    1 root    root             5143 Jun  2 20:39 /usr/include/netdb.h
+-rw-r--r--    1 root    root             1312 Jun  2 20:39 /usr/include/netinet/if_ether.h
+-rw-r--r--    1 root    root            12084 Jun  2 20:39 /usr/include/netinet/in.h
+-rw-r--r--    1 root    root             1650 Jun  2 20:39 /usr/include/netinet/in_systm.h
+-rw-r--r--    1 root    root             5575 Jun  2 20:39 /usr/include/netinet/ip.h
+-rw-r--r--    1 root    root             5464 Jun  2 20:39 /usr/include/netinet/ip_icmp.h
+-rw-r--r--    1 root    root             2747 Jun  2 20:39 /usr/include/netinet/ip_var.h
+-rw-r--r--    1 root    root             3520 Jun  2 20:39 /usr/include/netinet/tcp.h
+-rw-r--r--    1 root    root             2676 Jun  2 20:39 /usr/include/netinet/tcpip.h
+-rw-r--r--    1 root    root              413 Jun  2 20:39 /usr/include/netinet/udp.h
+-rw-r--r--    1 root    root             2570 Jun  2 20:39 /usr/include/netinet/udp_var.h
+-rw-r--r--    1 root    root               22 Jun  2 20:39 /usr/include/nfs/nfs.h
+-rw-r--r--    1 root    root            22627 Jun  2 20:39 /usr/include/obstack.h
+-rw-r--r--    1 root    root              531 Jun  2 20:39 /usr/include/osbind.h
+-rw-r--r--    1 root    root             3396 Jun  2 20:39 /usr/include/paths.h
+-rw-r--r--    1 root    root               22 Jun  2 20:39 /usr/include/poll.h
+-rw-r--r--    1 root    root             5036 Jun  2 20:39 /usr/include/printf.h
+-rw-r--r--    1 root    root              674 Jun  2 20:39 /usr/include/process.h
+-rw-r--r--    1 root    root             4212 Jun  2 20:39 /usr/include/protocols/routed.h
+-rw-r--r--    1 root    root             3215 Jun  2 20:39 /usr/include/protocols/rwhod.h
+-rw-r--r--    1 root    root             5037 Jun  2 20:39 /usr/include/protocols/talkd.h
+-rw-r--r--    1 root    root             4002 Jun  2 20:39 /usr/include/protocols/timed.h
+-rw-r--r--    1 root    root             1078 Jun  2 20:39 /usr/include/pty.h
+-rw-r--r--    1 root    root             2964 Jun  2 20:39 /usr/include/pwd.h
+-rw-r--r--    1 root    root             1054 Jun  2 20:39 /usr/include/re_comp.h
+-rw-r--r--    1 root    root            20714 Jun  2 20:39 /usr/include/regex.h
+-rw-r--r--    1 root    root             1277 Jun  2 20:39 /usr/include/regexp.h
+-rw-r--r--    1 root    root             5482 Jun  2 20:39 /usr/include/resolv.h
+-rw-r--r--    1 root    root               26 Jun  2 20:39 /usr/include/resource.h
+-rw-r--r--    1 root    root             6529 Jun  2 20:39 /usr/include/rpc/auth.h
+-rw-r--r--    1 root    root             3677 Jun  2 20:39 /usr/include/rpc/auth_des.h
+-rw-r--r--    1 root    root             2719 Jun  2 20:39 /usr/include/rpc/auth_unix.h
+-rw-r--r--    1 root    root            12382 Jun  2 20:39 /usr/include/rpc/clnt.h
+-rw-r--r--    1 root    root             3101 Jun  2 20:39 /usr/include/rpc/des_crypt.h
+-rw-r--r--    1 root    root            11553 Jun  2 20:39 /usr/include/rpc/key_prot.h
+-rw-r--r--    1 root    root             2570 Jun  2 20:39 /usr/include/rpc/netdb.h
+-rw-r--r--    1 root    root             3614 Jun  2 20:39 /usr/include/rpc/pmap_clnt.h
+-rw-r--r--    1 root    root             3571 Jun  2 20:39 /usr/include/rpc/pmap_prot.h
+-rw-r--r--    1 root    root             2066 Jun  2 20:39 /usr/include/rpc/pmap_rmt.h
+-rw-r--r--    1 root    root             2614 Jun  2 20:39 /usr/include/rpc/rpc.h
+-rw-r--r--    1 root    root             2179 Jun  2 20:39 /usr/include/rpc/rpc_des.h
+-rw-r--r--    1 root    root             4531 Jun  2 20:39 /usr/include/rpc/rpc_msg.h
+-rw-r--r--    1 root    root            10296 Jun  2 20:39 /usr/include/rpc/svc.h
+-rw-r--r--    1 root    root             1756 Jun  2 20:39 /usr/include/rpc/svc_auth.h
+-rw-r--r--    1 root    root             2305 Jun  2 20:39 /usr/include/rpc/types.h
+-rw-r--r--    1 root    root            14185 Jun  2 20:39 /usr/include/rpc/xdr.h
+-rw-r--r--    1 root    root             1009 Jun  2 20:39 /usr/include/rpcsvc/bootparam.h
+-rw-r--r--    1 root    root             3188 Jun  2 20:41 /usr/include/rpcsvc/bootparam_prot.h
+-rw-r--r--    1 root    root             8022 Jun  2 20:41 /usr/include/rpcsvc/key_prot.h
+-rw-r--r--    1 root    root             3290 Jun  2 20:41 /usr/include/rpcsvc/klm_prot.h
+-rw-r--r--    1 root    root             3863 Jun  2 20:41 /usr/include/rpcsvc/mount.h
+-rw-r--r--    1 root    root            11448 Jun  2 20:41 /usr/include/rpcsvc/nfs_prot.h
+-rw-r--r--    1 root    root             9374 Jun  2 20:41 /usr/include/rpcsvc/nlm_prot.h
+-rw-r--r--    1 root    root             5252 Jun  2 20:41 /usr/include/rpcsvc/rex.h
+-rw-r--r--    1 root    root             2249 Jun  2 20:41 /usr/include/rpcsvc/rquota.h
+-rw-r--r--    1 root    root             4045 Jun  2 20:41 /usr/include/rpcsvc/rstat.h
+-rw-r--r--    1 root    root             3279 Jun  2 20:41 /usr/include/rpcsvc/rusers.h
+-rw-r--r--    1 root    root             3173 Jun  2 20:41 /usr/include/rpcsvc/sm_inter.h
+-rw-r--r--    1 root    root             1887 Jun  2 20:41 /usr/include/rpcsvc/spray.h
+-rw-r--r--    1 root    root             1285 Jun  2 20:41 /usr/include/rpcsvc/yppasswd.h
+-rw-r--r--    1 root    root              683 Jun  2 20:39 /usr/include/rtent.h
+-rw-r--r--    1 root    root             2472 Jun  2 20:39 /usr/include/sched.h
+-rw-r--r--    1 root    root             5356 Jun  2 20:39 /usr/include/search.h
+-rw-r--r--    1 root    root              989 Jun  2 20:39 /usr/include/setjmp.h
+-rw-r--r--    1 root    root               71 Jun  2 20:39 /usr/include/sgtty.h
+-rw-r--r--    1 root    root             3468 Jun  2 20:39 /usr/include/shadow.h
+-rw-r--r--    1 root    root             9867 Jun  2 20:39 /usr/include/signal.h
+-rw-r--r--    1 root    root             2311 Jun  2 20:39 /usr/include/sockios.h
+-rw-r--r--    1 root    root             2717 Jun  2 20:39 /usr/include/st-out.h
+-rw-r--r--    1 root    root             9813 Jun  2 20:39 /usr/include/stdint.h
+-rw-r--r--    1 root    root            29218 Jun  2 20:39 /usr/include/stdio.h
+-rw-r--r--    1 root    root            14519 Jun  2 20:39 /usr/include/stdlib.h
+-rw-r--r--    1 root    root            13223 Jun  2 20:39 /usr/include/string.h
+-rw-r--r--    1 root    root             2188 Jun  2 20:39 /usr/include/strings.h
+-rw-r--r--    1 root    root             1086 Jun  2 20:39 /usr/include/support.h
+-rw-r--r--    1 root    root             9661 Jun  2 20:39 /usr/include/sys/cdefs.h
+-rw-r--r--    1 root    root              482 Jun  2 20:39 /usr/include/sys/dir.h
+-rw-r--r--    1 root    root             4811 Jun  2 20:39 /usr/include/sys/dirent.h
+-rw-r--r--    1 root    root               19 Jun  2 20:39 /usr/include/sys/errno.h
+-rw-r--r--    1 root    root               19 Jun  2 20:39 /usr/include/sys/fcntl.h
+-rw-r--r--    1 root    root              487 Jun  2 20:39 /usr/include/sys/file.h
+-rw-r--r--    1 root    root             5492 Jun  2 20:39 /usr/include/sys/gmon.h
+-rw-r--r--    1 root    root             2762 Jun  2 20:39 /usr/include/sys/gmon_out.h
+-rw-r--r--    1 root    root             8212 Jun  2 20:39 /usr/include/sys/ioctl.h
+-rw-r--r--    1 root    root             1751 Jun  2 20:39 /usr/include/sys/ipc.h
+-rw-r--r--    1 root    root               24 Jun  2 20:39 /usr/include/sys/mount.h
+-rw-r--r--    1 root    root             2350 Jun  2 20:39 /usr/include/sys/msg.h
+-rw-r--r--    1 root    root             1598 Jun  2 20:39 /usr/include/sys/param.h
+-rw-r--r--    1 root    root             2101 Jun  2 20:39 /usr/include/sys/poll.h
+-rw-r--r--    1 root    root             1227 Jun  2 20:39 /usr/include/sys/ptrace.h
+-rw-r--r--    1 root    root            18990 Jun  2 20:39 /usr/include/sys/queue.h
+-rw-r--r--    1 root    root             1743 Jun  2 20:39 /usr/include/sys/reboot.h
+-rw-r--r--    1 root    root             7070 Jun  2 20:39 /usr/include/sys/resource.h
+-rw-r--r--    1 root    root             3473 Jun  2 20:39 /usr/include/sys/select.h
+-rw-r--r--    1 root    root             2003 Jun  2 20:39 /usr/include/sys/sem.h
+-rw-r--r--    1 root    root             2251 Jun  2 20:39 /usr/include/sys/shm.h
+-rw-r--r--    1 root    root               20 Jun  2 20:39 /usr/include/sys/signal.h
+-rw-r--r--    1 root    root             7984 Jun  2 20:39 /usr/include/sys/socket.h
+-rw-r--r--    1 root    root             5960 Jun  2 20:39 /usr/include/sys/stat.h
+-rw-r--r--    1 root    root              601 Jun  2 20:39 /usr/include/sys/statfs.h
+-rw-r--r--    1 root    root             3352 Jun  2 20:39 /usr/include/sys/syscall.h
+-rw-r--r--    1 root    root             7816 Jun  2 20:39 /usr/include/sys/syslog.h
+-rw-r--r--    1 root    root             2143 Jun  2 20:39 /usr/include/sys/sysmacros.h
+-rw-r--r--    1 root    root             5578 Jun  2 20:39 /usr/include/sys/systeminfo.h
+-rw-r--r--    1 root    root               21 Jun  2 20:39 /usr/include/sys/termios.h
+-rw-r--r--    1 root    root             5839 Jun  2 20:39 /usr/include/sys/time.h
+-rw-r--r--    1 root    root             1078 Jun  2 20:39 /usr/include/sys/timeb.h
+-rw-r--r--    1 root    root              976 Jun  2 20:39 /usr/include/sys/times.h
+-rw-r--r--    1 root    root             2735 Jun  2 20:39 /usr/include/sys/ttychars.h
+-rw-r--r--    1 root    root             3095 Jun  2 20:39 /usr/include/sys/ttydefaults.h
+-rw-r--r--    1 root    root             4768 Jun  2 20:39 /usr/include/sys/types.h
+-rw-r--r--    1 root    root             2533 Jun  2 20:39 /usr/include/sys/ucontext.h
+-rw-r--r--    1 root    root             2041 Jun  2 20:39 /usr/include/sys/uio.h
+-rw-r--r--    1 root    root             1528 Jun  2 20:39 /usr/include/sys/un.h
+-rw-r--r--    1 root    root             1433 Jun  2 20:39 /usr/include/sys/utsname.h
+-rw-r--r--    1 root    root               21 Jun  2 20:39 /usr/include/sys/varargs.h
+-rw-r--r--    1 root    root               24 Jun  2 20:39 /usr/include/sys/vfs.h
+-rw-r--r--    1 root    root             3128 Jun  2 20:39 /usr/include/sys/wait.h
+-rw-r--r--    1 root    root             2631 Jun  2 20:39 /usr/include/syscall-list.h
+-rw-r--r--    1 root    root               25 Jun  2 20:39 /usr/include/syscall.h
+-rw-r--r--    1 root    root             5458 Jun  2 20:39 /usr/include/sysexits.h
+-rw-r--r--    1 root    root               24 Jun  2 20:39 /usr/include/syslog.h
+-rw-r--r--    1 root    root             3801 Jun  2 20:39 /usr/include/tar.h
+-rw-r--r--    1 root    root               77 Jun  2 20:39 /usr/include/tcfloat.h
+-rw-r--r--    1 root    root              912 Jun  2 20:39 /usr/include/tchars.h
+-rw-r--r--    1 root    root               75 Jun  2 20:39 /usr/include/tcmath.h
+-rw-r--r--    1 root    root               21 Jun  2 20:39 /usr/include/termio.h
+-rw-r--r--    1 root    root             3544 Jun  2 20:39 /usr/include/termios.h
+-rw-r--r--    1 root    root            10208 Jun  2 20:39 /usr/include/time.h
+-rw-r--r--    1 root    root             2142 Jun  2 20:39 /usr/include/ucontext.h
+-rw-r--r--    1 root    root            38289 Jun  2 20:39 /usr/include/unistd.h
+-rw-r--r--    1 root    root              398 Jun  2 20:39 /usr/include/utime.h
+-rw-r--r--    1 root    root             5615 Jun  2 20:39 /usr/include/utmp.h
+-rw-r--r--    1 root    root             3459 Jun  2 20:39 /usr/include/utmpbits.h
+-rw-r--r--    1 root    root             2087 Jun  2 20:39 /usr/include/values.h
+-rw-r--r--    1 root    root             2880 Jun  2 20:39 /usr/include/vt52.h
+-rw-r--r--    1 root    root               80 Jun  2 20:39 /usr/include/wait.h
+-rw-r--r--    1 root    root              275 Jun  2 20:39 /usr/include/wchar.h
+-rw-r--r--    1 root    root             2780 Jun  2 20:39 /usr/include/wordexp.h
+-rw-r--r--    1 root    root              627 Jun  2 20:39 /usr/lib/crt0.o
+-rw-r--r--    1 root    root              738 Jun  2 20:39 /usr/lib/gcrt0.o
+-rw-r--r--    1 root    root           958622 Jun  2 20:41 /usr/lib/libc.a
+-rw-r--r--    1 root    root            48144 Jun  2 20:41 /usr/lib/libiio.a
+-rw-r--r--    1 root    root            26622 Jun  2 20:41 /usr/lib/librpcsvc.a
+-rw-r--r--    1 root    root           941068 Jun  2 20:47 /usr/lib/m5475/libc.a
+?rwxrwxrwx    1 root    root                6 Jun  2 20:47 /usr/lib/m5475/libcv4e.a
+-rw-r--r--    1 root    root            47048 Jun  2 20:47 /usr/lib/m5475/libiio.a
+?rwxrwxrwx    1 root    root                8 Jun  2 20:47 /usr/lib/m5475/libiiov4e.a
+-rw-r--r--    1 root    root            25448 Jun  2 20:47 /usr/lib/m5475/librpcsvc.a
+?rwxrwxrwx    1 root    root               11 Jun  2 20:47 /usr/lib/m5475/librpcsvcv4e.a
+-rw-r--r--    1 root    root           919112 Jun  2 20:46 /usr/lib/m68020-60/libc.a
+?rwxrwxrwx    1 root    root                6 Jun  2 20:46 /usr/lib/m68020-60/libc020.a
+-rw-r--r--    1 root    root            47118 Jun  2 20:46 /usr/lib/m68020-60/libiio.a
+?rwxrwxrwx    1 root    root                8 Jun  2 20:46 /usr/lib/m68020-60/libiio020.a
+-rw-r--r--    1 root    root            26370 Jun  2 20:46 /usr/lib/m68020-60/librpcsvc.a
+?rwxrwxrwx    1 root    root               11 Jun  2 20:46 /usr/lib/m68020-60/librpcsvc020.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mintlib-devel-0.59.1-1.m68kmint.rpm">Download</A></H2> (1,673,193 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

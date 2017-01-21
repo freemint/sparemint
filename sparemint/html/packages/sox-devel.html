@@ -1,0 +1,101 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - sox-devel, version 12.17.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>sox-devel</H2>
+
+<UL> 
+<LI>Summary: The SoX sound file format converter libraries.<BR>
+<LI>URL: <A HREF="http://home.sprynet.com/sprynet/cbagwell/">http://home.sprynet.com/sprynet/cbagwell/</A><BR>
+<LI>Version: 12.17.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 355,542 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>sox-devel = 12.17.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Feb 10 04:45:04 2002 UTC<BR>
+<LI>Upload date: Sun Feb 10 13:11:12 2002 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/sox-12.17.3-1.src.rpm">sox-12.17.3-1.src.rpm</A>  (409,193 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Sun Feb 10 10:00:00 2002 UTC<BR>
+- updated to 12.17.3<BR>- fix for broken soxmix manpage (specfile)<BR>- patched play script to work under MiNT<BR>- removed /usr/bin/rec from distribution (not only manpage)
+<LI>Description:<BR>
+This package contains the library needed for compiling applications<BR>which will use the SoX sound file format converter.<BR><P><BR>Install sox-devel if you want to develop applications which will use<BR>SoX.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Feb  9  2002 /usr/include/sox
+-rw-r--r--    1 root    root             1812 Feb  9  2002 /usr/include/sox/adpcm.h
+-rw-r--r--    1 root    root             1593 Feb  9  2002 /usr/include/sox/btrworth.h
+-rw-r--r--    1 root    root             5374 Feb  9  2002 /usr/include/sox/cvsdfilt.h
+-rw-r--r--    1 root    root             1204 Feb  9  2002 /usr/include/sox/g711.h
+-rw-r--r--    1 root    root             4187 Feb  9  2002 /usr/include/sox/g72x.h
+-rw-r--r--    1 root    root             3509 Feb  9  2002 /usr/include/sox/ima_rw.h
+-rw-r--r--    1 root    root             2419 Feb  9  2002 /usr/include/sox/resampl.h
+-rw-r--r--    1 root    root             6927 Feb  9  2002 /usr/include/sox/sfircam.h
+-rw-r--r--    1 root    root            10443 Feb  9  2002 /usr/include/sox/st.h
+-rw-r--r--    1 root    root            20544 Feb  9  2002 /usr/include/sox/st_i.h
+-rw-r--r--    1 root    root             3153 Feb  9  2002 /usr/include/sox/stconfig.h
+-rw-r--r--    1 root    root              298 Feb  9  2002 /usr/include/sox/ststdint.h
+-rw-r--r--    1 root    root             1071 Feb  9  2002 /usr/include/sox/wav.h
+-rw-rw-rw-    1 root    root           289388 Feb  9  2002 /usr/lib/libst.a
+-rw-r--r--    1 root    root             2660 Feb  9  2002 /usr/share/man/man3/libst.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/sox-devel-12.17.3-1.m68kmint.rpm">Download</A></H2> (132,326 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

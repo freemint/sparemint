@@ -1,0 +1,33 @@
+FreeMiNT 1.15.7, beta Release
+=============================
+
+Dies ist eine Betaversion die gegenueber der 1.15.6 beta einige Neuerungen
+und Bugfixes enthaelt. In CHANGES sind alle Žnderungen aufgelistet.
+
+die wichtigsten Neuerungen:
+- keine Abh„ngigkeit von der libc, der Kernel linkt nun ohne irgendeine Lib
+- komplett neue Modul Laderoutinen
+- weitere UTC Anpassungen im Kernel
+- viele Bugfixes
+
+
+ACHTUNG
+=======
+
+Dieses Archiv enthaelt keinerlei Dokumentation und ist nur ein
+Zwischenrelease vor allem zum Betatesten.
+
+Die komplette Dokumentation findet sich im offiziellen 1.15.5 Archiv!
+Wer keine Dokumenation hat sollte sich dringend dieses Archiv holen
+und die Dokumentation gruendlich lesen. Zu finden unter:
+
+http://cs.uni-magdeburg.de/~fnaumann/
+
+freemint-1.15.5-bin.tar.gz
+freemint-1.15.5.tar.gz
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 28.02.2000

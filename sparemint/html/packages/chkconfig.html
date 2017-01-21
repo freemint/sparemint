@@ -1,0 +1,120 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - chkconfig, version 1.0.7, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>chkconfig</H2>
+
+<UL> 
+<LI>Summary: A system tool for maintaining the /etc/rc.d hierarchy.<BR>
+
+<LI>Version: 1.0.7<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 148,394 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>chkconfig = 1.0.7-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Dec 26 01:15:41 1999 UTC<BR>
+<LI>Upload date: Sun Dec 26 02:52:05 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/chkconfig-1.0.7-2.src.rpm">chkconfig-1.0.7-2.src.rpm</A>  (33,118 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;guido@atari.org&gt; Sun Dec 26 10:00:00 1999 UTC<BR>
+- Built against fixed libnewt to support monochrome terminals.
+<LI>Description:<BR>
+Chkconfig is a basic system utility.  It updates and queries runlevel<BR>information for system services.  Chkconfig manipulates the numerous<BR>symbolic links in /etc/rc.d, so system administrators don't have to<BR>manually edit the symbolic links as often.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/init.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc0.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc1.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc2.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc3.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc4.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc5.d
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /etc/rc.d/rc6.d
+-rwxr-xr-x    1 root    root            85233 Dec 25  1999 /sbin/chkconfig
+-rw-r--r--    1 root    root             2649 Dec 25  1999 /usr/share/locale/cs/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2381 Dec 25  1999 /usr/share/locale/da/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2816 Dec 25  1999 /usr/share/locale/de/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root              875 Dec 25  1999 /usr/share/locale/en_RN/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2325 Dec 25  1999 /usr/share/locale/et/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             1667 Dec 25  1999 /usr/share/locale/fi/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             1991 Dec 25  1999 /usr/share/locale/fr/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2688 Dec 25  1999 /usr/share/locale/hu/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2706 Dec 25  1999 /usr/share/locale/id/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2740 Dec 25  1999 /usr/share/locale/in/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2333 Dec 25  1999 /usr/share/locale/in_ID/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2650 Dec 25  1999 /usr/share/locale/is/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2735 Dec 25  1999 /usr/share/locale/it/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2570 Dec 25  1999 /usr/share/locale/ko/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2716 Dec 25  1999 /usr/share/locale/no/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2062 Dec 25  1999 /usr/share/locale/pt_BR/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2763 Dec 25  1999 /usr/share/locale/ro/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2713 Dec 25  1999 /usr/share/locale/ru/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2713 Dec 25  1999 /usr/share/locale/sk/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2672 Dec 25  1999 /usr/share/locale/sl/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2740 Dec 25  1999 /usr/share/locale/sr/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2716 Dec 25  1999 /usr/share/locale/tr/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2687 Dec 25  1999 /usr/share/locale/uk/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             2709 Dec 25  1999 /usr/share/locale/uk_UA/LC_MESSAGES/chkconfig.mo
+-rw-r--r--    1 root    root             1880 Dec 25  1999 /usr/share/man/man8/chkconfig.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/chkconfig-1.0.7-2.m68kmint.rpm">Download</A></H2> (68,619 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

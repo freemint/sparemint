@@ -1,0 +1,577 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - wv, version 0.7.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>wv</H2>
+
+<UL> 
+<LI>Summary: MSWord Document to HTML converter<BR>
+<LI>URL: <A HREF="http://www.wvWare.com/">http://www.wvWare.com/</A><BR>
+<LI>Version: 0.7.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Text">Applications/Text</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 5,688,272 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>wv = 0.7.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Nov  6 13:35:58 2001 UTC<BR>
+<LI>Upload date: Tue Nov  6 13:38:24 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/wv-0.7.0-1.src.rpm">wv-0.7.0-1.src.rpm</A>  (1,240,095 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Nov  6 10:00:00 2001 UTC<BR>
+- updated to 0.7.0
+<LI>Description:<BR>
+MSWordView is a program that understands the Microsoft Word 8 binary<BR>file format (Office97, Office2000) and is able to convert Word<BR>documents into HTML, which can then be read with a browser.<BR><P><BR>wv is a suite of programs to help convert Word Documents to HTML.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              328 Nov  6  2001 /usr/bin/make_epses.sh
+-rwxr-xr-x    1 root    root               91 Nov  6  2001 /usr/bin/wv-incconfig
+-rwxr-xr-x    1 root    root              240 Nov  6  2001 /usr/bin/wv-libconfig
+-rwxr-xr-x    1 root    root             2930 Nov  6  2001 /usr/bin/wvAbw
+-rwxr-xr-x    1 root    root             3078 Nov  6  2001 /usr/bin/wvCleanLatex
+-rwxr-xr-x    1 root    root          1012372 Nov  6  2001 /usr/bin/wvConvert
+-rwxr-xr-x    1 root    root             6784 Nov  6  2001 /usr/bin/wvDVI
+-rwxr-xr-x    1 root    root             2931 Nov  6  2001 /usr/bin/wvHtml
+-rwxr-xr-x    1 root    root             3073 Nov  6  2001 /usr/bin/wvLatex
+-rwxr-xr-x    1 root    root             1467 Nov  6  2001 /usr/bin/wvMime
+-rwxr-xr-x    1 root    root             7642 Nov  6  2001 /usr/bin/wvPDF
+-rwxr-xr-x    1 root    root             7009 Nov  6  2001 /usr/bin/wvPS
+-rwxr-xr-x    1 root    root          1022803 Nov  6  2001 /usr/bin/wvRTF
+-rwxr-xr-x    1 root    root           170516 Nov  6  2001 /usr/bin/wvSimpleCLX
+-rwxr-xr-x    1 root    root           163352 Nov  6  2001 /usr/bin/wvSummary
+-rwxr-xr-x    1 root    root             1193 Nov  6  2001 /usr/bin/wvText
+-rwxr-xr-x    1 root    root          1001396 Nov  6  2001 /usr/bin/wvVersion
+-rwxr-xr-x    1 root    root          1954515 Nov  6  2001 /usr/bin/wvWare
+-rwxr-xr-x    1 root    root             2930 Nov  6  2001 /usr/bin/wvWml
+drwxr-xr-x    2 root    root                0 Nov  6  2001 /usr/doc/wv-0.7.0
+-rw-r--r--    1 root    root           103783 Sep 13  2000 /usr/doc/wv-0.7.0/CHANGELOG
+-rw-r--r--    1 root    root             2049 Sep 13  2000 /usr/doc/wv-0.7.0/CREDITS
+-rw-r--r--    1 root    root              774 Sep  2  2000 /usr/doc/wv-0.7.0/D_CREDITS
+-rwxr-xr-x    1 root    root             4195 Sep  2  2000 /usr/doc/wv-0.7.0/D_README
+-rw-r--r--    1 root    root              478 Sep  2  2000 /usr/doc/wv-0.7.0/KNOWN-BUGS
+-rw-r--r--    1 root    root             2507 Sep 19  2000 /usr/doc/wv-0.7.0/README
+-rw-r--r--    1 root    root             1627 Sep  2  2000 /usr/doc/wv-0.7.0/TESTING
+-rw-r--r--    1 root    root             1136 Oct  3  2001 /usr/doc/wv-0.7.0/TODO.TXT
+-rw-r--r--    1 root    root              386 Nov  6  2001 /usr/share/man/man1/wvAbw.1.gz
+-rw-r--r--    1 root    root              371 Nov  6  2001 /usr/share/man/man1/wvCleanLatex.1.gz
+-rw-rw-rw-    1 root    root               33 Nov  6  2001 /usr/share/man/man1/wvConvert.1.gz
+-rw-r--r--    1 root    root              359 Nov  6  2001 /usr/share/man/man1/wvDVI.1.gz
+-rw-r--r--    1 root    root              406 Nov  6  2001 /usr/share/man/man1/wvHtml.1.gz
+-rw-r--r--    1 root    root              345 Nov  6  2001 /usr/share/man/man1/wvLatex.1.gz
+-rw-r--r--    1 root    root              401 Nov  6  2001 /usr/share/man/man1/wvMime.1.gz
+-rw-r--r--    1 root    root              371 Nov  6  2001 /usr/share/man/man1/wvPDF.1.gz
+-rw-r--r--    1 root    root              423 Nov  6  2001 /usr/share/man/man1/wvPS.1.gz
+-rw-r--r--    1 root    root              358 Nov  6  2001 /usr/share/man/man1/wvRTF.1.gz
+-rw-r--r--    1 root    root              384 Nov  6  2001 /usr/share/man/man1/wvSummary.1.gz
+-rw-r--r--    1 root    root              383 Nov  6  2001 /usr/share/man/man1/wvText.1.gz
+-rw-r--r--    1 root    root              368 Nov  6  2001 /usr/share/man/man1/wvVersion.1.gz
+-rw-r--r--    1 root    root             1247 Nov  6  2001 /usr/share/man/man1/wvWare.1.gz
+-rw-r--r--    1 root    root              378 Nov  6  2001 /usr/share/man/man1/wvWml.1.gz
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/wv
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/wv/patterns
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/100.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/101.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/102.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/103.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/104.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/105.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/106.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/107.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/108.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/109.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/110.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/111.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/112.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/113.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/114.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/115.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/116.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/117.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/118.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/119.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/120.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/121.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/122.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/123.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/124.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/125.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/126.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/127.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/128.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/129.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/130.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/131.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/132.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/133.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/134.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/135.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/136.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/137.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/138.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/139.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/14.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/140.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/141.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/142.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/143.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/144.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/145.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/146.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/147.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/148.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/149.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/15.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/150.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/151.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/152.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/153.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/154.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/155.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/156.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/157.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/158.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/159.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/16.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/160.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/161.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/162.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/163.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/164.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/165.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/166.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/167.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/168.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/169.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/17.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/170.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/171.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/172.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/173.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/174.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/175.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/176.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/177.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/178.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/179.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/18.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/180.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/181.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/182.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/183.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/184.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/185.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/186.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/187.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/188.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/189.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/19.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/190.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/191.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/192.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/193.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/194.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/195.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/196.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/197.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/198.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/199.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/20.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/200.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/201.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/202.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/203.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/204.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/205.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/21.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/22.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/23.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/24.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/25.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/26.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/27.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/28.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/29.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/30.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/31.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/32.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/33.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/34.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/35.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/36.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/37.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/38.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/39.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/40.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/41.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/42.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/43.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/44.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/45.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/46.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/47.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/48.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/49.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/50.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/51.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/52.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/53.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/54.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/55.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/56.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/57.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/58.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/59.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/60.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/61.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/62.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/63.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/64.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/65.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/66.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/67.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/68.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/69.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/70.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/71.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/72.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/73.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/74.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/75.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/76.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/77.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/78.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/79.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/80.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/81.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/82.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/83.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/84.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/85.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/86.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/87.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/88.gif
+-rw-r--r--    1 root    root              162 Nov  6  2001 /usr/share/wv/patterns/89.gif
+-rw-r--r--    1 root    root              155 Nov  6  2001 /usr/share/wv/patterns/90.gif
+-rw-r--r--    1 root    root              209 Nov  6  2001 /usr/share/wv/patterns/91.gif
+-rw-r--r--    1 root    root              106 Nov  6  2001 /usr/share/wv/patterns/92.gif
+-rw-r--r--    1 root    root              144 Nov  6  2001 /usr/share/wv/patterns/93.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/patterns/94.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/95.gif
+-rw-r--r--    1 root    root              154 Nov  6  2001 /usr/share/wv/patterns/96.gif
+-rw-r--r--    1 root    root              202 Nov  6  2001 /usr/share/wv/patterns/97.gif
+-rw-r--r--    1 root    root              108 Nov  6  2001 /usr/share/wv/patterns/98.gif
+-rw-r--r--    1 root    root              150 Nov  6  2001 /usr/share/wv/patterns/99.gif
+-rw-r--r--    1 root    root              640 Nov  6  2001 /usr/share/wv/patterns/battributes.jpg
+-rw-r--r--    1 root    root              582 Nov  6  2001 /usr/share/wv/patterns/bdeleted.jpg
+-rw-r--r--    1 root    root              539 Nov  6  2001 /usr/share/wv/patterns/bnewlytyped.jpg
+-rw-r--r--    1 root    root               61 Nov  6  2001 /usr/share/wv/patterns/clear.gif
+-rw-r--r--    1 root    root             1036 Nov  6  2001 /usr/share/wv/patterns/columnbreak.gif
+-rw-r--r--    1 root    root             1017 Nov  6  2001 /usr/share/wv/patterns/commentbegin.gif
+-rw-r--r--    1 root    root             1012 Nov  6  2001 /usr/share/wv/patterns/commentend.gif
+-rw-r--r--    1 root    root              494 Nov  6  2001 /usr/share/wv/patterns/deleted.jpg
+-rw-r--r--    1 root    root              534 Nov  6  2001 /usr/share/wv/patterns/doccommentb.jpg
+-rw-r--r--    1 root    root              514 Nov  6  2001 /usr/share/wv/patterns/doccommente.jpg
+-rw-r--r--    1 root    root             1149 Nov  6  2001 /usr/share/wv/patterns/documentend.gif
+-rw-r--r--    1 root    root              628 Nov  6  2001 /usr/share/wv/patterns/eattributes.jpg
+-rw-r--r--    1 root    root              556 Nov  6  2001 /usr/share/wv/patterns/edeleted.jpg
+-rw-r--r--    1 root    root             1078 Nov  6  2001 /usr/share/wv/patterns/endnotebegin.gif
+-rw-r--r--    1 root    root             1052 Nov  6  2001 /usr/share/wv/patterns/endnoteend.gif
+-rw-r--r--    1 root    root              509 Nov  6  2001 /usr/share/wv/patterns/enewlytyped.jpg
+-rw-r--r--    1 root    root              988 Nov  6  2001 /usr/share/wv/patterns/footnotebegin.gif
+-rw-r--r--    1 root    root              971 Nov  6  2001 /usr/share/wv/patterns/footnoteend.gif
+-rw-r--r--    1 root    root             1123 Nov  6  2001 /usr/share/wv/patterns/pagebreak.gif
+-rw-r--r--    1 root    root             1108 Nov  6  2001 /usr/share/wv/patterns/sectionendcolumn.gif
+-rw-r--r--    1 root    root             1095 Nov  6  2001 /usr/share/wv/patterns/sectionendcontinous.gif
+-rw-r--r--    1 root    root             1099 Nov  6  2001 /usr/share/wv/patterns/sectionendeven.gif
+-rw-r--r--    1 root    root             1100 Nov  6  2001 /usr/share/wv/patterns/sectionendnewpage.gif
+-rw-r--r--    1 root    root             1097 Nov  6  2001 /usr/share/wv/patterns/sectionendodd.gif
+-rw-r--r--    1 root    root              816 Nov  6  2001 /usr/share/wv/patterns/wmf.jpg
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/wv/ttf
+drwxrwxrwx    2 root    root                0 Nov  6  2001 /usr/share/wv/wingdingfont
+-rw-r--r--    1 root    root              386 Nov  6  2001 /usr/share/wv/wingdingfont/100.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/101.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/102.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/103.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/104.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/105.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/106.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/107.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/108.gif
+-rw-r--r--    1 root    root              367 Nov  6  2001 /usr/share/wv/wingdingfont/109.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/110.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/111.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/112.gif
+-rw-r--r--    1 root    root              405 Nov  6  2001 /usr/share/wv/wingdingfont/113.gif
+-rw-r--r--    1 root    root              189 Nov  6  2001 /usr/share/wv/wingdingfont/114.gif
+-rw-r--r--    1 root    root              189 Nov  6  2001 /usr/share/wv/wingdingfont/115.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/116.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/117.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/118.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/119.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/120.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/121.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/122.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/123.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/124.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/125.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/126.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/127.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/128.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/129.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/130.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/131.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/132.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/133.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/134.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/135.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/136.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/137.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/138.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/139.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/140.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/141.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/142.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/143.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/144.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/145.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/146.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/147.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/148.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/149.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/150.gif
+-rw-r--r--    1 root    root              143 Nov  6  2001 /usr/share/wv/wingdingfont/151.gif
+-rw-r--r--    1 root    root              172 Nov  6  2001 /usr/share/wv/wingdingfont/152.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/153.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/154.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/155.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/156.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/157.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/158.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/159.gif
+-rw-r--r--    1 root    root              309 Nov  6  2001 /usr/share/wv/wingdingfont/160.gif
+-rw-r--r--    1 root    root              143 Nov  6  2001 /usr/share/wv/wingdingfont/161.gif
+-rw-r--r--    1 root    root              172 Nov  6  2001 /usr/share/wv/wingdingfont/162.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/163.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/164.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/165.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/166.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/167.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/168.gif
+-rw-r--r--    1 root    root              206 Nov  6  2001 /usr/share/wv/wingdingfont/169.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/170.gif
+-rw-r--r--    1 root    root              172 Nov  6  2001 /usr/share/wv/wingdingfont/171.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/172.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/173.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/174.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/175.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/176.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/177.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/178.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/179.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/180.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/181.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/182.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/183.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/184.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/185.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/186.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/187.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/188.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/189.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/190.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/191.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/192.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/193.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/194.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/195.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/196.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/197.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/198.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/199.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/200.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/201.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/202.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/203.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/204.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/205.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/206.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/207.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/208.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/209.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/210.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/211.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/212.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/213.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/214.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/215.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/216.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/217.gif
+-rw-r--r--    1 root    root              405 Nov  6  2001 /usr/share/wv/wingdingfont/218.gif
+-rw-r--r--    1 root    root              405 Nov  6  2001 /usr/share/wv/wingdingfont/219.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/220.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/221.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/222.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/223.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/224.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/225.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/226.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/227.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/228.gif
+-rw-r--r--    1 root    root              328 Nov  6  2001 /usr/share/wv/wingdingfont/229.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/230.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/231.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/232.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/233.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/234.gif
+-rw-r--r--    1 root    root              257 Nov  6  2001 /usr/share/wv/wingdingfont/235.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/236.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/237.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/238.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/239.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/240.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/241.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/242.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/243.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/244.gif
+-rw-r--r--    1 root    root              291 Nov  6  2001 /usr/share/wv/wingdingfont/245.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/246.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/247.gif
+-rw-r--r--    1 root    root              348 Nov  6  2001 /usr/share/wv/wingdingfont/248.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/249.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/250.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/251.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/252.gif
+-rw-r--r--    1 root    root              274 Nov  6  2001 /usr/share/wv/wingdingfont/253.gif
+-rw-r--r--    1 root    root              189 Nov  6  2001 /usr/share/wv/wingdingfont/254.gif
+-rw-r--r--    1 root    root              157 Nov  6  2001 /usr/share/wv/wingdingfont/255.gif
+-rw-r--r--    1 root    root              327 Nov  6  2001 /usr/share/wv/wingdingfont/35.gif
+-rw-r--r--    1 root    root              366 Nov  6  2001 /usr/share/wv/wingdingfont/36.gif
+-rw-r--r--    1 root    root              423 Nov  6  2001 /usr/share/wv/wingdingfont/37.gif
+-rw-r--r--    1 root    root              442 Nov  6  2001 /usr/share/wv/wingdingfont/38.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/39.gif
+-rw-r--r--    1 root    root              385 Nov  6  2001 /usr/share/wv/wingdingfont/40.gif
+-rw-r--r--    1 root    root              171 Nov  6  2001 /usr/share/wv/wingdingfont/41.gif
+-rw-r--r--    1 root    root              347 Nov  6  2001 /usr/share/wv/wingdingfont/42.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/43.gif
+-rw-r--r--    1 root    root              366 Nov  6  2001 /usr/share/wv/wingdingfont/44.gif
+-rw-r--r--    1 root    root              366 Nov  6  2001 /usr/share/wv/wingdingfont/45.gif
+-rw-r--r--    1 root    root              385 Nov  6  2001 /usr/share/wv/wingdingfont/46.gif
+-rw-r--r--    1 root    root              385 Nov  6  2001 /usr/share/wv/wingdingfont/47.gif
+-rw-r--r--    1 root    root              462 Nov  6  2001 /usr/share/wv/wingdingfont/48.gif
+-rw-r--r--    1 root    root              462 Nov  6  2001 /usr/share/wv/wingdingfont/49.gif
+-rw-r--r--    1 root    root              366 Nov  6  2001 /usr/share/wv/wingdingfont/50.gif
+-rw-r--r--    1 root    root              442 Nov  6  2001 /usr/share/wv/wingdingfont/51.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/52.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/53.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/54.gif
+-rw-r--r--    1 root    root              205 Nov  6  2001 /usr/share/wv/wingdingfont/55.gif
+-rw-r--r--    1 root    root              222 Nov  6  2001 /usr/share/wv/wingdingfont/56.gif
+-rw-r--r--    1 root    root              347 Nov  6  2001 /usr/share/wv/wingdingfont/57.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/58.gif
+-rw-r--r--    1 root    root              347 Nov  6  2001 /usr/share/wv/wingdingfont/59.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/60.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/61.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/62.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/63.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/64.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/65.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/66.gif
+-rw-r--r--    1 root    root              205 Nov  6  2001 /usr/share/wv/wingdingfont/67.gif
+-rw-r--r--    1 root    root              273 Nov  6  2001 /usr/share/wv/wingdingfont/68.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/69.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/70.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/71.gif
+-rw-r--r--    1 root    root              308 Nov  6  2001 /usr/share/wv/wingdingfont/72.gif
+-rw-r--r--    1 root    root              205 Nov  6  2001 /usr/share/wv/wingdingfont/73.gif
+-rw-r--r--    1 root    root              205 Nov  6  2001 /usr/share/wv/wingdingfont/74.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/75.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/76.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/77.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/78.gif
+-rw-r--r--    1 root    root              366 Nov  6  2001 /usr/share/wv/wingdingfont/79.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/80.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/81.gif
+-rw-r--r--    1 root    root              347 Nov  6  2001 /usr/share/wv/wingdingfont/82.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/83.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/84.gif
+-rw-r--r--    1 root    root              222 Nov  6  2001 /usr/share/wv/wingdingfont/85.gif
+-rw-r--r--    1 root    root              273 Nov  6  2001 /usr/share/wv/wingdingfont/86.gif
+-rw-r--r--    1 root    root              222 Nov  6  2001 /usr/share/wv/wingdingfont/87.gif
+-rw-r--r--    1 root    root              273 Nov  6  2001 /usr/share/wv/wingdingfont/88.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/89.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/90.gif
+-rw-r--r--    1 root    root              256 Nov  6  2001 /usr/share/wv/wingdingfont/91.gif
+-rw-r--r--    1 root    root              256 Nov  6  2001 /usr/share/wv/wingdingfont/92.gif
+-rw-r--r--    1 root    root              256 Nov  6  2001 /usr/share/wv/wingdingfont/93.gif
+-rw-r--r--    1 root    root              239 Nov  6  2001 /usr/share/wv/wingdingfont/94.gif
+-rw-r--r--    1 root    root              273 Nov  6  2001 /usr/share/wv/wingdingfont/95.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/96.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/97.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/98.gif
+-rw-r--r--    1 root    root              290 Nov  6  2001 /usr/share/wv/wingdingfont/99.gif
+-rw-r--r--    1 root    root            13511 Nov  6  2001 /usr/share/wv/wvAbw.xml
+-rw-r--r--    1 root    root            11699 Nov  6  2001 /usr/share/wv/wvCleanLaTeX.xml
+-rw-r--r--    1 root    root              549 Nov  6  2001 /usr/share/wv/wvConfig.xml
+-rw-r--r--    1 root    root            14397 Nov  6  2001 /usr/share/wv/wvHtml.xml
+-rw-r--r--    1 root    root            11866 Nov  6  2001 /usr/share/wv/wvLaTeX.xml
+-rw-r--r--    1 root    root             9756 Nov  6  2001 /usr/share/wv/wvText.xml
+-rw-r--r--    1 root    root            11695 Nov  6  2001 /usr/share/wv/wvWml.xml
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/wv-0.7.0-1.m68kmint.rpm">Download</A></H2> (3,271,129 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

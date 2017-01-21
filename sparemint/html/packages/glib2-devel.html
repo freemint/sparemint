@@ -1,0 +1,437 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - glib2-devel, version 2.2.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>glib2-devel</H2>
+
+<UL> 
+<LI>Summary: GIMP Toolkit and GIMP Drawing Kit support library<BR>
+<LI>URL: <A HREF="http://www.gtk.org">http://www.gtk.org</A><BR>
+<LI>Version: 2.2.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/C">Development/C</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 6,843,922 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>glib2-devel = 2.2.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Jan 22 18:28:43 2004 UTC<BR>
+<LI>Upload date: Thu Jan 22 23:48:36 2004 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/glib2-2.2.3-1.src.rpm">glib2-2.2.3-1.src.rpm</A>  (2,127,894 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu Jan 22 12:00:00 2004 UTC<BR>
+- After many builds on both Mark Duckworth's Falcon and my own, this is finally<BR>- the initial, mostly working, release of Glib2 for MiNT!
+<LI>Description:<BR>
+Static libraries and header files for the support library for the GIMP's X<BR>libraries, which are available as public libraries.  GLIB includes generally<BR>useful data structures.<BR><P><BR>=================<BR>!!! IMPORTANT !!!<BR>=================<BR>2 test programs (out of 30) currently fail with this build:<BR><P><BR>mainloop-test fails in glib2 due to the pthread implemetation we are<BR>using, which is pth.  This is supposedly due to the fact that pth is<BR>cooperative library only, and glib2 wants a pre-emptive thread<BR>implemetation.<BR><P><BR>strtod-test looks like it fails due to the size of the integers being<BR>processed (just a wild guess).  Could also be a problem with Glib2 using it's<BR>own 'trio' support instead of native support.  More research needed.
+<LI>Files:<BR>
+<PRE>
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/bin
+-rwxr-xr-x    1 root    root           978009 Jan 22  2004 /usr/bin/glib-genmarshal
+-rwxr-xr-x    1 root    root             4660 Jan 22  2004 /usr/bin/glib-gettextize
+-rwxr-xr-x    1 root    root            13446 Jan 22  2004 /usr/bin/glib-mkenums
+-rwxr-xr-x    1 root    root          1140780 Jan 22  2004 /usr/bin/gobject-query
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/include
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/include/glib-2.0
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/include/glib-2.0/glib
+-rw-r--r--    1 root    root             1474 Jan 22  2004 /usr/include/glib-2.0/glib-object.h
+-rw-r--r--    1 root    root             2334 Jan 22  2004 /usr/include/glib-2.0/glib.h
+-rw-r--r--    1 root    root             1987 Jan 22  2004 /usr/include/glib-2.0/glib/galloca.h
+-rw-r--r--    1 root    root             5900 Jan 22  2004 /usr/include/glib-2.0/glib/garray.h
+-rw-r--r--    1 root    root             4295 Jan 22  2004 /usr/include/glib-2.0/glib/gasyncqueue.h
+-rw-r--r--    1 root    root             2476 Jan 22  2004 /usr/include/glib-2.0/glib/gbacktrace.h
+-rw-r--r--    1 root    root             2646 Jan 22  2004 /usr/include/glib-2.0/glib/gcache.h
+-rw-r--r--    1 root    root             2374 Jan 22  2004 /usr/include/glib-2.0/glib/gcompletion.h
+-rw-r--r--    1 root    root             3881 Jan 22  2004 /usr/include/glib-2.0/glib/gconvert.h
+-rw-r--r--    1 root    root             4863 Jan 22  2004 /usr/include/glib-2.0/glib/gdataset.h
+-rw-r--r--    1 root    root            10277 Jan 22  2004 /usr/include/glib-2.0/glib/gdate.h
+-rw-r--r--    1 root    root             1420 Jan 22  2004 /usr/include/glib-2.0/glib/gdir.h
+-rw-r--r--    1 root    root             2398 Jan 22  2004 /usr/include/glib-2.0/glib/gerror.h
+-rw-r--r--    1 root    root             2775 Jan 22  2004 /usr/include/glib-2.0/glib/gfileutils.h
+-rw-r--r--    1 root    root             3940 Jan 22  2004 /usr/include/glib-2.0/glib/ghash.h
+-rw-r--r--    1 root    root             5808 Jan 22  2004 /usr/include/glib-2.0/glib/ghook.h
+-rw-r--r--    1 root    root            12310 Jan 22  2004 /usr/include/glib-2.0/glib/giochannel.h
+-rw-r--r--    1 root    root             3955 Jan 22  2004 /usr/include/glib-2.0/glib/glist.h
+-rw-r--r--    1 root    root             7834 Jan 22  2004 /usr/include/glib-2.0/glib/gmacros.h
+-rw-r--r--    1 root    root            10116 Jan 22  2004 /usr/include/glib-2.0/glib/gmain.h
+-rw-r--r--    1 root    root             4993 Jan 22  2004 /usr/include/glib-2.0/glib/gmarkup.h
+-rw-r--r--    1 root    root             5873 Jan 22  2004 /usr/include/glib-2.0/glib/gmem.h
+-rw-r--r--    1 root    root            11505 Jan 22  2004 /usr/include/glib-2.0/glib/gmessages.h
+-rw-r--r--    1 root    root             5356 Jan 22  2004 /usr/include/glib-2.0/glib/gnode.h
+-rw-r--r--    1 root    root             1598 Jan 22  2004 /usr/include/glib-2.0/glib/gpattern.h
+-rw-r--r--    1 root    root             1622 Jan 22  2004 /usr/include/glib-2.0/glib/gprimes.h
+-rw-r--r--    1 root    root             2018 Jan 22  2004 /usr/include/glib-2.0/glib/gprintf.h
+-rw-r--r--    1 root    root             1429 Jan 22  2004 /usr/include/glib-2.0/glib/gqsort.h
+-rw-r--r--    1 root    root             1619 Jan 22  2004 /usr/include/glib-2.0/glib/gquark.h
+-rw-r--r--    1 root    root             2089 Jan 22  2004 /usr/include/glib-2.0/glib/gqueue.h
+-rw-r--r--    1 root    root             2534 Jan 22  2004 /usr/include/glib-2.0/glib/grand.h
+-rw-r--r--    1 root    root             3370 Jan 22  2004 /usr/include/glib-2.0/glib/grel.h
+-rw-r--r--    1 root    root             8066 Jan 22  2004 /usr/include/glib-2.0/glib/gscanner.h
+-rw-r--r--    1 root    root             1618 Jan 22  2004 /usr/include/glib-2.0/glib/gshell.h
+-rw-r--r--    1 root    root             3793 Jan 22  2004 /usr/include/glib-2.0/glib/gslist.h
+-rw-r--r--    1 root    root             5379 Jan 22  2004 /usr/include/glib-2.0/glib/gspawn.h
+-rw-r--r--    1 root    root             8685 Jan 22  2004 /usr/include/glib-2.0/glib/gstrfuncs.h
+-rw-r--r--    1 root    root             4924 Jan 22  2004 /usr/include/glib-2.0/glib/gstring.h
+-rw-r--r--    1 root    root            14810 Jan 22  2004 /usr/include/glib-2.0/glib/gthread.h
+-rw-r--r--    1 root    root             4440 Jan 22  2004 /usr/include/glib-2.0/glib/gthreadpool.h
+-rw-r--r--    1 root    root             1759 Jan 22  2004 /usr/include/glib-2.0/glib/gtimer.h
+-rw-r--r--    1 root    root             3726 Jan 22  2004 /usr/include/glib-2.0/glib/gtree.h
+-rw-r--r--    1 root    root            14617 Jan 22  2004 /usr/include/glib-2.0/glib/gtypes.h
+-rw-r--r--    1 root    root             9569 Jan 22  2004 /usr/include/glib-2.0/glib/gunicode.h
+-rw-r--r--    1 root    root            10999 Jan 22  2004 /usr/include/glib-2.0/glib/gutils.h
+-rw-r--r--    1 root    root             3126 Jan 22  2004 /usr/include/glib-2.0/glib/gwin32.h
+-rw-r--r--    1 root    root             3473 Jan 22  2004 /usr/include/glib-2.0/gmodule.h
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/include/glib-2.0/gobject
+-rw-r--r--    1 root    root             2579 Jan 22  2004 /usr/include/glib-2.0/gobject/gboxed.h
+-rw-r--r--    1 root    root             5890 Jan 22  2004 /usr/include/glib-2.0/gobject/gclosure.h
+-rw-r--r--    1 root    root             4397 Jan 22  2004 /usr/include/glib-2.0/gobject/genums.h
+-rw-r--r--    1 root    root             9763 Jan 22  2004 /usr/include/glib-2.0/gobject/gmarshal.h
+-rw-r--r--    1 root    root            10511 Jan 22  2004 /usr/include/glib-2.0/gobject/gobject.h
+-rw-r--r--    1 root    root             4595 Jan 22  2004 /usr/include/glib-2.0/gobject/gobjectnotifyqueue.c
+-rw-r--r--    1 root    root             8106 Jan 22  2004 /usr/include/glib-2.0/gobject/gparam.h
+-rw-r--r--    1 root    root            15453 Jan 22  2004 /usr/include/glib-2.0/gobject/gparamspecs.h
+-rw-r--r--    1 root    root            10219 Jan 22  2004 /usr/include/glib-2.0/gobject/gsignal.h
+-rw-r--r--    1 root    root             1365 Jan 22  2004 /usr/include/glib-2.0/gobject/gsourceclosure.h
+-rw-r--r--    1 root    root            16103 Jan 22  2004 /usr/include/glib-2.0/gobject/gtype.h
+-rw-r--r--    1 root    root             2976 Jan 22  2004 /usr/include/glib-2.0/gobject/gtypemodule.h
+-rw-r--r--    1 root    root             3085 Jan 22  2004 /usr/include/glib-2.0/gobject/gtypeplugin.h
+-rw-r--r--    1 root    root             2969 Jan 22  2004 /usr/include/glib-2.0/gobject/gvalue.h
+-rw-r--r--    1 root    root             2418 Jan 22  2004 /usr/include/glib-2.0/gobject/gvaluearray.h
+-rw-r--r--    1 root    root             5783 Jan 22  2004 /usr/include/glib-2.0/gobject/gvaluecollector.h
+-rw-r--r--    1 root    root             4810 Jan 22  2004 /usr/include/glib-2.0/gobject/gvaluetypes.h
+?rwxrwxrwx    1 root    root               36 Jan 22  2004 /usr/include/glibconfig.h
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/lib/glib-2.0
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/lib/glib-2.0/include
+-rw-r--r--    1 root    root             4883 Jan 22  2004 /usr/lib/glib-2.0/include/glibconfig.h
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/lib/pkgconfig
+-rw-r--r--    1 root    root              347 Jan 22  2004 /usr/lib/pkgconfig/glib-2.0.pc
+-rw-r--r--    1 root    root              249 Jan 22  2004 /usr/lib/pkgconfig/gmodule-2.0.pc
+-rw-r--r--    1 root    root              239 Jan 22  2004 /usr/lib/pkgconfig/gobject-2.0.pc
+-rw-r--r--    1 root    root              238 Jan 22  2004 /usr/lib/pkgconfig/gthread-2.0.pc
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/man
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/man/man1
+-rw-r--r--    1 root    root             4795 Jan 22  2004 /usr/man/man1/glib-genmarshal.1
+-rw-r--r--    1 root    root             4883 Jan 22  2004 /usr/man/man1/glib-mkenums.1
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/aclocal
+-rw-r--r--    1 root    root             8176 Jan 22  2004 /usr/share/aclocal/glib-2.0.m4
+-rw-r--r--    1 root    root            11935 Jan 22  2004 /usr/share/aclocal/glib-gettext.m4
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/glib-2.0
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/glib-2.0/gettext
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/glib-2.0/gettext/po
+-rw-r--r--    1 root    root             7420 Jan 22  2004 /usr/share/glib-2.0/gettext/po/Makefile.in.in
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/gtk-doc
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/gtk-doc/html
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/gtk-doc/html/glib
+-rw-r--r--    1 root    root            29150 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Arrays.html
+-rw-r--r--    1 root    root            26978 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Asynchronous-Queues.html
+-rw-r--r--    1 root    root            18880 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Automatic-String-Completion.html
+-rw-r--r--    1 root    root            36364 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Balanced-Binary-Trees.html
+-rw-r--r--    1 root    root            15227 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Basic-Types.html
+-rw-r--r--    1 root    root            19969 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Byte-Arrays.html
+-rw-r--r--    1 root    root            50568 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Byte-Order-Macros.html
+-rw-r--r--    1 root    root            18737 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Caches.html
+-rw-r--r--    1 root    root            40792 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Character-Set-Conversion.html
+-rw-r--r--    1 root    root            21369 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Datasets.html
+-rw-r--r--    1 root    root            76710 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Date-and-Time-Functions.html
+-rw-r--r--    1 root    root            19020 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Double-ended-Queues.html
+-rw-r--r--    1 root    root            56821 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html
+-rw-r--r--    1 root    root            21314 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Dynamic-Loading-of-Modules.html
+-rw-r--r--    1 root    root            30476 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Error-Reporting.html
+-rw-r--r--    1 root    root            28664 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-File-Utilities.html
+-rw-r--r--    1 root    root            14945 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Glob-style-pattern-matching.html
+-rw-r--r--    1 root    root            47839 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Hash-Tables.html
+-rw-r--r--    1 root    root            61549 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Hook-Functions.html
+-rw-r--r--    1 root    root            90689 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-IO-Channels.html
+-rw-r--r--    1 root    root            20142 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Keyed-Data-Lists.html
+-rw-r--r--    1 root    root            53689 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Lexical-Scanner.html
+-rw-r--r--    1 root    root             9594 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Limits-of-Basic-Types.html
+-rw-r--r--    1 root    root            26501 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html
+-rw-r--r--    1 root    root             8321 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Memory-Allocators.html
+-rw-r--r--    1 root    root            26284 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Memory-Chunks.html
+-rw-r--r--    1 root    root            23954 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Message-Logging.html
+-rw-r--r--    1 root    root            23197 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Miscellaneous-Macros.html
+-rw-r--r--    1 root    root            40440 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Miscellaneous-Utility-Functions.html
+-rw-r--r--    1 root    root            58562 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-N-ary-Trees.html
+-rw-r--r--    1 root    root            10142 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Numerical-Definitions.html
+-rw-r--r--    1 root    root            21538 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html
+-rw-r--r--    1 root    root             9322 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Quarks.html
+-rw-r--r--    1 root    root            21237 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Random-Numbers.html
+-rw-r--r--    1 root    root            23097 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Relations-and-Tuples.html
+-rw-r--r--    1 root    root            11187 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Shell-related-Utilities.html
+-rw-r--r--    1 root    root            26715 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Simple-XML-Subset-Parser.html
+-rw-r--r--    1 root    root            48045 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html
+-rw-r--r--    1 root    root            39331 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Spawning-Processes.html
+-rw-r--r--    1 root    root            17302 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Standard-Macros.html
+-rw-r--r--    1 root    root            11592 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-String-Chunks.html
+-rw-r--r--    1 root    root           113279 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-String-Utility-Functions.html
+-rw-r--r--    1 root    root            44346 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Strings.html
+-rw-r--r--    1 root    root           111908 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-The-Main-Event-Loop.html
+-rw-r--r--    1 root    root            24037 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Thread-Pools.html
+-rw-r--r--    1 root    root           107633 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Threads.html
+-rw-r--r--    1 root    root             9691 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Timers.html
+-rw-r--r--    1 root    root             8649 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Trash-Stacks.html
+-rw-r--r--    1 root    root             9680 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Type-Conversion-Macros.html
+-rw-r--r--    1 root    root            94877 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Unicode-Manipulation.html
+-rw-r--r--    1 root    root            17629 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Warnings-and-Assertions.html
+-rw-r--r--    1 root    root            14279 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-Windows-Compatability-Functions.html
+-rw-r--r--    1 root    root             9077 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-building.html
+-rw-r--r--    1 root    root             6525 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-changes.html
+-rw-r--r--    1 root    root             4061 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-compiling.html
+-rw-r--r--    1 root    root             3910 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-core.html
+-rw-r--r--    1 root    root             5207 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-data-types.html
+-rw-r--r--    1 root    root             3477 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-fundamentals.html
+-rw-r--r--    1 root    root             5995 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-resources.html
+-rw-r--r--    1 root    root             5522 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-running.html
+-rw-r--r--    1 root    root             4604 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib-utilities.html
+-rw-r--r--    1 root    root           117924 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib.devhelp
+-rw-r--r--    1 root    root             4299 Jan 22  2004 /usr/share/gtk-doc/html/glib/glib.html
+-rw-r--r--    1 root    root              654 Jan 22  2004 /usr/share/gtk-doc/html/glib/home.png
+-rw-r--r--    1 root    root             4376 Jan 22  2004 /usr/share/gtk-doc/html/glib/index.html
+-rw-r--r--    1 root    root           110051 Jan 22  2004 /usr/share/gtk-doc/html/glib/index.sgml
+-rw-r--r--    1 root    root           118012 Jan 22  2004 /usr/share/gtk-doc/html/glib/ix01.html
+-rw-r--r--    1 root    root              459 Jan 22  2004 /usr/share/gtk-doc/html/glib/left.png
+-rw-r--r--    1 root    root             7088 Jan 22  2004 /usr/share/gtk-doc/html/glib/mainloop-states.gif
+-rw-r--r--    1 root    root              472 Jan 22  2004 /usr/share/gtk-doc/html/glib/right.png
+-rw-r--r--    1 root    root              406 Jan 22  2004 /usr/share/gtk-doc/html/glib/up.png
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/gtk-doc/html/gobject
+-rw-r--r--    1 root    root            10798 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html
+-rw-r--r--    1 root    root            37805 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Closures.html
+-rw-r--r--    1 root    root            25314 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Enumeration-and-Flag-Types.html
+-rw-r--r--    1 root    root            50657 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-GParamSpec.html
+-rw-r--r--    1 root    root           127430 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-GType.html
+-rw-r--r--    1 root    root            15241 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-GTypeModule.html
+-rw-r--r--    1 root    root            13059 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-GTypePlugin.html
+-rw-r--r--    1 root    root            27495 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Generic-values.html
+-rw-r--r--    1 root    root           108765 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Signals.html
+-rw-r--r--    1 root    root           193323 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Standard-Parameter-and-Value-Types.html
+-rw-r--r--    1 root    root            63158 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html
+-rw-r--r--    1 root    root            19819 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Value-arrays.html
+-rw-r--r--    1 root    root             5489 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject-Varargs-Value-Collection.html
+-rw-r--r--    1 root    root            57994 Jan 22  2004 /usr/share/gtk-doc/html/gobject/gobject.devhelp
+-rw-r--r--    1 root    root              654 Jan 22  2004 /usr/share/gtk-doc/html/gobject/home.png
+-rw-r--r--    1 root    root             3546 Jan 22  2004 /usr/share/gtk-doc/html/gobject/index.html
+-rw-r--r--    1 root    root            56693 Jan 22  2004 /usr/share/gtk-doc/html/gobject/index.sgml
+-rw-r--r--    1 root    root            59692 Jan 22  2004 /usr/share/gtk-doc/html/gobject/ix01.html
+-rw-r--r--    1 root    root              459 Jan 22  2004 /usr/share/gtk-doc/html/gobject/left.png
+-rw-r--r--    1 root    root             4522 Jan 22  2004 /usr/share/gtk-doc/html/gobject/pr01.html
+-rw-r--r--    1 root    root              472 Jan 22  2004 /usr/share/gtk-doc/html/gobject/right.png
+-rw-r--r--    1 root    root             3998 Jan 22  2004 /usr/share/gtk-doc/html/gobject/rn01.html
+-rw-r--r--    1 root    root              406 Jan 22  2004 /usr/share/gtk-doc/html/gobject/up.png
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/am
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/am/LC_MESSAGES
+-rw-r--r--    1 root    root              716 Jan 22  2004 /usr/share/locale/am/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/az
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/az/LC_MESSAGES
+-rw-r--r--    1 root    root            13167 Jan 22  2004 /usr/share/locale/az/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/be
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/be/LC_MESSAGES
+-rw-r--r--    1 root    root            16789 Jan 22  2004 /usr/share/locale/be/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/bg
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/bg/LC_MESSAGES
+-rw-r--r--    1 root    root            16345 Jan 22  2004 /usr/share/locale/bg/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/bn
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/bn/LC_MESSAGES
+-rw-r--r--    1 root    root            13498 Jan 22  2004 /usr/share/locale/bn/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ca
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ca/LC_MESSAGES
+-rw-r--r--    1 root    root            13569 Jan 22  2004 /usr/share/locale/ca/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/cs
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/cs/LC_MESSAGES
+-rw-r--r--    1 root    root            12509 Jan 22  2004 /usr/share/locale/cs/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/cy
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/cy/LC_MESSAGES
+-rw-r--r--    1 root    root            12374 Jan 22  2004 /usr/share/locale/cy/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/da
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/da/LC_MESSAGES
+-rw-r--r--    1 root    root            12677 Jan 22  2004 /usr/share/locale/da/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/de
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/de/LC_MESSAGES
+-rw-r--r--    1 root    root            13214 Jan 22  2004 /usr/share/locale/de/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/el
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/el/LC_MESSAGES
+-rw-r--r--    1 root    root            17712 Jan 22  2004 /usr/share/locale/el/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/eo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/eo/LC_MESSAGES
+-rw-r--r--    1 root    root            12130 Jan 22  2004 /usr/share/locale/eo/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/es
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/es/LC_MESSAGES
+-rw-r--r--    1 root    root            13860 Jan 22  2004 /usr/share/locale/es/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/et
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/et/LC_MESSAGES
+-rw-r--r--    1 root    root             5940 Jan 22  2004 /usr/share/locale/et/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/eu
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/eu/LC_MESSAGES
+-rw-r--r--    1 root    root            10121 Jan 22  2004 /usr/share/locale/eu/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fa
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fa/LC_MESSAGES
+-rw-r--r--    1 root    root            16049 Jan 22  2004 /usr/share/locale/fa/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fi
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fi/LC_MESSAGES
+-rw-r--r--    1 root    root            12959 Jan 22  2004 /usr/share/locale/fi/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fr
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/fr/LC_MESSAGES
+-rw-r--r--    1 root    root            14109 Jan 22  2004 /usr/share/locale/fr/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/gl
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/gl/LC_MESSAGES
+-rw-r--r--    1 root    root            12399 Jan 22  2004 /usr/share/locale/gl/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/he
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/he/LC_MESSAGES
+-rw-r--r--    1 root    root            13577 Jan 22  2004 /usr/share/locale/he/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/hi
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/hi/LC_MESSAGES
+-rw-r--r--    1 root    root             7339 Jan 22  2004 /usr/share/locale/hi/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/id
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/id/LC_MESSAGES
+-rw-r--r--    1 root    root            12923 Jan 22  2004 /usr/share/locale/id/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/is
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/is/LC_MESSAGES
+-rw-r--r--    1 root    root            12179 Jan 22  2004 /usr/share/locale/is/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/it
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/it/LC_MESSAGES
+-rw-r--r--    1 root    root            13377 Jan 22  2004 /usr/share/locale/it/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ja
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ja/LC_MESSAGES
+-rw-r--r--    1 root    root            14340 Jan 22  2004 /usr/share/locale/ja/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ko
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ko/LC_MESSAGES
+-rw-r--r--    1 root    root            13864 Jan 22  2004 /usr/share/locale/ko/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/li
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/li/LC_MESSAGES
+-rw-r--r--    1 root    root            12794 Jan 22  2004 /usr/share/locale/li/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/lv
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/lv/LC_MESSAGES
+-rw-r--r--    1 root    root            12667 Jan 22  2004 /usr/share/locale/lv/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/mk
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/mk/LC_MESSAGES
+-rw-r--r--    1 root    root            16727 Jan 22  2004 /usr/share/locale/mk/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ml
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ml/LC_MESSAGES
+-rw-r--r--    1 root    root              600 Jan 22  2004 /usr/share/locale/ml/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/mn
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/mn/LC_MESSAGES
+-rw-r--r--    1 root    root            16262 Jan 22  2004 /usr/share/locale/mn/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ms
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ms/LC_MESSAGES
+-rw-r--r--    1 root    root            12388 Jan 22  2004 /usr/share/locale/ms/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/nl
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/nl/LC_MESSAGES
+-rw-r--r--    1 root    root            12775 Jan 22  2004 /usr/share/locale/nl/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/nn
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/nn/LC_MESSAGES
+-rw-r--r--    1 root    root            12581 Jan 22  2004 /usr/share/locale/nn/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/no
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/no/LC_MESSAGES
+-rw-r--r--    1 root    root            12612 Jan 22  2004 /usr/share/locale/no/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pl
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pl/LC_MESSAGES
+-rw-r--r--    1 root    root            13484 Jan 22  2004 /usr/share/locale/pl/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pt
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pt/LC_MESSAGES
+-rw-r--r--    1 root    root            12883 Jan 22  2004 /usr/share/locale/pt/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pt_BR
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/pt_BR/LC_MESSAGES
+-rw-r--r--    1 root    root            12902 Jan 22  2004 /usr/share/locale/pt_BR/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ro
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ro/LC_MESSAGES
+-rw-r--r--    1 root    root            11991 Jan 22  2004 /usr/share/locale/ro/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ru
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ru/LC_MESSAGES
+-rw-r--r--    1 root    root            18021 Jan 22  2004 /usr/share/locale/ru/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sk
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sk/LC_MESSAGES
+-rw-r--r--    1 root    root            12430 Jan 22  2004 /usr/share/locale/sk/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sl
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sl/LC_MESSAGES
+-rw-r--r--    1 root    root            12405 Jan 22  2004 /usr/share/locale/sl/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sq
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sq/LC_MESSAGES
+-rw-r--r--    1 root    root            13333 Jan 22  2004 /usr/share/locale/sq/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sr
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sr/LC_MESSAGES
+-rw-r--r--    1 root    root            16116 Jan 22  2004 /usr/share/locale/sr/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sr@Latn
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sr@Latn/LC_MESSAGES
+-rw-r--r--    1 root    root            12694 Jan 22  2004 /usr/share/locale/sr@Latn/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sv
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/sv/LC_MESSAGES
+-rw-r--r--    1 root    root            12835 Jan 22  2004 /usr/share/locale/sv/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ta
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/ta/LC_MESSAGES
+-rw-r--r--    1 root    root            19261 Jan 22  2004 /usr/share/locale/ta/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/tr
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/tr/LC_MESSAGES
+-rw-r--r--    1 root    root            12843 Jan 22  2004 /usr/share/locale/tr/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/uk
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/uk/LC_MESSAGES
+-rw-r--r--    1 root    root            16585 Jan 22  2004 /usr/share/locale/uk/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/vi
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/vi/LC_MESSAGES
+-rw-r--r--    1 root    root            13808 Jan 22  2004 /usr/share/locale/vi/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/yi
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/yi/LC_MESSAGES
+-rw-r--r--    1 root    root            16908 Jan 22  2004 /usr/share/locale/yi/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/zh_CN
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/zh_CN/LC_MESSAGES
+-rw-r--r--    1 root    root            11763 Jan 22  2004 /usr/share/locale/zh_CN/LC_MESSAGES/glib20.mo
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/zh_TW
+drwxrwxrwx    2 root    root                0 Jan 22  2004 /usr/share/locale/zh_TW/LC_MESSAGES
+-rw-r--r--    1 root    root            12082 Jan 22  2004 /usr/share/locale/zh_TW/LC_MESSAGES/glib20.mo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/glib2-devel-2.2.3-1.m68kmint.rpm">Download</A></H2> (1,897,388 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

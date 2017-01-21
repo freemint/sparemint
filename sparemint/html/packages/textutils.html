@@ -1,0 +1,162 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - textutils, version 2.0.11, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>textutils</H2>
+
+<UL> 
+<LI>Summary: GNU Text Utilities<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/textutils/">http://www.gnu.org/software/textutils/</A><BR>
+<LI>Version: 2.0.11<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Text">Applications/Text</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 4,483,755 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>textutils = 2.0.11-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Jun 26 22:29:54 2003 UTC<BR>
+<LI>Upload date: Thu Jun 26 22:43:11 2003 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/textutils-2.0.11-2.src.rpm">textutils-2.0.11-2.src.rpm</A>  (2,152,404 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Jun 27 09:00:00 2003 UTC<BR>
+- special physmem detection for FreeMiNT/TOS; don't<BR>  default to 64 MB memory
+<LI>Description:<BR>
+These are the GNU text file (actually, file contents) processing<BR>utilities.  Most of these programs have significant advantages over<BR>their Unix counterparts, such as greater speed, additional options,<BR>and fewer arbitrary limits.<BR>The programs in this package are: cat, cksum, comm, csplit, cut,<BR>expand, fmt, fold, head, join, md5sum, nl, od, paste, pr, ptx, sort,<BR>split, sum, tac, tail, tr, tsort, unexpand, uniq, and wc.<BR><P><BR>Bug Reports:<BR>============<BR>    &lt;bug-textutils@gnu.org&gt;<BR><P><BR>Authors:<BR>========<BR>    Jim Meyering &lt;meyering@ascend.com&gt;<BR>    François Pinard &lt;pinard@iro.umontreal.com&gt;<BR>    and others (use option "--version" to learn about the actual author)
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           134389 Jun 26  2003 /bin/cat
+-rwxr-xr-x    1 root    root           175786 Jun 26  2003 /bin/sort
+-rwxr-xr-x    1 root    root           108905 Jun 26  2003 /usr/bin/cksum
+-rwxr-xr-x    1 root    root           108432 Jun 26  2003 /usr/bin/comm
+-rwxr-xr-x    1 root    root           145114 Jun 26  2003 /usr/bin/csplit
+-rwxr-xr-x    1 root    root           111376 Jun 26  2003 /usr/bin/cut
+-rwxr-xr-x    1 root    root           108616 Jun 26  2003 /usr/bin/expand
+-rwxr-xr-x    1 root    root           112233 Jun 26  2003 /usr/bin/fmt
+-rwxr-xr-x    1 root    root           108967 Jun 26  2003 /usr/bin/fold
+-rwxr-xr-x    1 root    root           113763 Jun 26  2003 /usr/bin/head
+-rwxr-xr-x    1 root    root           114103 Jun 26  2003 /usr/bin/join
+-rwxr-xr-x    1 root    root           121491 Jun 26  2003 /usr/bin/md5sum
+-rwxr-xr-x    1 root    root           132248 Jun 26  2003 /usr/bin/nl
+-rwxr-xr-x    1 root    root           129576 Jun 26  2003 /usr/bin/od
+-rwxr-xr-x    1 root    root           109377 Jun 26  2003 /usr/bin/paste
+-rwxr-xr-x    1 root    root           128373 Jun 26  2003 /usr/bin/pr
+-rwxr-xr-x    1 root    root           141460 Jun 26  2003 /usr/bin/ptx
+-rwxr-xr-x    1 root    root           121491 Jun 26  2003 /usr/bin/sha1sum
+-rwxr-xr-x    1 root    root           110364 Jun 26  2003 /usr/bin/split
+-rwxr-xr-x    1 root    root           108024 Jun 26  2003 /usr/bin/sum
+-rwxr-xr-x    1 root    root           132986 Jun 26  2003 /usr/bin/tac
+-rwxr-xr-x    1 root    root           124072 Jun 26  2003 /usr/bin/tail
+-rwxr-xr-x    1 root    root           119486 Jun 26  2003 /usr/bin/tr
+-rwxr-xr-x    1 root    root           109560 Jun 26  2003 /usr/bin/tsort
+-rwxr-xr-x    1 root    root           108933 Jun 26  2003 /usr/bin/unexpand
+-rwxr-xr-x    1 root    root           110889 Jun 26  2003 /usr/bin/uniq
+-rwxr-xr-x    1 root    root           117367 Jun 26  2003 /usr/bin/wc
+drwxr-xr-x    2 root    root                0 Jun 26  2003 /usr/doc/textutils-2.0.11
+-rw-r--r--    1 root    root            17179 Dec 18  2000 /usr/doc/textutils-2.0.11/NEWS
+-rw-r--r--    1 root    root             1804 Aug  6  1999 /usr/doc/textutils-2.0.11/README
+-rw-r--r--    1 root    root            47663 Jun 26  2003 /usr/info/textutils.info.gz
+-rw-r--r--    1 root    root            68894 Jun 26  2003 /usr/share/locale/cs/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            63440 Jun 26  2003 /usr/share/locale/da/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            69470 Jun 26  2003 /usr/share/locale/de/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            72742 Jun 26  2003 /usr/share/locale/el/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            72174 Jun 26  2003 /usr/share/locale/es/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            73360 Jun 26  2003 /usr/share/locale/fr/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            69807 Jun 26  2003 /usr/share/locale/gl/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            67584 Jun 26  2003 /usr/share/locale/ja/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            18238 Jun 26  2003 /usr/share/locale/ko/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            70361 Jun 26  2003 /usr/share/locale/nl/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            55307 Jun 26  2003 /usr/share/locale/no/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            67281 Jun 26  2003 /usr/share/locale/pl/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            68544 Jun 26  2003 /usr/share/locale/pt_BR/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            69265 Jun 26  2003 /usr/share/locale/ru/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            69262 Jun 26  2003 /usr/share/locale/sk/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            67839 Jun 26  2003 /usr/share/locale/sl/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            39806 Jun 26  2003 /usr/share/locale/sv/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root            36719 Jun 26  2003 /usr/share/locale/zh/LC_MESSAGES/textutils.mo
+-rw-r--r--    1 root    root              908 Jun 26  2003 /usr/share/man/man1/cat.1.gz
+-rw-r--r--    1 root    root              652 Jun 26  2003 /usr/share/man/man1/cksum.1.gz
+-rw-r--r--    1 root    root              706 Jun 26  2003 /usr/share/man/man1/comm.1.gz
+-rw-r--r--    1 root    root             1111 Jun 26  2003 /usr/share/man/man1/csplit.1.gz
+-rw-r--r--    1 root    root             1073 Jun 26  2003 /usr/share/man/man1/cut.1.gz
+-rw-r--r--    1 root    root              828 Jun 26  2003 /usr/share/man/man1/expand.1.gz
+-rw-r--r--    1 root    root              991 Jun 26  2003 /usr/share/man/man1/fmt.1.gz
+-rw-r--r--    1 root    root              762 Jun 26  2003 /usr/share/man/man1/fold.1.gz
+-rw-r--r--    1 root    root              931 Jun 26  2003 /usr/share/man/man1/head.1.gz
+-rw-r--r--    1 root    root             1167 Jun 26  2003 /usr/share/man/man1/join.1.gz
+-rw-r--r--    1 root    root             1022 Jun 26  2003 /usr/share/man/man1/md5sum.1.gz
+-rw-r--r--    1 root    root             1218 Jun 26  2003 /usr/share/man/man1/nl.1.gz
+-rw-r--r--    1 root    root             1696 Jun 26  2003 /usr/share/man/man1/od.1.gz
+-rw-r--r--    1 root    root              795 Jun 26  2003 /usr/share/man/man1/paste.1.gz
+-rw-r--r--    1 root    root             2047 Jun 26  2003 /usr/share/man/man1/pr.1.gz
+-rw-r--r--    1 root    root             1231 Jun 26  2003 /usr/share/man/man1/ptx.1.gz
+-rw-r--r--    1 root    root             1028 Jun 26  2003 /usr/share/man/man1/sha1sum.1.gz
+-rw-r--r--    1 root    root             1630 Jun 26  2003 /usr/share/man/man1/sort.1.gz
+-rw-r--r--    1 root    root              904 Jun 26  2003 /usr/share/man/man1/split.1.gz
+-rw-r--r--    1 root    root              755 Jun 26  2003 /usr/share/man/man1/sum.1.gz
+-rw-r--r--    1 root    root              799 Jun 26  2003 /usr/share/man/man1/tac.1.gz
+-rw-r--r--    1 root    root             1620 Jun 26  2003 /usr/share/man/man1/tail.1.gz
+-rw-r--r--    1 root    root             1416 Jun 26  2003 /usr/share/man/man1/tr.1.gz
+-rw-r--r--    1 root    root              686 Jun 26  2003 /usr/share/man/man1/tsort.1.gz
+-rw-r--r--    1 root    root              832 Jun 26  2003 /usr/share/man/man1/unexpand.1.gz
+-rw-r--r--    1 root    root              986 Jun 26  2003 /usr/share/man/man1/uniq.1.gz
+-rw-r--r--    1 root    root              817 Jun 26  2003 /usr/share/man/man1/wc.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/textutils-2.0.11-2.m68kmint.rpm">Download</A></H2> (2,108,042 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

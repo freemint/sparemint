@@ -1,0 +1,473 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - jed-common, version 0.99.16, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>jed-common</H2>
+
+<UL> 
+<LI>Summary: Files needed by any Jed editor.<BR>
+
+<LI>Version: 0.99.16<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Editors">Applications/Editors</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 2,542,044 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>jed-common = 0.99.16-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Mar  2 19:44:52 2004 UTC<BR>
+<LI>Upload date: Tue Mar  2 19:56:53 2004 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/jed-0.99.16-2.src.rpm">jed-0.99.16-2.src.rpm</A>  (848,568 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Mar  2 22:00:00 2004 UTC<BR>
+- Fixed install location.
+<LI>Description:<BR>
+The jed-common package contains files (such as .sl files) that are<BR>needed by any jed binary in order to run.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Mar  2  2004 /usr/doc/jed-common-0.99.16
+-rw-r--r--    1 root    root            17976 Oct 20  2002 /usr/doc/jed-common-0.99.16/COPYING
+-rw-r--r--    1 root    root              719 Oct 20  2002 /usr/doc/jed-common-0.99.16/COPYRIGHT
+-rw-r--r--    1 root    root             2277 Oct 20  2002 /usr/doc/jed-common-0.99.16/INSTALL
+-rw-r--r--    1 root    root              530 Oct 20  2002 /usr/doc/jed-common-0.99.16/INSTALL.be
+-rw-r--r--    1 root    root             8053 Oct 20  2002 /usr/doc/jed-common-0.99.16/INSTALL.pc
+-rw-r--r--    1 root    root             4018 Oct 20  2002 /usr/doc/jed-common-0.99.16/INSTALL.unx
+-rw-r--r--    1 root    root             4629 Oct 20  2002 /usr/doc/jed-common-0.99.16/INSTALL.vms
+-rw-r--r--    1 root    root             1718 Oct 20  2002 /usr/doc/jed-common-0.99.16/README
+-rw-r--r--    1 root    root            94954 Oct 20  2002 /usr/doc/jed-common-0.99.16/changes.txt
+drwxr-xr-x    2 root    root                0 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc
+-rw-r--r--    1 root    root             1509 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/README
+drwxr-xr-x    2 root    root                0 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/manual
+-rw-r--r--    1 root    root             7416 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/manual/jed.1
+-rw-r--r--    1 root    root            72408 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/manual/jed.tex
+-rw-r--r--    1 root    root             3860 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/manual/rgrep.1
+drwxr-xr-x    2 root    root                0 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm
+-rw-r--r--    1 root    root              987 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/Makefile
+-rw-r--r--    1 root    root              593 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/README
+-rw-r--r--    1 root    root             2528 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/jedfuns.tm
+drwxr-xr-x    2 root    root                0 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl
+-rw-r--r--    1 root    root             2448 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/abbrev.tm
+-rw-r--r--    1 root    root             1517 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/blocal.tm
+-rw-r--r--    1 root    root            12091 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/buffer.tm
+-rw-r--r--    1 root    root             5644 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/color.tm
+-rw-r--r--    1 root    root             1656 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/eval.tm
+-rw-r--r--    1 root    root             8110 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/file.tm
+-rw-r--r--    1 root    root             2647 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/hidden.tm
+-rw-r--r--    1 root    root             3753 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/hooks.tm
+-rw-r--r--    1 root    root             3748 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/info.tm
+-rw-r--r--    1 root    root             6126 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/insdel.tm
+-rw-r--r--    1 root    root            16472 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/keys.tm
+-rw-r--r--    1 root    root             6142 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/mark.tm
+-rw-r--r--    1 root    root             9903 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/menu.tm
+-rw-r--r--    1 root    root             1863 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/message.tm
+-rw-r--r--    1 root    root             5864 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/mini.tm
+-rw-r--r--    1 root    root             9523 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/misc.tm
+-rw-r--r--    1 root    root             3941 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/mouse.tm
+-rw-r--r--    1 root    root             9870 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/move.tm
+-rw-r--r--    1 root    root             6134 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/process.tm
+-rw-r--r--    1 root    root             2105 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/rect.tm
+-rw-r--r--    1 root    root             9263 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/region.tm
+-rw-r--r--    1 root    root            11274 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/search.tm
+-rw-r--r--    1 root    root            14713 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/syntax.tm
+-rw-r--r--    1 root    root             4186 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/terminal.tm
+-rwxr-xr-x    1 root    root             2540 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/tm-sort.sl
+-rw-r--r--    1 root    root             1940 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/userinfo.tm
+-rwxr-xr-x    1 root    root             2081 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/whatelse.sl
+-rw-r--r--    1 root    root            12133 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/window.tm
+-rw-r--r--    1 root    root             3620 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/tm/rtl/xjed.tm
+drwxr-xr-x    2 root    root                0 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt
+-rw-r--r--    1 root    root             7553 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/abbrev.txt
+-rw-r--r--    1 root    root             1721 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/color.txt
+-rw-r--r--    1 root    root             2250 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/compile.txt
+-rw-r--r--    1 root    root             8705 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/dfa.txt
+-rw-r--r--    1 root    root             2389 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/edt.txt
+-rw-r--r--    1 root    root             8742 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/emacs.txt
+-rw-r--r--    1 root    root             1108 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/filelock.txt
+-rw-r--r--    1 root    root             6067 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/fold.txt
+-rw-r--r--    1 root    root            17392 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/hooks.txt
+-rw-r--r--    1 root    root             7859 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/ide-mode.txt
+-rw-r--r--    1 root    root            14485 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/jed_faq.txt
+-rw-r--r--    1 root    root           195674 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/jedfuns.txt
+-rw-r--r--    1 root    root            67333 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/libfuns.txt
+-rw-r--r--    1 root    root             1077 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/linux-keys.txt
+-rw-r--r--    1 root    root             1883 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/menus.txt
+-rw-r--r--    1 root    root             6961 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/mouse.txt
+-rw-r--r--    1 root    root             3879 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/pc-keys.txt
+-rw-r--r--    1 root    root             4827 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/program.txt
+-rw-r--r--    1 root    root             1282 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/rgrep.txt
+-rw-r--r--    1 root    root             3864 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/rmail.txt
+-rw-r--r--    1 root    root             4212 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/script.txt
+-rw-r--r--    1 root    root             2577 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/syntax.txt
+-rw-r--r--    1 root    root              264 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/undo.txt
+-rw-r--r--    1 root    root             8043 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/wjed.txt
+-rw-r--r--    1 root    root             1831 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/wordstar.txt
+-rw-r--r--    1 root    root             6213 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/xjed.txt
+-rw-r--r--    1 root    root              882 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/xrenderfont.txt
+-rw-r--r--    1 root    root             4547 Oct 20  2002 /usr/doc/jed-common-0.99.16/doc/txt/yankpop.txt
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/bin
+-rwxr-xr-x    1 root    root           119389 Mar  2  2004 /usr/jed/bin/getmail
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/info
+-rw-r--r--    1 root    root             1019 Mar  2  2004 /usr/jed/info/dir.info
+-rw-r--r--    1 root    root            27279 Mar  2  2004 /usr/jed/info/info.info
+-rw-r--r--    1 root    root            24290 Mar  2  2004 /usr/jed/info/jed.1in
+-rw-r--r--    1 root    root            24860 Mar  2  2004 /usr/jed/info/jed.2in
+-rw-r--r--    1 root    root            20588 Mar  2  2004 /usr/jed/info/jed.3in
+-rw-r--r--    1 root    root             1574 Mar  2  2004 /usr/jed/info/jed.info
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/lib
+-rw-r--r--    1 root    root              846 Mar  2  2004 /usr/jed/lib/abbrev.sl
+-rw-r--r--    1 root    root              541 Mar  2  2004 /usr/jed/lib/abbrev.slc
+-rw-r--r--    1 root    root             2238 Mar  2  2004 /usr/jed/lib/abbrmisc.sl
+-rw-r--r--    1 root    root             1672 Mar  2  2004 /usr/jed/lib/abbrmisc.slc
+-rw-r--r--    1 root    root              253 Mar  2  2004 /usr/jed/lib/aboutjed.hlp
+-rw-r--r--    1 root    root             2142 Mar  2  2004 /usr/jed/lib/acompile.sl
+-rw-r--r--    1 root    root             1770 Mar  2  2004 /usr/jed/lib/acompile.slc
+-rw-r--r--    1 root    root              267 Mar  2  2004 /usr/jed/lib/aprocess.sl
+-rw-r--r--    1 root    root              194 Mar  2  2004 /usr/jed/lib/aprocess.slc
+-rw-r--r--    1 root    root             7337 Mar  2  2004 /usr/jed/lib/ashell.sl
+-rw-r--r--    1 root    root             5546 Mar  2  2004 /usr/jed/lib/ashell.slc
+-rw-r--r--    1 root    root             1441 Mar  2  2004 /usr/jed/lib/backups.sl
+-rw-r--r--    1 root    root              530 Mar  2  2004 /usr/jed/lib/backups.slc
+-rw-r--r--    1 root    root            17476 Mar  2  2004 /usr/jed/lib/bibtex.sl
+-rw-r--r--    1 root    root            10799 Mar  2  2004 /usr/jed/lib/bibtex.slc
+-rw-r--r--    1 root    root              624 Mar  2  2004 /usr/jed/lib/binary.sl
+-rw-r--r--    1 root    root              466 Mar  2  2004 /usr/jed/lib/binary.slc
+-rw-r--r--    1 root    root             1652 Mar  2  2004 /usr/jed/lib/bookmark.sl
+-rw-r--r--    1 root    root             1037 Mar  2  2004 /usr/jed/lib/bookmark.slc
+-rw-r--r--    1 root    root             6235 Mar  2  2004 /usr/jed/lib/brief.sl
+-rw-r--r--    1 root    root             1913 Mar  2  2004 /usr/jed/lib/buf.sl
+-rw-r--r--    1 root    root             1074 Mar  2  2004 /usr/jed/lib/buf.slc
+-rw-r--r--    1 root    root             6855 Mar  2  2004 /usr/jed/lib/bufed.sl
+-rw-r--r--    1 root    root             3889 Mar  2  2004 /usr/jed/lib/bufed.slc
+-rw-r--r--    1 root    root             3337 Mar  2  2004 /usr/jed/lib/bytecomp.sl
+-rw-r--r--    1 root    root             6639 Mar  2  2004 /usr/jed/lib/cal.sl
+-rw-r--r--    1 root    root             3843 Mar  2  2004 /usr/jed/lib/cal.slc
+-rw-r--r--    1 root    root             3063 Mar  2  2004 /usr/jed/lib/chglog.sl
+-rw-r--r--    1 root    root             2015 Mar  2  2004 /usr/jed/lib/chglog.slc
+-rw-r--r--    1 root    root             4832 Mar  2  2004 /usr/jed/lib/cmisc.sl
+-rw-r--r--    1 root    root             3074 Mar  2  2004 /usr/jed/lib/cmisc.slc
+-rw-r--r--    1 root    root             7741 Mar  2  2004 /usr/jed/lib/cmode.dfa
+-rw-r--r--    1 root    root            26941 Mar  2  2004 /usr/jed/lib/cmode.sl
+-rw-r--r--    1 root    root            17807 Mar  2  2004 /usr/jed/lib/cmode.slc
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/lib/colors
+-rw-r--r--    1 root    root               88 Mar  2  2004 /usr/jed/lib/colors/README
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/lib/colors/Xjed
+-rw-r--r--    1 root    root             1306 Mar  2  2004 /usr/jed/lib/colors/Xjed/elegant.sl
+-rw-r--r--    1 root    root             1613 Mar  2  2004 /usr/jed/lib/colors/Xjed/pastel0.sl
+-rw-r--r--    1 root    root             1297 Mar  2  2004 /usr/jed/lib/colors/black1.sl
+-rw-r--r--    1 root    root              942 Mar  2  2004 /usr/jed/lib/colors/black1.slc
+-rw-r--r--    1 root    root             1311 Mar  2  2004 /usr/jed/lib/colors/black2.sl
+-rw-r--r--    1 root    root              946 Mar  2  2004 /usr/jed/lib/colors/black2.slc
+-rw-r--r--    1 root    root             1365 Mar  2  2004 /usr/jed/lib/colors/black3.sl
+-rw-r--r--    1 root    root              984 Mar  2  2004 /usr/jed/lib/colors/black3.slc
+-rw-r--r--    1 root    root             1334 Mar  2  2004 /usr/jed/lib/colors/blue1.sl
+-rw-r--r--    1 root    root              947 Mar  2  2004 /usr/jed/lib/colors/blue1.slc
+-rw-r--r--    1 root    root             1328 Mar  2  2004 /usr/jed/lib/colors/blue2.sl
+-rw-r--r--    1 root    root              945 Mar  2  2004 /usr/jed/lib/colors/blue2.slc
+-rw-r--r--    1 root    root             1402 Mar  2  2004 /usr/jed/lib/colors/blue3.sl
+-rw-r--r--    1 root    root              980 Mar  2  2004 /usr/jed/lib/colors/blue3.slc
+-rw-r--r--    1 root    root             1122 Mar  2  2004 /usr/jed/lib/colors/default1.sl
+-rw-r--r--    1 root    root              963 Mar  2  2004 /usr/jed/lib/colors/default1.slc
+-rw-r--r--    1 root    root             1121 Mar  2  2004 /usr/jed/lib/colors/white1.sl
+-rw-r--r--    1 root    root              959 Mar  2  2004 /usr/jed/lib/colors/white1.slc
+-rw-r--r--    1 root    root             7441 Mar  2  2004 /usr/jed/lib/comments.sl
+-rw-r--r--    1 root    root             4281 Mar  2  2004 /usr/jed/lib/comments.slc
+-rw-r--r--    1 root    root              955 Mar  2  2004 /usr/jed/lib/compat.sl
+-rw-r--r--    1 root    root            11332 Mar  2  2004 /usr/jed/lib/compile.sl
+-rw-r--r--    1 root    root             4754 Mar  2  2004 /usr/jed/lib/compile.slc
+-rw-r--r--    1 root    root             3024 Mar  2  2004 /usr/jed/lib/compress.sl
+-rw-r--r--    1 root    root             2261 Mar  2  2004 /usr/jed/lib/compress.slc
+-rw-r--r--    1 root    root              577 Mar  2  2004 /usr/jed/lib/cpright.hlp
+-rw-r--r--    1 root    root             5310 Mar  2  2004 /usr/jed/lib/ctags.sl
+-rw-r--r--    1 root    root             2902 Mar  2  2004 /usr/jed/lib/ctags.slc
+-rw-r--r--    1 root    root             5506 Mar  2  2004 /usr/jed/lib/cua.sl
+-rw-r--r--    1 root    root             2803 Mar  2  2004 /usr/jed/lib/cua.slc
+-rw-r--r--    1 root    root             5207 Mar  2  2004 /usr/jed/lib/dabbrev.sl
+-rw-r--r--    1 root    root             2498 Mar  2  2004 /usr/jed/lib/dabbrev.slc
+-rw-r--r--    1 root    root             2532 Mar  2  2004 /usr/jed/lib/dcl.sl
+-rw-r--r--    1 root    root             1782 Mar  2  2004 /usr/jed/lib/dcl.slc
+-rw-r--r--    1 root    root             3313 Mar  2  2004 /usr/jed/lib/digraph.sl
+-rw-r--r--    1 root    root              559 Mar  2  2004 /usr/jed/lib/digraph.slc
+-rw-r--r--    1 root    root            18015 Mar  2  2004 /usr/jed/lib/dired.sl
+-rw-r--r--    1 root    root             7666 Mar  2  2004 /usr/jed/lib/dired.slc
+-rw-r--r--    1 root    root            39302 Mar  2  2004 /usr/jed/lib/docbook.sl
+-rw-r--r--    1 root    root            33228 Mar  2  2004 /usr/jed/lib/docbook.slc
+-rw-r--r--    1 root    root             1002 Mar  2  2004 /usr/jed/lib/dos437.sl
+-rw-r--r--    1 root    root             1331 Mar  2  2004 /usr/jed/lib/dos850.sl
+-rw-r--r--    1 root    root             1169 Mar  2  2004 /usr/jed/lib/dos852.sl
+-rw-r--r--    1 root    root             1639 Mar  2  2004 /usr/jed/lib/edt.hlp
+-rw-r--r--    1 root    root            15093 Mar  2  2004 /usr/jed/lib/edt.sl
+-rw-r--r--    1 root    root             6341 Mar  2  2004 /usr/jed/lib/edt.slc
+-rw-r--r--    1 root    root              227 Mar  2  2004 /usr/jed/lib/emacs.hlp
+-rw-r--r--    1 root    root             6690 Mar  2  2004 /usr/jed/lib/emacs.sl
+-rw-r--r--    1 root    root             5184 Mar  2  2004 /usr/jed/lib/emacs.slc
+-rw-r--r--    1 root    root             2155 Mar  2  2004 /usr/jed/lib/emacsmsc.sl
+-rw-r--r--    1 root    root             1654 Mar  2  2004 /usr/jed/lib/emacsmsc.slc
+-rw-r--r--    1 root    root              269 Mar  2  2004 /usr/jed/lib/emul.sl
+-rw-r--r--    1 root    root            17045 Mar  2  2004 /usr/jed/lib/f90.sl
+-rw-r--r--    1 root    root            10996 Mar  2  2004 /usr/jed/lib/f90.slc
+-rw-r--r--    1 root    root               56 Mar  2  2004 /usr/jed/lib/ff90.sl
+-rw-r--r--    1 root    root               73 Mar  2  2004 /usr/jed/lib/ff90.slc
+-rw-r--r--    1 root    root              658 Mar  2  2004 /usr/jed/lib/filter.sl
+-rw-r--r--    1 root    root              468 Mar  2  2004 /usr/jed/lib/filter.slc
+-rw-r--r--    1 root    root            15268 Mar  2  2004 /usr/jed/lib/folding.sl
+-rw-r--r--    1 root    root             9472 Mar  2  2004 /usr/jed/lib/folding.slc
+-rw-r--r--    1 root    root            10695 Mar  2  2004 /usr/jed/lib/fortran.sl
+-rw-r--r--    1 root    root             6351 Mar  2  2004 /usr/jed/lib/fortran.slc
+-rw-r--r--    1 root    root              135 Mar  2  2004 /usr/jed/lib/generic.hlp
+-rw-r--r--    1 root    root             6318 Mar  2  2004 /usr/jed/lib/help.sl
+-rw-r--r--    1 root    root             4391 Mar  2  2004 /usr/jed/lib/help.slc
+-rw-r--r--    1 root    root             5701 Mar  2  2004 /usr/jed/lib/history.sl
+-rw-r--r--    1 root    root             1720 Mar  2  2004 /usr/jed/lib/history.slc
+-rw-r--r--    1 root    root             2015 Mar  2  2004 /usr/jed/lib/hooks.sl
+-rw-r--r--    1 root    root             1479 Mar  2  2004 /usr/jed/lib/hooks.slc
+-rw-r--r--    1 root    root             6258 Mar  2  2004 /usr/jed/lib/html.dfa
+-rw-r--r--    1 root    root            13838 Mar  2  2004 /usr/jed/lib/html.sl
+-rw-r--r--    1 root    root             8483 Mar  2  2004 /usr/jed/lib/html.slc
+-rw-r--r--    1 root    root             1285 Mar  2  2004 /usr/jed/lib/ide.hlp
+-rw-r--r--    1 root    root            23008 Mar  2  2004 /usr/jed/lib/ide.sl
+-rw-r--r--    1 root    root            17322 Mar  2  2004 /usr/jed/lib/ide.slc
+-rw-r--r--    1 root    root             5592 Mar  2  2004 /usr/jed/lib/idl.sl
+-rw-r--r--    1 root    root             4534 Mar  2  2004 /usr/jed/lib/idl.slc
+-rw-r--r--    1 root    root            20168 Mar  2  2004 /usr/jed/lib/info.sl
+-rw-r--r--    1 root    root            14227 Mar  2  2004 /usr/jed/lib/info.slc
+-rw-r--r--    1 root    root             5406 Mar  2  2004 /usr/jed/lib/isearch.sl
+-rw-r--r--    1 root    root             2802 Mar  2  2004 /usr/jed/lib/isearch.slc
+-rw-r--r--    1 root    root              934 Mar  2  2004 /usr/jed/lib/iso-lat2.sl
+-rw-r--r--    1 root    root              844 Mar  2  2004 /usr/jed/lib/iso-lat2.slc
+-rw-r--r--    1 root    root             1305 Mar  2  2004 /usr/jed/lib/iso-lat3.sl
+-rw-r--r--    1 root    root              855 Mar  2  2004 /usr/jed/lib/iso-lat3.slc
+-rw-r--r--    1 root    root              536 Mar  2  2004 /usr/jed/lib/iso-latin.sl
+-rw-r--r--    1 root    root              343 Mar  2  2004 /usr/jed/lib/iso-latin.slc
+-rw-r--r--    1 root    root             1760 Mar  2  2004 /usr/jed/lib/iso2xxx.sl
+-rw-r--r--    1 root    root             1202 Mar  2  2004 /usr/jed/lib/iso2xxx.slc
+-rw-r--r--    1 root    root             2337 Mar  2  2004 /usr/jed/lib/ispell.sl
+-rw-r--r--    1 root    root             1699 Mar  2  2004 /usr/jed/lib/ispell.slc
+-rw-r--r--    1 root    root             7744 Mar  2  2004 /usr/jed/lib/javamode.dfa
+-rw-r--r--    1 root    root             3256 Mar  2  2004 /usr/jed/lib/javamode.sl
+-rw-r--r--    1 root    root             3004 Mar  2  2004 /usr/jed/lib/javamode.slc
+-rw-r--r--    1 root    root              356 Mar  2  2004 /usr/jed/lib/jed.hlp
+-rw-r--r--    1 root    root             9935 Mar  2  2004 /usr/jed/lib/jed.rc
+-rw-r--r--    1 root    root             3830 Mar  2  2004 /usr/jed/lib/jed.sl
+-rw-r--r--    1 root    root             3274 Mar  2  2004 /usr/jed/lib/jed.slc
+-rw-r--r--    1 root    root             1467 Mar  2  2004 /usr/jed/lib/jedhelp.sl
+-rw-r--r--    1 root    root             1322 Mar  2  2004 /usr/jed/lib/jedhelp.slc
+-rw-r--r--    1 root    root              936 Mar  2  2004 /usr/jed/lib/jedusage.sl
+-rw-r--r--    1 root    root              963 Mar  2  2004 /usr/jed/lib/jedusage.slc
+-rw-r--r--    1 root    root             4293 Mar  2  2004 /usr/jed/lib/keycode.sl
+-rw-r--r--    1 root    root              357 Mar  2  2004 /usr/jed/lib/keycode.slc
+-rw-r--r--    1 root    root             9220 Mar  2  2004 /usr/jed/lib/keydefs.sl
+-rw-r--r--    1 root    root             6005 Mar  2  2004 /usr/jed/lib/keydefs.slc
+-rw-r--r--    1 root    root             1904 Mar  2  2004 /usr/jed/lib/krconv.sl
+-rw-r--r--    1 root    root             1190 Mar  2  2004 /usr/jed/lib/krconv.slc
+-rw-r--r--    1 root    root            27616 Mar  2  2004 /usr/jed/lib/latex.sl
+-rw-r--r--    1 root    root            18100 Mar  2  2004 /usr/jed/lib/latex.slc
+-rw-r--r--    1 root    root             2313 Mar  2  2004 /usr/jed/lib/latex209.sl
+-rw-r--r--    1 root    root             1398 Mar  2  2004 /usr/jed/lib/latex209.slc
+-rw-r--r--    1 root    root              825 Mar  2  2004 /usr/jed/lib/linux.sl
+-rw-r--r--    1 root    root             1244 Mar  2  2004 /usr/jed/lib/lisp.sl
+-rw-r--r--    1 root    root              941 Mar  2  2004 /usr/jed/lib/lisp.slc
+-rw-r--r--    1 root    root             2058 Mar  2  2004 /usr/jed/lib/ltx-comp.dat
+-rw-r--r--    1 root    root             4413 Mar  2  2004 /usr/jed/lib/ltx-math.sl
+-rw-r--r--    1 root    root             3468 Mar  2  2004 /usr/jed/lib/ltx-math.slc
+-rw-r--r--    1 root    root             2023 Mar  2  2004 /usr/jed/lib/macro.sl
+-rw-r--r--    1 root    root             1546 Mar  2  2004 /usr/jed/lib/macro.slc
+-rw-r--r--    1 root    root             4829 Mar  2  2004 /usr/jed/lib/mail.sl
+-rw-r--r--    1 root    root             3402 Mar  2  2004 /usr/jed/lib/mail.slc
+-rw-r--r--    1 root    root             6561 Mar  2  2004 /usr/jed/lib/mailalias.sl
+-rw-r--r--    1 root    root             3281 Mar  2  2004 /usr/jed/lib/mailalias.slc
+-rw-r--r--    1 root    root             1206 Mar  2  2004 /usr/jed/lib/man.sl
+-rw-r--r--    1 root    root              613 Mar  2  2004 /usr/jed/lib/man.slc
+-rw-r--r--    1 root    root             2192 Mar  2  2004 /usr/jed/lib/maple.sl
+-rw-r--r--    1 root    root             1623 Mar  2  2004 /usr/jed/lib/maple.slc
+-rw-r--r--    1 root    root             5209 Mar  2  2004 /usr/jed/lib/matlab.sl
+-rw-r--r--    1 root    root             3509 Mar  2  2004 /usr/jed/lib/matlab.slc
+-rw-r--r--    1 root    root             4912 Mar  2  2004 /usr/jed/lib/menu.sl
+-rw-r--r--    1 root    root             3409 Mar  2  2004 /usr/jed/lib/menu.slc
+-rw-r--r--    1 root    root             2359 Mar  2  2004 /usr/jed/lib/menus.sl
+-rw-r--r--    1 root    root             1532 Mar  2  2004 /usr/jed/lib/menus.slc
+-rw-r--r--    1 root    root             1186 Mar  2  2004 /usr/jed/lib/mime.sl
+-rw-r--r--    1 root    root              778 Mar  2  2004 /usr/jed/lib/mime.slc
+-rw-r--r--    1 root    root             3916 Mar  2  2004 /usr/jed/lib/mini.sl
+-rw-r--r--    1 root    root             2747 Mar  2  2004 /usr/jed/lib/mini.slc
+-rw-r--r--    1 root    root             9229 Mar  2  2004 /usr/jed/lib/minued.sl
+-rw-r--r--    1 root    root             3632 Mar  2  2004 /usr/jed/lib/minued.slc
+-rw-r--r--    1 root    root             3091 Mar  2  2004 /usr/jed/lib/misc.sl
+-rw-r--r--    1 root    root             1483 Mar  2  2004 /usr/jed/lib/misc.slc
+-rw-r--r--    1 root    root             2042 Mar  2  2004 /usr/jed/lib/modehook.sl
+-rw-r--r--    1 root    root              884 Mar  2  2004 /usr/jed/lib/modehook.slc
+-rw-r--r--    1 root    root             1157 Mar  2  2004 /usr/jed/lib/modeinfo.sl
+-rw-r--r--    1 root    root              852 Mar  2  2004 /usr/jed/lib/modeinfo.slc
+-rw-r--r--    1 root    root             3742 Mar  2  2004 /usr/jed/lib/most.sl
+-rw-r--r--    1 root    root             2706 Mar  2  2004 /usr/jed/lib/most.slc
+-rw-r--r--    1 root    root             4614 Mar  2  2004 /usr/jed/lib/mouse.sl
+-rw-r--r--    1 root    root             8507 Mar  2  2004 /usr/jed/lib/mousex.sl
+-rw-r--r--    1 root    root             3561 Mar  2  2004 /usr/jed/lib/mousex.slc
+-rw-r--r--    1 root    root             7130 Mar  2  2004 /usr/jed/lib/mswmouse.sl
+-rw-r--r--    1 root    root             3154 Mar  2  2004 /usr/jed/lib/mutekeys.sl
+-rw-r--r--    1 root    root             1249 Mar  2  2004 /usr/jed/lib/mutekeys.slc
+-rw-r--r--    1 root    root             1119 Mar  2  2004 /usr/jed/lib/nroff.sl
+-rw-r--r--    1 root    root              620 Mar  2  2004 /usr/jed/lib/nroff.slc
+-rw-r--r--    1 root    root             1491 Mar  2  2004 /usr/jed/lib/occur.sl
+-rw-r--r--    1 root    root              831 Mar  2  2004 /usr/jed/lib/occur.slc
+-rw-r--r--    1 root    root             4202 Mar  2  2004 /usr/jed/lib/os.sl
+-rw-r--r--    1 root    root            35871 Mar  2  2004 /usr/jed/lib/perl.sl
+-rw-r--r--    1 root    root            13034 Mar  2  2004 /usr/jed/lib/perl.slc
+-rw-r--r--    1 root    root            56611 Mar  2  2004 /usr/jed/lib/php.sl
+-rw-r--r--    1 root    root            46063 Mar  2  2004 /usr/jed/lib/php.slc
+-rw-r--r--    1 root    root              584 Mar  2  2004 /usr/jed/lib/pipe.sl
+-rw-r--r--    1 root    root              514 Mar  2  2004 /usr/jed/lib/pipe.slc
+-rw-r--r--    1 root    root             8439 Mar  2  2004 /usr/jed/lib/popups.sl
+-rw-r--r--    1 root    root             7289 Mar  2  2004 /usr/jed/lib/popups.slc
+-rw-r--r--    1 root    root             1718 Mar  2  2004 /usr/jed/lib/preparse.sl
+-rw-r--r--    1 root    root            22137 Mar  2  2004 /usr/jed/lib/pscript.dfa
+-rw-r--r--    1 root    root             4220 Mar  2  2004 /usr/jed/lib/pscript.sl
+-rw-r--r--    1 root    root             3464 Mar  2  2004 /usr/jed/lib/pscript.slc
+-rw-r--r--    1 root    root             1888 Mar  2  2004 /usr/jed/lib/pushmode.sl
+-rw-r--r--    1 root    root             1332 Mar  2  2004 /usr/jed/lib/pushmode.slc
+-rw-r--r--    1 root    root            15986 Mar  2  2004 /usr/jed/lib/pymode.sl
+-rw-r--r--    1 root    root             9380 Mar  2  2004 /usr/jed/lib/pymode.slc
+-rw-r--r--    1 root    root             6675 Mar  2  2004 /usr/jed/lib/python.dfa
+-rw-r--r--    1 root    root             4367 Mar  2  2004 /usr/jed/lib/rcs.sl
+-rw-r--r--    1 root    root             2471 Mar  2  2004 /usr/jed/lib/rcs.slc
+-rw-r--r--    1 root    root             5408 Mar  2  2004 /usr/jed/lib/recent.sl
+-rw-r--r--    1 root    root             2328 Mar  2  2004 /usr/jed/lib/recent.slc
+-rw-r--r--    1 root    root             1665 Mar  2  2004 /usr/jed/lib/regexp.sl
+-rw-r--r--    1 root    root             1353 Mar  2  2004 /usr/jed/lib/regexp.slc
+-rw-r--r--    1 root    root             4190 Mar  2  2004 /usr/jed/lib/register.sl
+-rw-r--r--    1 root    root             2593 Mar  2  2004 /usr/jed/lib/register.slc
+-rw-r--r--    1 root    root             1478 Mar  2  2004 /usr/jed/lib/replace.sl
+-rw-r--r--    1 root    root              978 Mar  2  2004 /usr/jed/lib/replace.slc
+-rw-r--r--    1 root    root            36554 Mar  2  2004 /usr/jed/lib/rmail.sl
+-rw-r--r--    1 root    root            26951 Mar  2  2004 /usr/jed/lib/rmail.slc
+-rw-r--r--    1 root    root              500 Mar  2  2004 /usr/jed/lib/rot13.sl
+-rw-r--r--    1 root    root              299 Mar  2  2004 /usr/jed/lib/rot13.slc
+-rw-r--r--    1 root    root              691 Mar  2  2004 /usr/jed/lib/runpgm.sl
+-rw-r--r--    1 root    root             4442 Mar  2  2004 /usr/jed/lib/sccs.sl
+-rw-r--r--    1 root    root             2171 Mar  2  2004 /usr/jed/lib/sccs.slc
+-rw-r--r--    1 root    root             2505 Mar  2  2004 /usr/jed/lib/search.sl
+-rw-r--r--    1 root    root             1899 Mar  2  2004 /usr/jed/lib/search.slc
+-rw-r--r--    1 root    root              732 Mar  2  2004 /usr/jed/lib/seldisp.sl
+-rw-r--r--    1 root    root              428 Mar  2  2004 /usr/jed/lib/seldisp.slc
+-rw-r--r--    1 root    root             6711 Mar  2  2004 /usr/jed/lib/sendmail.sl
+-rw-r--r--    1 root    root             4529 Mar  2  2004 /usr/jed/lib/sendmail.slc
+-rw-r--r--    1 root    root             6372 Mar  2  2004 /usr/jed/lib/shell.sl
+-rw-r--r--    1 root    root             2736 Mar  2  2004 /usr/jed/lib/shell.slc
+-rw-r--r--    1 root    root             1586 Mar  2  2004 /usr/jed/lib/shmode.dfa
+-rw-r--r--    1 root    root             2393 Mar  2  2004 /usr/jed/lib/shmode.sl
+-rw-r--r--    1 root    root             1754 Mar  2  2004 /usr/jed/lib/shmode.slc
+-rw-r--r--    1 root    root              407 Mar  2  2004 /usr/jed/lib/simple.hlp
+-rw-r--r--    1 root    root            67774 Mar  2  2004 /usr/jed/lib/site.sl
+-rw-r--r--    1 root    root            26249 Mar  2  2004 /usr/jed/lib/site.slc
+-rw-r--r--    1 root    root             3271 Mar  2  2004 /usr/jed/lib/slmode.dfa
+-rw-r--r--    1 root    root             3480 Mar  2  2004 /usr/jed/lib/slmode.sl
+-rw-r--r--    1 root    root             2256 Mar  2  2004 /usr/jed/lib/slmode.slc
+-rw-r--r--    1 root    root             1174 Mar  2  2004 /usr/jed/lib/sort.sl
+-rw-r--r--    1 root    root              867 Mar  2  2004 /usr/jed/lib/sort.slc
+-rw-r--r--    1 root    root              764 Mar  2  2004 /usr/jed/lib/sortmisc.sl
+-rw-r--r--    1 root    root              428 Mar  2  2004 /usr/jed/lib/sortmisc.slc
+-rw-r--r--    1 root    root             1082 Mar  2  2004 /usr/jed/lib/spicemod.sl
+-rw-r--r--    1 root    root              928 Mar  2  2004 /usr/jed/lib/spicemod.slc
+-rw-r--r--    1 root    root             2918 Mar  2  2004 /usr/jed/lib/srchmisc.sl
+-rw-r--r--    1 root    root             2011 Mar  2  2004 /usr/jed/lib/srchmisc.slc
+-rw-r--r--    1 root    root             2942 Mar  2  2004 /usr/jed/lib/syntax.sl
+-rw-r--r--    1 root    root             1226 Mar  2  2004 /usr/jed/lib/syntax.slc
+-rw-r--r--    1 root    root             1437 Mar  2  2004 /usr/jed/lib/tabs.sl
+-rw-r--r--    1 root    root             1079 Mar  2  2004 /usr/jed/lib/tabs.slc
+-rw-r--r--    1 root    root             4775 Mar  2  2004 /usr/jed/lib/tclmode.dfa
+-rw-r--r--    1 root    root            10704 Mar  2  2004 /usr/jed/lib/tclmode.sl
+-rw-r--r--    1 root    root             5304 Mar  2  2004 /usr/jed/lib/tclmode.slc
+-rw-r--r--    1 root    root             2455 Mar  2  2004 /usr/jed/lib/tex.sl
+-rw-r--r--    1 root    root              677 Mar  2  2004 /usr/jed/lib/tex.slc
+-rw-r--r--    1 root    root             1509 Mar  2  2004 /usr/jed/lib/texcom.dfa
+-rw-r--r--    1 root    root             4884 Mar  2  2004 /usr/jed/lib/texcom.sl
+-rw-r--r--    1 root    root             3444 Mar  2  2004 /usr/jed/lib/texcom.slc
+-rw-r--r--    1 root    root             1644 Mar  2  2004 /usr/jed/lib/textmode.sl
+-rw-r--r--    1 root    root              451 Mar  2  2004 /usr/jed/lib/textmode.slc
+-rw-r--r--    1 root    root             1187 Mar  2  2004 /usr/jed/lib/tiasm.sl
+-rw-r--r--    1 root    root              921 Mar  2  2004 /usr/jed/lib/tiasm.slc
+drwxrwxrwx    2 root    root                0 Mar  2  2004 /usr/jed/lib/tm
+-rw-r--r--    1 root    root              845 Mar  2  2004 /usr/jed/lib/tmisc.sl
+-rw-r--r--    1 root    root              631 Mar  2  2004 /usr/jed/lib/tmisc.slc
+-rw-r--r--    1 root    root             1601 Mar  2  2004 /usr/jed/lib/tmmode.sl
+-rw-r--r--    1 root    root             1104 Mar  2  2004 /usr/jed/lib/tmmode.slc
+-rw-r--r--    1 root    root             7810 Mar  2  2004 /usr/jed/lib/tpascal.dfa
+-rw-r--r--    1 root    root             5901 Mar  2  2004 /usr/jed/lib/tpascal.sl
+-rw-r--r--    1 root    root             4858 Mar  2  2004 /usr/jed/lib/tpascal.slc
+-rw-r--r--    1 root    root             1028 Mar  2  2004 /usr/jed/lib/untab.sl
+-rw-r--r--    1 root    root              430 Mar  2  2004 /usr/jed/lib/untab.slc
+-rw-r--r--    1 root    root              546 Mar  2  2004 /usr/jed/lib/util.sl
+-rw-r--r--    1 root    root              224 Mar  2  2004 /usr/jed/lib/util.slc
+-rw-r--r--    1 root    root             1530 Mar  2  2004 /usr/jed/lib/verilog.sl
+-rw-r--r--    1 root    root             1424 Mar  2  2004 /usr/jed/lib/verilog.slc
+-rw-r--r--    1 root    root             1517 Mar  2  2004 /usr/jed/lib/vhdlmode.sl
+-rw-r--r--    1 root    root             1322 Mar  2  2004 /usr/jed/lib/vhdlmode.slc
+-rw-r--r--    1 root    root             2281 Mar  2  2004 /usr/jed/lib/vmshelp.sl
+-rw-r--r--    1 root    root             1321 Mar  2  2004 /usr/jed/lib/win1250.sl
+-rw-r--r--    1 root    root             4219 Mar  2  2004 /usr/jed/lib/wmark.sl
+-rw-r--r--    1 root    root             3002 Mar  2  2004 /usr/jed/lib/wmark.slc
+-rw-r--r--    1 root    root             4866 Mar  2  2004 /usr/jed/lib/wmenu.sl
+-rw-r--r--    1 root    root             4482 Mar  2  2004 /usr/jed/lib/wmenu.slc
+-rw-r--r--    1 root    root              909 Mar  2  2004 /usr/jed/lib/wordstar.hlp
+-rw-r--r--    1 root    root            15963 Mar  2  2004 /usr/jed/lib/wordstar.sl
+-rw-r--r--    1 root    root            11695 Mar  2  2004 /usr/jed/lib/wordstar.slc
+-rw-r--r--    1 root    root             2282 Mar  2  2004 /usr/jed/lib/yankpop.sl
+-rw-r--r--    1 root    root             1767 Mar  2  2004 /usr/jed/lib/yankpop.slc
+-rw-r--r--    1 root    root             7416 Mar  2  2004 /usr/man/man1/jed.1
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/jed-common-0.99.16-2.m68kmint.rpm">Download</A></H2> (753,519 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

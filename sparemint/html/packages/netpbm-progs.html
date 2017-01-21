@@ -1,0 +1,515 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - netpbm-progs, version 9.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>netpbm-progs</H2>
+
+<UL> 
+<LI>Summary: Tools for manipulating graphics files in netpbm supported formats.<BR>
+<LI>URL: <A HREF="ftp://download.sourceforge.net/pub/sourceforge/netpbm/">ftp://download.sourceforge.net/pub/sourceforge/netpbm/</A><BR>
+<LI>Version: 9.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Multimedia">Applications/Multimedia</A>
+<LI>License: freeware</BR>
+<LI>Installation size: 27,179,895 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>netpbm-progs = 9.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Dec 24 12:06:30 2000 UTC<BR>
+<LI>Upload date: Mon Jan  8 01:46:42 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/netpbm-9.5-1.src.rpm">netpbm-9.5-1.src.rpm</A>  (1,763,306 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sun Dec 24 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+The netpbm-progs package contains a group of scripts for manipulating the<BR>graphics files in formats which are supported by the netpbm libraries.  For<BR>example, netpbm-progs includes the rasttopnm script, which will convert a<BR>Sun rasterfile into a portable anymap.  Netpbm-progs contains many other<BR>scripts for converting from one graphics file format to another.<BR><P><BR>If you need to use these conversion scripts, you should install<BR>netpbm-progs.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             4623 Dec 24  2000 /usr/bin/anytopnm
+-rwxr-xr-x    1 root    root           142722 Dec 24  2000 /usr/bin/asciitopgm
+-rwxr-xr-x    1 root    root           140079 Dec 24  2000 /usr/bin/atktopbm
+-rwxr-xr-x    1 root    root           113852 Dec 24  2000 /usr/bin/bioradtopgm
+-rwxr-xr-x    1 root    root           118413 Dec 24  2000 /usr/bin/bmptoppm
+-rwxr-xr-x    1 root    root           110179 Dec 24  2000 /usr/bin/brushtopbm
+-rwxr-xr-x    1 root    root           110208 Dec 24  2000 /usr/bin/cmuwmtopbm
+-rwxr-xr-x    1 root    root           115487 Dec 24  2000 /usr/bin/eyuvtoppm
+-rwxr-xr-x    1 root    root           151517 Dec 24  2000 /usr/bin/fitstopnm
+-rwxr-xr-x    1 root    root           144726 Dec 24  2000 /usr/bin/fstopgm
+-rwxr-xr-x    1 root    root           114571 Dec 24  2000 /usr/bin/g3topbm
+?rwxrwxrwx    1 root    root                8 Dec 24  2000 /usr/bin/gemtopbm
+-rwxr-xr-x    1 root    root           119823 Dec 24  2000 /usr/bin/gemtopnm
+-rwxr-xr-x    1 root    root           153296 Dec 24  2000 /usr/bin/giftopnm
+-rwxr-xr-x    1 root    root           115597 Dec 24  2000 /usr/bin/gouldtoppm
+-rwxr-xr-x    1 root    root           113413 Dec 24  2000 /usr/bin/hipstopgm
+-rwxr-xr-x    1 root    root           127023 Dec 24  2000 /usr/bin/hpcdtoppm
+-rwxr-xr-x    1 root    root           139439 Dec 24  2000 /usr/bin/icontopbm
+-rwxr-xr-x    1 root    root           127599 Dec 24  2000 /usr/bin/ilbmtoppm
+-rwxr-xr-x    1 root    root           145140 Dec 24  2000 /usr/bin/imgtoppm
+-rwxr-xr-x    1 root    root           156613 Dec 24  2000 /usr/bin/jbigtopnm
+-rwxr-xr-x    1 root    root           205325 Dec 24  2000 /usr/bin/jpegtopnm
+-rwxr-xr-x    1 root    root           117446 Dec 24  2000 /usr/bin/leaftoppm
+-rwxr-xr-x    1 root    root           113628 Dec 24  2000 /usr/bin/lispmtopgm
+-rwxr-xr-x    1 root    root           139225 Dec 24  2000 /usr/bin/macptopbm
+-rwxr-xr-x    1 root    root           112110 Dec 24  2000 /usr/bin/mdatopbm
+-rwxr-xr-x    1 root    root           110702 Dec 24  2000 /usr/bin/mgrtopbm
+-rwxr-xr-x    1 root    root           144238 Dec 24  2000 /usr/bin/mtvtoppm
+-rwxr-xr-x    1 root    root           112041 Dec 24  2000 /usr/bin/pbmclean
+-rwxr-xr-x    1 root    root           111875 Dec 24  2000 /usr/bin/pbmlife
+-rwxr-xr-x    1 root    root           139017 Dec 24  2000 /usr/bin/pbmmake
+-rwxr-xr-x    1 root    root           113179 Dec 24  2000 /usr/bin/pbmmask
+-rwxr-xr-x    1 root    root           112227 Dec 24  2000 /usr/bin/pbmpage
+-rwxr-xr-x    1 root    root           112774 Dec 24  2000 /usr/bin/pbmpscale
+-rwxr-xr-x    1 root    root           144116 Dec 24  2000 /usr/bin/pbmreduce
+-rwxr-xr-x    1 root    root           135163 Dec 24  2000 /usr/bin/pbmtext
+-rwxr-xr-x    1 root    root           111773 Dec 24  2000 /usr/bin/pbmto10x
+-rwxr-xr-x    1 root    root           111728 Dec 24  2000 /usr/bin/pbmto4425
+-rwxr-xr-x    1 root    root           111804 Dec 24  2000 /usr/bin/pbmtoascii
+-rwxr-xr-x    1 root    root           111819 Dec 24  2000 /usr/bin/pbmtoatk
+-rwxr-xr-x    1 root    root           111531 Dec 24  2000 /usr/bin/pbmtobbnbg
+-rwxr-xr-x    1 root    root           111247 Dec 24  2000 /usr/bin/pbmtocmuwm
+-rwxr-xr-x    1 root    root           111333 Dec 24  2000 /usr/bin/pbmtoepsi
+-rwxr-xr-x    1 root    root           111316 Dec 24  2000 /usr/bin/pbmtoepson
+-rwxr-xr-x    1 root    root           114886 Dec 24  2000 /usr/bin/pbmtog3
+-rwxr-xr-x    1 root    root           112083 Dec 24  2000 /usr/bin/pbmtogem
+-rwxr-xr-x    1 root    root           111939 Dec 24  2000 /usr/bin/pbmtogo
+-rwxr-xr-x    1 root    root           111787 Dec 24  2000 /usr/bin/pbmtoicon
+-rwxr-xr-x    1 root    root           142655 Dec 24  2000 /usr/bin/pbmtolj
+-rwxr-xr-x    1 root    root           112409 Dec 24  2000 /usr/bin/pbmtoln03
+-rwxr-xr-x    1 root    root           143653 Dec 24  2000 /usr/bin/pbmtolps
+-rwxr-xr-x    1 root    root           112239 Dec 24  2000 /usr/bin/pbmtomacp
+-rwxr-xr-x    1 root    root           112510 Dec 24  2000 /usr/bin/pbmtomda
+-rwxr-xr-x    1 root    root           111210 Dec 24  2000 /usr/bin/pbmtomgr
+-rwxr-xr-x    1 root    root           113285 Dec 24  2000 /usr/bin/pbmtopgm
+-rwxr-xr-x    1 root    root           111273 Dec 24  2000 /usr/bin/pbmtopi3
+-rwxr-xr-x    1 root    root           151185 Dec 24  2000 /usr/bin/pbmtopk
+-rwxr-xr-x    1 root    root           111133 Dec 24  2000 /usr/bin/pbmtoplot
+-rwxr-xr-x    1 root    root           153567 Dec 24  2000 /usr/bin/pbmtoppa
+-rwxr-xr-x    1 root    root           111124 Dec 24  2000 /usr/bin/pbmtoptx
+-rwxr-xr-x    1 root    root           111262 Dec 24  2000 /usr/bin/pbmtowbmp
+-rwxr-xr-x    1 root    root           112728 Dec 24  2000 /usr/bin/pbmtox10bm
+-rwxr-xr-x    1 root    root           112473 Dec 24  2000 /usr/bin/pbmtoxbm
+-rwxr-xr-x    1 root    root           111109 Dec 24  2000 /usr/bin/pbmtoybm
+-rwxr-xr-x    1 root    root           112680 Dec 24  2000 /usr/bin/pbmtozinc
+-rwxr-xr-x    1 root    root           115396 Dec 24  2000 /usr/bin/pbmupc
+-rwxr-xr-x    1 root    root           118721 Dec 24  2000 /usr/bin/pcxtoppm
+-rwxr-xr-x    1 root    root           112876 Dec 24  2000 /usr/bin/pgmbentley
+-rwxr-xr-x    1 root    root           159260 Dec 24  2000 /usr/bin/pgmcrater
+-rwxr-xr-x    1 root    root           115102 Dec 24  2000 /usr/bin/pgmedge
+-rwxr-xr-x    1 root    root           144459 Dec 24  2000 /usr/bin/pgmenhance
+-rwxr-xr-x    1 root    root           112364 Dec 24  2000 /usr/bin/pgmhist
+-rwxr-xr-x    1 root    root           142794 Dec 24  2000 /usr/bin/pgmkernel
+-rwxr-xr-x    1 root    root           142208 Dec 24  2000 /usr/bin/pgmnoise
+-rwxr-xr-x    1 root    root           145645 Dec 24  2000 /usr/bin/pgmnorm
+-rwxr-xr-x    1 root    root           142222 Dec 24  2000 /usr/bin/pgmoil
+-rwxr-xr-x    1 root    root           144866 Dec 24  2000 /usr/bin/pgmramp
+-rwxr-xr-x    1 root    root           141289 Dec 24  2000 /usr/bin/pgmslice
+-rwxr-xr-x    1 root    root           160903 Dec 24  2000 /usr/bin/pgmtexture
+-rwxr-xr-x    1 root    root           112787 Dec 24  2000 /usr/bin/pgmtofs
+-rwxr-xr-x    1 root    root           112468 Dec 24  2000 /usr/bin/pgmtolispm
+-rwxr-xr-x    1 root    root           149838 Dec 24  2000 /usr/bin/pgmtopbm
+-rwxr-xr-x    1 root    root           150744 Dec 24  2000 /usr/bin/pgmtoppm
+-rwxr-xr-x    1 root    root           115173 Dec 24  2000 /usr/bin/pi1toppm
+-rwxr-xr-x    1 root    root           110059 Dec 24  2000 /usr/bin/pi3topbm
+-rwxr-xr-x    1 root    root           170730 Dec 24  2000 /usr/bin/picttoppm
+-rwxr-xr-x    1 root    root           146342 Dec 24  2000 /usr/bin/pjtoppm
+-rwxr-xr-x    1 root    root           113579 Dec 24  2000 /usr/bin/pktopbm
+-rwxr-xr-x    1 root    root           240373 Dec 24  2000 /usr/bin/pngtopnm
+-rwxr-xr-x    1 root    root           158471 Dec 24  2000 /usr/bin/pnmalias
+-rwxr-xr-x    1 root    root           123802 Dec 24  2000 /usr/bin/pnmarith
+-rwxr-xr-x    1 root    root           123519 Dec 24  2000 /usr/bin/pnmcat
+-rwxr-xr-x    1 root    root           151887 Dec 24  2000 /usr/bin/pnmcomp
+-rwxr-xr-x    1 root    root           148686 Dec 24  2000 /usr/bin/pnmconvol
+-rwxr-xr-x    1 root    root           122268 Dec 24  2000 /usr/bin/pnmcrop
+-rwxr-xr-x    1 root    root           149716 Dec 24  2000 /usr/bin/pnmcut
+-rwxr-xr-x    1 root    root           147204 Dec 24  2000 /usr/bin/pnmdepth
+-rwxr-xr-x    1 root    root           146926 Dec 24  2000 /usr/bin/pnmenlarge
+-rwxr-xr-x    1 root    root           114903 Dec 24  2000 /usr/bin/pnmfile
+-rwxr-xr-x    1 root    root           119620 Dec 24  2000 /usr/bin/pnmflip
+-rwxr-xr-x    1 root    root           128121 Dec 24  2000 /usr/bin/pnmgamma
+-rwxr-xr-x    1 root    root           122637 Dec 24  2000 /usr/bin/pnmhisteq
+-rwxr-xr-x    1 root    root           119174 Dec 24  2000 /usr/bin/pnmhistmap
+-rwxr-xr-x    1 root    root             3175 Dec 24  2000 /usr/bin/pnmindex
+-rwxr-xr-x    1 root    root           123272 Dec 24  2000 /usr/bin/pnminterp
+-rwxr-xr-x    1 root    root             1250 Dec 24  2000 /usr/bin/pnminterp-gen
+-rwxr-xr-x    1 root    root           121091 Dec 24  2000 /usr/bin/pnminvert
+-rwxr-xr-x    1 root    root             1724 Dec 24  2000 /usr/bin/pnmmargin
+-rwxr-xr-x    1 root    root           161930 Dec 24  2000 /usr/bin/pnmnlfilt
+?rwxrwxrwx    1 root    root               13 Dec 24  2000 /usr/bin/pnmnoraw
+-rwxr-xr-x    1 root    root           121787 Dec 24  2000 /usr/bin/pnmpad
+-rwxr-xr-x    1 root    root           151706 Dec 24  2000 /usr/bin/pnmpaste
+-rwxr-xr-x    1 root    root           165461 Dec 24  2000 /usr/bin/pnmrotate
+-rwxr-xr-x    1 root    root           154442 Dec 24  2000 /usr/bin/pnmscale
+-rwxr-xr-x    1 root    root           161454 Dec 24  2000 /usr/bin/pnmshear
+-rwxr-xr-x    1 root    root           124281 Dec 24  2000 /usr/bin/pnmsmooth
+-rwxr-xr-x    1 root    root           118579 Dec 24  2000 /usr/bin/pnmsplit
+-rwxr-xr-x    1 root    root           146870 Dec 24  2000 /usr/bin/pnmtile
+-rwxr-xr-x    1 root    root           119252 Dec 24  2000 /usr/bin/pnmtoddif
+-rwxr-xr-x    1 root    root           145678 Dec 24  2000 /usr/bin/pnmtofits
+-rwxr-xr-x    1 root    root           154128 Dec 24  2000 /usr/bin/pnmtojbig
+-rwxr-xr-x    1 root    root           117630 Dec 24  2000 /usr/bin/pnmtoplainpnm
+-rwxr-xr-x    1 root    root           223562 Dec 24  2000 /usr/bin/pnmtopng
+-rwxr-xr-x    1 root    root           151507 Dec 24  2000 /usr/bin/pnmtops
+-rwxr-xr-x    1 root    root           120567 Dec 24  2000 /usr/bin/pnmtorast
+-rwxr-xr-x    1 root    root           164893 Dec 24  2000 /usr/bin/pnmtorle
+-rwxr-xr-x    1 root    root           116575 Dec 24  2000 /usr/bin/pnmtosgi
+-rwxr-xr-x    1 root    root           115128 Dec 24  2000 /usr/bin/pnmtosir
+-rwxr-xr-x    1 root    root           314480 Dec 24  2000 /usr/bin/pnmtotiff
+-rwxr-xr-x    1 root    root           332834 Dec 24  2000 /usr/bin/pnmtotiffcmyk
+-rwxr-xr-x    1 root    root           147715 Dec 24  2000 /usr/bin/pnmtoxwd
+-rwxr-xr-x    1 root    root           121656 Dec 24  2000 /usr/bin/ppm3d
+-rwxr-xr-x    1 root    root           116757 Dec 24  2000 /usr/bin/ppmbrighten
+-rwxr-xr-x    1 root    root           150282 Dec 24  2000 /usr/bin/ppmchange
+-rwxr-xr-x    1 root    root           178321 Dec 24  2000 /usr/bin/ppmcie
+-rwxr-xr-x    1 root    root           149346 Dec 24  2000 /usr/bin/ppmcolormask
+-rwxr-xr-x    1 root    root           144398 Dec 24  2000 /usr/bin/ppmdim
+-rwxr-xr-x    1 root    root           117844 Dec 24  2000 /usr/bin/ppmdist
+-rwxr-xr-x    1 root    root           146008 Dec 24  2000 /usr/bin/ppmdither
+-rwxr-xr-x    1 root    root             9997 Dec 24  2000 /usr/bin/ppmfade
+-rwxr-xr-x    1 root    root           144430 Dec 24  2000 /usr/bin/ppmflash
+-rwxr-xr-x    1 root    root           175668 Dec 24  2000 /usr/bin/ppmforge
+-rwxr-xr-x    1 root    root           116662 Dec 24  2000 /usr/bin/ppmhist
+-rwxr-xr-x    1 root    root           170229 Dec 24  2000 /usr/bin/ppmlabel
+-rwxr-xr-x    1 root    root           150041 Dec 24  2000 /usr/bin/ppmmake
+-rwxr-xr-x    1 root    root           144741 Dec 24  2000 /usr/bin/ppmmix
+-rwxr-xr-x    1 root    root           151685 Dec 24  2000 /usr/bin/ppmnorm
+-rwxr-xr-x    1 root    root           120763 Dec 24  2000 /usr/bin/ppmntsc
+-rwxr-xr-x    1 root    root           177840 Dec 24  2000 /usr/bin/ppmpat
+-rwxr-xr-x    1 root    root           153664 Dec 24  2000 /usr/bin/ppmquant
+-rwxr-xr-x    1 root    root             1334 Dec 24  2000 /usr/bin/ppmquantall
+-rwxr-xr-x    1 root    root           123543 Dec 24  2000 /usr/bin/ppmqvga
+-rwxr-xr-x    1 root    root           115311 Dec 24  2000 /usr/bin/ppmrelief
+-rwxr-xr-x    1 root    root             7150 Dec 24  2000 /usr/bin/ppmshadow
+-rwxr-xr-x    1 root    root           144582 Dec 24  2000 /usr/bin/ppmshift
+-rwxr-xr-x    1 root    root           144572 Dec 24  2000 /usr/bin/ppmspread
+-rwxr-xr-x    1 root    root           148367 Dec 24  2000 /usr/bin/ppmtoacad
+-rwxr-xr-x    1 root    root           119070 Dec 24  2000 /usr/bin/ppmtobmp
+-rwxr-xr-x    1 root    root           118050 Dec 24  2000 /usr/bin/ppmtoeyuv
+-rwxr-xr-x    1 root    root           153815 Dec 24  2000 /usr/bin/ppmtogif
+-rwxr-xr-x    1 root    root           146217 Dec 24  2000 /usr/bin/ppmtoicr
+-rwxr-xr-x    1 root    root           160788 Dec 24  2000 /usr/bin/ppmtoilbm
+-rwxr-xr-x    1 root    root           190501 Dec 24  2000 /usr/bin/ppmtojpeg
+-rwxr-xr-x    1 root    root           116420 Dec 24  2000 /usr/bin/ppmtoleaf
+-rwxr-xr-x    1 root    root           118489 Dec 24  2000 /usr/bin/ppmtomap
+-rwxr-xr-x    1 root    root           153071 Dec 24  2000 /usr/bin/ppmtomitsu
+-rwxr-xr-x    1 root    root           117218 Dec 24  2000 /usr/bin/ppmtopcx
+-rwxr-xr-x    1 root    root           117700 Dec 24  2000 /usr/bin/ppmtopgm
+-rwxr-xr-x    1 root    root           115536 Dec 24  2000 /usr/bin/ppmtopi1
+-rwxr-xr-x    1 root    root           116894 Dec 24  2000 /usr/bin/ppmtopict
+-rwxr-xr-x    1 root    root           143981 Dec 24  2000 /usr/bin/ppmtopj
+-rwxr-xr-x    1 root    root           120010 Dec 24  2000 /usr/bin/ppmtopjxl
+-rwxr-xr-x    1 root    root           115530 Dec 24  2000 /usr/bin/ppmtopuzz
+-rwxr-xr-x    1 root    root           114397 Dec 24  2000 /usr/bin/ppmtorgb3
+-rwxr-xr-x    1 root    root           116185 Dec 24  2000 /usr/bin/ppmtosixel
+-rwxr-xr-x    1 root    root           118786 Dec 24  2000 /usr/bin/ppmtotga
+-rwxr-xr-x    1 root    root           151605 Dec 24  2000 /usr/bin/ppmtouil
+-rwxr-xr-x    1 root    root           118872 Dec 24  2000 /usr/bin/ppmtowinicon
+-rwxr-xr-x    1 root    root           146844 Dec 24  2000 /usr/bin/ppmtoxpm
+-rwxr-xr-x    1 root    root           113622 Dec 24  2000 /usr/bin/ppmtoyuv
+-rwxr-xr-x    1 root    root           115064 Dec 24  2000 /usr/bin/ppmtoyuvsplit
+-rwxr-xr-x    1 root    root           144422 Dec 24  2000 /usr/bin/ppmtv
+-rwxr-xr-x    1 root    root           113395 Dec 24  2000 /usr/bin/psidtopgm
+-rwxr-xr-x    1 root    root           156546 Dec 24  2000 /usr/bin/pstopnm
+-rwxr-xr-x    1 root    root           115318 Dec 24  2000 /usr/bin/qrttoppm
+-rwxr-xr-x    1 root    root           121899 Dec 24  2000 /usr/bin/rasttopnm
+-rwxr-xr-x    1 root    root           116413 Dec 24  2000 /usr/bin/rawtopgm
+-rwxr-xr-x    1 root    root           116711 Dec 24  2000 /usr/bin/rawtoppm
+-rwxr-xr-x    1 root    root           115495 Dec 24  2000 /usr/bin/rgb3toppm
+-rwxr-xr-x    1 root    root           130752 Dec 24  2000 /usr/bin/rletopnm
+-rwxr-xr-x    1 root    root           114335 Dec 24  2000 /usr/bin/sbigtopgm
+-rwxr-xr-x    1 root    root           120581 Dec 24  2000 /usr/bin/sgitopnm
+-rwxr-xr-x    1 root    root           118533 Dec 24  2000 /usr/bin/sirtopnm
+-rwxr-xr-x    1 root    root           159793 Dec 24  2000 /usr/bin/sldtoppm
+-rwxr-xr-x    1 root    root           115925 Dec 24  2000 /usr/bin/spctoppm
+-rwxr-xr-x    1 root    root           113613 Dec 24  2000 /usr/bin/spottopgm
+-rwxr-xr-x    1 root    root           115282 Dec 24  2000 /usr/bin/sputoppm
+-rwxr-xr-x    1 root    root           118164 Dec 24  2000 /usr/bin/tgatoppm
+-rwxr-xr-x    1 root    root           295863 Dec 24  2000 /usr/bin/tifftopnm
+-rwxr-xr-x    1 root    root           110256 Dec 24  2000 /usr/bin/wbmptopbm
+-rwxr-xr-x    1 root    root           118804 Dec 24  2000 /usr/bin/winicontoppm
+-rwxr-xr-x    1 root    root           140310 Dec 24  2000 /usr/bin/xbmtopbm
+-rwxr-xr-x    1 root    root           118334 Dec 24  2000 /usr/bin/ximtoppm
+-rwxr-xr-x    1 root    root           153766 Dec 24  2000 /usr/bin/xpmtoppm
+-rwxr-xr-x    1 root    root           144759 Dec 24  2000 /usr/bin/xvminitoppm
+-rwxr-xr-x    1 root    root           123596 Dec 24  2000 /usr/bin/xwdtopnm
+-rwxr-xr-x    1 root    root           110178 Dec 24  2000 /usr/bin/ybmtopbm
+-rwxr-xr-x    1 root    root           117110 Dec 24  2000 /usr/bin/yuvsplittoppm
+-rwxr-xr-x    1 root    root           115524 Dec 24  2000 /usr/bin/yuvtoppm
+-rwxr-xr-x    1 root    root           118654 Dec 24  2000 /usr/bin/zeisstopnm
+-rwxr-xr-x    1 root    root               76 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/bmp-to-pnm.fpi
+-rwxr-xr-x    1 root    root               76 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/gif-to-pnm.fpi
+-rwxr-xr-x    1 root    root               79 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/jpeg-to-pnm.fpi
+-rwxr-xr-x    1 root    root              165 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/png-to-pnm.fpi
+-rwxr-xr-x    1 root    root               74 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/pnm-to-ps.fpi
+-rwxr-xr-x    1 root    root               84 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/rast-to-pnm.fpi
+-rwxr-xr-x    1 root    root              166 Dec 24  2000 /usr/lib/rhs/rhs-printfilters/tiff-to-pnm.fpi
+-rw-r--r--    1 root    root              614 Dec 24  2000 /usr/share/man/man1/anytopnm.1.gz
+-rw-r--r--    1 root    root              793 Dec 24  2000 /usr/share/man/man1/asciitopgm.1.gz
+-rw-r--r--    1 root    root              447 Dec 24  2000 /usr/share/man/man1/atktopbm.1.gz
+-rw-r--r--    1 root    root              660 Dec 24  2000 /usr/share/man/man1/bioradtopgm.1.gz
+-rw-r--r--    1 root    root              607 Dec 24  2000 /usr/share/man/man1/bmptoppm.1.gz
+-rw-r--r--    1 root    root              462 Dec 24  2000 /usr/share/man/man1/brushtopbm.1.gz
+-rw-r--r--    1 root    root              445 Dec 24  2000 /usr/share/man/man1/cmuwmtopbm.1.gz
+-rw-r--r--    1 root    root              330 Dec 24  2000 /usr/share/man/man1/eyuvtoppm.1.gz
+-rw-r--r--    1 root    root             1116 Dec 24  2000 /usr/share/man/man1/fitstopnm.1.gz
+-rw-r--r--    1 root    root              855 Dec 24  2000 /usr/share/man/man1/fstopgm.1.gz
+-rw-r--r--    1 root    root              843 Dec 24  2000 /usr/share/man/man1/g3topbm.1.gz
+-rw-r--r--    1 root    root              564 Dec 24  2000 /usr/share/man/man1/gemtopnm.1.gz
+-rw-r--r--    1 root    root              970 Dec 24  2000 /usr/share/man/man1/giftopnm.1.gz
+-rw-r--r--    1 root    root              442 Dec 24  2000 /usr/share/man/man1/gouldtoppm.1.gz
+-rw-r--r--    1 root    root              525 Dec 24  2000 /usr/share/man/man1/hipstopgm.1.gz
+-rw-r--r--    1 root    root             1776 Dec 24  2000 /usr/share/man/man1/hpcdtoppm.1.gz
+-rw-r--r--    1 root    root              435 Dec 24  2000 /usr/share/man/man1/icontopbm.1.gz
+-rw-r--r--    1 root    root             1225 Dec 24  2000 /usr/share/man/man1/ilbmtoppm.1.gz
+-rw-r--r--    1 root    root              528 Dec 24  2000 /usr/share/man/man1/imgtoppm.1.gz
+-rw-r--r--    1 root    root             1484 Dec 24  2000 /usr/share/man/man1/jbigtopnm.1.gz
+-rw-r--r--    1 root    root             2346 Dec 24  2000 /usr/share/man/man1/jpegtopnm.1.gz
+-rw-r--r--    1 root    root              329 Dec 24  2000 /usr/share/man/man1/leaftoppm.1.gz
+-rw-r--r--    1 root    root              877 Dec 24  2000 /usr/share/man/man1/lispmtopgm.1.gz
+-rw-r--r--    1 root    root              834 Dec 24  2000 /usr/share/man/man1/macptopbm.1.gz
+-rw-r--r--    1 root    root              482 Dec 24  2000 /usr/share/man/man1/mdatopbm.1.gz
+-rw-r--r--    1 root    root              430 Dec 24  2000 /usr/share/man/man1/mgrtopbm.1.gz
+-rw-r--r--    1 root    root              492 Dec 24  2000 /usr/share/man/man1/mtvtoppm.1.gz
+-rw-r--r--    1 root    root              499 Dec 24  2000 /usr/share/man/man1/pbmclean.1.gz
+-rw-r--r--    1 root    root              508 Dec 24  2000 /usr/share/man/man1/pbmlife.1.gz
+-rw-r--r--    1 root    root              601 Dec 24  2000 /usr/share/man/man1/pbmmake.1.gz
+-rw-r--r--    1 root    root             1102 Dec 24  2000 /usr/share/man/man1/pbmmask.1.gz
+-rw-r--r--    1 root    root              939 Dec 24  2000 /usr/share/man/man1/pbmpage.1.gz
+-rw-r--r--    1 root    root              560 Dec 24  2000 /usr/share/man/man1/pbmpscale.1.gz
+-rw-r--r--    1 root    root             1068 Dec 24  2000 /usr/share/man/man1/pbmreduce.1.gz
+-rw-r--r--    1 root    root             1741 Dec 24  2000 /usr/share/man/man1/pbmtext.1.gz
+-rw-r--r--    1 root    root              621 Dec 24  2000 /usr/share/man/man1/pbmto10x.1.gz
+-rw-r--r--    1 root    root              559 Dec 24  2000 /usr/share/man/man1/pbmto4425.1.gz
+-rw-r--r--    1 root    root              813 Dec 24  2000 /usr/share/man/man1/pbmtoascii.1.gz
+-rw-r--r--    1 root    root              445 Dec 24  2000 /usr/share/man/man1/pbmtoatk.1.gz
+-rw-r--r--    1 root    root              627 Dec 24  2000 /usr/share/man/man1/pbmtobbnbg.1.gz
+-rw-r--r--    1 root    root              446 Dec 24  2000 /usr/share/man/man1/pbmtocmuwm.1.gz
+-rw-r--r--    1 root    root              656 Dec 24  2000 /usr/share/man/man1/pbmtoepsi.1.gz
+-rw-r--r--    1 root    root              502 Dec 24  2000 /usr/share/man/man1/pbmtoepson.1.gz
+-rw-r--r--    1 root    root              516 Dec 24  2000 /usr/share/man/man1/pbmtog3.1.gz
+-rw-r--r--    1 root    root              461 Dec 24  2000 /usr/share/man/man1/pbmtogem.1.gz
+-rw-r--r--    1 root    root              592 Dec 24  2000 /usr/share/man/man1/pbmtogo.1.gz
+-rw-r--r--    1 root    root              435 Dec 24  2000 /usr/share/man/man1/pbmtoicon.1.gz
+-rw-r--r--    1 root    root              829 Dec 24  2000 /usr/share/man/man1/pbmtolj.1.gz
+-rw-r--r--    1 root    root              332 Dec 24  2000 /usr/share/man/man1/pbmtoln03.1.gz
+-rw-r--r--    1 root    root              400 Dec 24  2000 /usr/share/man/man1/pbmtolps.1.gz
+-rw-r--r--    1 root    root              800 Dec 24  2000 /usr/share/man/man1/pbmtomacp.1.gz
+-rw-r--r--    1 root    root              517 Dec 24  2000 /usr/share/man/man1/pbmtomda.1.gz
+-rw-r--r--    1 root    root              430 Dec 24  2000 /usr/share/man/man1/pbmtomgr.1.gz
+-rw-r--r--    1 root    root              618 Dec 24  2000 /usr/share/man/man1/pbmtopgm.1.gz
+-rw-r--r--    1 root    root              446 Dec 24  2000 /usr/share/man/man1/pbmtopi3.1.gz
+-rw-r--r--    1 root    root             1306 Dec 24  2000 /usr/share/man/man1/pbmtopk.1.gz
+-rw-r--r--    1 root    root              469 Dec 24  2000 /usr/share/man/man1/pbmtoplot.1.gz
+-rw-r--r--    1 root    root             3090 Dec 24  2000 /usr/share/man/man1/pbmtoppa.1.gz
+-rw-r--r--    1 root    root              476 Dec 24  2000 /usr/share/man/man1/pbmtoptx.1.gz
+-rw-r--r--    1 root    root              545 Dec 24  2000 /usr/share/man/man1/pbmtowbmp.1.gz
+-rw-r--r--    1 root    root              524 Dec 24  2000 /usr/share/man/man1/pbmtox10bm.1.gz
+-rw-r--r--    1 root    root              450 Dec 24  2000 /usr/share/man/man1/pbmtoxbm.1.gz
+-rw-r--r--    1 root    root              507 Dec 24  2000 /usr/share/man/man1/pbmtoybm.1.gz
+-rw-r--r--    1 root    root              552 Dec 24  2000 /usr/share/man/man1/pbmtozinc.1.gz
+-rw-r--r--    1 root    root              811 Dec 24  2000 /usr/share/man/man1/pbmupc.1.gz
+-rw-r--r--    1 root    root              735 Dec 24  2000 /usr/share/man/man1/pcxtoppm.1.gz
+-rw-r--r--    1 root    root              536 Dec 24  2000 /usr/share/man/man1/pgmbentley.1.gz
+-rw-r--r--    1 root    root             2491 Dec 24  2000 /usr/share/man/man1/pgmcrater.1.gz
+-rw-r--r--    1 root    root              637 Dec 24  2000 /usr/share/man/man1/pgmedge.1.gz
+-rw-r--r--    1 root    root              695 Dec 24  2000 /usr/share/man/man1/pgmenhance.1.gz
+-rw-r--r--    1 root    root              433 Dec 24  2000 /usr/share/man/man1/pgmhist.1.gz
+-rw-r--r--    1 root    root              629 Dec 24  2000 /usr/share/man/man1/pgmkernel.1.gz
+-rw-r--r--    1 root    root              499 Dec 24  2000 /usr/share/man/man1/pgmnoise.1.gz
+-rw-r--r--    1 root    root              962 Dec 24  2000 /usr/share/man/man1/pgmnorm.1.gz
+-rw-r--r--    1 root    root              625 Dec 24  2000 /usr/share/man/man1/pgmoil.1.gz
+-rw-r--r--    1 root    root              616 Dec 24  2000 /usr/share/man/man1/pgmramp.1.gz
+-rw-r--r--    1 root    root              572 Dec 24  2000 /usr/share/man/man1/pgmslice.1.gz
+-rw-r--r--    1 root    root             1305 Dec 24  2000 /usr/share/man/man1/pgmtexture.1.gz
+-rw-r--r--    1 root    root              490 Dec 24  2000 /usr/share/man/man1/pgmtofs.1.gz
+-rw-r--r--    1 root    root              814 Dec 24  2000 /usr/share/man/man1/pgmtolispm.1.gz
+-rw-r--r--    1 root    root             1686 Dec 24  2000 /usr/share/man/man1/pgmtopbm.1.gz
+-rw-r--r--    1 root    root             1039 Dec 24  2000 /usr/share/man/man1/pgmtoppm.1.gz
+-rw-r--r--    1 root    root              477 Dec 24  2000 /usr/share/man/man1/pi1toppm.1.gz
+-rw-r--r--    1 root    root              448 Dec 24  2000 /usr/share/man/man1/pi3topbm.1.gz
+-rw-r--r--    1 root    root             1828 Dec 24  2000 /usr/share/man/man1/picttoppm.1.gz
+-rw-r--r--    1 root    root              558 Dec 24  2000 /usr/share/man/man1/pjtoppm.1.gz
+-rw-r--r--    1 root    root              631 Dec 24  2000 /usr/share/man/man1/pktopbm.1.gz
+-rw-r--r--    1 root    root             1658 Dec 24  2000 /usr/share/man/man1/pngtopnm.1.gz
+-rw-r--r--    1 root    root             1306 Dec 24  2000 /usr/share/man/man1/pnmalias.1.gz
+-rw-r--r--    1 root    root              764 Dec 24  2000 /usr/share/man/man1/pnmarith.1.gz
+-rw-r--r--    1 root    root              808 Dec 24  2000 /usr/share/man/man1/pnmcat.1.gz
+-rw-r--r--    1 root    root             1415 Dec 24  2000 /usr/share/man/man1/pnmcomp.1.gz
+-rw-r--r--    1 root    root             1048 Dec 24  2000 /usr/share/man/man1/pnmconvol.1.gz
+-rw-r--r--    1 root    root              649 Dec 24  2000 /usr/share/man/man1/pnmcrop.1.gz
+-rw-r--r--    1 root    root             1398 Dec 24  2000 /usr/share/man/man1/pnmcut.1.gz
+-rw-r--r--    1 root    root              785 Dec 24  2000 /usr/share/man/man1/pnmdepth.1.gz
+-rw-r--r--    1 root    root              636 Dec 24  2000 /usr/share/man/man1/pnmenlarge.1.gz
+-rw-r--r--    1 root    root              627 Dec 24  2000 /usr/share/man/man1/pnmfile.1.gz
+-rw-r--r--    1 root    root              730 Dec 24  2000 /usr/share/man/man1/pnmflip.1.gz
+-rw-r--r--    1 root    root              548 Dec 24  2000 /usr/share/man/man1/pnmgamma.1.gz
+-rw-r--r--    1 root    root             2040 Dec 24  2000 /usr/share/man/man1/pnmhisteq.1.gz
+-rw-r--r--    1 root    root             1023 Dec 24  2000 /usr/share/man/man1/pnmhistmap.1.gz
+-rw-r--r--    1 root    root              790 Dec 24  2000 /usr/share/man/man1/pnmindex.1.gz
+-rw-r--r--    1 root    root              437 Dec 24  2000 /usr/share/man/man1/pnminterp-gen.1.gz
+-rw-r--r--    1 root    root              910 Dec 24  2000 /usr/share/man/man1/pnminterp.1.gz
+-rw-r--r--    1 root    root              419 Dec 24  2000 /usr/share/man/man1/pnminvert.1.gz
+-rw-r--r--    1 root    root              595 Dec 24  2000 /usr/share/man/man1/pnmmargin.1.gz
+-rw-r--r--    1 root    root             2427 Dec 24  2000 /usr/share/man/man1/pnmnlfilt.1.gz
+-rw-r--r--    1 root    root              496 Dec 24  2000 /usr/share/man/man1/pnmpad.1.gz
+-rw-r--r--    1 root    root             1135 Dec 24  2000 /usr/share/man/man1/pnmpaste.1.gz
+-rw-r--r--    1 root    root             1121 Dec 24  2000 /usr/share/man/man1/pnmrotate.1.gz
+-rw-r--r--    1 root    root              893 Dec 24  2000 /usr/share/man/man1/pnmscale.1.gz
+-rw-r--r--    1 root    root             1054 Dec 24  2000 /usr/share/man/man1/pnmshear.1.gz
+-rw-r--r--    1 root    root              759 Dec 24  2000 /usr/share/man/man1/pnmsmooth.1.gz
+-rw-r--r--    1 root    root              530 Dec 24  2000 /usr/share/man/man1/pnmsplit.1.gz
+-rw-r--r--    1 root    root              453 Dec 24  2000 /usr/share/man/man1/pnmtile.1.gz
+-rw-r--r--    1 root    root              810 Dec 24  2000 /usr/share/man/man1/pnmtoddif.1.gz
+-rw-r--r--    1 root    root              841 Dec 24  2000 /usr/share/man/man1/pnmtofits.1.gz
+-rw-r--r--    1 root    root             3481 Dec 24  2000 /usr/share/man/man1/pnmtojbig.1.gz
+-rw-r--r--    1 root    root              332 Dec 24  2000 /usr/share/man/man1/pnmtoplainpnm.1.gz
+-rw-r--r--    1 root    root             2670 Dec 24  2000 /usr/share/man/man1/pnmtopng.1.gz
+-rw-r--r--    1 root    root             1455 Dec 24  2000 /usr/share/man/man1/pnmtops.1.gz
+-rw-r--r--    1 root    root              693 Dec 24  2000 /usr/share/man/man1/pnmtorast.1.gz
+-rw-r--r--    1 root    root             1152 Dec 24  2000 /usr/share/man/man1/pnmtorle.1.gz
+-rw-r--r--    1 root    root              781 Dec 24  2000 /usr/share/man/man1/pnmtosgi.1.gz
+-rw-r--r--    1 root    root              494 Dec 24  2000 /usr/share/man/man1/pnmtosir.1.gz
+-rw-r--r--    1 root    root             1797 Dec 24  2000 /usr/share/man/man1/pnmtotiff.1.gz
+-rw-r--r--    1 root    root             2908 Dec 24  2000 /usr/share/man/man1/pnmtotiffcmyk.1.gz
+-rw-r--r--    1 root    root              682 Dec 24  2000 /usr/share/man/man1/pnmtoxwd.1.gz
+-rw-r--r--    1 root    root              527 Dec 24  2000 /usr/share/man/man1/ppm3d.1.gz
+-rw-r--r--    1 root    root              622 Dec 24  2000 /usr/share/man/man1/ppmbrighten.1.gz
+-rw-r--r--    1 root    root              664 Dec 24  2000 /usr/share/man/man1/ppmchange.1.gz
+-rw-r--r--    1 root    root             2047 Dec 24  2000 /usr/share/man/man1/ppmcie.1.gz
+-rw-r--r--    1 root    root              786 Dec 24  2000 /usr/share/man/man1/ppmcolormask.1.gz
+-rw-r--r--    1 root    root              614 Dec 24  2000 /usr/share/man/man1/ppmdim.1.gz
+-rw-r--r--    1 root    root              868 Dec 24  2000 /usr/share/man/man1/ppmdist.1.gz
+-rw-r--r--    1 root    root              758 Dec 24  2000 /usr/share/man/man1/ppmdither.1.gz
+-rw-r--r--    1 root    root             1243 Dec 24  2000 /usr/share/man/man1/ppmfade.1.gz
+-rw-r--r--    1 root    root              623 Dec 24  2000 /usr/share/man/man1/ppmflash.1.gz
+-rw-r--r--    1 root    root             6334 Dec 24  2000 /usr/share/man/man1/ppmforge.1.gz
+-rw-r--r--    1 root    root              532 Dec 24  2000 /usr/share/man/man1/ppmhist.1.gz
+-rw-r--r--    1 root    root             1913 Dec 24  2000 /usr/share/man/man1/ppmlabel.1.gz
+-rw-r--r--    1 root    root              729 Dec 24  2000 /usr/share/man/man1/ppmmake.1.gz
+-rw-r--r--    1 root    root              633 Dec 24  2000 /usr/share/man/man1/ppmmix.1.gz
+-rw-r--r--    1 root    root              901 Dec 24  2000 /usr/share/man/man1/ppmnorm.1.gz
+-rw-r--r--    1 root    root             1050 Dec 24  2000 /usr/share/man/man1/ppmntsc.1.gz
+-rw-r--r--    1 root    root             1009 Dec 24  2000 /usr/share/man/man1/ppmpat.1.gz
+-rw-r--r--    1 root    root             1157 Dec 24  2000 /usr/share/man/man1/ppmquant.1.gz
+-rw-r--r--    1 root    root              912 Dec 24  2000 /usr/share/man/man1/ppmquantall.1.gz
+-rw-r--r--    1 root    root              839 Dec 24  2000 /usr/share/man/man1/ppmqvga.1.gz
+-rw-r--r--    1 root    root              538 Dec 24  2000 /usr/share/man/man1/ppmrelief.1.gz
+-rw-r--r--    1 root    root             3191 Dec 24  2000 /usr/share/man/man1/ppmshadow.1.gz
+-rw-r--r--    1 root    root              989 Dec 24  2000 /usr/share/man/man1/ppmshift.1.gz
+-rw-r--r--    1 root    root              581 Dec 24  2000 /usr/share/man/man1/ppmspread.1.gz
+-rw-r--r--    1 root    root             2170 Dec 24  2000 /usr/share/man/man1/ppmtoacad.1.gz
+-rw-r--r--    1 root    root              964 Dec 24  2000 /usr/share/man/man1/ppmtobmp.1.gz
+-rw-r--r--    1 root    root              327 Dec 24  2000 /usr/share/man/man1/ppmtoeyuv.1.gz
+-rw-r--r--    1 root    root             1234 Dec 24  2000 /usr/share/man/man1/ppmtogif.1.gz
+-rw-r--r--    1 root    root             1478 Dec 24  2000 /usr/share/man/man1/ppmtoicr.1.gz
+-rw-r--r--    1 root    root             1864 Dec 24  2000 /usr/share/man/man1/ppmtoilbm.1.gz
+-rw-r--r--    1 root    root             4444 Dec 24  2000 /usr/share/man/man1/ppmtojpeg.1.gz
+-rw-r--r--    1 root    root              341 Dec 24  2000 /usr/share/man/man1/ppmtoleaf.1.gz
+-rw-r--r--    1 root    root              821 Dec 24  2000 /usr/share/man/man1/ppmtomap.1.gz
+-rw-r--r--    1 root    root             1647 Dec 24  2000 /usr/share/man/man1/ppmtomitsu.1.gz
+-rw-r--r--    1 root    root             5271 Dec 24  2000 /usr/share/man/man1/ppmtompeg.1.gz
+-rw-r--r--    1 root    root              690 Dec 24  2000 /usr/share/man/man1/ppmtopcx.1.gz
+-rw-r--r--    1 root    root              850 Dec 24  2000 /usr/share/man/man1/ppmtopgm.1.gz
+-rw-r--r--    1 root    root              478 Dec 24  2000 /usr/share/man/man1/ppmtopi1.1.gz
+-rw-r--r--    1 root    root              750 Dec 24  2000 /usr/share/man/man1/ppmtopict.1.gz
+-rw-r--r--    1 root    root             1089 Dec 24  2000 /usr/share/man/man1/ppmtopj.1.gz
+-rw-r--r--    1 root    root             1046 Dec 24  2000 /usr/share/man/man1/ppmtopjxl.1.gz
+-rw-r--r--    1 root    root              515 Dec 24  2000 /usr/share/man/man1/ppmtopuzz.1.gz
+-rw-r--r--    1 root    root              618 Dec 24  2000 /usr/share/man/man1/ppmtorgb3.1.gz
+-rw-r--r--    1 root    root             1098 Dec 24  2000 /usr/share/man/man1/ppmtosixel.1.gz
+-rw-r--r--    1 root    root              816 Dec 24  2000 /usr/share/man/man1/ppmtotga.1.gz
+-rw-r--r--    1 root    root              847 Dec 24  2000 /usr/share/man/man1/ppmtouil.1.gz
+-rw-r--r--    1 root    root              759 Dec 24  2000 /usr/share/man/man1/ppmtowinicon.1.gz
+-rw-r--r--    1 root    root             1334 Dec 24  2000 /usr/share/man/man1/ppmtoxpm.1.gz
+-rw-r--r--    1 root    root              535 Dec 24  2000 /usr/share/man/man1/ppmtoyuv.1.gz
+-rw-r--r--    1 root    root              623 Dec 24  2000 /usr/share/man/man1/ppmtoyuvsplit.1.gz
+-rw-r--r--    1 root    root              781 Dec 24  2000 /usr/share/man/man1/ppmtv.1.gz
+-rw-r--r--    1 root    root              846 Dec 24  2000 /usr/share/man/man1/psidtopgm.1.gz
+-rw-r--r--    1 root    root             3219 Dec 24  2000 /usr/share/man/man1/pstopnm.1.gz
+-rw-r--r--    1 root    root              439 Dec 24  2000 /usr/share/man/man1/qrttoppm.1.gz
+-rw-r--r--    1 root    root              541 Dec 24  2000 /usr/share/man/man1/rasttopnm.1.gz
+-rw-r--r--    1 root    root             1107 Dec 24  2000 /usr/share/man/man1/rawtopgm.1.gz
+-rw-r--r--    1 root    root             1066 Dec 24  2000 /usr/share/man/man1/rawtoppm.1.gz
+-rw-r--r--    1 root    root              462 Dec 24  2000 /usr/share/man/man1/rgb3toppm.1.gz
+-rw-r--r--    1 root    root             1380 Dec 24  2000 /usr/share/man/man1/rletopnm.1.gz
+-rw-r--r--    1 root    root              409 Dec 24  2000 /usr/share/man/man1/sbigtopgm.1.gz
+-rw-r--r--    1 root    root              638 Dec 24  2000 /usr/share/man/man1/sgitopnm.1.gz
+-rw-r--r--    1 root    root              534 Dec 24  2000 /usr/share/man/man1/sirtopnm.1.gz
+-rw-r--r--    1 root    root             1961 Dec 24  2000 /usr/share/man/man1/sldtoppm.1.gz
+-rw-r--r--    1 root    root              468 Dec 24  2000 /usr/share/man/man1/spctoppm.1.gz
+-rw-r--r--    1 root    root              941 Dec 24  2000 /usr/share/man/man1/spottopgm.1.gz
+-rw-r--r--    1 root    root              469 Dec 24  2000 /usr/share/man/man1/sputoppm.1.gz
+-rw-r--r--    1 root    root              888 Dec 24  2000 /usr/share/man/man1/tgatoppm.1.gz
+-rw-r--r--    1 root    root             1603 Dec 24  2000 /usr/share/man/man1/tifftopnm.1.gz
+-rw-r--r--    1 root    root              547 Dec 24  2000 /usr/share/man/man1/wbmptopbm.1.gz
+-rw-r--r--    1 root    root              731 Dec 24  2000 /usr/share/man/man1/winicontoppm.1.gz
+-rw-r--r--    1 root    root              455 Dec 24  2000 /usr/share/man/man1/xbmtopbm.1.gz
+-rw-r--r--    1 root    root              905 Dec 24  2000 /usr/share/man/man1/ximtoppm.1.gz
+-rw-r--r--    1 root    root              600 Dec 24  2000 /usr/share/man/man1/xpmtoppm.1.gz
+-rw-r--r--    1 root    root              474 Dec 24  2000 /usr/share/man/man1/xvminitoppm.1.gz
+-rw-r--r--    1 root    root              753 Dec 24  2000 /usr/share/man/man1/xwdtopnm.1.gz
+-rw-r--r--    1 root    root              497 Dec 24  2000 /usr/share/man/man1/ybmtopbm.1.gz
+-rw-r--r--    1 root    root              478 Dec 24  2000 /usr/share/man/man1/yuvsplittoppm.1.gz
+-rw-r--r--    1 root    root              648 Dec 24  2000 /usr/share/man/man1/yuvtoppm.1.gz
+-rw-r--r--    1 root    root              556 Dec 24  2000 /usr/share/man/man1/zeisstopnm.1.gz
+-rw-r--r--    1 root    root             2037 Dec 24  2000 /usr/share/man/man5/pbm.5.gz
+-rw-r--r--    1 root    root             1728 Dec 24  2000 /usr/share/man/man5/pgm.5.gz
+-rw-r--r--    1 root    root              578 Dec 24  2000 /usr/share/man/man5/pnm.5.gz
+-rw-r--r--    1 root    root             2369 Dec 24  2000 /usr/share/man/man5/ppm.5.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/netpbm-progs-9.5-1.m68kmint.rpm">Download</A></H2> (13,139,261 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,103 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - bzip2, version 1.0.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>bzip2</H2>
+
+<UL> 
+<LI>Summary: A file compression utility.<BR>
+<LI>URL: <A HREF="http://sources.redhat.com/bzip2/">http://sources.redhat.com/bzip2/</A><BR>
+<LI>Version: 1.0.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Archiving">Applications/Archiving</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 301,978 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>bzip2 = 1.0.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Feb  8 12:00:10 2003 UTC<BR>
+<LI>Upload date: Sat Feb  8 12:05:09 2003 UTC<BR>
+<LI>Packager: Adam Klobukowski (<A HREF="javascript:linkto_decode_mt('nbjmup;bubsjAhbcp/qm');">atari(at)gabo.pl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/bzip2-1.0.2-1.src.rpm">bzip2-1.0.2-1.src.rpm</A>  (820,008 bytes)<BR>
+<LI>Last change: Adam Klobukowski &lt;atari@gabo.pl&gt; Fri Feb  7 10:00:00 2003 UTC<BR>
+- updated to 1.0.2
+<LI>Description:<BR>
+Bzip2 is a freely available, patent-free, high quality data compressor.<BR>Bzip2 compresses files to within 10 to 15 percent of the capabilities<BR>of the best techniques available.  However, bzip2 has the added benefit<BR>of being approximately two times faster at compression and six times<BR>faster at decompression than those techniques.  Bzip2 is not the<BR>fastest compression utility, but it does strike a balance between speed<BR>and compression capability.<BR><P><BR>Install bzip2 if you need a compression utility.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    root                5 Feb  8  2003 /usr/bin/bunzip2
+?rwxrwxrwx    1 root    root                5 Feb  8  2003 /usr/bin/bzcat
+-rwxr-xr-x    1 root    root             1438 Feb  8  2003 /usr/bin/bzgrep
+-rwxr-xr-x    1 root    root           156818 Feb  8  2003 /usr/bin/bzip2
+-rwxr-xr-x    1 root    root            94578 Feb  8  2003 /usr/bin/bzip2recover
+-rwxr-xr-x    1 root    root               42 Feb  8  2003 /usr/bin/bzless
+-rwxr-xr-x    1 root    root              910 Feb  8  2003 /usr/bin/bzme
+drwxr-xr-x    2 root    root                0 Feb  8  2003 /usr/doc/bzip2-1.0.2
+-rw-r--r--    1 root    root               32 Feb  8  2003 /usr/doc/bzip2-1.0.2/AUTHORS
+-rw-r--r--    1 root    root             1735 Feb  8  2003 /usr/doc/bzip2-1.0.2/COPYING
+-rw-r--r--    1 root    root             6251 Feb  8  2003 /usr/doc/bzip2-1.0.2/NEWS
+-rw-r--r--    1 root    root             7095 Jan  1  2002 /usr/doc/bzip2-1.0.2/README
+-rw-r--r--    1 root    root             5279 Jan 24  2002 /usr/doc/bzip2-1.0.2/README.COMPILATION.PROBLEMS
+-rw-r--r--    1 root    root             1343 Sep  4  1999 /usr/doc/bzip2-1.0.2/Y2K_INFO
+-rw-r--r--    1 root    root             6282 Feb  8  2003 /usr/share/man/man1/bunzip2.1.gz
+-rw-r--r--    1 root    root             6282 Feb  8  2003 /usr/share/man/man1/bzcat.1.gz
+-rw-r--r--    1 root    root             6577 Feb  8  2003 /usr/share/man/man1/bzip2.1.gz
+-rw-r--r--    1 root    root             6282 Feb  8  2003 /usr/share/man/man1/bzip2recover.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/bzip2-1.0.2-1.m68kmint.rpm">Download</A></H2> (151,413 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

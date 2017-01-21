@@ -1,0 +1,125 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mintinit, version 0.1.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mintinit</H2>
+
+<UL> 
+<LI>Summary: The System V system initialization program.<BR>
+
+<LI>Version: 0.1.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 677,800 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mintinit = 0.1.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sat Dec 25 23:26:52 1999 UTC<BR>
+<LI>Upload date: Sun Dec 26 02:56:09 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mintinit-0.1.1-1.src.rpm">mintinit-0.1.1-1.src.rpm</A>  (95,126 bytes)<BR>
+<LI>Last change: Guido Flohr &lt;guido@atari.org&gt; Sun Dec 26 10:00:00 1999 UTC<BR>
+- Initial release for Sparemint.
+<LI>Description:<BR>
+The mintinit package contains a group of programs that<BR>control the very basic functions of your system. Mintinit is<BR>the first program started by the FreeMiNT kernel when the<BR>system boots, controlling the startup, running and shutdown<BR>of all other programs.<BR><P><BR>Please note that mintinit is still highly experimental. There are<BR>quite a few packages and features that mintinit depends on that are<BR>still missing.  You should contact the author of the package before<BR>you attempt to install it.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root            62102 Dec 25  1999 /sbin/halt
+-rwxr-xr-x    1 root    root            89067 Dec 25  1999 /sbin/init
+-rwxr-xr-x    1 root    root            63437 Dec 25  1999 /sbin/killall5
+?rwxrwxrwx    1 root    root                8 Dec 25  1999 /sbin/pidof
+?rwxrwxrwx    1 root    root                4 Dec 25  1999 /sbin/poweroff
+?rwxrwxrwx    1 root    root                4 Dec 25  1999 /sbin/reboot
+-rwxr-xr-x    1 root    root            51144 Dec 25  1999 /sbin/runlevel
+-rwxr-xr-x    1 root    root            76658 Dec 25  1999 /sbin/shutdown
+-rwxr-xr-x    1 root    root            69634 Dec 25  1999 /sbin/sulogin
+?rwxrwxrwx    1 root    root                4 Dec 25  1999 /sbin/telinit
+-rwxr-xr-x    1 root    root            73417 Dec 25  1999 /usr/bin/last
+?rwxrwxrwx    1 root    root                4 Dec 25  1999 /usr/bin/lastb
+-rwxr-xr-x    1 root    root            48644 Dec 25  1999 /usr/bin/mesg
+-rwxr-xr-x    1 root    root            49920 Dec 25  1999 /usr/bin/utmpdump
+-r-xr-sr-x    1 root    tty             58852 Dec 25  1999 /usr/bin/wall
+drwxr-xr-x    2 root    root                0 Dec 25  1999 /usr/doc/mintinit-0.1.1
+-rw-r--r--    1 root    root                0 Jul 11  1999 /usr/doc/mintinit-0.1.1/AUTHORS
+-rw-r--r--    1 root    root            17992 May 24  1999 /usr/doc/mintinit-0.1.1/COPYING
+-rw-r--r--    1 root    root                0 Jul 11  1999 /usr/doc/mintinit-0.1.1/ChangeLog
+-rw-r--r--    1 root    root               53 Dec 25  1999 /usr/doc/mintinit-0.1.1/NEWS
+-rw-r--r--    1 root    root              216 Dec 25  1999 /usr/doc/mintinit-0.1.1/README
+-rw-r--r--    1 root    root                0 Jul 11  1999 /usr/doc/mintinit-0.1.1/THANKS
+-rw-r--r--    1 root    root             1236 Dec 25  1999 /usr/share/man/man1/last.1.gz
+-rw-r--r--    1 root    root               39 Dec 25  1999 /usr/share/man/man1/lastb.1.gz
+-rw-r--r--    1 root    root              438 Dec 25  1999 /usr/share/man/man1/mesg.1.gz
+-rw-r--r--    1 root    root               39 Dec 25  1999 /usr/share/man/man1/poweroff.8.gz
+-rw-r--r--    1 root    root               39 Dec 25  1999 /usr/share/man/man1/reboot.8.gz
+-rw-r--r--    1 root    root              380 Dec 25  1999 /usr/share/man/man1/wall.1.gz
+-rw-r--r--    1 root    root              620 Dec 25  1999 /usr/share/man/man5/initscript.5.gz
+-rw-r--r--    1 root    root             2677 Dec 25  1999 /usr/share/man/man5/inittab.5.gz
+-rw-r--r--    1 root    root              856 Dec 25  1999 /usr/share/man/man8/halt.8.gz
+-rw-r--r--    1 root    root             4179 Dec 25  1999 /usr/share/man/man8/init.8.gz
+-rw-r--r--    1 root    root              953 Dec 25  1999 /usr/share/man/man8/killall5.8.gz
+-rw-r--r--    1 root    root              687 Dec 25  1999 /usr/share/man/man8/pidof.8.gz
+-rw-r--r--    1 root    root               36 Dec 25  1999 /usr/share/man/man8/poweroff.8.gz
+-rw-r--r--    1 root    root               36 Dec 25  1999 /usr/share/man/man8/reboot.8.gz
+-rw-r--r--    1 root    root              625 Dec 25  1999 /usr/share/man/man8/runlevel.8.gz
+-rw-r--r--    1 root    root             2243 Dec 25  1999 /usr/share/man/man8/shutdown.8.gz
+-rw-r--r--    1 root    root             1009 Dec 25  1999 /usr/share/man/man8/sulogin.8.gz
+-rw-r--r--    1 root    root               36 Dec 25  1999 /usr/share/man/man8/telinit.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mintinit-0.1.1-1.m68kmint.rpm">Download</A></H2> (345,818 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

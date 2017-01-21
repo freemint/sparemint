@@ -1,0 +1,102 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - db1, version 1.85, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>db1</H2>
+
+<UL> 
+<LI>Summary: Development libs/header files for Berkeley DB (version 1) library.<BR>
+<LI>URL: <A HREF="http://www.sleepycat.com">http://www.sleepycat.com</A><BR>
+<LI>Version: 1.85<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 706,238 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>db1 = 1.85-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Dec 13 16:57:53 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/db1-1.85-1.src.rpm">db1-1.85-1.src.rpm</A>  (288,358 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Dec 13 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+The Berkeley Database (Berkeley DB) is a programmatic toolkit that provides<BR>embedded database support for both traditional and client/server applications.<BR>Berkeley DB includes B tree, Hashing, Fixed and Variable-length<BR>record access methods.<BR><P><BR>This package contains the header files, libraries, and documentation for<BR>building programs which use Berkeley DB.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           131797 Dec 13  2000 /usr/bin/db1_dump185
+drwxr-xr-x    2 root    root                0 Dec 13  2000 /usr/doc/db1-1.85
+-rw-r--r--    1 root    root             1745 Dec 13  2000 /usr/doc/db1-1.85/LICENSE
+-r--r--r--    1 root    root             1557 Sep  1  1994 /usr/doc/db1-1.85/README
+-r--r--r--    1 root    root             7083 Sep 13  1993 /usr/doc/db1-1.85/btree.3.ps.gz
+-r--r--r--    1 root    root             3529 Sep  1  1994 /usr/doc/db1-1.85/changelog
+-r--r--r--    1 root    root             9952 Sep 13  1993 /usr/doc/db1-1.85/dbopen.3.ps.gz
+-r--r--r--    1 root    root             4822 Sep 13  1993 /usr/doc/db1-1.85/hash.3.ps.gz
+-r--r--r--    1 root    root            54681 Feb 21  1991 /usr/doc/db1-1.85/hash.usenix.ps.gz
+-r--r--r--    1 root    root            62050 Aug 17  1993 /usr/doc/db1-1.85/libtp.usenix.ps.gz
+-r--r--r--    1 root    root             5295 Sep 13  1993 /usr/doc/db1-1.85/mpool.3.ps.gz
+-r--r--r--    1 root    root             6100 Aug 18  1994 /usr/doc/db1-1.85/recno.3.ps.gz
+drwxr-xr-x    2 root    root                0 Dec 13  2000 /usr/include/db1
+-rw-r--r--    1 root    root             8298 Dec 13  2000 /usr/include/db1/db.h
+-rw-r--r--    1 root    root             4456 Dec 13  2000 /usr/include/db1/mpool.h
+-rw-r--r--    1 root    root             2877 Dec 13  2000 /usr/include/db1/ndbm.h
+-rw-r--r--    1 root    root           399948 Dec 13  2000 /usr/lib/libdb1.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/db1-1.85-1.m68kmint.rpm">Download</A></H2> (340,569 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

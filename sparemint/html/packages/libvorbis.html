@@ -1,0 +1,231 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libvorbis, version 1.3.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libvorbis</H2>
+
+<UL> 
+<LI>Summary: Vorbis Library Development<BR>
+<LI>URL: <A HREF="http://www.xiph.org/">http://www.xiph.org/</A><BR>
+<LI>Version: 1.3.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 6,632,765 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libvorbis = 1.3.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>libogg >= 1.2.0<BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Aug 25 03:47:43 2010 UTC<BR>
+<LI>Upload date: Fri Nov  5 18:53:21 2010 UTC<BR>
+<LI>Packager: Adam Klobukowski (<A HREF="javascript:linkto_decode_mt('nbjmup;bubsjAhbcp/qm');">atari(at)gabo.pl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libvorbis-1.3.1-1.src.rpm">libvorbis-1.3.1-1.src.rpm</A>  (1,219,504 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Tue Aug 24 21:00:00 2010 UTC<BR>
+- Added 68020-60 and 5475 libs and updated to 1.3.1
+<LI>Description:<BR>
+Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free,<BR>general-purpose compressed audio format for audio and music at fixed<BR>and variable bitrates from 16 to 128 kbps/channel.<BR><P><BR>The libvorbis package contains the header files, static libraries<BR>and documentation needed to develop applications with libvorbis.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Aug 24 23:47 /usr/doc/libvorbis-1.3.1
+-rw-r--r--    1 root    root               65 Jan 24  2007 /usr/doc/libvorbis-1.3.1/AUTHORS
+-rw-r--r--    1 root    root             1470 Nov  4  2008 /usr/doc/libvorbis-1.3.1/COPYING
+-rw-r--r--    1 root    root             4886 Nov  4  2008 /usr/doc/libvorbis-1.3.1/README
+-rw-r--r--    1 root    root           571214 Mar 25  2010 /usr/doc/libvorbis-1.3.1/Vorbis_I_spec.html
+-rw-r--r--    1 root    root             9741 Apr  8  2009 /usr/doc/libvorbis-1.3.1/components.png
+-rw-r--r--    1 root    root            11130 Jan 24  2007 /usr/doc/libvorbis-1.3.1/eightphase.png
+-rw-r--r--    1 root    root             2540 Apr  8  2009 /usr/doc/libvorbis-1.3.1/evenlsp.png
+-rw-r--r--    1 root    root             2503 Apr  8  2009 /usr/doc/libvorbis-1.3.1/fish_xiph_org.png
+-rw-r--r--    1 root    root             3420 Apr  8  2009 /usr/doc/libvorbis-1.3.1/floor1-1.png
+-rw-r--r--    1 root    root             3752 Apr  8  2009 /usr/doc/libvorbis-1.3.1/floor1-2.png
+-rw-r--r--    1 root    root             4627 Apr  8  2009 /usr/doc/libvorbis-1.3.1/floor1-3.png
+-rw-r--r--    1 root    root             4163 Apr  8  2009 /usr/doc/libvorbis-1.3.1/floor1-4.png
+-rw-r--r--    1 root    root             5421 Jan 24  2007 /usr/doc/libvorbis-1.3.1/floor1_inverse_dB_table.html
+-rw-r--r--    1 root    root             2545 Apr  8  2009 /usr/doc/libvorbis-1.3.1/floorval.png
+-rw-r--r--    1 root    root             9992 Jan 24  2007 /usr/doc/libvorbis-1.3.1/fourphase.png
+-rw-r--r--    1 root    root            14691 Jan 24  2007 /usr/doc/libvorbis-1.3.1/framing.html
+-rw-r--r--    1 root    root             5733 Jan 24  2007 /usr/doc/libvorbis-1.3.1/helper.html
+-rw-r--r--    1 root    root             1206 Apr  8  2009 /usr/doc/libvorbis-1.3.1/hufftree-under.png
+-rw-r--r--    1 root    root             1228 Apr  8  2009 /usr/doc/libvorbis-1.3.1/hufftree.png
+-rw-r--r--    1 root    root             2217 Nov  4  2008 /usr/doc/libvorbis-1.3.1/index.html
+-rw-r--r--    1 root    root             3799 Apr  8  2009 /usr/doc/libvorbis-1.3.1/lspmap.png
+-rw-r--r--    1 root    root             1928 Apr  8  2009 /usr/doc/libvorbis-1.3.1/oddlsp.png
+-rw-r--r--    1 root    root             8626 Jan 24  2007 /usr/doc/libvorbis-1.3.1/oggstream.html
+-rw-r--r--    1 root    root            18842 Apr  2  2009 /usr/doc/libvorbis-1.3.1/programming.html
+-rw-r--r--    1 root    root            32318 Apr  8  2009 /usr/doc/libvorbis-1.3.1/residue-pack.png
+-rw-r--r--    1 root    root            20427 Apr  8  2009 /usr/doc/libvorbis-1.3.1/residue2.png
+-rwxr-xr-x    1 root    root            54327 Nov  4  2008 /usr/doc/libvorbis-1.3.1/rfc5215.txt
+-rw-r--r--    1 root    root             8406 Jan 24  2007 /usr/doc/libvorbis-1.3.1/squarepolar.png
+-rw-r--r--    1 root    root            16577 Mar 25  2010 /usr/doc/libvorbis-1.3.1/stereo.html
+-rw-r--r--    1 root    root             2171 Apr  8  2009 /usr/doc/libvorbis-1.3.1/stream.png
+-rw-r--r--    1 root    root             9081 Jan 24  2007 /usr/doc/libvorbis-1.3.1/v-comment.html
+-rw-r--r--    1 root    root             7021 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbis-clip.txt
+-rw-r--r--    1 root    root             2730 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbis-errors.txt
+-rw-r--r--    1 root    root             6666 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbis-fidelity.html
+-rw-r--r--    1 root    root             8221 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbis.html
+drwxr-sr-x    2 root    root                0 Aug 24 23:33 /usr/doc/libvorbis-1.3.1/vorbisenc
+-rw-rw-rw-    1 root    root            11339 Aug 24 23:33 /usr/doc/libvorbis-1.3.1/vorbisenc/Makefile
+-rw-r--r--    1 root    root              482 Feb 20  2008 /usr/doc/libvorbis-1.3.1/vorbisenc/Makefile.am
+-rw-r--r--    1 root    root            11086 Mar 26  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/Makefile.in
+-rw-r--r--    1 root    root             3710 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/changes.html
+-rw-r--r--    1 root    root             5030 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/examples.html
+-rw-r--r--    1 root    root             1309 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/index.html
+-rw-r--r--    1 root    root             2665 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/ov_ectl_ratemanage2_arg.html
+-rw-r--r--    1 root    root             3350 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/ov_ectl_ratemanage_arg.html
+-rw-r--r--    1 root    root            15851 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/overview.html
+-rw-r--r--    1 root    root             2232 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/reference.html
+-rw-r--r--    1 root    root              279 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/style.css
+-rw-r--r--    1 root    root             6196 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_ctl.html
+-rw-r--r--    1 root    root             2715 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_init.html
+-rw-r--r--    1 root    root             2323 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_init_vbr.html
+-rw-r--r--    1 root    root             2679 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_setup_init.html
+-rw-r--r--    1 root    root             3094 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_setup_managed.html
+-rw-r--r--    1 root    root             2691 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_encode_setup_vbr.html
+-rw-r--r--    1 root    root             2459 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisenc/vorbis_info.html
+drwxr-sr-x    2 root    root                0 Aug 24 23:32 /usr/doc/libvorbis-1.3.1/vorbisfile
+-rw-rw-rw-    1 root    root            12104 Aug 24 23:32 /usr/doc/libvorbis-1.3.1/vorbisfile/Makefile
+-rw-r--r--    1 root    root             1241 Feb 20  2008 /usr/doc/libvorbis-1.3.1/vorbisfile/Makefile.am
+-rw-r--r--    1 root    root            11848 Mar 26  2010 /usr/doc/libvorbis-1.3.1/vorbisfile/Makefile.in
+-rw-r--r--    1 root    root             4962 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/OggVorbis_File.html
+-rw-r--r--    1 root    root             4841 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/callbacks.html
+-rw-r--r--    1 root    root             3094 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/chaining_example_c.html
+-rw-r--r--    1 root    root             5573 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/chainingexample.html
+-rw-r--r--    1 root    root             5363 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/crosslap.html
+-rw-r--r--    1 root    root             2411 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/datastructures.html
+-rw-r--r--    1 root    root             3362 Apr 25  2008 /usr/doc/libvorbis-1.3.1/vorbisfile/decoding.html
+-rw-r--r--    1 root    root             5434 Nov  4  2008 /usr/doc/libvorbis-1.3.1/vorbisfile/example.html
+-rw-r--r--    1 root    root             1108 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/exampleindex.html
+-rw-r--r--    1 root    root             3620 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/fileinfo.html
+-rw-r--r--    1 root    root             1416 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/index.html
+-rw-r--r--    1 root    root             5094 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/initialization.html
+-rw-r--r--    1 root    root             2514 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_bitrate.html
+-rw-r--r--    1 root    root             1765 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_bitrate_instant.html
+-rw-r--r--    1 root    root             4403 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_callbacks.html
+-rw-r--r--    1 root    root             2192 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_clear.html
+-rw-r--r--    1 root    root             1882 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_comment.html
+-rw-r--r--    1 root    root             3399 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_crosslap.html
+-rw-r--r--    1 root    root             4376 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_fopen.html
+-rw-r--r--    1 root    root             1950 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_info.html
+-rw-r--r--    1 root    root             7503 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_open.html
+-rw-r--r--    1 root    root             6112 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_open_callbacks.html
+-rw-r--r--    1 root    root             2206 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_seek.html
+-rw-r--r--    1 root    root             3313 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_seek_lap.html
+-rw-r--r--    1 root    root             2496 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_seek_page.html
+-rw-r--r--    1 root    root             3646 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_seek_page_lap.html
+-rw-r--r--    1 root    root             1469 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_tell.html
+-rw-r--r--    1 root    root             1796 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_pcm_total.html
+-rw-r--r--    1 root    root             2284 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_raw_seek.html
+-rw-r--r--    1 root    root             3434 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_raw_seek_lap.html
+-rw-r--r--    1 root    root             1814 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_raw_tell.html
+-rw-r--r--    1 root    root             1829 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_raw_total.html
+-rw-r--r--    1 root    root             5413 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_read.html
+-rw-r--r--    1 root    root             3025 Mar 25  2010 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_read_float.html
+-rw-r--r--    1 root    root             1417 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_seekable.html
+-rw-r--r--    1 root    root             1809 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_serialnumber.html
+-rw-r--r--    1 root    root             1458 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_streams.html
+-rw-r--r--    1 root    root             3425 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_test.html
+-rw-r--r--    1 root    root             4102 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_test_callbacks.html
+-rw-r--r--    1 root    root             1931 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_test_open.html
+-rw-r--r--    1 root    root             2256 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_seek.html
+-rw-r--r--    1 root    root             3309 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_seek_lap.html
+-rw-r--r--    1 root    root             2461 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_seek_page.html
+-rw-r--r--    1 root    root             3677 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_seek_page_lap.html
+-rw-r--r--    1 root    root             1490 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_tell.html
+-rw-r--r--    1 root    root             1810 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/ov_time_total.html
+-rw-r--r--    1 root    root             1759 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/overview.html
+-rw-r--r--    1 root    root             2973 Apr 25  2008 /usr/doc/libvorbis-1.3.1/vorbisfile/reference.html
+-rw-r--r--    1 root    root             2146 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/return.html
+-rw-r--r--    1 root    root             4266 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/seekexample.html
+-rw-r--r--    1 root    root             4745 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/seeking.html
+-rw-r--r--    1 root    root             2029 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/seeking_example_c.html
+-rw-r--r--    1 root    root             2029 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/seeking_test_c.html
+-rw-r--r--    1 root    root             5224 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/seekingexample.html
+-rw-r--r--    1 root    root              279 Jan 24  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/style.css
+-rw-r--r--    1 root    root             1554 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/threads.html
+-rw-r--r--    1 root    root             2172 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/vorbis_comment.html
+-rw-r--r--    1 root    root             2400 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/vorbis_info.html
+-rw-r--r--    1 root    root             2455 Aug 10  2007 /usr/doc/libvorbis-1.3.1/vorbisfile/vorbisfile_example_c.html
+-rw-r--r--    1 root    root             1173 Apr  8  2009 /usr/doc/libvorbis-1.3.1/vorbisword2.png
+-rw-r--r--    1 root    root              311 Apr  8  2009 /usr/doc/libvorbis-1.3.1/wait.png
+-rw-r--r--    1 root    root              770 Apr  8  2009 /usr/doc/libvorbis-1.3.1/white-xifish.png
+-rw-r--r--    1 root    root             1703 Apr  8  2009 /usr/doc/libvorbis-1.3.1/window1.png
+-rw-r--r--    1 root    root             1601 Apr  8  2009 /usr/doc/libvorbis-1.3.1/window2.png
+-rw-r--r--    1 root    root             8449 Aug 24 23:47 /usr/include/vorbis/codec.h
+-rw-r--r--    1 root    root            17056 Aug 24 23:47 /usr/include/vorbis/vorbisenc.h
+-rw-r--r--    1 root    root             8027 Aug 24 23:47 /usr/include/vorbis/vorbisfile.h
+-rw-r--r--    1 root    root           218854 Aug 24 23:47 /usr/lib/libvorbis.a
+-rwxr-xr-x    1 root    root              917 Aug 24 23:47 /usr/lib/libvorbis.la
+-rw-r--r--    1 root    root          1583102 Aug 24 23:47 /usr/lib/libvorbisenc.a
+-rwxr-xr-x    1 root    root              948 Aug 24 23:47 /usr/lib/libvorbisenc.la
+-rw-r--r--    1 root    root            31362 Aug 24 23:47 /usr/lib/libvorbisfile.a
+-rwxr-xr-x    1 root    root              951 Aug 24 23:47 /usr/lib/libvorbisfile.la
+-rw-r--r--    1 root    root           189684 Aug 24 23:47 /usr/lib/m5475/libvorbis.a
+-rw-r--r--    1 root    root              935 Aug 24 23:47 /usr/lib/m5475/libvorbis.la
+-rw-r--r--    1 root    root          1577260 Aug 24 23:47 /usr/lib/m5475/libvorbisenc.a
+-rw-r--r--    1 root    root              972 Aug 24 23:47 /usr/lib/m5475/libvorbisenc.la
+-rw-r--r--    1 root    root            29598 Aug 24 23:47 /usr/lib/m5475/libvorbisfile.a
+-rw-r--r--    1 root    root              975 Aug 24 23:47 /usr/lib/m5475/libvorbisfile.la
+-rw-r--r--    1 root    root           185778 Aug 24 23:47 /usr/lib/m68020-60/libvorbis.a
+-rw-r--r--    1 root    root              947 Aug 24 23:47 /usr/lib/m68020-60/libvorbis.la
+-rw-r--r--    1 root    root          1576938 Aug 24 23:47 /usr/lib/m68020-60/libvorbisenc.a
+-rw-r--r--    1 root    root              988 Aug 24 23:47 /usr/lib/m68020-60/libvorbisenc.la
+-rw-r--r--    1 root    root            28684 Aug 24 23:47 /usr/lib/m68020-60/libvorbisfile.a
+-rw-r--r--    1 root    root              991 Aug 24 23:47 /usr/lib/m68020-60/libvorbisfile.la
+-rw-r--r--    1 root    root             4861 Aug 24 23:47 /usr/share/aclocal/vorbis.m4
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libvorbis-1.3.1-1.m68kmint.rpm">Download</A></H2> (1,113,776 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Thu Dec 16 18:03:13 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

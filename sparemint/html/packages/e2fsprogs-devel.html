@@ -1,0 +1,130 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - e2fsprogs-devel, version 1.27, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>e2fsprogs-devel</H2>
+
+<UL> 
+<LI>Summary: Ext2 filesystem-specific static libraries and headers.<BR>
+<LI>URL: <A HREF="http://e2fsprogs.sourceforge.net/">http://e2fsprogs.sourceforge.net/</A><BR>
+<LI>Version: 1.27<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 268,657 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>e2fsprogs-devel = 1.27-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>e2fsprogs  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Nov 19 14:41:16 2003 UTC<BR>
+<LI>Upload date: Thu Nov 27 17:12:06 2003 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/e2fsprogs-1.27-2.src.rpm">e2fsprogs-1.27-2.src.rpm</A>  (1,380,008 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Nov 19 10:00:00 2003 UTC<BR>
+- reworked mint_io.c, incorporated the changes from the mint cvs<BR>  version with the patches from Standa; mke2fs should now<BR>  work as expected
+<LI>Description:<BR>
+E2fsprogs-devel contains the libraries and header files needed to<BR>develop second extended (ext2) filesystem-specific programs.<BR><P><BR>You should install e2fsprogs-devel if you want to develop ext2<BR>filesystem-specific programs.  If you install e2fsprogs-devel, you'll<BR>also need to install e2fsprogs.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root              707 Nov 19  2003 /usr/bin/compile_et
+-rwxr-xr-x    1 root    root              919 Nov 19  2003 /usr/bin/mk_cmds
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/include/e2p
+-rw-r--r--    1 root    root             1458 Nov 19  2003 /usr/include/e2p/e2p.h
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/include/et
+-rw-r--r--    1 root    root             1182 Nov 19  2003 /usr/include/et/com_err.h
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/include/ext2fs
+-rw-r--r--    1 root    root            18262 Nov 19  2003 /usr/include/ext2fs/bitops.h
+-rw-r--r--    1 root    root             5931 Nov 19  2003 /usr/include/ext2fs/ext2_err.h
+-rw-r--r--    1 root    root             2033 Nov 19  2003 /usr/include/ext2fs/ext2_ext_attr.h
+-rw-r--r--    1 root    root            20916 Nov 19  2003 /usr/include/ext2fs/ext2_fs.h
+-rw-r--r--    1 root    root             2801 Nov 19  2003 /usr/include/ext2fs/ext2_io.h
+-rw-r--r--    1 root    root              999 Nov 19  2003 /usr/include/ext2fs/ext2_types.h
+-rw-r--r--    1 root    root            29461 Nov 19  2003 /usr/include/ext2fs/ext2fs.h
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/include/ss
+-rw-r--r--    1 root    root             3090 Nov 19  2003 /usr/include/ss/ss.h
+-rw-r--r--    1 root    root             1014 Nov 19  2003 /usr/include/ss/ss_err.h
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/include/uuid
+-rw-r--r--    1 root    root             1244 Nov 19  2003 /usr/include/uuid/uuid.h
+-rw-r--r--    1 root    root            11653 Nov 19  2003 /usr/info/libext2fs.info.gz
+-r--r--r--    1 root    root             2732 Nov 19  2003 /usr/lib/libcom_err.a
+-r--r--r--    1 root    root            11720 Nov 19  2003 /usr/lib/libe2p.a
+-r--r--r--    1 root    root           101170 Nov 19  2003 /usr/lib/libext2fs.a
+-r--r--r--    1 root    root            14462 Nov 19  2003 /usr/lib/libss.a
+-r--r--r--    1 root    root             5864 Nov 19  2003 /usr/lib/libuuid.a
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/share/et
+-rw-r--r--    1 root    root             4229 Nov 19  2003 /usr/share/et/et_c.awk
+-rw-r--r--    1 root    root             3588 Nov 19  2003 /usr/share/et/et_h.awk
+-rw-r--r--    1 root    root             1208 Nov 19  2003 /usr/share/man/man1/compile_et.1.gz
+-rw-r--r--    1 root    root             1188 Nov 19  2003 /usr/share/man/man3/com_err.3.gz
+-rw-r--r--    1 root    root             1075 Nov 19  2003 /usr/share/man/man3/libuuid.3.gz
+-rw-r--r--    1 root    root              561 Nov 19  2003 /usr/share/man/man3/uuid_clear.3.gz
+-rw-r--r--    1 root    root              672 Nov 19  2003 /usr/share/man/man3/uuid_compare.3.gz
+-rw-r--r--    1 root    root              588 Nov 19  2003 /usr/share/man/man3/uuid_copy.3.gz
+-rw-r--r--    1 root    root             1295 Nov 19  2003 /usr/share/man/man3/uuid_generate.3.gz
+-rw-r--r--    1 root    root             1295 Nov 19  2003 /usr/share/man/man3/uuid_generate_random.3.gz
+-rw-r--r--    1 root    root             1295 Nov 19  2003 /usr/share/man/man3/uuid_generate_time.3.gz
+-rw-r--r--    1 root    root              596 Nov 19  2003 /usr/share/man/man3/uuid_is_null.3.gz
+-rw-r--r--    1 root    root              805 Nov 19  2003 /usr/share/man/man3/uuid_parse.3.gz
+-rw-r--r--    1 root    root              822 Nov 19  2003 /usr/share/man/man3/uuid_time.3.gz
+-rw-r--r--    1 root    root              699 Nov 19  2003 /usr/share/man/man3/uuid_unparse.3.gz
+drwxrwxrwx    2 root    root                0 Nov 19  2003 /usr/share/ss
+-rw-r--r--    1 root    root             1666 Nov 19  2003 /usr/share/ss/ct_c.awk
+-rw-r--r--    1 root    root             2289 Nov 19  2003 /usr/share/ss/ct_c.sed
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/e2fsprogs-devel-1.27-2.m68kmint.rpm">Download</A></H2> (110,744 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

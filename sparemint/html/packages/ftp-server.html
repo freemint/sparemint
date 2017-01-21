@@ -1,0 +1,89 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ftp-server, version 0.4, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ftp-server</H2>
+
+<UL> 
+<LI>Summary: The server program for the ftp protocol.<BR>
+
+<LI>Version: 0.4<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 172,172 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ftp-server = 0.4-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>freemint-net  <BR>
+  <LI>netbase  <BR>
+  <LI>inetd  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Feb  6 09:50:52 2002 UTC<BR>
+<LI>Upload date: Wed Feb  6 09:51:00 2002 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ftp-server-0.4-1.src.rpm">ftp-server-0.4-1.src.rpm</A>  (43,927 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Feb  6 10:00:00 2002 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+FTP is a popular protocol for uploading and downloading files to<BR>the host system over the Internet.  The ftp-server package is a ftp<BR>daemon, which will support remote ftp into the host machine.  The<BR>ftp daemon is disabled by default.  You may enable the ftp daemon by<BR>editing /etc/inetd.conf, uncomment the ftpd configuration line and<BR>restart the inetd.<BR><P><BR>Install the ftp-server package if you want to support ftp logins<BR>to your own machine.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    wheel          169280 Feb  6  2002 /usr/sbin/in.ftpd
+-r--r--r--    1 root    wheel            2892 Feb  6  2002 /usr/share/man/man8/in.ftpd.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ftp-server-0.4-1.m68kmint.rpm">Download</A></H2> (90,428 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

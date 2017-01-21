@@ -1,0 +1,126 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libgc-devel, version 5.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libgc-devel</H2>
+
+<UL> 
+<LI>Summary: Boehm Conservative Garbage Collection for C/C++<BR>
+<LI>URL: <A HREF="http://www.hpl.hp.com/personal/Hans_Boehm/gc/">http://www.hpl.hp.com/personal/Hans_Boehm/gc/</A><BR>
+<LI>Version: 5.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: Freely Redistributable</BR>
+<LI>Installation size: 469,206 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libgc-devel = 5.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Jun 21 17:37:59 2001 UTC<BR>
+<LI>Upload date: Thu Jun 21 17:38:12 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libgc-5.3-1.src.rpm">libgc-5.3-1.src.rpm</A>  (371,998 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Jun 21 09:00:00 2001 UTC<BR>
+- initial revision for SpareMiNT
+<LI>Description:<BR>
+This is a garbage collecting storage allocator that is intended to be<BR>used as a plug-in replacement for C's malloc.<BR><P><BR>Since the collector does not require pointers to be tagged, it does not<BR>attempt to ensure that all inaccessible storage is reclaimed.  However,<BR>in our experience, it is typically more successful at reclaiming unused<BR>memory than most C programs using explicit deallocation.  Unlike manually<BR>introduced leaks, the amount of unreclaimed memory typically stays<BR>bounded.<BR><P><BR>Header files and static library for libgc
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    wheel               0 Jun 21  2001 /usr/doc/libgc-devel-5.3
+-rw-r--r--    1 root    wheel           85746 Sep 23  2000 /usr/doc/libgc-devel-5.3/README
+-rw-r--r--    1 root    wheel           13478 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.Mac
+-rw-r--r--    1 root    wheel             365 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.OS2
+-rw-r--r--    1 root    wheel            1860 Oct 29  1999 /usr/doc/libgc-devel-5.3/README.QUICK
+-rw-r--r--    1 root    wheel             972 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.alpha
+-rw-r--r--    1 root    wheel            7196 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.amiga
+-rw-r--r--    1 root    wheel            7092 Feb 23  2000 /usr/doc/libgc-devel-5.3/README.debugging
+-rw-r--r--    1 root    wheel             376 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.dj
+-rw-r--r--    1 root    wheel             781 Oct 29  1999 /usr/doc/libgc-devel-5.3/README.hp
+-rw-r--r--    1 root    wheel            3142 Apr  4  2000 /usr/doc/libgc-devel-5.3/README.linux
+-rw-r--r--    1 root    wheel             509 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.rs6000
+-rw-r--r--    1 root    wheel            1840 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.sgi
+-rw-r--r--    1 root    wheel            3336 Mar 22  2000 /usr/doc/libgc-devel-5.3/README.solaris2
+-rw-r--r--    1 root    wheel              86 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.uts
+-rw-r--r--    1 root    wheel            7096 Sep 21  1999 /usr/doc/libgc-devel-5.3/README.win32
+-rw-r--r--    1 root    wheel            6435 Sep 21  1999 /usr/doc/libgc-devel-5.3/barrett_diagram
+drwxr-xr-x    2 root    wheel               0 Jun 21  2001 /usr/include/gc
+-rw-r--r--    1 root    wheel            2799 Jun 21  2001 /usr/include/gc/backptr.h
+-rw-r--r--    1 root    wheel           14293 Jun 21  2001 /usr/include/gc/cord.h
+-rw-r--r--    1 root    wheel            1778 Jun 21  2001 /usr/include/gc/ec.h
+-rw-r--r--    1 root    wheel           34830 Jun 21  2001 /usr/include/gc/gc.h
+-rw-r--r--    1 root    wheel           11522 Jun 21  2001 /usr/include/gc/gc_alloc.h
+-rw-r--r--    1 root    wheel            1074 Jun 21  2001 /usr/include/gc/gc_copy_descr.h
+-rw-r--r--    1 root    wheel           10435 Jun 21  2001 /usr/include/gc/gc_cpp.h
+-rw-r--r--    1 root    wheel            4425 Jun 21  2001 /usr/include/gc/gc_gcj.h
+-rw-r--r--    1 root    wheel            3583 Jun 21  2001 /usr/include/gc/gc_inl.h
+-rw-r--r--    1 root    wheel              21 Jun 21  2001 /usr/include/gc/gc_inline.h
+-rw-r--r--    1 root    wheel            3956 Jun 21  2001 /usr/include/gc/gc_nursery.h
+-rw-r--r--    1 root    wheel            3733 Jun 21  2001 /usr/include/gc/gc_typed.h
+-rw-r--r--    1 root    wheel            1569 Jun 21  2001 /usr/include/gc/javaxfc.h
+-rw-r--r--    1 root    wheel             197 Jun 21  2001 /usr/include/gc/leak_detector.h
+-rw-r--r--    1 root    wheel           13537 Jun 21  2001 /usr/include/gc/new_gc_alloc.h
+drwxr-xr-x    2 root    wheel               0 Jun 21  2001 /usr/include/gc/private
+-rw-r--r--    1 root    wheel            4101 Jun 21  2001 /usr/include/gc/private/cord_pos.h
+-rw-r--r--    1 root    wheel            9585 Jun 21  2001 /usr/include/gc/private/gc_hdrs.h
+-rw-r--r--    1 root    wheel           66591 Jun 21  2001 /usr/include/gc/private/gc_priv.h
+-rw-r--r--    1 root    wheel           40983 Jun 21  2001 /usr/include/gc/private/gcconfig.h
+-rw-r--r--    1 root    wheel            9149 Jun 21  2001 /usr/include/gc/weakpointer.h
+-rw-r--r--    1 root    wheel           85586 Jun 21  2001 /usr/lib/libgc.a
+-rw-r--r--    1 root    wheel            2077 Jun 21  2001 /usr/share/man/man1/gc.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libgc-devel-5.3-1.m68kmint.rpm">Download</A></H2> (159,387 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,164 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - Xaw3d, version 1.5, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>Xaw3d</H2>
+
+<UL> 
+<LI>Summary: A version of the MIT Athena widget set for X.<BR>
+<LI>URL: <A HREF="ftp://ftp.x.org/contrib/widgets/Xaw3d/">ftp://ftp.x.org/contrib/widgets/Xaw3d/</A><BR>
+<LI>Version: 1.5<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: MIT</BR>
+<LI>Installation size: 617,511 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>Xaw3d = 1.5-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>XFree86-devel  <BR>
+  <LI>fileutils  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Dec 21 19:48:52 2000 UTC<BR>
+<LI>Upload date: Fri Dec 22 21:35:45 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/Xaw3d-1.5-2.src.rpm">Xaw3d-1.5-2.src.rpm</A>  (289,987 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Mon Dec 18 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+Xaw3d is an enhanced version of the MIT Athena Widget set for<BR>the X Window System.  Xaw3d adds a three-dimensional look to applications<BR>with minimal or no source code changes.<BR><P><BR>You should install Xaw3d-devel if you are going to develop applications<BR>using the Xaw3d widget set.
+<LI>Files:<BR>
+<PRE>
+drwxrwxrwx    2 root    root                0 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d
+-r--r--r--    1 root    root             1561 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AllWidgets.h
+-r--r--r--    1 root    root             3458 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiSink.h
+-r--r--r--    1 root    root             4133 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiSinkP.h
+-r--r--r--    1 root    root             4524 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiSrc.h
+-r--r--r--    1 root    root             5697 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiSrcP.h
+-r--r--r--    1 root    root             5514 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiText.h
+-r--r--r--    1 root    root             5254 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/AsciiTextP.h
+-r--r--r--    1 root    root             3644 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Box.h
+-r--r--r--    1 root    root             3782 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/BoxP.h
+-r--r--r--    1 root    root             1727 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Cardinals.h
+-r--r--r--    1 root    root             5065 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Command.h
+-r--r--r--    1 root    root             4578 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/CommandP.h
+-r--r--r--    1 root    root             3925 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Dialog.h
+-r--r--r--    1 root    root             3728 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/DialogP.h
+-r--r--r--    1 root    root             5644 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Form.h
+-r--r--r--    1 root    root             5241 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/FormP.h
+-r--r--r--    1 root    root             4119 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Grip.h
+-r--r--r--    1 root    root             3712 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/GripP.h
+-r--r--r--    1 root    root             4765 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Label.h
+-r--r--r--    1 root    root             4329 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/LabelP.h
+-r--r--r--    1 root    root             3272 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Layout.h
+-r--r--r--    1 root    root             5799 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/LayoutP.h
+-r--r--r--    1 root    root             7701 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/List.h
+-r--r--r--    1 root    root             4019 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ListP.h
+-r--r--r--    1 root    root             3163 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MenuButtoP.h
+-r--r--r--    1 root    root             3308 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MenuButton.h
+-r--r--r--    1 root    root             4776 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MultiSink.h
+-r--r--r--    1 root    root             5637 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MultiSinkP.h
+-r--r--r--    1 root    root             4686 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MultiSrc.h
+-r--r--r--    1 root    root             7167 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/MultiSrcP.h
+-r--r--r--    1 root    root             8892 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Paned.h
+-r--r--r--    1 root    root             7771 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/PanedP.h
+-r--r--r--    1 root    root             3996 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Panner.h
+-r--r--r--    1 root    root             4273 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/PannerP.h
+-r--r--r--    1 root    root             2423 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Porthole.h
+-r--r--r--    1 root    root             2163 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/PortholeP.h
+-r--r--r--    1 root    root             2822 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Repeater.h
+-r--r--r--    1 root    root             2968 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/RepeaterP.h
+-r--r--r--    1 root    root             2341 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Reports.h
+-r--r--r--    1 root    root             5602 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Scrollbar.h
+-r--r--r--    1 root    root             5083 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ScrollbarP.h
+-r--r--r--    1 root    root             3974 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Simple.h
+-r--r--r--    1 root    root             3419 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SimpleMenP.h
+-r--r--r--    1 root    root             5120 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SimpleMenu.h
+-r--r--r--    1 root    root             3262 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SimpleP.h
+-r--r--r--    1 root    root             2537 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Sme.h
+-r--r--r--    1 root    root             3506 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeBSB.h
+-r--r--r--    1 root    root             3842 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeBSBP.h
+-r--r--r--    1 root    root             2588 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeLine.h
+-r--r--r--    1 root    root             3070 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeLineP.h
+-r--r--r--    1 root    root             3248 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeP.h
+-r--r--r--    1 root    root             3415 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeThreeD.h
+-r--r--r--    1 root    root             2631 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/SmeThreeDP.h
+-r--r--r--    1 root    root             4174 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/StripCharP.h
+-r--r--r--    1 root    root             4755 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/StripChart.h
+-r--r--r--    1 root    root             3315 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Template.c
+-r--r--r--    1 root    root             2520 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Template.h
+-r--r--r--    1 root    root             2054 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TemplateP.h
+-r--r--r--    1 root    root             8499 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Text.h
+-r--r--r--    1 root    root             9980 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TextP.h
+-r--r--r--    1 root    root             9764 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TextSink.h
+-r--r--r--    1 root    root             5338 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TextSinkP.h
+-r--r--r--    1 root    root             7840 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TextSrc.h
+-r--r--r--    1 root    root             5638 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TextSrcP.h
+-r--r--r--    1 root    root             3355 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ThreeD.h
+-r--r--r--    1 root    root             2327 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ThreeDP.h
+-r--r--r--    1 root    root             5547 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Toggle.h
+-r--r--r--    1 root    root             3285 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ToggleP.h
+-r--r--r--    1 root    root             4807 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Tree.h
+-r--r--r--    1 root    root             4658 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/TreeP.h
+-r--r--r--    1 root    root             3170 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/VendorEP.h
+-r--r--r--    1 root    root             4284 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/Viewport.h
+-r--r--r--    1 root    root             4153 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/ViewportP.h
+-r--r--r--    1 root    root             6014 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/XawImP.h
+-r--r--r--    1 root    root             1456 Dec 21  2000 /usr/X11R6/include/X11/Xaw3d/XawInit.h
+-rw-rw-rw-    1 root    root           285656 Dec 21  2000 /usr/X11R6/lib/libXaw3d.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/Xaw3d-1.5-2.m68kmint.rpm">Download</A></H2> (181,598 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

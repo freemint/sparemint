@@ -1,0 +1,832 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - lesstif-devel, version 0.92.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>lesstif-devel</H2>
+
+<UL> 
+<LI>Summary: Static library and header files for LessTif/Motif development.<BR>
+<LI>URL: <A HREF="http://www.lesstif.org/">http://www.lesstif.org/</A><BR>
+<LI>Version: 0.92.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 38,358,497 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>lesstif-devel = 0.92.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>XFree86-devel  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Dec 29 17:01:02 2000 UTC<BR>
+<LI>Upload date: Mon Jan  8 01:46:42 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/lesstif-0.92.6-1.src.rpm">lesstif-0.92.6-1.src.rpm</A>  (3,868,555 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Dec 29 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+This package contains the lesstif static library and header files<BR>required to develop Motif-based applications.<BR>Package also contains development documentation in html (Lessdox), and<BR>mxmkmf for Lesstif.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include
+-rw-r--r--    1 root    root             1271 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Mrm/MrmAppl.h
+-rw-r--r--    1 root    root             7763 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Mrm/MrmDecls.h
+-rw-r--r--    1 root    root             1259 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Mrm/MrmPrivate.h
+-rw-r--r--    1 root    root             4802 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Mrm/MrmPublic.h
+-rw-r--r--    1 root    root             1478 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ArrowB.h
+-rw-r--r--    1 root    root             1632 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ArrowBG.h
+-rw-r--r--    1 root    root             2459 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ArrowBGP.h
+-rw-r--r--    1 root    root             2240 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ArrowBP.h
+-rw-r--r--    1 root    root             1499 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/AtomMgr.h
+-rw-r--r--    1 root    root             5283 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/BaseClassP.h
+-rw-r--r--    1 root    root             1613 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/BulletinB.h
+-rw-r--r--    1 root    root             5142 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/BulletinBP.h
+-rw-r--r--    1 root    root             1694 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CacheP.h
+-rw-r--r--    1 root    root             1578 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CascadeB.h
+-rw-r--r--    1 root    root             1708 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CascadeBG.h
+-rw-r--r--    1 root    root             5792 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CascadeBGP.h
+-rw-r--r--    1 root    root             4017 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CascadeBP.h
+-rw-r--r--    1 root    root             1796 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Command.h
+-rw-r--r--    1 root    root             2366 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CommandP.h
+-rw-r--r--    1 root    root             3649 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CutPaste.h
+-rw-r--r--    1 root    root             1150 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/CutPasteP.h
+-rw-r--r--    1 root    root             2269 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DesktopP.h
+-rw-r--r--    1 root    root             1496 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DialogS.h
+-rw-r--r--    1 root    root             2242 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DialogSEP.h
+-rw-r--r--    1 root    root             2042 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DialogSP.h
+-rw-r--r--    1 root    root             1739 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Display.h
+-rw-r--r--    1 root    root             3962 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DisplayP.h
+-rw-r--r--    1 root    root             5632 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragC.h
+-rw-r--r--    1 root    root             4761 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragCP.h
+-rw-r--r--    1 root    root             1156 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragDrop.h
+-rw-r--r--    1 root    root             1682 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragIcon.h
+-rw-r--r--    1 root    root             2596 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragIconP.h
+-rw-r--r--    1 root    root             1281 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragOverS.h
+-rw-r--r--    1 root    root             3473 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DragOverSP.h
+-rw-r--r--    1 root    root             3011 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DrawP.h
+-rw-r--r--    1 root    root             1490 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DrawingA.h
+-rw-r--r--    1 root    root             2272 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DrawingAP.h
+-rw-r--r--    1 root    root             1478 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DrawnB.h
+-rw-r--r--    1 root    root             2330 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DrawnBP.h
+-rw-r--r--    1 root    root             4262 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DropSMgr.h
+-rw-r--r--    1 root    root             9468 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DropSMgrP.h
+-rw-r--r--    1 root    root             1800 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DropTrans.h
+-rw-r--r--    1 root    root             2637 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/DropTransP.h
+-rw-r--r--    1 root    root             2782 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ExtObjectP.h
+-rw-r--r--    1 root    root             1887 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/FileSB.h
+-rw-r--r--    1 root    root             5224 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/FileSBP.h
+-rw-r--r--    1 root    root             1508 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Form.h
+-rw-r--r--    1 root    root             5291 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/FormP.h
+-rw-r--r--    1 root    root             1434 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Frame.h
+-rw-r--r--    1 root    root             2632 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/FrameP.h
+-rw-r--r--    1 root    root             4767 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/GadgetP.h
+-rw-r--r--    1 root    root             1441 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Label.h
+-rw-r--r--    1 root    root             1626 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/LabelG.h
+-rw-r--r--    1 root    root             7087 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/LabelGP.h
+-rw-r--r--    1 root    root             4357 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/LabelP.h
+-rw-r--r--    1 root    root             4743 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/List.h
+-rw-r--r--    1 root    root             4554 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ListP.h
+-rw-r--r--    1 root    root             1794 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MainW.h
+-rw-r--r--    1 root    root             2312 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MainWP.h
+-rw-r--r--    1 root    root             7345 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ManagerP.h
+-rw-r--r--    1 root    root             1469 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MenuShell.h
+-rw-r--r--    1 root    root             2611 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MenuShellP.h
+-rw-r--r--    1 root    root             3139 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MenuUtilP.h
+-rw-r--r--    1 root    root             2235 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MessageB.h
+-rw-r--r--    1 root    root             2676 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MessageBP.h
+-rw-r--r--    1 root    root             3498 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/MwmUtil.h
+-rw-r--r--    1 root    root             1481 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PanedW.h
+-rw-r--r--    1 root    root             4002 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PanedWP.h
+-rw-r--r--    1 root    root             5200 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PrimitiveP.h
+-rw-r--r--    1 root    root             3337 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Protocols.h
+-rw-r--r--    1 root    root             2388 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ProtocolsP.h
+-rw-r--r--    1 root    root             1465 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PushB.h
+-rw-r--r--    1 root    root             1567 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PushBG.h
+-rw-r--r--    1 root    root             5051 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PushBGP.h
+-rw-r--r--    1 root    root             2331 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/PushBP.h
+-rw-r--r--    1 root    root             1515 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/RCUtilsP.h
+-rw-r--r--    1 root    root             2059 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/RepType.h
+-rw-r--r--    1 root    root             2449 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/RowColumn.h
+-rw-r--r--    1 root    root            13839 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/RowColumnP.h
+-rw-r--r--    1 root    root             2265 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SashP.h
+-rw-r--r--    1 root    root             1542 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Scale.h
+-rw-r--r--    1 root    root             2699 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScaleP.h
+-rw-r--r--    1 root    root             1363 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Screen.h
+-rw-r--r--    1 root    root             4542 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScreenP.h
+-rw-r--r--    1 root    root             1773 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScrollBar.h
+-rw-r--r--    1 root    root             4353 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScrollBarP.h
+-rw-r--r--    1 root    root             1758 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScrolledW.h
+-rw-r--r--    1 root    root             3330 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ScrolledWP.h
+-rw-r--r--    1 root    root             1771 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SelectioB.h
+-rw-r--r--    1 root    root             7389 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SelectioBP.h
+-rw-r--r--    1 root    root             1571 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SeparatoG.h
+-rw-r--r--    1 root    root             3293 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SeparatoGP.h
+-rw-r--r--    1 root    root             1473 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Separator.h
+-rw-r--r--    1 root    root             1889 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/SeparatorP.h
+-rw-r--r--    1 root    root             2222 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ShellEP.h
+-rw-r--r--    1 root    root             2213 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TearOffBP.h
+-rw-r--r--    1 root    root             2273 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TearOffP.h
+-rw-r--r--    1 root    root             4609 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Text.h
+-rw-r--r--    1 root    root             3933 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextF.h
+-rw-r--r--    1 root    root            15304 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextFP.h
+-rw-r--r--    1 root    root             1378 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextFSelP.h
+-rw-r--r--    1 root    root             4219 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextInP.h
+-rw-r--r--    1 root    root             8615 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextOutP.h
+-rw-r--r--    1 root    root            11283 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextP.h
+-rw-r--r--    1 root    root             1375 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextSelP.h
+-rw-r--r--    1 root    root             4394 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TextStrSoP.h
+-rw-r--r--    1 root    root             1629 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ToggleB.h
+-rw-r--r--    1 root    root             1770 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ToggleBG.h
+-rw-r--r--    1 root    root             4920 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ToggleBGP.h
+-rw-r--r--    1 root    root             2369 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/ToggleBP.h
+-rw-r--r--    1 root    root             4257 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/TransltnsP.h
+-rw-r--r--    1 root    root             1732 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VaSimpleP.h
+-rw-r--r--    1 root    root             1466 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VendorS.h
+-rw-r--r--    1 root    root             3505 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VendorSEP.h
+-rw-r--r--    1 root    root             1743 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VendorSP.h
+-rw-r--r--    1 root    root             2599 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VirtKeys.h
+-rw-r--r--    1 root    root             2367 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/VirtKeysP.h
+-rw-r--r--    1 root    root             1982 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/WorldP.h
+-rw-r--r--    1 root    root            27021 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/Xm.h
+-rw-r--r--    1 root    root             1968 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/XmAll.h
+-rw-r--r--    1 root    root            48342 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/XmP.h
+-rw-r--r--    1 root    root           158058 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/XmStrDefs.h
+-rw-r--r--    1 root    root             2511 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/include/Xm/XmosP.h
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib
+-rw-r--r--    1 root    root           249446 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libMrm.a
+-rwxr-xr-x    1 root    root              616 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libMrm.la
+-rw-r--r--    1 root    root           321862 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libUil.a
+-rwxr-xr-x    1 root    root              616 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libUil.la
+-rw-r--r--    1 root    root         12563266 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libXm.a
+-rwxr-xr-x    1 root    root              613 Dec 29  2000 /usr/X11R6/LessTif/Motif1.2/lib/libXm.la
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include
+-rw-r--r--    1 root    root             4582 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Dt/Print.h
+-rw-r--r--    1 root    root             1271 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Mrm/MrmAppl.h
+-rw-r--r--    1 root    root             7763 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Mrm/MrmDecls.h
+-rw-r--r--    1 root    root             1259 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Mrm/MrmPrivate.h
+-rw-r--r--    1 root    root             4802 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Mrm/MrmPublic.h
+-rw-r--r--    1 root    root             2334 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/AccTextT.h
+-rw-r--r--    1 root    root             1703 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ActivatableT.h
+-rw-r--r--    1 root    root             1478 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ArrowB.h
+-rw-r--r--    1 root    root             1632 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ArrowBG.h
+-rw-r--r--    1 root    root             2518 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ArrowBGP.h
+-rw-r--r--    1 root    root             2299 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ArrowBP.h
+-rw-r--r--    1 root    root             1499 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/AtomMgr.h
+-rw-r--r--    1 root    root             5283 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/BaseClassP.h
+-rw-r--r--    1 root    root             1613 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/BulletinB.h
+-rw-r--r--    1 root    root             5142 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/BulletinBP.h
+-rw-r--r--    1 root    root             1694 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CacheP.h
+-rw-r--r--    1 root    root             2296 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CareVisualT.h
+-rw-r--r--    1 root    root             1578 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CascadeB.h
+-rw-r--r--    1 root    root             1708 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CascadeBG.h
+-rw-r--r--    1 root    root             5792 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CascadeBGP.h
+-rw-r--r--    1 root    root             4017 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CascadeBP.h
+-rw-r--r--    1 root    root             1671 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ColorObjP.h
+-rw-r--r--    1 root    root             2109 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ComboBox.h
+-rw-r--r--    1 root    root             4421 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ComboBoxP.h
+-rw-r--r--    1 root    root             1796 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Command.h
+-rw-r--r--    1 root    root             2366 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CommandP.h
+-rw-r--r--    1 root    root             1908 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ContItemT.h
+-rw-r--r--    1 root    root             2029 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Container.h
+-rw-r--r--    1 root    root             4701 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ContainerP.h
+-rw-r--r--    1 root    root             1891 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ContainerT.h
+-rw-r--r--    1 root    root             3649 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CutPaste.h
+-rw-r--r--    1 root    root             1150 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/CutPasteP.h
+-rw-r--r--    1 root    root             2269 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DesktopP.h
+-rw-r--r--    1 root    root             1496 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DialogS.h
+-rw-r--r--    1 root    root             2242 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DialogSEP.h
+-rw-r--r--    1 root    root             2042 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DialogSP.h
+-rw-r--r--    1 root    root             1494 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DialogSavvyT.h
+-rw-r--r--    1 root    root             1739 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Display.h
+-rw-r--r--    1 root    root             3962 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DisplayP.h
+-rw-r--r--    1 root    root             5632 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragC.h
+-rw-r--r--    1 root    root             4761 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragCP.h
+-rw-r--r--    1 root    root             1156 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragDrop.h
+-rw-r--r--    1 root    root             1682 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragIcon.h
+-rw-r--r--    1 root    root             2596 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragIconP.h
+-rw-r--r--    1 root    root             1281 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragOverS.h
+-rw-r--r--    1 root    root             3473 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DragOverSP.h
+-rw-r--r--    1 root    root             5319 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DrawP.h
+-rw-r--r--    1 root    root             1490 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DrawingA.h
+-rw-r--r--    1 root    root             2388 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DrawingAP.h
+-rw-r--r--    1 root    root             1478 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DrawnB.h
+-rw-r--r--    1 root    root             2330 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DrawnBP.h
+-rw-r--r--    1 root    root             4262 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DropSMgr.h
+-rw-r--r--    1 root    root             9468 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DropSMgrP.h
+-rw-r--r--    1 root    root             1800 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DropTrans.h
+-rw-r--r--    1 root    root             2637 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/DropTransP.h
+-rw-r--r--    1 root    root             2782 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ExtObjectP.h
+-rw-r--r--    1 root    root             1887 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/FileSB.h
+-rw-r--r--    1 root    root             6018 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/FileSBP.h
+-rw-r--r--    1 root    root             1508 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Form.h
+-rw-r--r--    1 root    root             5291 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/FormP.h
+-rw-r--r--    1 root    root             1434 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Frame.h
+-rw-r--r--    1 root    root             2632 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/FrameP.h
+-rw-r--r--    1 root    root             1317 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Gadget.h
+-rw-r--r--    1 root    root             4880 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/GadgetP.h
+-rw-r--r--    1 root    root             1540 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/GrabShell.h
+-rw-r--r--    1 root    root             3720 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/GrabShellP.h
+-rw-r--r--    1 root    root             1571 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/IconG.h
+-rw-r--r--    1 root    root             4644 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/IconGP.h
+-rw-r--r--    1 root    root             1550 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/JoinSideT.h
+-rw-r--r--    1 root    root             1441 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Label.h
+-rw-r--r--    1 root    root             1626 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/LabelG.h
+-rw-r--r--    1 root    root             7087 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/LabelGP.h
+-rw-r--r--    1 root    root             4357 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/LabelP.h
+-rw-r--r--    1 root    root             1418 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/LayoutT.h
+-rw-r--r--    1 root    root             4743 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/List.h
+-rw-r--r--    1 root    root             4554 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ListP.h
+-rw-r--r--    1 root    root             1794 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MainW.h
+-rw-r--r--    1 root    root             2312 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MainWP.h
+-rw-r--r--    1 root    root             1353 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Manager.h
+-rw-r--r--    1 root    root             7324 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ManagerP.h
+-rw-r--r--    1 root    root             1469 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MenuShell.h
+-rw-r--r--    1 root    root             2664 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MenuShellP.h
+-rw-r--r--    1 root    root             4090 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MenuT.h
+-rw-r--r--    1 root    root             3139 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MenuUtilP.h
+-rw-r--r--    1 root    root             2235 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MessageB.h
+-rw-r--r--    1 root    root             2676 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MessageBP.h
+-rw-r--r--    1 root    root             3498 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/MwmUtil.h
+-rw-r--r--    1 root    root             2287 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/NavigatorT.h
+-rw-r--r--    1 root    root             2059 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Notebook.h
+-rw-r--r--    1 root    root            11803 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/NotebookP.h
+-rw-r--r--    1 root    root             1481 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PanedW.h
+-rw-r--r--    1 root    root             4645 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PanedWP.h
+-rw-r--r--    1 root    root             1377 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Primitive.h
+-rw-r--r--    1 root    root             5367 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PrimitiveP.h
+-rw-r--r--    1 root    root             1790 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Print.h
+-rw-r--r--    1 root    root             2336 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PrintSP.h
+-rw-r--r--    1 root    root             3337 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Protocols.h
+-rw-r--r--    1 root    root             2388 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ProtocolsP.h
+-rw-r--r--    1 root    root             1465 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PushB.h
+-rw-r--r--    1 root    root             1567 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PushBG.h
+-rw-r--r--    1 root    root             5051 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PushBGP.h
+-rw-r--r--    1 root    root             2331 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/PushBP.h
+-rw-r--r--    1 root    root             1515 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/RCUtilsP.h
+-rw-r--r--    1 root    root             2059 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/RepType.h
+-rw-r--r--    1 root    root             2449 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/RowColumn.h
+-rw-r--r--    1 root    root            13839 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/RowColumnP.h
+-rw-r--r--    1 root    root             1399 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SSpinB.h
+-rw-r--r--    1 root    root             2265 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SashP.h
+-rw-r--r--    1 root    root             1542 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Scale.h
+-rw-r--r--    1 root    root             2744 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScaleP.h
+-rw-r--r--    1 root    root             1363 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Screen.h
+-rw-r--r--    1 root    root             4542 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScreenP.h
+-rw-r--r--    1 root    root             1773 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScrollBar.h
+-rw-r--r--    1 root    root             4353 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScrollBarP.h
+-rw-r--r--    1 root    root             1885 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScrollFrameT.h
+-rw-r--r--    1 root    root             1758 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScrolledW.h
+-rw-r--r--    1 root    root             3692 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ScrolledWP.h
+-rw-r--r--    1 root    root             1771 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SelectioB.h
+-rw-r--r--    1 root    root             7389 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SelectioBP.h
+-rw-r--r--    1 root    root             1571 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SeparatoG.h
+-rw-r--r--    1 root    root             3293 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SeparatoGP.h
+-rw-r--r--    1 root    root             1473 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Separator.h
+-rw-r--r--    1 root    root             1889 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SeparatorP.h
+-rw-r--r--    1 root    root             2222 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ShellEP.h
+-rw-r--r--    1 root    root             1421 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SpecRenderT.h
+-rw-r--r--    1 root    root             1603 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SpinB.h
+-rw-r--r--    1 root    root             6122 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/SpinBP.h
+-rw-r--r--    1 root    root             1352 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TakesDefT.h
+-rw-r--r--    1 root    root             2213 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TearOffBP.h
+-rw-r--r--    1 root    root             2273 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TearOffP.h
+-rw-r--r--    1 root    root             4609 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Text.h
+-rw-r--r--    1 root    root             3933 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextF.h
+-rw-r--r--    1 root    root            15304 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextFP.h
+-rw-r--r--    1 root    root             1378 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextFSelP.h
+-rw-r--r--    1 root    root             4219 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextInP.h
+-rw-r--r--    1 root    root             8615 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextOutP.h
+-rw-r--r--    1 root    root            11283 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextP.h
+-rw-r--r--    1 root    root             1375 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextSelP.h
+-rw-r--r--    1 root    root             4394 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TextStrSoP.h
+-rw-r--r--    1 root    root             1629 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ToggleB.h
+-rw-r--r--    1 root    root             1770 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ToggleBG.h
+-rw-r--r--    1 root    root             5501 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ToggleBGP.h
+-rw-r--r--    1 root    root             2871 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/ToggleBP.h
+-rw-r--r--    1 root    root             1347 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TraitP.h
+-rw-r--r--    1 root    root             3552 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Transfer.h
+-rw-r--r--    1 root    root             2413 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TransferP.h
+-rw-r--r--    1 root    root             1396 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TransferT.h
+-rw-r--r--    1 root    root             5061 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TransltnsP.h
+-rw-r--r--    1 root    root             1137 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/TxtPropCv.h
+-rw-r--r--    1 root    root             1732 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VaSimpleP.h
+-rw-r--r--    1 root    root             1466 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VendorS.h
+-rw-r--r--    1 root    root             3797 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VendorSEP.h
+-rw-r--r--    1 root    root             1743 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VendorSP.h
+-rw-r--r--    1 root    root             2599 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VirtKeys.h
+-rw-r--r--    1 root    root             2367 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/VirtKeysP.h
+-rw-r--r--    1 root    root             1982 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/WorldP.h
+-rw-r--r--    1 root    root            44267 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/Xm.h
+-rw-r--r--    1 root    root             2330 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XmAll.h
+-rw-r--r--    1 root    root             2143 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XmIm.h
+-rw-r--r--    1 root    root            51590 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XmP.h
+-rw-r--r--    1 root    root           211999 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XmStrDefs.h
+-rw-r--r--    1 root    root             2511 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XmosP.h
+-rw-r--r--    1 root    root            16763 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/Xm/XpmP.h
+-rw-r--r--    1 root    root             2830 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/uil/Uil.h
+-rw-r--r--    1 root    root             7055 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/uil/UilDBDef.h
+-rw-r--r--    1 root    root             1778 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/uil/UilDef.h
+-rw-r--r--    1 root    root            12108 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/uil/UilSymDef.h
+-rw-r--r--    1 root    root             3035 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/include/uil/UilSymGl.h
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib
+-rw-r--r--    1 root    root           277814 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libDt.a
+-rwxr-xr-x    1 root    root              613 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libDt.la
+-rw-r--r--    1 root    root           284108 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libMrm.a
+-rwxr-xr-x    1 root    root              616 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libMrm.la
+-rw-r--r--    1 root    root           386746 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libUil.a
+-rwxr-xr-x    1 root    root              616 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libUil.la
+-rw-r--r--    1 root    root         16340898 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libXm.a
+-rwxr-xr-x    1 root    root              673 Dec 29  2000 /usr/X11R6/LessTif/Motif2.1/lib/libXm.la
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/doc
+-rw-r--r--    1 root    root             2628 Dec 29  2000 /usr/X11R6/LessTif/doc/Advocacy.html
+-rw-r--r--    1 root    root             1086 Dec 29  2000 /usr/X11R6/LessTif/doc/All.html
+-rw-r--r--    1 root    root            25880 Dec 29  2000 /usr/X11R6/LessTif/doc/COPYING.LIB.html
+-rw-r--r--    1 root    root             2419 Dec 29  2000 /usr/X11R6/LessTif/doc/Clipboard.txt
+-rw-r--r--    1 root    root            28913 Dec 29  2000 /usr/X11R6/LessTif/doc/DragAndDrop.txt
+-rw-r--r--    1 root    root            32673 Dec 29  2000 /usr/X11R6/LessTif/doc/FAQ.html
+-rw-r--r--    1 root    root             4174 Dec 29  2000 /usr/X11R6/LessTif/doc/Form.txt
+-rw-r--r--    1 root    root            80188 Dec 29  2000 /usr/X11R6/LessTif/doc/GeoUtils.txt
+-rw-r--r--    1 root    root            15752 Dec 29  2000 /usr/X11R6/LessTif/doc/Geometry.html
+-rw-r--r--    1 root    root            24739 Dec 29  2000 /usr/X11R6/LessTif/doc/INSTALL.html
+?rwxrwxrwx    1 root    root                4 Dec 29  2000 /usr/X11R6/LessTif/doc/Lessdox
+-rw-r--r--    1 root    root             9486 Dec 29  2000 /usr/X11R6/LessTif/doc/SyntheticResources.txt
+-rw-r--r--    1 root    root             6011 Dec 29  2000 /usr/X11R6/LessTif/doc/UIL.txt
+-rw-r--r--    1 root    root             5700 Dec 29  2000 /usr/X11R6/LessTif/doc/Xbae.html
+-rw-r--r--    1 root    root             4768 Dec 29  2000 /usr/X11R6/LessTif/doc/Xlt.html
+-rw-r--r--    1 root    root             7476 Dec 29  2000 /usr/X11R6/LessTif/doc/XmStrings.txt
+-rw-r--r--    1 root    root            26594 Dec 29  2000 /usr/X11R6/LessTif/doc/apps.html
+-rw-r--r--    1 root    root            11679 Dec 29  2000 /usr/X11R6/LessTif/doc/bugs.html
+-rw-r--r--    1 root    root             3289 Dec 29  2000 /usr/X11R6/LessTif/doc/cdrom.html
+-rw-r--r--    1 root    root             3721 Dec 29  2000 /usr/X11R6/LessTif/doc/core.html
+-rw-r--r--    1 root    root             3180 Dec 29  2000 /usr/X11R6/LessTif/doc/current.html
+-rw-r--r--    1 root    root             4729 Dec 29  2000 /usr/X11R6/LessTif/doc/cvs.html
+-rw-r--r--    1 root    root             4326 Dec 29  2000 /usr/X11R6/LessTif/doc/download.html
+-rw-r--r--    1 root    root             1271 Dec 29  2000 /usr/X11R6/LessTif/doc/feedback.html
+-rw-r--r--    1 root    root             4183 Dec 29  2000 /usr/X11R6/LessTif/doc/help.html
+drwxrwxrwx    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/doc/html
+-rw-r--r--    1 root    root            16606 Dec 29  2000 /usr/X11R6/LessTif/doc/html/LessTifInternals.html
+-rw-r--r--    1 root    root             2570 Dec 29  2000 /usr/X11R6/LessTif/doc/html/ListTree.gif
+-rw-r--r--    1 root    root             8190 Dec 29  2000 /usr/X11R6/LessTif/doc/html/ListTree.html
+-rw-r--r--    1 root    root            17561 Dec 29  2000 /usr/X11R6/LessTif/doc/html/ListTreeProg.html
+-rw-r--r--    1 root    root             1226 Dec 29  2000 /usr/X11R6/LessTif/doc/html/ListTreeTitle.gif
+-rw-r--r--    1 root    root             8110 Dec 29  2000 /usr/X11R6/LessTif/doc/html/SciPlot.html
+-rw-r--r--    1 root    root            21815 Dec 29  2000 /usr/X11R6/LessTif/doc/html/SciPlotProg.html
+-rw-r--r--    1 root    root             6992 Dec 29  2000 /usr/X11R6/LessTif/doc/html/TreeFSel.gif
+-rw-r--r--    1 root    root            24775 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XbaeCaption.html
+-rw-r--r--    1 root    root            31541 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XbaeInput.html
+-rw-r--r--    1 root    root           197185 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XbaeMatrix.html
+-rw-r--r--    1 root    root             2770 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmArrowButton.html
+-rw-r--r--    1 root    root             2652 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmArrowButtonGadget.html
+-rw-r--r--    1 root    root             8402 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmBulletinBoard.html
+-rw-r--r--    1 root    root             3500 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmCascadeButton.html
+-rw-r--r--    1 root    root             2952 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmCascadeButtonGadget.html
+-rw-r--r--    1 root    root             7346 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmClipboard.html
+-rw-r--r--    1 root    root             4153 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmComboBox.html
+-rw-r--r--    1 root    root             4142 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmCommand.html
+-rw-r--r--    1 root    root             1908 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDesktop.html
+-rw-r--r--    1 root    root             4059 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDialogShell.html
+-rw-r--r--    1 root    root             2105 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDialogShellExt.html
+-rw-r--r--    1 root    root             3517 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDisplay.html
+-rw-r--r--    1 root    root             6502 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDragContext.html
+-rw-r--r--    1 root    root             2946 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDragIcon.html
+-rw-r--r--    1 root    root             2850 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDragOverShell.html
+-rw-r--r--    1 root    root             5807 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDrawingArea.html
+-rw-r--r--    1 root    root             3896 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDrawnButton.html
+-rw-r--r--    1 root    root             2187 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDropSiteManager.html
+-rw-r--r--    1 root    root             2532 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmDropTransfer.html
+-rw-r--r--    1 root    root             7349 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmFileSelectionBox.html
+-rw-r--r--    1 root    root             9216 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmForm.html
+-rw-r--r--    1 root    root             2771 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmFrame.html
+-rw-r--r--    1 root    root             3626 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmGadget.html
+-rw-r--r--    1 root    root             3632 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmGrabShell.html
+-rw-r--r--    1 root    root             3905 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmIconGadget.html
+-rw-r--r--    1 root    root             5134 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmLabel.html
+-rw-r--r--    1 root    root             3519 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmLabelGadget.html
+-rw-r--r--    1 root    root             6071 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmList.html
+-rw-r--r--    1 root    root             3413 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmMainWindow.html
+-rw-r--r--    1 root    root             5321 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmManager.html
+-rw-r--r--    1 root    root             2652 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmMenuShell.html
+-rw-r--r--    1 root    root             3924 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmMessageBox.html
+-rw-r--r--    1 root    root             5839 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmNotebook.html
+-rw-r--r--    1 root    root             3840 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmPanedWindow.html
+-rw-r--r--    1 root    root             5186 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmPrimitive.html
+-rw-r--r--    1 root    root             1973 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmProtocol.html
+-rw-r--r--    1 root    root             3930 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmPushButton.html
+-rw-r--r--    1 root    root             3071 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmPushButtonGadget.html
+-rw-r--r--    1 root    root             8041 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmRowColumn.html
+-rw-r--r--    1 root    root             2311 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmSash.html
+-rw-r--r--    1 root    root             4627 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmScale.html
+-rw-r--r--    1 root    root             4448 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmScreen.html
+-rw-r--r--    1 root    root             5776 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmScrollBar.html
+-rw-r--r--    1 root    root             4359 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmScrolledWindow.html
+-rw-r--r--    1 root    root             5450 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmSelectionBox.html
+-rw-r--r--    1 root    root             2780 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmSeparator.html
+-rw-r--r--    1 root    root             2227 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmSeparatorGadget.html
+-rw-r--r--    1 root    root             4006 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmSpinBox.html
+-rw-r--r--    1 root    root             2807 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmTearOffButton.html
+-rw-r--r--    1 root    root            16048 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmText.html
+-rw-r--r--    1 root    root             6319 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmTextField.html
+-rw-r--r--    1 root    root             4386 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmToggleButton.html
+-rw-r--r--    1 root    root             2917 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmToggleButtonGadget.html
+-rw-r--r--    1 root    root             5025 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmVendorShell.html
+-rw-r--r--    1 root    root             1751 Dec 29  2000 /usr/X11R6/LessTif/doc/html/XmWorld.html
+-rw-r--r--    1 root    root             8137 Dec 29  2000 /usr/X11R6/LessTif/doc/html/lesstif.html
+-rw-r--r--    1 root    root             5748 Dec 29  2000 /usr/X11R6/LessTif/doc/html/mwm.html
+-rw-r--r--    1 root    root             5718 Dec 29  2000 /usr/X11R6/LessTif/doc/html/mwmrc.html
+-rw-r--r--    1 root    root              119 Dec 29  2000 /usr/X11R6/LessTif/doc/html/new.gif
+-rw-r--r--    1 root    root             1293 Dec 29  2000 /usr/X11R6/LessTif/doc/html/uil.html
+-rw-r--r--    1 root    root             1420 Dec 29  2000 /usr/X11R6/LessTif/doc/html/xbae.html
+-rw-r--r--    1 root    root             4536 Dec 29  2000 /usr/X11R6/LessTif/doc/html/xlt.html
+-rw-r--r--    1 root    root             3295 Dec 29  2000 /usr/X11R6/LessTif/doc/html/xmbind.html
+drwxrwxrwx    2 root    root                0 Dec 29  2000 /usr/X11R6/LessTif/doc/images
+-rw-r--r--    1 root    root             2439 Dec 29  2000 /usr/X11R6/LessTif/doc/images/hungry.png
+-rw-r--r--    1 root    root             1001 Dec 29  2000 /usr/X11R6/LessTif/doc/images/lesstif-realsmall.png
+-rw-r--r--    1 root    root             2373 Dec 29  2000 /usr/X11R6/LessTif/doc/images/lesstif-small.png
+-rw-r--r--    1 root    root             6516 Dec 29  2000 /usr/X11R6/LessTif/doc/images/lesstif.jpg
+-rw-r--r--    1 root    root             7902 Dec 29  2000 /usr/X11R6/LessTif/doc/images/lesstif.png
+-rw-r--r--    1 root    root             5997 Dec 29  2000 /usr/X11R6/LessTif/doc/images/ltsunlogo.jpg
+-rw-r--r--    1 root    root              484 Dec 29  2000 /usr/X11R6/LessTif/doc/images/ltsunlogo.png
+-rw-r--r--    1 root    root             4257 Dec 29  2000 /usr/X11R6/LessTif/doc/images/vh32.jpg
+-rw-r--r--    1 root    root              787 Dec 29  2000 /usr/X11R6/LessTif/doc/images/vh32.png
+-rw-r--r--    1 root    root             4241 Dec 29  2000 /usr/X11R6/LessTif/doc/images/vh40.jpg
+-rw-r--r--    1 root    root              799 Dec 29  2000 /usr/X11R6/LessTif/doc/images/vh40.png
+-rw-r--r--    1 root    root             7183 Dec 29  2000 /usr/X11R6/LessTif/doc/index.html
+-rw-r--r--    1 root    root             5418 Dec 29  2000 /usr/X11R6/LessTif/doc/known.html
+-rw-r--r--    1 root    root             6044 Dec 29  2000 /usr/X11R6/LessTif/doc/links.html
+-rw-r--r--    1 root    root             5008 Dec 29  2000 /usr/X11R6/LessTif/doc/lists.html
+-rw-r--r--    1 root    root             3597 Dec 29  2000 /usr/X11R6/LessTif/doc/mirrors.html
+-rw-r--r--    1 root    root             6773 Dec 29  2000 /usr/X11R6/LessTif/doc/platforms.html
+-rw-r--r--    1 root    root            71986 Dec 29  2000 /usr/X11R6/LessTif/doc/release-notes.html
+-rw-r--r--    1 root    root             1871 Dec 29  2000 /usr/X11R6/LessTif/doc/release-policy.html
+-rw-r--r--    1 root    root             4775 Dec 29  2000 /usr/X11R6/LessTif/doc/test_policy.html
+-rw-r--r--    1 root    root             5344 Dec 29  2000 /usr/X11R6/LessTif/doc/test_summary.html
+-rw-r--r--    1 root    root             3626 Dec 29  2000 /usr/X11R6/LessTif/doc/testers.html
+-rw-r--r--    1 root    root             4606 Dec 29  2000 /usr/X11R6/LessTif/doc/thread.html
+-rw-r--r--    1 root    root             4068 Dec 29  2000 /usr/X11R6/LessTif/doc/versions.html
+-rw-r--r--    1 root    root             2099 Dec 29  2000 /usr/X11R6/LessTif/doc/web_button.html
+-rwxr-xr-x    1 root    root             2090 Dec 29  2000 /usr/X11R6/bin/mxmkmf
+?rwxr-xr-x    1 root    root               30 Dec 29  2000 /usr/X11R6/include/Dt
+?rwxr-xr-x    1 root    root               31 Dec 29  2000 /usr/X11R6/include/Mrm
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/include/Xbae
+-rw-r--r--    1 root    root             3624 Dec 29  2000 /usr/X11R6/include/Xbae/Caption.h
+-rw-r--r--    1 root    root             2697 Dec 29  2000 /usr/X11R6/include/Xbae/CaptionP.h
+-rw-r--r--    1 root    root             2026 Dec 29  2000 /usr/X11R6/include/Xbae/Clip.h
+-rw-r--r--    1 root    root             2561 Dec 29  2000 /usr/X11R6/include/Xbae/ClipP.h
+-rw-r--r--    1 root    root             2312 Dec 29  2000 /usr/X11R6/include/Xbae/Input.h
+-rw-r--r--    1 root    root             2287 Dec 29  2000 /usr/X11R6/include/Xbae/InputP.h
+-rw-r--r--    1 root    root            27943 Dec 29  2000 /usr/X11R6/include/Xbae/Matrix.h
+-rw-r--r--    1 root    root            17720 Dec 29  2000 /usr/X11R6/include/Xbae/MatrixP.h
+-rw-r--r--    1 root    root             1733 Dec 29  2000 /usr/X11R6/include/Xbae/patchlevel.h
+drwxr-xr-x    2 root    root                0 Dec 29  2000 /usr/X11R6/include/Xlt
+-rw-r--r--    1 root    root             2633 Dec 29  2000 /usr/X11R6/include/Xlt/AnimatedButton.h
+-rw-r--r--    1 root    root             2873 Dec 29  2000 /usr/X11R6/include/Xlt/AnimatedButtonP.h
+-rw-r--r--    1 root    root             2988 Dec 29  2000 /usr/X11R6/include/Xlt/AppShell.h
+-rw-r--r--    1 root    root             2142 Dec 29  2000 /usr/X11R6/include/Xlt/AppShellP.h
+-rw-r--r--    1 root    root             2420 Dec 29  2000 /usr/X11R6/include/Xlt/BubbleButton.h
+-rw-r--r--    1 root    root             2983 Dec 29  2000 /usr/X11R6/include/Xlt/BubbleButtonP.h
+-rw-r--r--    1 root    root             1711 Dec 29  2000 /usr/X11R6/include/Xlt/EntrySB.h
+-rw-r--r--    1 root    root             1457 Dec 29  2000 /usr/X11R6/include/Xlt/EntrySBP.h
+-rw-r--r--    1 root    root             2084 Dec 29  2000 /usr/X11R6/include/Xlt/FilePicker.h
+-rw-r--r--    1 root    root             2518 Dec 29  2000 /usr/X11R6/include/Xlt/FilePickerP.h
+-rw-r--r--    1 root    root             2103 Dec 29  2000 /usr/X11R6/include/Xlt/FontChooser.h
+-rw-r--r--    1 root    root             3441 Dec 29  2000 /usr/X11R6/include/Xlt/FontChooserP.h
+-rw-r--r--    1 root    root             3095 Dec 29  2000 /usr/X11R6/include/Xlt/Host.h
+-rw-r--r--    1 root    root             4155 Dec 29  2000 /usr/X11R6/include/Xlt/HostP.h
+-rw-r--r--    1 root    root             5244 Dec 29  2000 /usr/X11R6/include/Xlt/ListTree.h
+-rw-r--r--    1 root    root             4544 Dec 29  2000 /usr/X11R6/include/Xlt/ListTreeP.h
+-rw-r--r--    1 root    root             1662 Dec 29  2000 /usr/X11R6/include/Xlt/NodeButton.h
+-rw-r--r--    1 root    root             2412 Dec 29  2000 /usr/X11R6/include/Xlt/NodeButtonP.h
+-rw-r--r--    1 root    root             2084 Dec 29  2000 /usr/X11R6/include/Xlt/NumEntry.h
+-rw-r--r--    1 root    root             2975 Dec 29  2000 /usr/X11R6/include/Xlt/NumEntryP.h
+-rw-r--r--    1 root    root             5921 Dec 29  2000 /usr/X11R6/include/Xlt/SciPlot.h
+-rw-r--r--    1 root    root             5412 Dec 29  2000 /usr/X11R6/include/Xlt/SciPlotP.h
+-rw-r--r--    1 root    root              369 Dec 29  2000 /usr/X11R6/include/Xlt/SciPlotUtil.h
+-rw-r--r--    1 root    root             1877 Dec 29  2000 /usr/X11R6/include/Xlt/SelectionBox.h
+-rw-r--r--    1 root    root             1941 Dec 29  2000 /usr/X11R6/include/Xlt/SelectionBoxP.h
+-rw-r--r--    1 root    root             2757 Dec 29  2000 /usr/X11R6/include/Xlt/SlideC.h
+-rw-r--r--    1 root    root             2501 Dec 29  2000 /usr/X11R6/include/Xlt/SlideCP.h
+-rw-r--r--    1 root    root             1202 Dec 29  2000 /usr/X11R6/include/Xlt/Sound.h
+-rw-r--r--    1 root    root             1857 Dec 29  2000 /usr/X11R6/include/Xlt/Stroke.h
+-rw-r--r--    1 root    root             1971 Dec 29  2000 /usr/X11R6/include/Xlt/Xlt.h
+?rwxr-xr-x    1 root    root               30 Dec 29  2000 /usr/X11R6/include/Xm
+?rwxr-xr-x    1 root    root               31 Dec 29  2000 /usr/X11R6/include/uil
+-rw-r--r--    1 root    root            27610 Dec 29  2000 /usr/X11R6/lib/X11/config/LessTif.rules
+-rw-r--r--    1 root    root            16240 Dec 29  2000 /usr/X11R6/lib/X11/config/LessTif.tmpl
+?rw-r--r--    1 root    root               31 Dec 29  2000 /usr/X11R6/lib/libDt.a
+?rwxr-xr-x    1 root    root               32 Dec 29  2000 /usr/X11R6/lib/libDt.la
+?rw-r--r--    1 root    root               32 Dec 29  2000 /usr/X11R6/lib/libMrm.a
+?rwxr-xr-x    1 root    root               33 Dec 29  2000 /usr/X11R6/lib/libMrm.la
+?rw-r--r--    1 root    root               32 Dec 29  2000 /usr/X11R6/lib/libUil.a
+?rwxr-xr-x    1 root    root               33 Dec 29  2000 /usr/X11R6/lib/libUil.la
+-rw-r--r--    1 root    root          1929046 Dec 29  2000 /usr/X11R6/lib/libXbae.a
+-rwxr-xr-x    1 root    root              625 Dec 29  2000 /usr/X11R6/lib/libXbae.la
+-rw-r--r--    1 root    root          2315020 Dec 29  2000 /usr/X11R6/lib/libXlt.a
+-rwxr-xr-x    1 root    root              599 Dec 29  2000 /usr/X11R6/lib/libXlt.la
+?rw-r--r--    1 root    root               31 Dec 29  2000 /usr/X11R6/lib/libXm.a
+?rwxr-xr-x    1 root    root               32 Dec 29  2000 /usr/X11R6/lib/libXm.la
+-rw-r--r--    1 root    root             1452 Dec 29  2000 /usr/X11R6/man/man1/lesstif.1.gz
+-rw-r--r--    1 root    root             4128 Dec 29  2000 /usr/X11R6/man/man3/LessTifInternals.3.gz
+-rw-r--r--    1 root    root             1157 Dec 29  2000 /usr/X11R6/man/man3/StrokeInstall.3.gz
+-rw-r--r--    1 root    root             1427 Dec 29  2000 /usr/X11R6/man/man3/Strokes.3.gz
+-rw-r--r--    1 root    root             4091 Dec 29  2000 /usr/X11R6/man/man3/XbaeCaption.3.gz
+-rw-r--r--    1 root    root             5197 Dec 29  2000 /usr/X11R6/man/man3/XbaeInput.3.gz
+-rw-r--r--    1 root    root            26622 Dec 29  2000 /usr/X11R6/man/man3/XbaeMatrix.3.gz
+-rw-r--r--    1 root    root              620 Dec 29  2000 /usr/X11R6/man/man3/Xlt.3.gz
+-rw-r--r--    1 root    root             1429 Dec 29  2000 /usr/X11R6/man/man3/XltAnimatedButton.3.gz
+-rw-r--r--    1 root    root              627 Dec 29  2000 /usr/X11R6/man/man3/XltAppInitialize.3.gz
+-rw-r--r--    1 root    root             1553 Dec 29  2000 /usr/X11R6/man/man3/XltAppShell.3.gz
+-rw-r--r--    1 root    root             1431 Dec 29  2000 /usr/X11R6/man/man3/XltBubbleButton.3.gz
+-rw-r--r--    1 root    root              695 Dec 29  2000 /usr/X11R6/man/man3/XltCheckArgSize.3.gz
+-rw-r--r--    1 root    root              534 Dec 29  2000 /usr/X11R6/man/man3/XltCreateAnimatedButton.3.gz
+-rw-r--r--    1 root    root              532 Dec 29  2000 /usr/X11R6/man/man3/XltCreateBubbleButton.3.gz
+-rw-r--r--    1 root    root              530 Dec 29  2000 /usr/X11R6/man/man3/XltCreateFilePicker.3.gz
+-rw-r--r--    1 root    root              523 Dec 29  2000 /usr/X11R6/man/man3/XltCreateHost.3.gz
+-rw-r--r--    1 root    root              527 Dec 29  2000 /usr/X11R6/man/man3/XltCreateNumEntry.3.gz
+-rw-r--r--    1 root    root              533 Dec 29  2000 /usr/X11R6/man/man3/XltDisplayFallbackResources.3.gz
+-rw-r--r--    1 root    root              540 Dec 29  2000 /usr/X11R6/man/man3/XltDisplayOptions.3.gz
+-rw-r--r--    1 root    root             1403 Dec 29  2000 /usr/X11R6/man/man3/XltEntrySB.3.gz
+-rw-r--r--    1 root    root             1451 Dec 29  2000 /usr/X11R6/man/man3/XltFilePicker.3.gz
+-rw-r--r--    1 root    root              510 Dec 29  2000 /usr/X11R6/man/man3/XltFilePickerGetChild.3.gz
+-rw-r--r--    1 root    root              443 Dec 29  2000 /usr/X11R6/man/man3/XltFilePickerGetString.3.gz
+-rw-r--r--    1 root    root              469 Dec 29  2000 /usr/X11R6/man/man3/XltFilePickerSetString.3.gz
+-rw-r--r--    1 root    root             1045 Dec 29  2000 /usr/X11R6/man/man3/XltFontChooser.3.gz
+-rw-r--r--    1 root    root              680 Dec 29  2000 /usr/X11R6/man/man3/XltGetValues.3.gz
+-rw-r--r--    1 root    root             2465 Dec 29  2000 /usr/X11R6/man/man3/XltHost.3.gz
+-rw-r--r--    1 root    root              608 Dec 29  2000 /usr/X11R6/man/man3/XltHostCreateTranscript.3.gz
+-rw-r--r--    1 root    root              452 Dec 29  2000 /usr/X11R6/man/man3/XltHostDiscardOutput.3.gz
+-rw-r--r--    1 root    root              657 Dec 29  2000 /usr/X11R6/man/man3/XltHostSelect.3.gz
+-rw-r--r--    1 root    root              480 Dec 29  2000 /usr/X11R6/man/man3/XltHostSendData.3.gz
+-rw-r--r--    1 root    root              476 Dec 29  2000 /usr/X11R6/man/man3/XltHostSendString.3.gz
+-rw-r--r--    1 root    root             2468 Dec 29  2000 /usr/X11R6/man/man3/XltNumEntry.3.gz
+-rw-r--r--    1 root    root              504 Dec 29  2000 /usr/X11R6/man/man3/XltNumEntryGetChild.3.gz
+-rw-r--r--    1 root    root              438 Dec 29  2000 /usr/X11R6/man/man3/XltRedirectStdErr.3.gz
+-rw-r--r--    1 root    root             1301 Dec 29  2000 /usr/X11R6/man/man3/XltSelectionBox.3.gz
+-rw-r--r--    1 root    root              535 Dec 29  2000 /usr/X11R6/man/man3/XltSetClientIcon.3.gz
+-rw-r--r--    1 root    root              680 Dec 29  2000 /usr/X11R6/man/man3/XltSetValues.3.gz
+-rw-r--r--    1 root    root             1456 Dec 29  2000 /usr/X11R6/man/man3/XltSlideContext.3.gz
+-rw-r--r--    1 root    root              424 Dec 29  2000 /usr/X11R6/man/man3/XltWaitTillMapped.3.gz
+-rw-r--r--    1 root    root              857 Dec 29  2000 /usr/X11R6/man/man3/XltWorking.3.gz
+-rw-r--r--    1 root    root              877 Dec 29  2000 /usr/X11R6/man/man3/XmArrowButton.3.gz
+-rw-r--r--    1 root    root              869 Dec 29  2000 /usr/X11R6/man/man3/XmArrowButtonGadget.3.gz
+-rw-r--r--    1 root    root             2053 Dec 29  2000 /usr/X11R6/man/man3/XmBulletinBoard.3.gz
+-rw-r--r--    1 root    root             1007 Dec 29  2000 /usr/X11R6/man/man3/XmCascadeButton.3.gz
+-rw-r--r--    1 root    root              933 Dec 29  2000 /usr/X11R6/man/man3/XmCascadeButtonGadget.3.gz
+-rw-r--r--    1 root    root             2639 Dec 29  2000 /usr/X11R6/man/man3/XmClipboard.3.gz
+-rw-r--r--    1 root    root             1070 Dec 29  2000 /usr/X11R6/man/man3/XmComboBox.3.gz
+-rw-r--r--    1 root    root             1057 Dec 29  2000 /usr/X11R6/man/man3/XmCommand.3.gz
+-rw-r--r--    1 root    root              822 Dec 29  2000 /usr/X11R6/man/man3/XmDesktop.3.gz
+-rw-r--r--    1 root    root             1161 Dec 29  2000 /usr/X11R6/man/man3/XmDialogShell.3.gz
+-rw-r--r--    1 root    root              830 Dec 29  2000 /usr/X11R6/man/man3/XmDialogShellExt.3.gz
+-rw-r--r--    1 root    root              961 Dec 29  2000 /usr/X11R6/man/man3/XmDisplay.3.gz
+-rw-r--r--    1 root    root             1307 Dec 29  2000 /usr/X11R6/man/man3/XmDragContext.3.gz
+-rw-r--r--    1 root    root              922 Dec 29  2000 /usr/X11R6/man/man3/XmDragIcon.3.gz
+-rw-r--r--    1 root    root              892 Dec 29  2000 /usr/X11R6/man/man3/XmDragOverShell.3.gz
+-rw-r--r--    1 root    root             1355 Dec 29  2000 /usr/X11R6/man/man3/XmDrawingArea.3.gz
+-rw-r--r--    1 root    root             1023 Dec 29  2000 /usr/X11R6/man/man3/XmDrawnButton.3.gz
+-rw-r--r--    1 root    root              848 Dec 29  2000 /usr/X11R6/man/man3/XmDropSiteManager.3.gz
+-rw-r--r--    1 root    root              881 Dec 29  2000 /usr/X11R6/man/man3/XmDropTransfer.3.gz
+-rw-r--r--    1 root    root             1713 Dec 29  2000 /usr/X11R6/man/man3/XmFileSelectionBox.3.gz
+-rw-r--r--    1 root    root             2651 Dec 29  2000 /usr/X11R6/man/man3/XmForm.3.gz
+-rw-r--r--    1 root    root              898 Dec 29  2000 /usr/X11R6/man/man3/XmFrame.3.gz
+-rw-r--r--    1 root    root             1013 Dec 29  2000 /usr/X11R6/man/man3/XmGadget.3.gz
+-rw-r--r--    1 root    root              998 Dec 29  2000 /usr/X11R6/man/man3/XmGrabShell.3.gz
+-rw-r--r--    1 root    root             1045 Dec 29  2000 /usr/X11R6/man/man3/XmIconGadget.3.gz
+-rw-r--r--    1 root    root             1189 Dec 29  2000 /usr/X11R6/man/man3/XmLabel.3.gz
+-rw-r--r--    1 root    root             1006 Dec 29  2000 /usr/X11R6/man/man3/XmLabelGadget.3.gz
+-rw-r--r--    1 root    root             1288 Dec 29  2000 /usr/X11R6/man/man3/XmList.3.gz
+-rw-r--r--    1 root    root              972 Dec 29  2000 /usr/X11R6/man/man3/XmMainWindow.3.gz
+-rw-r--r--    1 root    root             1198 Dec 29  2000 /usr/X11R6/man/man3/XmManager.3.gz
+-rw-r--r--    1 root    root              868 Dec 29  2000 /usr/X11R6/man/man3/XmMenuShell.3.gz
+-rw-r--r--    1 root    root             1016 Dec 29  2000 /usr/X11R6/man/man3/XmMessageBox.3.gz
+-rw-r--r--    1 root    root             1431 Dec 29  2000 /usr/X11R6/man/man3/XmNotebook.3.gz
+-rw-r--r--    1 root    root             1029 Dec 29  2000 /usr/X11R6/man/man3/XmPanedWindow.3.gz
+-rw-r--r--    1 root    root             1167 Dec 29  2000 /usr/X11R6/man/man3/XmPrimitive.3.gz
+-rw-r--r--    1 root    root              823 Dec 29  2000 /usr/X11R6/man/man3/XmProtocol.3.gz
+-rw-r--r--    1 root    root             1041 Dec 29  2000 /usr/X11R6/man/man3/XmPushButton.3.gz
+-rw-r--r--    1 root    root              936 Dec 29  2000 /usr/X11R6/man/man3/XmPushButtonGadget.3.gz
+-rw-r--r--    1 root    root             1535 Dec 29  2000 /usr/X11R6/man/man3/XmRowColumn.3.gz
+-rw-r--r--    1 root    root              885 Dec 29  2000 /usr/X11R6/man/man3/XmSash.3.gz
+-rw-r--r--    1 root    root             1157 Dec 29  2000 /usr/X11R6/man/man3/XmScale.3.gz
+-rw-r--r--    1 root    root             1122 Dec 29  2000 /usr/X11R6/man/man3/XmScreen.3.gz
+-rw-r--r--    1 root    root             1244 Dec 29  2000 /usr/X11R6/man/man3/XmScrollBar.3.gz
+-rw-r--r--    1 root    root             1085 Dec 29  2000 /usr/X11R6/man/man3/XmScrolledWindow.3.gz
+-rw-r--r--    1 root    root             1210 Dec 29  2000 /usr/X11R6/man/man3/XmSelectionBox.3.gz
+-rw-r--r--    1 root    root              908 Dec 29  2000 /usr/X11R6/man/man3/XmSeparator.3.gz
+-rw-r--r--    1 root    root              852 Dec 29  2000 /usr/X11R6/man/man3/XmSeparatorGadget.3.gz
+-rw-r--r--    1 root    root             1070 Dec 29  2000 /usr/X11R6/man/man3/XmSpinBox.3.gz
+-rw-r--r--    1 root    root              900 Dec 29  2000 /usr/X11R6/man/man3/XmTearOffButton.3.gz
+-rw-r--r--    1 root    root             2845 Dec 29  2000 /usr/X11R6/man/man3/XmText.3.gz
+-rw-r--r--    1 root    root             1331 Dec 29  2000 /usr/X11R6/man/man3/XmTextField.3.gz
+-rw-r--r--    1 root    root             1101 Dec 29  2000 /usr/X11R6/man/man3/XmToggleButton.3.gz
+-rw-r--r--    1 root    root              927 Dec 29  2000 /usr/X11R6/man/man3/XmToggleButtonGadget.3.gz
+-rw-r--r--    1 root    root             1257 Dec 29  2000 /usr/X11R6/man/man3/XmVendorShell.3.gz
+-rw-r--r--    1 root    root              781 Dec 29  2000 /usr/X11R6/man/man3/XmWorld.3.gz
+drwxr-xr-x    2 root    wheel               0 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6
+-rw-r--r--    1 root    wheel             489 Jun 29  2000 /usr/doc/lesstif-devel-0.92.6/AUTHORS
+-rw-r--r--    1 root    wheel           10922 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/BUG-REPORTING
+-rw-r--r--    1 root    wheel           17982 Aug  6  1996 /usr/doc/lesstif-devel-0.92.6/COPYING
+-rw-r--r--    1 root    wheel           25265 Aug  6  1996 /usr/doc/lesstif-devel-0.92.6/COPYING.LIB
+-rw-r--r--    1 root    wheel             973 Nov 21  1999 /usr/doc/lesstif-devel-0.92.6/CREDITS
+-rw-r--r--    1 root    wheel           66206 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/ChangeLog
+-rw-r--r--    1 root    wheel           26735 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/FAQ
+-rw-r--r--    1 root    wheel             662 Apr 11  2000 /usr/doc/lesstif-devel-0.92.6/KNOWN_BUGS
+-rw-r--r--    1 root    wheel            9334 Dec 28  2000 /usr/doc/lesstif-devel-0.92.6/Makefile
+-rw-r--r--    1 root    wheel             137 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/Makefile.am
+-rw-r--r--    1 root    wheel            9480 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/Makefile.in
+-rw-r--r--    1 root    wheel            2026 Oct 14  2000 /usr/doc/lesstif-devel-0.92.6/NEWS
+-rw-r--r--    1 root    wheel           71986 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/NOTES
+-rw-r--r--    1 root    wheel             180 Oct 14  2000 /usr/doc/lesstif-devel-0.92.6/README
+-rw-r--r--    1 root    wheel            2215 Nov 21  1999 /usr/doc/lesstif-devel-0.92.6/RELEASE-POLICY
+drwxr-xr-x    2 root    wheel               0 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients
+-rw-r--r--    1 root    wheel            9357 Dec 28  2000 /usr/doc/lesstif-devel-0.92.6/clients/Makefile
+-rw-r--r--    1 root    wheel            1078 Dec 20  2000 /usr/doc/lesstif-devel-0.92.6/clients/Makefile.am
+-rw-r--r--    1 root    wheel            9495 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/clients/Makefile.in
+-rw-r--r--    1 root    wheel            3509 Dec  5  2000 /usr/doc/lesstif-devel-0.92.6/clients/lesstif.1
+-rw-r--r--    1 root    wheel            8137 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/lesstif.html
+-rw-r--r--    1 root    wheel            4747 Mar 13  1998 /usr/doc/lesstif-devel-0.92.6/clients/mwm.1
+-rw-r--r--    1 root    wheel            5748 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/mwm.html
+-rw-r--r--    1 root    wheel            4202 Mar 13  1998 /usr/doc/lesstif-devel-0.92.6/clients/mwmrc.5
+-rw-r--r--    1 root    wheel            5718 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/mwmrc.html
+-rw-r--r--    1 root    wheel            1437 Dec  5  2000 /usr/doc/lesstif-devel-0.92.6/clients/uil.1
+-rw-r--r--    1 root    wheel            1293 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/uil.html
+-rw-r--r--    1 root    wheel            1453 Dec 21  1999 /usr/doc/lesstif-devel-0.92.6/clients/xbae.1
+-rw-r--r--    1 root    wheel            1420 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/xbae.html
+-rw-r--r--    1 root    wheel            2125 Dec 21  1999 /usr/doc/lesstif-devel-0.92.6/clients/xlt.1
+-rw-r--r--    1 root    wheel            4536 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/xlt.html
+-rw-r--r--    1 root    wheel            2827 Sep 19  1999 /usr/doc/lesstif-devel-0.92.6/clients/xmbind.1
+-rw-r--r--    1 root    wheel            3295 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/clients/xmbind.html
+drwxr-xr-x    2 root    wheel               0 Dec 28  2000 /usr/doc/lesstif-devel-0.92.6/functions
+-rw-r--r--    1 root    wheel            9162 Dec 28  2000 /usr/doc/lesstif-devel-0.92.6/functions/Makefile
+-rw-r--r--    1 root    wheel             878 Dec 20  2000 /usr/doc/lesstif-devel-0.92.6/functions/Makefile.am
+-rw-r--r--    1 root    wheel            9300 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/functions/Makefile.in
+drwxr-xr-x    2 root    wheel               0 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets
+-rw-r--r--    1 root    wheel           16283 Sep 19  1999 /usr/doc/lesstif-devel-0.92.6/widgets/LessTifInternals.3
+-rw-r--r--    1 root    wheel           16606 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/LessTifInternals.html
+-rw-r--r--    1 root    wheel           10694 Dec 28  2000 /usr/doc/lesstif-devel-0.92.6/widgets/Makefile
+-rw-r--r--    1 root    wheel            2391 Dec 20  2000 /usr/doc/lesstif-devel-0.92.6/widgets/Makefile.am
+-rw-r--r--    1 root    wheel           10832 Dec 21  2000 /usr/doc/lesstif-devel-0.92.6/widgets/Makefile.in
+-rw-r--r--    1 root    wheel            1815 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmArrowButton.3
+-rw-r--r--    1 root    wheel            2770 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmArrowButton.html
+-rw-r--r--    1 root    wheel            1823 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmArrowButtonGadget.3
+-rw-r--r--    1 root    wheel            2652 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmArrowButtonGadget.html
+-rw-r--r--    1 root    wheel            5232 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmBulletinBoard.3
+-rw-r--r--    1 root    wheel            8402 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmBulletinBoard.html
+-rw-r--r--    1 root    wheel            2196 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmCascadeButton.3
+-rw-r--r--    1 root    wheel            3500 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmCascadeButton.html
+-rw-r--r--    1 root    wheel            1978 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmCascadeButtonGadget.3
+-rw-r--r--    1 root    wheel            2952 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmCascadeButtonGadget.html
+-rw-r--r--    1 root    wheel            7761 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmClipboard.3
+-rw-r--r--    1 root    wheel            7346 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmClipboard.html
+-rw-r--r--    1 root    wheel            2506 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmComboBox.3
+-rw-r--r--    1 root    wheel            4153 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmComboBox.html
+-rw-r--r--    1 root    wheel            2422 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmCommand.3
+-rw-r--r--    1 root    wheel            4142 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmCommand.html
+-rw-r--r--    1 root    wheel            1499 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDesktop.3
+-rw-r--r--    1 root    wheel            1908 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDesktop.html
+-rw-r--r--    1 root    wheel            2400 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDialogShell.3
+-rw-r--r--    1 root    wheel            4059 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDialogShell.html
+-rw-r--r--    1 root    wheel            1548 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDialogShellExt.3
+-rw-r--r--    1 root    wheel            2105 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDialogShellExt.html
+-rw-r--r--    1 root    wheel            2155 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDisplay.3
+-rw-r--r--    1 root    wheel            3517 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDisplay.html
+-rw-r--r--    1 root    wheel            3867 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragContext.3
+-rw-r--r--    1 root    wheel            6502 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragContext.html
+-rw-r--r--    1 root    wheel            1903 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragIcon.3
+-rw-r--r--    1 root    wheel            2946 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragIcon.html
+-rw-r--r--    1 root    wheel            1765 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragOverShell.3
+-rw-r--r--    1 root    wheel            2850 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDragOverShell.html
+-rw-r--r--    1 root    wheel            3465 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDrawingArea.3
+-rw-r--r--    1 root    wheel            5807 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDrawingArea.html
+-rw-r--r--    1 root    wheel            2386 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDrawnButton.3
+-rw-r--r--    1 root    wheel            3896 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDrawnButton.html
+-rw-r--r--    1 root    wheel            1627 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDropSiteManager.3
+-rw-r--r--    1 root    wheel            2187 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDropSiteManager.html
+-rw-r--r--    1 root    wheel            1822 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmDropTransfer.3
+-rw-r--r--    1 root    wheel            2532 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmDropTransfer.html
+-rw-r--r--    1 root    wheel            4462 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmFileSelectionBox.3
+-rw-r--r--    1 root    wheel            7349 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmFileSelectionBox.html
+-rw-r--r--    1 root    wheel            6627 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmForm.3
+-rw-r--r--    1 root    wheel            9216 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmForm.html
+-rw-r--r--    1 root    wheel            1760 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmFrame.3
+-rw-r--r--    1 root    wheel            2771 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmFrame.html
+-rw-r--r--    1 root    wheel            2315 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmGadget.3
+-rw-r--r--    1 root    wheel            3626 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmGadget.html
+-rw-r--r--    1 root    wheel            2201 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmGrabShell.3
+-rw-r--r--    1 root    wheel            3632 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmGrabShell.html
+-rw-r--r--    1 root    wheel            2455 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmIconGadget.3
+-rw-r--r--    1 root    wheel            3905 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmIconGadget.html
+-rw-r--r--    1 root    wheel            3066 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmLabel.3
+-rw-r--r--    1 root    wheel            5134 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmLabel.html
+-rw-r--r--    1 root    wheel            2277 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmLabelGadget.3
+-rw-r--r--    1 root    wheel            3519 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmLabelGadget.html
+-rw-r--r--    1 root    wheel            3655 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmList.3
+-rw-r--r--    1 root    wheel            6071 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmList.html
+-rw-r--r--    1 root    wheel            2113 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmMainWindow.3
+-rw-r--r--    1 root    wheel            3413 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmMainWindow.html
+-rw-r--r--    1 root    wheel            3113 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmManager.3
+-rw-r--r--    1 root    wheel            5321 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmManager.html
+-rw-r--r--    1 root    wheel            1704 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmMenuShell.3
+-rw-r--r--    1 root    wheel            2652 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmMenuShell.html
+-rw-r--r--    1 root    wheel            2342 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmMessageBox.3
+-rw-r--r--    1 root    wheel            3924 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmMessageBox.html
+-rw-r--r--    1 root    wheel            3591 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmNotebook.3
+-rw-r--r--    1 root    wheel            5839 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmNotebook.html
+-rw-r--r--    1 root    wheel            2332 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmPanedWindow.3
+-rw-r--r--    1 root    wheel            3840 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmPanedWindow.html
+-rw-r--r--    1 root    wheel            3109 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmPrimitive.3
+-rw-r--r--    1 root    wheel            5186 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmPrimitive.html
+-rw-r--r--    1 root    wheel            1549 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmProtocol.3
+-rw-r--r--    1 root    wheel            1973 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmProtocol.html
+-rw-r--r--    1 root    wheel            2422 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmPushButton.3
+-rw-r--r--    1 root    wheel            3930 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmPushButton.html
+-rw-r--r--    1 root    wheel            2033 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmPushButtonGadget.3
+-rw-r--r--    1 root    wheel            3071 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmPushButtonGadget.html
+-rw-r--r--    1 root    wheel            4502 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmRowColumn.3
+-rw-r--r--    1 root    wheel            8041 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmRowColumn.html
+-rw-r--r--    1 root    wheel            1639 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmSash.3
+-rw-r--r--    1 root    wheel            2311 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmSash.html
+-rw-r--r--    1 root    wheel            2706 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmScale.3
+-rw-r--r--    1 root    wheel            4627 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmScale.html
+-rw-r--r--    1 root    wheel            2803 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmScreen.3
+-rw-r--r--    1 root    wheel            4448 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmScreen.html
+-rw-r--r--    1 root    wheel            3352 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmScrollBar.3
+-rw-r--r--    1 root    wheel            5776 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmScrollBar.html
+-rw-r--r--    1 root    wheel            2705 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmScrolledWindow.3
+-rw-r--r--    1 root    wheel            4359 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmScrolledWindow.html
+-rw-r--r--    1 root    wheel            3164 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmSelectionBox.3
+-rw-r--r--    1 root    wheel            5450 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmSelectionBox.html
+-rw-r--r--    1 root    wheel            1824 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmSeparator.3
+-rw-r--r--    1 root    wheel            2780 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmSeparator.html
+-rw-r--r--    1 root    wheel            1608 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmSeparatorGadget.3
+-rw-r--r--    1 root    wheel            2227 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmSeparatorGadget.html
+-rw-r--r--    1 root    wheel            2433 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmSpinBox.3
+-rw-r--r--    1 root    wheel            4006 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmSpinBox.html
+-rw-r--r--    1 root    wheel            1783 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmTearOffButton.3
+-rw-r--r--    1 root    wheel            2807 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmTearOffButton.html
+-rw-r--r--    1 root    wheel            9572 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmText.3
+-rw-r--r--    1 root    wheel           16048 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmText.html
+-rw-r--r--    1 root    wheel            3687 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmTextField.3
+-rw-r--r--    1 root    wheel            6319 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmTextField.html
+-rw-r--r--    1 root    wheel            2664 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmToggleButton.3
+-rw-r--r--    1 root    wheel            4386 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmToggleButton.html
+-rw-r--r--    1 root    wheel            1945 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmToggleButtonGadget.3
+-rw-r--r--    1 root    wheel            2917 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmToggleButtonGadget.html
+-rw-r--r--    1 root    wheel            3095 Mar 27  1999 /usr/doc/lesstif-devel-0.92.6/widgets/XmVendorShell.3
+-rw-r--r--    1 root    wheel            5025 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmVendorShell.html
+-rw-r--r--    1 root    wheel            1398 Oct  7  1998 /usr/doc/lesstif-devel-0.92.6/widgets/XmWorld.3
+-rw-r--r--    1 root    wheel            1751 Dec 29  2000 /usr/doc/lesstif-devel-0.92.6/widgets/XmWorld.html
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/lesstif-devel-0.92.6-1.m68kmint.rpm">Download</A></H2> (13,210,030 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

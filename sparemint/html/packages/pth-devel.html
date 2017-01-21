@@ -1,0 +1,112 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - pth-devel, version 2.0.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>pth-devel</H2>
+
+<UL> 
+<LI>Summary: GNU Pth development package<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/pth/">http://www.gnu.org/software/pth/</A><BR>
+<LI>Version: 2.0.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 464,960 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>pth-devel = 2.0.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Thu Oct 30 19:56:59 2003 UTC<BR>
+<LI>Upload date: Wed Nov  5 03:13:20 2003 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/pth-2.0.0-1.src.rpm">pth-2.0.0-1.src.rpm</A>  (541,979 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu Oct 30 22:00:00 2003 UTC<BR>
+- Updated to 2.0.0 and fixed 1 patch to apply correctly
+<LI>Description:<BR>
+Pth is a very portable POSIX/ANSI-C based library for Unix platforms which<BR>provides non-preemptive priority-based scheduling for multiple threads of<BR>execution (aka ``multithreading'') inside event-driven applications. All<BR>threads run in the same address space of the server application, but each<BR>thread has it's own individual program-counter, run-time stack, signal<BR>mask and errno variable.<BR><P><BR>The thread scheduling itself is done in a cooperative way, i.e., the<BR>threads are managed by a priority- and event-based non-preemptive<BR>scheduler. The intention is that this way one can achieve better<BR>portability and run-time performance than with preemptive scheduling. The<BR>event facility allows threads to wait until various types of events occur,<BR>including pending I/O on filedescriptors, asynchronous signals, elapsed<BR>timers, pending I/O on message ports, thread and process termination, and<BR>even customized callback functions.<BR><P><BR>Additionally Pth provides an optional emulation API for POSIX.1c threads<BR>("Pthreads") which can be used for backward compatibility to existing<BR>multithreaded applications.<BR><P><BR>Headers and Static Libraries.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             3919 Oct 30  2003 /usr/bin/pth-config
+-rwxr-xr-x    1 root    root             3743 Oct 30  2003 /usr/bin/pthread-config
+drwxr-xr-x    2 root    root                0 Oct 30  2003 /usr/doc/pth-devel-2.0.0
+-rw-r--r--    1 root    root             3766 Feb 17  2003 /usr/doc/pth-devel-2.0.0/ANNOUNCE
+-rw-r--r--    1 root    root              602 Jan  1  2003 /usr/doc/pth-devel-2.0.0/AUTHORS
+-rw-r--r--    1 root    root            26866 Jan  1  2003 /usr/doc/pth-devel-2.0.0/COPYING
+-rw-r--r--    1 root    root            98448 Feb 17  2003 /usr/doc/pth-devel-2.0.0/ChangeLog
+-rw-r--r--    1 root    root             7227 Jan  1  2003 /usr/doc/pth-devel-2.0.0/HACKING
+-rw-r--r--    1 root    root             3556 Jan  1  2003 /usr/doc/pth-devel-2.0.0/HISTORY
+-rw-r--r--    1 root    root             3973 Feb 17  2003 /usr/doc/pth-devel-2.0.0/NEWS
+-rw-r--r--    1 root    root            19245 Jan  1  2003 /usr/doc/pth-devel-2.0.0/PORTING
+-rw-r--r--    1 root    root             4058 Feb 17  2003 /usr/doc/pth-devel-2.0.0/README
+-rw-r--r--    1 root    root             2379 Jan  1  2003 /usr/doc/pth-devel-2.0.0/SUPPORT
+-rw-r--r--    1 root    root             6237 Jan  1  2003 /usr/doc/pth-devel-2.0.0/TESTS
+-rw-r--r--    1 root    root             5904 Jan  1  2003 /usr/doc/pth-devel-2.0.0/THANKS
+-rw-r--r--    1 root    root             1530 Jan  1  2003 /usr/doc/pth-devel-2.0.0/USERS
+-rw-r--r--    1 root    root            21695 Oct 30  2003 /usr/include/pth.h
+-rw-r--r--    1 root    root            20468 Oct 30  2003 /usr/include/pthread.h
+-rw-r--r--    1 root    root            61026 Oct 30  2003 /usr/lib/libpth.a
+-rwxr-xr-x    1 root    root              647 Oct 30  2003 /usr/lib/libpth.la
+-rw-r--r--    1 root    root            78942 Oct 30  2003 /usr/lib/libpthread.a
+-rwxr-xr-x    1 root    root              659 Oct 30  2003 /usr/lib/libpthread.la
+-rw-r--r--    1 root    root            16500 Oct 30  2003 /usr/share/aclocal/pth.m4
+-rw-r--r--    1 root    root             2660 Oct 30  2003 /usr/share/man/man1/pth-config.1.gz
+-rw-r--r--    1 root    root             2663 Oct 30  2003 /usr/share/man/man1/pthread-config.1.gz
+-rw-r--r--    1 root    root            34926 Oct 30  2003 /usr/share/man/man3/pth.3.gz
+-rw-r--r--    1 root    root            29225 Oct 30  2003 /usr/share/man/man3/pthread.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/pth-devel-2.0.0-1.m68kmint.rpm">Download</A></H2> (194,429 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

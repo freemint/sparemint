@@ -1,0 +1,111 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - audiofile, version 0.1.11, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>audiofile</H2>
+
+<UL> 
+<LI>Summary: Library to handle various audio file formats.<BR>
+<LI>URL: <A HREF="http://www.68k.org/~michael/audiofile/">http://www.68k.org/~michael/audiofile/</A><BR>
+<LI>Version: 0.1.11<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 336,038 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>audiofile = 0.1.11-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Dec 12 08:49:02 2000 UTC<BR>
+<LI>Upload date: Wed Dec 13 20:10:26 2000 UTC<BR>
+<LI>Packager: Edgar Aichinger (<A HREF="javascript:linkto_decode_mt('nbjmup;fbjdijohAu1/ps/bu');">eaiching(at)t0.or.at</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/audiofile-0.1.11-1.src.rpm">audiofile-0.1.11-1.src.rpm</A>  (200,256 bytes)<BR>
+<LI>Last change: Edgar Aichinger &lt;eaiching@t0.or.at&gt; Sat Dec  9 10:00:00 2000 UTC<BR>
+- new version
+<LI>Description:<BR>
+The Audio File Library provides an elegant API for accessing a variety<BR>of audio file formats, such as AIFF/AIFF-C, WAVE, and NeXT/Sun<BR>.snd/.au, in a manner independent of file and data formats.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           134592 Dec 12  2000 /usr/bin/sfconvert
+-rwxr-xr-x    1 root    root           132212 Dec 12  2000 /usr/bin/sfinfo
+drwxr-xr-x    2 root    root                0 Dec 12  2000 /usr/doc/audiofile-0.1.11
+-rw-r--r--    1 root    root            25292 May 10  1999 /usr/doc/audiofile-0.1.11/COPYING
+-rw-r--r--    1 root    root            11395 Oct  9  2000 /usr/doc/audiofile-0.1.11/ChangeLog
+-rw-r--r--    1 root    root             2141 Oct  9  2000 /usr/doc/audiofile-0.1.11/README
+-rw-r--r--    1 root    root             1099 Oct  7  2000 /usr/doc/audiofile-0.1.11/TODO
+drwxr-xr-x    2 root    root                0 Dec 12  2000 /usr/doc/audiofile-0.1.11/docs
+-rw-rw-rw-    1 root    root             4740 Dec 12  2000 /usr/doc/audiofile-0.1.11/docs/Makefile
+-rw-r--r--    1 root    root              250 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/Makefile.am
+-rw-r--r--    1 root    root             4795 Oct  9  2000 /usr/doc/audiofile-0.1.11/docs/Makefile.in
+-rw-r--r--    1 root    root              378 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afCloseFile
+-rw-r--r--    1 root    root             1292 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afGetFrameSize
+-rw-r--r--    1 root    root             1804 Apr 11  2000 /usr/doc/audiofile-0.1.11/docs/afGetTrackBytes
+-rw-r--r--    1 root    root             3475 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afIntro
+-rw-r--r--    1 root    root              538 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afNewFileSetup
+-rw-r--r--    1 root    root             1060 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afOpenFile
+-rw-r--r--    1 root    root             2128 May 20  2000 /usr/doc/audiofile-0.1.11/docs/afQuery
+-rw-r--r--    1 root    root             1066 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afReadFrames
+-rw-r--r--    1 root    root              903 Oct 18  1999 /usr/doc/audiofile-0.1.11/docs/afReadMisc
+-rw-r--r--    1 root    root             1229 Oct 18  1999 /usr/doc/audiofile-0.1.11/docs/afSeekFrame
+-rw-r--r--    1 root    root              733 Oct 18  1999 /usr/doc/audiofile-0.1.11/docs/afSetErrorHandler
+-rw-r--r--    1 root    root             2152 Oct 18  1999 /usr/doc/audiofile-0.1.11/docs/afSetVirtualByteOrder
+-rw-r--r--    1 root    root              578 Oct 12  1999 /usr/doc/audiofile-0.1.11/docs/afWriteFrames
+-rw-r--r--    1 root    root              206 Oct 26  1998 /usr/doc/audiofile-0.1.11/docs/sfconvert
+-rw-r--r--    1 root    root              252 Feb 22  1999 /usr/doc/audiofile-0.1.11/docs/sfinfo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/audiofile-0.1.11-1.m68kmint.rpm">Download</A></H2> (151,758 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,96 @@
+FreeMiNT 1.15.10, beta release
+==============================
+
+Please read this whole README from top to bottom. Doing so helps to
+avoid confusion.
+
+This is a beta version with important bugfixes compared to the official
+FreeMiNT 1.15.9 beta release. Please refer to the ChangeLog for a detailed
+list of all changes.
+
+
+Attention
+=========
+
+From the last beta release until now many things have happened. We now
+use the CVS version control system for source integrity and source
+management. That's why several things are now handled in a new way.
+
+First of all, most of the kernel modules are now part of the CVS
+tree and no longer maintained seperately. There will be no seperate
+releases of those modules in the future.
+
+The same also applies to FreeMiNT related tools that are part of the CVS
+tree.
+
+
+kernel:
+=======
+
+Here is a short summary of the most important kernel changes:
+
+- new boot menu that comes up if you hold the SHIFT key during loading
+  of the kernel
+- slightly optimized memory management
+- integrated ramdisk with much more accurate Dfree()
+- new high precision delay routines (added to kerinfo too)
+- totally new module loading routines
+- profiling support for the kernel itself
+- fix of the (f->links <= 0) problem
+- many other bugfixes
+- due to CVS, total redesign of the source tree
+  completely new Makefile framework
+  removed much redundant code from module
+
+
+modules:
+========
+
+sockets/       - MiNTNet
+  xif/         - the driver modules for MiNTNet
+  
+xdd/
+  flop_raw/    - floppy /dev/fxx driver
+  mfp/         - serial driver for mfp like in every ATARI
+  scc/         - serial driver for scc like Falcon/TT
+  uart/        - serial driver for pc16550 like in Milan
+  xconout2/    - TosWin2 console driver
+  
+xfs/
+  ext2fs/      - ext2 filesystem driver (bugfixed version)
+  minixfs/     - minix filesystem driver (bugfixed version)
+  nfs/         - network filesystem driver (heavily updated version)
+
+
+tools:
+======
+
+crypto/        - tool for the new crypto xfs layer (new)
+fsetter/       - xfs configuration tool (heavily updated)
+gluestik/      - stik emulation
+mgw/           - draconis emulation
+minix/         - minix tools (checker, initializer, config)
+mkfatfs        - FAT filesystem initalizer
+nfs/           - mount tool
+
+
+Documentation
+=============
+
+This archive doesn't include any documentation! It's only a beta
+version for testing.
+
+The complete documentation can be found in the FreeMiNT 1.15.5 archive!
+If you don't have the documentation, please download this archive and read
+it carefully. You can find it under:
+
+http://www.cs.uni-magdeburg.de/~fnaumann/
+
+freemint-1.15.5-bin.tar.gz
+freemint-1.15.5.tar.gz
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 29.10.2000

@@ -1,0 +1,102 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - dialog, version 0.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>dialog</H2>
+
+<UL> 
+<LI>Summary: A utility for creating TTY dialog boxes.<BR>
+
+<LI>Version: 0.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 183,252 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>dialog = 0.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Sep 14 12:28:26 1999 UTC<BR>
+<LI>Upload date: Tue Sep 14 12:55:04 1999 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/dialog-0.6-1.src.rpm">dialog-0.6-1.src.rpm</A>  (57,862 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Tue Sep 14 09:00:00 1999 UTC<BR>
+- initial release
+<LI>Description:<BR>
+Dialog is a utility that allows you to show dialog boxes (containing<BR>questions or messages) in TTY (text mode) interfaces.  Dialog is called<BR>from within a shell script.  The following dialog boxes are implemented:<BR>yes/no, menu, input, message, text, info, checklist, radiolist, and<BR>gauge.<BR><P><BR>Install dialog if you would like to create TTY dialog boxes.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           141994 Sep 14  1999 /usr/bin/dialog
+drwxr-xr-x    2 root    root                0 Sep 14  1999 /usr/doc/dialog-0.6
+-rw-r--r--    1 root    root            17982 Nov  7  1994 /usr/doc/dialog-0.6/COPYING
+-rw-r--r--    1 root    root             3316 Nov  7  1994 /usr/doc/dialog-0.6/INSTALL
+-rw-r--r--    1 root    root             4475 Jan 15  1995 /usr/doc/dialog-0.6/README
+-rw-r--r--    1 root    root             1084 Jan 15  1995 /usr/doc/dialog-0.6/dialog.lsm
+drwxr-xr-x    2 root    root                0 Jan 15  1995 /usr/doc/dialog-0.6/samples
+-rwxr-xr-x    1 root    root             1079 Nov  7  1994 /usr/doc/dialog-0.6/samples/checklist
+-rwxr-xr-x    1 root    root              234 Jan 15  1995 /usr/doc/dialog-0.6/samples/guage
+-rwxr-xr-x    1 root    root             3112 Nov  7  1994 /usr/doc/dialog-0.6/samples/infobox
+-rwxr-xr-x    1 root    root              692 Nov  7  1994 /usr/doc/dialog-0.6/samples/inputbox
+-rwxr-xr-x    1 root    root              938 Nov  7  1994 /usr/doc/dialog-0.6/samples/menubox
+-rwxr-xr-x    1 root    root              353 Nov  7  1994 /usr/doc/dialog-0.6/samples/msgbox
+-rwxr-xr-x    1 root    root             1087 Jan 15  1995 /usr/doc/dialog-0.6/samples/radiolist
+-rwxr-xr-x    1 root    root             1084 Nov  7  1994 /usr/doc/dialog-0.6/samples/textbox
+-rwxr-xr-x    1 root    root              761 Nov  7  1994 /usr/doc/dialog-0.6/samples/yesno
+-rw-r--r--    1 root    root             3013 Sep 14  1999 /usr/man/man1/dialog.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/dialog-0.6-1.m68kmint.rpm">Download</A></H2> (87,224 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

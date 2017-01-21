@@ -1,0 +1,251 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - neon, version 0.28.4, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>neon</H2>
+
+<UL> 
+<LI>Summary: Neon is an HTTP and WebDAV client library<BR>
+<LI>URL: <A HREF="http://www.webdav.org/neon/">http://www.webdav.org/neon/</A><BR>
+<LI>Version: 0.28.4<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System/Libraries">System/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 580,898 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>neon = 0.28.4-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Mar 11 20:39:53 2009 UTC<BR>
+<LI>Upload date: Wed May 26 16:11:28 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/neon-0.28.4-1.src.rpm">neon-0.28.4-1.src.rpm</A>  (778,888 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Wed Mar 11 22:00:00 2009 UTC<BR>
+- Updated to latest version, linking against latest OpenSSL
+<LI>Description:<BR>
+Neon is an HTTP and WebDAV client library, with a C interface. Featuring:<BR>- High-level interface to HTTP and WebDAV methods (PUT, GET, HEAD etc)<BR>- Low-level interface to HTTP request handling, to allow implementing new<BR>  methods easily.<BR>- persistent connections<BR>- RFC2617 basic and digest authentication (including auth-int, md5-sess)<BR>- Proxy support (including basic/digest authentication)<BR>- SSL/TLS support using OpenSSL (including client certificate support)<BR>- Generic WebDAV 207 XML response handling mechanism<BR>- XML parsing using the expat or libxml parsers<BR>- Easy generation of error messages from 207 error responses<BR>- WebDAV resource manipulation: MOVE, COPY, DELETE, MKCOL.<BR>- WebDAV metadata support: set and remove properties, query any set of<BR>  properties (PROPPATCH/PROPFIND).<BR>- autoconf macros supplied for easily embedding neon directly inside an<BR>  application source tree.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1823 Mar 11  2009 /usr/bin/neon-config
+drwxr-xr-x    2 root    root                0 Mar 11  2009 /usr/include/neon
+-rw-r--r--    1 root    root             4418 Mar 11  2009 /usr/include/neon/ne_207.h
+-rw-r--r--    1 root    root             1379 Mar 11  2009 /usr/include/neon/ne_acl.h
+-rw-r--r--    1 root    root             1829 Mar 11  2009 /usr/include/neon/ne_alloc.h
+-rw-r--r--    1 root    root             5075 Mar 11  2009 /usr/include/neon/ne_auth.h
+-rw-r--r--    1 root    root             6148 Mar 11  2009 /usr/include/neon/ne_basic.h
+-rw-r--r--    1 root    root             1746 Mar 11  2009 /usr/include/neon/ne_compress.h
+-rw-r--r--    1 root    root             1646 Mar 11  2009 /usr/include/neon/ne_dates.h
+-rw-r--r--    1 root    root             1808 Mar 11  2009 /usr/include/neon/ne_defs.h
+-rw-r--r--    1 root    root             2008 Mar 11  2009 /usr/include/neon/ne_i18n.h
+-rw-r--r--    1 root    root             6325 Mar 11  2009 /usr/include/neon/ne_locks.h
+-rw-r--r--    1 root    root             3920 Mar 11  2009 /usr/include/neon/ne_md5.h
+-rw-r--r--    1 root    root             4812 Mar 11  2009 /usr/include/neon/ne_pkcs11.h
+-rw-r--r--    1 root    root            10005 Mar 11  2009 /usr/include/neon/ne_props.h
+-rw-r--r--    1 root    root             1515 Mar 11  2009 /usr/include/neon/ne_redirect.h
+-rw-r--r--    1 root    root            14411 Mar 11  2009 /usr/include/neon/ne_request.h
+-rw-r--r--    1 root    root            12641 Mar 11  2009 /usr/include/neon/ne_session.h
+-rw-r--r--    1 root    root             9519 Mar 11  2009 /usr/include/neon/ne_socket.h
+-rw-r--r--    1 root    root             7716 Mar 11  2009 /usr/include/neon/ne_ssl.h
+-rw-r--r--    1 root    root             7006 Mar 11  2009 /usr/include/neon/ne_string.h
+-rw-r--r--    1 root    root             3905 Mar 11  2009 /usr/include/neon/ne_uri.h
+-rw-r--r--    1 root    root             4102 Mar 11  2009 /usr/include/neon/ne_utils.h
+-rw-r--r--    1 root    root             6806 Mar 11  2009 /usr/include/neon/ne_xml.h
+-rw-r--r--    1 root    root             1973 Mar 11  2009 /usr/include/neon/ne_xmlreq.h
+-rw-r--r--    1 root    root           135312 Mar 11  2009 /usr/lib/libneon.a
+-rwxr-xr-x    1 root    root              970 Mar 11  2009 /usr/lib/libneon.la
+-rw-r--r--    1 root    root              286 Mar 11  2009 /usr/lib/pkgconfig/neon.pc
+drwxr-xr-x    2 root    root                0 Mar 11  2009 /usr/share/doc/neon-0.28.4/html
+-rw-r--r--    1 root    root             2518 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/api.html
+-rw-r--r--    1 root    root             4696 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/biblio.html
+-rw-r--r--    1 root    root             5139 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/compliance.html
+-rw-r--r--    1 root    root             4184 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/features.html
+-rw-r--r--    1 root    root            10294 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/index.html
+-rw-r--r--    1 root    root             2982 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/intro.html
+-rw-r--r--    1 root    root             7404 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/ref.html
+-rw-r--r--    1 root    root             4950 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refalloc.html
+-rw-r--r--    1 root    root             5956 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refauth.html
+-rw-r--r--    1 root    root             3551 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refbuf.html
+-rw-r--r--    1 root    root             5079 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refbufapp.html
+-rw-r--r--    1 root    root             3326 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refbufcr.html
+-rw-r--r--    1 root    root             4028 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refbufdest.html
+-rw-r--r--    1 root    root             3905 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refbufutil.html
+-rw-r--r--    1 root    root             5866 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refcert.html
+-rw-r--r--    1 root    root             7954 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refclicert.html
+-rw-r--r--    1 root    root             5158 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refconfig.html
+-rw-r--r--    1 root    root             4325 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/referr.html
+-rw-r--r--    1 root    root             4076 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/reffeat.html
+-rw-r--r--    1 root    root             3409 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refgetst.html
+-rw-r--r--    1 root    root             3787 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refi18n.html
+-rw-r--r--    1 root    root             6358 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refiaddr.html
+-rw-r--r--    1 root    root            11739 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refneon.html
+-rw-r--r--    1 root    root             6237 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refopts.html
+-rw-r--r--    1 root    root             8669 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refreq.html
+-rw-r--r--    1 root    root             4370 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refreqbody.html
+-rw-r--r--    1 root    root             4098 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refreqflags.html
+-rw-r--r--    1 root    root             3793 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refreqhdr.html
+-rw-r--r--    1 root    root             7447 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refresolve.html
+-rw-r--r--    1 root    root             5245 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refresphdr.html
+-rw-r--r--    1 root    root             7213 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsess.html
+-rw-r--r--    1 root    root             4880 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsessflags.html
+-rw-r--r--    1 root    root             2894 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refshave.html
+-rw-r--r--    1 root    root             6645 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsockinit.html
+-rw-r--r--    1 root    root             3977 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsslca.html
+-rw-r--r--    1 root    root             3079 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsslcert2.html
+-rw-r--r--    1 root    root             5592 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsslcertio.html
+-rw-r--r--    1 root    root             3860 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refssldname.html
+-rw-r--r--    1 root    root             7194 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refsslvfy.html
+-rw-r--r--    1 root    root             4060 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refstatus.html
+-rw-r--r--    1 root    root             4033 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/reftok.html
+-rw-r--r--    1 root    root             3377 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refvers.html
+-rw-r--r--    1 root    root             3033 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/refxml.html
+-rw-r--r--    1 root    root             4770 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/using.html
+-rw-r--r--    1 root    root            10824 Mar 11  2009 /usr/share/doc/neon-0.28.4/html/xml.html
+-rw-r--r--    1 root    root             2133 Mar 11  2009 /usr/share/man/man1/neon-config.1.gz
+-rw-r--r--    1 root    root             1670 Mar 11  2009 /usr/share/man/man3/ne_add_request_header.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_addr_destroy.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_addr_error.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_addr_first.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_addr_next.3.gz
+-rw-r--r--    1 root    root             2502 Mar 11  2009 /usr/share/man/man3/ne_addr_resolve.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_addr_result.3.gz
+-rw-r--r--    1 root    root             1789 Mar 11  2009 /usr/share/man/man3/ne_buffer.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_buffer_altered.3.gz
+-rw-r--r--    1 root    root             1968 Mar 11  2009 /usr/share/man/man3/ne_buffer_append.3.gz
+-rw-r--r--    1 root    root             1734 Mar 11  2009 /usr/share/man/man3/ne_buffer_clear.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_buffer_concat.3.gz
+-rw-r--r--    1 root    root             1660 Mar 11  2009 /usr/share/man/man3/ne_buffer_create.3.gz
+-rw-r--r--    1 root    root             1848 Mar 11  2009 /usr/share/man/man3/ne_buffer_destroy.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_buffer_finish.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_buffer_grow.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_buffer_ncreate.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_buffer_zappend.3.gz
+-rw-r--r--    1 root    root               41 Mar 11  2009 /usr/share/man/man3/ne_calloc.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_close_connection.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_forget_auth.3.gz
+-rw-r--r--    1 root    root             2013 Mar 11  2009 /usr/share/man/man3/ne_get_error.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_get_request_flag.3.gz
+-rw-r--r--    1 root    root             2123 Mar 11  2009 /usr/share/man/man3/ne_get_response_header.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_get_scheme.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_get_server_hostport.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_get_session_flag.3.gz
+-rw-r--r--    1 root    root             1835 Mar 11  2009 /usr/share/man/man3/ne_get_status.3.gz
+-rw-r--r--    1 root    root             1753 Mar 11  2009 /usr/share/man/man3/ne_has_support.3.gz
+-rw-r--r--    1 root    root             1992 Mar 11  2009 /usr/share/man/man3/ne_i18n_init.3.gz
+-rw-r--r--    1 root    root               45 Mar 11  2009 /usr/share/man/man3/ne_iaddr_cmp.3.gz
+-rw-r--r--    1 root    root               45 Mar 11  2009 /usr/share/man/man3/ne_iaddr_free.3.gz
+-rw-r--r--    1 root    root             2308 Mar 11  2009 /usr/share/man/man3/ne_iaddr_make.3.gz
+-rw-r--r--    1 root    root               45 Mar 11  2009 /usr/share/man/man3/ne_iaddr_print.3.gz
+-rw-r--r--    1 root    root               45 Mar 11  2009 /usr/share/man/man3/ne_iaddr_typeof.3.gz
+-rw-r--r--    1 root    root             1850 Mar 11  2009 /usr/share/man/man3/ne_malloc.3.gz
+-rw-r--r--    1 root    root               41 Mar 11  2009 /usr/share/man/man3/ne_oom_callback.3.gz
+-rw-r--r--    1 root    root               53 Mar 11  2009 /usr/share/man/man3/ne_print_request_header.3.gz
+-rw-r--r--    1 root    root               40 Mar 11  2009 /usr/share/man/man3/ne_qtoken.3.gz
+-rw-r--r--    1 root    root               41 Mar 11  2009 /usr/share/man/man3/ne_realloc.3.gz
+-rw-r--r--    1 root    root             2860 Mar 11  2009 /usr/share/man/man3/ne_request_create.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_request_destroy.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_request_dispatch.3.gz
+-rw-r--r--    1 root    root               54 Mar 11  2009 /usr/share/man/man3/ne_response_header_iterate.3.gz
+-rw-r--r--    1 root    root             2562 Mar 11  2009 /usr/share/man/man3/ne_session_create.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_session_destroy.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_session_proxy.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_set_connect_timeout.3.gz
+-rw-r--r--    1 root    root               44 Mar 11  2009 /usr/share/man/man3/ne_set_error.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_set_proxy_auth.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_set_read_timeout.3.gz
+-rw-r--r--    1 root    root             1877 Mar 11  2009 /usr/share/man/man3/ne_set_request_body_buffer.3.gz
+-rw-r--r--    1 root    root               58 Mar 11  2009 /usr/share/man/man3/ne_set_request_body_fd.3.gz
+-rw-r--r--    1 root    root               58 Mar 11  2009 /usr/share/man/man3/ne_set_request_body_fd64.3.gz
+-rw-r--r--    1 root    root             1789 Mar 11  2009 /usr/share/man/man3/ne_set_request_flag.3.gz
+-rw-r--r--    1 root    root             2307 Mar 11  2009 /usr/share/man/man3/ne_set_server_auth.3.gz
+-rw-r--r--    1 root    root             1962 Mar 11  2009 /usr/share/man/man3/ne_set_session_flag.3.gz
+-rw-r--r--    1 root    root             2325 Mar 11  2009 /usr/share/man/man3/ne_set_useragent.3.gz
+-rw-r--r--    1 root    root             1655 Mar 11  2009 /usr/share/man/man3/ne_shave.3.gz
+-rw-r--r--    1 root    root               44 Mar 11  2009 /usr/share/man/man3/ne_sock_exit.3.gz
+-rw-r--r--    1 root    root             2605 Mar 11  2009 /usr/share/man/man3/ne_sock_init.3.gz
+-rw-r--r--    1 root    root             1604 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_cmp.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_export.3.gz
+-rw-r--r--    1 root    root               47 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_free.3.gz
+-rw-r--r--    1 root    root             2132 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_identity.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_import.3.gz
+-rw-r--r--    1 root    root               52 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_issuer.3.gz
+-rw-r--r--    1 root    root             2001 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_read.3.gz
+-rw-r--r--    1 root    root               52 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_signedby.3.gz
+-rw-r--r--    1 root    root               52 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_subject.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_ssl_cert_write.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_decrypt.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_encrypted.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_free.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_name.3.gz
+-rw-r--r--    1 root    root               51 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_owner.3.gz
+-rw-r--r--    1 root    root             2514 Mar 11  2009 /usr/share/man/man3/ne_ssl_clicert_read.3.gz
+-rw-r--r--    1 root    root               53 Mar 11  2009 /usr/share/man/man3/ne_ssl_dname_cmp.3.gz
+-rw-r--r--    1 root    root             1736 Mar 11  2009 /usr/share/man/man3/ne_ssl_readable_dname.3.gz
+-rw-r--r--    1 root    root             2707 Mar 11  2009 /usr/share/man/man3/ne_ssl_set_verify.3.gz
+-rw-r--r--    1 root    root             1878 Mar 11  2009 /usr/share/man/man3/ne_ssl_trust_cert.3.gz
+-rw-r--r--    1 root    root               49 Mar 11  2009 /usr/share/man/man3/ne_ssl_trust_default_ca.3.gz
+-rw-r--r--    1 root    root             1916 Mar 11  2009 /usr/share/man/man3/ne_status.3.gz
+-rw-r--r--    1 root    root               41 Mar 11  2009 /usr/share/man/man3/ne_strdup.3.gz
+-rw-r--r--    1 root    root               41 Mar 11  2009 /usr/share/man/man3/ne_strndup.3.gz
+-rw-r--r--    1 root    root             1925 Mar 11  2009 /usr/share/man/man3/ne_token.3.gz
+-rw-r--r--    1 root    root             1742 Mar 11  2009 /usr/share/man/man3/ne_version_match.3.gz
+-rw-r--r--    1 root    root               48 Mar 11  2009 /usr/share/man/man3/ne_version_string.3.gz
+-rw-r--r--    1 root    root             1593 Mar 11  2009 /usr/share/man/man3/ne_xml_create.3.gz
+-rw-r--r--    1 root    root               45 Mar 11  2009 /usr/share/man/man3/ne_xml_destroy.3.gz
+-rw-r--r--    1 root    root             4072 Mar 11  2009 /usr/share/man/man3/neon.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/neon-0.28.4-1.m68kmint.rpm">Download</A></H2> (218,860 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

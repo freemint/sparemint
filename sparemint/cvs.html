@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html><head><title>SpareMiNT and the FreeMiNT Software Archive - CVS
+Repository Information</title>
+
+<link rel="stylesheet" href="sparemint.css" type="text/css">
+<style type="text/css">
+H2 { text-align: center; }
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!--
+function decode_mt(s) { //
+var n=0;
+var r="";
+for(var i=0; i < s.length; i++) {
+n=s.charCodeAt(i);
+if (n>=8364) {n = 128;}
+r += String.fromCharCode(n-(1));
+}
+return r;
+}
+function linkto_decode_mt(s) { //
+location.href=decode_mt(s);
+}
+// -->
+/*]]>*/
+</script>
+</head>
+
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="html/images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="index.html">Home</a><img src="html/images/leaf-bullet.gif"> <a href="info.html">Information</a> <img src="html/images/leaf-bullet.gif"> <a href="NEWS.html">News</a>
+<img src="html/images/leaf-bullet.gif"> <a href="development.html">Development</a> <img src="html/images/leaf-bullet.gif"> <a href="download.html">Download</a>
+<img src="html/images/leaf-bullet.gif"> <a href="mirrors.html">Mirrors</a></h4>
+<br>
+&nbsp;<br>
+<table bgcolor="#98FB98" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td valign="middle"><span style="font-weight: bold;">&nbsp;FreeMiNT - a project
+maintained via CVS</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="white"><br>
+The FreeMiNT Development Community uses the CVS version control system
+for the source management.<br>
+<p>
+If you are new to CVS take a look into a very good
+<a href="http://www.cvshome.org/docs/blandy"> CVS
+introduction</a>
+or read in the <a href="http://cvsbook.red-bean.com/">CVS
+online manual</a>.
+</p>
+<hr>
+<p>The FreeMiNT CVS server has moved. The old location on
+216.240.173.22
+is no longer valid. Please use the new CVS server on
+sparemint.org
+(see below for exact instructions how to login and checkout).
+</p>
+<p>Delete your old working copy and checkout a new one from
+the new server.
+Alternativly you can relocate an existing working to the new server
+location with the following shell script:
+</p>
+<div class="fragment">
+<pre>find . -path "*/CVS/Root" | while read f; do<br> echo :pserver:cvsanon@sparemint.org:/mint &gt; $f<br>done<br></pre>
+</div>
+<hr>
+You can browse with your prefered browser the CVS tree online:
+<center>
+<h3><a href="/cgi-bin/cvsweb/">FreeMiNT CVS
+Repository</a></h3>
+</center>
+<br>
+With anonymous CVS access you can get or update the current FreeMiNT
+branch,
+or you can trace down any change or checkout old versions of any file.
+<p>If you would like to help develop FreeMiNT, you can get
+write access to the CVS repository
+and then you are able to commit changes directly to the current
+FreeMiNT branch.
+</p>
+<p>How to access the CVS repository:
+</p>
+<ul>
+<li>You need a computer with an installed
+<a href="html/packages/cvs.html">cvs</a>
+version
+</li>
+<li>You need online internet access to the FreeMiNT CVS
+server
+</li>
+</ul>
+<p>
+The CVS server is accessed through the "pserver" method. Best take a
+look into the
+<a href="http://cvsbook.red-bean.com/">CVS online
+manual</a> for more informations.
+</p>
+<p>Now open a shell and type:
+</p>
+<div class="fragment">
+<pre>&gt; export CVSROOT=:pserver:cvsanon@sparemint.org:/mint<br>&gt; cvs login<br>(Logging in to cvsanon@sparemint.org)<br>CVS password: <br></pre>
+</div>
+Now type 'cvsanon' as password. If all is ok you get a prompt without
+any
+additional message. If something goes wrong you get an error message.
+<p>Now you can checkout a working copy of the current
+FreeMiNT branch with:
+</p>
+<div class="fragment">
+<pre>&gt; cvs checkout freemint<br></pre>
+</div>
+or update an older working copy with:
+<div class="fragment">
+<pre>&gt; cvs update -d -P<br></pre>
+</div>
+If you want to checkout the 1.15 branch just type:
+<div class="fragment">
+<pre>&gt; cvs co -r branch-1_15 -d branch-1.15 freemint<br></pre>
+</div>
+<br>
+<br>
+<b>For more informations please look first at the
+<a href="http://cvsbook.red-bean.com/">CVS online
+manual</a>.</b>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<small>Copyright © 2003 <a href="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">
+Frank Naumann</a>. All rights reserved.&nbsp;
+</small>
+</body></html>

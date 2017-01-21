@@ -1,0 +1,262 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - smail, version 3.2.0.101, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>smail</H2>
+
+<UL> 
+<LI>Summary: smail mail transport agent<BR>
+
+<LI>Version: 3.2.0.101<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Daemons">Daemons</A>
+<LI>License: GPL-like</BR>
+<LI>Installation size: 942,605 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>smtpdaemon  <BR>
+  <LI>smail = 3.2.0.101-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>gzip  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>qmail  <BR>
+  <LI>sendmail  <BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Sun Aug  8 04:40:18 1999 UTC<BR>
+<LI>Upload date: Thu Aug 12 08:15:20 1999 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/smail-3.2.0.101-1.src.rpm">smail-3.2.0.101-1.src.rpm</A>  (844,335 bytes)<BR>
+
+<LI>Description:<BR>
+smail is an alternative mail transport agent, easy to configure and<BR>with flexible routing especially in uucp networks.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    wheel              15 Aug  8  1999 /bin/rmail
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /etc/cron.daily
+-rwxr-xr-x    1 root    wheel              30 Aug  8  1999 /etc/cron.daily/smail
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /etc/logrotate.d
+-rw-r--r--    1 root    wheel              97 Aug  8  1999 /etc/logrotate.d/smail
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101
+-rw-r--r--    1 root    wheel            7441 Jun 14  1996 /usr/doc/smail-3.2.0.101/COPYING
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/NOTES
+-rw-r--r--    1 root    wheel            9436 Mar  5  1996 /usr/doc/smail-3.2.0.101/NOTES/ESMTP
+-rw-r--r--    1 root    wheel            1392 Mar  5  1996 /usr/doc/smail-3.2.0.101/NOTES/ESMTP.hdr
+-rw-r--r--    1 root    wheel            2571 Aug  7  1997 /usr/doc/smail-3.2.0.101/NOTES/HP-UX-10.x
+-rw-r--r--    1 root    wheel            1883 Mar  5  1996 /usr/doc/smail-3.2.0.101/NOTES/IANA
+-rw-r--r--    1 root    wheel             678 Nov 12  1996 /usr/doc/smail-3.2.0.101/NOTES/Makefile
+-rw-r--r--    1 root    wheel             575 Mar  5  1996 /usr/doc/smail-3.2.0.101/NOTES/Other
+-rw-r--r--    1 root    wheel             320 Mar  5  1996 /usr/doc/smail-3.2.0.101/NOTES/RFC1413
+-rw-r--r--    1 root    wheel            3738 Oct 18  1994 /usr/doc/smail-3.2.0.101/NOTES/SIMPLE.DOMAIN
+-rw-r--r--    1 root    wheel            2957 Oct 18  1994 /usr/doc/smail-3.2.0.101/NOTES/SMART-HOST
+-rw-r--r--    1 root    wheel             497 Feb  9  1997 /usr/doc/smail-3.2.0.101/PROJECTS
+-rw-r--r--    1 root    wheel           11372 Oct 18  1997 /usr/doc/smail-3.2.0.101/README
+-rw-r--r--    1 root    wheel            3126 Aug  3  1999 /usr/doc/smail-3.2.0.101/README-MiNT
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/guide
+-rw-r--r--    1 root    wheel             934 Nov 12  1996 /usr/doc/smail-3.2.0.101/guide/Makefile
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/guide/admin
+-rw-r--r--    1 root    wheel             711 Nov 12  1996 /usr/doc/smail-3.2.0.101/guide/admin/Makefile
+-rw-r--r--    1 root    wheel            1254 May 23  1997 /usr/doc/smail-3.2.0.101/guide/admin/README
+-rw-r--r--    1 root    wheel           31365 Oct 26  1994 /usr/doc/smail-3.2.0.101/guide/admin/config
+-rw-r--r--    1 root    wheel           14749 Nov 15  1991 /usr/doc/smail-3.2.0.101/guide/admin/cookbook
+-rw-r--r--    1 root    wheel           22114 Oct 26  1994 /usr/doc/smail-3.2.0.101/guide/admin/install
+-rw-r--r--    1 root    wheel            3596 Oct 24  1990 /usr/doc/smail-3.2.0.101/guide/admin/intro
+-rw-r--r--    1 root    wheel            9384 Oct 24  1990 /usr/doc/smail-3.2.0.101/guide/admin/utilities
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support
+-rw-r--r--    1 root    wheel            4450 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/AUX-README
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/conf
+-rw-r--r--    1 root    wheel            3255 Nov 20  1996 /usr/doc/smail-3.2.0.101/samples/AUX-support/conf/EDITME
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/guide
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/guide/admin
+-rw-r--r--    1 root    wheel             896 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/AUX-support/guide/admin/Makefile
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/man
+-rw-r--r--    1 root    wheel            1408 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/auxman
+-rw-r--r--    1 root    wheel             621 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/linkman
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man1
+-rw-r--r--    1 root    wheel            3000 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man1/Makefile
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man5
+-rw-r--r--    1 root    wheel            2788 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man5/Makefile
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man8
+-rw-r--r--    1 root    wheel            3560 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/man8/Makefile
+-rw-r--r--    1 root    wheel             381 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/man/rmvman
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/AUX-support/rbd
+-rw-r--r--    1 root    wheel            2025 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/rbd/config
+-rw-r--r--    1 root    wheel            1293 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/rbd/mkpath.conf
+-rw-r--r--    1 root    wheel            2658 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/AUX-support/rbd/procmaps
+-rw-r--r--    1 root    wheel            1741 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/Makefile
+-rw-r--r--    1 root    wheel             823 Jun 14  1996 /usr/doc/smail-3.2.0.101/samples/README
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/arcnet
+-rw-r--r--    1 root    wheel             686 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/arcnet/README
+-rw-r--r--    1 root    wheel            1593 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/arcnet/recvd.sh
+-rw-r--r--    1 root    wheel            1358 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/arcnet/send.sh
+-rw-r--r--    1 root    wheel             792 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/arcnet/transports
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite
+-rw-r--r--    1 root    wheel            3976 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/README
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw
+-rw-r--r--    1 root    wheel            1675 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/README
+-rw-r--r--    1 root    wheel             538 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/aliases
+-rw-r--r--    1 root    wheel            1084 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/config
+-rw-r--r--    1 root    wheel            7236 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/directors
+-rw-r--r--    1 root    wheel             440 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/forward
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists
+-rw-r--r--    1 root    wheel             618 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists/foo
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists/owner
+-rw-r--r--    1 root    wheel             200 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists/owner/foo
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists/request
+-rw-r--r--    1 root    wheel             216 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/lists/request/foo
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps
+-rw-r--r--    1 root    wheel            4598 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/Makefile
+-rw-r--r--    1 root    wheel            9174 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/README
+-rw-r--r--    1 root    wheel             179 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/domain.conf
+-rw-r--r--    1 root    wheel            1235 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/domain.map
+-rw-r--r--    1 root    wheel            1704 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/force
+-rw-r--r--    1 root    wheel            1190 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/private.map
+-rw-r--r--    1 root    wheel            1758 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/tweak.map
+-rw-r--r--    1 root    wheel             149 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/uuname.sed
+-rw-r--r--    1 root    wheel             401 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/world.conf
+-rw-r--r--    1 root    wheel            1265 Oct 18  1994 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/maps/world.map
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/methods
+-rw-r--r--    1 root    wheel             407 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/methods/table
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/news
+-rw-r--r--    1 root    wheel            2056 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/news/Makefile
+-rw-r--r--    1 root    wheel             782 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/news/cron.daily
+-rw-r--r--    1 root    wheel             534 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/news/crontab
+-rw-r--r--    1 root    wheel             396 Jul 11  1992 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/news/sys
+-rw-r--r--    1 root    wheel            3533 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/routers
+-rw-r--r--    1 root    wheel            4569 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/bargw/transports
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/others
+-rw-r--r--    1 root    wheel            1180 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/others/config
+-rw-r--r--    1 root    wheel            5729 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/others/directors
+-rw-r--r--    1 root    wheel            1188 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/others/routers
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bigsite/workstns
+-rw-r--r--    1 root    wheel             227 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/workstns/README
+-rw-r--r--    1 root    wheel             771 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/workstns/config
+-rw-r--r--    1 root    wheel            4709 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/workstns/directors
+-rw-r--r--    1 root    wheel            1526 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/bigsite/workstns/routers
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/bsmtp
+-rw-r--r--    1 root    wheel            1109 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/bsmtp/batchsmtp.sh
+-rw-r--r--    1 root    wheel            1164 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/bsmtp/cbsmtp.sh
+-rw-r--r--    1 root    wheel             280 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/bsmtp/rcsmtp.sh
+-rw-r--r--    1 root    wheel             573 Jan 13  1991 /usr/doc/smail-3.2.0.101/samples/bsmtp/transports
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/generic
+-rw-r--r--    1 root    wheel             700 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/generic/Makefile
+-rw-r--r--    1 root    wheel             871 Oct 20  1991 /usr/doc/smail-3.2.0.101/samples/generic/README
+-rw-r--r--    1 root    wheel            2910 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/generic/config
+-rw-r--r--    1 root    wheel            5022 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/generic/directors
+-rw-r--r--    1 root    wheel            4806 Aug  8  1992 /usr/doc/smail-3.2.0.101/samples/generic/routers
+-rw-r--r--    1 root    wheel           20608 Sep  5  1992 /usr/doc/smail-3.2.0.101/samples/generic/transports
+drwxr-sr-x    2 root    wheel               0 Aug  8  1999 /usr/doc/smail-3.2.0.101/samples/queryprog
+-rw-r--r--    1 root    wheel             681 Nov 12  1996 /usr/doc/smail-3.2.0.101/samples/queryprog/Makefile
+-rw-r--r--    1 root    wheel             963 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/queryprog/query.sh
+-rw-r--r--    1 root    wheel             538 Oct 24  1990 /usr/doc/smail-3.2.0.101/samples/queryprog/routers
+?rwxrwxrwx    1 root    wheel              15 Aug  8  1999 /usr/lib/sendmail
+-rw-r--r--    1 root    wheel            4320 Aug  3  1999 /usr/lib/smail/config
+-r--r--r--    1 root    wheel            5033 Mar 22  1997 /usr/lib/smail/directors
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/lib/smail/lists
+-rw-r--r--    1 root    wheel            2312 Mar 22  1997 /usr/lib/smail/lists/README
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/lib/smail/lists/owner
+-rw-r--r--    1 root    wheel            1301 Mar 22  1997 /usr/lib/smail/lists/owner/README
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/lib/smail/lists/request
+-rw-r--r--    1 root    wheel             733 Mar 22  1997 /usr/lib/smail/lists/request/README
+-rw-r--r--    1 root    wheel             199 Mar 22  1997 /usr/lib/smail/methods/uucp
+-rw-r--r--    1 root    wheel               0 Mar 22  1997 /usr/lib/smail/paths
+-rw-r--r--    1 root    wheel            5263 Aug  3  1999 /usr/lib/smail/routers
+-rw-r--r--    1 root    wheel            3090 Mar 22  1997 /usr/lib/smail/transports
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/man
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/man/man1
+-rw-r--r--    1 root    wheel            2720 Aug  8  1999 /usr/man/man1/pathto.1.gz
+-rw-r--r--    1 root    wheel              47 Aug  8  1999 /usr/man/man1/uupath.1.gz
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/man/man5
+-rw-r--r--    1 root    wheel            9125 Aug  8  1999 /usr/man/man5/smail.5.gz
+-rw-r--r--    1 root    wheel           14382 Aug  8  1999 /usr/man/man5/smailconf.5.gz
+-rw-r--r--    1 root    wheel           11816 Aug  8  1999 /usr/man/man5/smaildrct.5.gz
+-rw-r--r--    1 root    wheel            2780 Aug  8  1999 /usr/man/man5/smailmeth.5.gz
+-rw-r--r--    1 root    wheel            2341 Aug  8  1999 /usr/man/man5/smailqual.5.gz
+-rw-r--r--    1 root    wheel           15970 Aug  8  1999 /usr/man/man5/smailrtrs.5.gz
+-rw-r--r--    1 root    wheel            2555 Aug  8  1999 /usr/man/man5/smailrtry.5.gz
+-rw-r--r--    1 root    wheel           13438 Aug  8  1999 /usr/man/man5/smailtrns.5.gz
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/man/man8
+-rw-r--r--    1 root    wheel            1800 Aug  8  1999 /usr/man/man8/checkerr.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/mailq.8.gz
+-rw-r--r--    1 root    wheel            1242 Aug  8  1999 /usr/man/man8/mkaliases.8.gz
+-rw-r--r--    1 root    wheel            1857 Aug  8  1999 /usr/man/man8/mkdbm.8.gz
+-rw-r--r--    1 root    wheel            1200 Aug  8  1999 /usr/man/man8/mksort.8.gz
+-rw-r--r--    1 root    wheel            5198 Aug  8  1999 /usr/man/man8/pathalias.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/rmail.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/rsmtp.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/runq.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/sendmail.8.gz
+-rw-r--r--    1 root    wheel            8911 Aug  8  1999 /usr/man/man8/smail.8.gz
+-rw-r--r--    1 root    wheel              46 Aug  8  1999 /usr/man/man8/smtpd.8.gz
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /usr/sbin
+-rwxr-xr-x    1 root    wheel            2775 Aug  8  1999 /usr/sbin/batchcsmtp
+-rwxrwxrwx    1 root    wheel            4957 Aug  8  1999 /usr/sbin/checkerr
+-rwxrwxrwx    1 root    wheel           27927 Aug  8  1999 /usr/sbin/dcasehost
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/mailq
+-rwxrwxrwx    1 root    wheel            2312 Aug  8  1999 /usr/sbin/mkaliases
+-rwxrwxrwx    1 root    wheel           79782 Aug  8  1999 /usr/sbin/mkdbm
+-rwxrwxrwx    1 root    wheel           58795 Aug  8  1999 /usr/sbin/mksort
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/pathto
+-rwxr-xr-x    1 root    wheel              56 Aug  8  1999 /usr/sbin/rcsmtp
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/rmail
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/rsmtp
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/runq
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/sendmail
+-r-sr-xr-x    1 root    wheel          363582 Aug  8  1999 /usr/sbin/smail
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/smtpd
+?rwxrwxrwx    1 root    wheel               5 Aug  8  1999 /usr/sbin/uupath
+drwxr-xr-x    2 root    wheel               0 Aug  8  1999 /var/spool/smail
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/smail-3.2.0.101-1.m68kmint.rpm">Download</A></H2> (466,994 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

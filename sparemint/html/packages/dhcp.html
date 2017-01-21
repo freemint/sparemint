@@ -1,0 +1,106 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - dhcp, version 3.1.ESV, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>dhcp</H2>
+
+<UL> 
+<LI>Summary: A DHCP (Dynamic Host Configuration Protocol) server and relay agent.<BR>
+<LI>URL: <A HREF="http://isc.org/products/DHCP/">http://isc.org/products/DHCP/</A><BR>
+<LI>Version: 3.1.ESV<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 2,518,107 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>dhcp = 3.1.ESV-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/chkconfig  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Dec  8 18:19:37 2012 UTC<BR>
+<LI>Upload date: Sat Dec 15 21:03:08 2012 UTC<BR>
+<LI>Packager: <A HREF="http://phoenix.inf.upol.cz/~opichals/">Standa Opichal</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;pqjdibmtAtf{obn/d{');">opichals(at)seznam.cz</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/dhcp-3.1.ESV-1.src.rpm">dhcp-3.1.ESV-1.src.rpm</A>  (817,566 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;makehr@ndh.net&gt; Sat Jun 30 11:00:00 2007 UTC<BR>
+- added DHCP client startup script for Sparemint
+<LI>Description:<BR>
+DHCP (Dynamic Host Configuration Protocol) is a protocol which allows<BR>individual devices on an IP network to get their own network<BR>configuration information (IP address, subnetmask, broadcast address,<BR>etc.) from a DHCP server. The overall purpose of DHCP is to make it<BR>easier to administer a large network.  The dhcp package includes the<BR>ISC DHCP service and relay agent.<BR><P><BR>To use DHCP on your network, install a DHCP service (or relay agent),<BR>and on clients run a DHCP client daemon.  The dhcp package provides<BR>the ISC DHCP service and relay agent.<BR><P><BR>The -macnb version of the DHCP server has experimental support for Macintosh<BR>netboot clients.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1238 Dec  8  2012 /etc/rc.d/init.d/dhcpd
+-rwxr-xr-x    1 root    root             1447 Dec  8  2012 /etc/rc.d/init.d/dhcrelay
+-rw-r--r--    1 root    root               39 Dec  8  2012 /etc/sysconfig/dhcpd
+-rw-r--r--    1 root    root               57 Dec  8  2012 /etc/sysconfig/dhcrelay
+-rwxr-xr-x    1 root    root           771969 Dec  8  2012 /usr/bin/omshell
+drwxr-xr-x    2 root    root                0 Dec  8  2012 /usr/doc/dhcp-3.1.ESV
+-rw-r--r--    1 root    root            25885 Mar 17  2010 /usr/doc/dhcp-3.1.ESV/README
+-rw-r--r--    1 root    root            92389 Mar 19  2010 /usr/doc/dhcp-3.1.ESV/RELNOTES
+-rw-r--r--    1 root    root              852 Dec  8  2012 /usr/doc/dhcp-3.1.ESV/dhcpd.conf.sample
+-rwxr-xr-x    1 root    root             4126 Dec  8  2012 /usr/man/man1/omshell.1.gz
+-rwxr-xr-x    1 root    root             7592 Dec  8  2012 /usr/man/man5/dhcp-eval.5.gz
+-rwxr-xr-x    1 root    root            18690 Dec  8  2012 /usr/man/man5/dhcp-options.5.gz
+-rwxr-xr-x    1 root    root            39181 Dec  8  2012 /usr/man/man5/dhcpd.conf.5.gz
+-rwxr-xr-x    1 root    root             5296 Dec  8  2012 /usr/man/man5/dhcpd.leases.5.gz
+-rwxr-xr-x    1 root    root             9915 Dec  8  2012 /usr/man/man8/dhcpd.8.gz
+-rwxr-xr-x    1 root    root             3437 Dec  8  2012 /usr/man/man8/dhcrelay.8.gz
+-rwxr-xr-x    1 root    root          1019817 Dec  8  2012 /usr/sbin/dhcpd
+-rwxr-xr-x    1 root    root           514129 Dec  8  2012 /usr/sbin/dhcrelay
+drwxr-xr-x    2 root    root                0 Dec  8  2012 /usr/var/lib/dhcp
+-rw-rw-r--    1 root    root                0 Dec  8  2012 /usr/var/lib/dhcp/dhcpd.leases
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/dhcp-3.1.ESV-1.m68kmint.rpm">Download</A></H2> (1,199,609 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Feb 16 19:06:08 2015 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

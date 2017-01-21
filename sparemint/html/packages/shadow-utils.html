@@ -1,0 +1,219 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - shadow-utils, version 20000902, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>shadow-utils</H2>
+
+<UL> 
+<LI>Summary: Shadow password file utilities for MiNT<BR>
+
+<LI>Version: 20000902<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 5,694,614 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>shadow-utils = 20000902-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>sh-utils >= 2.0.11<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Sep 11 22:09:55 2001 UTC<BR>
+<LI>Upload date: Wed Sep 12 11:27:38 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/shadow-utils-20000902-1.src.rpm">shadow-utils-20000902-1.src.rpm</A>  (755,161 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Thu Sep  6 09:00:00 2001 UTC<BR>
+- updated to 20000902
+<LI>Description:<BR>
+This package includes the programs necessary to convert traditional<BR>V7 UNIX password files to the SVR4 shadow password format and additional<BR>tools to work with shadow passwords.  Even if you don't want to enable<BR>shadow passwords on your system you have to install this package since<BR>it also provides basic tools for traditional password handling.<BR><P><BR>	- 'pwconv' converts everything to the shadow password format.<BR>	- 'pwunconv' converts back to non-shadow passwords.<BR>	- 'pwck' checks the integrity of the password and shadow files.<BR>	- 'lastlog' prints out the last login times of all users.<BR>	- 'useradd', 'userdel', 'usermod' to manage user accounts.<BR>	- 'groupadd', 'groupdel', 'groupmod' to manage groups.<BR><P><BR>A number of man pages are also included that relate to these utilities,<BR>and shadow passwords in general.<BR><P><BR>NOTE: If you want to rebuild this package from the sources, contact<BR>the packager first.<BR><P><BR>IMPORTANT: Currently you shouldn't activate shadow user passwords for<BR>other than testing purposes.  Too many programs cannot grok with<BR>shadow password files.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           230054 Sep 11  2001 /bin/login
+-rwsr-xr-x    1 root    root           219814 Sep 11  2001 /bin/passwd
+-rwsr-xr-x    1 root    root           195744 Sep 11  2001 /bin/su
+drwxr-x---    2 root    root                0 Sep 11  2001 /etc/default
+-rw-------    1 root    root               96 Sep 11  2001 /etc/default/useradd
+-rw-r--r--    1 root    root             1180 Sep 11  2001 /etc/login.defs
+-rwsr-xr-x    1 root    root           178241 Sep 11  2001 /usr/bin/chage
+-rwsr-xr-x    1 root    root           190638 Sep 11  2001 /usr/bin/chfn
+-rwsr-xr-x    1 root    root           189613 Sep 11  2001 /usr/bin/chsh
+-rwsr-xr-x    1 root    root           115770 Sep 11  2001 /usr/bin/expiry
+-rwxr-xr-x    1 root    root           106558 Sep 11  2001 /usr/bin/faillog
+-rwsr-xr-x    1 root    root           193990 Sep 11  2001 /usr/bin/gpasswd
+-rwxr-xr-x    1 root    root           104955 Sep 11  2001 /usr/bin/lastlog
+-rwxr-xr-x    1 root    root           230054 Sep 11  2001 /usr/bin/login
+-rwxr-xr-x    1 root    root           136438 Sep 11  2001 /usr/bin/newgrp
+-rwsr-xr-x    1 root    root           219814 Sep 11  2001 /usr/bin/passwd
+?rwxrwxrwx    1 root    root                6 Sep 11  2001 /usr/bin/sg
+drwxr-xr-x    2 root    root                0 Sep 11  2001 /usr/doc/shadow-utils-20000902
+-rw-r--r--    1 root    root             1912 Aug 26  2000 /usr/doc/shadow-utils-20000902/ANNOUNCE
+-rw-r--r--    1 root    root            36264 Sep  2  2000 /usr/doc/shadow-utils-20000902/CHANGES
+-rw-r--r--    1 root    root            68500 Mar 16  1997 /usr/doc/shadow-utils-20000902/HOWTO
+-rw-r--r--    1 root    root             5040 May  1  1997 /usr/doc/shadow-utils-20000902/LICENSE
+-rw-r--r--    1 root    root            11542 Aug 26  2000 /usr/doc/shadow-utils-20000902/README
+-rw-r--r--    1 root    root             2136 Oct  4  1997 /usr/doc/shadow-utils-20000902/README.debian
+-rw-r--r--    1 root    root             2209 Dec 18  1997 /usr/doc/shadow-utils-20000902/README.limits
+-rw-r--r--    1 root    root             7730 Aug 26  2000 /usr/doc/shadow-utils-20000902/README.linux
+-rw-r--r--    1 root    root             1839 Aug 26  2000 /usr/doc/shadow-utils-20000902/README.mirrors
+-rw-r--r--    1 root    root             1624 Dec 29  1998 /usr/doc/shadow-utils-20000902/README.nls
+-rw-r--r--    1 root    root              902 Oct  3  1999 /usr/doc/shadow-utils-20000902/README.pam
+-rw-r--r--    1 root    root              889 Jun  7  1999 /usr/doc/shadow-utils-20000902/README.platforms
+-rw-r--r--    1 root    root              898 Jun 15  1997 /usr/doc/shadow-utils-20000902/README.shadow-paper
+-rw-r--r--    1 root    root             1737 Aug 10  1996 /usr/doc/shadow-utils-20000902/README.sun4
+-rw-r--r--    1 root    root            41966 Sep 11  2001 /usr/lib/libshadow.a
+-rwxr-xr-x    1 root    root              614 Sep 11  2001 /usr/lib/libshadow.la
+-rwxr-xr-x    1 root    root           175811 Sep 11  2001 /usr/sbin/chpasswd
+-rwxr-xr-x    1 root    root           132754 Sep 11  2001 /usr/sbin/dpasswd
+-rwxr-xr-x    1 root    root           167284 Sep 11  2001 /usr/sbin/groupadd
+-rwxr-xr-x    1 root    root           159409 Sep 11  2001 /usr/sbin/groupdel
+-rwxr-xr-x    1 root    root           164475 Sep 11  2001 /usr/sbin/groupmod
+-rwxr-xr-x    1 root    root           165718 Sep 11  2001 /usr/sbin/grpck
+-rwxr-xr-x    1 root    root           155385 Sep 11  2001 /usr/sbin/grpconv
+-rwxr-xr-x    1 root    root           155198 Sep 11  2001 /usr/sbin/grpunconv
+-rwxr-xr-x    1 root    root           110903 Sep 11  2001 /usr/sbin/logoutd
+-rwxr-xr-x    1 root    root            97862 Sep 11  2001 /usr/sbin/mkpasswd
+-rwxr-xr-x    1 root    root           181361 Sep 11  2001 /usr/sbin/newusers
+-rwxr-xr-x    1 root    root           164600 Sep 11  2001 /usr/sbin/pwck
+-rwxr-xr-x    1 root    root           161392 Sep 11  2001 /usr/sbin/pwconv
+-rwxr-xr-x    1 root    root           155078 Sep 11  2001 /usr/sbin/pwunconv
+-rwxr-xr-x    1 root    root           196963 Sep 11  2001 /usr/sbin/useradd
+-rwxr-xr-x    1 root    root           186143 Sep 11  2001 /usr/sbin/userdel
+-rwxr-xr-x    1 root    root           197493 Sep 11  2001 /usr/sbin/usermod
+-rwxr-xr-x    1 root    root           171504 Sep 11  2001 /usr/sbin/vipw
+-rw-r--r--    1 root    root            41822 Sep 11  2001 /usr/share/locale/el/LC_MESSAGES/shadow.mo
+-rw-r--r--    1 root    root            40067 Sep 11  2001 /usr/share/locale/fr/LC_MESSAGES/shadow.mo
+-rw-r--r--    1 root    root            40513 Sep 11  2001 /usr/share/locale/pl/LC_MESSAGES/shadow.mo
+-rw-r--r--    1 root    root            39254 Sep 11  2001 /usr/share/locale/sv/LC_MESSAGES/shadow.mo
+-rw-r--r--    1 root    root             2079 Sep 11  2001 /usr/share/man/man1/chage.1.gz
+-rw-r--r--    1 root    root             1564 Sep 11  2001 /usr/share/man/man1/chfn.1.gz
+-rw-r--r--    1 root    root             1493 Sep 11  2001 /usr/share/man/man1/chsh.1.gz
+-rw-r--r--    1 root    root              824 Sep 11  2001 /usr/share/man/man1/gpasswd.1.gz
+-rw-r--r--    1 root    root             2625 Sep 11  2001 /usr/share/man/man1/login.1.gz
+-rw-r--r--    1 root    root             1604 Sep 11  2001 /usr/share/man/man1/newgrp.1.gz
+-rw-r--r--    1 root    root             3341 Sep 11  2001 /usr/share/man/man1/passwd.1.gz
+-rw-r--r--    1 root    root             1853 Sep 11  2001 /usr/share/man/man1/su.1.gz
+-rw-r--r--    1 root    root             2143 Sep 11  2001 /usr/share/man/man3/shadow.3.gz
+-rw-r--r--    1 root    root              409 Sep 11  2001 /usr/share/man/man5/dialups.5.gz
+-rw-r--r--    1 root    root             1248 Sep 11  2001 /usr/share/man/man5/faillog.5.gz
+-rw-r--r--    1 root    root             1049 Sep 11  2001 /usr/share/man/man5/limits.5.gz
+-rw-r--r--    1 root    root              848 Sep 11  2001 /usr/share/man/man5/login.access.5.gz
+-rw-r--r--    1 root    root             6716 Sep 11  2001 /usr/share/man/man5/login.defs.5.gz
+-rw-r--r--    1 root    root             1850 Sep 11  2001 /usr/share/man/man5/passwd.5.gz
+-rw-r--r--    1 root    root             1608 Sep 11  2001 /usr/share/man/man5/porttime.5.gz
+-rw-r--r--    1 root    root             1677 Sep 11  2001 /usr/share/man/man5/shadow.5.gz
+-rw-r--r--    1 root    root             1373 Sep 11  2001 /usr/share/man/man5/suauth.5.gz
+-rw-r--r--    1 root    root               39 Sep 11  2001 /usr/share/man/man8/adduser.8.gz
+-rw-r--r--    1 root    root             1416 Sep 11  2001 /usr/share/man/man8/chpasswd.8.gz
+-rw-r--r--    1 root    root             1208 Sep 11  2001 /usr/share/man/man8/dpasswd.8.gz
+-rw-r--r--    1 root    root             1867 Sep 11  2001 /usr/share/man/man8/faillog.8.gz
+-rw-r--r--    1 root    root             1705 Sep 11  2001 /usr/share/man/man8/groupadd.8.gz
+-rw-r--r--    1 root    root             1250 Sep 11  2001 /usr/share/man/man8/groupdel.8.gz
+-rw-r--r--    1 root    root             1367 Sep 11  2001 /usr/share/man/man8/groupmod.8.gz
+-rw-r--r--    1 root    root             1873 Sep 11  2001 /usr/share/man/man8/grpck.8.gz
+-rw-r--r--    1 root    root               38 Sep 11  2001 /usr/share/man/man8/grpconv.8.gz
+-rw-r--r--    1 root    root               38 Sep 11  2001 /usr/share/man/man8/grpunconv.8.gz
+-rw-r--r--    1 root    root             1481 Sep 11  2001 /usr/share/man/man8/lastlog.8.gz
+-rw-r--r--    1 root    root             1182 Sep 11  2001 /usr/share/man/man8/logoutd.8.gz
+-rw-r--r--    1 root    root             1613 Sep 11  2001 /usr/share/man/man8/mkpasswd.8.gz
+-rw-r--r--    1 root    root             1582 Sep 11  2001 /usr/share/man/man8/newusers.8.gz
+-rw-r--r--    1 root    root             1889 Sep 11  2001 /usr/share/man/man8/pwck.8.gz
+-rw-r--r--    1 root    root              945 Sep 11  2001 /usr/share/man/man8/pwconv.8.gz
+-rw-r--r--    1 root    root               38 Sep 11  2001 /usr/share/man/man8/pwunconv.8.gz
+-rw-r--r--    1 root    root              377 Sep 11  2001 /usr/share/man/man8/shadowconfig.8.gz
+-rw-r--r--    1 root    root             3286 Sep 11  2001 /usr/share/man/man8/useradd.8.gz
+-rw-r--r--    1 root    root             1416 Sep 11  2001 /usr/share/man/man8/userdel.8.gz
+-rw-r--r--    1 root    root             2591 Sep 11  2001 /usr/share/man/man8/usermod.8.gz
+-rw-r--r--    1 root    root              448 Sep 11  2001 /usr/share/man/man8/vipw.8.gz
+-rw-r--r--    1 root    root             2317 Sep 11  2001 /usr/share/man/pl/man1/chage.1.gz
+-rw-r--r--    1 root    root             1796 Sep 11  2001 /usr/share/man/pl/man1/chfn.1.gz
+-rw-r--r--    1 root    root             1764 Sep 11  2001 /usr/share/man/pl/man1/chsh.1.gz
+-rw-r--r--    1 root    root              961 Sep 11  2001 /usr/share/man/pl/man1/gpasswd.1.gz
+-rw-r--r--    1 root    root             1486 Sep 11  2001 /usr/share/man/pl/man1/groups.1.gz
+-rw-r--r--    1 root    root             1380 Sep 11  2001 /usr/share/man/pl/man1/id.1.gz
+-rw-r--r--    1 root    root             2822 Sep 11  2001 /usr/share/man/pl/man1/login.1.gz
+-rw-r--r--    1 root    root             1896 Sep 11  2001 /usr/share/man/pl/man1/newgrp.1.gz
+-rw-r--r--    1 root    root             3868 Sep 11  2001 /usr/share/man/pl/man1/passwd.1.gz
+-rw-r--r--    1 root    root             2086 Sep 11  2001 /usr/share/man/pl/man1/su.1.gz
+-rw-r--r--    1 root    root             2666 Sep 11  2001 /usr/share/man/pl/man3/pw_auth.3.gz
+-rw-r--r--    1 root    root             2370 Sep 11  2001 /usr/share/man/pl/man3/shadow.3.gz
+-rw-r--r--    1 root    root              692 Sep 11  2001 /usr/share/man/pl/man5/d_passwd.5.gz
+-rw-r--r--    1 root    root              479 Sep 11  2001 /usr/share/man/pl/man5/dialups.5.gz
+-rw-r--r--    1 root    root             1369 Sep 11  2001 /usr/share/man/pl/man5/faillog.5.gz
+-rw-r--r--    1 root    root             1294 Sep 11  2001 /usr/share/man/pl/man5/limits.5.gz
+-rw-r--r--    1 root    root              999 Sep 11  2001 /usr/share/man/pl/man5/login.access.5.gz
+-rw-r--r--    1 root    root             7695 Sep 11  2001 /usr/share/man/pl/man5/login.defs.5.gz
+-rw-r--r--    1 root    root             1781 Sep 11  2001 /usr/share/man/pl/man5/passwd.5.gz
+-rw-r--r--    1 root    root             1754 Sep 11  2001 /usr/share/man/pl/man5/porttime.5.gz
+-rw-r--r--    1 root    root             1874 Sep 11  2001 /usr/share/man/pl/man5/shadow.5.gz
+-rw-r--r--    1 root    root             1719 Sep 11  2001 /usr/share/man/pl/man5/suauth.5.gz
+-rw-r--r--    1 root    root             1522 Sep 11  2001 /usr/share/man/pl/man8/chpasswd.8.gz
+-rw-r--r--    1 root    root             1300 Sep 11  2001 /usr/share/man/pl/man8/dpasswd.8.gz
+-rw-r--r--    1 root    root             2121 Sep 11  2001 /usr/share/man/pl/man8/faillog.8.gz
+-rw-r--r--    1 root    root             1632 Sep 11  2001 /usr/share/man/pl/man8/groupadd.8.gz
+-rw-r--r--    1 root    root             1545 Sep 11  2001 /usr/share/man/pl/man8/groupdel.8.gz
+-rw-r--r--    1 root    root             1661 Sep 11  2001 /usr/share/man/pl/man8/groupmod.8.gz
+-rw-r--r--    1 root    root             2066 Sep 11  2001 /usr/share/man/pl/man8/grpck.8.gz
+-rw-r--r--    1 root    root             1626 Sep 11  2001 /usr/share/man/pl/man8/lastlog.8.gz
+-rw-r--r--    1 root    root             1235 Sep 11  2001 /usr/share/man/pl/man8/logoutd.8.gz
+-rw-r--r--    1 root    root             1780 Sep 11  2001 /usr/share/man/pl/man8/mkpasswd.8.gz
+-rw-r--r--    1 root    root             1755 Sep 11  2001 /usr/share/man/pl/man8/newusers.8.gz
+-rw-r--r--    1 root    root             1635 Sep 11  2001 /usr/share/man/pl/man8/pwauth.8.gz
+-rw-r--r--    1 root    root             2140 Sep 11  2001 /usr/share/man/pl/man8/pwck.8.gz
+-rw-r--r--    1 root    root             1133 Sep 11  2001 /usr/share/man/pl/man8/pwconv.8.gz
+-rw-r--r--    1 root    root              599 Sep 11  2001 /usr/share/man/pl/man8/shadowconfig.8.gz
+-rw-r--r--    1 root    root             2039 Sep 11  2001 /usr/share/man/pl/man8/sulogin.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/shadow-utils-20000902-1.m68kmint.rpm">Download</A></H2> (2,700,335 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

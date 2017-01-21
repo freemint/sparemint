@@ -1,0 +1,3738 @@
+These packages are currently available for Sparemint:
+
+aalib, version 1.4.0, release 1
+Group: System Environment/Libraries
+Summary: An ASCII art library.
+Available since: Fri Dec 12 03:51:29 2003 UTC
+Download: RPMS/m68kmint/aalib-1.4.0-1.m68kmint.rpm
+Package size: 2,076,029 bytes
+Installed size: 3,971,545 bytes
+Sources: SRPMS/aalib-1.4.0-1.src.rpm
+
+aalib-devel, version 1.4.0, release 1
+Group: Development/Libraries
+Summary: The static libraries and header files for AA-lib.
+Available since: Fri Dec 12 03:52:14 2003 UTC
+Download: RPMS/m68kmint/aalib-devel-1.4.0-1.m68kmint.rpm
+Package size: 66,188 bytes
+Installed size: 250,213 bytes
+Sources: SRPMS/aalib-1.4.0-1.src.rpm
+
+abc2prt, version 1.0.2, release 1
+Group: Applications/File
+Summary: A program to extract parts from multivoice ABC files.
+Available since: Thu May  8 20:39:07 2003 UTC
+Download: RPMS/m68kmint/abc2prt-1.0.2-1.m68kmint.rpm
+Package size: 56,662 bytes
+Installed size: 115,964 bytes
+Sources: SRPMS/abc2prt-1.0.2-1.src.rpm
+
+abcm2ps, version 5.9.25, release 1
+Group: Applications/Multimedia
+Summary: abcm2ps: a program to typeset abc tunes into Postscript.
+Available since: Tue Dec 27 15:57:09 2011 UTC
+Download: RPMS/m68kmint/abcm2ps-5.9.25-1.m68kmint.rpm
+Package size: 236,319 bytes
+Installed size: 539,191 bytes
+Sources: SRPMS/abcm2ps-5.9.25-1.src.rpm
+
+abcMIDI, version 2012_08_08, release 1
+Group: Applications/Sound
+Summary: ABC &lt;-&gt; Midi conversion utilities
+Available since: Fri Aug 24 18:38:47 2012 UTC
+Download: RPMS/m68kmint/abcMIDI-2012_08_08-1.m68kmint.rpm
+Package size: 833,282 bytes
+Installed size: 1,729,070 bytes
+Sources: SRPMS/abcMIDI-2012_08_08-1.src.rpm
+
+abcpp, version 1.3.2, release 1
+Group: Applications/File
+Summary: abcpp: an ABC file preprocessor
+Available since: Fri Jul  8 21:33:20 2005 UTC
+Download: RPMS/m68kmint/abcpp-1.3.2-1.m68kmint.rpm
+Package size: 73,206 bytes
+Installed size: 162,552 bytes
+Sources: SRPMS/abcpp-1.3.2-1.src.rpm
+
+abctab2ps, version 1.8.8, release 1
+Group: Applications/Multimedia
+Summary: abctab2ps: a tablature typesetting program for ABC music files.
+Available since: Wed Sep  9 19:25:19 2009 UTC
+Download: RPMS/m68kmint/abctab2ps-1.8.8-1.m68kmint.rpm
+Package size: 553,160 bytes
+Installed size: 1,812,701 bytes
+Sources: SRPMS/abctab2ps-1.8.8-1.src.rpm
+
+alien, version 6.56, release 1
+Group: Utilities/File
+Summary: Install Debian and Slackware Packages with rpm.
+Available since: Mon Feb  7 01:29:26 2000 UTC
+Download: RPMS/m68kmint/alien-6.56-1.m68kmint.rpm
+Package size: 83,237 bytes
+Installed size: 165,970 bytes
+Sources: SRPMS/alien-6.56-1.src.rpm
+
+antiword, version 0.35, release 1
+Group: Applications/Text
+Summary: MS Word to ASCII/Postscript converter
+Available since: Tue Feb  3 08:30:13 2004 UTC
+Download: RPMS/m68kmint/antiword-0.35-1.m68kmint.rpm
+Package size: 193,362 bytes
+Installed size: 669,562 bytes
+Sources: SRPMS/antiword-0.35-1.src.rpm
+
+apache, version 1.3.31, release 1
+Group: System Environment/Daemons
+Summary: Apache Web server
+Available since: Fri Aug 13 18:23:37 2004 UTC
+Download: RPMS/m68kmint/apache-1.3.31-1.m68kmint.rpm
+Package size: 805,020 bytes
+Installed size: 1,692,192 bytes
+Sources: SRPMS/apache-1.3.31-1.src.rpm
+
+apache-devel, version 1.3.31, release 1
+Group: Development/Libraries
+Summary: Apache Web server development tools
+Available since: Fri Aug 13 18:27:34 2004 UTC
+Download: RPMS/m68kmint/apache-devel-1.3.31-1.m68kmint.rpm
+Package size: 8,856 bytes
+Installed size: 28,400 bytes
+Sources: SRPMS/apache-1.3.31-1.src.rpm
+
+apr, version 0.9.17, release 1
+Group: System Environment/Libraries
+Summary: Apache Portable Runtime library
+Available since: Wed May 26 16:11:14 2010 UTC
+Download: RPMS/m68kmint/apr-0.9.17-1.m68kmint.rpm
+Package size: 236,910 bytes
+Installed size: 886,119 bytes
+Sources: SRPMS/apr-0.9.17-1.src.rpm
+
+apr-util, version 0.9.15, release 1
+Group: System Environment/Libraries
+Summary: Apache Portable Runtime Utility library
+Available since: Wed May 26 16:11:15 2010 UTC
+Download: RPMS/m68kmint/apr-util-0.9.15-1.m68kmint.rpm
+Package size: 87,652 bytes
+Installed size: 316,045 bytes
+Sources: SRPMS/apr-util-0.9.15-1.src.rpm
+
+arc, version 5.21e, release 2
+Group: Applications/Archiving
+Summary: Arc archiver
+Available since: Tue Sep  7 17:27:32 2004 UTC
+Download: RPMS/m68kmint/arc-5.21e-2.m68kmint.rpm
+Package size: 200,667 bytes
+Installed size: 446,132 bytes
+Sources: SRPMS/arc-5.21e-2.src.rpm
+
+arpwatch, version 2.1a11, release 2
+Group: Applications/System
+Summary: Network monitoring tools for tracking IP addresses on a network.
+Available since: Fri Sep 28 14:33:20 2001 UTC
+Download: RPMS/m68kmint/arpwatch-2.1a11-2.m68kmint.rpm
+Package size: 226,033 bytes
+Installed size: 464,705 bytes
+Sources: SRPMS/tcpdump-3.6.2-2.src.rpm
+
+ash, version 0.2, release 1
+Group: System Environment/Shells
+Summary: A smaller version of the Bourne shell (sh).
+Available since: Mon Jul  7 07:55:11 2003 UTC
+Download: RPMS/m68kmint/ash-0.2-1.m68kmint.rpm
+Package size: 68,326 bytes
+Installed size: 142,301 bytes
+Sources: SRPMS/ash-0.2-1.src.rpm
+
+audiofile, version 0.1.11, release 1
+Group: System Environment/Libraries
+Summary: Library to handle various audio file formats.
+Available since: Wed Dec 13 20:10:26 2000 UTC
+Download: RPMS/m68kmint/audiofile-0.1.11-1.m68kmint.rpm
+Package size: 151,758 bytes
+Installed size: 336,038 bytes
+Sources: SRPMS/audiofile-0.1.11-1.src.rpm
+
+audiofile-devel, version 0.1.11, release 1
+Group: Libraries
+Summary: Library, headers, etc. to develop with the Audio File Library.
+Available since: Wed Dec 13 20:11:25 2000 UTC
+Download: RPMS/m68kmint/audiofile-devel-0.1.11-1.m68kmint.rpm
+Package size: 39,164 bytes
+Installed size: 115,751 bytes
+Sources: SRPMS/audiofile-0.1.11-1.src.rpm
+
+autoconf, version 2.68, release 1
+Group: Development/Tools
+Summary: A GNU tool for automatically configuring source code.
+Available since: Fri Nov  5 18:52:46 2010 UTC
+Download: RPMS/noarch/autoconf-2.68-1.noarch.rpm
+Package size: 889,407 bytes
+Installed size: 2,254,552 bytes
+Sources: SRPMS/autoconf-2.68-1.src.rpm
+
+automake, version 1.11.1, release 1
+Group: Development/Tools
+Summary: A GNU tool for automatically creating Makefiles.
+Available since: Fri Nov  5 18:52:47 2010 UTC
+Download: RPMS/noarch/automake-1.11.1-1.noarch.rpm
+Package size: 729,333 bytes
+Installed size: 2,178,298 bytes
+Sources: SRPMS/automake-1.11.1-1.src.rpm
+
+base, version 1.4, release 2
+Group: System Environment/Base
+Summary: A set of system configuration and setup files.
+Available since: Mon Apr 28 10:50:05 2003 UTC
+Download: RPMS/m68kmint/base-1.4-2.m68kmint.rpm
+Package size: 18,515 bytes
+Installed size: 33,332 bytes
+Sources: SRPMS/base-1.4-2.src.rpm
+
+bash, version 2.05a, release 3
+Group: System Environment/Shells
+Summary: The GNU Bourne Again shell (bash).
+Available since: Tue Jan 27 13:38:28 2004 UTC
+Download: RPMS/m68kmint/bash-2.05a-3.m68kmint.rpm
+Package size: 815,030 bytes
+Installed size: 1,657,696 bytes
+Sources: SRPMS/bash-2.05a-3.src.rpm
+
+bash-completion, version 20020304, release 1
+Group: System Environment/Shells
+Summary: bash-completion offers programmable completion for bash 2.05
+Available since: Tue Mar  5 11:26:58 2002 UTC
+Download: RPMS/noarch/bash-completion-20020304-1.noarch.rpm
+Package size: 32,499 bytes
+Installed size: 104,382 bytes
+Sources: SRPMS/bash-completion-20020304-1.src.rpm
+
+bash-doc, version 2.05a, release 3
+Group: Documentation
+Summary: Documentation for the GNU Bourne Again shell (bash).
+Available since: Tue Jan 27 13:40:31 2004 UTC
+Download: RPMS/m68kmint/bash-doc-2.05a-3.m68kmint.rpm
+Package size: 766,865 bytes
+Installed size: 2,792,017 bytes
+Sources: SRPMS/bash-2.05a-3.src.rpm
+
+bash-mbaserel, version 2.03, release 2
+Group: System Environment/Shells
+Summary: The GNU Bourne Again shell (bash) compiled with -mbaserel.
+Available since: Thu Aug 26 02:50:30 1999 UTC
+Download: RPMS/m68kmint/bash-mbaserel-2.03-2.m68kmint.rpm
+Package size: 521,163 bytes
+Installed size: 1,399,943 bytes
+Sources: SRPMS/bash-mbaserel-2.03-2.src.rpm
+
+bc, version 1.05a, release 2
+Group: Applications/Engineering
+Summary: GNU's bc (a numeric processing language) and dc (a calculator).
+Available since: Wed Oct 20 21:41:15 1999 UTC
+Download: RPMS/m68kmint/bc-1.05a-2.m68kmint.rpm
+Package size: 155,436 bytes
+Installed size: 283,626 bytes
+Sources: SRPMS/bc-1.05a-2.src.rpm
+
+binutils, version 2.21, release 1
+Group: Development/Tools
+Summary: GNU Binary Utility Development Utilities
+Available since: Mon Dec 20 17:07:25 2010 UTC
+Download: RPMS/m68kmint/binutils-2.21-1.m68kmint.rpm
+Package size: 5,200,685 bytes
+Installed size: 10,724,897 bytes
+Sources: SRPMS/binutils-2.21-1.src.rpm
+
+bison, version 1.875, release 2
+Group: Development/Tools
+Summary: A GNU general-purpose parser generator.
+Available since: Mon Aug  2 20:38:48 2004 UTC
+Download: RPMS/m68kmint/bison-1.875-2.m68kmint.rpm
+Package size: 318,670 bytes
+Installed size: 666,379 bytes
+Sources: SRPMS/bison-1.875-2.src.rpm
+
+bluemoon, version 2.9, release 1
+Group: Games
+Summary: Blue Moon solitaire (curses interface)
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/bluemoon-2.9-1.m68kmint.rpm
+Package size: 104,853 bytes
+Installed size: 221,437 bytes
+Sources: SRPMS/bluemoon-2.9-1.src.rpm
+
+bmeps, version 1.0.7, release 1
+Group: Applications/Multimedia
+Summary: converts bitmaps to EPS
+Available since: Sat Sep 27 08:32:37 2003 UTC
+Download: RPMS/m68kmint/bmeps-1.0.7-1.m68kmint.rpm
+Package size: 975,977 bytes
+Installed size: 1,421,556 bytes
+Sources: SRPMS/bmeps-1.0.7-1.src.rpm
+
+bs, version 2.6, release 2
+Group: Games
+Summary: Battleships against the computer (character-cell graphics)
+Available since: Wed Jan 14 09:43:16 2004 UTC
+Download: RPMS/m68kmint/bs-2.6-2.m68kmint.rpm
+Package size: 112,653 bytes
+Installed size: 234,468 bytes
+Sources: SRPMS/bs-2.6-2.src.rpm
+
+bsd-games, version 2.1, release 3
+Group: Games
+Summary: miscellaneous BSD games package
+Available since: Thu Aug 26 04:15:24 1999 UTC
+Download: RPMS/m68kmint/bsd-games-2.1-3.m68kmint.rpm
+Package size: 2,041,277 bytes
+Installed size: 4,159,061 bytes
+Sources: SRPMS/bsd-games-2.1-3.src.rpm
+
+byacc, version 1.9, release 3
+Group: Development/Tools
+Summary: A public domain Yacc parser generator.
+Available since: Thu Aug 26 04:17:52 1999 UTC
+Download: RPMS/m68kmint/byacc-1.9-3.m68kmint.rpm
+Package size: 47,875 bytes
+Installed size: 95,932 bytes
+Sources: SRPMS/byacc-1.9-3.src.rpm
+
+bzip2, version 1.0.2, release 1
+Group: Applications/Archiving
+Summary: A file compression utility.
+Available since: Sat Feb  8 12:05:09 2003 UTC
+Download: RPMS/m68kmint/bzip2-1.0.2-1.m68kmint.rpm
+Package size: 151,413 bytes
+Installed size: 301,978 bytes
+Sources: SRPMS/bzip2-1.0.2-1.src.rpm
+
+bzip2-devel, version 1.0.2, release 1
+Group: Development/Libraries
+Summary: Header files and libraries for developing apps which will use bzip2.
+Available since: Sat Feb  8 12:05:21 2003 UTC
+Download: RPMS/m68kmint/bzip2-devel-1.0.2-1.m68kmint.rpm
+Package size: 66,138 bytes
+Installed size: 186,137 bytes
+Sources: SRPMS/bzip2-1.0.2-1.src.rpm
+
+c-ares, version 1.7.5, release 1
+Group: Network/Utilities
+Summary: A library that performs asynchronous DNS operations
+Available since: Fri Mar  9 19:49:46 2012 UTC
+Download: RPMS/m68kmint/c-ares-1.7.5-1.m68kmint.rpm
+Package size: 264,831 bytes
+Installed size: 485,828 bytes
+Sources: SRPMS/c-ares-1.7.5-1.src.rpm
+
+c-ares-devel, version 1.7.5, release 1
+Group: Development/Libraries
+Summary: A library that performs asynchronous DNS operations
+Available since: Fri Mar  9 19:49:54 2012 UTC
+Download: RPMS/m68kmint/c-ares-devel-1.7.5-1.m68kmint.rpm
+Package size: 193,136 bytes
+Installed size: 423,641 bytes
+Sources: SRPMS/c-ares-1.7.5-1.src.rpm
+
+cal, version 0.28, release 1
+Group: Applications
+Summary: Un*x like `cal' program (REPLACEMENT) with MORE features !
+Available since: Fri Nov 16 12:33:11 2001 UTC
+Download: RPMS/m68kmint/cal-0.28-1.m68kmint.rpm
+Package size: 60,030 bytes
+Installed size: 118,410 bytes
+Sources: SRPMS/cal-0.28-1.src.rpm
+
+camediaplay, version 20010211, release 1
+Group: Applications/File
+Summary: Utility to control digital cameras based on Sanyo firmware
+Available since: Wed Mar 21 19:56:48 2001 UTC
+Download: RPMS/m68kmint/camediaplay-20010211-1.m68kmint.rpm
+Package size: 70,952 bytes
+Installed size: 141,954 bytes
+Sources: SRPMS/camediaplay-20010211-1.src.rpm
+
+ccache, version 2.4, release 2
+Group: Development/Tools
+Summary: A fast C/C++ compiler cache
+Available since: Thu Jun 10 20:07:54 2010 UTC
+Download: RPMS/m68kmint/ccache-2.4-2.m68kmint.rpm
+Package size: 92,413 bytes
+Installed size: 174,630 bytes
+Sources: SRPMS/ccache-2.4-2.src.rpm
+
+cdlabelgen, version 4.1.0, release 1
+Group: Applications/Publishing
+Summary: Generates frontcards and traycards for inserting in CD/DVD jewel cases.
+Available since: Wed Aug 18 19:52:53 2010 UTC
+Download: RPMS/noarch/cdlabelgen-4.1.0-1.noarch.rpm
+Package size: 356,031 bytes
+Installed size: 849,919 bytes
+Sources: SRPMS/cdlabelgen-4.1.0-1.src.rpm
+
+cflib, version 21, release 1
+Group: Development/Libraries
+Summary: Christian Felsch's GEM utility library
+Available since: Sun Jul 18 20:50:04 2004 UTC
+Download: RPMS/m68kmint/cflib-21-1.m68kmint.rpm
+Package size: 331,396 bytes
+Installed size: 756,071 bytes
+Sources: SRPMS/cflib-21-1.src.rpm
+
+cflow, version 2.0, release 1
+Group: Development/Tools
+Summary: two small programs and a script to show C call structures
+Available since: Wed Oct  6 12:27:02 1999 UTC
+Download: RPMS/m68kmint/cflow-2.0-1.m68kmint.rpm
+Package size: 51,948 bytes
+Installed size: 95,584 bytes
+Sources: SRPMS/cflow-2.0-1.src.rpm
+
+chkconfig, version 1.0.7, release 2
+Group: System Environment/Base
+Summary: A system tool for maintaining the /etc/rc.d hierarchy.
+Available since: Sun Dec 26 02:52:05 1999 UTC
+Download: RPMS/m68kmint/chkconfig-1.0.7-2.m68kmint.rpm
+Package size: 68,619 bytes
+Installed size: 148,394 bytes
+Sources: SRPMS/chkconfig-1.0.7-2.src.rpm
+
+chkfontpath, version 1.7, release 2
+Group: System Environment/Base
+Summary: Simple interface for editing the font path for the X font server.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/chkfontpath-1.7-2.m68kmint.rpm
+Package size: 58,539 bytes
+Installed size: 108,620 bytes
+Sources: SRPMS/chkfontpath-1.7-2.src.rpm
+
+clips, version 6.10, release 1
+Group: Development/Languages
+Summary: The C Language Integrated Production System
+Available since: Tue Oct 26 09:35:30 1999 UTC
+Download: RPMS/m68kmint/clips-6.10-1.m68kmint.rpm
+Package size: 312,343 bytes
+Installed size: 842,226 bytes
+Sources: SRPMS/clips-6.10-1.src.rpm
+
+clips-doc, version 6.10, release 1
+Group: Documentation
+Summary: Documentation for CLIPS as Adobe PDF
+Available since: Tue Oct 26 09:36:30 1999 UTC
+Download: RPMS/m68kmint/clips-doc-6.10-1.m68kmint.rpm
+Package size: 1,755,441 bytes
+Installed size: 2,262,650 bytes
+Sources: SRPMS/clips-6.10-1.src.rpm
+
+conflib, version 0.4.5, release 1
+Group: Development/Libraries
+Summary: configuration file library
+Available since: Tue Jan 30 02:00:46 2001 UTC
+Download: RPMS/m68kmint/conflib-0.4.5-1.m68kmint.rpm
+Package size: 58,083 bytes
+Installed size: 92,503 bytes
+Sources: SRPMS/conflib-0.4.5-1.src.rpm
+
+cpio, version 2.4.2, release 3
+Group: Applications/Archiving
+Summary: A GNU archiving program.
+Available since: Thu Aug 26 04:26:18 1999 UTC
+Download: RPMS/m68kmint/cpio-2.4.2-3.m68kmint.rpm
+Package size: 64,346 bytes
+Installed size: 111,916 bytes
+Sources: SRPMS/cpio-2.4.2-3.src.rpm
+
+cproto, version 4.6, release 2
+Group: Development/Tools
+Summary: Generates function prototypes and variable declarations from C code.
+Available since: Fri Nov 12 02:04:11 1999 UTC
+Download: RPMS/m68kmint/cproto-4.6-2.m68kmint.rpm
+Package size: 66,095 bytes
+Installed size: 127,748 bytes
+Sources: SRPMS/cproto-4.6-2.src.rpm
+
+cracklib, version 2.7, release 3
+Group: System Environment/Libraries
+Summary: A password-checking library.
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/cracklib-2.7-3.m68kmint.rpm
+Package size: 21,153 bytes
+Installed size: 42,973 bytes
+Sources: SRPMS/cracklib-2.7-3.src.rpm
+
+cracklib-dicts, version 2.7, release 3
+Group: System Environment/Libraries
+Summary: The standard CrackLib dictionaries.
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/cracklib-dicts-2.7-3.m68kmint.rpm
+Package size: 144,566 bytes
+Installed size: 318,521 bytes
+Sources: SRPMS/cracklib-2.7-3.src.rpm
+
+crontabs, version 1.7, release 2
+Group: System Environment/Base
+Summary: Root crontab files used to schedule the execution of programs.
+Available since: Thu Aug 26 02:53:49 1999 UTC
+Download: RPMS/noarch/crontabs-1.7-2.noarch.rpm
+Package size: 3,113 bytes
+Installed size: 1,272 bytes
+Sources: SRPMS/crontabs-1.7-2.src.rpm
+
+ctags, version 5.0.1, release 1
+Group: Development/Tools
+Summary: A multi-language source code indexing tool
+Available since: Thu Oct  4 16:17:30 2001 UTC
+Download: RPMS/m68kmint/ctags-5.0.1-1.m68kmint.rpm
+Package size: 170,972 bytes
+Installed size: 357,790 bytes
+Sources: SRPMS/ctags-5.0.1-1.src.rpm
+
+curl, version 7.21.7, release 1
+Group: Applications/Internet
+Summary: A utility for getting files from remote servers (FTP, HTTP, and others).
+Available since: Sun Aug 28 15:29:02 2011 UTC
+Download: RPMS/m68kmint/curl-7.21.7-1.m68kmint.rpm
+Package size: 1,438,744 bytes
+Installed size: 3,453,352 bytes
+Sources: SRPMS/curl-7.21.7-1.src.rpm
+
+curl-devel, version 7.21.7, release 1
+Group: Development/Libraries
+Summary: Files needed for building applications with libcurl.
+Available since: Sun Aug 28 15:29:30 2011 UTC
+Download: RPMS/m68kmint/curl-devel-7.21.7-1.m68kmint.rpm
+Package size: 351,612 bytes
+Installed size: 981,651 bytes
+Sources: SRPMS/curl-7.21.7-1.src.rpm
+
+cvs, version 1.11.1p1, release 1
+Group: Development/Tools
+Summary: A version control system.
+Available since: Mon Aug 20 19:43:34 2001 UTC
+Download: RPMS/m68kmint/cvs-1.11.1p1-1.m68kmint.rpm
+Package size: 1,282,353 bytes
+Installed size: 3,705,978 bytes
+Sources: SRPMS/cvs-1.11.1p1-1.src.rpm
+
+cvsweb, version 1.58, release 4
+Group: Development/Version Control
+Summary: CGI script that allows Web-browsing of a CVS repository
+Available since: Thu Aug 26 11:35:52 1999 UTC
+Download: RPMS/noarch/cvsweb-1.58-4.noarch.rpm
+Package size: 34,151 bytes
+Installed size: 92,570 bytes
+Sources: SRPMS/cvsweb-1.58-4.src.rpm
+
+cxref, version 1.5c, release 1
+Group: Development/Tools
+Summary: A C program cross-referencing &amp; documentation tool
+Available since: Sun Sep 16 17:00:44 2001 UTC
+Download: RPMS/m68kmint/cxref-1.5c-1.m68kmint.rpm
+Package size: 233,390 bytes
+Installed size: 569,069 bytes
+Sources: SRPMS/cxref-1.5c-1.src.rpm
+
+db1, version 1.85, release 1
+Group: Development/Libraries
+Summary: Development libs/header files for Berkeley DB (version 1) library.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/db1-1.85-1.m68kmint.rpm
+Package size: 340,569 bytes
+Installed size: 706,238 bytes
+Sources: SRPMS/db1-1.85-1.src.rpm
+
+db3, version 3.1.17, release 1
+Group: Development/Libraries
+Summary: Development libraries/header files for the Berkeley DB library.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/db3-3.1.17-1.m68kmint.rpm
+Package size: 1,041,608 bytes
+Installed size: 4,571,075 bytes
+Sources: SRPMS/db3-3.1.17-1.src.rpm
+
+db3-utils, version 3.1.17, release 1
+Group: Applications/Databases
+Summary: Command line tools for managing Berkeley DB databases.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/db3-utils-3.1.17-1.m68kmint.rpm
+Package size: 2,194,994 bytes
+Installed size: 5,049,215 bytes
+Sources: SRPMS/db3-3.1.17-1.src.rpm
+
+dejavu-fonts-ttf, version 2.31, release 1
+Group: System/Fonts
+Summary: DejaVu Truetype Fonts
+Available since: Sat Jun 12 20:39:26 2010 UTC
+Download: RPMS/noarch/dejavu-fonts-ttf-2.31-1.noarch.rpm
+Package size: 4,578,820 bytes
+Installed size: 9,588,123 bytes
+Sources: SRPMS/dejavu-fonts-ttf-2.31-1.src.rpm
+
+dhclient, version 3.1.ESV, release 1
+Group: System Environment/Base
+Summary: Development headers and libraries for interfacing to the DHCP server
+Available since: Sat Dec 15 21:02:35 2012 UTC
+Download: RPMS/m68kmint/dhclient-3.1.ESV-1.m68kmint.rpm
+Package size: 417,831 bytes
+Installed size: 855,900 bytes
+Sources: SRPMS/dhcp-3.1.ESV-1.src.rpm
+
+dhcp, version 3.1.ESV, release 1
+Group: System Environment/Daemons
+Summary: A DHCP (Dynamic Host Configuration Protocol) server and relay agent.
+Available since: Sat Dec 15 21:03:08 2012 UTC
+Download: RPMS/m68kmint/dhcp-3.1.ESV-1.m68kmint.rpm
+Package size: 1,199,609 bytes
+Installed size: 2,518,107 bytes
+Sources: SRPMS/dhcp-3.1.ESV-1.src.rpm
+
+dhcp-devel, version 3.0.3, release 2
+Group: Development/Libraries
+Summary: Development headers and libraries for interfacing to the DHCP server
+Available since: Wed Aug  1 06:50:40 2007 UTC
+Download: RPMS/m68kmint/dhcp-devel-3.0.3-2.m68kmint.rpm
+Package size: 78,903 bytes
+Installed size: 219,604 bytes
+Sources: SRPMS/dhcp-3.0.3-2.src.rpm
+
+dialog, version 0.6, release 1
+Group: Applications/System
+Summary: A utility for creating TTY dialog boxes.
+Available since: Tue Sep 14 12:55:04 1999 UTC
+Download: RPMS/m68kmint/dialog-0.6-1.m68kmint.rpm
+Package size: 87,224 bytes
+Installed size: 183,252 bytes
+Sources: SRPMS/dialog-0.6-1.src.rpm
+
+diffstat, version 1.27, release 1
+Group: Development/Tools
+Summary: A utility which provides statistics based on the output of diff.
+Available since: Sun Sep 26 14:04:56 1999 UTC
+Download: RPMS/m68kmint/diffstat-1.27-1.m68kmint.rpm
+Package size: 33,389 bytes
+Installed size: 58,487 bytes
+Sources: SRPMS/diffstat-1.27-1.src.rpm
+
+diffutils, version 2.7, release 2
+Group: Utilities/Text
+Summary: GNU diff Utilities
+Available since: Sun Aug 22 11:03:44 1999 UTC
+Download: RPMS/m68kmint/diffutils-2.7-2.m68kmint.rpm
+Package size: 196,613 bytes
+Installed size: 335,909 bytes
+Sources: SRPMS/diffutils-2.7-2.src.rpm
+
+doc++, version 3.4.8, release 2
+Group: Development/Tools
+Summary: DOC++ - A Documentation System for C, C++, IDL and Java
+Available since: Tue Sep  4 11:18:48 2001 UTC
+Download: RPMS/m68kmint/doc++-3.4.8-2.m68kmint.rpm
+Package size: 464,879 bytes
+Installed size: 1,371,003 bytes
+Sources: SRPMS/doc++-3.4.8-2.src.rpm
+
+dos2unix, version 3.1, release 1
+Group: Applications/Text
+Summary: Text file format converter
+Available since: Thu Sep  6 09:51:32 2001 UTC
+Download: RPMS/m68kmint/dos2unix-3.1-1.m68kmint.rpm
+Package size: 52,648 bytes
+Installed size: 102,693 bytes
+Sources: SRPMS/dos2unix-3.1-1.src.rpm
+
+doschk, version 1.1, release 1
+Group: Applications/File
+Summary: doschk checks filenames for DOS, TOS and SYSV compatibility
+Available since: Fri Oct 22 11:33:43 1999 UTC
+Download: RPMS/m68kmint/doschk-1.1-1.m68kmint.rpm
+Package size: 35,817 bytes
+Installed size: 70,457 bytes
+Sources: SRPMS/doschk-1.1-1.src.rpm
+
+dosfstools, version 2.10, release 1
+Group: System Environment/Base
+Summary: FAT/FAT32/VFAT filesystem checker
+Available since: Mon Sep 29 22:17:47 2003 UTC
+Download: RPMS/m68kmint/dosfstools-2.10-1.m68kmint.rpm
+Package size: 88,644 bytes
+Installed size: 175,112 bytes
+Sources: SRPMS/dosfstools-2.10-1.src.rpm
+
+doxygen, version 1.4.6, release 1
+Group: Development/Tools
+Summary: A documentation system for C/C++.
+Available since: Tue Jan  3 09:24:33 2006 UTC
+Download: RPMS/m68kmint/doxygen-1.4.6-1.m68kmint.rpm
+Package size: 1,550,036 bytes
+Installed size: 5,267,161 bytes
+Sources: SRPMS/doxygen-1.4.6-1.src.rpm
+
+e2fsprogs, version 1.27, release 2
+Group: System Environment/Base
+Summary: Utilities for managing the second extended (ext2) filesystem.
+Available since: Thu Nov 27 17:12:06 2003 UTC
+Download: RPMS/m68kmint/e2fsprogs-1.27-2.m68kmint.rpm
+Package size: 1,063,527 bytes
+Installed size: 2,903,440 bytes
+Sources: SRPMS/e2fsprogs-1.27-2.src.rpm
+
+e2fsprogs-devel, version 1.27, release 2
+Group: Development/Libraries
+Summary: Ext2 filesystem-specific static libraries and headers.
+Available since: Thu Nov 27 17:12:06 2003 UTC
+Download: RPMS/m68kmint/e2fsprogs-devel-1.27-2.m68kmint.rpm
+Package size: 110,744 bytes
+Installed size: 268,657 bytes
+Sources: SRPMS/e2fsprogs-1.27-2.src.rpm
+
+ed, version 0.2, release 1
+Group: Applications/Text
+Summary: The GNU line editor.
+Available since: Fri Sep 10 06:03:22 1999 UTC
+Download: RPMS/m68kmint/ed-0.2-1.m68kmint.rpm
+Package size: 77,787 bytes
+Installed size: 147,880 bytes
+Sources: SRPMS/ed-0.2-1.src.rpm
+
+elm, version 2.5.0, release 0.2pre8
+Group: Applications/Internet
+Summary: The elm mail user agent.
+Available since: Sun Sep 12 12:08:44 1999 UTC
+Download: RPMS/m68kmint/elm-2.5.0-0.2pre8.m68kmint.rpm
+Package size: 428,585 bytes
+Installed size: 1,005,222 bytes
+Sources: SRPMS/elm-2.5.0-0.2pre8.src.rpm
+
+expat, version 1.95.2, release 1
+Group: Development/Libraries
+Summary: Expat is an XML 1.0 parser written in C.
+Available since: Mon Sep 24 13:03:11 2001 UTC
+Download: RPMS/m68kmint/expat-1.95.2-1.m68kmint.rpm
+Package size: 145,529 bytes
+Installed size: 368,347 bytes
+Sources: SRPMS/expat-1.95.2-1.src.rpm
+
+expect, version 5.28, release 1
+Group: Development/Languages
+Summary: A tcl extension for simplifying program-script interaction.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/expect-5.28-1.m68kmint.rpm
+Package size: 1,591,631 bytes
+Installed size: 3,430,433 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+fdlibm, version 5.3, release 2
+Group: Development/Libraries
+Summary: Freely Distributable Maths Library
+Available since: Sun Jun 13 18:00:53 2010 UTC
+Download: RPMS/m68kmint/fdlibm-5.3-2.m68kmint.rpm
+Package size: 111,828 bytes
+Installed size: 313,728 bytes
+Sources: SRPMS/fdlibm-5.3-2.src.rpm
+
+fetchmail, version 5.9.0, release 1
+Group: Applications/Mail
+Summary: Full-featured POP/IMAP mail retrieval daemon
+Available since: Wed Jul 31 15:13:56 2002 UTC
+Download: RPMS/m68kmint/fetchmail-5.9.0-1.m68kmint.rpm
+Package size: 444,094 bytes
+Installed size: 1,019,227 bytes
+Sources: SRPMS/fetchmail-5.9.0-1.src.rpm
+
+figlet, version 2.2, release 1
+Group: Applications/Text
+Summary: Frank, Ian &amp; Glenn's Letters
+Available since: Fri Nov 16 12:33:07 2001 UTC
+Download: RPMS/m68kmint/figlet-2.2-1.m68kmint.rpm
+Package size: 267,936 bytes
+Installed size: 965,049 bytes
+Sources: SRPMS/figlet-2.2-1.src.rpm
+
+figlet_fonts, version 1, release 1
+Group: Applications/Text
+Summary: Fonts for Figlet
+Available since: Fri Nov 16 12:33:24 2001 UTC
+Download: RPMS/noarch/figlet_fonts-1-1.noarch.rpm
+Package size: 185,150 bytes
+Installed size: 998,143 bytes
+Sources: SRPMS/figlet_fonts-1-1.src.rpm
+
+file, version 3.36, release 2
+Group: Applications/File
+Summary: A utility for determining file types.
+Available since: Thu Sep 13 18:06:14 2001 UTC
+Download: RPMS/m68kmint/file-3.36-2.m68kmint.rpm
+Package size: 195,567 bytes
+Installed size: 820,576 bytes
+Sources: SRPMS/file-3.36-2.src.rpm
+
+fileutils, version 4.1, release 2
+Group: Applications/File
+Summary: GNU File Utilities
+Available since: Fri Sep 28 21:05:38 2001 UTC
+Download: RPMS/m68kmint/fileutils-4.1-2.m68kmint.rpm
+Package size: 1,908,709 bytes
+Installed size: 4,437,588 bytes
+Sources: SRPMS/fileutils-4.1-2.src.rpm
+
+findutils, version 4.1.7, release 1
+Group: Applications/File
+Summary: GNU Find Utilities (find, xargs)
+Available since: Mon Sep 17 18:46:00 2001 UTC
+Download: RPMS/m68kmint/findutils-4.1.7-1.m68kmint.rpm
+Package size: 475,598 bytes
+Installed size: 926,236 bytes
+Sources: SRPMS/findutils-4.1.7-1.src.rpm
+
+finger, version 0.17, release 1
+Group: Applications/Internet
+Summary: The finger client.
+Available since: Fri Sep 28 14:59:18 2001 UTC
+Download: RPMS/m68kmint/finger-0.17-1.m68kmint.rpm
+Package size: 71,689 bytes
+Installed size: 134,314 bytes
+Sources: SRPMS/finger-0.17-1.src.rpm
+
+finger-server, version 0.17, release 1
+Group: System Environment/Daemons
+Summary: The finger daemon.
+Available since: Fri Sep 28 14:59:22 2001 UTC
+Download: RPMS/m68kmint/finger-server-0.17-1.m68kmint.rpm
+Package size: 67,315 bytes
+Installed size: 125,987 bytes
+Sources: SRPMS/finger-0.17-1.src.rpm
+
+flex, version 2.5.4a, release 5
+Group: Development/Tools
+Summary: A tool for creating scanners (text pattern recognizers).
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/flex-2.5.4a-5.m68kmint.rpm
+Package size: 171,553 bytes
+Installed size: 353,626 bytes
+Sources: SRPMS/flex-2.5.4a-5.src.rpm
+
+fltk-devel, version 1.0.11, release 1
+Group: Development/Libraries
+Summary: Fast Light Tool Kit (FLTK) - development environment
+Available since: Thu May 31 17:42:40 2001 UTC
+Download: RPMS/m68kmint/fltk-devel-1.0.11-1.m68kmint.rpm
+Package size: 1,327,693 bytes
+Installed size: 2,635,682 bytes
+Sources: SRPMS/fltk-1.0.11-1.src.rpm
+
+fortune-mod, version 1.0, release 2
+Group: Games
+Summary: fortune cookie program with bug fixes
+Available since: Sun Aug 22 11:38:03 1999 UTC
+Download: RPMS/m68kmint/fortune-mod-1.0-2.m68kmint.rpm
+Package size: 1,116,927 bytes
+Installed size: 2,545,119 bytes
+Sources: SRPMS/fortune-mod-1.0-2.src.rpm
+
+freeciv, version 1.11.4, release 1
+Group: X11/Games
+Summary: Civilization clone (game)
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/freeciv-1.11.4-1.m68kmint.rpm
+Package size: 3,334,425 bytes
+Installed size: 9,512,588 bytes
+Sources: SRPMS/freeciv-1.11.4-1.src.rpm
+
+freemint, version 1.18.0, release 1
+Group: Base System/Kernel
+Summary: The FreeMiNT kernel
+Available since: Fri Apr 12 12:59:46 2013 UTC
+Download: RPMS/m68kmint/freemint-1.18.0-1.m68kmint.rpm
+Package size: 2,468,689 bytes
+Installed size: 5,303,496 bytes
+Sources: SRPMS/freemint-1.18.0-1.src.rpm
+
+freemint-gem, version 1.18.0, release 1
+Group: Base System/Kernel
+Summary: The FreeMiNT GEM system tools
+Available since: Fri Apr 12 12:59:54 2013 UTC
+Download: RPMS/m68kmint/freemint-gem-1.18.0-1.m68kmint.rpm
+Package size: 592,094 bytes
+Installed size: 1,187,439 bytes
+Sources: SRPMS/freemint-1.18.0-1.src.rpm
+
+freemint-net, version 1.18.0, release 1
+Group: Base System/Kernel
+Summary: The FreeMiNT TCP/IP stack (MiNTNet)
+Available since: Fri Apr 12 13:00:04 2013 UTC
+Download: RPMS/m68kmint/freemint-net-1.18.0-1.m68kmint.rpm
+Package size: 822,582 bytes
+Installed size: 1,567,103 bytes
+Sources: SRPMS/freemint-1.18.0-1.src.rpm
+
+freemint-sbin, version 1.18.0, release 1
+Group: Base System/Kernel
+Summary: The FreeMiNT system tools
+Available since: Fri Apr 12 13:00:15 2013 UTC
+Download: RPMS/m68kmint/freemint-sbin-1.18.0-1.m68kmint.rpm
+Package size: 916,541 bytes
+Installed size: 1,717,192 bytes
+Sources: SRPMS/freemint-1.18.0-1.src.rpm
+
+freemint-xaaes, version 1.18.0, release 1
+Group: Base System/Kernel
+Summary: The Freemint AES (XaAES)
+Available since: Fri Apr 12 13:00:35 2013 UTC
+Download: RPMS/m68kmint/freemint-xaaes-1.18.0-1.m68kmint.rpm
+Package size: 1,996,358 bytes
+Installed size: 4,357,821 bytes
+Sources: SRPMS/freemint-1.18.0-1.src.rpm
+
+freetype, version 2.0.4, release 1
+Group: System Environment/Libraries
+Summary: A free and portable TrueType font rendering engine.
+Available since: Wed Jul 11 10:32:47 2001 UTC
+Download: RPMS/m68kmint/freetype-2.0.4-1.m68kmint.rpm
+Package size: 443,338 bytes
+Installed size: 1,397,492 bytes
+Sources: SRPMS/freetype-2.0.4-1.src.rpm
+
+freetype-devel, version 2.0.4, release 1
+Group: System Environment/Libraries
+Summary: A free and portable TrueType font rendering engine.
+Available since: Wed Jul 11 10:32:47 2001 UTC
+Download: RPMS/m68kmint/freetype-devel-2.0.4-1.m68kmint.rpm
+Package size: 242,021 bytes
+Installed size: 1,227,984 bytes
+Sources: SRPMS/freetype-2.0.4-1.src.rpm
+
+freetype-utils, version 2.0.4, release 1
+Group: System Environment/Libraries
+Summary: A free and portable TrueType font rendering engine.
+Available since: Wed Jul 11 10:32:47 2001 UTC
+Download: RPMS/m68kmint/freetype-utils-2.0.4-1.m68kmint.rpm
+Package size: 1,927,384 bytes
+Installed size: 3,446,965 bytes
+Sources: SRPMS/freetype-2.0.4-1.src.rpm
+
+ftp, version 0.17, release 2
+Group: Applications/Internet
+Summary: The standard UNIX FTP (File Transfer Protocol) client.
+Available since: Tue Apr  3 23:00:06 2001 UTC
+Download: RPMS/m68kmint/ftp-0.17-2.m68kmint.rpm
+Package size: 160,214 bytes
+Installed size: 320,954 bytes
+Sources: SRPMS/ftp-0.17-2.src.rpm
+
+ftp-server, version 0.4, release 1
+Group: System Environment/Daemons
+Summary: The server program for the ftp protocol.
+Available since: Wed Feb  6 09:51:00 2002 UTC
+Download: RPMS/m68kmint/ftp-server-0.4-1.m68kmint.rpm
+Package size: 90,428 bytes
+Installed size: 172,172 bytes
+Sources: SRPMS/ftp-server-0.4-1.src.rpm
+
+fwhois, version 1.00, release 2
+Group: Networking/Utilities
+Summary: finger-style whois
+Available since: Wed Apr 26 19:16:46 2000 UTC
+Download: RPMS/m68kmint/fwhois-1.00-2.m68kmint.rpm
+Package size: 57,457 bytes
+Installed size: 108,188 bytes
+Sources: SRPMS/fwhois-1.00-2.src.rpm
+
+gaim, version 0.59.9, release 2
+Group: Applications/Internet
+Summary: A Gtk+ based multiprotocol instant messaging client
+Available since: Tue Jan 20 12:27:13 2004 UTC
+Download: RPMS/m68kmint/gaim-0.59.9-2.m68kmint.rpm
+Package size: 2,413,012 bytes
+Installed size: 4,980,863 bytes
+Sources: SRPMS/gaim-0.59.9-2.src.rpm
+
+gawk, version 3.0.6, release 1
+Group: Applications/Text
+Summary: The GNU version of the awk text processing utility.
+Available since: Thu Mar 22 12:09:02 2001 UTC
+Download: RPMS/m68kmint/gawk-3.0.6-1.m68kmint.rpm
+Package size: 1,077,777 bytes
+Installed size: 2,791,934 bytes
+Sources: SRPMS/gawk-3.0.6-1.src.rpm
+
+gcc, version 2.95.3, release 5
+Group: Development/Languages
+Summary: Various compilers (C, C++, Objective-C, Chill, ...)
+Available since: Wed Aug  4 14:59:25 2004 UTC
+Download: RPMS/m68kmint/gcc-2.95.3-5.m68kmint.rpm
+Package size: 2,691,726 bytes
+Installed size: 6,283,663 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc-56k, version 1.37, release 1
+Group: Development/Languages
+Summary: GCC C Compiler for the m56000 DSP series
+Available since: Fri Dec 10 15:08:36 2010 UTC
+Download: RPMS/m68kmint/gcc-56k-1.37-1.m68kmint.rpm
+Package size: 728,681 bytes
+Installed size: 1,608,111 bytes
+Sources: SRPMS/gcc-56k-1.37-1.src.rpm
+
+gcc-c++, version 2.95.3, release 5
+Group: Development/Languages
+Summary: C++ support for gcc
+Available since: Wed Aug  4 15:03:30 2004 UTC
+Download: RPMS/m68kmint/gcc-c++-2.95.3-5.m68kmint.rpm
+Package size: 1,653,624 bytes
+Installed size: 4,917,266 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc-chill, version 2.95.3, release 5
+Group: Development/Languages
+Summary: CHILL support for gcc
+Available since: Wed Aug  4 15:03:51 2004 UTC
+Download: RPMS/m68kmint/gcc-chill-2.95.3-5.m68kmint.rpm
+Package size: 1,144,685 bytes
+Installed size: 2,947,036 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc-g77, version 2.95.3, release 5
+Group: Development/Languages
+Summary: Fortran 77 support for gcc
+Available since: Wed Aug  4 15:04:22 2004 UTC
+Download: RPMS/m68kmint/gcc-g77-2.95.3-5.m68kmint.rpm
+Package size: 1,693,151 bytes
+Installed size: 3,937,466 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc-java, version 2.95.3, release 5
+Group: Development/Languages
+Summary: Java support for gcc
+Available since: Wed Aug  4 15:04:47 2004 UTC
+Download: RPMS/m68kmint/gcc-java-2.95.3-5.m68kmint.rpm
+Package size: 1,069,419 bytes
+Installed size: 2,406,161 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc-objc, version 2.95.3, release 5
+Group: Development/Languages
+Summary: Objective C support for gcc
+Available since: Wed Aug  4 15:04:59 2004 UTC
+Download: RPMS/m68kmint/gcc-objc-2.95.3-5.m68kmint.rpm
+Package size: 729,980 bytes
+Installed size: 1,659,038 bytes
+Sources: SRPMS/gcc-2.95.3-5.src.rpm
+
+gcc2, version 2.95.3, release 6
+Group: Development/Languages
+Summary: Various compilers (C, C++, Objective-C, Chill, ...)
+Available since: Fri Nov  5 18:53:01 2010 UTC
+Download: RPMS/m68kmint/gcc2-2.95.3-6.m68kmint.rpm
+Package size: 2,696,603 bytes
+Installed size: 6,223,021 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gcc2-c++, version 2.95.3, release 6
+Group: Development/Languages
+Summary: C++ support for gcc
+Available since: Fri Nov  5 18:53:13 2010 UTC
+Download: RPMS/m68kmint/gcc2-c++-2.95.3-6.m68kmint.rpm
+Package size: 1,597,864 bytes
+Installed size: 4,962,263 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gcc2-chill, version 2.95.3, release 6
+Group: Development/Languages
+Summary: CHILL support for gcc
+Available since: Fri Nov  5 18:53:14 2010 UTC
+Download: RPMS/m68kmint/gcc2-chill-2.95.3-6.m68kmint.rpm
+Package size: 1,153,880 bytes
+Installed size: 2,957,603 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gcc2-g77, version 2.95.3, release 6
+Group: Development/Languages
+Summary: Fortran 77 support for gcc
+Available since: Fri Nov  5 18:53:15 2010 UTC
+Download: RPMS/m68kmint/gcc2-g77-2.95.3-6.m68kmint.rpm
+Package size: 1,714,051 bytes
+Installed size: 3,958,964 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gcc2-java, version 2.95.3, release 6
+Group: Development/Languages
+Summary: Java support for gcc
+Available since: Fri Nov  5 18:53:16 2010 UTC
+Download: RPMS/m68kmint/gcc2-java-2.95.3-6.m68kmint.rpm
+Package size: 1,122,475 bytes
+Installed size: 2,462,736 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gcc2-objc, version 2.95.3, release 6
+Group: Development/Languages
+Summary: Objective C support for gcc
+Available since: Fri Nov  5 18:53:17 2010 UTC
+Download: RPMS/m68kmint/gcc2-objc-2.95.3-6.m68kmint.rpm
+Package size: 739,056 bytes
+Installed size: 1,669,698 bytes
+Sources: SRPMS/gcc2-2.95.3-6.src.rpm
+
+gdb, version 5.0, release 4
+Group: Development/Other
+Summary: A GNU source-level debugger for C, C++ and Fortran.
+Available since: Thu Nov 22 13:31:36 2001 UTC
+Download: RPMS/m68kmint/gdb-5.0-4.m68kmint.rpm
+Package size: 959,547 bytes
+Installed size: 1,734,566 bytes
+Sources: SRPMS/gdb-5.0-4.src.rpm
+
+gdbm, version 1.8.0, release 2
+Group: Development/Libraries
+Summary: GNU database library for C
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/gdbm-1.8.0-2.m68kmint.rpm
+Package size: 29,901 bytes
+Installed size: 45,105 bytes
+Sources: SRPMS/gdbm-1.8.0-2.src.rpm
+
+gemlib, version 0.43.6, release 1
+Group: Development/Libraries
+Summary: GEM libraries and header files
+Available since: Tue Jan  3 09:24:33 2006 UTC
+Download: RPMS/m68kmint/gemlib-0.43.6-1.m68kmint.rpm
+Package size: 120,633 bytes
+Installed size: 579,165 bytes
+Sources: SRPMS/gemlib-0.43.6-1.src.rpm
+
+gettext, version 0.12.1, release 1
+Group: Development/Tools
+Summary: Libraries and utilties for program national language support
+Available since: Thu Mar 11 14:54:23 2004 UTC
+Download: RPMS/m68kmint/gettext-0.12.1-1.m68kmint.rpm
+Package size: 10,746,671 bytes
+Installed size: 18,745,273 bytes
+Sources: SRPMS/gettext-0.12.1-1.src.rpm
+
+ghostscript-68000, version 6.50, release 2
+Group: Applications/Graphics
+Summary: A PostScript(TM) interpreter and renderer.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/ghostscript-68000-6.50-2.m68kmint.rpm
+Package size: 2,589,376 bytes
+Installed size: 6,973,074 bytes
+Sources: SRPMS/ghostscript-68000-6.50-2.src.rpm
+
+ghostscript, version 8.15, release 1
+Group: Applications/Graphics
+Summary: A PostScript(TM) interpreter and renderer.
+Available since: Wed Nov 10 10:42:50 2004 UTC
+Download: RPMS/m68kmint/ghostscript-8.15-1.m68kmint.rpm
+Package size: 3,025,059 bytes
+Installed size: 8,247,955 bytes
+Sources: SRPMS/ghostscript-8.15-1.src.rpm
+
+ghostscript-fonts, version 6.0, release 1
+Group: Applications/Publishing
+Summary: Fonts for the Ghostscript PostScript(TM) interpreter.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/noarch/ghostscript-fonts-6.0-1.noarch.rpm
+Package size: 824,994 bytes
+Installed size: 1,503,994 bytes
+Sources: SRPMS/ghostscript-fonts-6.0-1.src.rpm
+
+giftrans, version 1.12.2, release 3
+Group: Applications/Multimedia
+Summary: A program for making transparent GIFs from non-transparent GIFs.
+Available since: Tue Sep  7 11:10:42 1999 UTC
+Download: RPMS/m68kmint/giftrans-1.12.2-3.m68kmint.rpm
+Package size: 42,146 bytes
+Installed size: 80,920 bytes
+Sources: SRPMS/giftrans-1.12.2-3.src.rpm
+
+git, version 4.3.20, release 1
+Group: Applications/File
+Summary: A set of GNU Interactive Tools.
+Available since: Tue Mar  2 19:52:47 2004 UTC
+Download: RPMS/m68kmint/git-4.3.20-1.m68kmint.rpm
+Package size: 648,316 bytes
+Installed size: 1,880,023 bytes
+Sources: SRPMS/git-4.3.20-1.src.rpm
+
+glib, version 1.2.8, release 2
+Group: Libraries
+Summary: Handy library of utility functions
+Available since: Sun Sep 11 11:36:07 2011 UTC
+Download: RPMS/m68kmint/glib-1.2.8-2.m68kmint.rpm
+Package size: 183,013 bytes
+Installed size: 515,116 bytes
+Sources: SRPMS/glib-1.2.8-2.src.rpm
+
+glib2, version 2.2.3, release 1
+Group: System/Libraries
+Summary: A library of handy utility functions.
+Available since: Thu Jan 22 23:48:24 2004 UTC
+Download: RPMS/m68kmint/glib2-2.2.3-1.m68kmint.rpm
+Package size: 279,219 bytes
+Installed size: 727,332 bytes
+Sources: SRPMS/glib2-2.2.3-1.src.rpm
+
+glib2-devel, version 2.2.3, release 1
+Group: Development/C
+Summary: GIMP Toolkit and GIMP Drawing Kit support library
+Available since: Thu Jan 22 23:48:36 2004 UTC
+Download: RPMS/m68kmint/glib2-devel-2.2.3-1.m68kmint.rpm
+Package size: 1,897,388 bytes
+Installed size: 6,843,922 bytes
+Sources: SRPMS/glib2-2.2.3-1.src.rpm
+
+gmp, version 4.2.4, release 1
+Group: System Environment/Libraries
+Summary: GNU Arbitrary Precision Arithmetic Library
+Available since: Wed May 26 16:11:24 2010 UTC
+Download: RPMS/m68kmint/gmp-4.2.4-1.m68kmint.rpm
+Package size: 271,937 bytes
+Installed size: 897,656 bytes
+Sources: SRPMS/gmp-4.2.4-1.src.rpm
+
+gnotepad+, version 1.3.3, release 1
+Group: Applications/System
+Summary: Extremely simple, and feature-rich, HTML/text editor for GTK/GNOME.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/gnotepad+-1.3.3-1.m68kmint.rpm
+Package size: 912,488 bytes
+Installed size: 2,092,619 bytes
+Sources: SRPMS/gnotepad+-1.3.3-1.src.rpm
+
+gnubg, version 0.02, release 3
+Group: Games
+Summary: GNU Backgammon
+Available since: Fri Nov 24 10:55:14 2000 UTC
+Download: RPMS/m68kmint/gnubg-0.02-3.m68kmint.rpm
+Package size: 3,124,329 bytes
+Installed size: 6,706,076 bytes
+Sources: SRPMS/gnubg-0.02-3.src.rpm
+
+gnupg, version 1.0.4, release 2
+Group: Applications/Cryptography
+Summary: A GNU utility for secure communication and data storage.
+Available since: Thu Feb 22 23:46:14 2001 UTC
+Download: RPMS/m68kmint/gnupg-1.0.4-2.m68kmint.rpm
+Package size: 952,592 bytes
+Installed size: 2,246,092 bytes
+Sources: SRPMS/gnupg-1.0.4-2.src.rpm
+
+gogetty, version 0.1.6, release 1
+Group: Utilities/Terminal
+Summary: A simple getty.
+Available since: Mon Mar 10 10:03:16 2003 UTC
+Download: RPMS/m68kmint/gogetty-0.1.6-1.m68kmint.rpm
+Package size: 118,517 bytes
+Installed size: 239,386 bytes
+Sources: SRPMS/gogetty-0.1.6-1.src.rpm
+
+gperf, version 2.7, release 1
+Group: Development/Tools
+Summary: A perfect hash function generator.
+Available since: Sun Feb 13 22:16:32 2000 UTC
+Download: RPMS/m68kmint/gperf-2.7-1.m68kmint.rpm
+Package size: 90,164 bytes
+Installed size: 185,167 bytes
+Sources: SRPMS/gperf-2.7-1.src.rpm
+
+gphoto, version 0.4.3, release 1
+Group: Applications/Graphics
+Summary: gPhoto - the GNU Digital Still Camera Program
+Available since: Wed Apr 18 18:51:46 2001 UTC
+Download: RPMS/m68kmint/gphoto-0.4.3-1.m68kmint.rpm
+Package size: 3,186,603 bytes
+Installed size: 6,922,952 bytes
+Sources: SRPMS/gphoto-0.4.3-1.src.rpm
+
+grep, version 2.4.2, release 1
+Group: Applications/Text
+Summary: The GNU versions of grep pattern matching utilities.
+Available since: Thu Mar 22 12:09:03 2001 UTC
+Download: RPMS/m68kmint/grep-2.4.2-1.m68kmint.rpm
+Package size: 402,850 bytes
+Installed size: 871,948 bytes
+Sources: SRPMS/grep-2.4.2-1.src.rpm
+
+groff, version 1.15, release 3
+Group: Applications/Publishing
+Summary: A document formatting system.
+Available since: Wed May 10 11:27:42 2000 UTC
+Download: RPMS/m68kmint/groff-1.15-3.m68kmint.rpm
+Package size: 2,337,063 bytes
+Installed size: 6,046,608 bytes
+Sources: SRPMS/groff-1.15-3.src.rpm
+
+groff-perl, version 1.15, release 3
+Group: Applications/Publishing
+Summary: Parts of the groff formatting system that require Perl.
+Available since: Wed May 10 11:27:44 2000 UTC
+Download: RPMS/m68kmint/groff-perl-1.15-3.m68kmint.rpm
+Package size: 9,397 bytes
+Installed size: 14,201 bytes
+Sources: SRPMS/groff-1.15-3.src.rpm
+
+gsm, version 1.0.10, release 1
+Group: Applications/Multimedia
+Summary: gsm
+Available since: Fri Feb 23 01:57:03 2001 UTC
+Download: RPMS/m68kmint/gsm-1.0.10-1.m68kmint.rpm
+Package size: 237,932 bytes
+Installed size: 548,469 bytes
+Sources: SRPMS/gsm-1.0.10-1.src.rpm
+
+gtk+, version 1.2.8, release 2
+Group: Development/Libraries
+Summary: The GIMP ToolKit (GTK+), a library for creating GUIs for X.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/gtk+-1.2.8-2.m68kmint.rpm
+Package size: 1,365,441 bytes
+Installed size: 4,478,522 bytes
+Sources: SRPMS/gtk+-1.2.8-2.src.rpm
+
+gtk-imonc, version 0.1, release 1
+Group: Applications/Internet
+Summary: GTK-Imonc - GTK+ based imond client for MiNT
+Available since: Fri Sep 21 06:49:24 2001 UTC
+Download: RPMS/m68kmint/gtk-imonc-0.1-1.m68kmint.rpm
+Package size: 700,647 bytes
+Installed size: 1,413,626 bytes
+Sources: SRPMS/gtk-imonc-0.1-1.src.rpm
+
+gv, version 3.5.8, release 2
+Group: Applications/Publishing
+Summary: A X front-end for the Ghostscript PostScript(TM) interpreter.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/gv-3.5.8-2.m68kmint.rpm
+Package size: 741,932 bytes
+Installed size: 1,470,692 bytes
+Sources: SRPMS/gv-3.5.8-2.src.rpm
+
+gzip, version 1.3, release 1
+Group: Applications/File
+Summary: The GNU data compression program.
+Available since: Fri Sep  7 12:30:08 2001 UTC
+Download: RPMS/m68kmint/gzip-1.3-1.m68kmint.rpm
+Package size: 122,907 bytes
+Installed size: 509,026 bytes
+Sources: SRPMS/gzip-1.3-1.src.rpm
+
+hexcurse, version 1.55, release 2
+Group: Applications/Editors
+Summary: Binary Hexadecimal Editor
+Available since: Tue Sep  7 17:27:36 2004 UTC
+Download: RPMS/m68kmint/hexcurse-1.55-2.m68kmint.rpm
+Package size: 124,455 bytes
+Installed size: 261,127 bytes
+Sources: SRPMS/hexcurse-1.55-2.src.rpm
+
+hexedit, version 1.0.0, release 1
+Group: Applications/Editors
+Summary: Show a file both in ASCII and in hexadecimal.
+Available since: Thu Sep 23 23:32:15 1999 UTC
+Download: RPMS/m68kmint/hexedit-1.0.0-1.m68kmint.rpm
+Package size: 80,528 bytes
+Installed size: 155,892 bytes
+Sources: SRPMS/hexedit-1.0.0-1.src.rpm
+
+hostname, version 2.07, release 1
+Group: Base System/Networking
+Summary: A utility to set/show the host name or domain name
+Available since: Fri Sep  7 11:27:42 2001 UTC
+Download: RPMS/m68kmint/hostname-2.07-1.m68kmint.rpm
+Package size: 120,094 bytes
+Installed size: 347,891 bytes
+Sources: SRPMS/hostname-2.07-1.src.rpm
+
+hypermail, version 2b29, release 2
+Group: Applications/Mail
+Summary: Converts UNIX mailbox files into a set of HTML pages
+Available since: Fri Apr 28 23:45:16 2000 UTC
+Download: RPMS/m68kmint/hypermail-2b29-2.m68kmint.rpm
+Package size: 292,386 bytes
+Installed size: 648,301 bytes
+Sources: SRPMS/hypermail-2b29-2.src.rpm
+
+ImageMagick, version 5.3.6, release 1
+Group: Applications/Multimedia
+Summary: An X application for displaying and manipulating images.
+Available since: Thu Jul 19 11:26:54 2001 UTC
+Download: RPMS/m68kmint/ImageMagick-5.3.6-1.m68kmint.rpm
+Package size: 16,680,191 bytes
+Installed size: 34,202,245 bytes
+Sources: SRPMS/ImageMagick-5.3.6-1.src.rpm
+
+ImageMagick-devel, version 5.3.6, release 1
+Group: Development/Libraries
+Summary: Static libraries and header files for ImageMagick app development.
+Available since: Thu Jul 19 11:28:42 2001 UTC
+Download: RPMS/m68kmint/ImageMagick-devel-5.3.6-1.m68kmint.rpm
+Package size: 832,239 bytes
+Installed size: 2,537,168 bytes
+Sources: SRPMS/ImageMagick-5.3.6-1.src.rpm
+
+imlib-cfgeditor, version 1.9.8.1, release 1
+Group: System Environment/Libraries
+Summary: A configuration editor for the Imlib library.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/imlib-cfgeditor-1.9.8.1-1.m68kmint.rpm
+Package size: 1,116,819 bytes
+Installed size: 2,173,142 bytes
+Sources: SRPMS/imlib-1.9.8.1-1.src.rpm
+
+imlib-devel, version 1.9.8.1, release 1
+Group: Development/Libraries
+Summary: Development tools for Imlib applications.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/imlib-devel-1.9.8.1-1.m68kmint.rpm
+Package size: 211,260 bytes
+Installed size: 500,169 bytes
+Sources: SRPMS/imlib-1.9.8.1-1.src.rpm
+
+imonc, version 20010125, release 1
+Group: Applications/Internet
+Summary: Client imonc for MiNT
+Available since: Thu Sep 20 15:26:37 2001 UTC
+Download: RPMS/m68kmint/imonc-20010125-1.m68kmint.rpm
+Package size: 157,103 bytes
+Installed size: 334,889 bytes
+Sources: SRPMS/imonc-20010125-1.src.rpm
+
+indent, version 2.2.5, release 3
+Group: Applications/Text
+Summary: A GNU program for formatting C code.
+Available since: Sat May  6 14:44:27 2000 UTC
+Download: RPMS/m68kmint/indent-2.2.5-3.m68kmint.rpm
+Package size: 125,043 bytes
+Installed size: 245,781 bytes
+Sources: SRPMS/indent-2.2.5-3.src.rpm
+
+indexhtml, version 1.0, release 1
+Group: Documentation
+Summary: The HTML welcome page you'll see after installing Sparemint.
+Available since: Thu Aug 12 06:22:46 1999 UTC
+Download: RPMS/noarch/indexhtml-1.0-1.noarch.rpm
+Package size: 3,418 bytes
+Installed size: 3,854 bytes
+Sources: SRPMS/indexhtml-1.0-1.src.rpm
+
+inetd, version 0.17, release 5
+Group: System Environment/Daemons
+Summary: The inetd internet super daemon.
+Available since: Wed Nov 14 16:59:48 2001 UTC
+Download: RPMS/m68kmint/inetd-0.17-5.m68kmint.rpm
+Package size: 73,155 bytes
+Installed size: 133,619 bytes
+Sources: SRPMS/inetd-0.17-5.src.rpm
+
+info, version 4.0, release 2
+Group: Utilities/System
+Summary: A standalone TTY-based reader for GNU texinfo documentation.
+Available since: Mon Sep 17 09:28:54 2001 UTC
+Download: RPMS/m68kmint/info-4.0-2.m68kmint.rpm
+Package size: 240,945 bytes
+Installed size: 431,493 bytes
+Sources: SRPMS/texinfo-4.0-2.src.rpm
+
+info2html, version 1.1, release 1
+Group: Utilities/System
+Summary: info to html converter
+Available since: Fri Nov 24 10:42:48 2000 UTC
+Download: RPMS/m68kmint/info2html-1.1-1.m68kmint.rpm
+Package size: 7,691 bytes
+Installed size: 21,221 bytes
+Sources: SRPMS/info2html-1.1-1.src.rpm
+
+initscripts, version 1.3, release 2
+Group: System Environment/Base
+Summary: Some simple init scripts.
+Available since: Wed Aug 11 19:34:36 2004 UTC
+Download: RPMS/m68kmint/initscripts-1.3-2.m68kmint.rpm
+Package size: 84,045 bytes
+Installed size: 163,839 bytes
+Sources: SRPMS/initscripts-1.3-2.src.rpm
+
+intimed, version 1.10, release 2
+Group: System Environment/Daemons
+Summary: A time server for synchronizing networked machines' clocks.
+Available since: Tue Sep  7 11:10:42 1999 UTC
+Download: RPMS/m68kmint/intimed-1.10-2.m68kmint.rpm
+Package size: 25,844 bytes
+Installed size: 46,188 bytes
+Sources: SRPMS/intimed-1.10-2.src.rpm
+
+irssi, version 0.8.4, release 2
+Group: Applications/Internet
+Summary: IRC-Client. Mixture of bitchX and IRCII
+Available since: Fri Apr 26 23:15:28 2002 UTC
+Download: RPMS/m68kmint/irssi-0.8.4-2.m68kmint.rpm
+Package size: 828,557 bytes
+Installed size: 2,004,707 bytes
+Sources: SRPMS/irssi-0.8.4-2.src.rpm
+
+ispell, version 3.1.20, release 1
+Group: Applications/Text
+Summary: The GNU interactive spelling checker program.
+Available since: Sat Sep 11 14:57:52 1999 UTC
+Download: RPMS/m68kmint/ispell-3.1.20-1.m68kmint.rpm
+Package size: 1,684,938 bytes
+Installed size: 4,278,355 bytes
+Sources: SRPMS/ispell-3.1.20-1.src.rpm
+
+itcl, version 3.0.1, release 1
+Group: Development/Languages
+Summary: Object-oriented mega-widgets for Tcl.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/itcl-3.0.1-1.m68kmint.rpm
+Package size: 815,807 bytes
+Installed size: 3,537,394 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+jed, version 0.99.16, release 2
+Group: Applications/Editors
+Summary: A fast, compact editor based on the slang screen library.
+Available since: Tue Mar  2 19:54:17 2004 UTC
+Download: RPMS/m68kmint/jed-0.99.16-2.m68kmint.rpm
+Package size: 481,840 bytes
+Installed size: 1,192,900 bytes
+Sources: SRPMS/jed-0.99.16-2.src.rpm
+
+jed-common, version 0.99.16, release 2
+Group: Applications/Editors
+Summary: Files needed by any Jed editor.
+Available since: Tue Mar  2 19:56:53 2004 UTC
+Download: RPMS/m68kmint/jed-common-0.99.16-2.m68kmint.rpm
+Package size: 753,519 bytes
+Installed size: 2,542,044 bytes
+Sources: SRPMS/jed-0.99.16-2.src.rpm
+
+joe, version 2.8, release 1
+Group: Applications/Editors
+Summary: An easy to use, modeless text editor.
+Available since: Thu Sep 23 23:32:15 1999 UTC
+Download: RPMS/m68kmint/joe-2.8-1.m68kmint.rpm
+Package size: 145,952 bytes
+Installed size: 325,362 bytes
+Sources: SRPMS/joe-2.8-1.src.rpm
+
+jpilot, version 0.99.5, release 1
+Group: Applications/Productivity
+Summary: palm pilot desktop for Linux
+Available since: Fri Apr 11 13:53:42 2003 UTC
+Download: RPMS/m68kmint/jpilot-0.99.5-1.m68kmint.rpm
+Package size: 3,525,352 bytes
+Installed size: 7,843,766 bytes
+Sources: SRPMS/jpilot-0.99.5-1.src.rpm
+
+junkbuster, version 2.0.2, release 1
+Group: Networking/Utilities
+Summary: The Internet Junkbuster v2.0.2
+Available since: Mon Sep 25 21:55:49 2000 UTC
+Download: RPMS/m68kmint/junkbuster-2.0.2-1.m68kmint.rpm
+Package size: 147,623 bytes
+Installed size: 356,163 bytes
+Sources: SRPMS/junkbuster-2.0.2-1.src.rpm
+
+jupp, version 3.1jupp18, release 1.14
+Group: Productivity/Editors/Other
+Summary: Wordstar compatible Text Editor which sucks less
+Available since: Mon Mar 26 18:56:36 2012 UTC
+Download: RPMS/m68kmint/jupp-3.1jupp18-1.14.m68kmint.rpm
+Package size: 405,992 bytes
+Installed size: 1,029,655 bytes
+Sources: SRPMS/jupp-3.1jupp18-1.14.src.rpm
+
+ldg-dev, version 2.33, release 2
+Group: Development/Libraries
+Summary: LDG development library and header file
+Available since: Fri Nov  5 18:53:17 2010 UTC
+Download: RPMS/m68kmint/ldg-dev-2.33-2.m68kmint.rpm
+Package size: 7,774 bytes
+Installed size: 17,254 bytes
+Sources: SRPMS/ldg-dev-2.33-2.src.rpm
+
+less, version 458, release 1
+Group: Applications/Text
+Summary: A text file browser similar to more, but better.
+Available since: Fri Dec 20 19:03:19 2013 UTC
+Download: RPMS/m68kmint/less-458-1.m68kmint.rpm
+Package size: 274,909 bytes
+Installed size: 486,023 bytes
+Sources: SRPMS/less-458-1.src.rpm
+
+lesstif-clients, version 0.92.6, release 1
+Group: Development/Tools
+Summary: Lesstif clients.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/lesstif-clients-0.92.6-1.m68kmint.rpm
+Package size: 1,716,428 bytes
+Installed size: 3,558,543 bytes
+Sources: SRPMS/lesstif-0.92.6-1.src.rpm
+
+lesstif-devel, version 0.92.6, release 1
+Group: Development/Libraries
+Summary: Static library and header files for LessTif/Motif development.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/lesstif-devel-0.92.6-1.m68kmint.rpm
+Package size: 13,210,030 bytes
+Installed size: 38,358,497 bytes
+Sources: SRPMS/lesstif-0.92.6-1.src.rpm
+
+lesstif-mwm, version 0.92.6, release 1
+Group: User Interface/Desktops
+Summary: Lesstif Motif window manager clone based on fvwm.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/lesstif-mwm-0.92.6-1.m68kmint.rpm
+Package size: 847,247 bytes
+Installed size: 1,740,653 bytes
+Sources: SRPMS/lesstif-0.92.6-1.src.rpm
+
+lha, version 1.14i, release 1
+Group: Applications/Archiving
+Summary: An archiving and compression utility for LHarc format archives.
+Available since: Fri Mar 30 21:50:14 2001 UTC
+Download: RPMS/m68kmint/lha-1.14i-1.m68kmint.rpm
+Package size: 72,042 bytes
+Installed size: 134,718 bytes
+Sources: SRPMS/lha-1.14i-1.src.rpm
+
+libgc-devel, version 5.3, release 1
+Group: Development/Libraries
+Summary: Boehm Conservative Garbage Collection for C/C++
+Available since: Thu Jun 21 17:38:12 2001 UTC
+Download: RPMS/m68kmint/libgc-devel-5.3-1.m68kmint.rpm
+Package size: 159,387 bytes
+Installed size: 469,206 bytes
+Sources: SRPMS/libgc-5.3-1.src.rpm
+
+libiberty, version 2.21, release 1
+Group: Development/Libraries
+Summary: GNU libiberty and coding standards.
+Available since: Mon Dec 20 17:08:43 2010 UTC
+Download: RPMS/m68kmint/libiberty-2.21-1.m68kmint.rpm
+Package size: 331,709 bytes
+Installed size: 714,417 bytes
+Sources: SRPMS/binutils-2.21-1.src.rpm
+
+libiconv, version 1.13.1, release 1
+Group: Development/Libraries
+Summary: libiconv - character set conversion library
+Available since: Thu Dec 16 21:42:51 2010 UTC
+Download: RPMS/m68kmint/libiconv-1.13.1-1.m68kmint.rpm
+Package size: 841,084 bytes
+Installed size: 1,354,790 bytes
+Sources: SRPMS/libiconv-1.13.1-1.src.rpm
+
+libjpeg, version 8b, release 2
+Group: Development/Libraries
+Summary: Library for handling different jpeg files.
+Available since: Wed Dec 15 12:50:17 2010 UTC
+Download: RPMS/m68kmint/libjpeg-8b-2.m68kmint.rpm
+Package size: 535,550 bytes
+Installed size: 1,029,049 bytes
+Sources: SRPMS/libjpeg-8b-2.src.rpm
+
+libjpeg-devel, version 8b, release 2
+Group: Development/Libraries
+Summary: headers and static libraries for developing programs using libjpeg
+Available since: Wed Dec 15 12:50:31 2010 UTC
+Download: RPMS/m68kmint/libjpeg-devel-8b-2.m68kmint.rpm
+Package size: 160,166 bytes
+Installed size: 379,284 bytes
+Sources: SRPMS/libjpeg-8b-2.src.rpm
+
+libmad, version 0.15.1b, release 1
+Group: Development/Libraries
+Summary: MAD (libmad) is a high-quality MPEG audio decoder
+Available since: Fri Nov  5 18:53:18 2010 UTC
+Download: RPMS/m68kmint/libmad-0.15.1b-1.m68kmint.rpm
+Package size: 255,283 bytes
+Installed size: 436,200 bytes
+Sources: SRPMS/libmad-0.15.1b-1.src.rpm
+
+libmikmod, version 3.1.11, release 1
+Group: Libraries
+Summary: libmikmod sound library
+Available since: Mon Apr  7 06:31:10 2008 UTC
+Download: RPMS/m68kmint/libmikmod-3.1.11-1.m68kmint.rpm
+Package size: 29,770 bytes
+Installed size: 79,284 bytes
+Sources: SRPMS/libmikmod-3.1.11-1.src.rpm
+
+libmikmod-devel, version 3.1.11, release 1
+Group: Libraries
+Summary: Libraries and include files to develop libmikmod applications
+Available since: Mon Apr  7 06:31:15 2008 UTC
+Download: RPMS/m68kmint/libmikmod-devel-3.1.11-1.m68kmint.rpm
+Package size: 143,933 bytes
+Installed size: 322,436 bytes
+Sources: SRPMS/libmikmod-3.1.11-1.src.rpm
+
+libogg, version 1.2.0, release 1
+Group: Development/Libraries
+Summary: Ogg Bitstream Library Development
+Available since: Fri Nov  5 18:53:19 2010 UTC
+Download: RPMS/m68kmint/libogg-1.2.0-1.m68kmint.rpm
+Package size: 28,256 bytes
+Installed size: 75,045 bytes
+Sources: SRPMS/libogg-1.2.0-1.src.rpm
+
+libpcap, version 0.6.2, release 2
+Group: Development/Libraries
+Summary: A system-independent interface for user-level packet capture.
+Available since: Fri Sep 28 14:33:14 2001 UTC
+Download: RPMS/m68kmint/libpcap-0.6.2-2.m68kmint.rpm
+Package size: 59,961 bytes
+Installed size: 121,874 bytes
+Sources: SRPMS/tcpdump-3.6.2-2.src.rpm
+
+libpng, version 1.5.9, release 1
+Group: Development/Libraries
+Summary: A library of functions for manipulating PNG image format files.
+Available since: Thu Mar  1 23:30:47 2012 UTC
+Download: RPMS/m68kmint/libpng-1.5.9-1.m68kmint.rpm
+Package size: 567,713 bytes
+Installed size: 1,321,724 bytes
+Sources: SRPMS/libpng-1.5.9-1.src.rpm
+
+libtar, version 1.2.3, release 1
+Group: Development/Libraries
+Summary: libtar - C library for manipulating tar files
+Available since: Tue Jun 26 23:40:08 2001 UTC
+Download: RPMS/m68kmint/libtar-1.2.3-1.m68kmint.rpm
+Package size: 41,892 bytes
+Installed size: 67,611 bytes
+Sources: SRPMS/libtar-1.2.3-1.src.rpm
+
+libtermcap, version 2.0.8, release 4
+Group: Libraries
+Summary: library for accessing the termcap database
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/libtermcap-2.0.8-4.m68kmint.rpm
+Package size: 48,118 bytes
+Installed size: 44,661 bytes
+Sources: SRPMS/libtermcap-2.0.8-4.src.rpm
+
+libtermcap-devel, version 2.0.8, release 4
+Group: Libraries
+Summary: development libraries and header files for termcap library
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/libtermcap-devel-2.0.8-4.m68kmint.rpm
+Package size: 18,293 bytes
+Installed size: 35,385 bytes
+Sources: SRPMS/libtermcap-2.0.8-4.src.rpm
+
+libtiff, version 3.5.5, release 1
+Group: Development/Libraries
+Summary: A library of functions for manipulating TIFF format image files.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/libtiff-3.5.5-1.m68kmint.rpm
+Package size: 1,837,375 bytes
+Installed size: 4,968,820 bytes
+Sources: SRPMS/libtiff-3.5.5-1.src.rpm
+
+libtiff-devel, version 3.5.5, release 1
+Group: Development/Libraries
+Summary: headers and static libraries for developing programs using libtiff
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/libtiff-devel-3.5.5-1.m68kmint.rpm
+Package size: 442,998 bytes
+Installed size: 943,774 bytes
+Sources: SRPMS/libtiff-3.5.5-1.src.rpm
+
+libtool, version 2.2.8, release 1
+Group: Development/Tools
+Summary: The GNU libtool, which simplifies the use of shared libraries.
+Available since: Fri Nov  5 18:53:20 2010 UTC
+Download: RPMS/m68kmint/libtool-2.2.8-1.m68kmint.rpm
+Package size: 602,417 bytes
+Installed size: 2,078,022 bytes
+Sources: SRPMS/libtool-2.2.8-1.src.rpm
+
+libungif-devel, version 4.1.0, release 1
+Group: Development/Libraries
+Summary: Development tools for programs which will use the libungif library.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/libungif-devel-4.1.0-1.m68kmint.rpm
+Package size: 138,052 bytes
+Installed size: 389,564 bytes
+Sources: SRPMS/libungif-4.1.0-1.src.rpm
+
+libungif-progs, version 4.1.0, release 1
+Group: Applications/Multimedia
+Summary: Programs for manipulating GIF format image files.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/libungif-progs-4.1.0-1.m68kmint.rpm
+Package size: 2,294,544 bytes
+Installed size: 4,849,263 bytes
+Sources: SRPMS/libungif-4.1.0-1.src.rpm
+
+libutf8-devel, version 0.8, release 1
+Group: Development/Libraries
+Summary: Library for UTF-8 locale support
+Available since: Mon Jul  9 14:06:48 2001 UTC
+Download: RPMS/m68kmint/libutf8-devel-0.8-1.m68kmint.rpm
+Package size: 149,242 bytes
+Installed size: 335,297 bytes
+Sources: SRPMS/libutf8-0.8-1.src.rpm
+
+libvorbis, version 1.3.1, release 1
+Group: Development/Libraries
+Summary: Vorbis Library Development
+Available since: Fri Nov  5 18:53:21 2010 UTC
+Download: RPMS/m68kmint/libvorbis-1.3.1-1.m68kmint.rpm
+Package size: 1,113,776 bytes
+Installed size: 6,632,765 bytes
+Sources: SRPMS/libvorbis-1.3.1-1.src.rpm
+
+libwmf, version 0.2.2, release 1
+Group: Development/Libraries
+Summary: library and utilities for displaying and converting metafile images
+Available since: Tue Nov  6 15:50:28 2001 UTC
+Download: RPMS/m68kmint/libwmf-0.2.2-1.m68kmint.rpm
+Package size: 5,875,676 bytes
+Installed size: 11,668,601 bytes
+Sources: SRPMS/libwmf-0.2.2-1.src.rpm
+
+libxml, version 1.8.9, release 1
+Group: System Environment/Libraries
+Summary: An XML library.
+Available since: Fri Apr 27 20:52:07 2001 UTC
+Download: RPMS/m68kmint/libxml-1.8.9-1.m68kmint.rpm
+Package size: 109,594 bytes
+Installed size: 974,841 bytes
+Sources: SRPMS/libxml-1.8.9-1.src.rpm
+
+libxml-devel, version 1.8.9, release 1
+Group: Development/Libraries
+Summary: Libraries, includes and other files to develop libxml applications.
+Available since: Fri Apr 27 20:52:07 2001 UTC
+Download: RPMS/m68kmint/libxml-devel-1.8.9-1.m68kmint.rpm
+Package size: 145,157 bytes
+Installed size: 463,127 bytes
+Sources: SRPMS/libxml-1.8.9-1.src.rpm
+
+libxml2, version 2.4.20, release 1
+Group: Development/Libraries
+Summary: Library providing XML and HTML support
+Available since: Sat Apr 27 07:57:19 2002 UTC
+Download: RPMS/m68kmint/libxml2-2.4.20-1.m68kmint.rpm
+Package size: 1,495,361 bytes
+Installed size: 2,689,315 bytes
+Sources: SRPMS/libxml2-2.4.20-1.src.rpm
+
+libxml2-devel, version 2.4.20, release 1
+Group: Development/Libraries
+Summary: Libraries, includes, etc. to develop XML and HTML applications
+Available since: Sat Apr 27 07:57:19 2002 UTC
+Download: RPMS/m68kmint/libxml2-devel-2.4.20-1.m68kmint.rpm
+Package size: 839,776 bytes
+Installed size: 4,555,968 bytes
+Sources: SRPMS/libxml2-2.4.20-1.src.rpm
+
+logrotate, version 3.5.9, release 1
+Group: System Environment/Base
+Summary: Rotates, compresses, removes and mails system log files.
+Available since: Fri Sep 28 21:59:00 2001 UTC
+Download: RPMS/m68kmint/logrotate-3.5.9-1.m68kmint.rpm
+Package size: 91,166 bytes
+Installed size: 183,872 bytes
+Sources: SRPMS/logrotate-3.5.9-1.src.rpm
+
+lrzsz, version 0.12.20, release 1
+Group: Applications/Communications
+Summary: lrzsz - sz, rz, and friends
+Available since: Wed Mar 14 19:08:38 2001 UTC
+Download: RPMS/m68kmint/lrzsz-0.12.20-1.m68kmint.rpm
+Package size: 235,943 bytes
+Installed size: 1,321,695 bytes
+Sources: SRPMS/lrzsz-0.12.20-1.src.rpm
+
+lynx, version 2.8.1, release 2
+Group: Applications/Internet
+Summary: A text-based Web browser.
+Available since: Thu Aug 26 07:53:18 1999 UTC
+Download: RPMS/m68kmint/lynx-2.8.1-2.m68kmint.rpm
+Package size: 823,667 bytes
+Installed size: 2,140,285 bytes
+Sources: SRPMS/lynx-2.8.1-2.src.rpm
+
+lynx-ssl, version 2.8.4, release 1
+Group: Applications/Internet
+Summary: A text-based Web browser.
+Available since: Fri Nov  2 20:42:08 2001 UTC
+Download: RPMS/m68kmint/lynx-ssl-2.8.4-1.m68kmint.rpm
+Package size: 1,218,662 bytes
+Installed size: 2,912,483 bytes
+Sources: SRPMS/lynx-ssl-2.8.4-1.src.rpm
+
+lzip, version 1.5, release 1
+Group: System Environment/Libraries
+Summary: Data compression utility using LZMA with fast decompress
+Available since: Wed May 26 16:11:26 2010 UTC
+Download: RPMS/m68kmint/lzip-1.5-1.m68kmint.rpm
+Package size: 225,840 bytes
+Installed size: 458,555 bytes
+Sources: SRPMS/lzip-1.5-1.src.rpm
+
+lzo, version 2.03, release 1
+Group: System Environment/Libraries
+Summary: Data compression library with very fast (de)compression
+Available since: Wed May 26 16:11:26 2010 UTC
+Download: RPMS/m68kmint/lzo-2.03-1.m68kmint.rpm
+Package size: 65,249 bytes
+Installed size: 324,505 bytes
+Sources: SRPMS/lzo-2.03-1.src.rpm
+
+m4, version 1.4.15, release 1
+Group: Applications/Text
+Summary: The GNU macro processor.
+Available since: Fri Nov  5 18:53:22 2010 UTC
+Download: RPMS/m68kmint/m4-1.4.15-1.m68kmint.rpm
+Package size: 359,667 bytes
+Installed size: 695,827 bytes
+Sources: SRPMS/m4-1.4.15-1.src.rpm
+
+macutils, version 2.0b3, release 2
+Group: Applications/System
+Summary: Utilities for manipulating Macintosh file formats.
+Available since: Thu Sep 23 23:32:15 1999 UTC
+Download: RPMS/m68kmint/macutils-2.0b3-2.m68kmint.rpm
+Package size: 267,017 bytes
+Installed size: 527,972 bytes
+Sources: SRPMS/macutils-2.0b3-2.src.rpm
+
+mailx, version 8.1.1, release 1
+Group: Applications/Internet
+Summary: The /bin/mail program, which is used to send mail via shell scripts.
+Available since: Sat Sep 11 14:41:43 1999 UTC
+Download: RPMS/m68kmint/mailx-8.1.1-1.m68kmint.rpm
+Package size: 71,882 bytes
+Installed size: 126,102 bytes
+Sources: SRPMS/mailx-8.1.1-1.src.rpm
+
+make, version 3.82, release 1
+Group: Development/Tools
+Summary: A GNU tool which simplifies the build process for users.
+Available since: Fri Aug 13 20:52:23 2010 UTC
+Download: RPMS/m68kmint/make-3.82-1.m68kmint.rpm
+Package size: 357,938 bytes
+Installed size: 553,916 bytes
+Sources: SRPMS/make-3.82-1.src.rpm
+
+man, version 1.5g, release 4
+Group: System Environment/Base
+Summary: A set of documentation tools: man, apropos and whatis.
+Available since: Thu Nov  8 12:22:26 2001 UTC
+Download: RPMS/m68kmint/man-1.5g-4.m68kmint.rpm
+Package size: 181,689 bytes
+Installed size: 392,353 bytes
+Sources: SRPMS/man-1.5g-4.src.rpm
+
+mawk, version 1.3.3, release 1
+Group: Applications/Text
+Summary: An interpreter for the awk programming language.
+Available since: Fri Nov 14 11:49:03 2003 UTC
+Download: RPMS/m68kmint/mawk-1.3.3-1.m68kmint.rpm
+Package size: 134,728 bytes
+Installed size: 292,903 bytes
+Sources: SRPMS/mawk-1.3.3-1.src.rpm
+
+mc, version 4.6.0, release 2
+Group: Applications/File
+Summary: Midnight Commander visual shell
+Available since: Fri Nov 14 11:43:35 2003 UTC
+Download: RPMS/m68kmint/mc-4.6.0-2.m68kmint.rpm
+Package size: 1,904,228 bytes
+Installed size: 4,861,635 bytes
+Sources: SRPMS/mc-4.6.0-2.src.rpm
+
+mgetty, version 1.1.22, release 1
+Group: Applications/Communications
+Summary: A getty replacement for use with data and fax modems.
+Available since: Tue Jan  9 14:05:08 2001 UTC
+Download: RPMS/m68kmint/mgetty-1.1.22-1.m68kmint.rpm
+Package size: 528,659 bytes
+Installed size: 1,176,290 bytes
+Sources: SRPMS/mgetty-1.1.22-1.src.rpm
+
+mgetty-sendfax, version 1.1.22, release 1
+Group: Applications/Communications
+Summary: Provides support for sending faxes over a modem.
+Available since: Tue Jan  9 14:05:24 2001 UTC
+Download: RPMS/m68kmint/mgetty-sendfax-1.1.22-1.m68kmint.rpm
+Package size: 385,800 bytes
+Installed size: 801,353 bytes
+Sources: SRPMS/mgetty-1.1.22-1.src.rpm
+
+mgetty-viewfax, version 1.1.22, release 1
+Group: Applications/Communications
+Summary: An X Window System fax viewer.
+Available since: Tue Jan  9 14:06:52 2001 UTC
+Download: RPMS/m68kmint/mgetty-viewfax-1.1.22-1.m68kmint.rpm
+Package size: 418,050 bytes
+Installed size: 721,478 bytes
+Sources: SRPMS/mgetty-1.1.22-1.src.rpm
+
+mgetty-voice, version 1.1.22, release 1
+Group: Applications/Communications
+Summary: A program for using your modem and mgetty as an answering machine
+Available since: Tue Jan  9 14:06:40 2001 UTC
+Download: RPMS/m68kmint/mgetty-voice-1.1.22-1.m68kmint.rpm
+Package size: 1,921,242 bytes
+Installed size: 4,183,057 bytes
+Sources: SRPMS/mgetty-1.1.22-1.src.rpm
+
+microemacs, version 5.03, release 1
+Group: Applications/Editors
+Summary: microemacs -- a small, although powerful emacs clone.
+Available since: Tue Apr 23 09:18:50 2002 UTC
+Download: RPMS/m68kmint/microemacs-5.03-1.m68kmint.rpm
+Package size: 122,596 bytes
+Installed size: 244,067 bytes
+Sources: SRPMS/microemacs-5.03-1.src.rpm
+
+mikmod, version 3.1.5, release 4
+Group: Applications/Sound
+Summary: MikMod module player
+Available since: Thu Aug 26 08:14:50 1999 UTC
+Download: RPMS/m68kmint/mikmod-3.1.5-4.m68kmint.rpm
+Package size: 164,305 bytes
+Installed size: 333,623 bytes
+Sources: SRPMS/mikmod-3.1.5-4.src.rpm
+
+mingetty, version 0.9.4, release 1
+Group: System Environment/Base
+Summary: A compact getty program for virtual consoles only.
+Available since: Sun Dec 26 02:52:33 1999 UTC
+Download: RPMS/m68kmint/mingetty-0.9.4-1.m68kmint.rpm
+Package size: 49,464 bytes
+Installed size: 93,409 bytes
+Sources: SRPMS/mingetty-0.9.4-1.src.rpm
+
+minicom, version 1.83.1, release 1
+Group: Applications/Communications
+Summary: A text-based modem control and terminal emulation program.
+Available since: Sun Mar  3 00:01:02 2002 UTC
+Download: RPMS/m68kmint/minicom-1.83.1-1.m68kmint.rpm
+Package size: 382,964 bytes
+Installed size: 860,593 bytes
+Sources: SRPMS/minicom-1.83.1-1.src.rpm
+
+mint-util, version 0.3.2, release 2
+Group: System Environment/Base
+Summary: MiNT Utilities
+Available since: Fri Nov  2 20:42:18 2001 UTC
+Download: RPMS/m68kmint/mint-util-0.3.2-2.m68kmint.rpm
+Package size: 1,525,524 bytes
+Installed size: 3,085,130 bytes
+Sources: SRPMS/mint-util-0.3.2-2.src.rpm
+
+mintbin, version 0.3, release 4
+Group: Development/Tools
+Summary: MiNT Binary Utility Development Utilities
+Available since: Sun Jun 13 18:01:13 2010 UTC
+Download: RPMS/m68kmint/mintbin-0.3-4.m68kmint.rpm
+Package size: 592,547 bytes
+Installed size: 2,141,068 bytes
+Sources: SRPMS/mintbin-0.3-4.src.rpm
+
+mintinit, version 0.1.1, release 1
+Group: System Environment/Base
+Summary: The System V system initialization program.
+Available since: Sun Dec 26 02:56:09 1999 UTC
+Download: RPMS/m68kmint/mintinit-0.1.1-1.m68kmint.rpm
+Package size: 345,818 bytes
+Installed size: 677,800 bytes
+Sources: SRPMS/mintinit-0.1.1-1.src.rpm
+
+mintlib, version 0.59.1, release 1
+Group: Base
+Summary: Necessary files from the MiNTLib
+Available since: Sun Jun 13 18:01:16 2010 UTC
+Download: RPMS/m68kmint/mintlib-0.59.1-1.m68kmint.rpm
+Package size: 984,291 bytes
+Installed size: 2,266,255 bytes
+Sources: SRPMS/mintlib-0.59.1-1.src.rpm
+
+mintlib-debug, version 0.59.1, release 1
+Group: Development/Libraries/Libc
+Summary: MiNTLib libs with debugging information
+Available since: Sun Jun 13 18:01:19 2010 UTC
+Download: RPMS/m68kmint/mintlib-debug-0.59.1-1.m68kmint.rpm
+Package size: 1,787,426 bytes
+Installed size: 7,020,878 bytes
+Sources: SRPMS/mintlib-0.59.1-1.src.rpm
+
+mintlib-devel, version 0.59.1, release 1
+Group: Development/Libraries/Libc
+Summary: Headers and static libraries for developping MiNT applications.
+Available since: Sun Jun 13 18:01:21 2010 UTC
+Download: RPMS/m68kmint/mintlib-devel-0.59.1-1.m68kmint.rpm
+Package size: 1,673,193 bytes
+Installed size: 4,353,240 bytes
+Sources: SRPMS/mintlib-0.59.1-1.src.rpm
+
+mintlib-profile, version 0.59.1, release 1
+Group: Development/Libraries/Libc
+Summary: MiNTLib libs with profiling information
+Available since: Sun Jun 13 18:01:22 2010 UTC
+Download: RPMS/m68kmint/mintlib-profile-0.59.1-1.m68kmint.rpm
+Package size: 1,888,120 bytes
+Installed size: 7,379,822 bytes
+Sources: SRPMS/mintlib-0.59.1-1.src.rpm
+
+mirror, version 2.9, release 1
+Group: Applications/System
+Summary: Perl program to mirror FTP sites
+Available since: Wed Sep  8 00:50:08 1999 UTC
+Download: RPMS/noarch/mirror-2.9-1.noarch.rpm
+Package size: 89,815 bytes
+Installed size: 304,822 bytes
+Sources: SRPMS/mirror-2.9-1.src.rpm
+
+mksh, version 40e, release 4.1
+Group: System/Shells
+Summary: MirBSD Korn Shell
+Available since: Sun Mar 25 22:42:43 2012 UTC
+Download: RPMS/m68kmint/mksh-40e-4.1.m68kmint.rpm
+Package size: 336,937 bytes
+Installed size: 728,779 bytes
+Sources: SRPMS/mksh-40e-4.1.src.rpm
+
+mktemp, version 1.4, release 1
+Group: Utilities/System
+Summary: mktemp - a program for safely making tmp files
+Available since: Thu Aug 12 09:26:32 1999 UTC
+Download: RPMS/m68kmint/mktemp-1.4-1.m68kmint.rpm
+Package size: 29,428 bytes
+Installed size: 50,327 bytes
+Sources: SRPMS/mktemp-1.4-1.src.rpm
+
+mpage, version 2.5.1, release 1
+Group: Applications/Publishing
+Summary: A tool for printing multiple pages of text on each printed page.
+Available since: Thu May 31 12:46:36 2001 UTC
+Download: RPMS/m68kmint/mpage-2.5.1-1.m68kmint.rpm
+Package size: 86,078 bytes
+Installed size: 179,779 bytes
+Sources: SRPMS/mpage-2.5.1-1.src.rpm
+
+mpc, version 0.8.2, release 1
+Group: System Environment/Libraries
+Summary: C Library for Multiple Precision Complex Arithmetic
+Available since: Fri May 28 17:01:36 2010 UTC
+Download: RPMS/m68kmint/mpc-0.8.2-1.m68kmint.rpm
+Package size: 72,361 bytes
+Installed size: 212,498 bytes
+Sources: SRPMS/mpc-0.8.2-1.src.rpm
+
+mpeg_lib, version 1.3.1, release 1
+Group: System/Libraries
+Summary: Interface for MPEG-1 Streams.
+Available since: Fri Dec 12 03:52:19 2003 UTC
+Download: RPMS/m68kmint/mpeg_lib-1.3.1-1.m68kmint.rpm
+Package size: 41,979 bytes
+Installed size: 122,248 bytes
+Sources: SRPMS/mpeg_lib-1.3.1-1.src.rpm
+
+mpfr, version 2.4.2, release 1
+Group: System Environment/Libraries
+Summary: GNU C library for multiple-precision floating-point computations
+Available since: Fri May 28 17:01:37 2010 UTC
+Download: RPMS/m68kmint/mpfr-2.4.2-1.m68kmint.rpm
+Package size: 299,722 bytes
+Installed size: 857,753 bytes
+Sources: SRPMS/mpfr-2.4.2-1.src.rpm
+
+mutt, version 1.3.23, release 1
+Group: Applications/Mail
+Summary: The Mutt Mail User Agent
+Available since: Fri Nov 16 01:10:52 2001 UTC
+Download: RPMS/m68kmint/mutt-1.3.23-1.m68kmint.rpm
+Package size: 1,879,850 bytes
+Installed size: 4,270,914 bytes
+Sources: SRPMS/mutt-1.3.23-1.src.rpm
+
+nano, version 1.0.0, release 1
+Group: Console/Editors
+Summary: NANO - Nano's ANOther editor, a pico like editor
+Available since: Tue Mar 27 11:23:44 2001 UTC
+Download: RPMS/m68kmint/nano-1.0.0-1.m68kmint.rpm
+Package size: 216,939 bytes
+Installed size: 516,468 bytes
+Sources: SRPMS/nano-1.0.0-1.src.rpm
+
+nap, version 1.4.4, release 1
+Group: Applications/Internet
+Summary: A Ncurses based Napster Clone
+Available since: Tue Jan  9 17:52:46 2001 UTC
+Download: RPMS/m68kmint/nap-1.4.4-1.m68kmint.rpm
+Package size: 173,947 bytes
+Installed size: 371,009 bytes
+Sources: SRPMS/nap-1.4.4-1.src.rpm
+
+nc, version 1.10, release 2
+Group: Applications/Internet
+Summary: Reads and writes data across network connections using TCP or UDP.
+Available since: Thu Aug 26 11:47:32 1999 UTC
+Download: RPMS/m68kmint/nc-1.10-2.m68kmint.rpm
+Package size: 81,122 bytes
+Installed size: 169,142 bytes
+Sources: SRPMS/nc-1.10-2.src.rpm
+
+ncftp, version 3.1.5, release 1
+Group: Applications/Networking
+Summary: Browser program for the File Transfer Protocol
+Available since: Wed Jun 25 12:00:00 2003 UTC
+Download: RPMS/m68kmint/ncftp-3.1.5-1.m68kmint.rpm
+Package size: 858,894 bytes
+Installed size: 2,026,822 bytes
+Sources: SRPMS/ncftp-3.1.5-1.src.rpm
+
+ncurses, version 5.1, release 1
+Group: System Environment/Libraries
+Summary: A CRT screen handling and optimization package.
+Available since: Thu Dec 14 19:46:28 2000 UTC
+Download: RPMS/m68kmint/ncurses-5.1-1.m68kmint.rpm
+Package size: 1,316,116 bytes
+Installed size: 3,964,905 bytes
+Sources: SRPMS/ncurses-5.1-1.src.rpm
+
+ncurses-devel, version 5.1, release 1
+Group: Development/Libraries
+Summary: The development files for applications which use ncurses.
+Available since: Thu Dec 14 19:47:48 2000 UTC
+Download: RPMS/m68kmint/ncurses-devel-5.1-1.m68kmint.rpm
+Package size: 874,846 bytes
+Installed size: 2,317,152 bytes
+Sources: SRPMS/ncurses-5.1-1.src.rpm
+
+nedit, version 5.4, release 1
+Group: Applications/Editors
+Summary: A GUI text editor for systems with X and Motif.
+Available since: Sun Jan  4 19:23:28 2004 UTC
+Download: RPMS/m68kmint/nedit-5.4-1.m68kmint.rpm
+Package size: 1,852,432 bytes
+Installed size: 3,983,457 bytes
+Sources: SRPMS/nedit-5.4-1.src.rpm
+
+neon, version 0.28.4, release 1
+Group: System/Libraries
+Summary: Neon is an HTTP and WebDAV client library
+Available since: Wed May 26 16:11:28 2010 UTC
+Download: RPMS/m68kmint/neon-0.28.4-1.m68kmint.rpm
+Package size: 218,860 bytes
+Installed size: 580,898 bytes
+Sources: SRPMS/neon-0.28.4-1.src.rpm
+
+neon-devel, version 0.24.7, release 1
+Group: Development/Libraries
+Summary: Static Libraries and header files for neon
+Available since: Tue Sep  7 08:48:41 2004 UTC
+Download: RPMS/m68kmint/neon-devel-0.24.7-1.m68kmint.rpm
+Package size: 255,222 bytes
+Installed size: 781,848 bytes
+Sources: SRPMS/neon-0.24.7-1.src.rpm
+
+netpbm-devel, version 9.5, release 1
+Group: Development/Libraries
+Summary: Development tools for programs which will use the netpbm libraries.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/netpbm-devel-9.5-1.m68kmint.rpm
+Package size: 102,012 bytes
+Installed size: 247,097 bytes
+Sources: SRPMS/netpbm-9.5-1.src.rpm
+
+netpbm-progs, version 9.5, release 1
+Group: Applications/Multimedia
+Summary: Tools for manipulating graphics files in netpbm supported formats.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/netpbm-progs-9.5-1.m68kmint.rpm
+Package size: 13,139,261 bytes
+Installed size: 27,179,895 bytes
+Sources: SRPMS/netpbm-9.5-1.src.rpm
+
+newt, version 0.50, release 4
+Group: Applications/System
+Summary: A development library for text mode user interfaces.
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/newt-0.50-4.m68kmint.rpm
+Package size: 96,388 bytes
+Installed size: 188,316 bytes
+Sources: SRPMS/newt-0.50-4.src.rpm
+
+newt-devel, version 0.50, release 4
+Group: Development/Libraries
+Summary: Newt windowing toolkit development files.
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/newt-devel-0.50-4.m68kmint.rpm
+Package size: 44,156 bytes
+Installed size: 114,842 bytes
+Sources: SRPMS/newt-0.50-4.src.rpm
+
+nfs-server, version 2.2beta47, release 2
+Group: Networking/Daemons
+Summary: NFS server daemons
+Available since: Tue Feb  3 08:30:13 2004 UTC
+Download: RPMS/m68kmint/nfs-server-2.2beta47-2.m68kmint.rpm
+Package size: 294,527 bytes
+Installed size: 572,379 bytes
+Sources: SRPMS/nfs-server-2.2beta47-2.src.rpm
+
+nlogin, version 0.1.2, release 1
+Group: GEM/Login
+Summary: A graphical login program.
+Available since: Tue Dec 28 01:11:43 1999 UTC
+Download: RPMS/m68kmint/nlogin-0.1.2-1.m68kmint.rpm
+Package size: 89,657 bytes
+Installed size: 165,397 bytes
+Sources: SRPMS/nlogin-0.1.2-1.src.rpm
+
+nslookup, version 5.42, release 2
+Group: Base System/Networking
+Summary: The nslookup command.
+Available since: Tue Sep 25 14:04:54 2001 UTC
+Download: RPMS/m68kmint/nslookup-5.42-2.m68kmint.rpm
+Package size: 99,336 bytes
+Installed size: 205,052 bytes
+Sources: SRPMS/nslookup-5.42-2.src.rpm
+
+ntsysv, version 1.0.7, release 2
+Group: System Environment/Base
+Summary: A system tool for maintaining the /etc/rc.d hierarchy.
+Available since: Sun Dec 26 02:58:43 1999 UTC
+Download: RPMS/m68kmint/ntsysv-1.0.7-2.m68kmint.rpm
+Package size: 81,812 bytes
+Installed size: 148,016 bytes
+Sources: SRPMS/chkconfig-1.0.7-2.src.rpm
+
+oldstuff, version 1.0, release 3
+Group: System Environment/Base
+Summary: old MiNT Utilities
+Available since: Thu Nov 15 12:31:48 2001 UTC
+Download: RPMS/m68kmint/oldstuff-1.0-3.m68kmint.rpm
+Package size: 101,306 bytes
+Installed size: 204,159 bytes
+Sources: SRPMS/oldstuff-1.0-3.src.rpm
+
+openssh, version 5.6p1, release 2
+Group: Applications/Internet
+Summary: OpenSSH free Secure Shell (SSH) implementation
+Available since: Fri Dec 10 15:08:39 2010 UTC
+Download: RPMS/m68kmint/openssh-5.6p1-2.m68kmint.rpm
+Package size: 1,384,046 bytes
+Installed size: 3,116,460 bytes
+Sources: SRPMS/openssh-5.6p1-2.src.rpm
+
+openssh-clients, version 5.6p1, release 2
+Group: Applications/Internet
+Summary: OpenSSH Secure Shell protocol clients
+Available since: Fri Dec 10 15:08:44 2010 UTC
+Download: RPMS/m68kmint/openssh-clients-5.6p1-2.m68kmint.rpm
+Package size: 2,005,921 bytes
+Installed size: 4,327,367 bytes
+Sources: SRPMS/openssh-5.6p1-2.src.rpm
+
+openssh-server, version 5.6p1, release 2
+Group: System Environment/Daemons
+Summary: OpenSSH Secure Shell protocol server (sshd)
+Available since: Fri Dec 10 15:08:45 2010 UTC
+Download: RPMS/m68kmint/openssh-server-5.6p1-2.m68kmint.rpm
+Package size: 860,099 bytes
+Installed size: 1,808,316 bytes
+Sources: SRPMS/openssh-5.6p1-2.src.rpm
+
+openssl, version 1.0.0c, release 1
+Group: System Environment/Libraries
+Summary: Secure Sockets Layer and cryptography libraries and tools
+Available since: Fri Dec 10 15:08:49 2010 UTC
+Download: RPMS/m68kmint/openssl-1.0.0c-1.m68kmint.rpm
+Package size: 1,341,880 bytes
+Installed size: 2,860,560 bytes
+Sources: SRPMS/openssl-1.0.0c-1.src.rpm
+
+openssl-devel, version 1.0.0c, release 1
+Group: Development/Libraries
+Summary: Secure Sockets Layer and cryptography static libraries and headers
+Available since: Fri Dec 10 15:08:55 2010 UTC
+Download: RPMS/m68kmint/openssl-devel-1.0.0c-1.m68kmint.rpm
+Package size: 4,225,222 bytes
+Installed size: 11,162,822 bytes
+Sources: SRPMS/openssl-1.0.0c-1.src.rpm
+
+openssl-doc, version 0.9.6m, release 5
+Group: Documentation
+Summary: OpenSSL miscellaneous files
+Available since: Fri Mar 19 19:09:21 2004 UTC
+Download: RPMS/m68kmint/openssl-doc-0.9.6m-5.m68kmint.rpm
+Package size: 428,605 bytes
+Installed size: 1,350,450 bytes
+Sources: SRPMS/openssl-0.9.6m-5.src.rpm
+
+ORBit, version 0.5.7, release 1
+Group: System Environment/Daemons
+Summary: A high-performance CORBA Object Request Broker.
+Available since: Sat Mar 31 13:54:18 2001 UTC
+Download: RPMS/m68kmint/ORBit-0.5.7-1.m68kmint.rpm
+Package size: 675,651 bytes
+Installed size: 1,917,581 bytes
+Sources: SRPMS/ORBit-0.5.7-1.src.rpm
+
+ORBit-devel, version 0.5.7, release 1
+Group: Development/Libraries
+Summary: Development libraries, header files and utilities for ORBit.
+Available since: Sat Mar 31 13:56:58 2001 UTC
+Download: RPMS/m68kmint/ORBit-devel-0.5.7-1.m68kmint.rpm
+Package size: 1,045,066 bytes
+Installed size: 3,316,727 bytes
+Sources: SRPMS/ORBit-0.5.7-1.src.rpm
+
+patch, version 2.5.4, release 2
+Group: Utilities/Text
+Summary: GNU patch Utilities
+Available since: Thu Sep 13 11:48:22 2001 UTC
+Download: RPMS/m68kmint/patch-2.5.4-2.m68kmint.rpm
+Package size: 108,612 bytes
+Installed size: 200,993 bytes
+Sources: SRPMS/patch-2.5.4-2.src.rpm
+
+pcre-devel, version 3.4, release 2
+Group: Development/Libraries
+Summary: Libraries, includes and more to develop PCRE applications.
+Available since: Thu Sep 12 07:33:48 2002 UTC
+Download: RPMS/m68kmint/pcre-devel-3.4-2.m68kmint.rpm
+Package size: 199,844 bytes
+Installed size: 465,943 bytes
+Sources: SRPMS/pcre-3.4-2.src.rpm
+
+pdksh, version 5.2.13, release 1
+Group: System Environment/Shells
+Summary: A public domain clone of the Korn shell (ksh).
+Available since: Fri Aug 27 08:28:01 1999 UTC
+Download: RPMS/m68kmint/pdksh-5.2.13-1.m68kmint.rpm
+Package size: 192,783 bytes
+Installed size: 350,337 bytes
+Sources: SRPMS/pdksh-5.2.13-1.src.rpm
+
+perl, version 5.6.0, release 3
+Group: Development/Languages
+Summary: The Perl programming language.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/perl-5.6.0-3.m68kmint.rpm
+Package size: 6,212,885 bytes
+Installed size: 16,847,255 bytes
+Sources: SRPMS/perl-5.6.0-3.src.rpm
+
+photopc, version 3.05dev4, release 2
+Group: Applications/File
+Summary: Utility to control digital cameras based on Sierra Imaging firmware
+Available since: Sun Mar  4 19:56:31 2001 UTC
+Download: RPMS/m68kmint/photopc-3.05dev4-2.m68kmint.rpm
+Package size: 190,205 bytes
+Installed size: 399,055 bytes
+Sources: SRPMS/photopc-3.05dev4-2.src.rpm
+
+pilot-link, version 0.9.3, release 1
+Group: Communications
+Summary: File transfer utilities between Linux and PalmPilots
+Available since: Wed Jun 21 21:18:36 2000 UTC
+Download: RPMS/m68kmint/pilot-link-0.9.3-1.m68kmint.rpm
+Package size: 2,481,738 bytes
+Installed size: 4,870,263 bytes
+Sources: SRPMS/pilot-link-0.9.3-1.src.rpm
+
+pilot-link-devel, version 0.9.3, release 1
+Group: Development/C
+Summary: PalmPilot development header files
+Available since: Wed Jun 21 21:19:02 2000 UTC
+Download: RPMS/m68kmint/pilot-link-devel-0.9.3-1.m68kmint.rpm
+Package size: 149,875 bytes
+Installed size: 435,979 bytes
+Sources: SRPMS/pilot-link-0.9.3-1.src.rpm
+
+pine, version 4.31, release 1
+Group: Applications/Internet
+Summary: A commonly used, MIME compliant mail and news reader.
+Available since: Wed Mar 14 02:07:04 2001 UTC
+Download: RPMS/m68kmint/pine-4.31-1.m68kmint.rpm
+Package size: 1,755,968 bytes
+Installed size: 4,357,061 bytes
+Sources: SRPMS/pine-4.31-1.src.rpm
+
+ping, version 20010219, release 2
+Group: Base System/Networking
+Summary: The ping command.
+Available since: Tue Oct  2 16:01:02 2001 UTC
+Download: RPMS/m68kmint/ping-20010219-2.m68kmint.rpm
+Package size: 89,744 bytes
+Installed size: 176,885 bytes
+Sources: SRPMS/ping-20010219-2.src.rpm
+
+pkgconfig, version 0.15.0, release 1
+Group: Development/Tools
+Summary: A tool for determining compilation options.
+Available since: Tue Jan 20 12:27:13 2004 UTC
+Download: RPMS/m68kmint/pkgconfig-0.15.0-1.m68kmint.rpm
+Package size: 202,852 bytes
+Installed size: 519,879 bytes
+Sources: SRPMS/pkgconfig-0.15.0-1.src.rpm
+
+pml, version 2.03, release 4
+Group: Development/Libraries
+Summary: Portable Math-Lib for C programs
+Available since: Sun Jun 13 18:01:35 2010 UTC
+Download: RPMS/m68kmint/pml-2.03-4.m68kmint.rpm
+Package size: 25,729 bytes
+Installed size: 80,000 bytes
+Sources: SRPMS/pml-2.03-4.src.rpm
+
+pml-mshort, version 2.03, release 3
+Group: Development/Libraries
+Summary: Portable Math-Lib with 16 bit int type (obsolete!)
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/pml-mshort-2.03-3.m68kmint.rpm
+Package size: 15,088 bytes
+Installed size: 47,864 bytes
+Sources: SRPMS/pml-2.03-3.src.rpm
+
+polipo, version 1.0.4, release 2
+Group: Network/Daemons
+Summary: polipo-1.0.4 Proxy Server
+Available since: Sun Aug  8 21:00:05 2010 UTC
+Download: RPMS/m68kmint/polipo-1.0.4-2.m68kmint.rpm
+Package size: 199,198 bytes
+Installed size: 379,346 bytes
+Sources: SRPMS/polipo-1.0.4-2.src.rpm
+
+popt, version 1.3, release 4
+Group: System Environment/Libraries
+Summary: A C library for parsing command line parameters.
+Available since: Fri Apr 14 13:54:26 2000 UTC
+Download: RPMS/m68kmint/popt-1.3-4.m68kmint.rpm
+Package size: 22,232 bytes
+Installed size: 27,808 bytes
+Sources: SRPMS/popt-1.3-4.src.rpm
+
+portmap, version 4.0, release 4
+Group: System Environment/Daemons
+Summary: A program which manages RPC connections.
+Available since: Wed Nov 14 17:00:48 2001 UTC
+Download: RPMS/m68kmint/portmap-4.0-4.m68kmint.rpm
+Package size: 207,313 bytes
+Installed size: 434,001 bytes
+Sources: SRPMS/portmap-4.0-4.src.rpm
+
+ppp, version 2.3.11, release 2
+Group: System Environment/Daemons
+Summary: The PPP daemon and documentation.
+Available since: Fri Nov 24 10:41:52 2000 UTC
+Download: RPMS/m68kmint/ppp-2.3.11-2.m68kmint.rpm
+Package size: 306,595 bytes
+Installed size: 604,148 bytes
+Sources: SRPMS/ppp-2.3.11-2.src.rpm
+
+procmail, version 3.13.1, release 1
+Group: System Environment/Daemons
+Summary: The procmail mail processing program.
+Available since: Wed Jun  7 20:29:36 2000 UTC
+Download: RPMS/m68kmint/procmail-3.13.1-1.m68kmint.rpm
+Package size: 245,702 bytes
+Installed size: 434,302 bytes
+Sources: SRPMS/procmail-3.13.1-1.src.rpm
+
+psmisc, version 19, release 3
+Group: Applications/System
+Summary: Utilities for managing processes on your system.
+Available since: Thu Nov 15 13:59:42 2001 UTC
+Download: RPMS/m68kmint/psmisc-19-3.m68kmint.rpm
+Package size: 140,308 bytes
+Installed size: 440,751 bytes
+Sources: SRPMS/psmisc-19-3.src.rpm
+
+pstop, version 1.0, release 1
+Group: System Environment/Base
+Summary: old ps/top tool
+Available since: Wed Nov 14 11:23:28 2001 UTC
+Download: RPMS/m68kmint/pstop-1.0-1.m68kmint.rpm
+Package size: 39,009 bytes
+Installed size: 66,546 bytes
+Sources: SRPMS/pstop-1.0-1.src.rpm
+
+psutils, version 1.17, release 1
+Group: Applications/Publishing
+Summary: PostScript Utilities
+Available since: Tue May 29 16:17:42 2001 UTC
+Download: RPMS/m68kmint/psutils-1.17-1.m68kmint.rpm
+Package size: 384,635 bytes
+Installed size: 798,418 bytes
+Sources: SRPMS/psutils-1.17-1.src.rpm
+
+pth-devel, version 2.0.0, release 1
+Group: Development/Libraries
+Summary: GNU Pth development package
+Available since: Wed Nov  5 03:13:20 2003 UTC
+Download: RPMS/m68kmint/pth-devel-2.0.0-1.m68kmint.rpm
+Package size: 194,429 bytes
+Installed size: 464,960 bytes
+Sources: SRPMS/pth-2.0.0-1.src.rpm
+
+python, version 2.3.4, release 1
+Group: Development/Languages
+Summary: An interpreted, interactive object-oriented programming language.
+Available since: Fri Sep  3 22:10:09 2004 UTC
+Download: RPMS/m68kmint/python-2.3.4-1.m68kmint.rpm
+Package size: 7,123,749 bytes
+Installed size: 31,300,634 bytes
+Sources: SRPMS/python-2.3.4-1.src.rpm
+
+python-devel, version 2.3.4, release 1
+Group: Development/Libraries
+Summary: The libraries and header files needed for Python development.
+Available since: Fri Sep  3 22:21:46 2004 UTC
+Download: RPMS/m68kmint/python-devel-2.3.4-1.m68kmint.rpm
+Package size: 95,241 bytes
+Installed size: 319,671 bytes
+Sources: SRPMS/python-2.3.4-1.src.rpm
+
+python-docs, version 2.3.4, release 1
+Group: Documentation
+Summary: Documentation for the Python programming language.
+Available since: Fri Sep  3 22:21:37 2004 UTC
+Download: RPMS/m68kmint/python-docs-2.3.4-1.m68kmint.rpm
+Package size: 1,378,621 bytes
+Installed size: 4,687,559 bytes
+Sources: SRPMS/python-2.3.4-1.src.rpm
+
+rcs, version 5.7, release 3
+Group: Development/Version Control
+Summary: RCS - version control system
+Available since: Sun Aug 22 11:11:00 1999 UTC
+Download: RPMS/m68kmint/rcs-5.7-3.m68kmint.rpm
+Package size: 465,985 bytes
+Installed size: 885,417 bytes
+Sources: SRPMS/rcs-5.7-3.src.rpm
+
+rdate, version 1.0, release 1
+Group: Applications/System
+Summary: Tool for getting the date/time from another machine on your network.
+Available since: Fri Sep 28 04:55:28 2001 UTC
+Download: RPMS/m68kmint/rdate-1.0-1.m68kmint.rpm
+Package size: 44,533 bytes
+Installed size: 85,597 bytes
+Sources: SRPMS/rdate-1.0-1.src.rpm
+
+readline, version 4.2, release 1
+Group: System Environment/Libraries
+Summary: A library for editing typed in command lines.
+Available since: Wed May 30 14:26:06 2001 UTC
+Download: RPMS/m68kmint/readline-4.2-1.m68kmint.rpm
+Package size: 388,074 bytes
+Installed size: 1,032,063 bytes
+Sources: SRPMS/readline-4.2-1.src.rpm
+
+readline-devel, version 4.2, release 1
+Group: Development/Libraries
+Summary: Development files for programs which will use the readline library.
+Available since: Wed May 30 14:26:32 2001 UTC
+Download: RPMS/m68kmint/readline-devel-4.2-1.m68kmint.rpm
+Package size: 97,651 bytes
+Installed size: 260,152 bytes
+Sources: SRPMS/readline-4.2-1.src.rpm
+
+recode, version 3.4, release 1
+Group: Applications/Text
+Summary: GNU recode
+Available since: Sun Sep 12 12:09:57 1999 UTC
+Download: RPMS/m68kmint/recode-3.4-1.m68kmint.rpm
+Package size: 142,368 bytes
+Installed size: 273,190 bytes
+Sources: SRPMS/recode-3.4-1.src.rpm
+
+rgrep, version 0.99.16, release 2
+Group: Applications/Text
+Summary: A grep utility which can recursively descend through directories.
+Available since: Tue Mar  2 19:57:01 2004 UTC
+Download: RPMS/m68kmint/rgrep-0.99.16-2.m68kmint.rpm
+Package size: 81,920 bytes
+Installed size: 169,375 bytes
+Sources: SRPMS/jed-0.99.16-2.src.rpm
+
+rpm, version 3.0.6, release 4
+Group: System Environment/Base
+Summary: The Red Hat package management system.
+Available since: Thu Oct 11 17:06:12 2001 UTC
+Download: RPMS/m68kmint/rpm-3.0.6-4.m68kmint.rpm
+Package size: 831,568 bytes
+Installed size: 1,910,954 bytes
+Sources: SRPMS/rpm-3.0.6-4.src.rpm
+
+rpm-build, version 3.0.6, release 4
+Group: Development/Tools
+Summary: Scripts and executable programs used to build packages.
+Available since: Thu Oct 11 17:06:50 2001 UTC
+Download: RPMS/m68kmint/rpm-build-3.0.6-4.m68kmint.rpm
+Package size: 553,717 bytes
+Installed size: 1,141,263 bytes
+Sources: SRPMS/rpm-3.0.6-4.src.rpm
+
+rpm-devel, version 3.0.6, release 4
+Group: Development/Libraries
+Summary: Development files for applications which will manipulate RPM packages.
+Available since: Thu Oct 11 17:06:30 2001 UTC
+Download: RPMS/m68kmint/rpm-devel-3.0.6-4.m68kmint.rpm
+Package size: 189,371 bytes
+Installed size: 443,177 bytes
+Sources: SRPMS/rpm-3.0.6-4.src.rpm
+
+rpm2html, version 1.2, release 1
+Group: Utilities/System
+Summary: Translates rpm database into HTML and RDF info
+Available since: Thu Sep 23 23:32:14 1999 UTC
+Download: RPMS/m68kmint/rpm2html-1.2-1.m68kmint.rpm
+Package size: 198,957 bytes
+Installed size: 520,013 bytes
+Sources: SRPMS/rpm2html-1.2-1.src.rpm
+
+rsh, version 0.17, release 2
+Group: Applications/Internet
+Summary: Clients for remote access commands (rsh, rlogin, rcp).
+Available since: Fri Sep 28 04:48:40 2001 UTC
+Download: RPMS/m68kmint/rsh-0.17-2.m68kmint.rpm
+Package size: 197,703 bytes
+Installed size: 377,510 bytes
+Sources: SRPMS/rsh-0.17-2.src.rpm
+
+rsh-server, version 0.17, release 2
+Group: System Environment/Daemons
+Summary: Servers for remote access commands (rsh, rlogin, rcp).
+Available since: Fri Sep 28 04:48:44 2001 UTC
+Download: RPMS/m68kmint/rsh-server-0.17-2.m68kmint.rpm
+Package size: 139,978 bytes
+Installed size: 261,978 bytes
+Sources: SRPMS/rsh-0.17-2.src.rpm
+
+rsync, version 2.5.4, release 1
+Group: Applications/Internet
+Summary: A program for synchronizing files over a network.
+Available since: Wed Mar 13 13:09:42 2002 UTC
+Download: RPMS/m68kmint/rsync-2.5.4-1.m68kmint.rpm
+Package size: 199,223 bytes
+Installed size: 390,311 bytes
+Sources: SRPMS/rsync-2.5.4-1.src.rpm
+
+rusers, version 0.17, release 2
+Group: System Environment/Daemons
+Summary: Displays the users logged into machines on the local network.
+Available since: Fri Sep 28 04:52:22 2001 UTC
+Download: RPMS/m68kmint/rusers-0.17-2.m68kmint.rpm
+Package size: 144,128 bytes
+Installed size: 274,493 bytes
+Sources: SRPMS/rusers-0.17-2.src.rpm
+
+rusers-server, version 0.17, release 2
+Group: System Environment/Daemons
+Summary: Server for the rusers protocol.
+Available since: Fri Sep 28 04:52:26 2001 UTC
+Download: RPMS/m68kmint/rusers-server-0.17-2.m68kmint.rpm
+Package size: 144,534 bytes
+Installed size: 284,677 bytes
+Sources: SRPMS/rusers-0.17-2.src.rpm
+
+rwall, version 0.17, release 2
+Group: System Environment/Daemons
+Summary: Client for sending messages to a host's logged in users.
+Available since: Fri Sep 28 04:53:32 2001 UTC
+Download: RPMS/m68kmint/rwall-0.17-2.m68kmint.rpm
+Package size: 68,135 bytes
+Installed size: 127,280 bytes
+Sources: SRPMS/rwall-0.17-2.src.rpm
+
+rwall-server, version 0.17, release 2
+Group: System Environment/Daemons
+Summary: Server for sending messages to a host's logged in users.
+Available since: Fri Sep 28 04:53:34 2001 UTC
+Download: RPMS/m68kmint/rwall-server-0.17-2.m68kmint.rpm
+Package size: 65,520 bytes
+Installed size: 120,132 bytes
+Sources: SRPMS/rwall-0.17-2.src.rpm
+
+rwho, version 0.17, release 4
+Group: System Environment/Daemons
+Summary: Displays who is logged in to local network machines.
+Available since: Fri Sep 28 09:29:56 2001 UTC
+Download: RPMS/m68kmint/rwho-0.17-4.m68kmint.rpm
+Package size: 174,721 bytes
+Installed size: 353,061 bytes
+Sources: SRPMS/rwho-0.17-4.src.rpm
+
+samba, version 3.0.1, release 1
+Group: System Environment/Daemons
+Summary: The Samba SMB/CIFS server.
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/samba-3.0.1-1.m68kmint.rpm
+Package size: 9,914,201 bytes
+Installed size: 18,976,802 bytes
+Sources: SRPMS/samba-3.0.1-1.src.rpm
+
+samba-client, version 3.0.1, release 1
+Group: Applications/System
+Summary: Samba (SMB) client programs.
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/samba-client-3.0.1-1.m68kmint.rpm
+Package size: 5,157,546 bytes
+Installed size: 9,044,411 bytes
+Sources: SRPMS/samba-3.0.1-1.src.rpm
+
+samba-common, version 3.0.1, release 1
+Group: Applications/System
+Summary: Files used by both Samba servers and clients.
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/samba-common-3.0.1-1.m68kmint.rpm
+Package size: 5,006,235 bytes
+Installed size: 9,176,018 bytes
+Sources: SRPMS/samba-3.0.1-1.src.rpm
+
+samba-swat, version 3.0.1, release 1
+Group: Applications/System
+Summary: The Samba SMB server configuration program.
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/samba-swat-3.0.1-1.m68kmint.rpm
+Package size: 4,736,695 bytes
+Installed size: 10,087,654 bytes
+Sources: SRPMS/samba-3.0.1-1.src.rpm
+
+sash, version 3.6, release 1
+Group: System/Shells
+Summary: A stand-alone shell with built-in commands
+Available since: Wed Jan 14 09:44:20 2004 UTC
+Download: RPMS/m68kmint/sash-3.6-1.m68kmint.rpm
+Package size: 103,271 bytes
+Installed size: 192,358 bytes
+Sources: SRPMS/sash-3.6-1.src.rpm
+
+scmxx, version 0.6.1.5, release 1
+Group: Communications
+Summary: exchange data with Siemens mobile phones
+Available since: Tue Oct 22 12:17:36 2002 UTC
+Download: RPMS/m68kmint/scmxx-0.6.1.5-1.m68kmint.rpm
+Package size: 100,924 bytes
+Installed size: 222,241 bytes
+Sources: SRPMS/scmxx-0.6.1.5-1.src.rpm
+
+sdbm, version 1.0.2, release 1
+Group: Development/Libraries
+Summary: A Clone of the ndbm library
+Available since: Tue Jan 30 00:14:36 2001 UTC
+Download: RPMS/m68kmint/sdbm-1.0.2-1.m68kmint.rpm
+Package size: 11,253 bytes
+Installed size: 14,564 bytes
+Sources: SRPMS/sdbm-1.0.2-1.src.rpm
+
+sed, version 4.2.1, release 1
+Group: Utilities/Text
+Summary: GNU Stream Editor
+Available since: Fri Nov  5 18:53:23 2010 UTC
+Download: RPMS/m68kmint/sed-4.2.1-1.m68kmint.rpm
+Package size: 175,178 bytes
+Installed size: 303,379 bytes
+Sources: SRPMS/sed-4.2.1-1.src.rpm
+
+serf, version 0.3.0, release 1
+Group: System/Libraries
+Summary: Serf is a HTTP client library built upon the APR library
+Available since: Wed May 26 16:11:36 2010 UTC
+Download: RPMS/m68kmint/serf-0.3.0-1.m68kmint.rpm
+Package size: 37,728 bytes
+Installed size: 122,462 bytes
+Sources: SRPMS/serf-0.3.0-1.src.rpm
+
+sh-utils, version 2.0.11, release 1
+Group: System Environment/Shells
+Summary: A set of GNU utilities commonly used in shell scripts.
+Available since: Wed Sep 12 11:27:38 2001 UTC
+Download: RPMS/m68kmint/sh-utils-2.0.11-1.m68kmint.rpm
+Package size: 2,834,071 bytes
+Installed size: 5,992,181 bytes
+Sources: SRPMS/sh-utils-2.0.11-1.src.rpm
+
+shadow-utils, version 20000902, release 1
+Group: System Environment/Base
+Summary: Shadow password file utilities for MiNT
+Available since: Wed Sep 12 11:27:38 2001 UTC
+Download: RPMS/m68kmint/shadow-utils-20000902-1.m68kmint.rpm
+Package size: 2,700,335 bytes
+Installed size: 5,694,614 bytes
+Sources: SRPMS/shadow-utils-20000902-1.src.rpm
+
+Sharity-Light, version 1.2, release 5
+Group: System Environment/Daemons
+Summary: Sharity-Light - remount samba exports as NFS
+Available since: Wed Mar  6 12:15:00 2002 UTC
+Download: RPMS/m68kmint/Sharity-Light-1.2-5.m68kmint.rpm
+Package size: 120,558 bytes
+Installed size: 234,158 bytes
+Sources: SRPMS/Sharity-Light-1.2-5.src.rpm
+
+sharutils, version 4.2.1, release 1
+Group: Applications/Archiving
+Summary: The GNU shar utilities for packaging and unpackaging shell archives.
+Available since: Thu Sep  6 10:35:36 2001 UTC
+Download: RPMS/m68kmint/sharutils-4.2.1-1.m68kmint.rpm
+Package size: 342,944 bytes
+Installed size: 741,348 bytes
+Sources: SRPMS/sharutils-4.2.1-1.src.rpm
+
+shtool, version 1.4.6, release 1
+Group: Development/Tools
+Summary: GNU shtool is a compilation of several commonly used shell scripts.
+Available since: Fri Oct 22 11:35:10 1999 UTC
+Download: RPMS/noarch/shtool-1.4.6-1.noarch.rpm
+Package size: 77,087 bytes
+Installed size: 234,727 bytes
+Sources: SRPMS/shtool-1.4.6-1.src.rpm
+
+sitecopy, version 0.5.1, release 1
+Group: Networking/Utilities
+Summary: copy web site files to server by ftp
+Available since: Mon Sep 25 21:57:22 2000 UTC
+Download: RPMS/m68kmint/sitecopy-0.5.1-1.m68kmint.rpm
+Package size: 125,764 bytes
+Installed size: 269,843 bytes
+Sources: SRPMS/sitecopy-0.5.1-1.src.rpm
+
+slang, version 1.4.9, release 1
+Group: System Environment/Libraries
+Summary: The library and header files for the S-Lang extension language
+Available since: Wed Nov  5 03:13:54 2003 UTC
+Download: RPMS/m68kmint/slang-1.4.9-1.m68kmint.rpm
+Package size: 199,337 bytes
+Installed size: 515,761 bytes
+Sources: SRPMS/slang-1.4.9-1.src.rpm
+
+smail, version 3.2.0.101, release 1
+Group: Daemons
+Summary: smail mail transport agent
+Available since: Thu Aug 12 08:15:20 1999 UTC
+Download: RPMS/m68kmint/smail-3.2.0.101-1.m68kmint.rpm
+Package size: 466,994 bytes
+Installed size: 942,605 bytes
+Sources: SRPMS/smail-3.2.0.101-1.src.rpm
+
+smmgr, version 1.1.2, release 2
+Group: Applications/File
+Summary: Selfmode Manager for USR Sportster Message Plus (Pro)
+Available since: Fri Feb 23 01:57:03 2001 UTC
+Download: RPMS/m68kmint/smmgr-1.1.2-2.m68kmint.rpm
+Package size: 144,470 bytes
+Installed size: 323,666 bytes
+Sources: SRPMS/smmgr-1.1.2-2.src.rpm
+
+snownews, version 1.5.7, release 1
+Group: Applications/Internet
+Summary: Snownews - a console RSS/RDF newsreader
+Available since: Wed Aug 24 14:37:19 2005 UTC
+Download: RPMS/m68kmint/snownews-1.5.7-1.m68kmint.rpm
+Package size: 854,620 bytes
+Installed size: 1,582,305 bytes
+Sources: SRPMS/snownews-1.5.7-1.src.rpm
+
+sox, version 12.17.3, release 1
+Group: Applications/Multimedia
+Summary: A general purpose sound file conversion tool.
+Available since: Sun Feb 10 13:13:38 2002 UTC
+Download: RPMS/m68kmint/sox-12.17.3-1.m68kmint.rpm
+Package size: 378,672 bytes
+Installed size: 818,317 bytes
+Sources: SRPMS/sox-12.17.3-1.src.rpm
+
+sox-devel, version 12.17.3, release 1
+Group: Development/Libraries
+Summary: The SoX sound file format converter libraries.
+Available since: Sun Feb 10 13:11:12 2002 UTC
+Download: RPMS/m68kmint/sox-devel-12.17.3-1.m68kmint.rpm
+Package size: 132,326 bytes
+Installed size: 355,542 bytes
+Sources: SRPMS/sox-12.17.3-1.src.rpm
+
+sqlite, version 3.2.2, release 1
+Group: System/Libraries
+Summary: SQLite is a C library that implements an embeddable SQL database engine
+Available since: Wed Aug 24 14:37:19 2005 UTC
+Download: RPMS/m68kmint/sqlite-3.2.2-1.m68kmint.rpm
+Package size: 255,767 bytes
+Installed size: 510,763 bytes
+Sources: SRPMS/sqlite-3.2.2-1.src.rpm
+
+sqlite-devel, version 3.2.2, release 1
+Group: Development/C
+Summary: Header files and libraries for developing apps which will use sqlite
+Available since: Wed Aug 24 14:37:19 2005 UTC
+Download: RPMS/m68kmint/sqlite-devel-3.2.2-1.m68kmint.rpm
+Package size: 166,187 bytes
+Installed size: 365,923 bytes
+Sources: SRPMS/sqlite-3.2.2-1.src.rpm
+
+subversion, version 1.5.6, release 1
+Group: Utilities/System
+Summary: A Concurrent Versioning system similar to but better than CVS.
+Available since: Wed May 26 16:11:39 2010 UTC
+Download: RPMS/m68kmint/subversion-1.5.6-1.m68kmint.rpm
+Package size: 9,324,887 bytes
+Installed size: 18,343,657 bytes
+Sources: SRPMS/subversion-1.5.6-1.src.rpm
+
+subversion-devel, version 1.5.6, release 1
+Group: Utilities/System
+Summary: Development package for Subversion developers.
+Available since: Wed May 26 16:11:42 2010 UTC
+Download: RPMS/m68kmint/subversion-devel-1.5.6-1.m68kmint.rpm
+Package size: 789,112 bytes
+Installed size: 2,527,800 bytes
+Sources: SRPMS/subversion-1.5.6-1.src.rpm
+
+sudo, version 1.5.9p1, release 1
+Group: Applications/System
+Summary: Allows restricted root access for specified users.
+Available since: Wed Sep 15 19:19:54 1999 UTC
+Download: RPMS/m68kmint/sudo-1.5.9p1-1.m68kmint.rpm
+Package size: 152,546 bytes
+Installed size: 313,437 bytes
+Sources: SRPMS/sudo-1.5.9p1-1.src.rpm
+
+sudoku, version 1.0.1, release 1
+Group: Applications/Games
+Summary: A console based sudoku game with a curses interface
+Available since: Fri Feb  3 23:40:12 2006 UTC
+Download: RPMS/m68kmint/sudoku-1.0.1-1.m68kmint.rpm
+Package size: 108,581 bytes
+Installed size: 226,634 bytes
+Sources: SRPMS/sudoku-1.0.1-1.src.rpm
+
+swatch, version 2.2, release 1
+Group: Applications/System
+Summary: A utility for monitoring system logs files.
+Available since: Tue Sep  7 11:10:50 1999 UTC
+Download: RPMS/noarch/swatch-2.2-1.noarch.rpm
+Package size: 46,486 bytes
+Installed size: 129,498 bytes
+Sources: SRPMS/swatch-2.2-1.src.rpm
+
+symlinks, version 1.2, release 3
+Group: Applications/System
+Summary: A utility which maintains a system's symbolic links.
+Available since: Wed Sep  1 23:29:45 1999 UTC
+Download: RPMS/m68kmint/symlinks-1.2-3.m68kmint.rpm
+Package size: 29,808 bytes
+Installed size: 50,989 bytes
+Sources: SRPMS/symlinks-1.2-3.src.rpm
+
+sysklogd, version 1.3, release 5
+Group: System Environment/Daemons
+Summary: MiNT system logger
+Available since: Tue Feb  3 08:30:13 2004 UTC
+Download: RPMS/m68kmint/sysklogd-1.3-5.m68kmint.rpm
+Package size: 106,752 bytes
+Installed size: 209,975 bytes
+Sources: SRPMS/sysklogd-1.3-5.src.rpm
+
+tar, version 1.23, release 4
+Group: Applications/Archiving
+Summary: 
+Available since: Mon Aug 30 09:03:48 2010 UTC
+Download: RPMS/m68kmint/tar-1.23-4.m68kmint.rpm
+Package size: 1,241,814 bytes
+Installed size: 2,025,476 bytes
+Sources: SRPMS/tar-1.23-4.src.rpm
+
+tcl, version 8.0.5, release 1
+Group: Development/Languages
+Summary: An embeddable scripting language.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/tcl-8.0.5-1.m68kmint.rpm
+Package size: 1,938,080 bytes
+Installed size: 3,000,023 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+tclx, version 8.0.5, release 1
+Group: Development/Languages
+Summary: Tcl/Tk extensions for POSIX systems.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/tclx-8.0.5-1.m68kmint.rpm
+Package size: 1,589,138 bytes
+Installed size: 3,783,604 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+tcpdump, version 3.6.2, release 2
+Group: Applications/Internet
+Summary: A network traffic monitoring tool.
+Available since: Fri Sep 28 14:33:10 2001 UTC
+Download: RPMS/m68kmint/tcpdump-3.6.2-2.m68kmint.rpm
+Package size: 363,324 bytes
+Installed size: 740,325 bytes
+Sources: SRPMS/tcpdump-3.6.2-2.src.rpm
+
+tcputils, version 0.6.2, release 1
+Group: Base System/Networking
+Summary: Utilities for TCP programming in shell-scripts.
+Available since: Thu Sep 27 23:01:46 2001 UTC
+Download: RPMS/m68kmint/tcputils-0.6.2-1.m68kmint.rpm
+Package size: 384,944 bytes
+Installed size: 754,153 bytes
+Sources: SRPMS/tcputils-0.6.2-1.src.rpm
+
+tcp_wrappers, version 7.6, release 3
+Group: Base System/Networking
+Summary: Security wrapper for tcp daemons
+Available since: Fri Sep 28 08:50:44 2001 UTC
+Download: RPMS/m68kmint/tcp_wrappers-7.6-3.m68kmint.rpm
+Package size: 426,551 bytes
+Installed size: 900,998 bytes
+Sources: SRPMS/tcp_wrappers-7.6-3.src.rpm
+
+telnet, version 0.1, release 1
+Group: Applications/Internet
+Summary: The client program for the telnet remote login protocol.
+Available since: Fri Sep 28 08:47:28 2001 UTC
+Download: RPMS/m68kmint/telnet-0.1-1.m68kmint.rpm
+Package size: 74,722 bytes
+Installed size: 142,641 bytes
+Sources: SRPMS/telnet-0.1-1.src.rpm
+
+telnet-server, version 0.1, release 1
+Group: System Environment/Daemons
+Summary: The server program for the telnet remote login protocol.
+Available since: Fri Sep 28 08:47:30 2001 UTC
+Download: RPMS/m68kmint/telnet-server-0.1-1.m68kmint.rpm
+Package size: 68,238 bytes
+Installed size: 128,372 bytes
+Sources: SRPMS/telnet-0.1-1.src.rpm
+
+termcap, version 9.12.6, release 5
+Group: Base
+Summary: Terminal database used by many applications
+Available since: Thu Aug 12 06:27:43 1999 UTC
+Download: RPMS/noarch/termcap-9.12.6-5.noarch.rpm
+Package size: 148,103 bytes
+Installed size: 439,450 bytes
+Sources: SRPMS/termcap-9.12.6-5.src.rpm
+
+tetex, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: The TeX text formatting system.
+Available since: Fri Feb  4 01:56:14 2000 UTC
+Download: RPMS/m68kmint/tetex-1.0.6-1.m68kmint.rpm
+Package size: 9,286,862 bytes
+Installed size: 30,611,726 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-afm, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: A converter for PostScript(TM) font metric files, for use with TeX.
+Available since: Fri Feb  4 02:04:18 2000 UTC
+Download: RPMS/m68kmint/tetex-afm-1.0.6-1.m68kmint.rpm
+Package size: 648,288 bytes
+Installed size: 3,031,785 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-doc, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: The documentation files for the TeX text formatting system.
+Available since: Fri Feb  4 02:21:16 2000 UTC
+Download: RPMS/m68kmint/tetex-doc-1.0.6-1.m68kmint.rpm
+Package size: 15,981,812 bytes
+Installed size: 40,198,997 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-dvilj, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: A DVI to HP PCL (Printer Control Language) converter.
+Available since: Fri Feb  4 02:02:20 2000 UTC
+Download: RPMS/m68kmint/tetex-dvilj-1.0.6-1.m68kmint.rpm
+Package size: 4,720 bytes
+Installed size: 3,944 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-dvips, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: A DVI to PostScript converter for the TeX text formatting system.
+Available since: Fri Feb  4 02:02:20 2000 UTC
+Download: RPMS/m68kmint/tetex-dvips-1.0.6-1.m68kmint.rpm
+Package size: 368,630 bytes
+Installed size: 816,172 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-fonts, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: The font files for the TeX text formatting system.
+Available since: Fri Feb  4 02:11:06 2000 UTC
+Download: RPMS/m68kmint/tetex-fonts-1.0.6-1.m68kmint.rpm
+Package size: 10,173,597 bytes
+Installed size: 18,305,482 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+tetex-latex, version 1.0.6, release 1
+Group: Applications/Publishing
+Summary: The LaTeX front end for the TeX text formatting system.
+Available since: Fri Feb  4 02:02:02 2000 UTC
+Download: RPMS/m68kmint/tetex-latex-1.0.6-1.m68kmint.rpm
+Package size: 2,540,644 bytes
+Installed size: 8,770,381 bytes
+Sources: SRPMS/tetex-1.0.6-1.src.rpm
+
+texi2html, version 1.64, release 1
+Group: Applications/Text
+Summary: TeXinfo to HTML converter
+Available since: Tue Mar  2 19:57:07 2004 UTC
+Download: RPMS/m68kmint/texi2html-1.64-1.m68kmint.rpm
+Package size: 70,980 bytes
+Installed size: 312,114 bytes
+Sources: SRPMS/texi2html-1.64-1.src.rpm
+
+texi2roff, version 2.0, release 1
+Group: Applications/Text
+Summary: Texinfo to nroff/troff translator
+Available since: Thu Oct 21 12:19:34 1999 UTC
+Download: RPMS/m68kmint/texi2roff-2.0-1.m68kmint.rpm
+Package size: 36,708 bytes
+Installed size: 81,468 bytes
+Sources: SRPMS/texi2roff-2.0-1.src.rpm
+
+texinfo, version 4.0, release 2
+Group: Applications/Publishing
+Summary: texinfo formatter and info reader
+Available since: Mon Sep 17 18:46:10 2001 UTC
+Download: RPMS/m68kmint/texinfo-4.0-2.m68kmint.rpm
+Package size: 635,688 bytes
+Installed size: 1,299,098 bytes
+Sources: SRPMS/texinfo-4.0-2.src.rpm
+
+textutils, version 2.0.11, release 2
+Group: Applications/Text
+Summary: GNU Text Utilities
+Available since: Thu Jun 26 22:43:11 2003 UTC
+Download: RPMS/m68kmint/textutils-2.0.11-2.m68kmint.rpm
+Package size: 2,108,042 bytes
+Installed size: 4,483,755 bytes
+Sources: SRPMS/textutils-2.0.11-2.src.rpm
+
+tftp, version 0.34, release 1
+Group: Applications/Internet
+Summary: TFTP server daemon and client
+Available since: Mon Jun 30 20:30:29 2003 UTC
+Download: RPMS/m68kmint/tftp-0.34-1.m68kmint.rpm
+Package size: 188,450 bytes
+Installed size: 412,189 bytes
+Sources: SRPMS/tftp-0.34-1.src.rpm
+
+thttpd, version 2.23beta1, release 2
+Group: Networking
+Summary: Throttleable lightweight httpd server
+Available since: Wed Sep  8 06:59:30 2004 UTC
+Download: RPMS/m68kmint/thttpd-2.23beta1-2.m68kmint.rpm
+Package size: 469,780 bytes
+Installed size: 976,048 bytes
+Sources: SRPMS/thttpd-2.23beta1-2.src.rpm
+
+tidy, version 030401, release 1
+Group: Utilities/Text
+Summary: Utility to clean up &amp; pretty print html files
+Available since: Mon Apr  7 12:36:45 2003 UTC
+Download: RPMS/m68kmint/tidy-030401-1.m68kmint.rpm
+Package size: 380,271 bytes
+Installed size: 1,405,973 bytes
+Sources: SRPMS/tidy-030401-1.src.rpm
+
+time, version 1.7, release 1
+Group: Applications/System
+Summary: A GNU utility for monitoring a program's use of system resources.
+Available since: Wed Nov  2 09:34:21 2005 UTC
+Download: RPMS/m68kmint/time-1.7-1.m68kmint.rpm
+Package size: 60,905 bytes
+Installed size: 109,784 bytes
+Sources: SRPMS/time-1.7-1.src.rpm
+
+tin, version 1.6.2, release 1
+Group: Applications/News
+Summary: tin - an easy-to-use USENET news reader
+Available since: Wed Oct 22 15:08:20 2003 UTC
+Download: RPMS/m68kmint/tin-1.6.2-1.m68kmint.rpm
+Package size: 1,022,271 bytes
+Installed size: 2,089,147 bytes
+Sources: SRPMS/tin-1.6.2-1.src.rpm
+
+tix, version 4.1.0.6, release 1
+Group: Development/Languages
+Summary: A set of capable widgets for Tk.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/tix-4.1.0.6-1.m68kmint.rpm
+Package size: 1,554,435 bytes
+Installed size: 3,935,958 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+tk, version 8.0.5, release 1
+Group: Development/Languages
+Summary: The Tk GUI toolkit for Tcl, with shared libraries.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/tk-8.0.5-1.m68kmint.rpm
+Package size: 2,526,357 bytes
+Installed size: 4,556,923 bytes
+Sources: SRPMS/tcltk-8.0.5-1.src.rpm
+
+tmpwatch, version 1.7, release 2
+Group: System Environment/Base
+Summary: A utility for removing files based on when they were last accessed.
+Available since: Thu Aug 26 02:51:23 1999 UTC
+Download: RPMS/m68kmint/tmpwatch-1.7-2.m68kmint.rpm
+Package size: 33,411 bytes
+Installed size: 59,464 bytes
+Sources: SRPMS/tmpwatch-1.7-2.src.rpm
+
+traceroute, version 1.4a5, release 1
+Group: Applications/Internet
+Summary: Traces the route taken by packets over a TCP/IP network.
+Available since: Tue Sep 25 11:55:55 2001 UTC
+Download: RPMS/m68kmint/traceroute-1.4a5-1.m68kmint.rpm
+Package size: 70,921 bytes
+Installed size: 130,525 bytes
+Sources: SRPMS/traceroute-1.4a5-1.src.rpm
+
+tree, version 1.2, release 2
+Group: Applications/File
+Summary: A utility which displays a tree view of the contents of directories.
+Available since: Thu Sep  2 00:05:08 1999 UTC
+Download: RPMS/m68kmint/tree-1.2-2.m68kmint.rpm
+Package size: 32,951 bytes
+Installed size: 56,267 bytes
+Sources: SRPMS/tree-1.2-2.src.rpm
+
+udo, version 6.4.1, release 1
+Group: Applications/Text
+Summary: Universal DOcument (UDO) - text processing utility
+Available since: Sat Oct  9 19:28:25 2004 UTC
+Download: RPMS/m68kmint/udo-6.4.1-1.m68kmint.rpm
+Package size: 213,383 bytes
+Installed size: 515,753 bytes
+Sources: SRPMS/udo-6.4.1-1.src.rpm
+
+udo-doc-de, version 6.4.1, release 1
+Group: Applications/Text
+Summary: UDO Dokumentation (Deutsch)
+Available since: Sat Oct  9 19:29:51 2004 UTC
+Download: RPMS/m68kmint/udo-doc-de-6.4.1-1.m68kmint.rpm
+Package size: 526,272 bytes
+Installed size: 3,336,091 bytes
+Sources: SRPMS/udo-6.4.1-1.src.rpm
+
+udo-doc-en, version 6.4.1, release 1
+Group: Applications/Text
+Summary: UDO Documentation (English)
+Available since: Sat Oct  9 19:30:18 2004 UTC
+Download: RPMS/m68kmint/udo-doc-en-6.4.1-1.m68kmint.rpm
+Package size: 367,798 bytes
+Installed size: 1,676,886 bytes
+Sources: SRPMS/udo-6.4.1-1.src.rpm
+
+unarj, version 2.41a, release 3
+Group: Applications/Archiving
+Summary: An uncompressor for .arj format archive files.
+Available since: Thu Aug 26 16:28:54 1999 UTC
+Download: RPMS/m68kmint/unarj-2.41a-3.m68kmint.rpm
+Package size: 35,129 bytes
+Installed size: 65,760 bytes
+Sources: SRPMS/unarj-2.41a-3.src.rpm
+
+units, version 1.74, release 1
+Group: Applications/Engineering
+Summary: A utility for converting amounts from one unit to another.
+Available since: Sun Sep 16 15:23:03 2001 UTC
+Download: RPMS/m68kmint/units-1.74-1.m68kmint.rpm
+Package size: 219,262 bytes
+Installed size: 490,745 bytes
+Sources: SRPMS/units-1.74-1.src.rpm
+
+unix2dos, version 2.2, release 1
+Group: Applications/Text
+Summary: unix2dos - UNIX to DOS text file format converter
+Available since: Thu Sep  6 09:50:54 2001 UTC
+Download: RPMS/m68kmint/unix2dos-2.2-1.m68kmint.rpm
+Package size: 52,316 bytes
+Installed size: 102,044 bytes
+Sources: SRPMS/unix2dos-2.2-1.src.rpm
+
+unzip, version 5.50, release 1
+Group: Applications/Archiving
+Summary: A utility for unpacking zip files.
+Available since: Sun Feb 29 09:57:08 2004 UTC
+Download: RPMS/m68kmint/unzip-5.50-1.m68kmint.rpm
+Package size: 265,354 bytes
+Installed size: 674,898 bytes
+Sources: SRPMS/unzip-5.50-1.src.rpm
+
+urlview, version 0.7, release 1
+Group: Applications/Internet
+Summary: A URL extractor/viewer for use with Mutt.
+Available since: Thu Aug 12 09:30:08 1999 UTC
+Download: RPMS/m68kmint/urlview-0.7-1.m68kmint.rpm
+Package size: 85,304 bytes
+Installed size: 169,344 bytes
+Sources: SRPMS/urlview-0.7-1.src.rpm
+
+urw-fonts, version 2.0, release 2
+Group: User Interface/X
+Summary: Free versions of the 35 standard PostScript fonts.
+Available since: Fri Dec 22 21:37:26 2000 UTC
+Download: RPMS/noarch/urw-fonts-2.0-2.noarch.rpm
+Package size: 1,922,517 bytes
+Installed size: 2,750,821 bytes
+Sources: SRPMS/urw-fonts-2.0-2.src.rpm
+
+uudeview, version 0.5.18, release 1
+Group: Applications/File
+Summary: Smart decoder for uuencode, xxencode, Base64 and BinHex
+Available since: Thu Oct 30 13:57:40 2003 UTC
+Download: RPMS/m68kmint/uudeview-0.5.18-1.m68kmint.rpm
+Package size: 266,484 bytes
+Installed size: 537,291 bytes
+Sources: SRPMS/uudeview-0.5.18-1.src.rpm
+
+vim, version 6.0, release 1
+Group: Applications/Editors
+Summary: The VIM editor.
+Available since: Sat Apr 19 06:57:08 2003 UTC
+Download: RPMS/m68kmint/vim-6.0-1.m68kmint.rpm
+Package size: 4,289,407 bytes
+Installed size: 13,146,158 bytes
+Sources: SRPMS/vim-6.0-1.src.rpm
+
+vim-minimal, version 6.0, release 1
+Group: Applications/Editors
+Summary: A minimal version of the VIM editor.
+Available since: Fri Apr 11 13:53:58 2003 UTC
+Download: RPMS/m68kmint/vim-minimal-6.0-1.m68kmint.rpm
+Package size: 245,167 bytes
+Installed size: 460,420 bytes
+Sources: SRPMS/vim-6.0-1.src.rpm
+
+vixie-cron, version 3.0.1, release 1
+Group: Daemons
+Summary: Vixie cron daemon
+Available since: Thu Aug 26 02:53:00 1999 UTC
+Download: RPMS/m68kmint/vixie-cron-3.0.1-1.m68kmint.rpm
+Package size: 107,843 bytes
+Installed size: 202,269 bytes
+Sources: SRPMS/vixie-cron-3.0.1-1.src.rpm
+
+w3c-libwww, version 5.3.2, release 1
+Group: System Environment/Libraries
+Summary: HTTP library of common code
+Available since: Fri Mar 16 09:24:50 2001 UTC
+Download: RPMS/m68kmint/w3c-libwww-5.3.2-1.m68kmint.rpm
+Package size: 406,050 bytes
+Installed size: 1,383,681 bytes
+Sources: SRPMS/w3c-libwww-5.3.2-1.src.rpm
+
+w3c-libwww-apps, version 5.3.2, release 1
+Group: Applications/Internet
+Summary: Applications built using Libwww web library: e.g. Robot, command line tool, etc.
+Available since: Fri Mar 16 09:26:52 2001 UTC
+Download: RPMS/m68kmint/w3c-libwww-apps-5.3.2-1.m68kmint.rpm
+Package size: 797,488 bytes
+Installed size: 1,818,626 bytes
+Sources: SRPMS/w3c-libwww-5.3.2-1.src.rpm
+
+w3c-libwww-devel, version 5.3.2, release 1
+Group: Development/Libraries
+Summary: Libraries and header files for programs that use libwww.
+Available since: Fri Mar 16 09:26:12 2001 UTC
+Download: RPMS/m68kmint/w3c-libwww-devel-5.3.2-1.m68kmint.rpm
+Package size: 648,068 bytes
+Installed size: 1,771,045 bytes
+Sources: SRPMS/w3c-libwww-5.3.2-1.src.rpm
+
+w3m, version 0.1.10, release 1
+Group: Applications/Internet
+Summary: w3m - a text based Web browser and pager
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/w3m-0.1.10-1.m68kmint.rpm
+Package size: 435,199 bytes
+Installed size: 905,152 bytes
+Sources: SRPMS/w3m-0.1.10-1.src.rpm
+
+wget, version 1.9.1, release 0
+Group: Applications/Networking
+Summary: Retrieve files from the World Wide Web using HTTP and FTP
+Available since: Mon Dec  8 14:34:05 2003 UTC
+Download: RPMS/m68kmint/wget-1.9.1-0.m68kmint.rpm
+Package size: 478,045 bytes
+Installed size: 1,283,699 bytes
+Sources: SRPMS/wget-1.9.1-0.src.rpm
+
+wget-ssl, version 1.9.1, release 0
+Group: Applications/Networking
+Summary: Retrieve files from the World Wide Web using HTTP and FTP
+Available since: Mon Dec  8 14:36:09 2003 UTC
+Download: RPMS/m68kmint/wget-ssl-1.9.1-0.m68kmint.rpm
+Package size: 710,912 bytes
+Installed size: 1,766,016 bytes
+Sources: SRPMS/wget-ssl-1.9.1-0.src.rpm
+
+which, version 2.14, release 1
+Group: Applications/System
+Summary: Displays where a particular program in your path is located.
+Available since: Wed Jul 31 15:14:20 2002 UTC
+Download: RPMS/m68kmint/which-2.14-1.m68kmint.rpm
+Package size: 62,062 bytes
+Installed size: 115,301 bytes
+Sources: SRPMS/which-2.14-1.src.rpm
+
+windom, version 2.0.0, release 1
+Group: Development/Libraries
+Summary: WinDom development library and header file
+Available since: Fri Feb 24 09:14:07 2006 UTC
+Download: RPMS/m68kmint/windom-2.0.0-1.m68kmint.rpm
+Package size: 135,379 bytes
+Installed size: 365,905 bytes
+Sources: SRPMS/windom-2.0.0-1.src.rpm
+
+words, version 2, release 1
+Group: Utilities/Text
+Summary: English dictionary for /usr/dict
+Available since: Thu Sep  9 00:11:48 1999 UTC
+Download: RPMS/noarch/words-2-1.noarch.rpm
+Package size: 137,940 bytes
+Installed size: 420,574 bytes
+Sources: SRPMS/words-2-1.src.rpm
+
+wv, version 0.7.0, release 1
+Group: Applications/Text
+Summary: MSWord Document to HTML converter
+Available since: Tue Nov  6 13:38:24 2001 UTC
+Download: RPMS/m68kmint/wv-0.7.0-1.m68kmint.rpm
+Package size: 3,271,129 bytes
+Installed size: 5,688,272 bytes
+Sources: SRPMS/wv-0.7.0-1.src.rpm
+
+wv-devel, version 0.7.0, release 1
+Group: Development/Libraries
+Summary: Include files needed to compile
+Available since: Tue Nov  6 13:38:46 2001 UTC
+Download: RPMS/m68kmint/wv-devel-0.7.0-1.m68kmint.rpm
+Package size: 258,528 bytes
+Installed size: 651,450 bytes
+Sources: SRPMS/wv-0.7.0-1.src.rpm
+
+wvdial, version 1.41, release 2
+Group: System Environment/Daemons
+Summary: A heuristic autodialer for PPP connections.
+Available since: Mon Jan  8 00:44:56 2001 UTC
+Download: RPMS/m68kmint/wvdial-1.41-2.m68kmint.rpm
+Package size: 207,924 bytes
+Installed size: 475,924 bytes
+Sources: SRPMS/wvdial-1.41-2.src.rpm
+
+Xaw3d, version 1.5, release 2
+Group: Development/Libraries
+Summary: A version of the MIT Athena widget set for X.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/Xaw3d-1.5-2.m68kmint.rpm
+Package size: 181,598 bytes
+Installed size: 617,511 bytes
+Sources: SRPMS/Xaw3d-1.5-2.src.rpm
+
+xchat, version 1.4.2, release 1
+Group: Applications/Internet
+Summary: A GTK+ IRC (chat) client.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/xchat-1.4.2-1.m68kmint.rpm
+Package size: 1,175,574 bytes
+Installed size: 2,564,686 bytes
+Sources: SRPMS/xchat-1.4.2-1.src.rpm
+
+XFree86-100dpi-fonts, version 4.0, release 1
+Group: User Interface/X
+Summary: X Window System 100dpi fonts.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-100dpi-fonts-4.0-1.m68kmint.rpm
+Package size: 1,312,933 bytes
+Installed size: 1,305,100 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86, version 4.0, release 1
+Group: User Interface/X
+Summary: The basic fonts, programs and docs for an X workstation.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-4.0-1.m68kmint.rpm
+Package size: 22,889,762 bytes
+Installed size: 38,688,519 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-75dpi-fonts, version 4.0, release 1
+Group: User Interface/X
+Summary: A set of 75 dpi resolution fonts for the X Window System.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-75dpi-fonts-4.0-1.m68kmint.rpm
+Package size: 1,140,367 bytes
+Installed size: 1,134,720 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-cyrillic-fonts, version 4.0, release 1
+Group: User Interface/X
+Summary: Cyrillic fonts for X.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-cyrillic-fonts-4.0-1.m68kmint.rpm
+Package size: 385,644 bytes
+Installed size: 393,370 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-devel, version 4.0, release 1
+Group: Development/Libraries
+Summary: X11R6 static libraries, headers and programming man pages.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-devel-4.0-1.m68kmint.rpm
+Package size: 3,690,180 bytes
+Installed size: 8,558,811 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-doc, version 4.0, release 1
+Group: Documentation
+Summary: Documentation on various X11 programming interfaces.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-doc-4.0-1.m68kmint.rpm
+Package size: 9,065,002 bytes
+Installed size: 10,459,888 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-tools, version 4.0, release 1
+Group: User Interface/X
+Summary: Various tools for XFree86
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-tools-4.0-1.m68kmint.rpm
+Package size: 14,033,052 bytes
+Installed size: 25,947,221 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-twm, version 4.0, release 1
+Group: User Interface/X
+Summary: A simple window manager
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-twm-4.0-1.m68kmint.rpm
+Package size: 599,716 bytes
+Installed size: 1,099,824 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-xdm, version 4.0, release 1
+Group: User Interface/X
+Summary: X Display Manager
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-xdm-4.0-1.m68kmint.rpm
+Package size: 586,101 bytes
+Installed size: 1,067,298 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+XFree86-xfs, version 4.0, release 1
+Group: System Environment/Daemons
+Summary: A font server for the X Window System.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/XFree86-xfs-4.0-1.m68kmint.rpm
+Package size: 885,938 bytes
+Installed size: 1,671,082 bytes
+Sources: SRPMS/XFree86-4.0-1.src.rpm
+
+xpaint, version 2.4.9, release 1
+Group: Applications/Graphics
+Summary: An X Window System image editing or paint program.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/xpaint-2.4.9-1.m68kmint.rpm
+Package size: 967,118 bytes
+Installed size: 1,960,274 bytes
+Sources: SRPMS/xpaint-2.4.9-1.src.rpm
+
+xpdf, version 0.91, release 1
+Group: Applications/Publishing
+Summary: A PDF file viewer for the X Window System.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/xpdf-0.91-1.m68kmint.rpm
+Package size: 2,371,138 bytes
+Installed size: 5,646,868 bytes
+Sources: SRPMS/xpdf-0.91-1.src.rpm
+
+xpuzzles, version 5.5.2, release 1
+Group: X11/Games
+Summary: Geometric puzzles and toys for the X Window System.
+Available since: Mon Jan  8 01:46:42 2001 UTC
+Download: RPMS/m68kmint/xpuzzles-5.5.2-1.m68kmint.rpm
+Package size: 5,815,736 bytes
+Installed size: 10,650,381 bytes
+Sources: SRPMS/xpuzzles-5.5.2-1.src.rpm
+
+XServer, version 0.14, release 1
+Group: User Interface/X
+Summary: The FreeMiNT X11 server for GEM
+Available since: Fri Sep 21 14:15:02 2001 UTC
+Download: RPMS/m68kmint/XServer-0.14-1.m68kmint.rpm
+Package size: 170,030 bytes
+Installed size: 356,022 bytes
+Sources: SRPMS/XServer-0.14-1.src.rpm
+
+xskat, version 4.0, release 1
+Group: X11/Games
+Summary: Skat, a card game
+Available since: Fri May 28 09:19:07 2004 UTC
+Download: RPMS/m68kmint/xskat-4.0-1.m68kmint.rpm
+Package size: 533,237 bytes
+Installed size: 988,875 bytes
+Sources: SRPMS/xskat-4.0-1.src.rpm
+
+xswarm, version 2.3, release 1
+Group: Amusements/Graphics
+Summary: A nice X11 demo or screensaver.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/xswarm-2.3-1.m68kmint.rpm
+Package size: 390,050 bytes
+Installed size: 681,511 bytes
+Sources: SRPMS/xswarm-2.3-1.src.rpm
+
+xv, version 3.10a, release 2
+Group: Applications/Graphics
+Summary: An X based image file viewer and manipulator.
+Available since: Fri Dec 22 21:35:45 2000 UTC
+Download: RPMS/m68kmint/xv-3.10a-2.m68kmint.rpm
+Package size: 2,536,756 bytes
+Installed size: 7,411,733 bytes
+Sources: SRPMS/xv-3.10a-2.src.rpm
+
+ytalk, version 3.1.1, release 1
+Group: Applications/Internet
+Summary: The talk client.
+Available since: Sun Dec  9 12:44:08 2001 UTC
+Download: RPMS/m68kmint/ytalk-3.1.1-1.m68kmint.rpm
+Package size: 127,318 bytes
+Installed size: 247,131 bytes
+Sources: SRPMS/ytalk-3.1.1-1.src.rpm
+
+zip, version 2.3, release 2
+Group: Applications/Archiving
+Summary: A file compression and packaging utility compatible with PKZIP.
+Available since: Tue Apr 11 10:48:30 2000 UTC
+Download: RPMS/m68kmint/zip-2.3-2.m68kmint.rpm
+Package size: 314,187 bytes
+Installed size: 660,230 bytes
+Sources: SRPMS/zip-2.3-2.src.rpm
+
+zlib, version 1.2.5, release 1
+Group: System Environment/Libraries
+Summary: The zlib compression and decompression library.
+Available since: Wed May 26 16:11:42 2010 UTC
+Download: RPMS/m68kmint/zlib-1.2.5-1.m68kmint.rpm
+Package size: 27,477 bytes
+Installed size: 71,555 bytes
+Sources: SRPMS/zlib-1.2.5-1.src.rpm
+
+zlib-devel, version 1.2.5, release 1
+Group: Development/Libraries
+Summary: Header files and libraries for developing apps which will use zlib.
+Available since: Wed May 26 16:11:43 2010 UTC
+Download: RPMS/m68kmint/zlib-devel-1.2.5-1.m68kmint.rpm
+Package size: 212,855 bytes
+Installed size: 463,171 bytes
+Sources: SRPMS/zlib-1.2.5-1.src.rpm
+
+Generated automatically Fri Jan 20 20:20:29 2017 UTC by buildsite.pl Revision 2.7 .

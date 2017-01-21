@@ -1,0 +1,108 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - samba-client, version 3.0.1, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>samba-client</H2>
+
+<UL> 
+<LI>Summary: Samba (SMB) client programs.<BR>
+<LI>URL: <A HREF="http://www.samba.org/">http://www.samba.org/</A><BR>
+<LI>Version: 3.0.1<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/System">Applications/System</A>
+<LI>License: GNU GPL Version 2</BR>
+<LI>Installation size: 9,044,411 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>samba-client = 3.0.1-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>samba-common = 3.0.1<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Mon Feb 23 03:19:44 2004 UTC<BR>
+<LI>Upload date: Sun Feb 29 09:57:08 2004 UTC<BR>
+<LI>Packager: Mark Duckworth (<A HREF="javascript:linkto_decode_mt('nbjmup;nevdlxpsuiAbubsj.tpvsdf/dpn');">mduckworth(at)atari-source.com</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/samba-3.0.1-1.src.rpm">samba-3.0.1-1.src.rpm</A>  (8,282,747 bytes)<BR>
+<LI>Last change: Mark Duckworth &lt;mduckworth@atari-source.com&gt; 3.0.1-1 Wed Feb 18 22:00:00 2004 UTC<BR>
+- Initial port to sparemint with spec creation
+<LI>Description:<BR>
+The samba-client package provides some SMB clients to compliment the<BR>built-in SMB filesystem in Linux. These clients allow access of SMB<BR>shares and printing to SMB printers.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             4504 Feb 22  2004 /usr/bin/findsmb
+-rwxr-xr-x    1 root    root          1733241 Feb 22  2004 /usr/bin/net
+-rwxr-xr-x    1 root    root          1120796 Feb 22  2004 /usr/bin/nmblookup
+-rwxr-xr-x    1 root    root          1814965 Feb 22  2004 /usr/bin/rpcclient
+-rwxr-xr-x    1 root    root          1412230 Feb 22  2004 /usr/bin/smbclient
+-rwxr-xr-x    1 root    root             2208 Feb 22  2004 /usr/bin/smbprint
+-rwxr-xr-x    1 root    root          1248062 Feb 22  2004 /usr/bin/smbspool
+-rwxr-xr-x    1 root    root             4899 Feb 22  2004 /usr/bin/smbtar
+-rwxr-xr-x    1 root    root          1280939 Feb 22  2004 /usr/bin/smbtree
+-rw-r--r--    1 root    root           131072 Feb 22  2004 /usr/lib/samba/lowcase.dat
+-rw-r--r--    1 root    root           131072 Feb 22  2004 /usr/lib/samba/upcase.dat
+-rw-r--r--    1 root    root            65536 Feb 22  2004 /usr/lib/samba/valid.dat
+-rw-r--r--    1 root    root             4187 Feb 22  2004 /usr/man/man1/findsmb.1
+-rw-r--r--    1 root    root             7550 Feb 22  2004 /usr/man/man1/nmblookup.1
+-rw-r--r--    1 root    root            15176 Feb 22  2004 /usr/man/man1/rpcclient.1
+-rw-r--r--    1 root    root            30099 Feb 22  2004 /usr/man/man1/smbclient.1
+-rw-r--r--    1 root    root             3749 Feb 22  2004 /usr/man/man1/smbtar.1
+-rw-r--r--    1 root    root             4722 Feb 22  2004 /usr/man/man1/smbtree.1
+-rw-r--r--    1 root    root            15045 Feb 22  2004 /usr/man/man8/net.8
+-rw-r--r--    1 root    root             2112 Feb 22  2004 /usr/man/man8/smbmnt.8
+-rw-r--r--    1 root    root             7464 Feb 22  2004 /usr/man/man8/smbmount.8
+-rw-r--r--    1 root    root             3254 Feb 22  2004 /usr/man/man8/smbspool.8
+-rw-r--r--    1 root    root             1529 Feb 22  2004 /usr/man/man8/smbumount.8
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/samba-client-3.0.1-1.m68kmint.rpm">Download</A></H2> (5,157,546 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

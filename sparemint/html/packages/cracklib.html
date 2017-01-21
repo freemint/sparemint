@@ -1,0 +1,93 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - cracklib, version 2.7, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>cracklib</H2>
+
+<UL> 
+<LI>Summary: A password-checking library.<BR>
+<LI>URL: <A HREF="ftp://coast.cs.purdue.edu/pub/tools/unix/cracklib/">ftp://coast.cs.purdue.edu/pub/tools/unix/cracklib/</A><BR>
+<LI>Version: 2.7<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Libraries">System Environment/Libraries</A>
+<LI>License: artistic</BR>
+<LI>Installation size: 42,973 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>cracklib = 2.7-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Tue Apr  4 11:06:36 2000 UTC<BR>
+<LI>Upload date: Fri Apr 14 13:54:26 2000 UTC<BR>
+<LI>Packager: Guido Flohr (<A HREF="javascript:linkto_decode_mt('nbjmup;hvjepAgsffnjou/ef');">guido(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/cracklib-2.7-3.src.rpm">cracklib-2.7-3.src.rpm</A>  (28,675 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Mon Mar 27 09:00:00 2000 UTC<BR>
+- rebuild against new MiNT-Lib
+<LI>Description:<BR>
+CrackLib tests passwords to determine whether they match certain<BR>security-oriented characteristics.  You can use CrackLib to stop<BR>users from choosing passwords which would be easy to guess.  CrackLib<BR>performs certain tests:<BR><P><BR>* It tries to generate words from a username and gecos entry and<BR>  checks those words against the password;<BR>* It checks for simplistic patterns in passwords;<BR>* It checks for the password in a dictionary.<BR><P><BR>CrackLib is actually a library containing a particular<BR>C function which is used to check the password, as well as<BR>other C functions. CrackLib is not a replacement for a passwd<BR>program; it must be used in conjunction with an existing passwd<BR>program.<BR><P><BR>Install the cracklib package if you need a program to check users'<BR>passwords to see if they are at least minimally secure. If you<BR>install CrackLib, you'll also want to install the cracklib-dicts<BR>package.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    wheel               0 Apr  4  2000 /usr/doc/cracklib-2.7
+-rw-r--r--    1 root    wheel             373 Dec 31  1997 /usr/doc/cracklib-2.7/HISTORY
+-rw-r--r--    1 root    wheel            4851 Jul  9  1993 /usr/doc/cracklib-2.7/LICENCE
+-rw-r--r--    1 root    wheel            1338 Jul  9  1993 /usr/doc/cracklib-2.7/MANIFEST
+-rw-r--r--    1 root    wheel            1276 Jul  9  1993 /usr/doc/cracklib-2.7/POSTER
+-rw-r--r--    1 root    wheel            8983 Dec 14  1997 /usr/doc/cracklib-2.7/README
+-rw-r--r--    1 root    wheel             408 Apr  4  2000 /usr/include/crack.h
+-rw-r--r--    1 root    wheel           24720 Apr  4  2000 /usr/lib/libcrack.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/cracklib-2.7-3.m68kmint.rpm">Download</A></H2> (21,153 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

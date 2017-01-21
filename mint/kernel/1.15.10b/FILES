@@ -1,0 +1,27 @@
+distributed archives:
+=====================
+
+Binary:
+-------
+freemint-1.15.10b-mint.tar.gz     - all kernels (000, 030, 040, Milan, Debug)
+freemint-1.15.10b-mint-030.tar.gz - only the 030 kernel
+freemint-1.15.10b-mint-040.tar.gz - only the 040/060 kernel
+freemint-1.15.10b-mint-mil.tar.gz - only the Milan kernel
+freemint-1.15.10b-modules.tar.gz  - all modules (sockets, xdd, xfs)
+freemint-1.15.10b-tools.tar.gz    - all tools
+
+Sources:
+--------
+freemint-1.15.10b-src.tar.gz      - the complete source code
+                                    
+from CVS server you get this with:
+cvs checkout -r beta-1_15_10 freemint
+
+Please see on the Sparemint CVS pages for more informations how to use
+CVS: http://wh58-508.st.uni-magdeburg.de/sparemint/cvs.html
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 29.10.2000

@@ -1,0 +1,209 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tetex-dvips, version 1.0.6, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tetex-dvips</H2>
+
+<UL> 
+<LI>Summary: A DVI to PostScript converter for the TeX text formatting system.<BR>
+<LI>URL: <A HREF="http://www.tug.org/teTeX/">http://www.tug.org/teTeX/</A><BR>
+<LI>Version: 1.0.6<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Publishing">Applications/Publishing</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 816,172 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tetex-dvips = 1.0.6-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>tetex = 1.0.6<BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Fri Feb  4 01:30:06 2000 UTC<BR>
+<LI>Upload date: Fri Feb  4 02:02:20 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/tetex-1.0.6-1.src.rpm">tetex-1.0.6-1.src.rpm</A>  (50,902,928 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@cs.uni-magdeburg.de&gt; Sun Nov 28 10:00:00 1999 UTC<BR>
+- updated to 1.0.6<BR>- adpated all Redhat changes
+<LI>Description:<BR>
+Dvips converts .dvi files produced by the TeX text formatting system<BR>(or by another processor like GFtoDVI) to PostScript(TM) format.<BR>Normally the PostScript file is sent directly to your printer.<BR><P><BR>If you are installing tetex, so that you can use the TeX text<BR>formatting system, you will also need to install tetex-dvips.  In<BR>addition, you will need to install tetex-afm (for converting<BR>PostScript font description files), tetex-dvilj (for converting .dvi<BR>files to HP PCL format for printing on HP and HP compatible printers),<BR>tetex-latex (a higher level formatting package which provides an<BR>easier-to-use interface for TeX) and tetex-xdvi (for previewing .dvi<BR>files in X).  If you're installing TeX and you're not an expert at it,<BR>you'll also want to install the tetex-doc package, which contains<BR>documentation for the TeX system.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1027 Feb  3  2000 /usr/bin/dvi2fax
+-rwxr-xr-x    1 root    root           214410 Feb  3  2000 /usr/bin/dvips
+-rwxr-xr-x    1 root    root             3037 Feb  3  2000 /usr/bin/dvired
+-rwxr-xr-x    1 root    root           215227 Feb  3  2000 /usr/bin/odvips
+-rw-r--r--    1 root    root            16009 Feb  3  2000 /usr/info/dvips.info-1.gz
+-rw-r--r--    1 root    root            16840 Feb  3  2000 /usr/info/dvips.info-2.gz
+-rw-r--r--    1 root    root            16814 Feb  3  2000 /usr/info/dvips.info-3.gz
+-rw-r--r--    1 root    root             9353 Feb  3  2000 /usr/info/dvips.info-4.gz
+-rw-r--r--    1 root    root             1253 Feb  3  2000 /usr/info/dvips.info.gz
+-rw-r--r--    1 root    root             5851 Feb  3  2000 /usr/man/man1/dvips.1.gz
+-rw-r--r--    1 root    root             2399 Oct 31  1998 /usr/share/texmf/dvips/base/8a.enc
+-rw-r--r--    1 root    root             4314 Jul  1  1998 /usr/share/texmf/dvips/base/8r.enc
+-rw-r--r--    1 root    root             3375 Oct 31  1998 /usr/share/texmf/dvips/base/EC.enc
+-rw-r--r--    1 root    root             2607 Apr 23  1996 /usr/share/texmf/dvips/base/ad.enc
+-rw-r--r--    1 root    root             5764 Oct 31  1998 /usr/share/texmf/dvips/base/asex.enc
+-rw-r--r--    1 root    root             3790 Oct 31  1998 /usr/share/texmf/dvips/base/asexp.enc
+-rw-r--r--    1 root    root             3083 Feb  3  2000 /usr/share/texmf/dvips/base/color.pro
+-rw-r--r--    1 root    root             3671 Jul  1  1998 /usr/share/texmf/dvips/base/cork.enc
+-rw-r--r--    1 root    root              312 Feb  3  2000 /usr/share/texmf/dvips/base/crop.pro
+-rw-r--r--    1 root    root             3401 Apr  3  1995 /usr/share/texmf/dvips/base/dc.enc
+-rw-r--r--    1 root    root             3715 Oct 31  1998 /usr/share/texmf/dvips/base/dvips.enc
+-rw-r--r--    1 root    root             3370 Oct 31  1998 /usr/share/texmf/dvips/base/extex.enc
+-rw-r--r--    1 root    root              201 Feb  3  2000 /usr/share/texmf/dvips/base/finclude.pro
+-rw-r--r--    1 root    root             4856 Oct 31  1998 /usr/share/texmf/dvips/base/funky.enc
+-rw-r--r--    1 root    root             3515 Feb  3  2000 /usr/share/texmf/dvips/base/hps.pro
+-rw-r--r--    1 root    root             3344 Mar 31  1999 /usr/share/texmf/dvips/base/mh2scr.enc
+?rwxrwxrwx    1 root    root               21 Feb  3  2000 /usr/share/texmf/dvips/base/psfonts.map
+-rw-r--r--    1 root    root             3803 Feb  3  2000 /usr/share/texmf/dvips/base/special.pro
+-rw-r--r--    1 root    root             2960 Feb  3  2000 /usr/share/texmf/dvips/base/tex.pro
+-rw-r--r--    1 root    root             4693 Oct 16  1997 /usr/share/texmf/dvips/base/tex256.enc
+-rw-r--r--    1 root    root             3823 Feb  3  2000 /usr/share/texmf/dvips/base/texc.pro
+-rw-r--r--    1 root    root             3562 Oct 31  1998 /usr/share/texmf/dvips/base/texmext.enc
+-rw-r--r--    1 root    root             2306 Oct 31  1998 /usr/share/texmf/dvips/base/texmital.enc
+-rw-r--r--    1 root    root             2849 Oct 31  1998 /usr/share/texmf/dvips/base/texmsym.enc
+-rw-r--r--    1 root    root             6813 Sep 21  1998 /usr/share/texmf/dvips/base/texnansi.enc
+-rw-r--r--    1 root    root              785 Feb  3  2000 /usr/share/texmf/dvips/base/texps.pro
+-rw-r--r--    1 root    root             4574 Oct 31  1998 /usr/share/texmf/dvips/base/xl2.enc
+-rw-r--r--    1 root    root             4117 Oct 31  1998 /usr/share/texmf/dvips/base/xt2.enc
+-rw-r--r--    1 root    root              490 Jun 26  1997 /usr/share/texmf/dvips/bluesky/psfonts.ams
+-rw-r--r--    1 root    root              921 Jun 26  1997 /usr/share/texmf/dvips/bluesky/psfonts.amz
+-rw-r--r--    1 root    root             1385 Nov 11  1997 /usr/share/texmf/dvips/bluesky/psfonts.cm
+-rw-r--r--    1 root    root             2586 Nov 11  1997 /usr/share/texmf/dvips/bluesky/psfonts.cmz
+-rw-r--r--    1 root    root              693 Jun  3  1999 /usr/share/texmf/dvips/config/acrobat-ext-adobe-buildin.map
+-rw-r--r--    1 root    root              766 Jun  3  1999 /usr/share/texmf/dvips/config/acrobat-ext-adobe-kb.map
+-rw-r--r--    1 root    root              809 Jun  3  1999 /usr/share/texmf/dvips/config/acrobat-ext-urw-kb.map
+-rw-r--r--    1 root    root              822 Jun  3  1999 /usr/share/texmf/dvips/config/acrobat-ext-urw-urw.map
+-rw-r--r--    1 root    root             1010 Mar 20  1999 /usr/share/texmf/dvips/config/acrobat-std-adobe-buildin.map
+-rw-r--r--    1 root    root             1185 Mar 20  1999 /usr/share/texmf/dvips/config/acrobat-std-adobe-kb.map
+-rw-r--r--    1 root    root             1238 Apr  3  1999 /usr/share/texmf/dvips/config/acrobat-std-urw-kb.map
+-rw-r--r--    1 root    root             1263 Apr  3  1999 /usr/share/texmf/dvips/config/acrobat-std-urw-urw.map
+-rw-r--r--    1 root    root              898 Jun 30  1998 /usr/share/texmf/dvips/config/bakoma-extra.map
+-rw-r--r--    1 root    root             1722 Apr  3  1999 /usr/share/texmf/dvips/config/bsr-interpolated.map
+-rw-r--r--    1 root    root             3314 Jun  5  1999 /usr/share/texmf/dvips/config/bsr.map
+-rw-r--r--    1 root    root              527 Jun 30  1998 /usr/share/texmf/dvips/config/charter.map
+-rw-r--r--    1 root    root             1491 Apr 15  1999 /usr/share/texmf/dvips/config/cmcyr.map
+-rw-r--r--    1 root    root               52 Jun 30  1998 /usr/share/texmf/dvips/config/config.ams
+-rw-r--r--    1 root    root               52 Jun 30  1998 /usr/share/texmf/dvips/config/config.amz
+-rw-r--r--    1 root    root               51 Jun 30  1998 /usr/share/texmf/dvips/config/config.cm
+-rw-r--r--    1 root    root               52 Jun 30  1998 /usr/share/texmf/dvips/config/config.cmz
+-rw-r--r--    1 root    root               57 Jun 30  1998 /usr/share/texmf/dvips/config/config.dfaxhigh
+-rw-r--r--    1 root    root               58 Jun 30  1998 /usr/share/texmf/dvips/config/config.dfaxlo
+-rw-r--r--    1 root    root              868 Feb  3  2000 /usr/share/texmf/dvips/config/config.generic
+-rw-r--r--    1 root    root              181 Apr 16  1999 /usr/share/texmf/dvips/config/config.mirr
+-rw-r--r--    1 root    root             1866 May 16  1999 /usr/share/texmf/dvips/config/config.pdf
+-rw-r--r--    1 root    root               39 Apr 24  1999 /usr/share/texmf/dvips/config/config.pl
+-rw-r--r--    1 root    root             2366 May 20  1999 /usr/share/texmf/dvips/config/config.ps
+-rw-r--r--    1 root    root               91 Apr  3  1999 /usr/share/texmf/dvips/config/config.www
+-rw-r--r--    1 root    root              378 Jun  3  1999 /usr/share/texmf/dvips/config/context.map
+-rw-r--r--    1 root    root              705 Jun  5  1999 /usr/share/texmf/dvips/config/hoekwater.map
+-rw-r--r--    1 root    root             7260 Jan  7  1999 /usr/share/texmf/dvips/config/lucidabr.map
+-rw-r--r--    1 root    root             2448 Jun  3  1999 /usr/share/texmf/dvips/config/lw35extra-adobe-buildin.map
+-rw-r--r--    1 root    root             2838 Jun  3  1999 /usr/share/texmf/dvips/config/lw35extra-adobe-kb.map
+-rw-r--r--    1 root    root             2864 Jun  3  1999 /usr/share/texmf/dvips/config/lw35extra-urw-kb.map
+-rw-r--r--    1 root    root             2903 Jun  3  1999 /usr/share/texmf/dvips/config/lw35extra-urw-urw.map
+-rw-r--r--    1 root    root              124 Dec  8  1998 /usr/share/texmf/dvips/config/marvosym.map
+-rw-r--r--    1 root    root              134 Mar 20  1999 /usr/share/texmf/dvips/config/mathpi.map
+-rw-r--r--    1 root    root              341 Apr 11  1999 /usr/share/texmf/dvips/config/mathpple-ext.map
+-rw-r--r--    1 root    root              411 Mar 20  1999 /usr/share/texmf/dvips/config/mathtime.map
+-rw-r--r--    1 root    root              556 Mar 20  1999 /usr/share/texmf/dvips/config/mathtimesupp-ext-adobe-buildin.map
+-rw-r--r--    1 root    root              620 Mar 20  1999 /usr/share/texmf/dvips/config/mathtimesupp-ext-adobe-kb.map
+-rw-r--r--    1 root    root              646 Mar 29  1999 /usr/share/texmf/dvips/config/mathtimesupp-ext-urw-kb.map
+-rw-r--r--    1 root    root              637 Mar 20  1999 /usr/share/texmf/dvips/config/mathtimesupp-ext-urw-urw.map
+-rw-r--r--    1 root    root             1792 Mar 20  1999 /usr/share/texmf/dvips/config/mathtimesupp-std-adobe-buildin.map
+-rw-r--r--    1 root    root             2095 Apr  3  1999 /usr/share/texmf/dvips/config/mathtimesupp-std-adobe-kb.map
+-rw-r--r--    1 root    root             2170 Apr  3  1999 /usr/share/texmf/dvips/config/mathtimesupp-std-urw-kb.map
+-rw-r--r--    1 root    root             2215 Apr  3  1999 /usr/share/texmf/dvips/config/mathtimesupp-std-urw-urw.map
+-rw-r--r--    1 root    root             1042 Sep 26  1998 /usr/share/texmf/dvips/config/omega.map
+-rw-r--r--    1 root    root            21682 Jun  5  1999 /usr/share/texmf/dvips/config/pdftex.map
+-rw-r--r--    1 root    root             2054 Apr  6  1999 /usr/share/texmf/dvips/config/pl.map
+-rw-r--r--    1 root    root            10426 Jun  5  1999 /usr/share/texmf/dvips/config/ps2pk.map
+-rw-r--r--    1 root    root            17610 Jun  5  1999 /usr/share/texmf/dvips/config/psfonts.map
+-rw-r--r--    1 root    root              637 Apr  6  1999 /usr/share/texmf/dvips/config/raw-acrobat-ext-adobe-buildin.map
+-rw-r--r--    1 root    root              748 Apr  6  1999 /usr/share/texmf/dvips/config/raw-acrobat-ext-adobe-kb.map
+-rw-r--r--    1 root    root             1094 May  8  1999 /usr/share/texmf/dvips/config/raw-acrobat-ext-urw-kb.map
+-rw-r--r--    1 root    root             1111 May  8  1999 /usr/share/texmf/dvips/config/raw-acrobat-ext-urw-urw.map
+-rw-r--r--    1 root    root              524 Apr  6  1999 /usr/share/texmf/dvips/config/raw-acrobat-std-adobe-buildin.map
+-rw-r--r--    1 root    root              711 Apr  6  1999 /usr/share/texmf/dvips/config/raw-acrobat-std-adobe-kb.map
+-rw-r--r--    1 root    root             1232 May  8  1999 /usr/share/texmf/dvips/config/raw-acrobat-std-urw-kb.map
+-rw-r--r--    1 root    root             1257 May  8  1999 /usr/share/texmf/dvips/config/raw-acrobat-std-urw-urw.map
+-rw-r--r--    1 root    root              873 Apr  6  1999 /usr/share/texmf/dvips/config/raw-lw35extra-adobe-buildin.map
+-rw-r--r--    1 root    root             1166 Apr  6  1999 /usr/share/texmf/dvips/config/raw-lw35extra-adobe-kb.map
+-rw-r--r--    1 root    root             2027 May  8  1999 /usr/share/texmf/dvips/config/raw-lw35extra-urw-kb.map
+-rw-r--r--    1 root    root             2054 May  8  1999 /usr/share/texmf/dvips/config/raw-lw35extra-urw-urw.map
+-rwxr-xr-x    1 root    root             4946 Jun  5  1999 /usr/share/texmf/dvips/config/updmap
+-rw-r--r--    1 root    root              513 Feb 13  1999 /usr/share/texmf/dvips/config/utopia.map
+-rw-r--r--    1 root    root             2563 Mar  1  1999 /usr/share/texmf/dvips/config/xypic.map
+-rw-r--r--    1 root    root             7561 Feb  3  2000 /usr/share/texmf/dvips/gsftopk/render.ps
+-rw-r--r--    1 root    root              496 May 15  1999 /usr/share/texmf/dvips/misc/alt-rule.pro
+-rw-r--r--    1 root    root             1337 May  8  1999 /usr/share/texmf/dvips/misc/mirr.hd
+-rw-r--r--    1 root    root             3854 Mar 11  1999 /usr/share/texmf/dvips/misc/pspicture.ps
+-rw-r--r--    1 root    root              435 Jan 30  1995 /usr/share/texmf/dvips/misc/resolution400.ps
+-rw-r--r--    1 root    root             5222 Nov  3  1998 /usr/share/texmf/dvips/psfrag/psfrag.pro
+-rw-r--r--    1 root    root             1612 Sep 15  1998 /usr/share/texmf/dvips/pstricks/pst-blur.pro
+-rw-r--r--    1 root    root             1669 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pst-coil.pro
+-rw-r--r--    1 root    root             3416 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pst-dots.pro
+-rw-r--r--    1 root    root             2782 Sep 23  1998 /usr/share/texmf/dvips/pstricks/pst-ghsb.pro
+-rw-r--r--    1 root    root             2063 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pst-grad.pro
+-rw-r--r--    1 root    root            12717 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pst-node.pro
+-rw-r--r--    1 root    root             3218 Sep 15  1998 /usr/share/texmf/dvips/pstricks/pst-slpe.pro
+-rw-r--r--    1 root    root             2141 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pst-text.pro
+-rw-r--r--    1 root    root            12327 Mar 29  1999 /usr/share/texmf/dvips/pstricks/pstricks.pro
+-rw-r--r--    1 root    root            15609 Sep 23  1998 /usr/share/texmf/dvips/xypic/xy36dict.pro
+-rw-r--r--    1 root    root            15609 Feb 16  1999 /usr/share/texmf/dvips/xypic/xy37dict.pro
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tetex-dvips-1.0.6-1.m68kmint.rpm">Download</A></H2> (368,630 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

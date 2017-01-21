@@ -1,0 +1,105 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - ORBit, version 0.5.7, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>ORBit</H2>
+
+<UL> 
+<LI>Summary: A high-performance CORBA Object Request Broker.<BR>
+<LI>URL: <A HREF="http://www.labs.redhat.com/orbit/">http://www.labs.redhat.com/orbit/</A><BR>
+<LI>Version: 0.5.7<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Daemons">System Environment/Daemons</A>
+<LI>License: LGPL/GPL</BR>
+<LI>Installation size: 1,917,581 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>ORBit = 0.5.7-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sat Mar 31 13:53:33 2001 UTC<BR>
+<LI>Upload date: Sat Mar 31 13:54:18 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/ORBit-0.5.7-1.src.rpm">ORBit-0.5.7-1.src.rpm</A>  (1,085,504 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Fri Jan  5 10:00:00 2001 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+ORBit is a high-performance CORBA (Common Object Request Broker<BR>Architecture) ORB (object request broker). It allows programs to<BR>send requests and receive replies from other programs, regardless<BR>of the locations of the two programs. CORBA is an architecture that<BR>enables communication between program objects, regardless of the<BR>programming language they're written in or the operating system they<BR>run on.<BR><P><BR>You will need to install this package and ORBIT-devel if you want to<BR>write programs that use CORBA technology.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           437798 Mar 31  2001 /usr/bin/name-client
+-rwxr-xr-x    1 root    root           436028 Mar 31  2001 /usr/bin/orbit-event-server
+-rwxr-xr-x    1 root    root           508033 Mar 31  2001 /usr/bin/orbit-ird
+-rwxr-xr-x    1 root    root           444204 Mar 31  2001 /usr/bin/orbit-name-server
+drwxr-xr-x    2 root    root                0 Mar 31  2001 /usr/doc/ORBit-0.5.7
+-rw-r--r--    1 root    root              410 Jul  1  1999 /usr/doc/ORBit-0.5.7/AUTHORS
+-rw-r--r--    1 root    root            17992 Jul 12  2000 /usr/doc/ORBit-0.5.7/COPYING
+-rw-r--r--    1 root    root               76 Dec 18  2000 /usr/doc/ORBit-0.5.7/ChangeLog
+-rw-r--r--    1 root    root             1976 Jul  6  1999 /usr/doc/ORBit-0.5.7/NEWS
+-rw-r--r--    1 root    root              481 Jul  1  1999 /usr/doc/ORBit-0.5.7/README
+-rw-r--r--    1 root    root              875 Mar 11  1999 /usr/doc/ORBit-0.5.7/TODO
+drwxr-xr-x    2 root    root                0 Mar 31  2001 /usr/doc/ORBit-0.5.7/libIDL
+-rw-r--r--    1 root    root               37 Oct  8  1998 /usr/doc/ORBit-0.5.7/libIDL/AUTHORS
+-rw-r--r--    1 root    root              148 Aug 17  1998 /usr/doc/ORBit-0.5.7/libIDL/BUGS
+-rw-r--r--    1 root    root            25265 Feb 19  1999 /usr/doc/ORBit-0.5.7/libIDL/COPYING
+-rw-r--r--    1 root    root            25797 Sep 29  2000 /usr/doc/ORBit-0.5.7/libIDL/ChangeLog
+-rw-r--r--    1 root    root             5134 Apr 24  1999 /usr/doc/ORBit-0.5.7/libIDL/NEWS
+-rw-r--r--    1 root    root             3748 Apr 24  1999 /usr/doc/ORBit-0.5.7/libIDL/README
+-rw-r--r--    1 root    root              845 Feb 19  1999 /usr/doc/ORBit-0.5.7/libIDL/README.win32
+-rw-r--r--    1 root    root             6686 Mar 24  1999 /usr/doc/ORBit-0.5.7/libIDL/tstidl.c
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/ORBit-0.5.7-1.m68kmint.rpm">Download</A></H2> (675,651 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

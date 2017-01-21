@@ -1,0 +1,96 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - dosfstools, version 2.10, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>dosfstools</H2>
+
+<UL> 
+<LI>Summary: FAT/FAT32/VFAT filesystem checker<BR>
+<LI>URL: <A HREF="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/">ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/</A><BR>
+<LI>Version: 2.10<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Base">System Environment/Base</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 175,112 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>dosfstools = 2.10-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Mon Sep 29 22:10:53 2003 UTC<BR>
+<LI>Upload date: Mon Sep 29 22:17:47 2003 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/dosfstools-2.10-1.src.rpm">dosfstools-2.10-1.src.rpm</A>  (83,843 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Sep 30 09:00:00 2003 UTC<BR>
+- updated to 2.10<BR>- much better memory management (around 33% reduced memory consumption)
+<LI>Description:<BR>
+Utility to check and repair FAT based filesystems. Includes support for<BR>FAT32 and VFAT long filenames.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           143281 Sep 29  2003 /sbin/dosfsck
+?rwxrwxrwx    1 root    root                7 Sep 29  2003 /sbin/fsck.msdos
+?rwxrwxrwx    1 root    root                7 Sep 29  2003 /sbin/fsck.vfat
+drwxr-xr-x    2 root    root                0 Sep 29  2003 /usr/doc/dosfstools-2.10
+-rw-r--r--    1 root    root             5082 Jun 14  2003 /usr/doc/dosfstools-2.10/CHANGES
+-rw-r--r--    1 root    root            18174 Jun  8  1999 /usr/doc/dosfstools-2.10/COPYING
+-rw-r--r--    1 root    root             2402 Aug  5  1999 /usr/doc/dosfstools-2.10/README
+-rw-r--r--    1 root    root             2912 Apr 30  1999 /usr/doc/dosfstools-2.10/README.Atari
+-rw-r--r--    1 root    root             2199 Sep 29  2003 /usr/share/man/man8/dosfsck.8.gz
+?rwxrwxrwx    1 root    root               12 Sep 29  2003 /usr/share/man/man8/fsck.msdos.8.gz
+?rwxrwxrwx    1 root    root               12 Sep 29  2003 /usr/share/man/man8/fsck.vfat.8.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/dosfstools-2.10-1.m68kmint.rpm">Download</A></H2> (88,644 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

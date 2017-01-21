@@ -1,0 +1,153 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - aalib-devel, version 1.4.0, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>aalib-devel</H2>
+
+<UL> 
+<LI>Summary: The static libraries and header files for AA-lib.<BR>
+<LI>URL: <A HREF="http://aa-project.sourceforge.net/aalib/">http://aa-project.sourceforge.net/aalib/</A><BR>
+<LI>Version: 1.4.0<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 250,213 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>aalib-devel = 1.4.0-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>aalib = 1.4.0<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Dec 11 14:01:48 2003 UTC<BR>
+<LI>Upload date: Fri Dec 12 03:52:14 2003 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/aalib-1.4.0-1.src.rpm">aalib-1.4.0-1.src.rpm</A>  (394,278 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Wed Dec 10 22:00:00 2003 UTC<BR>
+- Initial build of aalib for FreeMiNT
+<LI>Description:<BR>
+The aalib-devel package contains the static libraries and header files<BR>for the AA-lib ASCII art library.  If you'd like to develop programs<BR>using AA-lib, you'll need to install aalib-devel.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root             1395 Dec 11  2003 /usr/bin/aalib-config
+-rw-r--r--    1 root    root            34085 Dec 11  2003 /usr/include/aalib.h
+-rw-r--r--    1 root    root            96618 Dec 11  2003 /usr/lib/libaa.a
+-rwxr-xr-x    1 root    root              644 Dec 11  2003 /usr/lib/libaa.la
+-rw-r--r--    1 root    root             1758 Dec 11  2003 /usr/man/man3/aa_attrs.3
+-rw-r--r--    1 root    root             1936 Dec 11  2003 /usr/man/man3/aa_autoinit.3
+-rw-r--r--    1 root    root             2097 Dec 11  2003 /usr/man/man3/aa_autoinitkbd.3
+-rw-r--r--    1 root    root             1984 Dec 11  2003 /usr/man/man3/aa_autoinitmouse.3
+-rw-r--r--    1 root    root             1579 Dec 11  2003 /usr/man/man3/aa_close.3
+-rw-r--r--    1 root    root             2162 Dec 11  2003 /usr/man/man3/aa_createedit.3
+-rw-r--r--    1 root    root             1638 Dec 11  2003 /usr/man/man3/aa_currentfont.3
+-rw-r--r--    1 root    root             1560 Dec 11  2003 /usr/man/man3/aa_defparams.3
+-rw-r--r--    1 root    root             1513 Dec 11  2003 /usr/man/man3/aa_defrenderparams.3
+-rw-r--r--    1 root    root             1564 Dec 11  2003 /usr/man/man3/aa_displayrecommended.3
+-rw-r--r--    1 root    root             1544 Dec 11  2003 /usr/man/man3/aa_dithernames.3
+-rw-r--r--    1 root    root             1530 Dec 11  2003 /usr/man/man3/aa_drivers.3
+-rw-r--r--    1 root    root             1942 Dec 11  2003 /usr/man/man3/aa_edit.3
+-rw-r--r--    1 root    root             1614 Dec 11  2003 /usr/man/man3/aa_editkey.3
+-rw-r--r--    1 root    root             2156 Dec 11  2003 /usr/man/man3/aa_fastrender.3
+-rw-r--r--    1 root    root             1480 Dec 11  2003 /usr/man/man3/aa_fonts.3
+-rw-r--r--    1 root    root             1526 Dec 11  2003 /usr/man/man3/aa_formats.3
+-rw-r--r--    1 root    root             1962 Dec 11  2003 /usr/man/man3/aa_getevent.3
+-rw-r--r--    1 root    root             1895 Dec 11  2003 /usr/man/man3/aa_getkey.3
+-rw-r--r--    1 root    root             1922 Dec 11  2003 /usr/man/man3/aa_getmouse.3
+-rw-r--r--    1 root    root             1764 Dec 11  2003 /usr/man/man3/aa_gotoxy.3
+-rw-r--r--    1 root    root             1500 Dec 11  2003 /usr/man/man3/aa_help.3
+-rw-r--r--    1 root    root             1577 Dec 11  2003 /usr/man/man3/aa_hidecursor.3
+-rw-r--r--    1 root    root             1541 Dec 11  2003 /usr/man/man3/aa_hidemouse.3
+-rw-r--r--    1 root    root             1796 Dec 11  2003 /usr/man/man3/aa_image.3
+-rw-r--r--    1 root    root             1572 Dec 11  2003 /usr/man/man3/aa_imgheight.3
+-rw-r--r--    1 root    root             1568 Dec 11  2003 /usr/man/man3/aa_imgwidth.3
+-rw-r--r--    1 root    root             2236 Dec 11  2003 /usr/man/man3/aa_init.3
+-rw-r--r--    1 root    root             1992 Dec 11  2003 /usr/man/man3/aa_initkbd.3
+-rw-r--r--    1 root    root             1974 Dec 11  2003 /usr/man/man3/aa_initmouse.3
+-rw-r--r--    1 root    root             1543 Dec 11  2003 /usr/man/man3/aa_kbddrivers.3
+-rw-r--r--    1 root    root             1556 Dec 11  2003 /usr/man/man3/aa_kbdrecommended.3
+-rw-r--r--    1 root    root             1578 Dec 11  2003 /usr/man/man3/aa_mmheight.3
+-rw-r--r--    1 root    root             1574 Dec 11  2003 /usr/man/man3/aa_mmwidth.3
+-rw-r--r--    1 root    root             1543 Dec 11  2003 /usr/man/man3/aa_mousedrivers.3
+-rw-r--r--    1 root    root             1560 Dec 11  2003 /usr/man/man3/aa_mouserecommended.3
+-rw-r--r--    1 root    root             2676 Dec 11  2003 /usr/man/man3/aa_parseoptions.3
+-rw-r--r--    1 root    root             2567 Dec 11  2003 /usr/man/man3/aa_printf.3
+-rw-r--r--    1 root    root             1721 Dec 11  2003 /usr/man/man3/aa_putpixel.3
+-rw-r--r--    1 root    root             2503 Dec 11  2003 /usr/man/man3/aa_puts.3
+-rw-r--r--    1 root    root             1836 Dec 11  2003 /usr/man/man3/aa_recommendhi.3
+-rw-r--r--    1 root    root             1713 Dec 11  2003 /usr/man/man3/aa_recommendhidisplay.3
+-rw-r--r--    1 root    root             1707 Dec 11  2003 /usr/man/man3/aa_recommendhikbd.3
+-rw-r--r--    1 root    root             1705 Dec 11  2003 /usr/man/man3/aa_recommendhimouse.3
+-rw-r--r--    1 root    root             1820 Dec 11  2003 /usr/man/man3/aa_recommendlow.3
+-rw-r--r--    1 root    root             1697 Dec 11  2003 /usr/man/man3/aa_recommendlowdisplay.3
+-rw-r--r--    1 root    root             1691 Dec 11  2003 /usr/man/man3/aa_recommendlowkbd.3
+-rw-r--r--    1 root    root             1689 Dec 11  2003 /usr/man/man3/aa_recommendlowmouse.3
+-rw-r--r--    1 root    root             1629 Dec 11  2003 /usr/man/man3/aa_registerfont.3
+-rw-r--r--    1 root    root             2391 Dec 11  2003 /usr/man/man3/aa_render.3
+-rw-r--r--    1 root    root             1724 Dec 11  2003 /usr/man/man3/aa_resize.3
+-rw-r--r--    1 root    root             1714 Dec 11  2003 /usr/man/man3/aa_resizehandler.3
+-rw-r--r--    1 root    root             1578 Dec 11  2003 /usr/man/man3/aa_scrheight.3
+-rw-r--r--    1 root    root             1574 Dec 11  2003 /usr/man/man3/aa_scrwidth.3
+-rw-r--r--    1 root    root             1704 Dec 11  2003 /usr/man/man3/aa_setfont.3
+-rw-r--r--    1 root    root             1874 Dec 11  2003 /usr/man/man3/aa_setsupported.3
+-rw-r--r--    1 root    root             1581 Dec 11  2003 /usr/man/man3/aa_showcursor.3
+-rw-r--r--    1 root    root             1541 Dec 11  2003 /usr/man/man3/aa_showmouse.3
+-rw-r--r--    1 root    root             1770 Dec 11  2003 /usr/man/man3/aa_text.3
+-rw-r--r--    1 root    root             1637 Dec 11  2003 /usr/man/man3/aa_uninitkbd.3
+-rw-r--r--    1 root    root             1635 Dec 11  2003 /usr/man/man3/aa_uninitmouse.3
+-rw-r--r--    1 root    root             1611 Dec 11  2003 /usr/man/man3/mem_d.3
+-rw-r--r--    1 root    root             1653 Dec 11  2003 /usr/man/man3/save_d.3
+-rw-r--r--    1 root    root             6294 Dec 11  2003 /usr/share/aclocal/aalib.m4
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/aalib-devel-1.4.0-1.m68kmint.rpm">Download</A></H2> (66,188 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

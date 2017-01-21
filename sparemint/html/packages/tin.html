@@ -1,0 +1,123 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - tin, version 1.6.2, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>tin</H2>
+
+<UL> 
+<LI>Summary: tin - an easy-to-use USENET news reader<BR>
+
+<LI>Version: 1.6.2<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/News">Applications/News</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 2,089,147 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>tin = 1.6.2-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Thu Oct 16 14:44:21 2003 UTC<BR>
+<LI>Upload date: Wed Oct 22 15:08:20 2003 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: (none)<BR>
+<LI>Sources: <A HREF="../../SRPMS/tin-1.6.2-1.src.rpm">tin-1.6.2-1.src.rpm</A>  (1,550,098 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Wed Oct 15 21:00:00 2003 UTC<BR>
+- Specfile created for tin 1.6.2.
+<LI>Description:<BR>
+tin is an easy-to-use USENET news reader for the console using NNTP.<BR>It supports threading, scoring, different charsets, and many other<BR>useful things. It has also support for different languages.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Oct 16  2003 /etc/tin
+-rw-r--r--    1 root    root             3365 Oct 16  2003 /etc/tin/mime.types
+-rw-r--r--    1 root    root             4675 Oct 16  2003 /etc/tin/tin.defaults
+-rwxr-xr-x    1 root    root             3815 Oct 16  2003 /usr/bin/metamutt
+-rwxr-xr-x    1 root    root             2787 Oct 16  2003 /usr/bin/opt-case.pl
+?rwxr-xr-x    1 root    root                3 Oct 16  2003 /usr/bin/rtin
+-rwxr-xr-x    1 root    root          1252518 Oct 16  2003 /usr/bin/tin
+-rwxr-xr-x    1 root    root             1561 Oct 16  2003 /usr/bin/url_handler.sh
+-rwxr-xr-x    1 root    root             3172 Oct 16  2003 /usr/bin/w2r.pl
+drwxr-xr-x    2 root    root                0 Oct 16  2003 /usr/doc/tin-1.6.2
+-rw-r--r--    1 root    root             3839 Sep 10  2003 /usr/doc/tin-1.6.2/CHANGES
+-rw-r--r--    1 root    root            29430 Aug 10  2003 /usr/doc/tin-1.6.2/INSTALL
+-rw-r--r--    1 root    root             1440 Aug 10  2003 /usr/doc/tin-1.6.2/README
+-rw-r--r--    1 root    root            30582 Aug 26  2003 /usr/doc/tin-1.6.2/TODO
+-rw-r--r--    1 root    root             3302 Aug 10  2003 /usr/doc/tin-1.6.2/WHATSNEW
+-rw-r--r--    1 root    root             3862 Aug 10  2003 /usr/doc/tin-1.6.2/auth.txt
+-rw-r--r--    1 root    root            11237 Aug 10  2003 /usr/doc/tin-1.6.2/filtering
+-rw-r--r--    1 root    root            35037 Aug 10  2003 /usr/doc/tin-1.6.2/good-netkeeping-seal
+-rw-r--r--    1 root    root            23621 Aug 10  2003 /usr/doc/tin-1.6.2/iso2asc.txt
+-rw-r--r--    1 root    root             4048 Aug 10  2003 /usr/doc/tin-1.6.2/keymap.sample
+-rw-r--r--    1 root    root              660 Aug 10  2003 /usr/doc/tin-1.6.2/mailcap.sample
+-rw-r--r--    1 root    root             3984 Aug 10  2003 /usr/doc/tin-1.6.2/pgp.txt
+-rw-r--r--    1 root    root             1525 Aug 10  2003 /usr/doc/tin-1.6.2/reading-mail.txt
+-rw-r--r--    1 root    root             1879 Aug 10  2003 /usr/doc/tin-1.6.2/tools.txt
+-rw-r--r--    1 root    root             4947 Aug 10  2003 /usr/doc/tin-1.6.2/umlaute.txt
+-rw-r--r--    1 root    root             4245 Aug 10  2003 /usr/doc/tin-1.6.2/umlauts.txt
+-rw-r--r--    1 root    root             2196 Aug 10  2003 /usr/doc/tin-1.6.2/wildmat.3
+-r--r--r--    1 root    root             5155 Oct 16  2003 /usr/man/man1/opt-case.pl.1
+?rwxrwxrwx    1 root    root                5 Oct 16  2003 /usr/man/man1/rtin.1
+-r--r--r--    1 root    root           120237 Oct 16  2003 /usr/man/man1/tin.1
+-r--r--r--    1 root    root             4733 Oct 16  2003 /usr/man/man1/w2r.pl.1
+-r--r--r--    1 root    root             5870 Oct 16  2003 /usr/man/man5/mbox.5
+-r--r--r--    1 root    root             4168 Oct 16  2003 /usr/man/man5/mmdf.5
+-r--r--r--    1 root    root            69817 Oct 16  2003 /usr/man/man5/tin.5
+-rw-r--r--    1 root    root           164392 Oct 16  2003 /usr/share/locale/de/LC_MESSAGES/tin.mo
+-rw-r--r--    1 root    root             7444 Oct 16  2003 /usr/share/locale/en_GB/LC_MESSAGES/tin.mo
+-rw-r--r--    1 root    root           156928 Oct 16  2003 /usr/share/locale/et/LC_MESSAGES/tin.mo
+-rw-r--r--    1 root    root           104476 Oct 16  2003 /usr/share/locale/fr/LC_MESSAGES/tin.mo
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/tin-1.6.2-1.m68kmint.rpm">Download</A></H2> (1,022,271 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

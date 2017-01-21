@@ -1,0 +1,166 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - libtar, version 1.2.3, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>libtar</H2>
+
+<UL> 
+<LI>Summary: libtar - C library for manipulating tar files<BR>
+<LI>URL: <A HREF="http://www-dev.cso.uiuc.edu/libtar/">http://www-dev.cso.uiuc.edu/libtar/</A><BR>
+<LI>Version: 1.2.3<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 67,611 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>libtar = 1.2.3-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jun 26 23:40:03 2001 UTC<BR>
+<LI>Upload date: Tue Jun 26 23:40:08 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/libtar-1.2.3-1.src.rpm">libtar-1.2.3-1.src.rpm</A>  (75,582 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed Jun 27 09:00:00 2001 UTC<BR>
+- initial Sparemint release
+<LI>Description:<BR>
+libtar is a library for manipulating tar files from within C programs.<BR>Here are some of its features:<BR><P><BR>  * Handles both POSIX tar file format and the GNU extensions.<BR>  * API provides functions for easy use, such as tar_extract_all().<BR>  * Also provides functions for more granular use, such as<BR>    tar_append_regfile().
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Jun 26  2001 /usr/doc/libtar-1.2.3
+-rw-r--r--    1 root    root             1850 Jan  3  2001 /usr/doc/libtar-1.2.3/COPYRIGHT
+-rw-r--r--    1 root    root             3782 Jun 26  2001 /usr/doc/libtar-1.2.3/ChangeLog
+-rw-r--r--    1 root    root             3977 Aug 19  2000 /usr/doc/libtar-1.2.3/ChangeLog-1.0.x
+-rw-r--r--    1 root    root             3472 Jan  5  2001 /usr/doc/libtar-1.2.3/README
+-rw-r--r--    1 root    root              282 Nov 27  2000 /usr/doc/libtar-1.2.3/TODO
+-rw-r--r--    1 root    root             7397 Jun 26  2001 /usr/include/libtar.h
+-rw-r--r--    1 root    root             4509 Jun 26  2001 /usr/include/libtar_listhash.h
+-rw-r--r--    1 root    root            29018 Jun 26  2001 /usr/lib/libtar.a
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISBLK.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISCHR.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISDIR.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISFIFO.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISLNK.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISLONGLINK.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISLONGNAME.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISREG.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/TH_ISSYM.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_add.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_del.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_free.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_getkey.3.gz
+-rw-r--r--    1 root    root             1089 Jun 26  2001 /usr/share/man/man3/libtar_hash_new.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_next.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_prev.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_hash_search.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_add.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_add_str.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_del.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_dup.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_free.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_merge.3.gz
+-rw-r--r--    1 root    root             1173 Jun 26  2001 /usr/share/man/man3/libtar_list_new.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_next.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_prev.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/libtar_list_search.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/tar_append_eof.3.gz
+-rw-r--r--    1 root    root              907 Jun 26  2001 /usr/share/man/man3/tar_append_file.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/tar_append_regfile.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/tar_append_tree.3.gz
+-rw-r--r--    1 root    root              448 Jun 26  2001 /usr/share/man/man3/tar_block_read.3.gz
+-rw-rw-rw-    1 root    root               46 Jun 26  2001 /usr/share/man/man3/tar_block_write.3.gz
+-rw-rw-rw-    1 root    root               40 Jun 26  2001 /usr/share/man/man3/tar_close.3.gz
+-rw-r--r--    1 root    root              713 Jun 26  2001 /usr/share/man/man3/tar_extract_all.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_blockdev.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_chardev.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_dir.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_fifo.3.gz
+-rw-r--r--    1 root    root             1198 Jun 26  2001 /usr/share/man/man3/tar_extract_file.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/tar_extract_glob.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_hardlink.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_regfile.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_extract_symlink.3.gz
+-rw-rw-rw-    1 root    root               40 Jun 26  2001 /usr/share/man/man3/tar_fd.3.gz
+-rw-rw-rw-    1 root    root               40 Jun 26  2001 /usr/share/man/man3/tar_fdopen.3.gz
+-rw-r--r--    1 root    root             1491 Jun 26  2001 /usr/share/man/man3/tar_open.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_set_file_perms.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/tar_skip_regfile.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_finish.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_crc.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_devmajor.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_devminor.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_gid.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_linkname.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_mode.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_mtime.3.gz
+-rw-r--r--    1 root    root              705 Jun 26  2001 /usr/share/man/man3/th_get_pathname.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_size.3.gz
+-rw-rw-rw-    1 root    root               47 Jun 26  2001 /usr/share/man/man3/th_get_uid.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_print.3.gz
+-rw-r--r--    1 root    root              460 Jun 26  2001 /usr/share/man/man3/th_print_long_ls.3.gz
+-rw-r--r--    1 root    root              552 Jun 26  2001 /usr/share/man/man3/th_read.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_device.3.gz
+-rw-r--r--    1 root    root              709 Jun 26  2001 /usr/share/man/man3/th_set_from_stat.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_group.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_link.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_mode.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_path.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_type.3.gz
+-rw-rw-rw-    1 root    root               48 Jun 26  2001 /usr/share/man/man3/th_set_user.3.gz
+-rw-rw-rw-    1 root    root               39 Jun 26  2001 /usr/share/man/man3/th_write.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/libtar-1.2.3-1.m68kmint.rpm">Download</A></H2> (41,892 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

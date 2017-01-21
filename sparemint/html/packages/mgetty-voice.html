@@ -1,0 +1,137 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - mgetty-voice, version 1.1.22, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>mgetty-voice</H2>
+
+<UL> 
+<LI>Summary: A program for using your modem and mgetty as an answering machine<BR>
+<LI>URL: <A HREF="ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/">ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/</A><BR>
+<LI>Version: 1.1.22<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Communications">Applications/Communications</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 4,183,057 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>mgetty-voice = 1.1.22-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>mgetty = 1.1.22<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Jan  9 14:04:35 2001 UTC<BR>
+<LI>Upload date: Tue Jan  9 14:06:40 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/mgetty-1.1.22-1.src.rpm">mgetty-1.1.22-1.src.rpm</A>  (971,382 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Tue Jan  9 10:00:00 2001 UTC<BR>
+- updated to 1.1.22<BR>- integrated all Redhat 7.0 patches<BR>- patched to compile with current MiNTLib<BR>- added built of X11 faxviewer package
+<LI>Description:<BR>
+The mgetty-voice package contains the vgetty system, which enables<BR>mgetty and your modem to support voice capabilities.  In simple terms,<BR>vgetty lets your modem act as an answering machine.  How well the<BR>system will work depends upon your modem, which may or may not be able<BR>to handle this kind of implementation.<BR><P><BR>Install mgetty-voice along with mgetty if you'd like to try having<BR>your modem act as an answering machine.
+<LI>Files:<BR>
+<PRE>
+-rw-------    1 root    root            15737 Jan  9  2001 /etc/mgetty+sendfax/voice.conf
+-rwx------    1 root    root           303583 Jan  9  2001 /sbin/vgetty
+-rwxr-xr-x    1 root    root           160564 Jan  9  2001 /usr/bin/autopvf
+-rwxr-xr-x    1 root    root           160617 Jan  9  2001 /usr/bin/basictopvf
+-rwxr-xr-x    1 root    root           158220 Jan  9  2001 /usr/bin/lintopvf
+-rwxr-xr-x    1 root    root           157553 Jan  9  2001 /usr/bin/pvfamp
+-rwxr-xr-x    1 root    root           157827 Jan  9  2001 /usr/bin/pvfcut
+-rwxr-xr-x    1 root    root           157892 Jan  9  2001 /usr/bin/pvfecho
+-rwxr-xr-x    1 root    root           168798 Jan  9  2001 /usr/bin/pvffft
+-rwxr-xr-x    1 root    root           156699 Jan  9  2001 /usr/bin/pvffile
+-rwxr-xr-x    1 root    root           157755 Jan  9  2001 /usr/bin/pvfmix
+-rwxr-xr-x    1 root    root           157482 Jan  9  2001 /usr/bin/pvfreverse
+-rwxr-xr-x    1 root    root           164942 Jan  9  2001 /usr/bin/pvfsine
+-rwxr-xr-x    1 root    root           159834 Jan  9  2001 /usr/bin/pvfspeed
+-rwxr-xr-x    1 root    root           160270 Jan  9  2001 /usr/bin/pvftoau
+-rwxr-xr-x    1 root    root           160076 Jan  9  2001 /usr/bin/pvftobasic
+-rwxr-xr-x    1 root    root           157620 Jan  9  2001 /usr/bin/pvftolin
+-rwxr-xr-x    1 root    root           192191 Jan  9  2001 /usr/bin/pvftormd
+-rwxr-xr-x    1 root    root           157949 Jan  9  2001 /usr/bin/pvftovoc
+-rwxr-xr-x    1 root    root           162597 Jan  9  2001 /usr/bin/pvftowav
+-rwxr-xr-x    1 root    root           156542 Jan  9  2001 /usr/bin/rmdfile
+-rwxr-xr-x    1 root    root           189709 Jan  9  2001 /usr/bin/rmdtopvf
+-rwxr-xr-x    1 root    root           282588 Jan  9  2001 /usr/bin/vm
+-rwxr-xr-x    1 root    root           158433 Jan  9  2001 /usr/bin/voctopvf
+-rwxr-xr-x    1 root    root           162940 Jan  9  2001 /usr/bin/wavtopvf
+-rw-r--r--    1 root    root              290 Jan  9  2001 /usr/share/man/man1/autopvf.1.gz
+-rw-r--r--    1 root    root              290 Jan  9  2001 /usr/share/man/man1/basictopvf.1.gz
+-rw-r--r--    1 root    root              290 Jan  9  2001 /usr/share/man/man1/lintopvf.1.gz
+-rw-r--r--    1 root    root              290 Jan  9  2001 /usr/share/man/man1/pvf.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfamp.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfcut.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfecho.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvffft.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvffile.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfmix.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfreverse.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfsine.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvfspeed.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftoau.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftobasic.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftolin.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftormd.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftovoc.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/pvftowav.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/rmdfile.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/rmdtopvf.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/voctopvf.1.gz
+?rwxrwxrwx    1 root    root                8 Jan  9  2001 /usr/share/man/man1/wavtopvf.1.gz
+-rw-r--r--    1 root    root              255 Jan  9  2001 /usr/share/man/man1/zplay.1.gz
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /var/spool/voice
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /var/spool/voice/incoming
+drwxr-xr-x    2 root    root                0 Jan  9  2001 /var/spool/voice/messages
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/mgetty-voice-1.1.22-1.m68kmint.rpm">Download</A></H2> (1,921,242 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

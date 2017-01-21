@@ -1,0 +1,436 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - groff, version 1.15, release 3</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>groff</H2>
+
+<UL> 
+<LI>Summary: A document formatting system.<BR>
+
+<LI>Version: 1.15<BR>
+<LI>Release: 3<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Publishing">Applications/Publishing</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 6,046,608 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>groff = 1.15-3<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>mktemp  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: (none)<BR>
+<LI>Build date: Wed May 10 11:23:23 2000 UTC<BR>
+<LI>Upload date: Wed May 10 11:27:42 2000 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/groff-1.15-3.src.rpm">groff-1.15-3.src.rpm</A>  (1,157,504 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Wed May 10 09:00:00 2000 UTC<BR>
+- recompiled against new MiNTLib<BR>- increased stack sizes
+<LI>Description:<BR>
+Groff is a document formatting system.  Groff takes standard text and<BR>formatting commands as input and produces formatted output.  The<BR>created documents can be shown on a display or printed on a printer.<BR>Groff's formatting commands allow you to specify font type and size, bold<BR>type, italic type, the number and size of columns on a page, and more.<BR><P><BR>You should install groff if you want to use it as a document formatting<BR>system.  Groff can also be used to format man pages. If you are going<BR>to use groff with the X Window System, you'll also need to install the<BR>groff-gxditview package.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           168048 May 10  2000 /usr/bin/addftinfo
+-rwxr-xr-x    1 root    root           303393 May 10  2000 /usr/bin/eqn
+?rwxrwxrwx    1 root    root                3 May 10  2000 /usr/bin/geqn
+?rwxrwxrwx    1 root    root                7 May 10  2000 /usr/bin/gindxbib
+?rwxrwxrwx    1 root    root                7 May 10  2000 /usr/bin/glookbib
+?rwxrwxrwx    1 root    root                4 May 10  2000 /usr/bin/gneqn
+?rwxrwxrwx    1 root    root                5 May 10  2000 /usr/bin/gnroff
+?rwxrwxrwx    1 root    root                3 May 10  2000 /usr/bin/gpic
+?rwxrwxrwx    1 root    root                5 May 10  2000 /usr/bin/grefer
+-rwxr-xr-x    1 root    root           217114 May 10  2000 /usr/bin/grodvi
+-rwxr-xr-x    1 root    root           211188 May 10  2000 /usr/bin/groff
+-rwxr-xr-x    1 root    root           290637 May 10  2000 /usr/bin/grohtml
+-rwxr-xr-x    1 root    root           213905 May 10  2000 /usr/bin/grolj4
+-rwxr-xr-x    1 root    root           254463 May 10  2000 /usr/bin/grops
+-rwxr-xr-x    1 root    root           208129 May 10  2000 /usr/bin/grotty
+?rwxrwxrwx    1 root    root                6 May 10  2000 /usr/bin/gsoelim
+?rwxrwxrwx    1 root    root                3 May 10  2000 /usr/bin/gtbl
+?rwxrwxrwx    1 root    root                5 May 10  2000 /usr/bin/gtroff
+-rwxr-xr-x    1 root    root           177722 May 10  2000 /usr/bin/hpftodit
+-rwxr-xr-x    1 root    root           138410 May 10  2000 /usr/bin/indxbib
+-rwxr-xr-x    1 root    root           144749 May 10  2000 /usr/bin/lkbib
+-rwxr-xr-x    1 root    root           144841 May 10  2000 /usr/bin/lookbib
+-rwxr-xr-x    1 root    root              164 May 10  2000 /usr/bin/neqn
+-rwxr-xr-x    1 root    root              987 May 10  2000 /usr/bin/nroff
+-rwxr-xr-x    1 root    root            92666 May 10  2000 /usr/bin/pfbtops
+-rwxr-xr-x    1 root    root           403921 May 10  2000 /usr/bin/pic
+-rwxr-xr-x    1 root    root           131952 May 10  2000 /usr/bin/psbb
+-rwxr-xr-x    1 root    root           249450 May 10  2000 /usr/bin/refer
+-rwxr-xr-x    1 root    root           130997 May 10  2000 /usr/bin/soelim
+-rwxr-xr-x    1 root    root           270727 May 10  2000 /usr/bin/tbl
+-rwxr-xr-x    1 root    root           173474 May 10  2000 /usr/bin/tfmtodit
+-rwxr-xr-x    1 root    root           493617 May 10  2000 /usr/bin/troff
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff
+-rw-r--r--    1 root    root              620 May 10  2000 /usr/lib/groff/eign
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devX100
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devX100-12
+-rw-r--r--    1 root    root             3438 May 10  2000 /usr/lib/groff/font/devX100-12/CB
+-rw-r--r--    1 root    root             3437 May 10  2000 /usr/lib/groff/font/devX100-12/CBI
+-rw-r--r--    1 root    root             3436 May 10  2000 /usr/lib/groff/font/devX100-12/CI
+-rw-r--r--    1 root    root             3435 May 10  2000 /usr/lib/groff/font/devX100-12/CR
+-rw-r--r--    1 root    root              117 May 10  2000 /usr/lib/groff/font/devX100-12/DESC
+-rw-r--r--    1 root    root             3340 May 10  2000 /usr/lib/groff/font/devX100-12/HB
+-rw-r--r--    1 root    root             3343 May 10  2000 /usr/lib/groff/font/devX100-12/HBI
+-rw-r--r--    1 root    root             3316 May 10  2000 /usr/lib/groff/font/devX100-12/HI
+-rw-r--r--    1 root    root             3319 May 10  2000 /usr/lib/groff/font/devX100-12/HR
+-rw-r--r--    1 root    root             3370 May 10  2000 /usr/lib/groff/font/devX100-12/NB
+-rw-r--r--    1 root    root             3360 May 10  2000 /usr/lib/groff/font/devX100-12/NBI
+-rw-r--r--    1 root    root             3340 May 10  2000 /usr/lib/groff/font/devX100-12/NI
+-rw-r--r--    1 root    root             3330 May 10  2000 /usr/lib/groff/font/devX100-12/NR
+-rw-r--r--    1 root    root             3373 May 10  2000 /usr/lib/groff/font/devX100-12/S
+-rw-r--r--    1 root    root             3307 May 10  2000 /usr/lib/groff/font/devX100-12/TB
+-rw-r--r--    1 root    root             3323 May 10  2000 /usr/lib/groff/font/devX100-12/TBI
+-rw-r--r--    1 root    root             3313 May 10  2000 /usr/lib/groff/font/devX100-12/TI
+-rw-r--r--    1 root    root             3302 May 10  2000 /usr/lib/groff/font/devX100-12/TR
+-rw-r--r--    1 root    root             3188 May 10  2000 /usr/lib/groff/font/devX100/CB
+-rw-r--r--    1 root    root             3190 May 10  2000 /usr/lib/groff/font/devX100/CBI
+-rw-r--r--    1 root    root             3184 May 10  2000 /usr/lib/groff/font/devX100/CI
+-rw-r--r--    1 root    root             3185 May 10  2000 /usr/lib/groff/font/devX100/CR
+-rw-r--r--    1 root    root              117 May 10  2000 /usr/lib/groff/font/devX100/DESC
+-rw-r--r--    1 root    root             3289 May 10  2000 /usr/lib/groff/font/devX100/HB
+-rw-r--r--    1 root    root             3286 May 10  2000 /usr/lib/groff/font/devX100/HBI
+-rw-r--r--    1 root    root             3287 May 10  2000 /usr/lib/groff/font/devX100/HI
+-rw-r--r--    1 root    root             3274 May 10  2000 /usr/lib/groff/font/devX100/HR
+-rw-r--r--    1 root    root             3311 May 10  2000 /usr/lib/groff/font/devX100/NB
+-rw-r--r--    1 root    root             3319 May 10  2000 /usr/lib/groff/font/devX100/NBI
+-rw-r--r--    1 root    root             3292 May 10  2000 /usr/lib/groff/font/devX100/NI
+-rw-r--r--    1 root    root             3295 May 10  2000 /usr/lib/groff/font/devX100/NR
+-rw-r--r--    1 root    root             3324 May 10  2000 /usr/lib/groff/font/devX100/S
+-rw-r--r--    1 root    root             3292 May 10  2000 /usr/lib/groff/font/devX100/TB
+-rw-r--r--    1 root    root             3287 May 10  2000 /usr/lib/groff/font/devX100/TBI
+-rw-r--r--    1 root    root             3285 May 10  2000 /usr/lib/groff/font/devX100/TI
+-rw-r--r--    1 root    root             3284 May 10  2000 /usr/lib/groff/font/devX100/TR
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devX75
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devX75-12
+-rw-r--r--    1 root    root             3133 May 10  2000 /usr/lib/groff/font/devX75-12/CB
+-rw-r--r--    1 root    root             3131 May 10  2000 /usr/lib/groff/font/devX75-12/CBI
+-rw-r--r--    1 root    root             3134 May 10  2000 /usr/lib/groff/font/devX75-12/CI
+-rw-r--r--    1 root    root             3134 May 10  2000 /usr/lib/groff/font/devX75-12/CR
+-rw-r--r--    1 root    root              116 May 10  2000 /usr/lib/groff/font/devX75-12/DESC
+-rw-r--r--    1 root    root             3165 May 10  2000 /usr/lib/groff/font/devX75-12/HB
+-rw-r--r--    1 root    root             3159 May 10  2000 /usr/lib/groff/font/devX75-12/HBI
+-rw-r--r--    1 root    root             3156 May 10  2000 /usr/lib/groff/font/devX75-12/HI
+-rw-r--r--    1 root    root             3163 May 10  2000 /usr/lib/groff/font/devX75-12/HR
+-rw-r--r--    1 root    root             3161 May 10  2000 /usr/lib/groff/font/devX75-12/NB
+-rw-r--r--    1 root    root             3165 May 10  2000 /usr/lib/groff/font/devX75-12/NBI
+-rw-r--r--    1 root    root             3138 May 10  2000 /usr/lib/groff/font/devX75-12/NI
+-rw-r--r--    1 root    root             3147 May 10  2000 /usr/lib/groff/font/devX75-12/NR
+-rw-r--r--    1 root    root             3225 May 10  2000 /usr/lib/groff/font/devX75-12/S
+-rw-r--r--    1 root    root             3140 May 10  2000 /usr/lib/groff/font/devX75-12/TB
+-rw-r--r--    1 root    root             3146 May 10  2000 /usr/lib/groff/font/devX75-12/TBI
+-rw-r--r--    1 root    root             3138 May 10  2000 /usr/lib/groff/font/devX75-12/TI
+-rw-r--r--    1 root    root             3128 May 10  2000 /usr/lib/groff/font/devX75-12/TR
+-rw-r--r--    1 root    root             3110 May 10  2000 /usr/lib/groff/font/devX75/CB
+-rw-r--r--    1 root    root             3107 May 10  2000 /usr/lib/groff/font/devX75/CBI
+-rw-r--r--    1 root    root             3104 May 10  2000 /usr/lib/groff/font/devX75/CI
+-rw-r--r--    1 root    root             3106 May 10  2000 /usr/lib/groff/font/devX75/CR
+-rw-r--r--    1 root    root              116 May 10  2000 /usr/lib/groff/font/devX75/DESC
+-rw-r--r--    1 root    root             3127 May 10  2000 /usr/lib/groff/font/devX75/HB
+-rw-r--r--    1 root    root             3126 May 10  2000 /usr/lib/groff/font/devX75/HBI
+-rw-r--r--    1 root    root             3132 May 10  2000 /usr/lib/groff/font/devX75/HI
+-rw-r--r--    1 root    root             3125 May 10  2000 /usr/lib/groff/font/devX75/HR
+-rw-r--r--    1 root    root             3123 May 10  2000 /usr/lib/groff/font/devX75/NB
+-rw-r--r--    1 root    root             3128 May 10  2000 /usr/lib/groff/font/devX75/NBI
+-rw-r--r--    1 root    root             3122 May 10  2000 /usr/lib/groff/font/devX75/NI
+-rw-r--r--    1 root    root             3124 May 10  2000 /usr/lib/groff/font/devX75/NR
+-rw-r--r--    1 root    root             3195 May 10  2000 /usr/lib/groff/font/devX75/S
+-rw-r--r--    1 root    root             3130 May 10  2000 /usr/lib/groff/font/devX75/TB
+-rw-r--r--    1 root    root             3129 May 10  2000 /usr/lib/groff/font/devX75/TBI
+-rw-r--r--    1 root    root             3125 May 10  2000 /usr/lib/groff/font/devX75/TI
+-rw-r--r--    1 root    root             3120 May 10  2000 /usr/lib/groff/font/devX75/TR
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devascii
+-rw-r--r--    1 root    root             1507 May 10  2000 /usr/lib/groff/font/devascii/B
+-rw-r--r--    1 root    root             1508 May 10  2000 /usr/lib/groff/font/devascii/BI
+-rw-r--r--    1 root    root               88 May 10  2000 /usr/lib/groff/font/devascii/DESC
+-rw-r--r--    1 root    root             1507 May 10  2000 /usr/lib/groff/font/devascii/I
+-rw-r--r--    1 root    root             1492 May 10  2000 /usr/lib/groff/font/devascii/R
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devdvi
+-rw-r--r--    1 root    root             5924 May 10  2000 /usr/lib/groff/font/devdvi/B
+-rw-r--r--    1 root    root             7298 May 10  2000 /usr/lib/groff/font/devdvi/BI
+-rw-r--r--    1 root    root             3439 May 10  2000 /usr/lib/groff/font/devdvi/CW
+-rw-r--r--    1 root    root              233 May 10  2000 /usr/lib/groff/font/devdvi/DESC
+-rw-r--r--    1 root    root             4849 May 10  2000 /usr/lib/groff/font/devdvi/EX
+-rw-r--r--    1 root    root             5363 May 10  2000 /usr/lib/groff/font/devdvi/H
+-rw-r--r--    1 root    root             5371 May 10  2000 /usr/lib/groff/font/devdvi/HB
+-rw-r--r--    1 root    root             6318 May 10  2000 /usr/lib/groff/font/devdvi/HI
+-rw-r--r--    1 root    root             7285 May 10  2000 /usr/lib/groff/font/devdvi/I
+-rw-r--r--    1 root    root             4073 May 10  2000 /usr/lib/groff/font/devdvi/MI
+-rw-r--r--    1 root    root             6756 May 10  2000 /usr/lib/groff/font/devdvi/R
+-rw-r--r--    1 root    root             4055 May 10  2000 /usr/lib/groff/font/devdvi/S
+-rw-r--r--    1 root    root             4813 May 10  2000 /usr/lib/groff/font/devdvi/SA
+-rw-r--r--    1 root    root             4264 May 10  2000 /usr/lib/groff/font/devdvi/SB
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devdvi/generate
+-rw-r--r--    1 root    root              416 May 10  2000 /usr/lib/groff/font/devdvi/generate/CompileFonts
+-rw-r--r--    1 root    root             2745 May 10  2000 /usr/lib/groff/font/devdvi/generate/Makefile
+-rw-r--r--    1 root    root             1916 May 10  2000 /usr/lib/groff/font/devdvi/generate/msam.map
+-rw-r--r--    1 root    root             1487 May 10  2000 /usr/lib/groff/font/devdvi/generate/msbm.map
+-rw-r--r--    1 root    root              823 May 10  2000 /usr/lib/groff/font/devdvi/generate/texb.map
+-rw-r--r--    1 root    root             1525 May 10  2000 /usr/lib/groff/font/devdvi/generate/texex.map
+-rw-r--r--    1 root    root              832 May 10  2000 /usr/lib/groff/font/devdvi/generate/texi.map
+-rw-r--r--    1 root    root              200 May 10  2000 /usr/lib/groff/font/devdvi/generate/texmi.map
+-rw-r--r--    1 root    root              868 May 10  2000 /usr/lib/groff/font/devdvi/generate/texr.map
+-rw-r--r--    1 root    root              679 May 10  2000 /usr/lib/groff/font/devdvi/generate/texsy.map
+-rw-r--r--    1 root    root              788 May 10  2000 /usr/lib/groff/font/devdvi/generate/textt.map
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devhtml
+-rw-r--r--    1 root    root             3187 May 10  2000 /usr/lib/groff/font/devhtml/CB
+-rw-r--r--    1 root    root             3189 May 10  2000 /usr/lib/groff/font/devhtml/CBI
+-rw-r--r--    1 root    root             3183 May 10  2000 /usr/lib/groff/font/devhtml/CI
+-rw-r--r--    1 root    root             3185 May 10  2000 /usr/lib/groff/font/devhtml/CR
+-rw-r--r--    1 root    root              125 May 10  2000 /usr/lib/groff/font/devhtml/DESC
+-rw-r--r--    1 root    root             3288 May 10  2000 /usr/lib/groff/font/devhtml/HB
+-rw-r--r--    1 root    root             3285 May 10  2000 /usr/lib/groff/font/devhtml/HBI
+-rw-r--r--    1 root    root             3286 May 10  2000 /usr/lib/groff/font/devhtml/HI
+-rw-r--r--    1 root    root             3273 May 10  2000 /usr/lib/groff/font/devhtml/HR
+-rw-r--r--    1 root    root             3310 May 10  2000 /usr/lib/groff/font/devhtml/NB
+-rw-r--r--    1 root    root             3318 May 10  2000 /usr/lib/groff/font/devhtml/NBI
+-rw-r--r--    1 root    root             3291 May 10  2000 /usr/lib/groff/font/devhtml/NI
+-rw-r--r--    1 root    root             3294 May 10  2000 /usr/lib/groff/font/devhtml/NR
+-rw-r--r--    1 root    root             3324 May 10  2000 /usr/lib/groff/font/devhtml/S
+-rw-r--r--    1 root    root             3292 May 10  2000 /usr/lib/groff/font/devhtml/TB
+-rw-r--r--    1 root    root             3287 May 10  2000 /usr/lib/groff/font/devhtml/TBI
+-rw-r--r--    1 root    root             3285 May 10  2000 /usr/lib/groff/font/devhtml/TI
+-rw-r--r--    1 root    root             3284 May 10  2000 /usr/lib/groff/font/devhtml/TR
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devlatin1
+-rw-r--r--    1 root    root             3683 May 10  2000 /usr/lib/groff/font/devlatin1/B
+-rw-r--r--    1 root    root             3684 May 10  2000 /usr/lib/groff/font/devlatin1/BI
+-rw-r--r--    1 root    root               88 May 10  2000 /usr/lib/groff/font/devlatin1/DESC
+-rw-r--r--    1 root    root             3683 May 10  2000 /usr/lib/groff/font/devlatin1/I
+-rw-r--r--    1 root    root             3668 May 10  2000 /usr/lib/groff/font/devlatin1/R
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devlj4
+-rw-r--r--    1 root    root            10806 May 10  2000 /usr/lib/groff/font/devlj4/ALBB
+-rw-r--r--    1 root    root            10963 May 10  2000 /usr/lib/groff/font/devlj4/ALBR
+-rw-r--r--    1 root    root            10434 May 10  2000 /usr/lib/groff/font/devlj4/AOB
+-rw-r--r--    1 root    root            13968 May 10  2000 /usr/lib/groff/font/devlj4/AOI
+-rw-r--r--    1 root    root            10248 May 10  2000 /usr/lib/groff/font/devlj4/AOR
+-rw-r--r--    1 root    root             6734 May 10  2000 /usr/lib/groff/font/devlj4/CB
+-rw-r--r--    1 root    root             9345 May 10  2000 /usr/lib/groff/font/devlj4/CBI
+-rw-r--r--    1 root    root             9967 May 10  2000 /usr/lib/groff/font/devlj4/CI
+-rw-r--r--    1 root    root             6682 May 10  2000 /usr/lib/groff/font/devlj4/CLARENDON
+-rw-r--r--    1 root    root             6726 May 10  2000 /usr/lib/groff/font/devlj4/CORONET
+-rw-r--r--    1 root    root             6717 May 10  2000 /usr/lib/groff/font/devlj4/CR
+-rw-r--r--    1 root    root              156 May 10  2000 /usr/lib/groff/font/devlj4/DESC
+-rw-r--r--    1 root    root            10731 May 10  2000 /usr/lib/groff/font/devlj4/GB
+-rw-r--r--    1 root    root            13874 May 10  2000 /usr/lib/groff/font/devlj4/GBI
+-rw-r--r--    1 root    root            13222 May 10  2000 /usr/lib/groff/font/devlj4/GI
+-rw-r--r--    1 root    root            11912 May 10  2000 /usr/lib/groff/font/devlj4/GR
+-rw-r--r--    1 root    root             6706 May 10  2000 /usr/lib/groff/font/devlj4/LGB
+-rw-r--r--    1 root    root             9756 May 10  2000 /usr/lib/groff/font/devlj4/LGI
+-rw-r--r--    1 root    root             6705 May 10  2000 /usr/lib/groff/font/devlj4/LGR
+-rw-r--r--    1 root    root             6876 May 10  2000 /usr/lib/groff/font/devlj4/MARIGOLD
+-rw-r--r--    1 root    root            11293 May 10  2000 /usr/lib/groff/font/devlj4/OB
+-rw-r--r--    1 root    root            14281 May 10  2000 /usr/lib/groff/font/devlj4/OBI
+-rw-r--r--    1 root    root            15137 May 10  2000 /usr/lib/groff/font/devlj4/OI
+-rw-r--r--    1 root    root            12052 May 10  2000 /usr/lib/groff/font/devlj4/OR
+-rw-r--r--    1 root    root             4291 May 10  2000 /usr/lib/groff/font/devlj4/S
+-rw-r--r--    1 root    root            12720 May 10  2000 /usr/lib/groff/font/devlj4/TB
+-rw-r--r--    1 root    root            16479 May 10  2000 /usr/lib/groff/font/devlj4/TBI
+-rw-r--r--    1 root    root            17211 May 10  2000 /usr/lib/groff/font/devlj4/TI
+-rw-r--r--    1 root    root            11748 May 10  2000 /usr/lib/groff/font/devlj4/TR
+-rw-r--r--    1 root    root            11136 May 10  2000 /usr/lib/groff/font/devlj4/UB
+-rw-r--r--    1 root    root            14000 May 10  2000 /usr/lib/groff/font/devlj4/UBI
+-rw-r--r--    1 root    root            10770 May 10  2000 /usr/lib/groff/font/devlj4/UCB
+-rw-r--r--    1 root    root            13220 May 10  2000 /usr/lib/groff/font/devlj4/UCBI
+-rw-r--r--    1 root    root            14489 May 10  2000 /usr/lib/groff/font/devlj4/UCI
+-rw-r--r--    1 root    root            10419 May 10  2000 /usr/lib/groff/font/devlj4/UCR
+-rw-r--r--    1 root    root            15365 May 10  2000 /usr/lib/groff/font/devlj4/UI
+-rw-r--r--    1 root    root            11614 May 10  2000 /usr/lib/groff/font/devlj4/UR
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devlj4/generate
+-rw-r--r--    1 root    root             5002 May 10  2000 /usr/lib/groff/font/devlj4/generate/Makefile
+-rw-r--r--    1 root    root             1568 May 10  2000 /usr/lib/groff/font/devlj4/generate/special.map
+-rw-r--r--    1 root    root             2719 May 10  2000 /usr/lib/groff/font/devlj4/generate/text.map
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devps
+-rw-r--r--    1 root    root             8817 May 10  2000 /usr/lib/groff/font/devps/AB
+-rw-r--r--    1 root    root            11373 May 10  2000 /usr/lib/groff/font/devps/ABI
+-rw-r--r--    1 root    root            11369 May 10  2000 /usr/lib/groff/font/devps/AI
+-rw-r--r--    1 root    root             8822 May 10  2000 /usr/lib/groff/font/devps/AR
+-rw-r--r--    1 root    root             7794 May 10  2000 /usr/lib/groff/font/devps/BMB
+-rw-r--r--    1 root    root            10299 May 10  2000 /usr/lib/groff/font/devps/BMBI
+-rw-r--r--    1 root    root            10243 May 10  2000 /usr/lib/groff/font/devps/BMI
+-rw-r--r--    1 root    root             7678 May 10  2000 /usr/lib/groff/font/devps/BMR
+-rw-r--r--    1 root    root             6999 May 10  2000 /usr/lib/groff/font/devps/CB
+-rw-r--r--    1 root    root             9389 May 10  2000 /usr/lib/groff/font/devps/CBI
+-rw-r--r--    1 root    root             9364 May 10  2000 /usr/lib/groff/font/devps/CI
+-rw-r--r--    1 root    root             7007 May 10  2000 /usr/lib/groff/font/devps/CR
+-rw-r--r--    1 root    root              191 May 10  2000 /usr/lib/groff/font/devps/DESC
+-rw-r--r--    1 root    root             8737 May 10  2000 /usr/lib/groff/font/devps/HB
+-rw-r--r--    1 root    root            11312 May 10  2000 /usr/lib/groff/font/devps/HBI
+-rw-r--r--    1 root    root            12074 May 10  2000 /usr/lib/groff/font/devps/HI
+-rw-r--r--    1 root    root             8697 May 10  2000 /usr/lib/groff/font/devps/HNB
+-rw-r--r--    1 root    root            11231 May 10  2000 /usr/lib/groff/font/devps/HNBI
+-rw-r--r--    1 root    root            12010 May 10  2000 /usr/lib/groff/font/devps/HNI
+-rw-r--r--    1 root    root             9472 May 10  2000 /usr/lib/groff/font/devps/HNR
+-rw-r--r--    1 root    root             9502 May 10  2000 /usr/lib/groff/font/devps/HR
+-rw-r--r--    1 root    root             7959 May 10  2000 /usr/lib/groff/font/devps/NB
+-rw-r--r--    1 root    root            10160 May 10  2000 /usr/lib/groff/font/devps/NBI
+-rw-r--r--    1 root    root             9980 May 10  2000 /usr/lib/groff/font/devps/NI
+-rw-r--r--    1 root    root             7993 May 10  2000 /usr/lib/groff/font/devps/NR
+-rw-r--r--    1 root    root             8105 May 10  2000 /usr/lib/groff/font/devps/PB
+-rw-r--r--    1 root    root            10140 May 10  2000 /usr/lib/groff/font/devps/PBI
+-rw-r--r--    1 root    root            10100 May 10  2000 /usr/lib/groff/font/devps/PI
+-rw-r--r--    1 root    root             8146 May 10  2000 /usr/lib/groff/font/devps/PR
+-rw-r--r--    1 root    root             5905 May 10  2000 /usr/lib/groff/font/devps/S
+-rw-r--r--    1 root    root             7696 May 10  2000 /usr/lib/groff/font/devps/SS
+-rw-r--r--    1 root    root             8673 May 10  2000 /usr/lib/groff/font/devps/TB
+-rw-r--r--    1 root    root            10597 May 10  2000 /usr/lib/groff/font/devps/TBI
+-rw-r--r--    1 root    root            10823 May 10  2000 /usr/lib/groff/font/devps/TI
+-rw-r--r--    1 root    root             8564 May 10  2000 /usr/lib/groff/font/devps/TR
+-rw-r--r--    1 root    root            10803 May 10  2000 /usr/lib/groff/font/devps/ZCMI
+-rw-r--r--    1 root    root             4777 May 10  2000 /usr/lib/groff/font/devps/ZD
+-rw-r--r--    1 root    root             4787 May 10  2000 /usr/lib/groff/font/devps/ZDR
+-rw-r--r--    1 root    root              118 May 10  2000 /usr/lib/groff/font/devps/download
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/font/devps/generate
+-rw-r--r--    1 root    root             5761 May 10  2000 /usr/lib/groff/font/devps/generate/Makefile
+-rw-r--r--    1 root    root             1580 May 10  2000 /usr/lib/groff/font/devps/generate/afmname
+-rw-r--r--    1 root    root               14 May 10  2000 /usr/lib/groff/font/devps/generate/dingbatsmap
+-rw-r--r--    1 root    root                7 May 10  2000 /usr/lib/groff/font/devps/generate/dingbatsrmap
+-rw-r--r--    1 root    root              234 May 10  2000 /usr/lib/groff/font/devps/generate/lgreekmap
+-rw-r--r--    1 root    root              982 May 10  2000 /usr/lib/groff/font/devps/generate/symbol.sed
+-rw-r--r--    1 root    root              534 May 10  2000 /usr/lib/groff/font/devps/generate/symbolchars
+-rw-r--r--    1 root    root             9407 May 10  2000 /usr/lib/groff/font/devps/generate/symbolsl.afm
+-rw-r--r--    1 root    root             5712 May 10  2000 /usr/lib/groff/font/devps/generate/textmap
+-rw-r--r--    1 root    root             2774 May 10  2000 /usr/lib/groff/font/devps/prologue
+-rw-r--r--    1 root    root              592 May 10  2000 /usr/lib/groff/font/devps/symbolsl.pfa
+-rw-r--r--    1 root    root             2438 May 10  2000 /usr/lib/groff/font/devps/text.enc
+-rw-r--r--    1 root    root             4320 May 10  2000 /usr/lib/groff/font/devps/zapfdr.pfa
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/tmac
+-rw-r--r--    1 root    root             1312 May 10  2000 /usr/lib/groff/tmac/eqnrc
+-rw-r--r--    1 root    root            27414 May 10  2000 /usr/lib/groff/tmac/hyphen.us
+-rw-r--r--    1 root    root               88 May 10  2000 /usr/lib/groff/tmac/man.local
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/tmac/mdoc
+-rw-r--r--    1 root    root            10146 May 10  2000 /usr/lib/groff/tmac/mdoc/doc-common
+-rw-r--r--    1 root    root             5303 May 10  2000 /usr/lib/groff/tmac/mdoc/doc-ditroff
+-rw-r--r--    1 root    root             4493 May 10  2000 /usr/lib/groff/tmac/mdoc/doc-nroff
+-rw-r--r--    1 root    root             5969 May 10  2000 /usr/lib/groff/tmac/mdoc/doc-syms
+drwxrwxrwx    2 root    root                0 May 10  2000 /usr/lib/groff/tmac/mm
+-rw-r--r--    1 root    root             2454 May 10  2000 /usr/lib/groff/tmac/mm/0.MT
+-rw-r--r--    1 root    root             1196 May 10  2000 /usr/lib/groff/tmac/mm/4.MT
+-rw-r--r--    1 root    root              596 May 10  2000 /usr/lib/groff/tmac/mm/5.MT
+-rw-rw-rw-    1 root    root                0 May 10  2000 /usr/lib/groff/tmac/mm/locale
+-rw-r--r--    1 root    root             1316 May 10  2000 /usr/lib/groff/tmac/mm/ms.cov
+-rw-rw-rw-    1 root    root                0 May 10  2000 /usr/lib/groff/tmac/mm/se_locale
+-rw-r--r--    1 root    root               94 May 10  2000 /usr/lib/groff/tmac/mm/se_ms.cov
+-rw-r--r--    1 root    root            75222 May 10  2000 /usr/lib/groff/tmac/tmac.
+-rw-r--r--    1 root    root             1531 May 10  2000 /usr/lib/groff/tmac/tmac.X
+-rw-r--r--    1 root    root             1272 May 10  2000 /usr/lib/groff/tmac/tmac.Xps
+-rw-r--r--    1 root    root             6816 May 10  2000 /usr/lib/groff/tmac/tmac.an
+-rw-r--r--    1 root    root              165 May 10  2000 /usr/lib/groff/tmac/tmac.andoc
+-rw-r--r--    1 root    root             4691 May 10  2000 /usr/lib/groff/tmac/tmac.arkup
+-rw-r--r--    1 root    root            51615 May 10  2000 /usr/lib/groff/tmac/tmac.doc
+-rw-r--r--    1 root    root            36437 May 10  2000 /usr/lib/groff/tmac/tmac.doc.old
+-rw-r--r--    1 root    root             4226 May 10  2000 /usr/lib/groff/tmac/tmac.dvi
+-rw-r--r--    1 root    root            19873 May 10  2000 /usr/lib/groff/tmac/tmac.e
+?rwxrwxrwx    1 root    root                6 May 10  2000 /usr/lib/groff/tmac/tmac.gm
+?rwxrwxrwx    1 root    root                8 May 10  2000 /usr/lib/groff/tmac/tmac.gmse
+?rwxrwxrwx    1 root    root                6 May 10  2000 /usr/lib/groff/tmac/tmac.gs
+-rw-r--r--    1 root    root             1829 May 10  2000 /usr/lib/groff/tmac/tmac.html
+-rw-r--r--    1 root    root             2645 May 10  2000 /usr/lib/groff/tmac/tmac.latin1
+-rw-r--r--    1 root    root              434 May 10  2000 /usr/lib/groff/tmac/tmac.lj4
+-rw-r--r--    1 root    root              101 May 10  2000 /usr/lib/groff/tmac/tmac.pic
+-rw-r--r--    1 root    root             1435 May 10  2000 /usr/lib/groff/tmac/tmac.ps
+-rw-r--r--    1 root    root             1061 May 10  2000 /usr/lib/groff/tmac/tmac.psatk
+-rw-r--r--    1 root    root              807 May 10  2000 /usr/lib/groff/tmac/tmac.psnew
+-rw-r--r--    1 root    root             1861 May 10  2000 /usr/lib/groff/tmac/tmac.psold
+-rw-r--r--    1 root    root             1646 May 10  2000 /usr/lib/groff/tmac/tmac.pspic
+-rw-r--r--    1 root    root            34220 May 10  2000 /usr/lib/groff/tmac/tmac.s
+-rw-r--r--    1 root    root              217 May 10  2000 /usr/lib/groff/tmac/tmac.safer
+-rw-rw-rw-    1 root    root             3595 May 10  2000 /usr/lib/groff/tmac/tmac.se
+-rw-r--r--    1 root    root              963 May 10  2000 /usr/lib/groff/tmac/tmac.tty
+-rw-r--r--    1 root    root             4155 May 10  2000 /usr/lib/groff/tmac/tmac.tty-char
+-rw-r--r--    1 root    root              885 May 10  2000 /usr/lib/groff/tmac/troffrc
+-rw-r--r--    1 root    root             1186 May 10  2000 /usr/man/man1/addftinfo.1.gz
+-rw-r--r--    1 root    root             6450 May 10  2000 /usr/man/man1/eqn.1.gz
+?rwxrwxrwx    1 root    root                8 May 10  2000 /usr/man/man1/geqn.1.gz
+?rwxrwxrwx    1 root    root               12 May 10  2000 /usr/man/man1/gindxbib.1.gz
+?rwxrwxrwx    1 root    root               12 May 10  2000 /usr/man/man1/glookbib.1.gz
+?rwxrwxrwx    1 root    root               10 May 10  2000 /usr/man/man1/gnroff.1.gz
+?rwxrwxrwx    1 root    root                8 May 10  2000 /usr/man/man1/gpic.1.gz
+?rwxrwxrwx    1 root    root               10 May 10  2000 /usr/man/man1/grefer.1.gz
+-rw-r--r--    1 root    root             1934 May 10  2000 /usr/man/man1/grodvi.1.gz
+-rw-r--r--    1 root    root             3019 May 10  2000 /usr/man/man1/groff.1.gz
+-rw-r--r--    1 root    root             1938 May 10  2000 /usr/man/man1/grohtml.1.gz
+-rw-r--r--    1 root    root             1325 May 10  2000 /usr/man/man1/grolj4.1.gz
+-rw-r--r--    1 root    root             5909 May 10  2000 /usr/man/man1/grops.1.gz
+-rw-r--r--    1 root    root             1747 May 10  2000 /usr/man/man1/grotty.1.gz
+?rwxrwxrwx    1 root    root               11 May 10  2000 /usr/man/man1/gsoelim.1.gz
+?rwxrwxrwx    1 root    root                8 May 10  2000 /usr/man/man1/gtbl.1.gz
+?rwxrwxrwx    1 root    root               10 May 10  2000 /usr/man/man1/gtroff.1.gz
+-rw-r--r--    1 root    root             1731 May 10  2000 /usr/man/man1/hpftodit.1.gz
+-rw-r--r--    1 root    root             1799 May 10  2000 /usr/man/man1/indxbib.1.gz
+-rw-r--r--    1 root    root             1151 May 10  2000 /usr/man/man1/lkbib.1.gz
+-rw-r--r--    1 root    root              931 May 10  2000 /usr/man/man1/lookbib.1.gz
+-rw-r--r--    1 root    root              760 May 10  2000 /usr/man/man1/nroff.1.gz
+-rw-r--r--    1 root    root              681 May 10  2000 /usr/man/man1/pfbtops.1.gz
+-rw-r--r--    1 root    root             6271 May 10  2000 /usr/man/man1/pic.1.gz
+-rw-r--r--    1 root    root              687 May 10  2000 /usr/man/man1/psbb.1.gz
+-rw-r--r--    1 root    root             9192 May 10  2000 /usr/man/man1/refer.1.gz
+-rw-r--r--    1 root    root              883 May 10  2000 /usr/man/man1/soelim.1.gz
+-rw-r--r--    1 root    root             1898 May 10  2000 /usr/man/man1/tbl.1.gz
+-rw-r--r--    1 root    root             1833 May 10  2000 /usr/man/man1/tfmtodit.1.gz
+-rw-r--r--    1 root    root            14024 May 10  2000 /usr/man/man1/troff.1.gz
+-rw-r--r--    1 root    root             3315 May 10  2000 /usr/man/man5/groff_font.5.gz
+-rw-r--r--    1 root    root             2687 May 10  2000 /usr/man/man5/groff_out.5.gz
+-rw-r--r--    1 root    root             4531 May 10  2000 /usr/man/man7/groff_char.7.gz
+-rw-r--r--    1 root    root             2067 May 10  2000 /usr/man/man7/groff_man.7.gz
+-rw-r--r--    1 root    root             4856 May 10  2000 /usr/man/man7/groff_mdoc.7.gz
+-rw-r--r--    1 root    root            22425 May 10  2000 /usr/man/man7/groff_mdoc.samples.7.gz
+-rw-r--r--    1 root    root             2568 May 10  2000 /usr/man/man7/groff_me.7.gz
+-rw-r--r--    1 root    root            17849 May 10  2000 /usr/man/man7/groff_mm.7.gz
+-rw-r--r--    1 root    root             1062 May 10  2000 /usr/man/man7/groff_mmse.7.gz
+-rw-r--r--    1 root    root             2448 May 10  2000 /usr/man/man7/groff_ms.7.gz
+-rw-r--r--    1 root    root              772 May 10  2000 /usr/man/man7/groff_msafer.7.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/groff-1.15-3.m68kmint.rpm">Download</A></H2> (2,337,063 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

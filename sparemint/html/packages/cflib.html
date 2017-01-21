@@ -1,0 +1,134 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - cflib, version 21, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>cflib</H2>
+
+<UL> 
+<LI>Summary: Christian Felsch's GEM utility library<BR>
+<LI>URL: <A HREF="http://sparemint.atariforge.net/">http://sparemint.atariforge.net/</A><BR>
+<LI>Version: 21<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: LGPL</BR>
+<LI>Installation size: 756,071 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>cflib = 21-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Jul 18 20:14:06 2004 UTC<BR>
+<LI>Upload date: Sun Jul 18 20:50:04 2004 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/cflib-21-1.src.rpm">cflib-21-1.src.rpm</A>  (179,045 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sun Jul 18 09:00:00 2004 UTC<BR>
+- updated to version 0.21.0, using the new gemlib 0.43.2
+<LI>Description:<BR>
+This is a utility library/toolkit that provide a lot of helper functions<BR>for developping GEM applications.  Sorry, the documentation is all<BR>German.<BR><P><BR>NOTE: This package has experimental support for installing ST-Guide<BR>hypertexts with rpm.  They will get installed in /usr/GEM/stguide.<BR>Please make sure that this directory is located on a file system that<BR>supports long filenames.  You should then edit your stguide.inf to<BR>make sure that ST-Guide will search that directory for hypertexts.<BR>Also make sure that stool (or stool.tos or stool.ttp) is found either<BR>in /usr/GEM/stguide or in your $PATH.<BR><P><BR>You should install cflib if you would like to write GEM applications<BR>that support recent GEM extensions without having to care about<BR>compatibility issues.
+<LI>Files:<BR>
+<PRE>
+?rwxrwxrwx    1 root    root               22 Jul 18  2004 /usr/GEM/include/cflib.h
+?rwxrwxrwx    1 root    root               21 Jul 18  2004 /usr/GEM/lib/libcflib.a
+?rwxrwxrwx    1 root    root               23 Jul 18  2004 /usr/GEM/lib/libcflib16.a
+-rw-r--r--    1 root    root            26866 Jul 18  2004 /usr/GEM/stguide/cflib.hyp
+-rw-r--r--    1 root    root             2423 Jul 18  2004 /usr/GEM/stguide/cflib.ref
+drwxr-xr-x    2 root    root                0 Jul 18  2004 /usr/doc/cflib-21
+-rw-r--r--    1 root    root            26532 Sep 21  2000 /usr/doc/cflib-21/COPYING.LIB
+-rw-r--r--    1 root    root             9088 Jul 18  2004 /usr/doc/cflib-21/ChangeLog
+-rw-r--r--    1 root    root             2478 Feb 27  2001 /usr/doc/cflib-21/LiesMich
+drwxr-xr-x    2 root    root                0 Jul 18  2004 /usr/doc/cflib-21/demo
+drwxrwxrwx    2 root    root                0 Jul 18  2004 /usr/doc/cflib-21/demo/.deps
+-rw-rw-rw-    1 root    root              488 Jul 18  2004 /usr/doc/cflib-21/demo/.deps/demo.P
+-rw-rw-rw-    1 root    root              534 Jul 18  2004 /usr/doc/cflib-21/demo/.deps/pdlg.P
+-rw-r--r--    1 root    root              153 Sep 21  2000 /usr/doc/cflib-21/demo/BINFILES
+-rw-r--r--    1 root    root            17992 Sep 21  2000 /usr/doc/cflib-21/demo/COPYING
+-rw-r--r--    1 root    root              223 Sep 21  2000 /usr/doc/cflib-21/demo/EXTRAFILES
+-rw-r--r--    1 root    root              173 Sep 21  2000 /usr/doc/cflib-21/demo/MISCFILES
+-rw-r--r--    1 root    root              522 Apr 11  2001 /usr/doc/cflib-21/demo/Makefile
+-rw-r--r--    1 root    root              241 Sep 21  2000 /usr/doc/cflib-21/demo/SRCFILES
+-rwxrwxrwx    1 root    root           194573 Jul 18  2004 /usr/doc/cflib-21/demo/demo.app
+-rw-r--r--    1 root    root            11506 Feb 16  2001 /usr/doc/cflib-21/demo/demo.c
+-rw-r--r--    1 root    root             3524 Feb 16  2001 /usr/doc/cflib-21/demo/demo.h
+-rw-r--r--    1 root    root              969 Feb 16  2001 /usr/doc/cflib-21/demo/demo.hrd
+-rw-rw-rw-    1 root    root             9046 Jul 18  2004 /usr/doc/cflib-21/demo/demo.o
+-rw-r--r--    1 root    root             6716 Feb 16  2001 /usr/doc/cflib-21/demo/demo.rsc
+-rw-r--r--    1 root    root             7037 Feb 27  2001 /usr/doc/cflib-21/demo/pdlg.c
+-rw-r--r--    1 root    root               94 Sep 21  2000 /usr/doc/cflib-21/demo/pdlg.h
+-rw-rw-rw-    1 root    root              312 Jul 18  2004 /usr/doc/cflib-21/demo/pdlg.o
+drwxr-xr-x    2 root    root                0 Jul 18  2004 /usr/doc/cflib-21/intrface
+drwxrwxrwx    2 root    root                0 Jul 18  2004 /usr/doc/cflib-21/intrface/.deps
+-rw-rw-rw-    1 root    root              515 Jul 18  2004 /usr/doc/cflib-21/intrface/.deps/extobfix.P
+-rw-r--r--    1 root    root              157 Sep 21  2000 /usr/doc/cflib-21/intrface/BINFILES
+-rw-r--r--    1 root    root            17992 Sep 21  2000 /usr/doc/cflib-21/intrface/COPYING
+-rw-r--r--    1 root    root              270 Sep 21  2000 /usr/doc/cflib-21/intrface/EXTRAFILES
+-rw-r--r--    1 root    root              574 Sep 21  2000 /usr/doc/cflib-21/intrface/LIESMICH
+-rw-r--r--    1 root    root              173 Sep 21  2000 /usr/doc/cflib-21/intrface/MISCFILES
+-rw-r--r--    1 root    root              552 Aug 19  2003 /usr/doc/cflib-21/intrface/Makefile
+-rw-r--r--    1 root    root              228 Sep 21  2000 /usr/doc/cflib-21/intrface/SRCFILES
+-rw-r--r--    1 root    root              142 Sep 21  2000 /usr/doc/cflib-21/intrface/exthelp.h
+-rw-r--r--    1 root    root               49 Sep 21  2000 /usr/doc/cflib-21/intrface/exthelp.hrd
+-rw-r--r--    1 root    root              461 Sep 21  2000 /usr/doc/cflib-21/intrface/exthelp.rh
+-rw-r--r--    1 root    root             1174 Sep 21  2000 /usr/doc/cflib-21/intrface/exthelp.rsc
+-rw-r--r--    1 root    root             3899 Sep 21  2000 /usr/doc/cflib-21/intrface/exthelp.rsh
+-rw-r--r--    1 root    root             4572 May 28  2002 /usr/doc/cflib-21/intrface/extobfix.c
+-rw-rw-rw-    1 root    root             3343 Jul 18  2004 /usr/doc/cflib-21/intrface/extobfix.o
+-rwxrwxrwx    1 root    root           129115 Jul 18  2004 /usr/doc/cflib-21/intrface/extobfix.prg
+-rw-r--r--    1 root    root            18387 Jul 18  2004 /usr/include/cflib.h
+-rw-r--r--    1 root    root           117316 Jul 18  2004 /usr/lib/libcflib.a
+-rw-r--r--    1 root    root           115116 Jul 18  2004 /usr/lib/libcflib16.a
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/cflib-21-1.m68kmint.rpm">Download</A></H2> (331,396 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

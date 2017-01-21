@@ -1,0 +1,109 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - netpbm-devel, version 9.5, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>netpbm-devel</H2>
+
+<UL> 
+<LI>Summary: Development tools for programs which will use the netpbm libraries.<BR>
+<LI>URL: <A HREF="ftp://download.sourceforge.net/pub/sourceforge/netpbm/">ftp://download.sourceforge.net/pub/sourceforge/netpbm/</A><BR>
+<LI>Version: 9.5<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Development/Libraries">Development/Libraries</A>
+<LI>License: freeware</BR>
+<LI>Installation size: 247,097 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>netpbm-devel = 9.5-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>libjpeg-devel  <BR>
+  <LI>libtiff-devel  <BR>
+  <LI>libpng  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Sun Dec 24 12:06:30 2000 UTC<BR>
+<LI>Upload date: Mon Jan  8 01:46:42 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/netpbm-9.5-1.src.rpm">netpbm-9.5-1.src.rpm</A>  (1,763,306 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Sun Dec 24 10:00:00 2000 UTC<BR>
+- first release for Sparemint
+<LI>Description:<BR>
+The netpbm-devel package contains the header files and static libraries,<BR>etc., for developing programs which can handle the various graphics file<BR>formats supported by the netpbm libraries.<BR><P><BR>Install netpbm-devel if you want to develop programs for handling the<BR>graphics file formats supported by the netpbm libraries.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Dec 24  2000 /usr/doc/netpbm-devel-9.5
+-rw-r--r--    1 root    root             2966 May 20  2000 /usr/doc/netpbm-devel-9.5/COPYRIGHT.PATENT
+-rw-r--r--    1 root    root            18007 May 22  2000 /usr/doc/netpbm-devel-9.5/GPL_LICENSE.txt
+-rw-r--r--    1 root    root            29677 Dec 24  2000 /usr/doc/netpbm-devel-9.5/HISTORY
+-rw-r--r--    1 root    root            27408 Jun 23  2000 /usr/doc/netpbm-devel-9.5/README
+-rw-r--r--    1 root    root             2475 Oct  4  1993 /usr/doc/netpbm-devel-9.5/README.CONFOCAL
+-rw-r--r--    1 root    root             1951 Dec 24  2000 /usr/include/pbm.h
+-rw-r--r--    1 root    root            11270 Dec 24  2000 /usr/include/pbmplus.h
+-rw-r--r--    1 root    root             3237 Dec 24  2000 /usr/include/pgm.h
+-rw-r--r--    1 root    root             2428 Dec 24  2000 /usr/include/pnm.h
+-rw-r--r--    1 root    root             3797 Dec 24  2000 /usr/include/ppm.h
+-rw-r--r--    1 root    root            17590 Dec 24  2000 /usr/include/rle.h
+-rw-r--r--    1 root    root             2907 Dec 24  2000 /usr/include/rle_config.h
+-rw-r--r--    1 root    root            42608 Dec 24  2000 /usr/lib/libpbm.a
+-rw-r--r--    1 root    root             3748 Dec 24  2000 /usr/lib/libpgm.a
+-rw-r--r--    1 root    root            11468 Dec 24  2000 /usr/lib/libpnm.a
+-rw-r--r--    1 root    root            25790 Dec 24  2000 /usr/lib/libppm.a
+-rw-r--r--    1 root    root            29656 Dec 24  2000 /usr/lib/librle.a
+-rw-r--r--    1 root    root             3492 Dec 24  2000 /usr/share/man/man3/libpbm.3.gz
+-rw-r--r--    1 root    root             1754 Dec 24  2000 /usr/share/man/man3/libpgm.3.gz
+-rw-r--r--    1 root    root             1868 Dec 24  2000 /usr/share/man/man3/libpnm.3.gz
+-rw-r--r--    1 root    root             1976 Dec 24  2000 /usr/share/man/man3/libppm.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/netpbm-devel-9.5-1.m68kmint.rpm">Download</A></H2> (102,012 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

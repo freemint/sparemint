@@ -1,0 +1,100 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - gsm, version 1.0.10, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>gsm</H2>
+
+<UL> 
+<LI>Summary: gsm<BR>
+
+<LI>Version: 1.0.10<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Multimedia">Applications/Multimedia</A>
+<LI>License: distributable</BR>
+<LI>Installation size: 548,469 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>gsm = 1.0.10-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Wed Feb 21 11:56:41 2001 UTC<BR>
+<LI>Upload date: Fri Feb 23 01:57:03 2001 UTC<BR>
+<LI>Packager: <A HREF="http://atari.st-katharina-apotheke.de/">Marc-Anton Kehr</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/lfisAoei/ofu');">m.kehr(at)ndh.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/gsm-1.0.10-1.src.rpm">gsm-1.0.10-1.src.rpm</A>  (68,985 bytes)<BR>
+<LI>Last change: Marc-Anton Kehr &lt;m.kehr@ndh.net&gt; Sun Feb 18 10:00:00 2001 UTC<BR>
+- build against MiNTLib 0.56
+<LI>Description:<BR>
+GSM 06.10 compresses frames of 160 13-bit samples (8 kHz sampling<BR>rate, i.e. a frame rate of 50 Hz) into 260 bits; for compatibility<BR>with typical UNIX applications, our implementation turns frames of 160<BR>16-bit linear samples into 33-byte frames (1650 Bytes/s).<BR>The quality of the algorithm is good enough for reliable speaker<BR>recognition; even music often survives transcoding in recognizable<BR>form (given the bandwidth limitations of 8 kHz sampling rate).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           158157 Feb 21  2001 /usr/bin/tcat
+-rwxr-xr-x    1 root    root           158157 Feb 21  2001 /usr/bin/toast
+-rwxr-xr-x    1 root    root           158157 Feb 21  2001 /usr/bin/untoast
+drwxr-xr-x    2 root    wheel               0 Feb 21  2001 /usr/doc/gsm-1.0.10
+-rw-r--r--    1 root    wheel             690 Nov 28  1994 /usr/doc/gsm-1.0.10/COPYRIGHT
+-rw-r--r--    1 root    wheel             440 May  8  1995 /usr/doc/gsm-1.0.10/MACHINES
+-rw-r--r--    1 root    wheel            1671 Mar  7  1995 /usr/doc/gsm-1.0.10/README
+-rw-r--r--    1 root    root             1681 Feb 21  2001 /usr/include/gsm.h
+-rw-r--r--    1 root    root            60546 Feb 21  2001 /usr/lib/libgsm.a
+-rw-r--r--    1 root    root              859 Feb 21  2001 /usr/share/man/man1/bitter.1.gz
+-rw-r--r--    1 root    root             1869 Feb 21  2001 /usr/share/man/man1/toast.1.gz
+-rw-r--r--    1 root    root             1275 Feb 21  2001 /usr/share/man/man3/gsm.3.gz
+-rw-r--r--    1 root    root              720 Feb 21  2001 /usr/share/man/man3/gsm_explode.3.gz
+-rw-r--r--    1 root    root             2335 Feb 21  2001 /usr/share/man/man3/gsm_option.3.gz
+-rw-r--r--    1 root    root              888 Feb 21  2001 /usr/share/man/man3/gsm_print.3.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/gsm-1.0.10-1.m68kmint.rpm">Download</A></H2> (237,932 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

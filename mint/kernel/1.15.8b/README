@@ -1,0 +1,37 @@
+FreeMiNT 1.15.8, beta release
+=============================
+
+This is a beta version with new features and bugfixes compared
+to the official FreeMiNT 1.15.7 beta release. Please see in CHANGES
+for a detailed list of all changes.
+
+most important news:
+- new (linux style) kern pseudo filesystem
+- new xfs blocking code for non-blocking operations (disabled)
+- XHDI and SCSIDRV systemcall wrapper interface
+- slb enhancements (as discussed on the MiNTList)
+- memory protection enhancements, new MPFLAGS configuration option
+- many src restructurizations
+- lot of bugfixes
+
+
+Attention
+==========
+
+This archiv doesn't include any documentation! It's only a beta
+version for testing.
+
+The complete documentation can be found in the FreeMiNT 1.15.5 archiv!
+If you doesn't have the documentation please download these archiv
+and read it carefully. You can found it under:
+
+http://www.cs.uni-magdeburg.de/~fnaumann/
+
+freemint-1.15.5-bin.tar.gz
+freemint-1.15.5.tar.gz
+
+
+Frank Naumann
+<fnaumann@freemint.de>
+
+Magdeburg, 05.05.2000

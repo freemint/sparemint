@@ -1,0 +1,106 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - openssh, version 5.6p1, release 2</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>openssh</H2>
+
+<UL> 
+<LI>Summary: OpenSSH free Secure Shell (SSH) implementation<BR>
+<LI>URL: <A HREF="http://www.openssh.com/">http://www.openssh.com/</A><BR>
+<LI>Version: 5.6p1<BR>
+<LI>Release: 2<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Internet">Applications/Internet</A>
+<LI>License: BSD</BR>
+<LI>Installation size: 3,116,460 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>openssh = 5.6p1-2<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>openssl >= 0.9.8k<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Mar  3 14:43:16 1995 UTC<BR>
+<LI>Upload date: Fri Dec 10 15:08:39 2010 UTC<BR>
+<LI>Packager: Keith Scroggins (<A HREF="javascript:linkto_decode_mt('nbjmup;lxtAsbejy/ofu');">kws(at)radix.net</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/openssh-5.6p1-2.src.rpm">openssh-5.6p1-2.src.rpm</A>  (1,124,542 bytes)<BR>
+<LI>Last change: Keith Scroggins &lt;kws@radix.net&gt; Thu Dec  9 22:00:00 2010 UTC<BR>
+- Compiled against latest (1.0.0c) OpenSSL
+<LI>Description:<BR>
+Ssh (Secure Shell) a program for logging into a remote machine and for<BR>executing commands in a remote machine.  It is intended to replace<BR>rlogin and rsh, and provide secure encrypted communications between<BR>two untrusted hosts over an insecure network.  X11 connections and<BR>arbitrary TCP/IP ports can also be forwarded over the secure channel.<BR><P><BR>OpenSSH is OpenBSD's rework of the last free version of SSH, bringing it<BR>up to date in terms of security and features, as well as removing all<BR>patented algorithms to separate libraries (OpenSSL).<BR><P><BR>This package includes the core files necessary for both the OpenSSH<BR>client and server.  To make this package useful, you should also<BR>install openssh-clients, openssh-server, or both.
+<LI>Files:<BR>
+<PRE>
+drwxr-xr-x    2 root    root                0 Mar  3  1995 /etc/ssh
+-rw-------    1 root    root           125811 Mar  3  1995 /etc/ssh/moduli
+-rwxr-xr-x    1 root    root           184773 Mar  3  1995 /usr/bin/scp
+-rwxr-xr-x    1 root    root          1308952 Mar  3  1995 /usr/bin/ssh-keygen
+-rwxr-xr-x    1 root    root          1272391 Mar  3  1995 /usr/bin/ssh-keyscan
+drwxr-xr-x    2 root    root                0 Mar  3  1995 /usr/doc/openssh-5.6p1
+-rw-r--r--    1 root    root             5545 Aug 30  2006 /usr/doc/openssh-5.6p1/CREDITS
+-rw-r--r--    1 root    root           144890 Aug 22 23:16 /usr/doc/openssh-5.6p1/ChangeLog
+-rw-r--r--    1 root    root             9261 Feb 11  2010 /usr/doc/openssh-5.6p1/INSTALL
+-rw-r--r--    1 root    root            16000 Mar 12  2007 /usr/doc/openssh-5.6p1/LICENCE
+-rw-r--r--    1 root    root             6718 Aug  4  2006 /usr/doc/openssh-5.6p1/OVERVIEW
+-rw-r--r--    1 root    root             2715 Aug  8 12:32 /usr/doc/openssh-5.6p1/README
+-rw-r--r--    1 root    root             1607 Oct 15  2003 /usr/doc/openssh-5.6p1/README.dns
+-rw-r--r--    1 root    root             4013 Aug 28  2009 /usr/doc/openssh-5.6p1/README.platform
+-rw-r--r--    1 root    root             2663 Jun  4  2005 /usr/doc/openssh-5.6p1/README.privsep
+-rw-r--r--    1 root    root             4890 Mar 31  2006 /usr/doc/openssh-5.6p1/README.tun
+-rw-r--r--    1 root    root             2773 Dec  6  2004 /usr/doc/openssh-5.6p1/TODO
+drwxr-xr-x    2 root    root                0 Mar  3  1995 /usr/libexec/openssh
+-rw-r--r--    1 root    root             2087 Mar  3  1995 /usr/share/man/man1/scp.1.gz
+-rw-r--r--    1 root    root             7108 Mar  3  1995 /usr/share/man/man1/ssh-keygen.1.gz
+-rw-r--r--    1 root    root             1975 Mar  3  1995 /usr/share/man/man1/ssh-keyscan.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/openssh-5.6p1-2.m68kmint.rpm">Download</A></H2> (1,384,046 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Thu Dec 16 18:03:13 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

@@ -1,0 +1,117 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - abcMIDI, version 2012_08_08, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>abcMIDI</H2>
+
+<UL> 
+<LI>Summary: ABC &lt;-&gt; Midi conversion utilities<BR>
+<LI>URL: <A HREF="http://ifdo.pugmarks.com/~seymour/runabc/top.html">http://ifdo.pugmarks.com/~seymour/runabc/top.html</A><BR>
+<LI>Version: 2012_08_08<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#Applications/Sound">Applications/Sound</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 1,729,070 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>abcMIDI = 2012_08_08-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Fri Aug 24 18:31:39 2012 UTC<BR>
+<LI>Upload date: Fri Aug 24 18:38:47 2012 UTC<BR>
+<LI>Packager: <A HREF="http://www.home.zonnet.nl/m.tarenskeen/download/mint/">Martin Tarenskeen</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;n/ubsfotlffoA{poofu/om');">m.tarenskeen(at)zonnet.nl</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/abcMIDI-2012_08_08-1.src.rpm">abcMIDI-2012_08_08-1.src.rpm</A>  (478,204 bytes)<BR>
+<LI>Last change: Martin Tarenskeen &lt;m.tarenskeen@zonnet.nl&gt; Fri Aug 24 09:00:00 2012 UTC<BR>
+- updated to version 2012_08_08
+<LI>Description:<BR>
+The abcMIDI package contains four programs: abc2midi to convert ABC music<BR>notation to midi, midi2abc to convert midi files to (a first approximation<BR>to) the corresponding ABC, abc2abc to reformat and/or transpose ABC files,<BR>and yaps to typeset ABC files as PostScript.<BR><P><BR>For a description of the abc syntax, please see the abc userguide<BR>which is a part of the abc2mtex package written by Chris Walshaw.<BR><P><BR>Note: version numbering has changed. If rpm complains about this package<BR>being older than the one already installed, try the --oldpackage option.
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    1 root    root           132241 Aug 24 14:31 /usr/bin/abc2abc
+-rwxr-xr-x    1 root    root           240790 Aug 24 14:31 /usr/bin/abc2midi
+-rwxr-xr-x    1 root    root           177866 Aug 24 14:31 /usr/bin/abcmatch
+-rwxr-xr-x    1 root    root           108313 Aug 24 14:31 /usr/bin/mftext
+-rwxr-xr-x    1 root    root           182370 Aug 24 14:31 /usr/bin/midi2abc
+-rwxr-xr-x    1 root    root           157204 Aug 24 14:31 /usr/bin/midicopy
+-rwxr-xr-x    1 root    root           257618 Aug 24 14:31 /usr/bin/yaps
+drwxr-xr-x    2 root    root                0 Aug 24 14:31 /usr/doc/abcMIDI-2012_08_08
+-rw-r--r--    1 root    root              972 May 30  2008 /usr/doc/abcMIDI-2012_08_08/AUTHORS
+-rw-r--r--    1 root    root           291449 Aug  8 12:46 /usr/doc/abcMIDI-2012_08_08/CHANGES
+-rw-r--r--    1 root    root            60489 Nov 17  2011 /usr/doc/abcMIDI-2012_08_08/abcguide.txt
+-rw-r--r--    1 root    root             9200 May 30  2008 /usr/doc/abcMIDI-2012_08_08/abcmatch.txt
+-rw-r--r--    1 root    root            18003 Aug 10  2011 /usr/doc/abcMIDI-2012_08_08/gpl.txt
+-rw-r--r--    1 root    root            17666 May 30  2008 /usr/doc/abcMIDI-2012_08_08/history.txt
+-rw-r--r--    1 root    root            21882 Aug  8 12:46 /usr/doc/abcMIDI-2012_08_08/readme.txt
+drwx------    2 root    root                0 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples
+-rw-r--r--    1 root    root              890 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples/araber.abc
+-rw-r--r--    1 root    root             1804 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples/baym_rebin.abc
+-rw-r--r--    1 root    root              723 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples/boys.abc
+-rw-r--r--    1 root    root             1276 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples/coleraine.abc
+-rw-r--r--    1 root    root              357 Aug  4  2008 /usr/doc/abcMIDI-2012_08_08/samples/daramud.abc
+-rw-r--r--    1 root    root             7580 Jul 21  2008 /usr/doc/abcMIDI-2012_08_08/samples/demo.abc
+-rw-r--r--    1 root    root              808 Nov 20  2010 /usr/doc/abcMIDI-2012_08_08/samples/dergasn.abc
+-rw-r--r--    1 root    root              442 Aug  4  2008 /usr/doc/abcMIDI-2012_08_08/samples/drums.abc
+-rw-r--r--    1 root    root             9058 May 30  2008 /usr/doc/abcMIDI-2012_08_08/yapshelp.txt
+drwxr-xr-x    2 root    root                0 Aug 24 14:31 /usr/man/man1
+-rw-r--r--    1 root    root             1692 Aug 24 14:31 /usr/man/man1/abc2abc.1.gz
+-rw-r--r--    1 root    root             7563 Aug 24 14:31 /usr/man/man1/abc2midi.1.gz
+-rw-r--r--    1 root    root              413 Aug 24 14:31 /usr/man/man1/mftext.1.gz
+-rw-r--r--    1 root    root             3832 Aug 24 14:31 /usr/man/man1/midi2abc.1.gz
+-rw-r--r--    1 root    root             1410 Aug 24 14:31 /usr/man/man1/midicopy.1.gz
+-rw-r--r--    1 root    root             2871 Aug 24 14:31 /usr/man/man1/yaps.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/abcMIDI-2012_08_08-1.m68kmint.rpm">Download</A></H2> (833,282 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Fri Dec 14 14:47:14 2012 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+

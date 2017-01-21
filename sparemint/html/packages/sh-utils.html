@@ -1,0 +1,183 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Sparemint - sh-utils, version 2.0.11, release 1</TITLE>
+  <LINK rel="stylesheet" href="../../sparemint.css" type="text/css">
+  <SCRIPT type="text/javascript">
+       /*<![CDATA[*/
+<!--
+function decode_mt(s) {    //
+       var n=0;
+       var r="";
+       for(var i=0; i < s.length; i++) {
+               n=s.charCodeAt(i);
+               if (n>=8364) {n = 128;}
+               r += String.fromCharCode(n-(1));
+       }
+       return r;
+}
+function linkto_decode_mt(s)       {       //
+       location.href=decode_mt(s);
+}
+// -->
+       /*]]>*/
+  </SCRIPT>
+</HEAD>
+  
+<body style="background-color: white;">
+<h1>
+<center> <img style="border: 0px solid ; width: 345px; height: 84px;" src="./../images/mintlogo.png" alt="Sparemint logo"></center>
+</h1>
+<h4 style="text-align: center;"><a href="../../index.html">Home</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../info.html">Information</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../NEWS.html">News</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../../development.html">Development</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../download.html">Download</a>
+<img src="./../images/leaf-bullet.gif"> <a href="../../mirrors.html">Mirrors</a></h4>
+<br>
+
+    <H2>sh-utils</H2>
+
+<UL> 
+<LI>Summary: A set of GNU utilities commonly used in shell scripts.<BR>
+<LI>URL: <A HREF="http://www.gnu.org/software/shellutils/">http://www.gnu.org/software/shellutils/</A><BR>
+<LI>Version: 2.0.11<BR>
+<LI>Release: 1<BR>
+<LI>Group: <A HREF="../groups.html#System Environment/Shells">System Environment/Shells</A>
+<LI>License: GPL</BR>
+<LI>Installation size: 5,992,181 bytes<BR>
+<LI>Operating system: freemint<BR>
+<LI>Provides:<UL>
+  <LI>sh-utils = 2.0.11-1<BR>
+</UL>
+
+<LI>Requires:<UL>
+  <LI>/sbin/install-info  <BR>
+  <LI>/bin/sh  <BR>
+</UL>
+
+<LI>Conflicts:<UL>
+  <LI>(none)<BR>
+</UL>
+
+<LI>Relocations: /usr<BR>
+<LI>Build date: Tue Sep 11 17:30:10 2001 UTC<BR>
+<LI>Upload date: Wed Sep 12 11:27:38 2001 UTC<BR>
+<LI>Packager: <A HREF="http://sparemint.org/">Frank Naumann</A> (<A HREF="javascript:linkto_decode_mt('nbjmup;gobvnbooAgsffnjou/ef');">fnaumann(at)freemint.de</A>)<BR>
+<LI>Vendor: Sparemint<BR>
+<LI>Sources: <A HREF="../../SRPMS/sh-utils-2.0.11-1.src.rpm">sh-utils-2.0.11-1.src.rpm</A>  (1,705,692 bytes)<BR>
+<LI>Last change: Frank Naumann &lt;fnaumann@freemint.de&gt; Mon Sep 10 09:00:00 2001 UTC<BR>
+- updated to 2.0.11
+<LI>Description:<BR>
+The GNU shell utilities are a set of useful system utilities which are<BR>often used in shell scripts. The sh-utils package includes:<BR>- basename (to remove the path prefix from a specified pathname),<BR>- chroot (to change the root directory),<BR>- date (to print/set the system time and date),<BR>- dirname (to remove the last level or the filename from a given<BR>  path),<BR>- echo (to print a line of text),<BR>- env (to display/modify the environment),<BR>- expr (to evaluate expressions),<BR>- factor (to print prime factors),<BR>- false (to return an unsuccessful exit status),<BR>- groups (to print the groups a specified user is a member of),<BR>- id (to print the real/effective uid/gid),<BR>- logname (to print the current login name),<BR>- nice (to modify a scheduling priority),<BR>- nohup (to allow a command to continue running after logging out),<BR>- pathchk (to check a file name's portability),<BR>- printenv (to print environment variables),<BR>- printf (to format and print data),<BR>- pwd (to print the current directory),<BR>- seq (to print numeric sequences),<BR>- sleep (to suspend execution for a specified time),<BR>- stty (to print/change terminal settings),<BR>- su (to become another user or the superuser),<BR>- tee (to send output to multiple files),<BR>- test (to evaluate an expression),<BR>- true (to return a successful exit status),<BR>- tty (to print the terminal name),<BR>- uname (to print system information),<BR>- users (to print current users' names),<BR>- who (to print a list of the users who are currently logged in),<BR>- whoami (to print the effective user id), and yes (to print a string<BR>  indefinitely).
+<LI>Files:<BR>
+<PRE>
+-rwxr-xr-x    2 root    root           116087 Sep 11  2001 /bin/[
+-rwxr-xr-x    1 root    root           106867 Sep 11  2001 /bin/basename
+-rwxr-xr-x    1 root    root           129008 Sep 11  2001 /bin/date
+-rwxr-xr-x    1 root    root           107672 Sep 11  2001 /bin/echo
+-rwxr-xr-x    1 root    root           102456 Sep 11  2001 /bin/false
+-rwxr-xr-x    1 root    root           107275 Sep 11  2001 /bin/hostname.gnu
+-rwxr-xr-x    1 root    root           111933 Sep 11  2001 /bin/nice
+-rwxr-xr-x    1 root    root           106685 Sep 11  2001 /bin/pwd
+-rwxr-xr-x    1 root    root           124072 Sep 11  2001 /bin/sleep
+-rwxr-xr-x    1 root    root           170303 Sep 11  2001 /bin/stty
+-rwxr-xr-x    2 root    root           116087 Sep 11  2001 /bin/test
+-rwxr-xr-x    1 root    root           102452 Sep 11  2001 /bin/true
+-rwxr-xr-x    1 root    root           111251 Sep 11  2001 /bin/uname
+-rwxr-xr-x    1 root    root           154239 Sep 11  2001 /bin/uptime
+-rwxr-xr-x    2 root    root           116087 Sep 11  2001 /usr/bin/[
+-rwxr-xr-x    1 root    root           106867 Sep 11  2001 /usr/bin/basename
+-rwxr-xr-x    1 root    root           107029 Sep 11  2001 /usr/bin/dirname
+-rwxr-xr-x    1 root    root           110240 Sep 11  2001 /usr/bin/env
+-rwxr-xr-x    1 root    root           132387 Sep 11  2001 /usr/bin/expr
+-rwxr-xr-x    1 root    root           117383 Sep 11  2001 /usr/bin/factor
+-rwxr-xr-x    1 root    root            88679 Sep 11  2001 /usr/bin/getgid
+-rwxr-xr-x    1 root    root             1669 Sep 11  2001 /usr/bin/groups
+-rwxr-xr-x    1 root    root           109395 Sep 11  2001 /usr/bin/id
+-rwxr-xr-x    1 root    root           106742 Sep 11  2001 /usr/bin/logname
+-rwxr-xr-x    1 root    root             2500 Sep 11  2001 /usr/bin/nohup
+-rwxr-xr-x    1 root    root           107826 Sep 11  2001 /usr/bin/pathchk
+-rwxr-xr-x    1 root    root           114479 Sep 11  2001 /usr/bin/pinky
+-rwxr-xr-x    1 root    root           106574 Sep 11  2001 /usr/bin/printenv
+-rwxr-xr-x    1 root    root           757214 Sep 11  2001 /usr/bin/printf
+-rwxr-xr-x    1 root    root           125475 Sep 11  2001 /usr/bin/seq
+-rwxr-xr-x    1 root    root           107849 Sep 11  2001 /usr/bin/tee
+-rwxr-xr-x    2 root    root           116087 Sep 11  2001 /usr/bin/test
+-rwxr-xr-x    1 root    root           107194 Sep 11  2001 /usr/bin/tty
+-rwxr-xr-x    1 root    root           154239 Sep 11  2001 /usr/bin/uptime
+-rwxr-xr-x    1 root    root           110228 Sep 11  2001 /usr/bin/users
+-rwxr-xr-x    1 root    root           114038 Sep 11  2001 /usr/bin/who
+-rwxr-xr-x    1 root    root           106578 Sep 11  2001 /usr/bin/whoami
+-rwxr-xr-x    1 root    root           106622 Sep 11  2001 /usr/bin/yes
+drwxr-xr-x    2 root    root                0 Sep 11  2001 /usr/doc/sh-utils-2.0.11
+-rw-r--r--    1 root    root            10474 Oct 29  2000 /usr/doc/sh-utils-2.0.11/NEWS
+-rw-r--r--    1 root    root             2500 Aug  6  1999 /usr/doc/sh-utils-2.0.11/README
+-rw-r--r--    1 root    root             1425 Jul  4  2000 /usr/doc/sh-utils-2.0.11/TODO
+-rw-r--r--    1 root    root            35323 Sep 11  2001 /usr/info/sh-utils.info.gz
+-rw-r--r--    1 root    root            60300 Sep 11  2001 /usr/share/locale/cs/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            58740 Sep 11  2001 /usr/share/locale/da/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            61823 Sep 11  2001 /usr/share/locale/de/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            47242 Sep 11  2001 /usr/share/locale/el/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            57149 Sep 11  2001 /usr/share/locale/es/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            59527 Sep 11  2001 /usr/share/locale/et/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            64797 Sep 11  2001 /usr/share/locale/fr/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            62308 Sep 11  2001 /usr/share/locale/gl/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            61619 Sep 11  2001 /usr/share/locale/it/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            60075 Sep 11  2001 /usr/share/locale/ja/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            44217 Sep 11  2001 /usr/share/locale/nl/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            39871 Sep 11  2001 /usr/share/locale/no/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            54521 Sep 11  2001 /usr/share/locale/pl/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            28106 Sep 11  2001 /usr/share/locale/pt/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            61902 Sep 11  2001 /usr/share/locale/pt_BR/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            62479 Sep 11  2001 /usr/share/locale/ru/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            57941 Sep 11  2001 /usr/share/locale/sk/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            59632 Sep 11  2001 /usr/share/locale/sl/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            60506 Sep 11  2001 /usr/share/locale/sv/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root            49453 Sep 11  2001 /usr/share/locale/zh/LC_MESSAGES/sh-utils.mo
+-rw-r--r--    1 root    root              696 Sep 11  2001 /usr/share/man/man1/basename.1.gz
+-rw-r--r--    1 root    root              724 Sep 11  2001 /usr/share/man/man1/chroot.1.gz
+-rw-r--r--    1 root    root             1748 Sep 11  2001 /usr/share/man/man1/date.1.gz
+-rw-r--r--    1 root    root              713 Sep 11  2001 /usr/share/man/man1/dirname.1.gz
+-rw-r--r--    1 root    root              890 Sep 11  2001 /usr/share/man/man1/echo.1.gz
+-rw-r--r--    1 root    root              793 Sep 11  2001 /usr/share/man/man1/env.1.gz
+-rw-r--r--    1 root    root             1217 Sep 11  2001 /usr/share/man/man1/expr.1.gz
+-rw-r--r--    1 root    root              714 Sep 11  2001 /usr/share/man/man1/factor.1.gz
+-rw-r--r--    1 root    root              681 Sep 11  2001 /usr/share/man/man1/false.1.gz
+-rw-r--r--    1 root    root              489 Sep 11  2001 /usr/share/man/man1/groups.1.gz
+-rw-r--r--    1 root    root              645 Sep 11  2001 /usr/share/man/man1/hostid.1.gz
+-rw-r--r--    1 root    root              650 Sep 11  2001 /usr/share/man/man1/hostname.gnu.1.gz
+-rw-r--r--    1 root    root              831 Sep 11  2001 /usr/share/man/man1/id.1.gz
+-rw-r--r--    1 root    root              631 Sep 11  2001 /usr/share/man/man1/logname.1.gz
+-rw-r--r--    1 root    root              792 Sep 11  2001 /usr/share/man/man1/nice.1.gz
+-rw-r--r--    1 root    root              505 Sep 11  2001 /usr/share/man/man1/nohup.1.gz
+-rw-r--r--    1 root    root              715 Sep 11  2001 /usr/share/man/man1/pathchk.1.gz
+-rw-r--r--    1 root    root              849 Sep 11  2001 /usr/share/man/man1/pinky.1.gz
+-rw-r--r--    1 root    root              674 Sep 11  2001 /usr/share/man/man1/printenv.1.gz
+-rw-r--r--    1 root    root             1006 Sep 11  2001 /usr/share/man/man1/printf.1.gz
+-rw-r--r--    1 root    root              638 Sep 11  2001 /usr/share/man/man1/pwd.1.gz
+-rw-r--r--    1 root    root              940 Sep 11  2001 /usr/share/man/man1/seq.1.gz
+-rw-r--r--    1 root    root              776 Sep 11  2001 /usr/share/man/man1/sleep.1.gz
+-rw-r--r--    1 root    root             3153 Sep 11  2001 /usr/share/man/man1/stty.1.gz
+-rw-r--r--    1 root    root              741 Sep 11  2001 /usr/share/man/man1/tee.1.gz
+-rw-r--r--    1 root    root             1319 Sep 11  2001 /usr/share/man/man1/test.1.gz
+-rw-r--r--    1 root    root              674 Sep 11  2001 /usr/share/man/man1/true.1.gz
+-rw-r--r--    1 root    root              682 Sep 11  2001 /usr/share/man/man1/tty.1.gz
+-rw-r--r--    1 root    root              775 Sep 11  2001 /usr/share/man/man1/uname.1.gz
+-rw-r--r--    1 root    root              796 Sep 11  2001 /usr/share/man/man1/uptime.1.gz
+-rw-r--r--    1 root    root              724 Sep 11  2001 /usr/share/man/man1/users.1.gz
+-rw-r--r--    1 root    root              958 Sep 11  2001 /usr/share/man/man1/who.1.gz
+-rw-r--r--    1 root    root              658 Sep 11  2001 /usr/share/man/man1/whoami.1.gz
+-rw-r--r--    1 root    root              662 Sep 11  2001 /usr/share/man/man1/yes.1.gz
+</PRE>
+
+</UL>
+<P>
+<H2><A HREF="../../RPMS/m68kmint/sh-utils-2.0.11-1.m68kmint.rpm">Download</A></H2> (2,834,071 bytes)
+<DIV ALIGN=right>
+  <A HREF="../../index.html"><IMG SRC="../images/top.gif" ALT="Top" BORDER=0></A>
+  <A HREF="../packages.html"><IMG SRC="../images/a-z.gif" ALT="A-Z" BORDER=0></A>
+</DIV>
+<HR>
+<SMALL>Generated automatically Mon Jun 14 04:34:23 2010 UTC by <A HREF="../../sitebin/buildsite.html">buildsite.pl</A> Revision 2.7 .</SMALL>
+
