@@ -20,7 +20,7 @@ permalink: /404.html
         .replace("https://freemint.github.io/sparemint/sparemint/cross-mint", "https://github.com/freemint/sparemint/tree/master/sparemint/cross-mint")
         .replace("https://freemint.github.io/sparemint/sparemint/misc", "https://github.com/freemint/sparemint/tree/master/sparemint/misc");
       if (n != location.href) {
-        location = n;
+        location.replace(n);
       }
     </script>
   </body>
